@@ -1,33 +1,80 @@
+from lxml import html
+import requests
 import pandas as pd
+import json
+from datetime import datetime
 
-weeks = 12
+errorLog = open("error.log", "a")
 
-# df = pd.read_csv('C:\\RW_APPS\\git\\lunchBowling\\2022-2023\\bowlers.csv')
+# -------------- Get Bowler List -------------- #
 
-# for index, row in df.iterrows():
-#     name = row['firstName'] + " " + row['lastName']
-#     fileName = 'C:\\RW_APPS\\git\\lunchBowling\\2022-2023\\data\\bowlers\\' + row['firstName'] + row['lastName'] + '.csv'
-#     url = 'https://www.leaguesecretary.com/bowling-centers/cedar-rapids-bowl-cedar-rapids-iowa/bowling-leagues/lunch-league-2022-2023/bowler-info/'+row['firstName']+'-'+row['lastName']+'/2023/winter/130603/'+str(row['uid'])
+bowlerList = {}
 
-#     print(url)
-#     df = pd.read_html(url, match=name)
-#     df[0].to_csv(fileName, sep=',')
+for page in range(1,6):
+  url = 'https://www.leaguesecretary.com/bowling-centers/cedar-rapids-bowl-cedar-rapids-iowa/bowling-leagues/lunch-league-2023-2024/bowler-list/2023/fall/12/130603/' + str(page)
+  page = requests.get(url)
+  tree = html.fromstring(page.content)
 
+  try:
+    bowlers = tree.xpath('//table/tbody/tr/td[1]/a/text()')
+    hsg = tree.xpath('//table/tbody/tr/td[10]/text()')
+    hss = tree.xpath('//table/tbody/tr/td[11]/text()')
+    
+  except:
+    print("Invalid URL: " + url)      
+    errorLog.write(str(datetime.now()) + " Invalid URL: " + url +"\n")
+    errorLog.write("  page = " + str(page) + "\n")
 
-# df = pd.read_csv('C:\\RW_APPS\\git\\lunchBowling\\2022-2023\\teams.csv')
+  else:
+    for bowler in range(0, len(bowlers)):
+      name = bowlers[bowler].split(", ")[1] + " " + bowlers[bowler].split(", ")[0]
+      stats = {}
+      stats['hsg'] = hsg[bowler]
+      stats['hss'] = hss[bowler]
+      stats['weeks'] = []
+      bowlerList[name] = stats
 
-# for index, row in df.iterrows():
-#     name = str(row['team']).replace(" ", "-")
-#     fileName = 'C:\\RW_APPS\\git\\lunchBowling\\2022-2023\\data\\teams\\' + name + '.csv'
-#     url = 'https://www.leaguesecretary.com/bowling-centers/cedar-rapids-bowl-cedar-rapids-iowa/bowling-leagues/lunch-league-2022-2023/team/history/'+name+'/2023/Winter/130603/'+str(row['uid'])
+# -------------- Get Scoring Against Team and weelky scores -------------- #
 
-#     print(url)
-#     df = pd.read_html(url, match=name.replace("-", " "))
-#     df[0].to_csv(fileName, sep=',')
+for week in range(1,13):
+  for uid in range(1,31):
+    url = 'https://www.leaguesecretary.com/bowling-centers/cedar-rapids-bowl-cedar-rapids-iowa/bowling-leagues/lunch-league-2023-2024/team/recap-sheet/first-team/2023/fall/' + str(week) + '/130603/' + str(uid)
+    page = requests.get(url)
+    tree = html.fromstring(page.content)
 
-uid = 1
-name = "Barely-Bowling"
-url = 'https://www.leaguesecretary.com/bowling-centers/cedar-rapids-bowl-cedar-rapids-iowa/bowling-leagues/lunch-league-2022-2023/team/history/' + name + '/2023/Winter/130603/' + str(uid)
-print(url)
-df = pd.read_html(url, match=name.replace("-", " "))
-print(df)
+    try:
+      team = tree.xpath('//div[@class="panel-body"]/h3/text()')[1].split("Team: ")[1]
+      
+    except:
+      print("Invalid URL: " + url)      
+      errorLog.write(str(datetime.now()) + " Invalid URL: " + url +"\n")
+      errorLog.write("  week = " + str(week) + "\n")
+      errorLog.write("  uid = " + str(uid) + "\n")
+      
+    else:
+      for bowlerIndex in range(0,2):
+        bowler = tree.xpath('//table/tbody/tr/td[2]/a/text()')[bowlerIndex]
+        gm1 = tree.xpath('//table/tbody/tr/td[6]/text()')[bowlerIndex]
+        gm2 = tree.xpath('//table/tbody/tr/td[7]/text()')[bowlerIndex]
+        ss = tree.xpath('//table/tbody/tr/td[8]/text()')[bowlerIndex]
+        
+        print([week, bowler, gm1, gm2, ss])
+        weekStats = {}
+        weekStats['week'] = week
+        weekStats['gm1'] = gm1
+        weekStats['gm2'] = gm2
+        weekStats['ss'] = ss
+        weekStats['against'] = team
+        
+        bowlerList[bowler]['weeks'].append(weekStats)
+
+        if (bowlerList[bowler]['hsg'] == gm1 or bowlerList[bowler]['hsg'] == gm2):
+          bowlerList[bowler]['hsgTeam'] = team
+
+        if (bowlerList[bowler]['hss'] == ss):
+          bowlerList[bowler]['hssTeam'] = team
+    
+errorLog.close()
+fd = open("report.json", "w")
+fd.write(json.dumps(bowlerList))
+fd.close()
