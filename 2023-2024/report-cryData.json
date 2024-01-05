@@ -13,7 +13,10 @@
         "ss": "209",
         "hs": "208",
         "total": "417",
-        "against": "Guess Who"
+        "against": "Guess Who",
+        "currentAve": 95.0,
+        "totalPins": 190,
+        "games": 2
       },
       {
         "week": 7,
@@ -24,7 +27,11 @@
         "ss": "233",
         "hs": "208",
         "total": "441",
-        "against": "MoJo"
+        "against": "MoJo",
+        "currentAve": 105.5,
+        "totalPins": 422,
+        "games": 4,
+        "changeInAve": 10.5
       },
       {
         "week": 8,
@@ -35,7 +42,11 @@
         "ss": "273",
         "hs": "198",
         "total": "471",
-        "against": "Bob_Rossing It"
+        "against": "Bob_Rossing It",
+        "currentAve": 122.0,
+        "totalPins": 732,
+        "games": 6,
+        "changeInAve": 16.5
       },
       {
         "week": 11,
@@ -46,7 +57,11 @@
         "ss": "266",
         "hs": "186",
         "total": "452",
-        "against": "Roll Clones"
+        "against": "Roll Clones",
+        "currentAve": 128.75,
+        "totalPins": 1030,
+        "games": 8,
+        "changeInAve": 6.75
       }
     ],
     "mw": "W",
@@ -67,7 +82,10 @@
         "ss": "447",
         "hs": "0",
         "total": "447",
-        "against": "Alias Smith and Godfrey"
+        "against": "Alias Smith and Godfrey",
+        "currentAve": 205.0,
+        "totalPins": 410,
+        "games": 2
       },
       {
         "week": 3,
@@ -78,7 +96,11 @@
         "ss": "413",
         "hs": "46",
         "total": "459",
-        "against": "Strike a Pose"
+        "against": "Strike a Pose",
+        "currentAve": 200.0,
+        "totalPins": 800,
+        "games": 4,
+        "changeInAve": -5.0
       },
       {
         "week": 4,
@@ -89,7 +111,11 @@
         "ss": "367",
         "hs": "38",
         "total": "405",
-        "against": "D & A Lawn Care"
+        "against": "D & A Lawn Care",
+        "currentAve": 191.0,
+        "totalPins": 1146,
+        "games": 6,
+        "changeInAve": -9.0
       },
       {
         "week": 5,
@@ -100,7 +126,11 @@
         "ss": "505",
         "hs": "46",
         "total": "551",
-        "against": "Sandbaggers"
+        "against": "Sandbaggers",
+        "currentAve": 210.25,
+        "totalPins": 1682,
+        "games": 8,
+        "changeInAve": 19.25
       },
       {
         "week": 6,
@@ -111,7 +141,11 @@
         "ss": "381",
         "hs": "24",
         "total": "405",
-        "against": "Craptastic"
+        "against": "Craptastic",
+        "currentAve": 204.6,
+        "totalPins": 2046,
+        "games": 10,
+        "changeInAve": -5.65
       },
       {
         "week": 7,
@@ -122,7 +156,11 @@
         "ss": "500",
         "hs": "30",
         "total": "530",
-        "against": "I am Root"
+        "against": "I am Root",
+        "currentAve": 211.5,
+        "totalPins": 2538,
+        "games": 12,
+        "changeInAve": 6.9
       },
       {
         "week": 8,
@@ -133,7 +171,11 @@
         "ss": "545",
         "hs": "18",
         "total": "563",
-        "against": "Alias Smith and Godfrey"
+        "against": "Alias Smith and Godfrey",
+        "currentAve": 220.8571,
+        "totalPins": 3092,
+        "games": 14,
+        "changeInAve": 9.3571
       },
       {
         "week": 9,
@@ -144,7 +186,11 @@
         "ss": "0",
         "hs": "418",
         "total": "418",
-        "against": "Engineering Strikes"
+        "against": "Engineering Strikes",
+        "currentAve": 218.25,
+        "totalPins": 3492,
+        "games": 16,
+        "changeInAve": -2.6071
       },
       {
         "week": 10,
@@ -155,7 +201,11 @@
         "ss": "449",
         "hs": "18",
         "total": "467",
-        "against": "Barely Bowling"
+        "against": "Barely Bowling",
+        "currentAve": 218.7778,
+        "totalPins": 3938,
+        "games": 18,
+        "changeInAve": 0.5278
       },
       {
         "week": 11,
@@ -166,7 +216,11 @@
         "ss": "354",
         "hs": "16",
         "total": "370",
-        "against": "MoJo"
+        "against": "MoJo",
+        "currentAve": 215.1,
+        "totalPins": 4302,
+        "games": 20,
+        "changeInAve": -3.6778
       },
       {
         "week": 12,
@@ -177,7 +231,11 @@
         "ss": "436",
         "hs": "20",
         "total": "456",
-        "against": "We Don't Give A Split"
+        "against": "We Don't Give A Split",
+        "currentAve": 213.9091,
+        "totalPins": 4706,
+        "games": 22,
+        "changeInAve": -1.1909
       }
     ],
     "mw": "M",
@@ -198,7 +256,10 @@
         "ss": "274",
         "hs": "148",
         "total": "422",
-        "against": "Frickin Ten Pin"
+        "against": "Frickin Ten Pin",
+        "currentAve": 142.0,
+        "totalPins": 284,
+        "games": 2
       },
       {
         "week": 3,
@@ -209,7 +270,11 @@
         "ss": "334",
         "hs": "148",
         "total": "482",
-        "against": "MoJo"
+        "against": "MoJo",
+        "currentAve": 154.0,
+        "totalPins": 616,
+        "games": 4,
+        "changeInAve": 12.0
       },
       {
         "week": 4,
@@ -220,7 +285,11 @@
         "ss": "338",
         "hs": "122",
         "total": "460",
-        "against": "Barely Bowling"
+        "against": "Barely Bowling",
+        "currentAve": 166.3333,
+        "totalPins": 998,
+        "games": 6,
+        "changeInAve": 12.3333
       },
       {
         "week": 5,
@@ -231,7 +300,11 @@
         "ss": "287",
         "hs": "112",
         "total": "399",
-        "against": "Splatters2"
+        "against": "Splatters2",
+        "currentAve": 162.75,
+        "totalPins": 1302,
+        "games": 8,
+        "changeInAve": -3.5833
       },
       {
         "week": 6,
@@ -242,7 +315,11 @@
         "ss": "317",
         "hs": "118",
         "total": "435",
-        "against": "Rick Rollers"
+        "against": "Rick Rollers",
+        "currentAve": 162.0,
+        "totalPins": 1620,
+        "games": 10,
+        "changeInAve": -0.75
       },
       {
         "week": 7,
@@ -253,7 +330,11 @@
         "ss": "352",
         "hs": "116",
         "total": "468",
-        "against": "The Outsiders"
+        "against": "The Outsiders",
+        "currentAve": 163.5,
+        "totalPins": 1962,
+        "games": 12,
+        "changeInAve": 1.5
       },
       {
         "week": 8,
@@ -264,7 +345,11 @@
         "ss": "377",
         "hs": "110",
         "total": "487",
-        "against": "Frickin Ten Pin"
+        "against": "Frickin Ten Pin",
+        "currentAve": 170.0,
+        "totalPins": 2380,
+        "games": 14,
+        "changeInAve": 6.5
       },
       {
         "week": 9,
@@ -275,7 +360,11 @@
         "ss": "0",
         "hs": "406",
         "total": "406",
-        "against": "Backstabbers"
+        "against": "Backstabbers",
+        "currentAve": 167.25,
+        "totalPins": 2676,
+        "games": 16,
+        "changeInAve": -2.75
       },
       {
         "week": 10,
@@ -286,7 +375,11 @@
         "ss": "308",
         "hs": "110",
         "total": "418",
-        "against": "Engineering Strikes"
+        "against": "Engineering Strikes",
+        "currentAve": 166.5556,
+        "totalPins": 2998,
+        "games": 18,
+        "changeInAve": -0.6944
       },
       {
         "week": 11,
@@ -297,7 +390,11 @@
         "ss": "291",
         "hs": "112",
         "total": "403",
-        "against": "SPAM"
+        "against": "SPAM",
+        "currentAve": 164.1,
+        "totalPins": 3282,
+        "games": 20,
+        "changeInAve": -2.4556
       },
       {
         "week": 12,
@@ -308,7 +405,11 @@
         "ss": "325",
         "hs": "114",
         "total": "439",
-        "against": "Bad Attitude"
+        "against": "Bad Attitude",
+        "currentAve": 163.3636,
+        "totalPins": 3594,
+        "games": 22,
+        "changeInAve": -0.7364
       }
     ],
     "mw": "M",
@@ -329,7 +430,10 @@
         "ss": "379",
         "hs": "110",
         "total": "489",
-        "against": "Shoe Throwin Mad"
+        "against": "Shoe Throwin Mad",
+        "currentAve": 196.0,
+        "totalPins": 392,
+        "games": 2
       },
       {
         "week": 4,
@@ -340,7 +444,11 @@
         "ss": "321",
         "hs": "84",
         "total": "405",
-        "against": "Spare Me"
+        "against": "Spare Me",
+        "currentAve": 173.0,
+        "totalPins": 692,
+        "games": 4,
+        "changeInAve": -23.0
       },
       {
         "week": 5,
@@ -351,7 +459,11 @@
         "ss": "308",
         "hs": "90",
         "total": "398",
-        "against": "The Outsiders"
+        "against": "The Outsiders",
+        "currentAve": 170.0,
+        "totalPins": 1020,
+        "games": 6,
+        "changeInAve": -3.0
       },
       {
         "week": 6,
@@ -362,7 +474,11 @@
         "ss": "334",
         "hs": "98",
         "total": "432",
-        "against": "Engineering Strikes"
+        "against": "Engineering Strikes",
+        "currentAve": 165.5,
+        "totalPins": 1324,
+        "games": 8,
+        "changeInAve": -4.5
       },
       {
         "week": 7,
@@ -373,7 +489,11 @@
         "ss": "318",
         "hs": "98",
         "total": "416",
-        "against": "Top Gun"
+        "against": "Top Gun",
+        "currentAve": 167.4,
+        "totalPins": 1674,
+        "games": 10,
+        "changeInAve": 1.9
       },
       {
         "week": 8,
@@ -384,7 +504,11 @@
         "ss": "0",
         "hs": "408",
         "total": "408",
-        "against": "The Munsons"
+        "against": "The Munsons",
+        "currentAve": 165.1667,
+        "totalPins": 1982,
+        "games": 12,
+        "changeInAve": -2.2333
       },
       {
         "week": 11,
@@ -395,7 +519,11 @@
         "ss": "318",
         "hs": "100",
         "total": "418",
-        "against": "Bob_Rossing It"
+        "against": "Bob_Rossing It",
+        "currentAve": 161.0,
+        "totalPins": 2254,
+        "games": 14,
+        "changeInAve": -4.1667
       },
       {
         "week": 12,
@@ -406,7 +534,11 @@
         "ss": "352",
         "hs": "102",
         "total": "454",
-        "against": "Split Happens"
+        "against": "Split Happens",
+        "currentAve": 163.75,
+        "totalPins": 2620,
+        "games": 16,
+        "changeInAve": 2.75
       }
     ],
     "mw": "M",
@@ -427,7 +559,10 @@
         "ss": "357",
         "hs": "74",
         "total": "431",
-        "against": "Splatters2"
+        "against": "Splatters2",
+        "currentAve": 185.0,
+        "totalPins": 370,
+        "games": 2
       },
       {
         "week": 3,
@@ -438,7 +573,11 @@
         "ss": "314",
         "hs": "90",
         "total": "404",
-        "against": "We Don't Give A Split"
+        "against": "We Don't Give A Split",
+        "currentAve": 169.0,
+        "totalPins": 676,
+        "games": 4,
+        "changeInAve": -16.0
       },
       {
         "week": 4,
@@ -449,7 +588,11 @@
         "ss": "407",
         "hs": "98",
         "total": "505",
-        "against": "MoJo"
+        "against": "MoJo",
+        "currentAve": 181.3333,
+        "totalPins": 1088,
+        "games": 6,
+        "changeInAve": 12.3333
       },
       {
         "week": 5,
@@ -460,7 +603,11 @@
         "ss": "373",
         "hs": "80",
         "total": "453",
-        "against": "Barely Bowling"
+        "against": "Barely Bowling",
+        "currentAve": 179.25,
+        "totalPins": 1434,
+        "games": 8,
+        "changeInAve": -2.0833
       },
       {
         "week": 6,
@@ -471,7 +618,11 @@
         "ss": "399",
         "hs": "76",
         "total": "475",
-        "against": "L.O.F.T"
+        "against": "L.O.F.T",
+        "currentAve": 186.6,
+        "totalPins": 1866,
+        "games": 10,
+        "changeInAve": 7.35
       },
       {
         "week": 7,
@@ -482,7 +633,11 @@
         "ss": "286",
         "hs": "70",
         "total": "356",
-        "against": "Shoe Throwin Mad"
+        "against": "Shoe Throwin Mad",
+        "currentAve": 180.5,
+        "totalPins": 2166,
+        "games": 12,
+        "changeInAve": -6.1
       },
       {
         "week": 8,
@@ -493,7 +648,11 @@
         "ss": "406",
         "hs": "80",
         "total": "486",
-        "against": "Splatters2"
+        "against": "Splatters2",
+        "currentAve": 178.5714,
+        "totalPins": 2500,
+        "games": 14,
+        "changeInAve": -1.9286
       },
       {
         "week": 10,
@@ -504,7 +663,11 @@
         "ss": "353",
         "hs": "80",
         "total": "433",
-        "against": "SPAM"
+        "against": "SPAM",
+        "currentAve": 177.875,
+        "totalPins": 2846,
+        "games": 16,
+        "changeInAve": -0.6964
       },
       {
         "week": 11,
@@ -515,7 +678,11 @@
         "ss": "358",
         "hs": "80",
         "total": "438",
-        "against": "Bad Attitude"
+        "against": "Bad Attitude",
+        "currentAve": 179.3333,
+        "totalPins": 3228,
+        "games": 18,
+        "changeInAve": 1.4583
       },
       {
         "week": 12,
@@ -526,7 +693,11 @@
         "ss": "341",
         "hs": "78",
         "total": "419",
-        "against": "XXX Dancers"
+        "against": "XXX Dancers",
+        "currentAve": 176.2,
+        "totalPins": 3524,
+        "games": 20,
+        "changeInAve": -3.1333
       }
     ],
     "mw": "M",
@@ -547,7 +718,10 @@
         "ss": "240",
         "hs": "176",
         "total": "416",
-        "against": "Roll Clones"
+        "against": "Roll Clones",
+        "currentAve": 90.0,
+        "totalPins": 180,
+        "games": 2
       },
       {
         "week": 8,
@@ -558,7 +732,11 @@
         "ss": "321",
         "hs": "178",
         "total": "499",
-        "against": "I am Root"
+        "against": "I am Root",
+        "currentAve": 123.0,
+        "totalPins": 492,
+        "games": 4,
+        "changeInAve": 33.0
       },
       {
         "week": 11,
@@ -569,7 +747,11 @@
         "ss": "267",
         "hs": "178",
         "total": "445",
-        "against": "The Outsiders"
+        "against": "The Outsiders",
+        "currentAve": 127.0,
+        "totalPins": 762,
+        "games": 6,
+        "changeInAve": 4.0
       }
     ],
     "mw": "W",
@@ -590,7 +772,10 @@
         "ss": "246",
         "hs": "174",
         "total": "420",
-        "against": "Barely Bowling"
+        "against": "Barely Bowling",
+        "currentAve": 143.0,
+        "totalPins": 286,
+        "games": 2
       },
       {
         "week": 8,
@@ -601,7 +786,11 @@
         "ss": "424",
         "hs": "192",
         "total": "616",
-        "against": "Barely Bowling"
+        "against": "Barely Bowling",
+        "currentAve": 154.5,
+        "totalPins": 618,
+        "games": 4,
+        "changeInAve": 11.5
       },
       {
         "week": 9,
@@ -612,7 +801,11 @@
         "ss": "0",
         "hs": "398",
         "total": "398",
-        "against": "L.O.F.T"
+        "against": "L.O.F.T",
+        "currentAve": 137.3333,
+        "totalPins": 824,
+        "games": 6,
+        "changeInAve": -17.1667
       },
       {
         "week": 10,
@@ -623,7 +816,11 @@
         "ss": "0",
         "hs": "398",
         "total": "398",
-        "against": "Bad Attitude"
+        "against": "Bad Attitude",
+        "currentAve": 128.75,
+        "totalPins": 1030,
+        "games": 8,
+        "changeInAve": -8.5833
       },
       {
         "week": 11,
@@ -634,7 +831,11 @@
         "ss": "307",
         "hs": "192",
         "total": "499",
-        "against": "XXX Dancers"
+        "against": "XXX Dancers",
+        "currentAve": 133.0,
+        "totalPins": 1330,
+        "games": 10,
+        "changeInAve": 4.25
       },
       {
         "week": 12,
@@ -645,7 +846,11 @@
         "ss": "0",
         "hs": "400",
         "total": "400",
-        "against": "Top Gun"
+        "against": "Top Gun",
+        "currentAve": 130.3333,
+        "totalPins": 1564,
+        "games": 12,
+        "changeInAve": -2.6667
       }
     ],
     "mw": "M",
@@ -666,7 +871,10 @@
         "ss": "178",
         "hs": "234",
         "total": "412",
-        "against": "Splits-n-Giggles"
+        "against": "Splits-n-Giggles",
+        "currentAve": 102.0,
+        "totalPins": 204,
+        "games": 2
       },
       {
         "week": 3,
@@ -677,7 +885,11 @@
         "ss": "198",
         "hs": "234",
         "total": "432",
-        "against": "1 Mor"
+        "against": "1 Mor",
+        "currentAve": 92.0,
+        "totalPins": 368,
+        "games": 4,
+        "changeInAve": -10.0
       },
       {
         "week": 4,
@@ -688,7 +900,11 @@
         "ss": "0",
         "hs": "394",
         "total": "394",
-        "against": "Roll Clones"
+        "against": "Roll Clones",
+        "currentAve": 89.3333,
+        "totalPins": 536,
+        "games": 6,
+        "changeInAve": -2.6667
       },
       {
         "week": 5,
@@ -699,7 +915,11 @@
         "ss": "176",
         "hs": "226",
         "total": "402",
-        "against": "Craptastic"
+        "against": "Craptastic",
+        "currentAve": 85.0,
+        "totalPins": 680,
+        "games": 8,
+        "changeInAve": -4.3333
       },
       {
         "week": 6,
@@ -710,7 +930,11 @@
         "ss": "179",
         "hs": "230",
         "total": "409",
-        "against": "Sandbaggers"
+        "against": "Sandbaggers",
+        "currentAve": 86.2,
+        "totalPins": 862,
+        "games": 10,
+        "changeInAve": 1.2
       },
       {
         "week": 7,
@@ -721,7 +945,11 @@
         "ss": "200",
         "hs": "232",
         "total": "432",
-        "against": "Lane Violation"
+        "against": "Lane Violation",
+        "currentAve": 88.5,
+        "totalPins": 1062,
+        "games": 12,
+        "changeInAve": 2.3
       },
       {
         "week": 8,
@@ -732,7 +960,11 @@
         "ss": "175",
         "hs": "228",
         "total": "403",
-        "against": "Splits-n-Giggles"
+        "against": "Splits-n-Giggles",
+        "currentAve": 84.2857,
+        "totalPins": 1180,
+        "games": 14,
+        "changeInAve": -4.2143
       },
       {
         "week": 9,
@@ -743,7 +975,11 @@
         "ss": "188",
         "hs": "228",
         "total": "416",
-        "against": "Alias Smith and Godfrey"
+        "against": "Alias Smith and Godfrey",
+        "currentAve": 85.75,
+        "totalPins": 1372,
+        "games": 16,
+        "changeInAve": 1.4643
       },
       {
         "week": 10,
@@ -754,7 +990,11 @@
         "ss": "189",
         "hs": "228",
         "total": "417",
-        "against": "The Outsiders"
+        "against": "The Outsiders",
+        "currentAve": 85.2222,
+        "totalPins": 1534,
+        "games": 18,
+        "changeInAve": -0.5278
       },
       {
         "week": 11,
@@ -765,7 +1005,11 @@
         "ss": "240",
         "hs": "228",
         "total": "468",
-        "against": "Spare Me"
+        "against": "Spare Me",
+        "currentAve": 89.5,
+        "totalPins": 1790,
+        "games": 20,
+        "changeInAve": 4.2778
       },
       {
         "week": 12,
@@ -776,7 +1020,11 @@
         "ss": "225",
         "hs": "222",
         "total": "447",
-        "against": "Shoe Throwin Mad"
+        "against": "Shoe Throwin Mad",
+        "currentAve": 88.7273,
+        "totalPins": 1952,
+        "games": 22,
+        "changeInAve": -0.7727
       }
     ],
     "mw": "W",
@@ -797,7 +1045,10 @@
         "ss": "415",
         "hs": "22",
         "total": "437",
-        "against": "Lane Violation"
+        "against": "Lane Violation",
+        "currentAve": 235.0,
+        "totalPins": 470,
+        "games": 2
       }
     ],
     "mw": "M",
@@ -818,7 +1069,10 @@
         "ss": "195",
         "hs": "220",
         "total": "415",
-        "against": "D & A Lawn Care"
+        "against": "D & A Lawn Care",
+        "currentAve": 108.0,
+        "totalPins": 216,
+        "games": 2
       },
       {
         "week": 8,
@@ -829,7 +1083,11 @@
         "ss": "281",
         "hs": "220",
         "total": "501",
-        "against": "L.O.F.T"
+        "against": "L.O.F.T",
+        "currentAve": 109.0,
+        "totalPins": 436,
+        "games": 4,
+        "changeInAve": 1.0
       }
     ],
     "mw": "M",
@@ -850,7 +1108,10 @@
         "ss": "291",
         "hs": "134",
         "total": "425",
-        "against": "Backstabbers"
+        "against": "Backstabbers",
+        "currentAve": 116.0,
+        "totalPins": 232,
+        "games": 2
       },
       {
         "week": 4,
@@ -861,7 +1122,11 @@
         "ss": "276",
         "hs": "134",
         "total": "410",
-        "against": "Shoe Throwin Mad"
+        "against": "Shoe Throwin Mad",
+        "currentAve": 133.5,
+        "totalPins": 534,
+        "games": 4,
+        "changeInAve": 17.5
       },
       {
         "week": 5,
@@ -872,7 +1137,11 @@
         "ss": "316",
         "hs": "142",
         "total": "458",
-        "against": "Spare Me"
+        "against": "Spare Me",
+        "currentAve": 145.3333,
+        "totalPins": 872,
+        "games": 6,
+        "changeInAve": 11.8333
       },
       {
         "week": 7,
@@ -883,7 +1152,11 @@
         "ss": "336",
         "hs": "130",
         "total": "466",
-        "against": "XXX Dancers"
+        "against": "XXX Dancers",
+        "currentAve": 154.25,
+        "totalPins": 1234,
+        "games": 8,
+        "changeInAve": 8.9167
       },
       {
         "week": 8,
@@ -894,7 +1167,11 @@
         "ss": "342",
         "hs": "122",
         "total": "464",
-        "against": "The Outsiders"
+        "against": "The Outsiders",
+        "currentAve": 157.8,
+        "totalPins": 1578,
+        "games": 10,
+        "changeInAve": 3.55
       },
       {
         "week": 9,
@@ -905,7 +1182,11 @@
         "ss": "248",
         "hs": "122",
         "total": "370",
-        "against": "Bad Attitude"
+        "against": "Bad Attitude",
+        "currentAve": 150.8333,
+        "totalPins": 1810,
+        "games": 12,
+        "changeInAve": -6.9667
       },
       {
         "week": 10,
@@ -916,7 +1197,11 @@
         "ss": "263",
         "hs": "132",
         "total": "395",
-        "against": "L.O.F.T"
+        "against": "L.O.F.T",
+        "currentAve": 150.5714,
+        "totalPins": 2108,
+        "games": 14,
+        "changeInAve": -0.2619
       },
       {
         "week": 11,
@@ -927,7 +1212,11 @@
         "ss": "322",
         "hs": "136",
         "total": "458",
-        "against": "Rick Rollers"
+        "against": "Rick Rollers",
+        "currentAve": 147.875,
+        "totalPins": 2366,
+        "games": 16,
+        "changeInAve": -2.6964
       },
       {
         "week": 12,
@@ -938,7 +1227,11 @@
         "ss": "305",
         "hs": "132",
         "total": "437",
-        "against": "Bob_Rossing It"
+        "against": "Bob_Rossing It",
+        "currentAve": 149.0,
+        "totalPins": 2682,
+        "games": 18,
+        "changeInAve": 1.125
       }
     ],
     "mw": "M",
@@ -959,7 +1252,10 @@
         "ss": "253",
         "hs": "168",
         "total": "421",
-        "against": "I am Root"
+        "against": "I am Root",
+        "currentAve": 177.0,
+        "totalPins": 354,
+        "games": 2
       },
       {
         "week": 6,
@@ -970,7 +1266,11 @@
         "ss": "282",
         "hs": "168",
         "total": "450",
-        "against": "Strike a Pose"
+        "against": "Strike a Pose",
+        "currentAve": 144.5,
+        "totalPins": 578,
+        "games": 4,
+        "changeInAve": -32.5
       },
       {
         "week": 9,
@@ -981,7 +1281,11 @@
         "ss": "324",
         "hs": "146",
         "total": "470",
-        "against": "MoJo"
+        "against": "MoJo",
+        "currentAve": 147.3333,
+        "totalPins": 884,
+        "games": 6,
+        "changeInAve": 2.8333
       },
       {
         "week": 12,
@@ -992,7 +1296,11 @@
         "ss": "294",
         "hs": "136",
         "total": "430",
-        "against": "The Munsons"
+        "against": "The Munsons",
+        "currentAve": 145.0,
+        "totalPins": 1160,
+        "games": 8,
+        "changeInAve": -2.3333
       }
     ],
     "mw": "M",
@@ -1013,7 +1321,10 @@
         "ss": "247",
         "hs": "112",
         "total": "359",
-        "against": "Split Happens"
+        "against": "Split Happens",
+        "currentAve": 123.0,
+        "totalPins": 246,
+        "games": 2
       },
       {
         "week": 10,
@@ -1024,7 +1335,11 @@
         "ss": "292",
         "hs": "132",
         "total": "424",
-        "against": "Top Gun"
+        "against": "Top Gun",
+        "currentAve": 134.0,
+        "totalPins": 536,
+        "games": 4,
+        "changeInAve": 11.0
       }
     ],
     "mw": "M"
@@ -1043,7 +1358,10 @@
         "ss": "423",
         "hs": "16",
         "total": "439",
-        "against": "Backstabbers"
+        "against": "Backstabbers",
+        "currentAve": 201.0,
+        "totalPins": 402,
+        "games": 2
       },
       {
         "week": 3,
@@ -1054,7 +1372,11 @@
         "ss": "385",
         "hs": "56",
         "total": "441",
-        "against": "Spare Me"
+        "against": "Spare Me",
+        "currentAve": 204.0,
+        "totalPins": 816,
+        "games": 4,
+        "changeInAve": 3.0
       },
       {
         "week": 4,
@@ -1065,7 +1387,11 @@
         "ss": "397",
         "hs": "54",
         "total": "451",
-        "against": "The Outsiders"
+        "against": "The Outsiders",
+        "currentAve": 203.3333,
+        "totalPins": 1220,
+        "games": 6,
+        "changeInAve": -0.6667
       },
       {
         "week": 5,
@@ -1076,7 +1402,11 @@
         "ss": "382",
         "hs": "50",
         "total": "432",
-        "against": "The Munsons"
+        "against": "The Munsons",
+        "currentAve": 202.75,
+        "totalPins": 1622,
+        "games": 8,
+        "changeInAve": -0.5833
       },
       {
         "week": 6,
@@ -1087,7 +1417,11 @@
         "ss": "450",
         "hs": "52",
         "total": "502",
-        "against": "Splits-n-Giggles"
+        "against": "Splits-n-Giggles",
+        "currentAve": 200.6,
+        "totalPins": 2006,
+        "games": 10,
+        "changeInAve": -2.15
       },
       {
         "week": 8,
@@ -1098,7 +1432,11 @@
         "ss": "436",
         "hs": "40",
         "total": "476",
-        "against": "Backstabbers"
+        "against": "Backstabbers",
+        "currentAve": 195.8333,
+        "totalPins": 2350,
+        "games": 12,
+        "changeInAve": -4.7667
       },
       {
         "week": 9,
@@ -1109,7 +1447,11 @@
         "ss": "477",
         "hs": "40",
         "total": "517",
-        "against": "Top Gun"
+        "against": "Top Gun",
+        "currentAve": 204.1429,
+        "totalPins": 2858,
+        "games": 14,
+        "changeInAve": 8.3096
       },
       {
         "week": 10,
@@ -1120,7 +1462,11 @@
         "ss": "436",
         "hs": "30",
         "total": "466",
-        "against": "Bob_Rossing It"
+        "against": "Bob_Rossing It",
+        "currentAve": 204.625,
+        "totalPins": 3274,
+        "games": 16,
+        "changeInAve": 0.4821
       },
       {
         "week": 11,
@@ -1131,7 +1477,11 @@
         "ss": "430",
         "hs": "26",
         "total": "456",
-        "against": "Split Happens"
+        "against": "Split Happens",
+        "currentAve": 207.1111,
+        "totalPins": 3728,
+        "games": 18,
+        "changeInAve": 2.4861
       },
       {
         "week": 12,
@@ -1142,7 +1492,11 @@
         "ss": "453",
         "hs": "24",
         "total": "477",
-        "against": "Guess Who"
+        "against": "Guess Who",
+        "currentAve": 210.9,
+        "totalPins": 4218,
+        "games": 20,
+        "changeInAve": 3.7889
       }
     ],
     "mw": "M",
@@ -1169,7 +1523,10 @@
         "ss": "382",
         "hs": "52",
         "total": "434",
-        "against": "The Outsiders"
+        "against": "The Outsiders",
+        "currentAve": 209.0,
+        "totalPins": 418,
+        "games": 2
       },
       {
         "week": 3,
@@ -1180,7 +1537,11 @@
         "ss": "422",
         "hs": "52",
         "total": "474",
-        "against": "Backstabbers"
+        "against": "Backstabbers",
+        "currentAve": 182.5,
+        "totalPins": 730,
+        "games": 4,
+        "changeInAve": -26.5
       },
       {
         "week": 4,
@@ -1191,7 +1552,11 @@
         "ss": "378",
         "hs": "34",
         "total": "412",
-        "against": "Shoe Throwin Mad"
+        "against": "Shoe Throwin Mad",
+        "currentAve": 200.3333,
+        "totalPins": 1202,
+        "games": 6,
+        "changeInAve": 17.8333
       },
       {
         "week": 5,
@@ -1202,7 +1567,11 @@
         "ss": "413",
         "hs": "40",
         "total": "453",
-        "against": "Spare Me"
+        "against": "Spare Me",
+        "currentAve": 201.0,
+        "totalPins": 1608,
+        "games": 8,
+        "changeInAve": 0.6667
       },
       {
         "week": 6,
@@ -1213,7 +1582,11 @@
         "ss": "374",
         "hs": "36",
         "total": "410",
-        "against": "SPAM"
+        "against": "SPAM",
+        "currentAve": 194.8,
+        "totalPins": 1948,
+        "games": 10,
+        "changeInAve": -6.2
       },
       {
         "week": 10,
@@ -1224,7 +1597,11 @@
         "ss": "371",
         "hs": "46",
         "total": "417",
-        "against": "L.O.F.T"
+        "against": "L.O.F.T",
+        "currentAve": 190.5,
+        "totalPins": 2286,
+        "games": 12,
+        "changeInAve": -4.3
       },
       {
         "week": 11,
@@ -1235,7 +1612,11 @@
         "ss": "368",
         "hs": "48",
         "total": "416",
-        "against": "Rick Rollers"
+        "against": "Rick Rollers",
+        "currentAve": 191.4286,
+        "totalPins": 2680,
+        "games": 14,
+        "changeInAve": 0.9286
       },
       {
         "week": 12,
@@ -1246,7 +1627,11 @@
         "ss": "354",
         "hs": "50",
         "total": "404",
-        "against": "Bob_Rossing It"
+        "against": "Bob_Rossing It",
+        "currentAve": 191.25,
+        "totalPins": 3060,
+        "games": 16,
+        "changeInAve": -0.1786
       }
     ],
     "mw": "M",
@@ -1267,7 +1652,10 @@
         "ss": "336",
         "hs": "92",
         "total": "428",
-        "against": "MoJo"
+        "against": "MoJo",
+        "currentAve": 204.0,
+        "totalPins": 408,
+        "games": 2
       },
       {
         "week": 12,
@@ -1278,7 +1666,11 @@
         "ss": "329",
         "hs": "92",
         "total": "421",
-        "against": "We Don't Give A Split"
+        "against": "We Don't Give A Split",
+        "currentAve": 181.5,
+        "totalPins": 726,
+        "games": 4,
+        "changeInAve": -22.5
       }
     ],
     "mw": "M",
@@ -1299,7 +1691,10 @@
         "ss": "296",
         "hs": "128",
         "total": "424",
-        "against": "Guess Who"
+        "against": "Guess Who",
+        "currentAve": 167.0,
+        "totalPins": 334,
+        "games": 2
       },
       {
         "week": 3,
@@ -1310,7 +1705,11 @@
         "ss": "264",
         "hs": "152",
         "total": "416",
-        "against": "Bob_Rossing It"
+        "against": "Bob_Rossing It",
+        "currentAve": 147.0,
+        "totalPins": 588,
+        "games": 4,
+        "changeInAve": -20.0
       },
       {
         "week": 4,
@@ -1321,7 +1720,11 @@
         "ss": "271",
         "hs": "154",
         "total": "425",
-        "against": "Rick Rollers"
+        "against": "Rick Rollers",
+        "currentAve": 149.6667,
+        "totalPins": 898,
+        "games": 6,
+        "changeInAve": 2.6667
       },
       {
         "week": 5,
@@ -1332,7 +1735,11 @@
         "ss": "247",
         "hs": "154",
         "total": "401",
-        "against": "L.O.F.T"
+        "against": "L.O.F.T",
+        "currentAve": 146.25,
+        "totalPins": 1170,
+        "games": 8,
+        "changeInAve": -3.4167
       },
       {
         "week": 6,
@@ -1343,7 +1750,11 @@
         "ss": "247",
         "hs": "158",
         "total": "405",
-        "against": "Barely Bowling"
+        "against": "Barely Bowling",
+        "currentAve": 145.6,
+        "totalPins": 1456,
+        "games": 10,
+        "changeInAve": -0.65
       },
       {
         "week": 7,
@@ -1354,7 +1765,11 @@
         "ss": "237",
         "hs": "160",
         "total": "397",
-        "against": "Alias Smith and Godfrey"
+        "against": "Alias Smith and Godfrey",
+        "currentAve": 138.6667,
+        "totalPins": 1664,
+        "games": 12,
+        "changeInAve": -6.9333
       }
     ],
     "mw": "M",
@@ -1375,7 +1790,10 @@
         "ss": "170",
         "hs": "242",
         "total": "412",
-        "against": "Roll Clones"
+        "against": "Roll Clones",
+        "currentAve": 107.0,
+        "totalPins": 214,
+        "games": 2
       },
       {
         "week": 6,
@@ -1386,7 +1804,11 @@
         "ss": "213",
         "hs": "242",
         "total": "455",
-        "against": "D & A Lawn Care"
+        "against": "D & A Lawn Care",
+        "currentAve": 95.5,
+        "totalPins": 382,
+        "games": 4,
+        "changeInAve": -11.5
       },
       {
         "week": 10,
@@ -1397,7 +1819,11 @@
         "ss": "245",
         "hs": "224",
         "total": "469",
-        "against": "The Munsons"
+        "against": "The Munsons",
+        "currentAve": 104.0,
+        "totalPins": 624,
+        "games": 6,
+        "changeInAve": 8.5
       }
     ],
     "mw": "W",
@@ -1418,7 +1844,10 @@
         "ss": "144",
         "hs": "266",
         "total": "410",
-        "against": "Craptastic"
+        "against": "Craptastic",
+        "currentAve": 61.0,
+        "totalPins": 122,
+        "games": 2
       },
       {
         "week": 5,
@@ -1429,7 +1858,11 @@
         "ss": "147",
         "hs": "266",
         "total": "413",
-        "against": "Splits-n-Giggles"
+        "against": "Splits-n-Giggles",
+        "currentAve": 69.0,
+        "totalPins": 276,
+        "games": 4,
+        "changeInAve": 8.0
       },
       {
         "week": 9,
@@ -1440,7 +1873,11 @@
         "ss": "173",
         "hs": "266",
         "total": "439",
-        "against": "Splatters2"
+        "against": "Splatters2",
+        "currentAve": 70.0,
+        "totalPins": 420,
+        "games": 6,
+        "changeInAve": 1.0
       },
       {
         "week": 11,
@@ -1451,7 +1888,11 @@
         "ss": "194",
         "hs": "256",
         "total": "450",
-        "against": "The Outsiders"
+        "against": "The Outsiders",
+        "currentAve": 76.0,
+        "totalPins": 608,
+        "games": 8,
+        "changeInAve": 6.0
       },
       {
         "week": 12,
@@ -1462,7 +1903,11 @@
         "ss": "191",
         "hs": "248",
         "total": "439",
-        "against": "Spare Me"
+        "against": "Spare Me",
+        "currentAve": 82.2,
+        "totalPins": 822,
+        "games": 10,
+        "changeInAve": 6.2
       }
     ],
     "mw": "W",
@@ -1483,7 +1928,10 @@
         "ss": "285",
         "hs": "140",
         "total": "425",
-        "against": "Sandbaggers"
+        "against": "Sandbaggers",
+        "currentAve": 133.0,
+        "totalPins": 266,
+        "games": 2
       }
     ],
     "mw": "M",
@@ -1504,7 +1952,10 @@
         "ss": "384",
         "hs": "50",
         "total": "434",
-        "against": "I am Root"
+        "against": "I am Root",
+        "currentAve": 193.0,
+        "totalPins": 386,
+        "games": 2
       },
       {
         "week": 5,
@@ -1515,7 +1966,11 @@
         "ss": "396",
         "hs": "24",
         "total": "420",
-        "against": "Splits-n-Giggles"
+        "against": "Splits-n-Giggles",
+        "currentAve": 199.0,
+        "totalPins": 796,
+        "games": 4,
+        "changeInAve": 6.0
       },
       {
         "week": 7,
@@ -1526,7 +1981,11 @@
         "ss": "439",
         "hs": "30",
         "total": "469",
-        "against": "Strike a Pose"
+        "against": "Strike a Pose",
+        "currentAve": 204.6667,
+        "totalPins": 1228,
+        "games": 6,
+        "changeInAve": 5.6667
       },
       {
         "week": 9,
@@ -1537,7 +1996,11 @@
         "ss": "506",
         "hs": "22",
         "total": "528",
-        "against": "Splatters2"
+        "against": "Splatters2",
+        "currentAve": 219.0,
+        "totalPins": 1752,
+        "games": 8,
+        "changeInAve": 14.3333
       },
       {
         "week": 10,
@@ -1548,7 +2011,11 @@
         "ss": "310",
         "hs": "6",
         "total": "316",
-        "against": "The Munsons"
+        "against": "The Munsons",
+        "currentAve": 211.4,
+        "totalPins": 2114,
+        "games": 10,
+        "changeInAve": -7.6
       },
       {
         "week": 12,
@@ -1559,7 +2026,11 @@
         "ss": "408",
         "hs": "24",
         "total": "432",
-        "against": "Spare Me"
+        "against": "Spare Me",
+        "currentAve": 207.3333,
+        "totalPins": 2488,
+        "games": 12,
+        "changeInAve": -4.0667
       }
     ],
     "mw": "M",
@@ -1580,7 +2051,10 @@
         "ss": "461",
         "hs": "0",
         "total": "461",
-        "against": "Alias Smith and Godfrey"
+        "against": "Alias Smith and Godfrey",
+        "currentAve": 215.0,
+        "totalPins": 430,
+        "games": 2
       },
       {
         "week": 3,
@@ -1591,7 +2065,11 @@
         "ss": "424",
         "hs": "60",
         "total": "484",
-        "against": "Strike a Pose"
+        "against": "Strike a Pose",
+        "currentAve": 213.0,
+        "totalPins": 852,
+        "games": 4,
+        "changeInAve": -2.0
       },
       {
         "week": 4,
@@ -1602,7 +2080,11 @@
         "ss": "447",
         "hs": "44",
         "total": "491",
-        "against": "D & A Lawn Care"
+        "against": "D & A Lawn Care",
+        "currentAve": 224.6667,
+        "totalPins": 1348,
+        "games": 6,
+        "changeInAve": 11.6667
       },
       {
         "week": 5,
@@ -1613,7 +2095,11 @@
         "ss": "394",
         "hs": "32",
         "total": "426",
-        "against": "Sandbaggers"
+        "against": "Sandbaggers",
+        "currentAve": 221.75,
+        "totalPins": 1774,
+        "games": 8,
+        "changeInAve": -2.9167
       },
       {
         "week": 6,
@@ -1624,7 +2110,11 @@
         "ss": "430",
         "hs": "34",
         "total": "464",
-        "against": "Craptastic"
+        "against": "Craptastic",
+        "currentAve": 223.2,
+        "totalPins": 2232,
+        "games": 10,
+        "changeInAve": 1.45
       },
       {
         "week": 7,
@@ -1635,7 +2125,11 @@
         "ss": "489",
         "hs": "30",
         "total": "519",
-        "against": "I am Root"
+        "against": "I am Root",
+        "currentAve": 230.3333,
+        "totalPins": 2764,
+        "games": 12,
+        "changeInAve": 7.1333
       },
       {
         "week": 8,
@@ -1646,7 +2140,11 @@
         "ss": "554",
         "hs": "18",
         "total": "572",
-        "against": "Alias Smith and Godfrey"
+        "against": "Alias Smith and Godfrey",
+        "currentAve": 238.8571,
+        "totalPins": 3344,
+        "games": 14,
+        "changeInAve": 8.5238
       },
       {
         "week": 9,
@@ -1657,7 +2155,11 @@
         "ss": "0",
         "hs": "416",
         "total": "416",
-        "against": "Engineering Strikes"
+        "against": "Engineering Strikes",
+        "currentAve": 233.875,
+        "totalPins": 3742,
+        "games": 16,
+        "changeInAve": -4.9821
       },
       {
         "week": 10,
@@ -1668,7 +2170,11 @@
         "ss": "0",
         "hs": "416",
         "total": "416",
-        "against": "Barely Bowling"
+        "against": "Barely Bowling",
+        "currentAve": 230.0,
+        "totalPins": 4140,
+        "games": 18,
+        "changeInAve": -3.875
       }
     ],
     "mw": "M",
@@ -1689,7 +2195,10 @@
         "ss": "303",
         "hs": "124",
         "total": "427",
-        "against": "1 Mor"
+        "against": "1 Mor",
+        "currentAve": 162.0,
+        "totalPins": 324,
+        "games": 2
       },
       {
         "week": 3,
@@ -1700,7 +2209,11 @@
         "ss": "233",
         "hs": "110",
         "total": "343",
-        "against": "Craptastic"
+        "against": "Craptastic",
+        "currentAve": 149.0,
+        "totalPins": 596,
+        "games": 4,
+        "changeInAve": -13.0
       },
       {
         "week": 4,
@@ -1711,7 +2224,11 @@
         "ss": "333",
         "hs": "136",
         "total": "469",
-        "against": "Splits-n-Giggles"
+        "against": "Splits-n-Giggles",
+        "currentAve": 161.0,
+        "totalPins": 966,
+        "games": 6,
+        "changeInAve": 12.0
       },
       {
         "week": 5,
@@ -1722,7 +2239,11 @@
         "ss": "295",
         "hs": "126",
         "total": "421",
-        "against": "I am Root"
+        "against": "I am Root",
+        "currentAve": 155.0,
+        "totalPins": 1240,
+        "games": 8,
+        "changeInAve": -6.0
       },
       {
         "week": 6,
@@ -1733,7 +2254,11 @@
         "ss": "315",
         "hs": "126",
         "total": "441",
-        "against": "We Don't Give A Split"
+        "against": "We Don't Give A Split",
+        "currentAve": 158.6,
+        "totalPins": 1586,
+        "games": 10,
+        "changeInAve": 3.6
       },
       {
         "week": 7,
@@ -1744,7 +2269,11 @@
         "ss": "249",
         "hs": "126",
         "total": "375",
-        "against": "Frickin Ten Pin"
+        "against": "Frickin Ten Pin",
+        "currentAve": 153.1667,
+        "totalPins": 1838,
+        "games": 12,
+        "changeInAve": -5.4333
       },
       {
         "week": 8,
@@ -1755,7 +2284,11 @@
         "ss": "315",
         "hs": "130",
         "total": "445",
-        "against": "1 Mor"
+        "against": "1 Mor",
+        "currentAve": 154.0,
+        "totalPins": 2156,
+        "games": 14,
+        "changeInAve": 0.8333
       },
       {
         "week": 9,
@@ -1766,7 +2299,11 @@
         "ss": "285",
         "hs": "130",
         "total": "415",
-        "against": "Strike a Pose"
+        "against": "Strike a Pose",
+        "currentAve": 151.625,
+        "totalPins": 2426,
+        "games": 16,
+        "changeInAve": -2.375
       },
       {
         "week": 10,
@@ -1777,7 +2314,11 @@
         "ss": "287",
         "hs": "132",
         "total": "419",
-        "against": "Backstabbers"
+        "against": "Backstabbers",
+        "currentAve": 145.6667,
+        "totalPins": 2622,
+        "games": 18,
+        "changeInAve": -5.9583
       },
       {
         "week": 11,
@@ -1788,7 +2329,11 @@
         "ss": "287",
         "hs": "132",
         "total": "419",
-        "against": "The Munsons"
+        "against": "The Munsons",
+        "currentAve": 145.4,
+        "totalPins": 2908,
+        "games": 20,
+        "changeInAve": -0.2667
       },
       {
         "week": 12,
@@ -1799,7 +2344,11 @@
         "ss": "311",
         "hs": "134",
         "total": "445",
-        "against": "The Outsiders"
+        "against": "The Outsiders",
+        "currentAve": 145.6364,
+        "totalPins": 3204,
+        "games": 22,
+        "changeInAve": 0.2364
       }
     ],
     "mw": "W",
@@ -1820,7 +2369,10 @@
         "ss": "342",
         "hs": "88",
         "total": "430",
-        "against": "Shoe Throwin Mad"
+        "against": "Shoe Throwin Mad",
+        "currentAve": 160.0,
+        "totalPins": 320,
+        "games": 2
       },
       {
         "week": 3,
@@ -1831,7 +2383,11 @@
         "ss": "369",
         "hs": "70",
         "total": "439",
-        "against": "The Outsiders"
+        "against": "The Outsiders",
+        "currentAve": 165.0,
+        "totalPins": 660,
+        "games": 4,
+        "changeInAve": 5.0
       },
       {
         "week": 4,
@@ -1842,7 +2398,11 @@
         "ss": "384",
         "hs": "68",
         "total": "452",
-        "against": "The Munsons"
+        "against": "The Munsons",
+        "currentAve": 164.0,
+        "totalPins": 984,
+        "games": 6,
+        "changeInAve": -1.0
       },
       {
         "week": 5,
@@ -1853,7 +2413,11 @@
         "ss": "323",
         "hs": "64",
         "total": "387",
-        "against": "Backstabbers"
+        "against": "Backstabbers",
+        "currentAve": 164.0,
+        "totalPins": 1312,
+        "games": 8,
+        "changeInAve": 0.0
       },
       {
         "week": 6,
@@ -1864,7 +2428,11 @@
         "ss": "334",
         "hs": "72",
         "total": "406",
-        "against": "Top Gun"
+        "against": "Top Gun",
+        "currentAve": 166.8,
+        "totalPins": 1668,
+        "games": 10,
+        "changeInAve": 2.8
       },
       {
         "week": 7,
@@ -1875,7 +2443,11 @@
         "ss": "385",
         "hs": "76",
         "total": "461",
-        "against": "Roll Clones"
+        "against": "Roll Clones",
+        "currentAve": 173.1667,
+        "totalPins": 2078,
+        "games": 12,
+        "changeInAve": 6.3667
       },
       {
         "week": 8,
@@ -1886,7 +2458,11 @@
         "ss": "334",
         "hs": "72",
         "total": "406",
-        "against": "Shoe Throwin Mad"
+        "against": "Shoe Throwin Mad",
+        "currentAve": 173.5714,
+        "totalPins": 2430,
+        "games": 14,
+        "changeInAve": 0.4047
       },
       {
         "week": 9,
@@ -1897,7 +2473,11 @@
         "ss": "358",
         "hs": "72",
         "total": "430",
-        "against": "I am Root"
+        "against": "I am Root",
+        "currentAve": 175.375,
+        "totalPins": 2806,
+        "games": 16,
+        "changeInAve": 1.8036
       },
       {
         "week": 10,
@@ -1908,7 +2488,11 @@
         "ss": "372",
         "hs": "72",
         "total": "444",
-        "against": "Split Happens"
+        "against": "Split Happens",
+        "currentAve": 177.0,
+        "totalPins": 3186,
+        "games": 18,
+        "changeInAve": 1.625
       },
       {
         "week": 11,
@@ -1919,7 +2503,11 @@
         "ss": "340",
         "hs": "72",
         "total": "412",
-        "against": "Guess Who"
+        "against": "Guess Who",
+        "currentAve": 175.1,
+        "totalPins": 3502,
+        "games": 20,
+        "changeInAve": -1.9
       },
       {
         "week": 12,
@@ -1930,7 +2518,11 @@
         "ss": "388",
         "hs": "72",
         "total": "460",
-        "against": "L.O.F.T"
+        "against": "L.O.F.T",
+        "currentAve": 175.7273,
+        "totalPins": 3866,
+        "games": 22,
+        "changeInAve": 0.6273
       }
     ],
     "mw": "M",
@@ -1951,7 +2543,10 @@
         "ss": "141",
         "hs": "270",
         "total": "411",
-        "against": "Engineering Strikes"
+        "against": "Engineering Strikes",
+        "currentAve": 61.0,
+        "totalPins": 122,
+        "games": 2
       },
       {
         "week": 11,
@@ -1962,7 +2557,11 @@
         "ss": "163",
         "hs": "270",
         "total": "433",
-        "against": "Frickin Ten Pin"
+        "against": "Frickin Ten Pin",
+        "currentAve": 75.5,
+        "totalPins": 302,
+        "games": 4,
+        "changeInAve": 14.5
       },
       {
         "week": 12,
@@ -1973,7 +2572,11 @@
         "ss": "0",
         "hs": "390",
         "total": "390",
-        "against": "Splatters2"
+        "against": "Splatters2",
+        "currentAve": 72.3333,
+        "totalPins": 434,
+        "games": 6,
+        "changeInAve": -3.1667
       }
     ],
     "mw": "W",
@@ -1994,7 +2597,10 @@
         "ss": "441",
         "hs": "32",
         "total": "473",
-        "against": "Guess Who"
+        "against": "Guess Who",
+        "currentAve": 206.0,
+        "totalPins": 412,
+        "games": 2
       },
       {
         "week": 10,
@@ -2005,7 +2611,11 @@
         "ss": "497",
         "hs": "20",
         "total": "517",
-        "against": "Alias Smith and Godfrey"
+        "against": "Alias Smith and Godfrey",
+        "currentAve": 253.0,
+        "totalPins": 1012,
+        "games": 4,
+        "changeInAve": 47.0
       },
       {
         "week": 12,
@@ -2016,7 +2626,11 @@
         "ss": "397",
         "hs": "2",
         "total": "399",
-        "against": "D & A Lawn Care"
+        "against": "D & A Lawn Care",
+        "currentAve": 243.0,
+        "totalPins": 1458,
+        "games": 6,
+        "changeInAve": -10.0
       }
     ],
     "mw": "M",
@@ -2037,7 +2651,10 @@
         "ss": "237",
         "hs": "182",
         "total": "419",
-        "against": "I am Root"
+        "against": "I am Root",
+        "currentAve": 112.0,
+        "totalPins": 224,
+        "games": 2
       },
       {
         "week": 4,
@@ -2048,7 +2665,11 @@
         "ss": "290",
         "hs": "182",
         "total": "472",
-        "against": "Craptastic"
+        "against": "Craptastic",
+        "currentAve": 116.5,
+        "totalPins": 466,
+        "games": 4,
+        "changeInAve": 4.5
       },
       {
         "week": 6,
@@ -2059,7 +2680,11 @@
         "ss": "253",
         "hs": "160",
         "total": "413",
-        "against": "D & A Lawn Care"
+        "against": "D & A Lawn Care",
+        "currentAve": 119.0,
+        "totalPins": 714,
+        "games": 6,
+        "changeInAve": 2.5
       },
       {
         "week": 7,
@@ -2070,7 +2695,11 @@
         "ss": "227",
         "hs": "162",
         "total": "389",
-        "against": "Strike a Pose"
+        "against": "Strike a Pose",
+        "currentAve": 112.75,
+        "totalPins": 902,
+        "games": 8,
+        "changeInAve": -6.25
       },
       {
         "week": 8,
@@ -2081,7 +2710,11 @@
         "ss": "320",
         "hs": "170",
         "total": "490",
-        "against": "I am Root"
+        "against": "I am Root",
+        "currentAve": 122.4,
+        "totalPins": 1224,
+        "games": 10,
+        "changeInAve": 9.65
       }
     ],
     "mw": "W",
@@ -2102,7 +2735,10 @@
         "ss": "420",
         "hs": "18",
         "total": "438",
-        "against": "Spare Me"
+        "against": "Spare Me",
+        "currentAve": 232.0,
+        "totalPins": 464,
+        "games": 2
       },
       {
         "week": 3,
@@ -2113,7 +2749,11 @@
         "ss": "384",
         "hs": "52",
         "total": "436",
-        "against": "The Munsons"
+        "against": "The Munsons",
+        "currentAve": 207.5,
+        "totalPins": 830,
+        "games": 4,
+        "changeInAve": -24.5
       },
       {
         "week": 4,
@@ -2124,7 +2764,11 @@
         "ss": "425",
         "hs": "52",
         "total": "477",
-        "against": "Backstabbers"
+        "against": "Backstabbers",
+        "currentAve": 205.6667,
+        "totalPins": 1234,
+        "games": 6,
+        "changeInAve": -1.8333
       },
       {
         "week": 5,
@@ -2135,7 +2779,11 @@
         "ss": "465",
         "hs": "42",
         "total": "507",
-        "against": "Shoe Throwin Mad"
+        "against": "Shoe Throwin Mad",
+        "currentAve": 204.25,
+        "totalPins": 1634,
+        "games": 8,
+        "changeInAve": -1.4167
       },
       {
         "week": 6,
@@ -2146,7 +2794,11 @@
         "ss": "494",
         "hs": "30",
         "total": "524",
-        "against": "XXX Dancers"
+        "against": "XXX Dancers",
+        "currentAve": 214.8,
+        "totalPins": 2148,
+        "games": 10,
+        "changeInAve": 10.55
       },
       {
         "week": 7,
@@ -2157,7 +2809,11 @@
         "ss": "344",
         "hs": "16",
         "total": "360",
-        "against": "Splits-n-Giggles"
+        "against": "Splits-n-Giggles",
+        "currentAve": 208.8333,
+        "totalPins": 2506,
+        "games": 12,
+        "changeInAve": -5.9667
       },
       {
         "week": 8,
@@ -2168,7 +2824,11 @@
         "ss": "419",
         "hs": "16",
         "total": "435",
-        "against": "Spare Me"
+        "against": "Spare Me",
+        "currentAve": 211.1429,
+        "totalPins": 2956,
+        "games": 14,
+        "changeInAve": 2.3096
       },
       {
         "week": 9,
@@ -2179,7 +2839,11 @@
         "ss": "370",
         "hs": "16",
         "total": "386",
-        "against": "1 Mor"
+        "against": "1 Mor",
+        "currentAve": 206.125,
+        "totalPins": 3298,
+        "games": 16,
+        "changeInAve": -5.0179
       },
       {
         "week": 10,
@@ -2190,7 +2854,11 @@
         "ss": "458",
         "hs": "22",
         "total": "480",
-        "against": "Guess Who"
+        "against": "Guess Who",
+        "currentAve": 212.6667,
+        "totalPins": 3828,
+        "games": 18,
+        "changeInAve": 6.5417
       },
       {
         "week": 11,
@@ -2201,7 +2869,11 @@
         "ss": "396",
         "hs": "18",
         "total": "414",
-        "against": "L.O.F.T"
+        "against": "L.O.F.T",
+        "currentAve": 210.8,
+        "totalPins": 4216,
+        "games": 20,
+        "changeInAve": -1.8667
       },
       {
         "week": 12,
@@ -2212,7 +2884,11 @@
         "ss": "381",
         "hs": "20",
         "total": "401",
-        "against": "Rick Rollers"
+        "against": "Rick Rollers",
+        "currentAve": 208.8182,
+        "totalPins": 4594,
+        "games": 22,
+        "changeInAve": -1.9818
       }
     ],
     "mw": "M",
@@ -2233,7 +2909,10 @@
         "ss": "326",
         "hs": "102",
         "total": "428",
-        "against": "Barely Bowling"
+        "against": "Barely Bowling",
+        "currentAve": 186.0,
+        "totalPins": 372,
+        "games": 2
       },
       {
         "week": 3,
@@ -2244,7 +2923,11 @@
         "ss": "318",
         "hs": "122",
         "total": "440",
-        "against": "Frickin Ten Pin"
+        "against": "Frickin Ten Pin",
+        "currentAve": 166.0,
+        "totalPins": 664,
+        "games": 4,
+        "changeInAve": -20.0
       },
       {
         "week": 4,
@@ -2255,7 +2938,11 @@
         "ss": "280",
         "hs": "118",
         "total": "398",
-        "against": "We Don't Give A Split"
+        "against": "We Don't Give A Split",
+        "currentAve": 163.0,
+        "totalPins": 978,
+        "games": 6,
+        "changeInAve": -3.0
       },
       {
         "week": 7,
@@ -2266,7 +2953,11 @@
         "ss": "299",
         "hs": "126",
         "total": "425",
-        "against": "Spare Me"
+        "against": "Spare Me",
+        "currentAve": 158.25,
+        "totalPins": 1266,
+        "games": 8,
+        "changeInAve": -4.75
       },
       {
         "week": 8,
@@ -2277,7 +2968,11 @@
         "ss": "284",
         "hs": "126",
         "total": "410",
-        "against": "Barely Bowling"
+        "against": "Barely Bowling",
+        "currentAve": 154.2,
+        "totalPins": 1542,
+        "games": 10,
+        "changeInAve": -4.05
       },
       {
         "week": 9,
@@ -2288,7 +2983,11 @@
         "ss": "422",
         "hs": "126",
         "total": "548",
-        "against": "L.O.F.T"
+        "against": "L.O.F.T",
+        "currentAve": 163.3333,
+        "totalPins": 1960,
+        "games": 12,
+        "changeInAve": 9.1333
       },
       {
         "week": 10,
@@ -2299,7 +2998,11 @@
         "ss": "0",
         "hs": "406",
         "total": "406",
-        "against": "Bad Attitude"
+        "against": "Bad Attitude",
+        "currentAve": 161.1429,
+        "totalPins": 2256,
+        "games": 14,
+        "changeInAve": -2.1904
       },
       {
         "week": 11,
@@ -2310,7 +3013,11 @@
         "ss": "320",
         "hs": "110",
         "total": "430",
-        "against": "XXX Dancers"
+        "against": "XXX Dancers",
+        "currentAve": 162.25,
+        "totalPins": 2596,
+        "games": 16,
+        "changeInAve": 1.1071
       },
       {
         "week": 12,
@@ -2321,7 +3028,11 @@
         "ss": "311",
         "hs": "110",
         "total": "421",
-        "against": "Top Gun"
+        "against": "Top Gun",
+        "currentAve": 161.4444,
+        "totalPins": 2906,
+        "games": 18,
+        "changeInAve": -0.8056
       }
     ],
     "mw": "M",
@@ -2342,7 +3053,10 @@
         "ss": "219",
         "hs": "198",
         "total": "417",
-        "against": "Sandbaggers"
+        "against": "Sandbaggers",
+        "currentAve": 117.0,
+        "totalPins": 234,
+        "games": 2
       },
       {
         "week": 10,
@@ -2353,7 +3067,11 @@
         "ss": "199",
         "hs": "198",
         "total": "397",
-        "against": "I am Root"
+        "against": "I am Root",
+        "currentAve": 111.0,
+        "totalPins": 444,
+        "games": 4,
+        "changeInAve": -6.0
       },
       {
         "week": 11,
@@ -2364,7 +3082,11 @@
         "ss": "203",
         "hs": "208",
         "total": "411",
-        "against": "1 Mor"
+        "against": "1 Mor",
+        "currentAve": 107.3333,
+        "totalPins": 644,
+        "games": 6,
+        "changeInAve": -3.6667
       },
       {
         "week": 12,
@@ -2375,7 +3097,11 @@
         "ss": "300",
         "hs": "210",
         "total": "510",
-        "against": "Roll Clones"
+        "against": "Roll Clones",
+        "currentAve": 115.75,
+        "totalPins": 926,
+        "games": 8,
+        "changeInAve": 8.4167
       }
     ],
     "mw": "M",
@@ -2396,7 +3122,10 @@
         "ss": "301",
         "hs": "126",
         "total": "427",
-        "against": "We Don't Give A Split"
+        "against": "We Don't Give A Split",
+        "currentAve": 144.0,
+        "totalPins": 288,
+        "games": 2
       },
       {
         "week": 3,
@@ -2407,7 +3136,11 @@
         "ss": "263",
         "hs": "138",
         "total": "401",
-        "against": "Barely Bowling"
+        "against": "Barely Bowling",
+        "currentAve": 138.0,
+        "totalPins": 552,
+        "games": 4,
+        "changeInAve": -6.0
       },
       {
         "week": 4,
@@ -2418,7 +3151,11 @@
         "ss": "256",
         "hs": "144",
         "total": "400",
-        "against": "Splatters2"
+        "against": "Splatters2",
+        "currentAve": 130.6667,
+        "totalPins": 784,
+        "games": 6,
+        "changeInAve": -7.3333
       },
       {
         "week": 5,
@@ -2429,7 +3166,11 @@
         "ss": "296",
         "hs": "150",
         "total": "446",
-        "against": "Frickin Ten Pin"
+        "against": "Frickin Ten Pin",
+        "currentAve": 133.5,
+        "totalPins": 1068,
+        "games": 8,
+        "changeInAve": 2.8333
       },
       {
         "week": 6,
@@ -2440,7 +3181,11 @@
         "ss": "292",
         "hs": "146",
         "total": "438",
-        "against": "Split Happens"
+        "against": "Split Happens",
+        "currentAve": 136.2,
+        "totalPins": 1362,
+        "games": 10,
+        "changeInAve": 2.7
       },
       {
         "week": 7,
@@ -2451,7 +3196,11 @@
         "ss": "247",
         "hs": "144",
         "total": "391",
-        "against": "Rick Rollers"
+        "against": "Rick Rollers",
+        "currentAve": 138.3333,
+        "totalPins": 1660,
+        "games": 12,
+        "changeInAve": 2.1333
       },
       {
         "week": 8,
@@ -2462,7 +3211,11 @@
         "ss": "278",
         "hs": "148",
         "total": "426",
-        "against": "We Don't Give A Split"
+        "against": "We Don't Give A Split",
+        "currentAve": 139.0,
+        "totalPins": 1946,
+        "games": 14,
+        "changeInAve": 0.6667
       },
       {
         "week": 9,
@@ -2473,7 +3226,11 @@
         "ss": "317",
         "hs": "148",
         "total": "465",
-        "against": "Bob_Rossing It"
+        "against": "Bob_Rossing It",
+        "currentAve": 143.75,
+        "totalPins": 2300,
+        "games": 16,
+        "changeInAve": 4.75
       },
       {
         "week": 10,
@@ -2484,7 +3241,11 @@
         "ss": "265",
         "hs": "144",
         "total": "409",
-        "against": "Top Gun"
+        "against": "Top Gun",
+        "currentAve": 144.5556,
+        "totalPins": 2602,
+        "games": 18,
+        "changeInAve": 0.8056
       },
       {
         "week": 11,
@@ -2495,7 +3256,11 @@
         "ss": "342",
         "hs": "144",
         "total": "486",
-        "against": "Engineering Strikes"
+        "against": "Engineering Strikes",
+        "currentAve": 149.8,
+        "totalPins": 2996,
+        "games": 20,
+        "changeInAve": 5.2444
       },
       {
         "week": 12,
@@ -2506,7 +3271,11 @@
         "ss": "257",
         "hs": "140",
         "total": "397",
-        "against": "SPAM"
+        "against": "SPAM",
+        "currentAve": 146.4545,
+        "totalPins": 3222,
+        "games": 22,
+        "changeInAve": -3.3455
       }
     ],
     "mw": "M",
@@ -2527,7 +3296,10 @@
         "ss": "187",
         "hs": "228",
         "total": "415",
-        "against": "We Don't Give A Split"
+        "against": "We Don't Give A Split",
+        "currentAve": 83.0,
+        "totalPins": 166,
+        "games": 2
       },
       {
         "week": 3,
@@ -2538,7 +3310,11 @@
         "ss": "223",
         "hs": "228",
         "total": "451",
-        "against": "Barely Bowling"
+        "against": "Barely Bowling",
+        "currentAve": 84.0,
+        "totalPins": 336,
+        "games": 4,
+        "changeInAve": 1.0
       },
       {
         "week": 4,
@@ -2549,7 +3325,11 @@
         "ss": "246",
         "hs": "212",
         "total": "458",
-        "against": "Splatters2"
+        "against": "Splatters2",
+        "currentAve": 97.0,
+        "totalPins": 582,
+        "games": 6,
+        "changeInAve": 13.0
       },
       {
         "week": 5,
@@ -2560,7 +3340,11 @@
         "ss": "276",
         "hs": "198",
         "total": "474",
-        "against": "Frickin Ten Pin"
+        "against": "Frickin Ten Pin",
+        "currentAve": 105.5,
+        "totalPins": 844,
+        "games": 8,
+        "changeInAve": 8.5
       },
       {
         "week": 7,
@@ -2571,7 +3355,11 @@
         "ss": "210",
         "hs": "186",
         "total": "396",
-        "against": "Rick Rollers"
+        "against": "Rick Rollers",
+        "currentAve": 105.2,
+        "totalPins": 1052,
+        "games": 10,
+        "changeInAve": -0.3
       },
       {
         "week": 8,
@@ -2582,7 +3370,11 @@
         "ss": "234",
         "hs": "190",
         "total": "424",
-        "against": "We Don't Give A Split"
+        "against": "We Don't Give A Split",
+        "currentAve": 106.5,
+        "totalPins": 1278,
+        "games": 12,
+        "changeInAve": 1.3
       },
       {
         "week": 9,
@@ -2593,7 +3385,11 @@
         "ss": "205",
         "hs": "190",
         "total": "395",
-        "against": "Bob_Rossing It"
+        "against": "Bob_Rossing It",
+        "currentAve": 105.5714,
+        "totalPins": 1478,
+        "games": 14,
+        "changeInAve": -0.9286
       },
       {
         "week": 11,
@@ -2604,7 +3400,11 @@
         "ss": "200",
         "hs": "194",
         "total": "394",
-        "against": "Engineering Strikes"
+        "against": "Engineering Strikes",
+        "currentAve": 107.375,
+        "totalPins": 1718,
+        "games": 16,
+        "changeInAve": 1.8036
       },
       {
         "week": 12,
@@ -2615,7 +3415,11 @@
         "ss": "231",
         "hs": "198",
         "total": "429",
-        "against": "SPAM"
+        "against": "SPAM",
+        "currentAve": 104.1111,
+        "totalPins": 1874,
+        "games": 18,
+        "changeInAve": -3.2639
       }
     ],
     "mw": "W",
@@ -2636,7 +3440,10 @@
         "ss": "239",
         "hs": "180",
         "total": "419",
-        "against": "Backstabbers"
+        "against": "Backstabbers",
+        "currentAve": 140.0,
+        "totalPins": 280,
+        "games": 2
       }
     ],
     "mw": "M",
@@ -2657,7 +3464,10 @@
         "ss": "305",
         "hs": "122",
         "total": "427",
-        "against": "Craptastic"
+        "against": "Craptastic",
+        "currentAve": 155.0,
+        "totalPins": 310,
+        "games": 2
       },
       {
         "week": 3,
@@ -2668,7 +3478,11 @@
         "ss": "380",
         "hs": "102",
         "total": "482",
-        "against": "I am Root"
+        "against": "I am Root",
+        "currentAve": 159.0,
+        "totalPins": 636,
+        "games": 4,
+        "changeInAve": 4.0
       },
       {
         "week": 4,
@@ -2679,7 +3493,11 @@
         "ss": "449",
         "hs": "86",
         "total": "535",
-        "against": "1 Mor"
+        "against": "1 Mor",
+        "currentAve": 182.0,
+        "totalPins": 1092,
+        "games": 6,
+        "changeInAve": 23.0
       },
       {
         "week": 5,
@@ -2690,7 +3508,11 @@
         "ss": "457",
         "hs": "62",
         "total": "519",
-        "against": "Roll Clones"
+        "against": "Roll Clones",
+        "currentAve": 205.5,
+        "totalPins": 1644,
+        "games": 8,
+        "changeInAve": 23.5
       },
       {
         "week": 6,
@@ -2701,7 +3523,11 @@
         "ss": "465",
         "hs": "46",
         "total": "511",
-        "against": "Lane Violation"
+        "against": "Lane Violation",
+        "currentAve": 212.8,
+        "totalPins": 2128,
+        "games": 10,
+        "changeInAve": 7.3
       },
       {
         "week": 7,
@@ -2712,7 +3538,11 @@
         "ss": "381",
         "hs": "36",
         "total": "417",
-        "against": "We Don't Give A Split"
+        "against": "We Don't Give A Split",
+        "currentAve": 216.3333,
+        "totalPins": 2596,
+        "games": 12,
+        "changeInAve": 3.5333
       },
       {
         "week": 8,
@@ -2723,7 +3553,11 @@
         "ss": "432",
         "hs": "36",
         "total": "468",
-        "against": "Craptastic"
+        "against": "Craptastic",
+        "currentAve": 219.5714,
+        "totalPins": 3074,
+        "games": 14,
+        "changeInAve": 3.2381
       },
       {
         "week": 9,
@@ -2734,7 +3568,11 @@
         "ss": "428",
         "hs": "36",
         "total": "464",
-        "against": "Barely Bowling"
+        "against": "Barely Bowling",
+        "currentAve": 217.375,
+        "totalPins": 3478,
+        "games": 16,
+        "changeInAve": -2.1964
       },
       {
         "week": 10,
@@ -2745,7 +3583,11 @@
         "ss": "452",
         "hs": "36",
         "total": "488",
-        "against": "Spare Me"
+        "against": "Spare Me",
+        "currentAve": 216.0,
+        "totalPins": 3888,
+        "games": 18,
+        "changeInAve": -1.375
       },
       {
         "week": 11,
@@ -2756,7 +3598,11 @@
         "ss": "464",
         "hs": "30",
         "total": "494",
-        "against": "Shoe Throwin Mad"
+        "against": "Shoe Throwin Mad",
+        "currentAve": 217.2,
+        "totalPins": 4344,
+        "games": 20,
+        "changeInAve": 1.2
       }
     ],
     "mw": "M",
@@ -2777,7 +3623,10 @@
         "ss": "295",
         "hs": "170",
         "total": "465",
-        "against": "SPAM"
+        "against": "SPAM",
+        "currentAve": 152.0,
+        "totalPins": 304,
+        "games": 2
       },
       {
         "week": 6,
@@ -2788,7 +3637,11 @@
         "ss": "234",
         "hs": "150",
         "total": "384",
-        "against": "Shoe Throwin Mad"
+        "against": "Shoe Throwin Mad",
+        "currentAve": 136.5,
+        "totalPins": 546,
+        "games": 4,
+        "changeInAve": -15.5
       },
       {
         "week": 7,
@@ -2799,7 +3652,11 @@
         "ss": "328",
         "hs": "162",
         "total": "490",
-        "against": "Backstabbers"
+        "against": "Backstabbers",
+        "currentAve": 142.3333,
+        "totalPins": 854,
+        "games": 6,
+        "changeInAve": 5.8333
       },
       {
         "week": 8,
@@ -2810,7 +3667,11 @@
         "ss": "284",
         "hs": "146",
         "total": "430",
-        "against": "XXX Dancers"
+        "against": "XXX Dancers",
+        "currentAve": 139.75,
+        "totalPins": 1118,
+        "games": 8,
+        "changeInAve": -2.5833
       },
       {
         "week": 10,
@@ -2821,7 +3682,11 @@
         "ss": "279",
         "hs": "146",
         "total": "425",
-        "against": "Lane Violation"
+        "against": "Lane Violation",
+        "currentAve": 136.0,
+        "totalPins": 1360,
+        "games": 10,
+        "changeInAve": -3.75
       },
       {
         "week": 11,
@@ -2832,7 +3697,11 @@
         "ss": "0",
         "hs": "402",
         "total": "402",
-        "against": "Alias Smith and Godfrey"
+        "against": "Alias Smith and Godfrey",
+        "currentAve": 134.8333,
+        "totalPins": 1618,
+        "games": 12,
+        "changeInAve": -1.1667
       }
     ],
     "mw": "W",
@@ -2853,7 +3722,10 @@
         "ss": "359",
         "hs": "72",
         "total": "431",
-        "against": "XXX Dancers"
+        "against": "XXX Dancers",
+        "currentAve": 196.0,
+        "totalPins": 392,
+        "games": 2
       },
       {
         "week": 3,
@@ -2864,7 +3736,11 @@
         "ss": "335",
         "hs": "90",
         "total": "425",
-        "against": "Engineering Strikes"
+        "against": "Engineering Strikes",
+        "currentAve": 183.0,
+        "totalPins": 732,
+        "games": 4,
+        "changeInAve": -13.0
       },
       {
         "week": 4,
@@ -2875,7 +3751,11 @@
         "ss": "397",
         "hs": "90",
         "total": "487",
-        "against": "SPAM"
+        "against": "SPAM",
+        "currentAve": 193.6667,
+        "totalPins": 1162,
+        "games": 6,
+        "changeInAve": 10.6667
       },
       {
         "week": 5,
@@ -2886,7 +3766,11 @@
         "ss": "372",
         "hs": "78",
         "total": "450",
-        "against": "Bad Attitude"
+        "against": "Bad Attitude",
+        "currentAve": 189.75,
+        "totalPins": 1518,
+        "games": 8,
+        "changeInAve": -3.9167
       },
       {
         "week": 6,
@@ -2897,7 +3781,11 @@
         "ss": "349",
         "hs": "74",
         "total": "423",
-        "against": "Shoe Throwin Mad"
+        "against": "Shoe Throwin Mad",
+        "currentAve": 185.4,
+        "totalPins": 1854,
+        "games": 10,
+        "changeInAve": -4.35
       },
       {
         "week": 7,
@@ -2908,7 +3796,11 @@
         "ss": "368",
         "hs": "76",
         "total": "444",
-        "against": "Backstabbers"
+        "against": "Backstabbers",
+        "currentAve": 180.8333,
+        "totalPins": 2170,
+        "games": 12,
+        "changeInAve": -4.5667
       },
       {
         "week": 10,
@@ -2919,7 +3811,11 @@
         "ss": "451",
         "hs": "74",
         "total": "525",
-        "against": "Lane Violation"
+        "against": "Lane Violation",
+        "currentAve": 189.2857,
+        "totalPins": 2650,
+        "games": 14,
+        "changeInAve": 8.4524
       },
       {
         "week": 12,
@@ -2930,7 +3826,11 @@
         "ss": "371",
         "hs": "66",
         "total": "437",
-        "against": "Sandbaggers"
+        "against": "Sandbaggers",
+        "currentAve": 192.625,
+        "totalPins": 3082,
+        "games": 16,
+        "changeInAve": 3.3393
       }
     ],
     "mw": "M",
@@ -2951,7 +3851,10 @@
         "ss": "180",
         "hs": "234",
         "total": "414",
-        "against": "SPAM"
+        "against": "SPAM",
+        "currentAve": 92.0,
+        "totalPins": 184,
+        "games": 2
       }
     ],
     "mw": "W",
@@ -2972,7 +3875,10 @@
         "ss": "401",
         "hs": "36",
         "total": "437",
-        "against": "SPAM"
+        "against": "SPAM",
+        "currentAve": 224.0,
+        "totalPins": 448,
+        "games": 2
       },
       {
         "week": 3,
@@ -2983,7 +3889,11 @@
         "ss": "344",
         "hs": "14",
         "total": "358",
-        "against": "XXX Dancers"
+        "against": "XXX Dancers",
+        "currentAve": 205.0,
+        "totalPins": 820,
+        "games": 4,
+        "changeInAve": -19.0
       },
       {
         "week": 4,
@@ -2994,7 +3904,11 @@
         "ss": "423",
         "hs": "36",
         "total": "459",
-        "against": "Top Gun"
+        "against": "Top Gun",
+        "currentAve": 203.6667,
+        "totalPins": 1222,
+        "games": 6,
+        "changeInAve": -1.3333
       },
       {
         "week": 5,
@@ -3005,7 +3919,11 @@
         "ss": "381",
         "hs": "32",
         "total": "413",
-        "against": "Engineering Strikes"
+        "against": "Engineering Strikes",
+        "currentAve": 200.5,
+        "totalPins": 1604,
+        "games": 8,
+        "changeInAve": -3.1667
       },
       {
         "week": 6,
@@ -3016,7 +3934,11 @@
         "ss": "378",
         "hs": "36",
         "total": "414",
-        "against": "The Munsons"
+        "against": "The Munsons",
+        "currentAve": 194.2,
+        "totalPins": 1942,
+        "games": 10,
+        "changeInAve": -6.3
       },
       {
         "week": 7,
@@ -3027,7 +3949,11 @@
         "ss": "388",
         "hs": "38",
         "total": "426",
-        "against": "Split Happens"
+        "against": "Split Happens",
+        "currentAve": 191.5,
+        "totalPins": 2298,
+        "games": 12,
+        "changeInAve": -2.7
       },
       {
         "week": 8,
@@ -3038,7 +3964,11 @@
         "ss": "420",
         "hs": "40",
         "total": "460",
-        "against": "SPAM"
+        "against": "SPAM",
+        "currentAve": 195.5714,
+        "totalPins": 2738,
+        "games": 14,
+        "changeInAve": 4.0714
       },
       {
         "week": 11,
@@ -3049,7 +3979,11 @@
         "ss": "463",
         "hs": "40",
         "total": "503",
-        "against": "D & A Lawn Care"
+        "against": "D & A Lawn Care",
+        "currentAve": 204.625,
+        "totalPins": 3274,
+        "games": 16,
+        "changeInAve": 9.0536
       },
       {
         "week": 12,
@@ -3060,7 +3994,11 @@
         "ss": "450",
         "hs": "34",
         "total": "484",
-        "against": "Strike a Pose"
+        "against": "Strike a Pose",
+        "currentAve": 202.1111,
+        "totalPins": 3638,
+        "games": 18,
+        "changeInAve": -2.5139
       }
     ],
     "mw": "M",
@@ -3081,7 +4019,10 @@
         "ss": "0",
         "hs": "260",
         "total": "260",
-        "against": "Frickin Ten Pin"
+        "against": "Frickin Ten Pin",
+        "currentAve": 130.0,
+        "totalPins": 260,
+        "games": 2
       },
       {
         "week": 3,
@@ -3092,7 +4033,11 @@
         "ss": "303",
         "hs": "90",
         "total": "393",
-        "against": "MoJo"
+        "against": "MoJo",
+        "currentAve": 146.0,
+        "totalPins": 584,
+        "games": 4,
+        "changeInAve": 16.0
       },
       {
         "week": 4,
@@ -3103,7 +4048,11 @@
         "ss": "329",
         "hs": "108",
         "total": "437",
-        "against": "Barely Bowling"
+        "against": "Barely Bowling",
+        "currentAve": 153.0,
+        "totalPins": 918,
+        "games": 6,
+        "changeInAve": 7.0
       },
       {
         "week": 5,
@@ -3114,7 +4063,11 @@
         "ss": "276",
         "hs": "106",
         "total": "382",
-        "against": "Splatters2"
+        "against": "Splatters2",
+        "currentAve": 153.75,
+        "totalPins": 1230,
+        "games": 8,
+        "changeInAve": 0.75
       },
       {
         "week": 6,
@@ -3125,7 +4078,11 @@
         "ss": "275",
         "hs": "116",
         "total": "391",
-        "against": "Rick Rollers"
+        "against": "Rick Rollers",
+        "currentAve": 150.6,
+        "totalPins": 1506,
+        "games": 10,
+        "changeInAve": -3.15
       },
       {
         "week": 7,
@@ -3136,7 +4093,11 @@
         "ss": "306",
         "hs": "122",
         "total": "428",
-        "against": "The Outsiders"
+        "against": "The Outsiders",
+        "currentAve": 148.8333,
+        "totalPins": 1786,
+        "games": 12,
+        "changeInAve": -1.7667
       },
       {
         "week": 8,
@@ -3147,7 +4108,11 @@
         "ss": "375",
         "hs": "122",
         "total": "497",
-        "against": "Frickin Ten Pin"
+        "against": "Frickin Ten Pin",
+        "currentAve": 151.8571,
+        "totalPins": 2126,
+        "games": 14,
+        "changeInAve": 3.0238
       },
       {
         "week": 9,
@@ -3158,7 +4123,11 @@
         "ss": "275",
         "hs": "122",
         "total": "397",
-        "against": "Backstabbers"
+        "against": "Backstabbers",
+        "currentAve": 152.125,
+        "totalPins": 2434,
+        "games": 16,
+        "changeInAve": 0.2679
       },
       {
         "week": 10,
@@ -3169,7 +4138,11 @@
         "ss": "299",
         "hs": "126",
         "total": "425",
-        "against": "Engineering Strikes"
+        "against": "Engineering Strikes",
+        "currentAve": 152.2222,
+        "totalPins": 2740,
+        "games": 18,
+        "changeInAve": 0.0972
       },
       {
         "week": 11,
@@ -3180,7 +4153,11 @@
         "ss": "304",
         "hs": "126",
         "total": "430",
-        "against": "SPAM"
+        "against": "SPAM",
+        "currentAve": 152.0,
+        "totalPins": 3040,
+        "games": 20,
+        "changeInAve": -0.2222
       },
       {
         "week": 12,
@@ -3191,7 +4168,11 @@
         "ss": "294",
         "hs": "126",
         "total": "420",
-        "against": "Bad Attitude"
+        "against": "Bad Attitude",
+        "currentAve": 150.5455,
+        "totalPins": 3312,
+        "games": 22,
+        "changeInAve": -1.4545
       }
     ],
     "mw": "M"
@@ -3210,7 +4191,10 @@
         "ss": "277",
         "hs": "146",
         "total": "423",
-        "against": "Bob_Rossing It"
+        "against": "Bob_Rossing It",
+        "currentAve": 125.0,
+        "totalPins": 250,
+        "games": 2
       },
       {
         "week": 3,
@@ -3221,7 +4205,11 @@
         "ss": "269",
         "hs": "144",
         "total": "413",
-        "against": "L.O.F.T"
+        "against": "L.O.F.T",
+        "currentAve": 131.0,
+        "totalPins": 524,
+        "games": 4,
+        "changeInAve": 6.0
       },
       {
         "week": 5,
@@ -3232,7 +4220,11 @@
         "ss": "316",
         "hs": "144",
         "total": "460",
-        "against": "Split Happens"
+        "against": "Split Happens",
+        "currentAve": 139.3333,
+        "totalPins": 836,
+        "games": 6,
+        "changeInAve": 8.3333
       },
       {
         "week": 6,
@@ -3243,7 +4235,11 @@
         "ss": "301",
         "hs": "136",
         "total": "437",
-        "against": "Frickin Ten Pin"
+        "against": "Frickin Ten Pin",
+        "currentAve": 137.5,
+        "totalPins": 1100,
+        "games": 8,
+        "changeInAve": -1.8333
       },
       {
         "week": 7,
@@ -3254,7 +4250,11 @@
         "ss": "328",
         "hs": "134",
         "total": "462",
-        "against": "MoJo"
+        "against": "MoJo",
+        "currentAve": 145.4,
+        "totalPins": 1454,
+        "games": 10,
+        "changeInAve": 7.9
       },
       {
         "week": 8,
@@ -3265,7 +4265,11 @@
         "ss": "321",
         "hs": "130",
         "total": "451",
-        "against": "Bob_Rossing It"
+        "against": "Bob_Rossing It",
+        "currentAve": 147.6667,
+        "totalPins": 1772,
+        "games": 12,
+        "changeInAve": 2.2667
       },
       {
         "week": 9,
@@ -3276,7 +4280,11 @@
         "ss": "323",
         "hs": "130",
         "total": "453",
-        "against": "D & A Lawn Care"
+        "against": "D & A Lawn Care",
+        "currentAve": 153.4286,
+        "totalPins": 2148,
+        "games": 14,
+        "changeInAve": 5.7619
       },
       {
         "week": 10,
@@ -3287,7 +4295,11 @@
         "ss": "326",
         "hs": "126",
         "total": "452",
-        "against": "1 Mor"
+        "against": "1 Mor",
+        "currentAve": 156.5,
+        "totalPins": 2504,
+        "games": 16,
+        "changeInAve": 3.0714
       },
       {
         "week": 12,
@@ -3298,7 +4310,11 @@
         "ss": "298",
         "hs": "124",
         "total": "422",
-        "against": "Craptastic"
+        "against": "Craptastic",
+        "currentAve": 154.5556,
+        "totalPins": 2782,
+        "games": 18,
+        "changeInAve": -1.9444
       }
     ],
     "mw": "M",
@@ -3319,7 +4335,10 @@
         "ss": "328",
         "hs": "100",
         "total": "428",
-        "against": "Engineering Strikes"
+        "against": "Engineering Strikes",
+        "currentAve": 182.0,
+        "totalPins": 364,
+        "games": 2
       },
       {
         "week": 3,
@@ -3330,7 +4349,11 @@
         "ss": "314",
         "hs": "122",
         "total": "436",
-        "against": "Bad Attitude"
+        "against": "Bad Attitude",
+        "currentAve": 177.0,
+        "totalPins": 708,
+        "games": 4,
+        "changeInAve": -5.0
       },
       {
         "week": 4,
@@ -3341,7 +4364,11 @@
         "ss": "281",
         "hs": "118",
         "total": "399",
-        "against": "XXX Dancers"
+        "against": "XXX Dancers",
+        "currentAve": 165.0,
+        "totalPins": 990,
+        "games": 6,
+        "changeInAve": -12.0
       },
       {
         "week": 5,
@@ -3352,7 +4379,11 @@
         "ss": "303",
         "hs": "126",
         "total": "429",
-        "against": "Top Gun"
+        "against": "Top Gun",
+        "currentAve": 162.75,
+        "totalPins": 1302,
+        "games": 8,
+        "changeInAve": -2.25
       },
       {
         "week": 6,
@@ -3363,7 +4394,11 @@
         "ss": "305",
         "hs": "126",
         "total": "431",
-        "against": "Backstabbers"
+        "against": "Backstabbers",
+        "currentAve": 161.6,
+        "totalPins": 1616,
+        "games": 10,
+        "changeInAve": -1.15
       },
       {
         "week": 7,
@@ -3374,7 +4409,11 @@
         "ss": "369",
         "hs": "124",
         "total": "493",
-        "against": "Bob_Rossing It"
+        "against": "Bob_Rossing It",
+        "currentAve": 162.8333,
+        "totalPins": 1954,
+        "games": 12,
+        "changeInAve": 1.2333
       },
       {
         "week": 8,
@@ -3385,7 +4424,11 @@
         "ss": "331",
         "hs": "116",
         "total": "447",
-        "against": "Engineering Strikes"
+        "against": "Engineering Strikes",
+        "currentAve": 163.4286,
+        "totalPins": 2288,
+        "games": 14,
+        "changeInAve": 0.5953
       },
       {
         "week": 9,
@@ -3396,7 +4439,11 @@
         "ss": "345",
         "hs": "116",
         "total": "461",
-        "against": "The Outsiders"
+        "against": "The Outsiders",
+        "currentAve": 167.5,
+        "totalPins": 2680,
+        "games": 16,
+        "changeInAve": 4.0714
       },
       {
         "week": 11,
@@ -3407,7 +4454,11 @@
         "ss": "0",
         "hs": "406",
         "total": "406",
-        "against": "Strike a Pose"
+        "against": "Strike a Pose",
+        "currentAve": 165.2222,
+        "totalPins": 2974,
+        "games": 18,
+        "changeInAve": -2.2778
       },
       {
         "week": 12,
@@ -3418,7 +4469,11 @@
         "ss": "356",
         "hs": "112",
         "total": "468",
-        "against": "Lane Violation"
+        "against": "Lane Violation",
+        "currentAve": 167.1,
+        "totalPins": 3342,
+        "games": 20,
+        "changeInAve": 1.8778
       }
     ],
     "mw": "M",
@@ -3439,7 +4494,10 @@
         "ss": "278",
         "hs": "144",
         "total": "422",
-        "against": "The Outsiders"
+        "against": "The Outsiders",
+        "currentAve": 124.0,
+        "totalPins": 248,
+        "games": 2
       },
       {
         "week": 6,
@@ -3450,7 +4508,11 @@
         "ss": "293",
         "hs": "144",
         "total": "437",
-        "against": "SPAM"
+        "against": "SPAM",
+        "currentAve": 136.0,
+        "totalPins": 544,
+        "games": 4,
+        "changeInAve": 12.0
       },
       {
         "week": 7,
@@ -3461,7 +4523,11 @@
         "ss": "310",
         "hs": "140",
         "total": "450",
-        "against": "XXX Dancers"
+        "against": "XXX Dancers",
+        "currentAve": 131.0,
+        "totalPins": 786,
+        "games": 6,
+        "changeInAve": -5.0
       },
       {
         "week": 9,
@@ -3472,7 +4538,11 @@
         "ss": "286",
         "hs": "132",
         "total": "418",
-        "against": "Bad Attitude"
+        "against": "Bad Attitude",
+        "currentAve": 131.75,
+        "totalPins": 1054,
+        "games": 8,
+        "changeInAve": 0.75
       }
     ],
     "mw": "M",
@@ -3493,7 +4563,10 @@
         "ss": "186",
         "hs": "228",
         "total": "414",
-        "against": "XXX Dancers"
+        "against": "XXX Dancers",
+        "currentAve": 86.0,
+        "totalPins": 172,
+        "games": 2
       }
     ],
     "mw": "M",
@@ -3514,7 +4587,10 @@
         "ss": "240",
         "hs": "180",
         "total": "420",
-        "against": "Split Happens"
+        "against": "Split Happens",
+        "currentAve": 125.0,
+        "totalPins": 250,
+        "games": 2
       },
       {
         "week": 3,
@@ -3525,7 +4601,11 @@
         "ss": "267",
         "hs": "180",
         "total": "447",
-        "against": "Rick Rollers"
+        "against": "Rick Rollers",
+        "currentAve": 129.5,
+        "totalPins": 518,
+        "games": 4,
+        "changeInAve": 4.5
       },
       {
         "week": 5,
@@ -3536,7 +4616,11 @@
         "ss": "247",
         "hs": "168",
         "total": "415",
-        "against": "Guess Who"
+        "against": "Guess Who",
+        "currentAve": 123.6667,
+        "totalPins": 742,
+        "games": 6,
+        "changeInAve": -5.8333
       },
       {
         "week": 6,
@@ -3547,7 +4631,11 @@
         "ss": "267",
         "hs": "170",
         "total": "437",
-        "against": "MoJo"
+        "against": "MoJo",
+        "currentAve": 120.25,
+        "totalPins": 962,
+        "games": 8,
+        "changeInAve": -3.4167
       },
       {
         "week": 7,
@@ -3558,7 +4646,11 @@
         "ss": "257",
         "hs": "166",
         "total": "423",
-        "against": "Sandbaggers"
+        "against": "Sandbaggers",
+        "currentAve": 123.4,
+        "totalPins": 1234,
+        "games": 10,
+        "changeInAve": 3.15
       },
       {
         "week": 8,
@@ -3569,7 +4661,11 @@
         "ss": "206",
         "hs": "166",
         "total": "372",
-        "against": "Split Happens"
+        "against": "Split Happens",
+        "currentAve": 120.0,
+        "totalPins": 1440,
+        "games": 12,
+        "changeInAve": -3.4
       },
       {
         "week": 9,
@@ -3580,7 +4676,11 @@
         "ss": "248",
         "hs": "166",
         "total": "414",
-        "against": "Lane Violation"
+        "against": "Lane Violation",
+        "currentAve": 119.2857,
+        "totalPins": 1670,
+        "games": 14,
+        "changeInAve": -0.7143
       },
       {
         "week": 10,
@@ -3591,7 +4691,11 @@
         "ss": "225",
         "hs": "166",
         "total": "391",
-        "against": "Roll Clones"
+        "against": "Roll Clones",
+        "currentAve": 117.5,
+        "totalPins": 1880,
+        "games": 16,
+        "changeInAve": -1.7857
       },
       {
         "week": 11,
@@ -3602,7 +4706,11 @@
         "ss": "285",
         "hs": "170",
         "total": "455",
-        "against": "Craptastic"
+        "against": "Craptastic",
+        "currentAve": 117.4444,
+        "totalPins": 2114,
+        "games": 18,
+        "changeInAve": -0.0556
       },
       {
         "week": 12,
@@ -3613,7 +4721,11 @@
         "ss": "233",
         "hs": "166",
         "total": "399",
-        "against": "Splits-n-Giggles"
+        "against": "Splits-n-Giggles",
+        "currentAve": 116.9,
+        "totalPins": 2338,
+        "games": 20,
+        "changeInAve": -0.5444
       }
     ],
     "mw": "M",
@@ -3634,7 +4746,10 @@
         "ss": "288",
         "hs": "136",
         "total": "424",
-        "against": "Roll Clones"
+        "against": "Roll Clones",
+        "currentAve": 142.0,
+        "totalPins": 284,
+        "games": 2
       },
       {
         "week": 5,
@@ -3645,7 +4760,11 @@
         "ss": "328",
         "hs": "94",
         "total": "422",
-        "against": "1 Mor"
+        "against": "1 Mor",
+        "currentAve": 145.5,
+        "totalPins": 582,
+        "games": 4,
+        "changeInAve": 3.5
       },
       {
         "week": 7,
@@ -3656,7 +4775,11 @@
         "ss": "395",
         "hs": "96",
         "total": "491",
-        "against": "Splatters2"
+        "against": "Splatters2",
+        "currentAve": 152.6667,
+        "totalPins": 916,
+        "games": 6,
+        "changeInAve": 7.1667
       },
       {
         "week": 9,
@@ -3667,7 +4790,11 @@
         "ss": "403",
         "hs": "82",
         "total": "485",
-        "against": "MoJo"
+        "against": "MoJo",
+        "currentAve": 170.25,
+        "totalPins": 1362,
+        "games": 8,
+        "changeInAve": 17.5833
       },
       {
         "week": 11,
@@ -3678,7 +4805,11 @@
         "ss": "432",
         "hs": "72",
         "total": "504",
-        "against": "Backstabbers"
+        "against": "Backstabbers",
+        "currentAve": 178.4,
+        "totalPins": 1784,
+        "games": 10,
+        "changeInAve": 8.15
       }
     ],
     "mw": "M",
@@ -3698,7 +4829,10 @@
         "ss": "305",
         "hs": "248",
         "total": "553",
-        "against": "D & A Lawn Care"
+        "against": "D & A Lawn Care",
+        "currentAve": 143.0,
+        "totalPins": 286,
+        "games": 2
       },
       {
         "week": 4,
@@ -3709,7 +4843,11 @@
         "ss": "307",
         "hs": "184",
         "total": "491",
-        "against": "Sandbaggers"
+        "against": "Sandbaggers",
+        "currentAve": 153.5,
+        "totalPins": 614,
+        "games": 4,
+        "changeInAve": 10.5
       },
       {
         "week": 5,
@@ -3720,7 +4858,11 @@
         "ss": "298",
         "hs": "162",
         "total": "460",
-        "against": "Alias Smith and Godfrey"
+        "against": "Alias Smith and Godfrey",
+        "currentAve": 155.6667,
+        "totalPins": 934,
+        "games": 6,
+        "changeInAve": 2.1667
       },
       {
         "week": 6,
@@ -3731,7 +4873,11 @@
         "ss": "291",
         "hs": "154",
         "total": "445",
-        "against": "Roll Clones"
+        "against": "Roll Clones",
+        "currentAve": 151.5,
+        "totalPins": 1212,
+        "games": 8,
+        "changeInAve": -4.1667
       },
       {
         "week": 9,
@@ -3742,7 +4888,11 @@
         "ss": "308",
         "hs": "150",
         "total": "458",
-        "against": "SPAM"
+        "against": "SPAM",
+        "currentAve": 160.8,
+        "totalPins": 1608,
+        "games": 10,
+        "changeInAve": 9.3
       },
       {
         "week": 10,
@@ -3753,7 +4903,11 @@
         "ss": "272",
         "hs": "144",
         "total": "416",
-        "against": "MoJo"
+        "against": "MoJo",
+        "currentAve": 156.1667,
+        "totalPins": 1874,
+        "games": 12,
+        "changeInAve": -4.6333
       },
       {
         "week": 12,
@@ -3764,7 +4918,11 @@
         "ss": "323",
         "hs": "144",
         "total": "467",
-        "against": "Frickin Ten Pin"
+        "against": "Frickin Ten Pin",
+        "currentAve": 157.2857,
+        "totalPins": 2202,
+        "games": 14,
+        "changeInAve": 1.119
       }
     ],
     "mw": "M",
@@ -3785,7 +4943,10 @@
         "ss": "295",
         "hs": "130",
         "total": "425",
-        "against": "Engineering Strikes"
+        "against": "Engineering Strikes",
+        "currentAve": 155.0,
+        "totalPins": 310,
+        "games": 2
       },
       {
         "week": 3,
@@ -3796,7 +4957,11 @@
         "ss": "314",
         "hs": "152",
         "total": "466",
-        "against": "Bad Attitude"
+        "against": "Bad Attitude",
+        "currentAve": 162.0,
+        "totalPins": 648,
+        "games": 4,
+        "changeInAve": 7.0
       },
       {
         "week": 4,
@@ -3807,7 +4972,11 @@
         "ss": "238",
         "hs": "140",
         "total": "378",
-        "against": "XXX Dancers"
+        "against": "XXX Dancers",
+        "currentAve": 150.0,
+        "totalPins": 900,
+        "games": 6,
+        "changeInAve": -12.0
       },
       {
         "week": 5,
@@ -3818,7 +4987,11 @@
         "ss": "260",
         "hs": "150",
         "total": "410",
-        "against": "Top Gun"
+        "against": "Top Gun",
+        "currentAve": 144.5,
+        "totalPins": 1156,
+        "games": 8,
+        "changeInAve": -5.5
       },
       {
         "week": 6,
@@ -3829,7 +5002,11 @@
         "ss": "299",
         "hs": "152",
         "total": "451",
-        "against": "Backstabbers"
+        "against": "Backstabbers",
+        "currentAve": 147.2,
+        "totalPins": 1472,
+        "games": 10,
+        "changeInAve": 2.7
       },
       {
         "week": 7,
@@ -3840,7 +5017,11 @@
         "ss": "321",
         "hs": "148",
         "total": "469",
-        "against": "Bob_Rossing It"
+        "against": "Bob_Rossing It",
+        "currentAve": 150.8333,
+        "totalPins": 1810,
+        "games": 12,
+        "changeInAve": 3.6333
       },
       {
         "week": 9,
@@ -3851,7 +5032,11 @@
         "ss": "295",
         "hs": "144",
         "total": "439",
-        "against": "The Outsiders"
+        "against": "The Outsiders",
+        "currentAve": 150.5714,
+        "totalPins": 2108,
+        "games": 14,
+        "changeInAve": -0.2619
       },
       {
         "week": 10,
@@ -3862,7 +5047,11 @@
         "ss": "350",
         "hs": "142",
         "total": "492",
-        "against": "D & A Lawn Care"
+        "against": "D & A Lawn Care",
+        "currentAve": 153.125,
+        "totalPins": 2450,
+        "games": 16,
+        "changeInAve": 2.5536
       },
       {
         "week": 11,
@@ -3873,7 +5062,11 @@
         "ss": "0",
         "hs": "404",
         "total": "404",
-        "against": "Strike a Pose"
+        "against": "Strike a Pose",
+        "currentAve": 151.1111,
+        "totalPins": 2720,
+        "games": 18,
+        "changeInAve": -2.0139
       },
       {
         "week": 12,
@@ -3884,7 +5077,11 @@
         "ss": "299",
         "hs": "134",
         "total": "433",
-        "against": "Lane Violation"
+        "against": "Lane Violation",
+        "currentAve": 153.8,
+        "totalPins": 3076,
+        "games": 20,
+        "changeInAve": 2.6889
       }
     ],
     "mw": "W",
@@ -3905,7 +5102,10 @@
         "ss": "396",
         "hs": "38",
         "total": "434",
-        "against": "Sandbaggers"
+        "against": "Sandbaggers",
+        "currentAve": 182.0,
+        "totalPins": 364,
+        "games": 2
       },
       {
         "week": 3,
@@ -3916,7 +5116,11 @@
         "ss": "408",
         "hs": "80",
         "total": "488",
-        "against": "Lane Violation"
+        "against": "Lane Violation",
+        "currentAve": 198.0,
+        "totalPins": 792,
+        "games": 4,
+        "changeInAve": 16.0
       },
       {
         "week": 4,
@@ -3927,7 +5131,11 @@
         "ss": "396",
         "hs": "64",
         "total": "460",
-        "against": "Strike a Pose"
+        "against": "Strike a Pose",
+        "currentAve": 190.0,
+        "totalPins": 1140,
+        "games": 6,
+        "changeInAve": -8.0
       },
       {
         "week": 5,
@@ -3938,7 +5146,11 @@
         "ss": "393",
         "hs": "56",
         "total": "449",
-        "against": "D & A Lawn Care"
+        "against": "D & A Lawn Care",
+        "currentAve": 188.5,
+        "totalPins": 1508,
+        "games": 8,
+        "changeInAve": -1.5
       },
       {
         "week": 6,
@@ -3949,7 +5161,11 @@
         "ss": "352",
         "hs": "54",
         "total": "406",
-        "against": "I am Root"
+        "against": "I am Root",
+        "currentAve": 183.0,
+        "totalPins": 1830,
+        "games": 10,
+        "changeInAve": -5.5
       },
       {
         "week": 7,
@@ -3960,7 +5176,11 @@
         "ss": "333",
         "hs": "58",
         "total": "391",
-        "against": "SPAM"
+        "against": "SPAM",
+        "currentAve": 179.0,
+        "totalPins": 2148,
+        "games": 12,
+        "changeInAve": -4.0
       },
       {
         "week": 10,
@@ -3971,7 +5191,11 @@
         "ss": "310",
         "hs": "64",
         "total": "374",
-        "against": "Splatters2"
+        "against": "Splatters2",
+        "currentAve": 177.0,
+        "totalPins": 2478,
+        "games": 14,
+        "changeInAve": -2.0
       },
       {
         "week": 11,
@@ -3982,7 +5206,11 @@
         "ss": "402",
         "hs": "72",
         "total": "474",
-        "against": "Barely Bowling"
+        "against": "Barely Bowling",
+        "currentAve": 177.375,
+        "totalPins": 2838,
+        "games": 16,
+        "changeInAve": 0.375
       },
       {
         "week": 12,
@@ -3993,7 +5221,11 @@
         "ss": "365",
         "hs": "66",
         "total": "431",
-        "against": "MoJo"
+        "against": "MoJo",
+        "currentAve": 180.1111,
+        "totalPins": 3242,
+        "games": 18,
+        "changeInAve": 2.7361
       }
     ],
     "mw": "M",
@@ -4013,7 +5245,10 @@
         "gm2": "206",
         "ss": "432",
         "hs": "6",
-        "total": "438"
+        "total": "438",
+        "currentAve": 226.0,
+        "totalPins": 452,
+        "games": 2
       },
       {
         "week": 7,
@@ -4023,7 +5258,11 @@
         "gm2": "211",
         "ss": "379",
         "hs": "6",
-        "total": "385"
+        "total": "385",
+        "currentAve": 197.0,
+        "totalPins": 788,
+        "games": 4,
+        "changeInAve": -29.0
       },
       {
         "week": 8,
@@ -4033,7 +5272,11 @@
         "gm2": "232",
         "ss": "502",
         "hs": "32",
-        "total": "534"
+        "total": "534",
+        "currentAve": 221.3333,
+        "totalPins": 1328,
+        "games": 6,
+        "changeInAve": 24.3333
       }
     ]
   },
@@ -4051,7 +5294,10 @@
         "ss": "247",
         "hs": "174",
         "total": "421",
-        "against": "Engineering Strikes"
+        "against": "Engineering Strikes",
+        "currentAve": 137.0,
+        "totalPins": 274,
+        "games": 2
       },
       {
         "week": 5,
@@ -4062,7 +5308,11 @@
         "ss": "245",
         "hs": "174",
         "total": "419",
-        "against": "Bad Attitude"
+        "against": "Bad Attitude",
+        "currentAve": 135.0,
+        "totalPins": 540,
+        "games": 4,
+        "changeInAve": -2.0
       },
       {
         "week": 8,
@@ -4073,7 +5323,11 @@
         "ss": "250",
         "hs": "174",
         "total": "424",
-        "against": "XXX Dancers"
+        "against": "XXX Dancers",
+        "currentAve": 139.3333,
+        "totalPins": 836,
+        "games": 6,
+        "changeInAve": 4.3333
       },
       {
         "week": 11,
@@ -4084,7 +5338,11 @@
         "ss": "246",
         "hs": "180",
         "total": "426",
-        "against": "Alias Smith and Godfrey"
+        "against": "Alias Smith and Godfrey",
+        "currentAve": 137.0,
+        "totalPins": 1096,
+        "games": 8,
+        "changeInAve": -2.3333
       },
       {
         "week": 12,
@@ -4095,7 +5353,11 @@
         "ss": "226",
         "hs": "180",
         "total": "406",
-        "against": "Sandbaggers"
+        "against": "Sandbaggers",
+        "currentAve": 136.8,
+        "totalPins": 1368,
+        "games": 10,
+        "changeInAve": -0.2
       }
     ],
     "mw": "M",
@@ -4115,7 +5377,10 @@
         "ss": "281",
         "hs": "144",
         "total": "425",
-        "against": "The Munsons"
+        "against": "The Munsons",
+        "currentAve": 129.0,
+        "totalPins": 258,
+        "games": 2
       },
       {
         "week": 3,
@@ -4126,7 +5391,11 @@
         "ss": "297",
         "hs": "144",
         "total": "441",
-        "against": "Shoe Throwin Mad"
+        "against": "Shoe Throwin Mad",
+        "currentAve": 130.0,
+        "totalPins": 520,
+        "games": 4,
+        "changeInAve": 1.0
       },
       {
         "week": 4,
@@ -4137,7 +5406,11 @@
         "ss": "256",
         "hs": "136",
         "total": "392",
-        "against": "Spare Me"
+        "against": "Spare Me",
+        "currentAve": 136.3333,
+        "totalPins": 818,
+        "games": 6,
+        "changeInAve": 6.3333
       },
       {
         "week": 5,
@@ -4148,7 +5421,11 @@
         "ss": "248",
         "hs": "144",
         "total": "392",
-        "against": "The Outsiders"
+        "against": "The Outsiders",
+        "currentAve": 138.0,
+        "totalPins": 1104,
+        "games": 8,
+        "changeInAve": 1.6667
       },
       {
         "week": 6,
@@ -4159,7 +5436,11 @@
         "ss": "277",
         "hs": "152",
         "total": "429",
-        "against": "Engineering Strikes"
+        "against": "Engineering Strikes",
+        "currentAve": 136.6,
+        "totalPins": 1366,
+        "games": 10,
+        "changeInAve": -1.4
       },
       {
         "week": 7,
@@ -4170,7 +5451,11 @@
         "ss": "346",
         "hs": "152",
         "total": "498",
-        "against": "Top Gun"
+        "against": "Top Gun",
+        "currentAve": 141.6667,
+        "totalPins": 1700,
+        "games": 12,
+        "changeInAve": 5.0667
       },
       {
         "week": 8,
@@ -4181,7 +5466,11 @@
         "ss": "376",
         "hs": "140",
         "total": "516",
-        "against": "The Munsons"
+        "against": "The Munsons",
+        "currentAve": 147.0,
+        "totalPins": 2058,
+        "games": 14,
+        "changeInAve": 5.3333
       },
       {
         "week": 9,
@@ -4192,7 +5481,11 @@
         "ss": "250",
         "hs": "140",
         "total": "390",
-        "against": "Roll Clones"
+        "against": "Roll Clones",
+        "currentAve": 143.75,
+        "totalPins": 2300,
+        "games": 16,
+        "changeInAve": -3.25
       },
       {
         "week": 10,
@@ -4203,7 +5496,11 @@
         "ss": "0",
         "hs": "402",
         "total": "402",
-        "against": "Rick Rollers"
+        "against": "Rick Rollers",
+        "currentAve": 142.1111,
+        "totalPins": 2558,
+        "games": 18,
+        "changeInAve": -1.6389
       },
       {
         "week": 11,
@@ -4214,7 +5511,11 @@
         "ss": "0",
         "hs": "402",
         "total": "402",
-        "against": "Bob_Rossing It"
+        "against": "Bob_Rossing It",
+        "currentAve": 140.8,
+        "totalPins": 2816,
+        "games": 20,
+        "changeInAve": -1.3111
       },
       {
         "week": 12,
@@ -4225,7 +5526,11 @@
         "ss": "228",
         "hs": "144",
         "total": "372",
-        "against": "Split Happens"
+        "against": "Split Happens",
+        "currentAve": 138.2727,
+        "totalPins": 3042,
+        "games": 22,
+        "changeInAve": -2.5273
       }
     ],
     "mw": "W",
@@ -4246,7 +5551,10 @@
         "ss": "355",
         "hs": "76",
         "total": "431",
-        "against": "Guess Who"
+        "against": "Guess Who",
+        "currentAve": 199.0,
+        "totalPins": 398,
+        "games": 2
       },
       {
         "week": 9,
@@ -4257,7 +5565,11 @@
         "ss": "307",
         "hs": "120",
         "total": "427",
-        "against": "We Don't Give A Split"
+        "against": "We Don't Give A Split",
+        "currentAve": 189.0,
+        "totalPins": 756,
+        "games": 4,
+        "changeInAve": -10.0
       },
       {
         "week": 10,
@@ -4268,7 +5580,11 @@
         "ss": "266",
         "hs": "120",
         "total": "386",
-        "against": "Craptastic"
+        "against": "Craptastic",
+        "currentAve": 172.6667,
+        "totalPins": 1036,
+        "games": 6,
+        "changeInAve": -16.3333
       },
       {
         "week": 11,
@@ -4279,7 +5595,11 @@
         "ss": "0",
         "hs": "404",
         "total": "404",
-        "against": "Splits-n-Giggles"
+        "against": "Splits-n-Giggles",
+        "currentAve": 162.75,
+        "totalPins": 1302,
+        "games": 8,
+        "changeInAve": -9.9167
       },
       {
         "week": 12,
@@ -4290,7 +5610,11 @@
         "ss": "381",
         "hs": "138",
         "total": "519",
-        "against": "I am Root"
+        "against": "I am Root",
+        "currentAve": 168.6,
+        "totalPins": 1686,
+        "games": 10,
+        "changeInAve": 5.85
       }
     ],
     "mw": "M",
@@ -4311,7 +5635,10 @@
         "ss": "306",
         "hs": "120",
         "total": "426",
-        "against": "Split Happens"
+        "against": "Split Happens",
+        "currentAve": 143.0,
+        "totalPins": 286,
+        "games": 2
       },
       {
         "week": 3,
@@ -4322,7 +5649,11 @@
         "ss": "231",
         "hs": "108",
         "total": "339",
-        "against": "Rick Rollers"
+        "against": "Rick Rollers",
+        "currentAve": 118.0,
+        "totalPins": 472,
+        "games": 4,
+        "changeInAve": -25.0
       },
       {
         "week": 4,
@@ -4333,7 +5664,11 @@
         "ss": "277",
         "hs": "134",
         "total": "411",
-        "against": "L.O.F.T"
+        "against": "L.O.F.T",
+        "currentAve": 120.6667,
+        "totalPins": 724,
+        "games": 6,
+        "changeInAve": 2.6667
       },
       {
         "week": 5,
@@ -4344,7 +5679,11 @@
         "ss": "239",
         "hs": "138",
         "total": "377",
-        "against": "Guess Who"
+        "against": "Guess Who",
+        "currentAve": 121.25,
+        "totalPins": 970,
+        "games": 8,
+        "changeInAve": 0.5833
       },
       {
         "week": 6,
@@ -4355,7 +5694,11 @@
         "ss": "342",
         "hs": "146",
         "total": "488",
-        "against": "MoJo"
+        "against": "MoJo",
+        "currentAve": 129.6,
+        "totalPins": 1296,
+        "games": 10,
+        "changeInAve": 8.35
       },
       {
         "week": 7,
@@ -4366,7 +5709,11 @@
         "ss": "305",
         "hs": "136",
         "total": "441",
-        "against": "Sandbaggers"
+        "against": "Sandbaggers",
+        "currentAve": 133.8333,
+        "totalPins": 1606,
+        "games": 12,
+        "changeInAve": 4.2333
       },
       {
         "week": 8,
@@ -4377,7 +5724,11 @@
         "ss": "455",
         "hs": "134",
         "total": "589",
-        "against": "Split Happens"
+        "against": "Split Happens",
+        "currentAve": 142.4286,
+        "totalPins": 1994,
+        "games": 14,
+        "changeInAve": 8.5953
       },
       {
         "week": 10,
@@ -4388,7 +5739,11 @@
         "ss": "274",
         "hs": "134",
         "total": "408",
-        "against": "Roll Clones"
+        "against": "Roll Clones",
+        "currentAve": 143.125,
+        "totalPins": 2290,
+        "games": 16,
+        "changeInAve": 0.6964
       },
       {
         "week": 11,
@@ -4399,7 +5754,11 @@
         "ss": "338",
         "hs": "136",
         "total": "474",
-        "against": "Craptastic"
+        "against": "Craptastic",
+        "currentAve": 142.1111,
+        "totalPins": 2558,
+        "games": 18,
+        "changeInAve": -1.0139
       },
       {
         "week": 12,
@@ -4410,7 +5769,11 @@
         "ss": "313",
         "hs": "130",
         "total": "443",
-        "against": "Splits-n-Giggles"
+        "against": "Splits-n-Giggles",
+        "currentAve": 145.3,
+        "totalPins": 2906,
+        "games": 20,
+        "changeInAve": 3.1889
       }
     ],
     "mw": "M",
@@ -4431,7 +5794,10 @@
         "ss": "383",
         "hs": "52",
         "total": "435",
-        "against": "Shoe Throwin Mad"
+        "against": "Shoe Throwin Mad",
+        "currentAve": 199.0,
+        "totalPins": 398,
+        "games": 2
       },
       {
         "week": 3,
@@ -4442,7 +5808,11 @@
         "ss": "342",
         "hs": "28",
         "total": "370",
-        "against": "The Outsiders"
+        "against": "The Outsiders",
+        "currentAve": 195.0,
+        "totalPins": 780,
+        "games": 4,
+        "changeInAve": -4.0
       },
       {
         "week": 4,
@@ -4453,7 +5823,11 @@
         "ss": "348",
         "hs": "48",
         "total": "396",
-        "against": "The Munsons"
+        "against": "The Munsons",
+        "currentAve": 178.0,
+        "totalPins": 1068,
+        "games": 6,
+        "changeInAve": -17.0
       },
       {
         "week": 5,
@@ -4464,7 +5838,11 @@
         "ss": "384",
         "hs": "56",
         "total": "440",
-        "against": "Backstabbers"
+        "against": "Backstabbers",
+        "currentAve": 176.0,
+        "totalPins": 1408,
+        "games": 8,
+        "changeInAve": -2.0
       },
       {
         "week": 6,
@@ -4475,7 +5853,11 @@
         "ss": "425",
         "hs": "54",
         "total": "479",
-        "against": "Top Gun"
+        "against": "Top Gun",
+        "currentAve": 177.0,
+        "totalPins": 1770,
+        "games": 10,
+        "changeInAve": 1.0
       },
       {
         "week": 7,
@@ -4486,7 +5868,11 @@
         "ss": "438",
         "hs": "50",
         "total": "488",
-        "against": "Roll Clones"
+        "against": "Roll Clones",
+        "currentAve": 181.3333,
+        "totalPins": 2176,
+        "games": 12,
+        "changeInAve": 4.3333
       },
       {
         "week": 8,
@@ -4497,7 +5883,11 @@
         "ss": "417",
         "hs": "42",
         "total": "459",
-        "against": "Shoe Throwin Mad"
+        "against": "Shoe Throwin Mad",
+        "currentAve": 180.0,
+        "totalPins": 2520,
+        "games": 14,
+        "changeInAve": -1.3333
       },
       {
         "week": 9,
@@ -4508,7 +5898,11 @@
         "ss": "424",
         "hs": "42",
         "total": "466",
-        "against": "I am Root"
+        "against": "I am Root",
+        "currentAve": 185.625,
+        "totalPins": 2970,
+        "games": 16,
+        "changeInAve": 5.625
       },
       {
         "week": 10,
@@ -4519,7 +5913,11 @@
         "ss": "461",
         "hs": "38",
         "total": "499",
-        "against": "Split Happens"
+        "against": "Split Happens",
+        "currentAve": 191.1111,
+        "totalPins": 3440,
+        "games": 18,
+        "changeInAve": 5.4861
       }
     ],
     "mw": "M",
@@ -4539,7 +5937,10 @@
         "gm2": "140",
         "ss": "309",
         "hs": "118",
-        "total": "427"
+        "total": "427",
+        "currentAve": 169.0,
+        "totalPins": 338,
+        "games": 2
       },
       {
         "week": 3,
@@ -4549,7 +5950,11 @@
         "gm2": "126",
         "ss": "241",
         "hs": "138",
-        "total": "379"
+        "total": "379",
+        "currentAve": 142.0,
+        "totalPins": 568,
+        "games": 4,
+        "changeInAve": -27.0
       },
       {
         "week": 4,
@@ -4559,7 +5964,11 @@
         "gm2": "124",
         "ss": "277",
         "hs": "152",
-        "total": "429"
+        "total": "429",
+        "currentAve": 145.6667,
+        "totalPins": 874,
+        "games": 6,
+        "changeInAve": 3.6667
       },
       {
         "week": 6,
@@ -4569,7 +5978,11 @@
         "gm2": "132",
         "ss": "275",
         "hs": "150",
-        "total": "425"
+        "total": "425",
+        "currentAve": 145.0,
+        "totalPins": 1160,
+        "games": 8,
+        "changeInAve": -0.6667
       },
       {
         "week": 7,
@@ -4579,7 +5992,11 @@
         "gm2": "119",
         "ss": "234",
         "hs": "150",
-        "total": "384"
+        "total": "384",
+        "currentAve": 139.0,
+        "totalPins": 1390,
+        "games": 10,
+        "changeInAve": -6.0
       },
       {
         "week": 8,
@@ -4589,7 +6006,11 @@
         "gm2": "147",
         "ss": "324",
         "hs": "156",
-        "total": "480"
+        "total": "480",
+        "currentAve": 145.3333,
+        "totalPins": 1744,
+        "games": 12,
+        "changeInAve": 6.3333
       }
     ]
   },
@@ -4607,7 +6028,10 @@
         "ss": "359",
         "hs": "72",
         "total": "431",
-        "against": "The Munsons"
+        "against": "The Munsons",
+        "currentAve": 188.0,
+        "totalPins": 376,
+        "games": 2
       }
     ],
     "mw": "M"
@@ -4626,7 +6050,10 @@
         "ss": "210",
         "hs": "206",
         "total": "416",
-        "against": "L.O.F.T"
+        "against": "L.O.F.T",
+        "currentAve": 95.0,
+        "totalPins": 190,
+        "games": 2
       },
       {
         "week": 3,
@@ -4637,7 +6064,11 @@
         "ss": "242",
         "hs": "192",
         "total": "434",
-        "against": "Split Happens"
+        "against": "Split Happens",
+        "currentAve": 101.0,
+        "totalPins": 404,
+        "games": 4,
+        "changeInAve": 6.0
       },
       {
         "week": 4,
@@ -4648,7 +6079,11 @@
         "ss": "255",
         "hs": "186",
         "total": "441",
-        "against": "Bob_Rossing It"
+        "against": "Bob_Rossing It",
+        "currentAve": 113.3333,
+        "totalPins": 680,
+        "games": 6,
+        "changeInAve": 12.3333
       },
       {
         "week": 5,
@@ -4659,7 +6094,11 @@
         "ss": "316",
         "hs": "180",
         "total": "496",
-        "against": "Rick Rollers"
+        "against": "Rick Rollers",
+        "currentAve": 122.0,
+        "totalPins": 976,
+        "games": 8,
+        "changeInAve": 8.6667
       },
       {
         "week": 6,
@@ -4670,7 +6109,11 @@
         "ss": "323",
         "hs": "168",
         "total": "491",
-        "against": "Alias Smith and Godfrey"
+        "against": "Alias Smith and Godfrey",
+        "currentAve": 132.0,
+        "totalPins": 1320,
+        "games": 10,
+        "changeInAve": 10.0
       },
       {
         "week": 7,
@@ -4681,7 +6124,11 @@
         "ss": "297",
         "hs": "158",
         "total": "455",
-        "against": "D & A Lawn Care"
+        "against": "D & A Lawn Care",
+        "currentAve": 134.3333,
+        "totalPins": 1612,
+        "games": 12,
+        "changeInAve": 2.3333
       },
       {
         "week": 9,
@@ -4692,7 +6139,11 @@
         "ss": "255",
         "hs": "154",
         "total": "409",
-        "against": "Frickin Ten Pin"
+        "against": "Frickin Ten Pin",
+        "currentAve": 134.0,
+        "totalPins": 1876,
+        "games": 14,
+        "changeInAve": -0.3333
       },
       {
         "week": 10,
@@ -4703,7 +6154,11 @@
         "ss": "324",
         "hs": "156",
         "total": "480",
-        "against": "Splits-n-Giggles"
+        "against": "Splits-n-Giggles",
+        "currentAve": 139.25,
+        "totalPins": 2228,
+        "games": 16,
+        "changeInAve": 5.25
       },
       {
         "week": 11,
@@ -4714,7 +6169,11 @@
         "ss": "336",
         "hs": "148",
         "total": "484",
-        "against": "I am Root"
+        "against": "I am Root",
+        "currentAve": 140.6667,
+        "totalPins": 2532,
+        "games": 18,
+        "changeInAve": 1.4167
       },
       {
         "week": 12,
@@ -4725,7 +6184,11 @@
         "ss": "303",
         "hs": "144",
         "total": "447",
-        "against": "1 Mor"
+        "against": "1 Mor",
+        "currentAve": 141.1,
+        "totalPins": 2822,
+        "games": 20,
+        "changeInAve": 0.4333
       }
     ],
     "mw": "M",
@@ -4746,7 +6209,10 @@
         "ss": "303",
         "hs": "124",
         "total": "427",
-        "against": "Bob_Rossing It"
+        "against": "Bob_Rossing It",
+        "currentAve": 167.0,
+        "totalPins": 334,
+        "games": 2
       },
       {
         "week": 4,
@@ -4757,7 +6223,11 @@
         "ss": "297",
         "hs": "124",
         "total": "421",
-        "against": "Guess Who"
+        "against": "Guess Who",
+        "currentAve": 162.0,
+        "totalPins": 648,
+        "games": 4,
+        "changeInAve": -5.0
       },
       {
         "week": 5,
@@ -4768,7 +6238,11 @@
         "ss": "259",
         "hs": "126",
         "total": "385",
-        "against": "Split Happens"
+        "against": "Split Happens",
+        "currentAve": 152.0,
+        "totalPins": 912,
+        "games": 6,
+        "changeInAve": -10.0
       },
       {
         "week": 6,
@@ -4779,7 +6253,11 @@
         "ss": "260",
         "hs": "138",
         "total": "398",
-        "against": "Frickin Ten Pin"
+        "against": "Frickin Ten Pin",
+        "currentAve": 147.0,
+        "totalPins": 1176,
+        "games": 8,
+        "changeInAve": -5.0
       },
       {
         "week": 9,
@@ -4790,7 +6268,11 @@
         "ss": "300",
         "hs": "144",
         "total": "444",
-        "against": "D & A Lawn Care"
+        "against": "D & A Lawn Care",
+        "currentAve": 149.0,
+        "totalPins": 1490,
+        "games": 10,
+        "changeInAve": 2.0
       },
       {
         "week": 10,
@@ -4801,7 +6283,11 @@
         "ss": "379",
         "hs": "142",
         "total": "521",
-        "against": "1 Mor"
+        "against": "1 Mor",
+        "currentAve": 156.3333,
+        "totalPins": 1876,
+        "games": 12,
+        "changeInAve": 7.3333
       },
       {
         "week": 11,
@@ -4812,7 +6298,11 @@
         "ss": "263",
         "hs": "126",
         "total": "389",
-        "against": "Roll Clones"
+        "against": "Roll Clones",
+        "currentAve": 153.4286,
+        "totalPins": 2148,
+        "games": 14,
+        "changeInAve": -2.9047
       },
       {
         "week": 12,
@@ -4823,7 +6313,11 @@
         "ss": "351",
         "hs": "130",
         "total": "481",
-        "against": "Craptastic"
+        "against": "Craptastic",
+        "currentAve": 158.125,
+        "totalPins": 2530,
+        "games": 16,
+        "changeInAve": 4.6964
       }
     ],
     "mw": "M",
@@ -4844,7 +6338,10 @@
         "ss": "325",
         "hs": "104",
         "total": "429",
-        "against": "Guess Who"
+        "against": "Guess Who",
+        "currentAve": 128.0,
+        "totalPins": 256,
+        "games": 2
       },
       {
         "week": 3,
@@ -4855,7 +6352,11 @@
         "ss": "315",
         "hs": "132",
         "total": "447",
-        "against": "Bob_Rossing It"
+        "against": "Bob_Rossing It",
+        "currentAve": 139.5,
+        "totalPins": 558,
+        "games": 4,
+        "changeInAve": 11.5
       },
       {
         "week": 4,
@@ -4866,7 +6367,11 @@
         "ss": "362",
         "hs": "126",
         "total": "488",
-        "against": "Rick Rollers"
+        "against": "Rick Rollers",
+        "currentAve": 156.0,
+        "totalPins": 936,
+        "games": 6,
+        "changeInAve": 16.5
       },
       {
         "week": 5,
@@ -4877,7 +6382,11 @@
         "ss": "299",
         "hs": "110",
         "total": "409",
-        "against": "L.O.F.T"
+        "against": "L.O.F.T",
+        "currentAve": 156.25,
+        "totalPins": 1250,
+        "games": 8,
+        "changeInAve": 0.25
       },
       {
         "week": 6,
@@ -4888,7 +6397,11 @@
         "ss": "297",
         "hs": "114",
         "total": "411",
-        "against": "Barely Bowling"
+        "against": "Barely Bowling",
+        "currentAve": 154.6,
+        "totalPins": 1546,
+        "games": 10,
+        "changeInAve": -1.65
       },
       {
         "week": 7,
@@ -4899,7 +6412,11 @@
         "ss": "356",
         "hs": "116",
         "total": "472",
-        "against": "Alias Smith and Godfrey"
+        "against": "Alias Smith and Godfrey",
+        "currentAve": 162.1667,
+        "totalPins": 1946,
+        "games": 12,
+        "changeInAve": 7.5667
       },
       {
         "week": 8,
@@ -4910,7 +6427,11 @@
         "ss": "377",
         "hs": "110",
         "total": "487",
-        "against": "Guess Who"
+        "against": "Guess Who",
+        "currentAve": 164.8571,
+        "totalPins": 2308,
+        "games": 14,
+        "changeInAve": 2.6904
       },
       {
         "week": 9,
@@ -4921,7 +6442,11 @@
         "ss": "357",
         "hs": "110",
         "total": "467",
-        "against": "We Don't Give A Split"
+        "against": "We Don't Give A Split",
+        "currentAve": 164.5,
+        "totalPins": 2632,
+        "games": 16,
+        "changeInAve": -0.3571
       },
       {
         "week": 10,
@@ -4932,7 +6457,11 @@
         "ss": "319",
         "hs": "108",
         "total": "427",
-        "against": "Craptastic"
+        "against": "Craptastic",
+        "currentAve": 163.0,
+        "totalPins": 2934,
+        "games": 18,
+        "changeInAve": -1.5
       },
       {
         "week": 11,
@@ -4943,7 +6472,11 @@
         "ss": "374",
         "hs": "108",
         "total": "482",
-        "against": "Splits-n-Giggles"
+        "against": "Splits-n-Giggles",
+        "currentAve": 167.0,
+        "totalPins": 3340,
+        "games": 20,
+        "changeInAve": 4.0
       },
       {
         "week": 12,
@@ -4954,7 +6487,11 @@
         "ss": "326",
         "hs": "102",
         "total": "428",
-        "against": "I am Root"
+        "against": "I am Root",
+        "currentAve": 169.1818,
+        "totalPins": 3722,
+        "games": 22,
+        "changeInAve": 2.1818
       }
     ],
     "mw": "M",
@@ -4975,7 +6512,10 @@
         "ss": "325",
         "hs": "104",
         "total": "429",
-        "against": "Backstabbers"
+        "against": "Backstabbers",
+        "currentAve": 159.0,
+        "totalPins": 318,
+        "games": 2
       },
       {
         "week": 3,
@@ -4986,7 +6526,11 @@
         "ss": "425",
         "hs": "92",
         "total": "517",
-        "against": "Spare Me"
+        "against": "Spare Me",
+        "currentAve": 195.5,
+        "totalPins": 782,
+        "games": 4,
+        "changeInAve": 36.5
       },
       {
         "week": 4,
@@ -4997,7 +6541,11 @@
         "ss": "319",
         "hs": "68",
         "total": "387",
-        "against": "The Outsiders"
+        "against": "The Outsiders",
+        "currentAve": 185.0,
+        "totalPins": 1110,
+        "games": 6,
+        "changeInAve": -10.5
       },
       {
         "week": 5,
@@ -5008,7 +6556,11 @@
         "ss": "332",
         "hs": "76",
         "total": "408",
-        "against": "The Munsons"
+        "against": "The Munsons",
+        "currentAve": 179.5,
+        "totalPins": 1436,
+        "games": 8,
+        "changeInAve": -5.5
       },
       {
         "week": 6,
@@ -5019,7 +6571,11 @@
         "ss": "0",
         "hs": "410",
         "total": "410",
-        "against": "Splits-n-Giggles"
+        "against": "Splits-n-Giggles",
+        "currentAve": 176.4,
+        "totalPins": 1764,
+        "games": 10,
+        "changeInAve": -3.1
       },
       {
         "week": 7,
@@ -5030,7 +6586,11 @@
         "ss": "355",
         "hs": "82",
         "total": "437",
-        "against": "Craptastic"
+        "against": "Craptastic",
+        "currentAve": 177.3333,
+        "totalPins": 2128,
+        "games": 12,
+        "changeInAve": 0.9333
       },
       {
         "week": 8,
@@ -5041,7 +6601,11 @@
         "ss": "421",
         "hs": "80",
         "total": "501",
-        "against": "Backstabbers"
+        "against": "Backstabbers",
+        "currentAve": 177.1429,
+        "totalPins": 2480,
+        "games": 14,
+        "changeInAve": -0.1904
       },
       {
         "week": 9,
@@ -5052,7 +6616,11 @@
         "ss": "433",
         "hs": "80",
         "total": "513",
-        "against": "Top Gun"
+        "against": "Top Gun",
+        "currentAve": 181.5,
+        "totalPins": 2904,
+        "games": 16,
+        "changeInAve": 4.3571
       },
       {
         "week": 10,
@@ -5063,7 +6631,11 @@
         "ss": "312",
         "hs": "70",
         "total": "382",
-        "against": "Bob_Rossing It"
+        "against": "Bob_Rossing It",
+        "currentAve": 176.7778,
+        "totalPins": 3182,
+        "games": 18,
+        "changeInAve": -4.7222
       },
       {
         "week": 11,
@@ -5074,7 +6646,11 @@
         "ss": "456",
         "hs": "74",
         "total": "530",
-        "against": "Split Happens"
+        "against": "Split Happens",
+        "currentAve": 183.6,
+        "totalPins": 3672,
+        "games": 20,
+        "changeInAve": 6.8222
       },
       {
         "week": 12,
@@ -5085,7 +6661,11 @@
         "ss": "483",
         "hs": "66",
         "total": "549",
-        "against": "Guess Who"
+        "against": "Guess Who",
+        "currentAve": 189.4545,
+        "totalPins": 4168,
+        "games": 22,
+        "changeInAve": 5.8545
       }
     ],
     "mw": "M",
@@ -5105,7 +6685,10 @@
         "gm2": "156",
         "ss": "290",
         "hs": "150",
-        "total": "440"
+        "total": "440",
+        "currentAve": 134.0,
+        "totalPins": 268,
+        "games": 2
       },
       {
         "week": 4,
@@ -5115,7 +6698,11 @@
         "gm2": "139",
         "ss": "285",
         "hs": "144",
-        "total": "429"
+        "total": "429",
+        "currentAve": 140.0,
+        "totalPins": 560,
+        "games": 4,
+        "changeInAve": 6.0
       },
       {
         "week": 5,
@@ -5125,7 +6712,11 @@
         "gm2": "101",
         "ss": "246",
         "hs": "142",
-        "total": "388"
+        "total": "388",
+        "currentAve": 141.6667,
+        "totalPins": 850,
+        "games": 6,
+        "changeInAve": 1.6667
       },
       {
         "week": 6,
@@ -5135,7 +6726,11 @@
         "gm2": "116",
         "ss": "259",
         "hs": "150",
-        "total": "409"
+        "total": "409",
+        "currentAve": 142.0,
+        "totalPins": 1136,
+        "games": 8,
+        "changeInAve": 0.3333
       },
       {
         "week": 9,
@@ -5145,7 +6740,11 @@
         "gm2": "124",
         "ss": "259",
         "hs": "152",
-        "total": "411"
+        "total": "411",
+        "currentAve": 140.6,
+        "totalPins": 1406,
+        "games": 10,
+        "changeInAve": -1.4
       }
     ]
   },
@@ -5163,7 +6762,10 @@
         "ss": "241",
         "hs": "180",
         "total": "421",
-        "against": "Lane Violation"
+        "against": "Lane Violation",
+        "currentAve": 100.0,
+        "totalPins": 200,
+        "games": 2
       },
       {
         "week": 7,
@@ -5174,7 +6776,11 @@
         "ss": "240",
         "hs": "162",
         "total": "402",
-        "against": "1 Mor"
+        "against": "1 Mor",
+        "currentAve": 94.5,
+        "totalPins": 378,
+        "games": 4,
+        "changeInAve": -5.5
       },
       {
         "week": 8,
@@ -5185,7 +6791,11 @@
         "ss": "282",
         "hs": "166",
         "total": "448",
-        "against": "Lane Violation"
+        "against": "Lane Violation",
+        "currentAve": 109.6667,
+        "totalPins": 658,
+        "games": 6,
+        "changeInAve": 15.1667
       },
       {
         "week": 11,
@@ -5196,7 +6806,11 @@
         "ss": "202",
         "hs": "166",
         "total": "368",
-        "against": "We Don't Give A Split"
+        "against": "We Don't Give A Split",
+        "currentAve": 106.25,
+        "totalPins": 850,
+        "games": 8,
+        "changeInAve": -3.4167
       }
     ],
     "mw": "M"
@@ -5215,7 +6829,10 @@
         "ss": "260",
         "hs": "162",
         "total": "422",
-        "against": "MoJo"
+        "against": "MoJo",
+        "currentAve": 118.0,
+        "totalPins": 236,
+        "games": 2
       },
       {
         "week": 3,
@@ -5226,7 +6843,11 @@
         "ss": "286",
         "hs": "158",
         "total": "444",
-        "against": "Splatters2"
+        "against": "Splatters2",
+        "currentAve": 125.5,
+        "totalPins": 502,
+        "games": 4,
+        "changeInAve": 7.5
       },
       {
         "week": 4,
@@ -5237,7 +6858,11 @@
         "ss": "315",
         "hs": "152",
         "total": "467",
-        "against": "Frickin Ten Pin"
+        "against": "Frickin Ten Pin",
+        "currentAve": 143.6667,
+        "totalPins": 862,
+        "games": 6,
+        "changeInAve": 18.1667
       },
       {
         "week": 7,
@@ -5248,7 +6873,11 @@
         "ss": "260",
         "hs": "142",
         "total": "402",
-        "against": "L.O.F.T"
+        "against": "L.O.F.T",
+        "currentAve": 139.75,
+        "totalPins": 1118,
+        "games": 8,
+        "changeInAve": -3.9167
       },
       {
         "week": 9,
@@ -5259,7 +6888,11 @@
         "ss": "306",
         "hs": "146",
         "total": "452",
-        "against": "Shoe Throwin Mad"
+        "against": "Shoe Throwin Mad",
+        "currentAve": 141.4,
+        "totalPins": 1414,
+        "games": 10,
+        "changeInAve": 1.65
       },
       {
         "week": 10,
@@ -5270,7 +6903,11 @@
         "ss": "318",
         "hs": "142",
         "total": "460",
-        "against": "XXX Dancers"
+        "against": "XXX Dancers",
+        "currentAve": 145.6667,
+        "totalPins": 1748,
+        "games": 12,
+        "changeInAve": 4.2667
       },
       {
         "week": 11,
@@ -5281,7 +6918,11 @@
         "ss": "258",
         "hs": "138",
         "total": "396",
-        "against": "Top Gun"
+        "against": "Top Gun",
+        "currentAve": 145.5714,
+        "totalPins": 2038,
+        "games": 14,
+        "changeInAve": -0.0953
       },
       {
         "week": 12,
@@ -5292,7 +6933,11 @@
         "ss": "281",
         "hs": "142",
         "total": "423",
-        "against": "Engineering Strikes"
+        "against": "Engineering Strikes",
+        "currentAve": 144.75,
+        "totalPins": 2316,
+        "games": 16,
+        "changeInAve": -0.8214
       }
     ],
     "mw": "M",
@@ -5313,7 +6958,10 @@
         "ss": "301",
         "hs": "126",
         "total": "427",
-        "against": "Rick Rollers"
+        "against": "Rick Rollers",
+        "currentAve": 134.0,
+        "totalPins": 268,
+        "games": 2
       }
     ],
     "mw": "M",
@@ -5334,7 +6982,10 @@
         "ss": "217",
         "hs": "200",
         "total": "417",
-        "against": "L.O.F.T"
+        "against": "L.O.F.T",
+        "currentAve": 109.0,
+        "totalPins": 218,
+        "games": 2
       },
       {
         "week": 3,
@@ -5345,7 +6996,11 @@
         "ss": "258",
         "hs": "166",
         "total": "424",
-        "against": "Split Happens"
+        "against": "Split Happens",
+        "currentAve": 107.0,
+        "totalPins": 428,
+        "games": 4,
+        "changeInAve": -2.0
       },
       {
         "week": 4,
@@ -5356,7 +7011,11 @@
         "ss": "280",
         "hs": "164",
         "total": "444",
-        "against": "Bob_Rossing It"
+        "against": "Bob_Rossing It",
+        "currentAve": 116.6667,
+        "totalPins": 700,
+        "games": 6,
+        "changeInAve": 9.6667
       },
       {
         "week": 5,
@@ -5367,7 +7026,11 @@
         "ss": "241",
         "hs": "160",
         "total": "401",
-        "against": "Rick Rollers"
+        "against": "Rick Rollers",
+        "currentAve": 121.0,
+        "totalPins": 968,
+        "games": 8,
+        "changeInAve": 4.3333
       },
       {
         "week": 6,
@@ -5378,7 +7041,11 @@
         "ss": "228",
         "hs": "162",
         "total": "390",
-        "against": "Alias Smith and Godfrey"
+        "against": "Alias Smith and Godfrey",
+        "currentAve": 124.0,
+        "totalPins": 1240,
+        "games": 10,
+        "changeInAve": 3.0
       },
       {
         "week": 8,
@@ -5389,7 +7056,11 @@
         "ss": "300",
         "hs": "168",
         "total": "468",
-        "against": "L.O.F.T"
+        "against": "L.O.F.T",
+        "currentAve": 133.5,
+        "totalPins": 1602,
+        "games": 12,
+        "changeInAve": 9.5
       },
       {
         "week": 9,
@@ -5400,7 +7071,11 @@
         "ss": "0",
         "hs": "400",
         "total": "400",
-        "against": "Frickin Ten Pin"
+        "against": "Frickin Ten Pin",
+        "currentAve": 131.0,
+        "totalPins": 1834,
+        "games": 14,
+        "changeInAve": -2.5
       },
       {
         "week": 10,
@@ -5411,7 +7086,11 @@
         "ss": "247",
         "hs": "168",
         "total": "415",
-        "against": "Splits-n-Giggles"
+        "against": "Splits-n-Giggles",
+        "currentAve": 128.625,
+        "totalPins": 2058,
+        "games": 16,
+        "changeInAve": -2.375
       },
       {
         "week": 11,
@@ -5422,7 +7101,11 @@
         "ss": "305",
         "hs": "168",
         "total": "473",
-        "against": "I am Root"
+        "against": "I am Root",
+        "currentAve": 133.5556,
+        "totalPins": 2404,
+        "games": 18,
+        "changeInAve": 4.9306
       },
       {
         "week": 12,
@@ -5433,7 +7116,11 @@
         "ss": "289",
         "hs": "162",
         "total": "451",
-        "against": "1 Mor"
+        "against": "1 Mor",
+        "currentAve": 135.4,
+        "totalPins": 2708,
+        "games": 20,
+        "changeInAve": 1.8444
       }
     ],
     "mw": "M",
@@ -5454,7 +7141,10 @@
         "ss": "214",
         "hs": "202",
         "total": "416",
-        "against": "Splits-n-Giggles"
+        "against": "Splits-n-Giggles",
+        "currentAve": 97.0,
+        "totalPins": 194,
+        "games": 2
       },
       {
         "week": 3,
@@ -5465,7 +7155,11 @@
         "ss": "212",
         "hs": "218",
         "total": "430",
-        "against": "1 Mor"
+        "against": "1 Mor",
+        "currentAve": 103.0,
+        "totalPins": 412,
+        "games": 4,
+        "changeInAve": 6.0
       },
       {
         "week": 6,
@@ -5476,7 +7170,11 @@
         "ss": "211",
         "hs": "214",
         "total": "425",
-        "against": "Sandbaggers"
+        "against": "Sandbaggers",
+        "currentAve": 106.6667,
+        "totalPins": 640,
+        "games": 6,
+        "changeInAve": 3.6667
       },
       {
         "week": 8,
@@ -5487,7 +7185,11 @@
         "ss": "305",
         "hs": "212",
         "total": "517",
-        "against": "Splits-n-Giggles"
+        "against": "Splits-n-Giggles",
+        "currentAve": 112.0,
+        "totalPins": 896,
+        "games": 8,
+        "changeInAve": 5.3333
       },
       {
         "week": 10,
@@ -5498,7 +7200,11 @@
         "ss": "226",
         "hs": "212",
         "total": "438",
-        "against": "The Outsiders"
+        "against": "The Outsiders",
+        "currentAve": 111.0,
+        "totalPins": 1110,
+        "games": 10,
+        "changeInAve": -1.0
       },
       {
         "week": 12,
@@ -5509,7 +7215,11 @@
         "ss": "234",
         "hs": "208",
         "total": "442",
-        "against": "Shoe Throwin Mad"
+        "against": "Shoe Throwin Mad",
+        "currentAve": 111.1667,
+        "totalPins": 1334,
+        "games": 12,
+        "changeInAve": 0.1667
       }
     ],
     "mw": "W",
@@ -5530,7 +7240,10 @@
         "ss": "424",
         "hs": "14",
         "total": "438",
-        "against": "D & A Lawn Care"
+        "against": "D & A Lawn Care",
+        "currentAve": 224.0,
+        "totalPins": 448,
+        "games": 2
       },
       {
         "week": 3,
@@ -5541,7 +7254,11 @@
         "ss": "370",
         "hs": "28",
         "total": "398",
-        "against": "Alias Smith and Godfrey"
+        "against": "Alias Smith and Godfrey",
+        "currentAve": 201.0,
+        "totalPins": 804,
+        "games": 4,
+        "changeInAve": -23.0
       },
       {
         "week": 4,
@@ -5552,7 +7269,11 @@
         "ss": "458",
         "hs": "38",
         "total": "496",
-        "against": "Lane Violation"
+        "against": "Lane Violation",
+        "currentAve": 212.0,
+        "totalPins": 1272,
+        "games": 6,
+        "changeInAve": 11.0
       },
       {
         "week": 5,
@@ -5563,7 +7284,11 @@
         "ss": "388",
         "hs": "26",
         "total": "414",
-        "against": "Strike a Pose"
+        "against": "Strike a Pose",
+        "currentAve": 206.25,
+        "totalPins": 1650,
+        "games": 8,
+        "changeInAve": -5.75
       },
       {
         "week": 6,
@@ -5574,7 +7299,11 @@
         "ss": "450",
         "hs": "30",
         "total": "480",
-        "against": "1 Mor"
+        "against": "1 Mor",
+        "currentAve": 203.6,
+        "totalPins": 2036,
+        "games": 10,
+        "changeInAve": -2.65
       },
       {
         "week": 7,
@@ -5585,7 +7314,11 @@
         "ss": "417",
         "hs": "22",
         "total": "439",
-        "against": "Bad Attitude"
+        "against": "Bad Attitude",
+        "currentAve": 201.5,
+        "totalPins": 2418,
+        "games": 12,
+        "changeInAve": -2.1
       },
       {
         "week": 8,
@@ -5596,7 +7329,11 @@
         "ss": "492",
         "hs": "22",
         "total": "514",
-        "against": "D & A Lawn Care"
+        "against": "D & A Lawn Care",
+        "currentAve": 215.1429,
+        "totalPins": 3012,
+        "games": 14,
+        "changeInAve": 13.6429
       },
       {
         "week": 9,
@@ -5607,7 +7344,11 @@
         "ss": "390",
         "hs": "22",
         "total": "412",
-        "against": "Splits-n-Giggles"
+        "against": "Splits-n-Giggles",
+        "currentAve": 214.0,
+        "totalPins": 3424,
+        "games": 16,
+        "changeInAve": -1.1429
       },
       {
         "week": 10,
@@ -5618,7 +7359,11 @@
         "ss": "412",
         "hs": "26",
         "total": "438",
-        "against": "Frickin Ten Pin"
+        "against": "Frickin Ten Pin",
+        "currentAve": 213.5556,
+        "totalPins": 3844,
+        "games": 18,
+        "changeInAve": -0.4444
       },
       {
         "week": 11,
@@ -5629,7 +7374,11 @@
         "ss": "403",
         "hs": "26",
         "total": "429",
-        "against": "Splatters2"
+        "against": "Splatters2",
+        "currentAve": 213.3,
+        "totalPins": 4266,
+        "games": 20,
+        "changeInAve": -0.2556
       },
       {
         "week": 12,
@@ -5640,7 +7389,11 @@
         "ss": "441",
         "hs": "26",
         "total": "467",
-        "against": "Barely Bowling"
+        "against": "Barely Bowling",
+        "currentAve": 212.8182,
+        "totalPins": 4682,
+        "games": 22,
+        "changeInAve": -0.4818
       }
     ],
     "mw": "M",
@@ -5661,7 +7414,10 @@
         "ss": "135",
         "hs": "274",
         "total": "409",
-        "against": "Rick Rollers"
+        "against": "Rick Rollers",
+        "currentAve": 64.0,
+        "totalPins": 128,
+        "games": 2
       },
       {
         "week": 3,
@@ -5672,7 +7428,11 @@
         "ss": "173",
         "hs": "250",
         "total": "423",
-        "against": "Guess Who"
+        "against": "Guess Who",
+        "currentAve": 67.5,
+        "totalPins": 270,
+        "games": 4,
+        "changeInAve": 3.5
       },
       {
         "week": 4,
@@ -5683,7 +7443,11 @@
         "ss": "179",
         "hs": "246",
         "total": "425",
-        "against": "Split Happens"
+        "against": "Split Happens",
+        "currentAve": 70.0,
+        "totalPins": 420,
+        "games": 6,
+        "changeInAve": 2.5
       },
       {
         "week": 6,
@@ -5694,7 +7458,11 @@
         "ss": "237",
         "hs": "244",
         "total": "481",
-        "against": "Splatters2"
+        "against": "Splatters2",
+        "currentAve": 82.0,
+        "totalPins": 656,
+        "games": 8,
+        "changeInAve": 12.0
       },
       {
         "week": 7,
@@ -5705,7 +7473,11 @@
         "ss": "187",
         "hs": "232",
         "total": "419",
-        "against": "Barely Bowling"
+        "against": "Barely Bowling",
+        "currentAve": 83.0,
+        "totalPins": 830,
+        "games": 10,
+        "changeInAve": 1.0
       },
       {
         "week": 9,
@@ -5716,7 +7488,11 @@
         "ss": "185",
         "hs": "232",
         "total": "417",
-        "against": "Sandbaggers"
+        "against": "Sandbaggers",
+        "currentAve": 84.8333,
+        "totalPins": 1018,
+        "games": 12,
+        "changeInAve": 1.8333
       },
       {
         "week": 10,
@@ -5727,7 +7503,11 @@
         "ss": "201",
         "hs": "230",
         "total": "431",
-        "against": "I am Root"
+        "against": "I am Root",
+        "currentAve": 85.7143,
+        "totalPins": 1200,
+        "games": 14,
+        "changeInAve": 0.881
       },
       {
         "week": 11,
@@ -5738,7 +7518,11 @@
         "ss": "200",
         "hs": "228",
         "total": "428",
-        "against": "1 Mor"
+        "against": "1 Mor",
+        "currentAve": 88.75,
+        "totalPins": 1420,
+        "games": 16,
+        "changeInAve": 3.0357
       },
       {
         "week": 12,
@@ -5749,7 +7533,11 @@
         "ss": "159",
         "hs": "228",
         "total": "387",
-        "against": "Roll Clones"
+        "against": "Roll Clones",
+        "currentAve": 89.0,
+        "totalPins": 1602,
+        "games": 18,
+        "changeInAve": 0.25
       }
     ],
     "mw": "M",
@@ -5770,7 +7558,10 @@
         "ss": "303",
         "hs": "124",
         "total": "427",
-        "against": "Lane Violation"
+        "against": "Lane Violation",
+        "currentAve": 142.0,
+        "totalPins": 284,
+        "games": 2
       },
       {
         "week": 3,
@@ -5781,7 +7572,11 @@
         "ss": "277",
         "hs": "120",
         "total": "397",
-        "against": "D & A Lawn Care"
+        "against": "D & A Lawn Care",
+        "currentAve": 136.5,
+        "totalPins": 546,
+        "games": 4,
+        "changeInAve": -5.5
       },
       {
         "week": 4,
@@ -5792,7 +7587,11 @@
         "ss": "336",
         "hs": "128",
         "total": "464",
-        "against": "Sandbaggers"
+        "against": "Sandbaggers",
+        "currentAve": 140.0,
+        "totalPins": 840,
+        "games": 6,
+        "changeInAve": 3.5
       },
       {
         "week": 5,
@@ -5803,7 +7602,11 @@
         "ss": "338",
         "hs": "120",
         "total": "458",
-        "against": "Alias Smith and Godfrey"
+        "against": "Alias Smith and Godfrey",
+        "currentAve": 150.25,
+        "totalPins": 1202,
+        "games": 8,
+        "changeInAve": 10.25
       },
       {
         "week": 6,
@@ -5814,7 +7617,11 @@
         "ss": "287",
         "hs": "114",
         "total": "401",
-        "against": "Roll Clones"
+        "against": "Roll Clones",
+        "currentAve": 146.4,
+        "totalPins": 1464,
+        "games": 10,
+        "changeInAve": -3.85
       },
       {
         "week": 7,
@@ -5825,7 +7632,11 @@
         "ss": "265",
         "hs": "118",
         "total": "383",
-        "against": "1 Mor"
+        "against": "1 Mor",
+        "currentAve": 143.5,
+        "totalPins": 1722,
+        "games": 12,
+        "changeInAve": -2.9
       },
       {
         "week": 9,
@@ -5836,7 +7647,11 @@
         "ss": "325",
         "hs": "124",
         "total": "449",
-        "against": "SPAM"
+        "against": "SPAM",
+        "currentAve": 148.8571,
+        "totalPins": 2084,
+        "games": 14,
+        "changeInAve": 5.3571
       },
       {
         "week": 10,
@@ -5847,7 +7662,11 @@
         "ss": "373",
         "hs": "122",
         "total": "495",
-        "against": "MoJo"
+        "against": "MoJo",
+        "currentAve": 153.125,
+        "totalPins": 2450,
+        "games": 16,
+        "changeInAve": 4.2679
       },
       {
         "week": 11,
@@ -5858,7 +7677,11 @@
         "ss": "316",
         "hs": "114",
         "total": "430",
-        "against": "We Don't Give A Split"
+        "against": "We Don't Give A Split",
+        "currentAve": 152.6667,
+        "totalPins": 2748,
+        "games": 18,
+        "changeInAve": -0.4583
       },
       {
         "week": 12,
@@ -5869,7 +7692,11 @@
         "ss": "306",
         "hs": "114",
         "total": "420",
-        "against": "Frickin Ten Pin"
+        "against": "Frickin Ten Pin",
+        "currentAve": 152.4,
+        "totalPins": 3048,
+        "games": 20,
+        "changeInAve": -0.2667
       }
     ],
     "mw": "M",
@@ -5890,7 +7717,10 @@
         "ss": "290",
         "hs": "134",
         "total": "424",
-        "against": "1 Mor"
+        "against": "1 Mor",
+        "currentAve": 155.0,
+        "totalPins": 310,
+        "games": 2
       },
       {
         "week": 3,
@@ -5901,7 +7731,11 @@
         "ss": "267",
         "hs": "128",
         "total": "395",
-        "against": "Craptastic"
+        "against": "Craptastic",
+        "currentAve": 148.5,
+        "totalPins": 594,
+        "games": 4,
+        "changeInAve": -6.5
       },
       {
         "week": 4,
@@ -5912,7 +7746,11 @@
         "ss": "289",
         "hs": "138",
         "total": "427",
-        "against": "Splits-n-Giggles"
+        "against": "Splits-n-Giggles",
+        "currentAve": 144.3333,
+        "totalPins": 866,
+        "games": 6,
+        "changeInAve": -4.1667
       },
       {
         "week": 5,
@@ -5923,7 +7761,11 @@
         "ss": "285",
         "hs": "138",
         "total": "423",
-        "against": "I am Root"
+        "against": "I am Root",
+        "currentAve": 139.75,
+        "totalPins": 1118,
+        "games": 8,
+        "changeInAve": -4.5833
       },
       {
         "week": 6,
@@ -5934,7 +7776,11 @@
         "ss": "220",
         "hs": "138",
         "total": "358",
-        "against": "We Don't Give A Split"
+        "against": "We Don't Give A Split",
+        "currentAve": 131.4,
+        "totalPins": 1314,
+        "games": 10,
+        "changeInAve": -8.35
       },
       {
         "week": 7,
@@ -5945,7 +7791,11 @@
         "ss": "306",
         "hs": "146",
         "total": "452",
-        "against": "Frickin Ten Pin"
+        "against": "Frickin Ten Pin",
+        "currentAve": 137.1667,
+        "totalPins": 1646,
+        "games": 12,
+        "changeInAve": 5.7667
       },
       {
         "week": 8,
@@ -5956,7 +7806,11 @@
         "ss": "346",
         "hs": "144",
         "total": "490",
-        "against": "1 Mor"
+        "against": "1 Mor",
+        "currentAve": 137.7143,
+        "totalPins": 1928,
+        "games": 14,
+        "changeInAve": 0.5476
       },
       {
         "week": 9,
@@ -5967,7 +7821,11 @@
         "ss": "309",
         "hs": "144",
         "total": "453",
-        "against": "Strike a Pose"
+        "against": "Strike a Pose",
+        "currentAve": 137.75,
+        "totalPins": 2204,
+        "games": 16,
+        "changeInAve": 0.0357
       },
       {
         "week": 10,
@@ -5978,7 +7836,11 @@
         "ss": "288",
         "hs": "142",
         "total": "430",
-        "against": "Backstabbers"
+        "against": "Backstabbers",
+        "currentAve": 136.6667,
+        "totalPins": 2460,
+        "games": 18,
+        "changeInAve": -1.0833
       },
       {
         "week": 11,
@@ -5989,7 +7851,11 @@
         "ss": "279",
         "hs": "140",
         "total": "419",
-        "against": "The Munsons"
+        "against": "The Munsons",
+        "currentAve": 136.2,
+        "totalPins": 2724,
+        "games": 20,
+        "changeInAve": -0.4667
       },
       {
         "week": 12,
@@ -6000,7 +7866,11 @@
         "ss": "277",
         "hs": "142",
         "total": "419",
-        "against": "The Outsiders"
+        "against": "The Outsiders",
+        "currentAve": 136.5455,
+        "totalPins": 3004,
+        "games": 22,
+        "changeInAve": 0.3455
       }
     ],
     "mw": "W",
@@ -6021,7 +7891,10 @@
         "ss": "395",
         "hs": "40",
         "total": "435",
-        "against": "Bad Attitude"
+        "against": "Bad Attitude",
+        "currentAve": 234.0,
+        "totalPins": 468,
+        "games": 2
       },
       {
         "week": 3,
@@ -6032,7 +7905,11 @@
         "ss": "380",
         "hs": "40",
         "total": "420",
-        "against": "Top Gun"
+        "against": "Top Gun",
+        "currentAve": 213.5,
+        "totalPins": 854,
+        "games": 4,
+        "changeInAve": -20.5
       },
       {
         "week": 4,
@@ -6043,7 +7920,11 @@
         "ss": "344",
         "hs": "48",
         "total": "392",
-        "against": "Engineering Strikes"
+        "against": "Engineering Strikes",
+        "currentAve": 191.3333,
+        "totalPins": 1148,
+        "games": 6,
+        "changeInAve": -22.1667
       },
       {
         "week": 5,
@@ -6054,7 +7935,11 @@
         "ss": "358",
         "hs": "60",
         "total": "418",
-        "against": "SPAM"
+        "against": "SPAM",
+        "currentAve": 183.0,
+        "totalPins": 1464,
+        "games": 8,
+        "changeInAve": -8.3333
       },
       {
         "week": 6,
@@ -6065,7 +7950,11 @@
         "ss": "350",
         "hs": "64",
         "total": "414",
-        "against": "Spare Me"
+        "against": "Spare Me",
+        "currentAve": 182.6,
+        "totalPins": 1826,
+        "games": 10,
+        "changeInAve": -0.4
       },
       {
         "week": 7,
@@ -6076,7 +7965,11 @@
         "ss": "303",
         "hs": "68",
         "total": "371",
-        "against": "The Munsons"
+        "against": "The Munsons",
+        "currentAve": 178.8333,
+        "totalPins": 2146,
+        "games": 12,
+        "changeInAve": -3.7667
       },
       {
         "week": 8,
@@ -6087,7 +7980,11 @@
         "ss": "428",
         "hs": "76",
         "total": "504",
-        "against": "Bad Attitude"
+        "against": "Bad Attitude",
+        "currentAve": 184.5714,
+        "totalPins": 2584,
+        "games": 14,
+        "changeInAve": 5.7381
       },
       {
         "week": 9,
@@ -6098,7 +7995,11 @@
         "ss": "345",
         "hs": "76",
         "total": "421",
-        "against": "Guess Who"
+        "against": "Guess Who",
+        "currentAve": 181.375,
+        "totalPins": 2902,
+        "games": 16,
+        "changeInAve": -3.1964
       },
       {
         "week": 10,
@@ -6109,7 +8010,11 @@
         "ss": "403",
         "hs": "78",
         "total": "481",
-        "against": "Alias Smith and Godfrey"
+        "against": "Alias Smith and Godfrey",
+        "currentAve": 182.5556,
+        "totalPins": 3286,
+        "games": 18,
+        "changeInAve": 1.1806
       },
       {
         "week": 11,
@@ -6120,7 +8025,11 @@
         "ss": "351",
         "hs": "72",
         "total": "423",
-        "against": "Sandbaggers"
+        "against": "Sandbaggers",
+        "currentAve": 184.1,
+        "totalPins": 3682,
+        "games": 20,
+        "changeInAve": 1.5444
       },
       {
         "week": 12,
@@ -6131,7 +8040,11 @@
         "ss": "400",
         "hs": "72",
         "total": "472",
-        "against": "D & A Lawn Care"
+        "against": "D & A Lawn Care",
+        "currentAve": 183.1818,
+        "totalPins": 4030,
+        "games": 22,
+        "changeInAve": -0.9182
       }
     ],
     "mw": "M",
@@ -6152,7 +8065,10 @@
         "ss": "526",
         "hs": "0",
         "total": "526",
-        "against": "Sandbaggers"
+        "against": "Sandbaggers",
+        "currentAve": 279.0,
+        "totalPins": 558,
+        "games": 2
       }
     ],
     "mw": "M",
@@ -6173,7 +8089,10 @@
         "ss": "296",
         "hs": "128",
         "total": "424",
-        "against": "Splatters2"
+        "against": "Splatters2",
+        "currentAve": 142.0,
+        "totalPins": 284,
+        "games": 2
       },
       {
         "week": 3,
@@ -6184,7 +8103,11 @@
         "ss": "326",
         "hs": "142",
         "total": "468",
-        "against": "We Don't Give A Split"
+        "against": "We Don't Give A Split",
+        "currentAve": 160.5,
+        "totalPins": 642,
+        "games": 4,
+        "changeInAve": 18.5
       },
       {
         "week": 4,
@@ -6195,7 +8118,11 @@
         "ss": "334",
         "hs": "128",
         "total": "462",
-        "against": "MoJo"
+        "against": "MoJo",
+        "currentAve": 158.6667,
+        "totalPins": 952,
+        "games": 6,
+        "changeInAve": -1.8333
       },
       {
         "week": 5,
@@ -6206,7 +8133,11 @@
         "ss": "283",
         "hs": "120",
         "total": "403",
-        "against": "Barely Bowling"
+        "against": "Barely Bowling",
+        "currentAve": 158.0,
+        "totalPins": 1264,
+        "games": 8,
+        "changeInAve": -0.6667
       },
       {
         "week": 6,
@@ -6217,7 +8148,11 @@
         "ss": "323",
         "hs": "126",
         "total": "449",
-        "against": "L.O.F.T"
+        "against": "L.O.F.T",
+        "currentAve": 153.6,
+        "totalPins": 1536,
+        "games": 10,
+        "changeInAve": -4.4
       },
       {
         "week": 7,
@@ -6228,7 +8163,11 @@
         "ss": "335",
         "hs": "122",
         "total": "457",
-        "against": "Shoe Throwin Mad"
+        "against": "Shoe Throwin Mad",
+        "currentAve": 155.6667,
+        "totalPins": 1868,
+        "games": 12,
+        "changeInAve": 2.0667
       },
       {
         "week": 8,
@@ -6239,7 +8178,11 @@
         "ss": "366",
         "hs": "118",
         "total": "484",
-        "against": "Splatters2"
+        "against": "Splatters2",
+        "currentAve": 160.7143,
+        "totalPins": 2250,
+        "games": 14,
+        "changeInAve": 5.0476
       },
       {
         "week": 10,
@@ -6250,7 +8193,11 @@
         "ss": "362",
         "hs": "118",
         "total": "480",
-        "against": "SPAM"
+        "against": "SPAM",
+        "currentAve": 165.375,
+        "totalPins": 2646,
+        "games": 16,
+        "changeInAve": 4.6607
       },
       {
         "week": 12,
@@ -6261,7 +8208,11 @@
         "ss": "273",
         "hs": "110",
         "total": "383",
-        "against": "XXX Dancers"
+        "against": "XXX Dancers",
+        "currentAve": 162.4444,
+        "totalPins": 2924,
+        "games": 18,
+        "changeInAve": -2.9306
       }
     ],
     "mw": "M",
@@ -6282,7 +8233,10 @@
         "ss": "389",
         "hs": "46",
         "total": "435",
-        "against": "Top Gun"
+        "against": "Top Gun",
+        "currentAve": 220.0,
+        "totalPins": 440,
+        "games": 2
       },
       {
         "week": 3,
@@ -6293,7 +8247,11 @@
         "ss": "290",
         "hs": "62",
         "total": "352",
-        "against": "SPAM"
+        "against": "SPAM",
+        "currentAve": 172.0,
+        "totalPins": 688,
+        "games": 4,
+        "changeInAve": -48.0
       },
       {
         "week": 5,
@@ -6304,7 +8262,11 @@
         "ss": "385",
         "hs": "86",
         "total": "471",
-        "against": "XXX Dancers"
+        "against": "XXX Dancers",
+        "currentAve": 173.0,
+        "totalPins": 1038,
+        "games": 6,
+        "changeInAve": 1.0
       },
       {
         "week": 8,
@@ -6315,7 +8277,11 @@
         "ss": "401",
         "hs": "74",
         "total": "475",
-        "against": "Top Gun"
+        "against": "Top Gun",
+        "currentAve": 171.5,
+        "totalPins": 1372,
+        "games": 8,
+        "changeInAve": -1.5
       },
       {
         "week": 9,
@@ -6326,7 +8292,11 @@
         "ss": "417",
         "hs": "74",
         "total": "491",
-        "against": "Spare Me"
+        "against": "Spare Me",
+        "currentAve": 175.8,
+        "totalPins": 1758,
+        "games": 10,
+        "changeInAve": 4.3
       },
       {
         "week": 10,
@@ -6337,7 +8307,11 @@
         "ss": "335",
         "hs": "66",
         "total": "401",
-        "against": "Strike a Pose"
+        "against": "Strike a Pose",
+        "currentAve": 170.8333,
+        "totalPins": 2050,
+        "games": 12,
+        "changeInAve": -4.9667
       },
       {
         "week": 11,
@@ -6348,7 +8322,11 @@
         "ss": "400",
         "hs": "70",
         "total": "470",
-        "against": "Lane Violation"
+        "against": "Lane Violation",
+        "currentAve": 174.7143,
+        "totalPins": 2446,
+        "games": 14,
+        "changeInAve": 3.881
       },
       {
         "week": 12,
@@ -6359,7 +8337,11 @@
         "ss": "375",
         "hs": "66",
         "total": "441",
-        "against": "Alias Smith and Godfrey"
+        "against": "Alias Smith and Godfrey",
+        "currentAve": 175.125,
+        "totalPins": 2802,
+        "games": 16,
+        "changeInAve": 0.4107
       }
     ],
     "mw": "M",
@@ -6380,7 +8362,10 @@
         "ss": "313",
         "hs": "114",
         "total": "427",
-        "against": "Craptastic"
+        "against": "Craptastic",
+        "currentAve": 165.0,
+        "totalPins": 330,
+        "games": 2
       },
       {
         "week": 3,
@@ -6391,7 +8376,11 @@
         "ss": "295",
         "hs": "72",
         "total": "367",
-        "against": "I am Root"
+        "against": "I am Root",
+        "currentAve": 151.0,
+        "totalPins": 604,
+        "games": 4,
+        "changeInAve": -14.0
       },
       {
         "week": 4,
@@ -6402,7 +8391,11 @@
         "ss": "243",
         "hs": "92",
         "total": "335",
-        "against": "1 Mor"
+        "against": "1 Mor",
+        "currentAve": 137.6667,
+        "totalPins": 826,
+        "games": 6,
+        "changeInAve": -13.3333
       },
       {
         "week": 5,
@@ -6413,7 +8406,11 @@
         "ss": "258",
         "hs": "114",
         "total": "372",
-        "against": "Roll Clones"
+        "against": "Roll Clones",
+        "currentAve": 134.0,
+        "totalPins": 1072,
+        "games": 8,
+        "changeInAve": -3.6667
       },
       {
         "week": 6,
@@ -6424,7 +8421,11 @@
         "ss": "294",
         "hs": "124",
         "total": "418",
-        "against": "Lane Violation"
+        "against": "Lane Violation",
+        "currentAve": 133.8,
+        "totalPins": 1338,
+        "games": 10,
+        "changeInAve": -0.2
       },
       {
         "week": 7,
@@ -6435,7 +8436,11 @@
         "ss": "290",
         "hs": "126",
         "total": "416",
-        "against": "We Don't Give A Split"
+        "against": "We Don't Give A Split",
+        "currentAve": 134.8333,
+        "totalPins": 1618,
+        "games": 12,
+        "changeInAve": 1.0333
       },
       {
         "week": 8,
@@ -6446,7 +8451,11 @@
         "ss": "338",
         "hs": "126",
         "total": "464",
-        "against": "Craptastic"
+        "against": "Craptastic",
+        "currentAve": 142.4286,
+        "totalPins": 1994,
+        "games": 14,
+        "changeInAve": 7.5953
       },
       {
         "week": 9,
@@ -6457,7 +8466,11 @@
         "ss": "294",
         "hs": "126",
         "total": "420",
-        "against": "Barely Bowling"
+        "against": "Barely Bowling",
+        "currentAve": 145.0,
+        "totalPins": 2320,
+        "games": 16,
+        "changeInAve": 2.5714
       },
       {
         "week": 10,
@@ -6468,7 +8481,11 @@
         "ss": "292",
         "hs": "126",
         "total": "418",
-        "against": "Spare Me"
+        "against": "Spare Me",
+        "currentAve": 144.7778,
+        "totalPins": 2606,
+        "games": 18,
+        "changeInAve": -0.2222
       },
       {
         "week": 11,
@@ -6479,7 +8496,11 @@
         "ss": "329",
         "hs": "126",
         "total": "455",
-        "against": "Shoe Throwin Mad"
+        "against": "Shoe Throwin Mad",
+        "currentAve": 145.0,
+        "totalPins": 2900,
+        "games": 20,
+        "changeInAve": 0.2222
       },
       {
         "week": 12,
@@ -6490,7 +8511,11 @@
         "ss": "305",
         "hs": "126",
         "total": "431",
-        "against": "Backstabbers"
+        "against": "Backstabbers",
+        "currentAve": 146.3636,
+        "totalPins": 3220,
+        "games": 22,
+        "changeInAve": 1.3636
       }
     ],
     "mw": "M"
@@ -6509,7 +8534,10 @@
         "ss": "267",
         "hs": "156",
         "total": "423",
-        "against": "Bad Attitude"
+        "against": "Bad Attitude",
+        "currentAve": 113.0,
+        "totalPins": 226,
+        "games": 2
       },
       {
         "week": 3,
@@ -6520,7 +8548,11 @@
         "ss": "381",
         "hs": "126",
         "total": "507",
-        "against": "Top Gun"
+        "against": "Top Gun",
+        "currentAve": 177.5,
+        "totalPins": 710,
+        "games": 4,
+        "changeInAve": 64.5
       },
       {
         "week": 4,
@@ -6531,7 +8563,11 @@
         "ss": "359",
         "hs": "100",
         "total": "459",
-        "against": "Engineering Strikes"
+        "against": "Engineering Strikes",
+        "currentAve": 168.3333,
+        "totalPins": 1010,
+        "games": 6,
+        "changeInAve": -9.1667
       },
       {
         "week": 5,
@@ -6542,7 +8578,11 @@
         "ss": "339",
         "hs": "94",
         "total": "433",
-        "against": "SPAM"
+        "against": "SPAM",
+        "currentAve": 169.0,
+        "totalPins": 1352,
+        "games": 8,
+        "changeInAve": 0.6667
       },
       {
         "week": 6,
@@ -6553,7 +8593,11 @@
         "ss": "284",
         "hs": "92",
         "total": "376",
-        "against": "Spare Me"
+        "against": "Spare Me",
+        "currentAve": 160.8,
+        "totalPins": 1608,
+        "games": 10,
+        "changeInAve": -8.2
       },
       {
         "week": 7,
@@ -6564,7 +8608,11 @@
         "ss": "363",
         "hs": "102",
         "total": "465",
-        "against": "The Munsons"
+        "against": "The Munsons",
+        "currentAve": 159.0,
+        "totalPins": 1908,
+        "games": 12,
+        "changeInAve": -1.8
       },
       {
         "week": 8,
@@ -6575,7 +8623,11 @@
         "ss": "390",
         "hs": "96",
         "total": "486",
-        "against": "Bad Attitude"
+        "against": "Bad Attitude",
+        "currentAve": 168.1429,
+        "totalPins": 2354,
+        "games": 14,
+        "changeInAve": 9.1429
       }
     ],
     "mw": "M",
@@ -6596,7 +8648,10 @@
         "ss": "324",
         "hs": "104",
         "total": "428",
-        "against": "Strike a Pose"
+        "against": "Strike a Pose",
+        "currentAve": 181.0,
+        "totalPins": 362,
+        "games": 2
       },
       {
         "week": 3,
@@ -6607,7 +8662,11 @@
         "ss": "302",
         "hs": "100",
         "total": "402",
-        "against": "Sandbaggers"
+        "against": "Sandbaggers",
+        "currentAve": 170.0,
+        "totalPins": 680,
+        "games": 4,
+        "changeInAve": -11.0
       },
       {
         "week": 4,
@@ -6618,7 +8677,11 @@
         "ss": "364",
         "hs": "108",
         "total": "472",
-        "against": "Alias Smith and Godfrey"
+        "against": "Alias Smith and Godfrey",
+        "currentAve": 177.3333,
+        "totalPins": 1064,
+        "games": 6,
+        "changeInAve": 7.3333
       },
       {
         "week": 5,
@@ -6629,7 +8692,11 @@
         "ss": "373",
         "hs": "98",
         "total": "471",
-        "against": "Lane Violation"
+        "against": "Lane Violation",
+        "currentAve": 168.25,
+        "totalPins": 1346,
+        "games": 8,
+        "changeInAve": -9.0833
       },
       {
         "week": 6,
@@ -6640,7 +8707,11 @@
         "ss": "386",
         "hs": "90",
         "total": "476",
-        "against": "Bad Attitude"
+        "against": "Bad Attitude",
+        "currentAve": 164.8,
+        "totalPins": 1648,
+        "games": 10,
+        "changeInAve": -3.45
       },
       {
         "week": 8,
@@ -6651,7 +8722,11 @@
         "ss": "444",
         "hs": "84",
         "total": "528",
-        "against": "Strike a Pose"
+        "against": "Strike a Pose",
+        "currentAve": 170.8333,
+        "totalPins": 2050,
+        "games": 12,
+        "changeInAve": 6.0333
       },
       {
         "week": 9,
@@ -6662,7 +8737,11 @@
         "ss": "418",
         "hs": "84",
         "total": "502",
-        "against": "Craptastic"
+        "against": "Craptastic",
+        "currentAve": 176.7143,
+        "totalPins": 2474,
+        "games": 14,
+        "changeInAve": 5.881
       },
       {
         "week": 10,
@@ -6673,7 +8752,11 @@
         "ss": "0",
         "hs": "410",
         "total": "410",
-        "against": "We Don't Give A Split"
+        "against": "We Don't Give A Split",
+        "currentAve": 175.625,
+        "totalPins": 2810,
+        "games": 16,
+        "changeInAve": -1.0893
       }
     ],
     "mw": "W",
@@ -6694,7 +8777,10 @@
         "ss": "316",
         "hs": "110",
         "total": "426",
-        "against": "Guess Who"
+        "against": "Guess Who",
+        "currentAve": 140.0,
+        "totalPins": 280,
+        "games": 2
       },
       {
         "week": 12,
@@ -6705,7 +8791,11 @@
         "ss": "324",
         "hs": "110",
         "total": "434",
-        "against": "L.O.F.T"
+        "against": "L.O.F.T",
+        "currentAve": 154.0,
+        "totalPins": 616,
+        "games": 4,
+        "changeInAve": 14.0
       }
     ],
     "mw": "M",
@@ -6726,7 +8816,10 @@
         "ss": "443",
         "hs": "0",
         "total": "443",
-        "against": "Top Gun"
+        "against": "Top Gun",
+        "currentAve": 228.0,
+        "totalPins": 456,
+        "games": 2
       },
       {
         "week": 3,
@@ -6737,7 +8830,11 @@
         "ss": "424",
         "hs": "54",
         "total": "478",
-        "against": "SPAM"
+        "against": "SPAM",
+        "currentAve": 215.0,
+        "totalPins": 860,
+        "games": 4,
+        "changeInAve": -13.0
       },
       {
         "week": 4,
@@ -6748,7 +8845,11 @@
         "ss": "549",
         "hs": "40",
         "total": "589",
-        "against": "Bad Attitude"
+        "against": "Bad Attitude",
+        "currentAve": 236.3333,
+        "totalPins": 1418,
+        "games": 6,
+        "changeInAve": 21.3333
       },
       {
         "week": 5,
@@ -6759,7 +8860,11 @@
         "ss": "358",
         "hs": "6",
         "total": "364",
-        "against": "XXX Dancers"
+        "against": "XXX Dancers",
+        "currentAve": 224.0,
+        "totalPins": 1792,
+        "games": 8,
+        "changeInAve": -12.3333
       },
       {
         "week": 7,
@@ -6770,7 +8875,11 @@
         "ss": "336",
         "hs": "24",
         "total": "360",
-        "against": "Guess Who"
+        "against": "Guess Who",
+        "currentAve": 211.4,
+        "totalPins": 2114,
+        "games": 10,
+        "changeInAve": -12.6
       },
       {
         "week": 8,
@@ -6781,7 +8890,11 @@
         "ss": "473",
         "hs": "34",
         "total": "507",
-        "against": "Top Gun"
+        "against": "Top Gun",
+        "currentAve": 226.1667,
+        "totalPins": 2714,
+        "games": 12,
+        "changeInAve": 14.7667
       },
       {
         "week": 9,
@@ -6792,7 +8905,11 @@
         "ss": "440",
         "hs": "34",
         "total": "474",
-        "against": "Spare Me"
+        "against": "Spare Me",
+        "currentAve": 227.4286,
+        "totalPins": 3184,
+        "games": 14,
+        "changeInAve": 1.2619
       },
       {
         "week": 10,
@@ -6803,7 +8920,11 @@
         "ss": "457",
         "hs": "30",
         "total": "487",
-        "against": "Strike a Pose"
+        "against": "Strike a Pose",
+        "currentAve": 225.0,
+        "totalPins": 3600,
+        "games": 16,
+        "changeInAve": -2.4286
       },
       {
         "week": 11,
@@ -6814,7 +8935,11 @@
         "ss": "450",
         "hs": "24",
         "total": "474",
-        "against": "Lane Violation"
+        "against": "Lane Violation",
+        "currentAve": 225.0,
+        "totalPins": 4050,
+        "games": 18,
+        "changeInAve": 0.0
       },
       {
         "week": 12,
@@ -6825,7 +8950,11 @@
         "ss": "391",
         "hs": "20",
         "total": "411",
-        "against": "Alias Smith and Godfrey"
+        "against": "Alias Smith and Godfrey",
+        "currentAve": 218.6,
+        "totalPins": 4372,
+        "games": 20,
+        "changeInAve": -6.4
       }
     ],
     "mw": "M",
@@ -6846,7 +8975,10 @@
         "ss": "326",
         "hs": "102",
         "total": "428",
-        "against": "D & A Lawn Care"
+        "against": "D & A Lawn Care",
+        "currentAve": 170.0,
+        "totalPins": 340,
+        "games": 2
       },
       {
         "week": 3,
@@ -6857,7 +8989,11 @@
         "ss": "309",
         "hs": "118",
         "total": "427",
-        "against": "Alias Smith and Godfrey"
+        "against": "Alias Smith and Godfrey",
+        "currentAve": 160.0,
+        "totalPins": 640,
+        "games": 4,
+        "changeInAve": -10.0
       },
       {
         "week": 4,
@@ -6868,7 +9004,11 @@
         "ss": "296",
         "hs": "118",
         "total": "414",
-        "against": "Lane Violation"
+        "against": "Lane Violation",
+        "currentAve": 163.0,
+        "totalPins": 978,
+        "games": 6,
+        "changeInAve": 3.0
       },
       {
         "week": 5,
@@ -6879,7 +9019,11 @@
         "ss": "360",
         "hs": "122",
         "total": "482",
-        "against": "Strike a Pose"
+        "against": "Strike a Pose",
+        "currentAve": 163.5,
+        "totalPins": 1308,
+        "games": 8,
+        "changeInAve": 0.5
       },
       {
         "week": 6,
@@ -6890,7 +9034,11 @@
         "ss": "348",
         "hs": "110",
         "total": "458",
-        "against": "1 Mor"
+        "against": "1 Mor",
+        "currentAve": 158.0,
+        "totalPins": 1580,
+        "games": 10,
+        "changeInAve": -5.5
       },
       {
         "week": 7,
@@ -6901,7 +9049,11 @@
         "ss": "384",
         "hs": "108",
         "total": "492",
-        "against": "Bad Attitude"
+        "against": "Bad Attitude",
+        "currentAve": 158.0,
+        "totalPins": 1896,
+        "games": 12,
+        "changeInAve": 0.0
       },
       {
         "week": 8,
@@ -6912,7 +9064,11 @@
         "ss": "378",
         "hs": "98",
         "total": "476",
-        "against": "D & A Lawn Care"
+        "against": "D & A Lawn Care",
+        "currentAve": 159.2857,
+        "totalPins": 2230,
+        "games": 14,
+        "changeInAve": 1.2857
       },
       {
         "week": 9,
@@ -6923,7 +9079,11 @@
         "ss": "335",
         "hs": "98",
         "total": "433",
-        "against": "Splits-n-Giggles"
+        "against": "Splits-n-Giggles",
+        "currentAve": 162.25,
+        "totalPins": 2596,
+        "games": 16,
+        "changeInAve": 2.9643
       },
       {
         "week": 10,
@@ -6934,7 +9094,11 @@
         "ss": "381",
         "hs": "98",
         "total": "479",
-        "against": "Frickin Ten Pin"
+        "against": "Frickin Ten Pin",
+        "currentAve": 166.7778,
+        "totalPins": 3002,
+        "games": 18,
+        "changeInAve": 4.5278
       },
       {
         "week": 11,
@@ -6945,7 +9109,11 @@
         "ss": "313",
         "hs": "92",
         "total": "405",
-        "against": "Splatters2"
+        "against": "Splatters2",
+        "currentAve": 167.9,
+        "totalPins": 3358,
+        "games": 20,
+        "changeInAve": 1.1222
       },
       {
         "week": 12,
@@ -6956,7 +9124,11 @@
         "ss": "331",
         "hs": "94",
         "total": "425",
-        "against": "Barely Bowling"
+        "against": "Barely Bowling",
+        "currentAve": 169.0909,
+        "totalPins": 3720,
+        "games": 22,
+        "changeInAve": 1.1909
       }
     ],
     "mw": "M",
@@ -6977,7 +9149,10 @@
         "ss": "262",
         "hs": "160",
         "total": "422",
-        "against": "Splits-n-Giggles"
+        "against": "Splits-n-Giggles",
+        "currentAve": 116.0,
+        "totalPins": 232,
+        "games": 2
       },
       {
         "week": 4,
@@ -6988,7 +9163,11 @@
         "ss": "290",
         "hs": "160",
         "total": "450",
-        "against": "I am Root"
+        "against": "I am Root",
+        "currentAve": 124.0,
+        "totalPins": 496,
+        "games": 4,
+        "changeInAve": 8.0
       },
       {
         "week": 6,
@@ -6999,7 +9178,11 @@
         "ss": "245",
         "hs": "146",
         "total": "391",
-        "against": "Strike a Pose"
+        "against": "Strike a Pose",
+        "currentAve": 123.0,
+        "totalPins": 738,
+        "games": 6,
+        "changeInAve": -1.0
       },
       {
         "week": 7,
@@ -7010,7 +9193,11 @@
         "ss": "362",
         "hs": "158",
         "total": "520",
-        "against": "Splatters2"
+        "against": "Splatters2",
+        "currentAve": 134.5,
+        "totalPins": 1076,
+        "games": 8,
+        "changeInAve": 11.5
       },
       {
         "week": 10,
@@ -7021,7 +9208,11 @@
         "ss": "332",
         "hs": "136",
         "total": "468",
-        "against": "Shoe Throwin Mad"
+        "against": "Shoe Throwin Mad",
+        "currentAve": 140.4,
+        "totalPins": 1404,
+        "games": 10,
+        "changeInAve": 5.9
       },
       {
         "week": 11,
@@ -7032,7 +9223,11 @@
         "ss": "314",
         "hs": "126",
         "total": "440",
-        "against": "Backstabbers"
+        "against": "Backstabbers",
+        "currentAve": 139.6667,
+        "totalPins": 1676,
+        "games": 12,
+        "changeInAve": -0.7333
       }
     ],
     "mw": "M",
@@ -7053,7 +9248,10 @@
         "ss": "198",
         "hs": "216",
         "total": "414",
-        "against": "Strike a Pose"
+        "against": "Strike a Pose",
+        "currentAve": 87.0,
+        "totalPins": 174,
+        "games": 2
       },
       {
         "week": 3,
@@ -7064,7 +9262,11 @@
         "ss": "223",
         "hs": "234",
         "total": "457",
-        "against": "Sandbaggers"
+        "against": "Sandbaggers",
+        "currentAve": 105.5,
+        "totalPins": 422,
+        "games": 4,
+        "changeInAve": 18.5
       },
       {
         "week": 4,
@@ -7075,7 +9277,11 @@
         "ss": "229",
         "hs": "220",
         "total": "449",
-        "against": "Alias Smith and Godfrey"
+        "against": "Alias Smith and Godfrey",
+        "currentAve": 115.0,
+        "totalPins": 690,
+        "games": 6,
+        "changeInAve": 9.5
       },
       {
         "week": 5,
@@ -7086,7 +9292,11 @@
         "ss": "169",
         "hs": "214",
         "total": "383",
-        "against": "Lane Violation"
+        "against": "Lane Violation",
+        "currentAve": 105.0,
+        "totalPins": 840,
+        "games": 8,
+        "changeInAve": -10.0
       },
       {
         "week": 6,
@@ -7097,7 +9307,11 @@
         "ss": "213",
         "hs": "218",
         "total": "431",
-        "against": "Bad Attitude"
+        "against": "Bad Attitude",
+        "currentAve": 106.6,
+        "totalPins": 1066,
+        "games": 10,
+        "changeInAve": 1.6
       },
       {
         "week": 7,
@@ -7108,7 +9322,11 @@
         "ss": "229",
         "hs": "216",
         "total": "445",
-        "against": "Engineering Strikes"
+        "against": "Engineering Strikes",
+        "currentAve": 110.3333,
+        "totalPins": 1324,
+        "games": 12,
+        "changeInAve": 3.7333
       },
       {
         "week": 8,
@@ -7119,7 +9337,11 @@
         "ss": "288",
         "hs": "214",
         "total": "502",
-        "against": "Strike a Pose"
+        "against": "Strike a Pose",
+        "currentAve": 112.8571,
+        "totalPins": 1580,
+        "games": 14,
+        "changeInAve": 2.5238
       },
       {
         "week": 9,
@@ -7130,7 +9352,11 @@
         "ss": "0",
         "hs": "396",
         "total": "396",
-        "against": "Craptastic"
+        "against": "Craptastic",
+        "currentAve": 110.125,
+        "totalPins": 1762,
+        "games": 16,
+        "changeInAve": -2.7321
       },
       {
         "week": 10,
@@ -7141,7 +9367,11 @@
         "ss": "0",
         "hs": "396",
         "total": "396",
-        "against": "We Don't Give A Split"
+        "against": "We Don't Give A Split",
+        "currentAve": 108.0,
+        "totalPins": 1944,
+        "games": 18,
+        "changeInAve": -2.125
       },
       {
         "week": 11,
@@ -7152,7 +9382,11 @@
         "ss": "187",
         "hs": "214",
         "total": "401",
-        "against": "Frickin Ten Pin"
+        "against": "Frickin Ten Pin",
+        "currentAve": 106.1,
+        "totalPins": 2122,
+        "games": 20,
+        "changeInAve": -1.9
       },
       {
         "week": 12,
@@ -7163,7 +9397,11 @@
         "ss": "0",
         "hs": "396",
         "total": "396",
-        "against": "Splatters2"
+        "against": "Splatters2",
+        "currentAve": 104.6364,
+        "totalPins": 2302,
+        "games": 22,
+        "changeInAve": -1.4636
       }
     ],
     "mw": "W",
@@ -7184,7 +9422,10 @@
         "ss": "272",
         "hs": "214",
         "total": "486",
-        "against": "Roll Clones"
+        "against": "Roll Clones",
+        "currentAve": 102.0,
+        "totalPins": 204,
+        "games": 2
       },
       {
         "week": 5,
@@ -7195,7 +9436,11 @@
         "ss": "295",
         "hs": "182",
         "total": "477",
-        "against": "Craptastic"
+        "against": "Craptastic",
+        "currentAve": 136.5,
+        "totalPins": 546,
+        "games": 4,
+        "changeInAve": 34.5
       },
       {
         "week": 7,
@@ -7206,7 +9451,11 @@
         "ss": "232",
         "hs": "164",
         "total": "396",
-        "against": "Lane Violation"
+        "against": "Lane Violation",
+        "currentAve": 125.3333,
+        "totalPins": 752,
+        "games": 6,
+        "changeInAve": -11.1667
       },
       {
         "week": 9,
@@ -7217,7 +9466,11 @@
         "ss": "239",
         "hs": "170",
         "total": "409",
-        "against": "Alias Smith and Godfrey"
+        "against": "Alias Smith and Godfrey",
+        "currentAve": 123.5,
+        "totalPins": 988,
+        "games": 8,
+        "changeInAve": -1.8333
       },
       {
         "week": 11,
@@ -7228,7 +9481,11 @@
         "ss": "240",
         "hs": "172",
         "total": "412",
-        "against": "Spare Me"
+        "against": "Spare Me",
+        "currentAve": 122.6,
+        "totalPins": 1226,
+        "games": 10,
+        "changeInAve": -0.9
       }
     ],
     "mw": "W",
@@ -7249,7 +9506,10 @@
         "ss": "343",
         "hs": "88",
         "total": "431",
-        "against": "Spare Me"
+        "against": "Spare Me",
+        "currentAve": 193.0,
+        "totalPins": 386,
+        "games": 2
       },
       {
         "week": 3,
@@ -7260,7 +9520,11 @@
         "ss": "333",
         "hs": "74",
         "total": "407",
-        "against": "The Munsons"
+        "against": "The Munsons",
+        "currentAve": 179.0,
+        "totalPins": 716,
+        "games": 4,
+        "changeInAve": -14.0
       },
       {
         "week": 4,
@@ -7271,7 +9535,11 @@
         "ss": "292",
         "hs": "82",
         "total": "374",
-        "against": "Backstabbers"
+        "against": "Backstabbers",
+        "currentAve": 163.3333,
+        "totalPins": 980,
+        "games": 6,
+        "changeInAve": -15.6667
       },
       {
         "week": 5,
@@ -7282,7 +9550,11 @@
         "ss": "388",
         "hs": "94",
         "total": "482",
-        "against": "Shoe Throwin Mad"
+        "against": "Shoe Throwin Mad",
+        "currentAve": 169.5,
+        "totalPins": 1356,
+        "games": 8,
+        "changeInAve": 6.1667
       },
       {
         "week": 6,
@@ -7293,7 +9565,11 @@
         "ss": "372",
         "hs": "86",
         "total": "458",
-        "against": "XXX Dancers"
+        "against": "XXX Dancers",
+        "currentAve": 175.6,
+        "totalPins": 1756,
+        "games": 10,
+        "changeInAve": 6.1
       },
       {
         "week": 7,
@@ -7304,7 +9580,11 @@
         "ss": "333",
         "hs": "82",
         "total": "415",
-        "against": "Splits-n-Giggles"
+        "against": "Splits-n-Giggles",
+        "currentAve": 176.1667,
+        "totalPins": 2114,
+        "games": 12,
+        "changeInAve": 0.5667
       },
       {
         "week": 8,
@@ -7315,7 +9595,11 @@
         "ss": "321",
         "hs": "84",
         "total": "405",
-        "against": "Spare Me"
+        "against": "Spare Me",
+        "currentAve": 172.5714,
+        "totalPins": 2416,
+        "games": 14,
+        "changeInAve": -3.5953
       },
       {
         "week": 9,
@@ -7326,7 +9610,11 @@
         "ss": "385",
         "hs": "84",
         "total": "469",
-        "against": "1 Mor"
+        "against": "1 Mor",
+        "currentAve": 174.0,
+        "totalPins": 2784,
+        "games": 16,
+        "changeInAve": 1.4286
       },
       {
         "week": 10,
@@ -7337,7 +9625,11 @@
         "ss": "408",
         "hs": "80",
         "total": "488",
-        "against": "Guess Who"
+        "against": "Guess Who",
+        "currentAve": 178.5556,
+        "totalPins": 3214,
+        "games": 18,
+        "changeInAve": 4.5556
       },
       {
         "week": 11,
@@ -7348,7 +9640,11 @@
         "ss": "362",
         "hs": "72",
         "total": "434",
-        "against": "L.O.F.T"
+        "against": "L.O.F.T",
+        "currentAve": 175.4,
+        "totalPins": 3508,
+        "games": 20,
+        "changeInAve": -3.1556
       },
       {
         "week": 12,
@@ -7359,7 +9655,11 @@
         "ss": "428",
         "hs": "72",
         "total": "500",
-        "against": "Rick Rollers"
+        "against": "Rick Rollers",
+        "currentAve": 177.9091,
+        "totalPins": 3914,
+        "games": 22,
+        "changeInAve": 2.5091
       }
     ],
     "mw": "M",
@@ -7380,7 +9680,10 @@
         "ss": "324",
         "hs": "104",
         "total": "428",
-        "against": "Sandbaggers"
+        "against": "Sandbaggers",
+        "currentAve": 146.0,
+        "totalPins": 292,
+        "games": 2
       },
       {
         "week": 3,
@@ -7391,7 +9694,11 @@
         "ss": "333",
         "hs": "142",
         "total": "475",
-        "against": "Lane Violation"
+        "against": "Lane Violation",
+        "currentAve": 162.5,
+        "totalPins": 650,
+        "games": 4,
+        "changeInAve": 16.5
       },
       {
         "week": 4,
@@ -7402,7 +9709,11 @@
         "ss": "327",
         "hs": "126",
         "total": "453",
-        "against": "Strike a Pose"
+        "against": "Strike a Pose",
+        "currentAve": 172.0,
+        "totalPins": 1032,
+        "games": 6,
+        "changeInAve": 9.5
       },
       {
         "week": 5,
@@ -7413,7 +9724,11 @@
         "ss": "311",
         "hs": "120",
         "total": "431",
-        "against": "D & A Lawn Care"
+        "against": "D & A Lawn Care",
+        "currentAve": 168.25,
+        "totalPins": 1346,
+        "games": 8,
+        "changeInAve": -3.75
       },
       {
         "week": 6,
@@ -7424,7 +9739,11 @@
         "ss": "251",
         "hs": "120",
         "total": "371",
-        "against": "I am Root"
+        "against": "I am Root",
+        "currentAve": 159.6,
+        "totalPins": 1596,
+        "games": 10,
+        "changeInAve": -8.65
       },
       {
         "week": 9,
@@ -7435,7 +9754,11 @@
         "ss": "258",
         "hs": "128",
         "total": "386",
-        "against": "XXX Dancers"
+        "against": "XXX Dancers",
+        "currentAve": 157.1667,
+        "totalPins": 1886,
+        "games": 12,
+        "changeInAve": -2.4333
       },
       {
         "week": 10,
@@ -7446,7 +9769,11 @@
         "ss": "226",
         "hs": "132",
         "total": "358",
-        "against": "Splatters2"
+        "against": "Splatters2",
+        "currentAve": 152.1429,
+        "totalPins": 2130,
+        "games": 14,
+        "changeInAve": -5.0238
       },
       {
         "week": 11,
@@ -7457,7 +9784,11 @@
         "ss": "332",
         "hs": "142",
         "total": "474",
-        "against": "Barely Bowling"
+        "against": "Barely Bowling",
+        "currentAve": 154.625,
+        "totalPins": 2474,
+        "games": 16,
+        "changeInAve": 2.4821
       },
       {
         "week": 12,
@@ -7468,7 +9799,11 @@
         "ss": "307",
         "hs": "136",
         "total": "443",
-        "against": "MoJo"
+        "against": "MoJo",
+        "currentAve": 154.5556,
+        "totalPins": 2782,
+        "games": 18,
+        "changeInAve": -0.0694
       }
     ],
     "mw": "M",
@@ -7489,7 +9824,10 @@
         "ss": "280",
         "hs": "144",
         "total": "424",
-        "against": "SPAM"
+        "against": "SPAM",
+        "currentAve": 148.0,
+        "totalPins": 296,
+        "games": 2
       },
       {
         "week": 3,
@@ -7500,7 +9838,11 @@
         "ss": "315",
         "hs": "162",
         "total": "477",
-        "against": "XXX Dancers"
+        "against": "XXX Dancers",
+        "currentAve": 136.5,
+        "totalPins": 546,
+        "games": 4,
+        "changeInAve": -11.5
       },
       {
         "week": 4,
@@ -7511,7 +9853,11 @@
         "ss": "406",
         "hs": "146",
         "total": "552",
-        "against": "Top Gun"
+        "against": "Top Gun",
+        "currentAve": 152.0,
+        "totalPins": 912,
+        "games": 6,
+        "changeInAve": 15.5
       },
       {
         "week": 5,
@@ -7522,7 +9868,11 @@
         "ss": "273",
         "hs": "118",
         "total": "391",
-        "against": "Engineering Strikes"
+        "against": "Engineering Strikes",
+        "currentAve": 147.0,
+        "totalPins": 1176,
+        "games": 8,
+        "changeInAve": -5.0
       },
       {
         "week": 6,
@@ -7533,7 +9883,11 @@
         "ss": "299",
         "hs": "124",
         "total": "423",
-        "against": "The Munsons"
+        "against": "The Munsons",
+        "currentAve": 145.4,
+        "totalPins": 1454,
+        "games": 10,
+        "changeInAve": -1.6
       },
       {
         "week": 7,
@@ -7544,7 +9898,11 @@
         "ss": "332",
         "hs": "126",
         "total": "458",
-        "against": "Split Happens"
+        "against": "Split Happens",
+        "currentAve": 143.1667,
+        "totalPins": 1718,
+        "games": 12,
+        "changeInAve": -2.2333
       },
       {
         "week": 8,
@@ -7555,7 +9913,11 @@
         "ss": "481",
         "hs": "120",
         "total": "601",
-        "against": "SPAM"
+        "against": "SPAM",
+        "currentAve": 156.0,
+        "totalPins": 2184,
+        "games": 14,
+        "changeInAve": 12.8333
       },
       {
         "week": 9,
@@ -7566,7 +9928,11 @@
         "ss": "393",
         "hs": "120",
         "total": "513",
-        "against": "Rick Rollers"
+        "against": "Rick Rollers",
+        "currentAve": 159.0,
+        "totalPins": 2544,
+        "games": 16,
+        "changeInAve": 3.0
       },
       {
         "week": 10,
@@ -7577,7 +9943,11 @@
         "ss": "350",
         "hs": "110",
         "total": "460",
-        "against": "Sandbaggers"
+        "against": "Sandbaggers",
+        "currentAve": 158.0,
+        "totalPins": 2844,
+        "games": 18,
+        "changeInAve": -1.0
       },
       {
         "week": 11,
@@ -7588,7 +9958,11 @@
         "ss": "370",
         "hs": "108",
         "total": "478",
-        "against": "D & A Lawn Care"
+        "against": "D & A Lawn Care",
+        "currentAve": 162.3,
+        "totalPins": 3246,
+        "games": 20,
+        "changeInAve": 4.3
       },
       {
         "week": 12,
@@ -7599,7 +9973,11 @@
         "ss": "372",
         "hs": "104",
         "total": "476",
-        "against": "Strike a Pose"
+        "against": "Strike a Pose",
+        "currentAve": 165.7273,
+        "totalPins": 3646,
+        "games": 22,
+        "changeInAve": 3.4273
       }
     ],
     "mw": "M",
@@ -7620,7 +9998,10 @@
         "ss": "0",
         "hs": "260",
         "total": "260",
-        "against": "MoJo"
+        "against": "MoJo",
+        "currentAve": 130.0,
+        "totalPins": 260,
+        "games": 2
       },
       {
         "week": 4,
@@ -7631,7 +10012,11 @@
         "ss": "310",
         "hs": "162",
         "total": "472",
-        "against": "Frickin Ten Pin"
+        "against": "Frickin Ten Pin",
+        "currentAve": 135.5,
+        "totalPins": 542,
+        "games": 4,
+        "changeInAve": 5.5
       },
       {
         "week": 5,
@@ -7642,7 +10027,11 @@
         "ss": "318",
         "hs": "140",
         "total": "458",
-        "against": "We Don't Give A Split"
+        "against": "We Don't Give A Split",
+        "currentAve": 147.6667,
+        "totalPins": 886,
+        "games": 6,
+        "changeInAve": 12.1667
       },
       {
         "week": 6,
@@ -7653,7 +10042,11 @@
         "ss": "360",
         "hs": "128",
         "total": "488",
-        "against": "Guess Who"
+        "against": "Guess Who",
+        "currentAve": 150.75,
+        "totalPins": 1206,
+        "games": 8,
+        "changeInAve": 3.0833
       },
       {
         "week": 7,
@@ -7664,7 +10057,11 @@
         "ss": "263",
         "hs": "114",
         "total": "377",
-        "against": "L.O.F.T"
+        "against": "L.O.F.T",
+        "currentAve": 147.6,
+        "totalPins": 1476,
+        "games": 10,
+        "changeInAve": -3.15
       },
       {
         "week": 9,
@@ -7675,7 +10072,11 @@
         "ss": "296",
         "hs": "124",
         "total": "420",
-        "against": "Shoe Throwin Mad"
+        "against": "Shoe Throwin Mad",
+        "currentAve": 145.6667,
+        "totalPins": 1748,
+        "games": 12,
+        "changeInAve": -1.9333
       },
       {
         "week": 10,
@@ -7686,7 +10087,11 @@
         "ss": "295",
         "hs": "126",
         "total": "421",
-        "against": "XXX Dancers"
+        "against": "XXX Dancers",
+        "currentAve": 145.0,
+        "totalPins": 2030,
+        "games": 14,
+        "changeInAve": -0.6667
       },
       {
         "week": 11,
@@ -7697,7 +10102,11 @@
         "ss": "268",
         "hs": "126",
         "total": "394",
-        "against": "Top Gun"
+        "against": "Top Gun",
+        "currentAve": 143.375,
+        "totalPins": 2294,
+        "games": 16,
+        "changeInAve": -1.625
       },
       {
         "week": 12,
@@ -7708,7 +10117,11 @@
         "ss": "0",
         "hs": "404",
         "total": "404",
-        "against": "Engineering Strikes"
+        "against": "Engineering Strikes",
+        "currentAve": 142.7778,
+        "totalPins": 2570,
+        "games": 18,
+        "changeInAve": -0.5972
       }
     ],
     "mw": "M",
@@ -7729,7 +10142,10 @@
         "ss": "364",
         "hs": "68",
         "total": "432",
-        "against": "Roll Clones"
+        "against": "Roll Clones",
+        "currentAve": 191.0,
+        "totalPins": 382,
+        "games": 2
       },
       {
         "week": 3,
@@ -7740,7 +10156,11 @@
         "ss": "299",
         "hs": "82",
         "total": "381",
-        "against": "Splits-n-Giggles"
+        "against": "Splits-n-Giggles",
+        "currentAve": 172.0,
+        "totalPins": 688,
+        "games": 4,
+        "changeInAve": -19.0
       },
       {
         "week": 5,
@@ -7751,7 +10171,11 @@
         "ss": "422",
         "hs": "98",
         "total": "520",
-        "against": "1 Mor"
+        "against": "1 Mor",
+        "currentAve": 190.0,
+        "totalPins": 1140,
+        "games": 6,
+        "changeInAve": 18.0
       },
       {
         "week": 10,
@@ -7762,7 +10186,11 @@
         "ss": "392",
         "hs": "76",
         "total": "468",
-        "against": "Shoe Throwin Mad"
+        "against": "Shoe Throwin Mad",
+        "currentAve": 190.5,
+        "totalPins": 1524,
+        "games": 8,
+        "changeInAve": 0.5
       },
       {
         "week": 12,
@@ -7773,7 +10201,11 @@
         "ss": "323",
         "hs": "72",
         "total": "395",
-        "against": "The Munsons"
+        "against": "The Munsons",
+        "currentAve": 181.8,
+        "totalPins": 1818,
+        "games": 10,
+        "changeInAve": -8.7
       }
     ],
     "mw": "M",
