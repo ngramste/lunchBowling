@@ -1,0 +1,447 @@
+[
+  {
+    "name": "Whitney Bacon",
+    "drop": 0,
+    "mw": "W"
+  },
+  {
+    "name": "Tracy Bell",
+    "drop": -9.0,
+    "mw": "M"
+  },
+  {
+    "name": "Chris Boeding",
+    "drop": -3.5833,
+    "mw": "M"
+  },
+  {
+    "name": "Drew Burkhardt",
+    "drop": -23.0,
+    "mw": "M"
+  },
+  {
+    "name": "Bob Buschette",
+    "drop": -16.0,
+    "mw": "M"
+  },
+  {
+    "name": "Dana Canfield",
+    "drop": 0,
+    "mw": "W"
+  },
+  {
+    "name": "Cory Chandler",
+    "drop": -17.1667,
+    "mw": "M"
+  },
+  {
+    "name": "Roland Cohagen",
+    "drop": -10.0,
+    "mw": "W"
+  },
+  {
+    "name": "Jason Cray",
+    "drop": 0,
+    "mw": "M"
+  },
+  {
+    "name": "Neal Crooks",
+    "drop": 0,
+    "mw": "M"
+  },
+  {
+    "name": "Lonny Curry",
+    "drop": -6.9667,
+    "mw": "M"
+  },
+  {
+    "name": "Matthew Dahm",
+    "drop": -32.5,
+    "mw": "M"
+  },
+  {
+    "name": "Jaden Defields",
+    "drop": 0,
+    "mw": "M"
+  },
+  {
+    "name": "Chris Degroot",
+    "drop": -4.7667,
+    "mw": "M"
+  },
+  {
+    "name": "Gene Dooley",
+    "drop": 0,
+    "mw": "U"
+  },
+  {
+    "name": "Michael Dooley",
+    "drop": -26.5,
+    "mw": "M"
+  },
+  {
+    "name": "Ryan Edwards",
+    "drop": -22.5,
+    "mw": "M"
+  },
+  {
+    "name": "Kyle Ellis",
+    "drop": -20.0,
+    "mw": "M"
+  },
+  {
+    "name": "Cynthia Faas",
+    "drop": -11.5,
+    "mw": "W"
+  },
+  {
+    "name": "Sarah Fettkether",
+    "drop": 0,
+    "mw": "W"
+  },
+  {
+    "name": "Aaron Fitzgerald",
+    "drop": 0,
+    "mw": "M"
+  },
+  {
+    "name": "John Gabrielson",
+    "drop": -7.6,
+    "mw": "M"
+  },
+  {
+    "name": "Bob Geesaman",
+    "drop": -4.9821,
+    "mw": "M"
+  },
+  {
+    "name": "Heidi Godfrey",
+    "drop": -13.0,
+    "mw": "W"
+  },
+  {
+    "name": "Mark Godfrey",
+    "drop": -1.9,
+    "mw": "M"
+  },
+  {
+    "name": "Christine Griffin",
+    "drop": -3.1667,
+    "mw": "W"
+  },
+  {
+    "name": "Ray Harken",
+    "drop": -10.0,
+    "mw": "M"
+  },
+  {
+    "name": "Allison Hecker",
+    "drop": -6.25,
+    "mw": "W"
+  },
+  {
+    "name": "Ken Hecker",
+    "drop": -24.5,
+    "mw": "M"
+  },
+  {
+    "name": "Justin Herbrand",
+    "drop": -20.0,
+    "mw": "M"
+  },
+  {
+    "name": "Ryan Hunt",
+    "drop": -6.0,
+    "mw": "M"
+  },
+  {
+    "name": "Adam Kaas",
+    "drop": -7.3333,
+    "mw": "M"
+  },
+  {
+    "name": "Heidi Kaas",
+    "drop": -3.2639,
+    "mw": "W"
+  },
+  {
+    "name": "Anthony Karl",
+    "drop": 0,
+    "mw": "M"
+  },
+  {
+    "name": "Dean Karl",
+    "drop": -2.1964,
+    "mw": "M"
+  },
+  {
+    "name": "Jessica Karlen",
+    "drop": -15.5,
+    "mw": "W"
+  },
+  {
+    "name": "Matthew Karlen",
+    "drop": -13.0,
+    "mw": "M"
+  },
+  {
+    "name": "Lauren Korber",
+    "drop": 0,
+    "mw": "W"
+  },
+  {
+    "name": "Reed Kovach",
+    "drop": -19.0,
+    "mw": "M"
+  },
+  {
+    "name": "Kerry Kupka",
+    "drop": -3.15,
+    "mw": "M"
+  },
+  {
+    "name": "Jason Lampe",
+    "drop": -1.9444,
+    "mw": "M"
+  },
+  {
+    "name": "Brian Lawless",
+    "drop": -12.0,
+    "mw": "M"
+  },
+  {
+    "name": "Dave Leedom",
+    "drop": -5.0,
+    "mw": "M"
+  },
+  {
+    "name": "Connor Levine",
+    "drop": 0,
+    "mw": "M"
+  },
+  {
+    "name": "Kevin Maruga",
+    "drop": -5.8333,
+    "mw": "M"
+  },
+  {
+    "name": "Michael McDowell",
+    "drop": 0,
+    "mw": "M"
+  },
+  {
+    "name": "Adam Michaelis",
+    "drop": -4.6333,
+    "mw": "M"
+  },
+  {
+    "name": "Melissa Mitchell",
+    "drop": -12.0,
+    "mw": "W"
+  },
+  {
+    "name": "Andrew Moffat",
+    "drop": -8.0,
+    "mw": "M"
+  },
+  {
+    "name": "Brandon Mord",
+    "drop": -29.0,
+    "mw": "U"
+  },
+  {
+    "name": "Tyler Mosset",
+    "drop": -2.3333,
+    "mw": "M"
+  },
+  {
+    "name": "Katie Nance",
+    "drop": -3.25,
+    "mw": "W"
+  },
+  {
+    "name": "Jacob Newsom",
+    "drop": -16.3333,
+    "mw": "M"
+  },
+  {
+    "name": "Chad Nielsen",
+    "drop": -25.0,
+    "mw": "M"
+  },
+  {
+    "name": "Mike Olson",
+    "drop": -17.0,
+    "mw": "M"
+  },
+  {
+    "name": "Joe Paffrath",
+    "drop": -27.0,
+    "mw": "U"
+  },
+  {
+    "name": "Steve Patton",
+    "drop": 0,
+    "mw": "M"
+  },
+  {
+    "name": "Tom Petersen",
+    "drop": -0.3333,
+    "mw": "M"
+  },
+  {
+    "name": "Nick Ramstead",
+    "drop": -10.0,
+    "mw": "M"
+  },
+  {
+    "name": "John Reddersen",
+    "drop": -1.65,
+    "mw": "M"
+  },
+  {
+    "name": "Scot Reed",
+    "drop": -10.5,
+    "mw": "M"
+  },
+  {
+    "name": "Bradley Rhein",
+    "drop": -1.4,
+    "mw": "U"
+  },
+  {
+    "name": "Brad Roggow",
+    "drop": -5.5,
+    "mw": "M"
+  },
+  {
+    "name": "Dan Roggow",
+    "drop": -3.9167,
+    "mw": "M"
+  },
+  {
+    "name": "Isaac Schlichtemeier",
+    "drop": 0,
+    "mw": "M"
+  },
+  {
+    "name": "Derek Schmidt",
+    "drop": -2.5,
+    "mw": "M"
+  },
+  {
+    "name": "Kelly Seeley",
+    "drop": -1.0,
+    "mw": "W"
+  },
+  {
+    "name": "Kyle Setrum",
+    "drop": -23.0,
+    "mw": "M"
+  },
+  {
+    "name": "Mohammed Shamsi",
+    "drop": 0,
+    "mw": "M"
+  },
+  {
+    "name": "Brian Smith",
+    "drop": -5.5,
+    "mw": "M"
+  },
+  {
+    "name": "Debbie Smith",
+    "drop": -8.35,
+    "mw": "W"
+  },
+  {
+    "name": "Perry Smith",
+    "drop": -22.1667,
+    "mw": "M"
+  },
+  {
+    "name": "Ryan Smith",
+    "drop": 0,
+    "mw": "M"
+  },
+  {
+    "name": "Stan Smith",
+    "drop": -4.4,
+    "mw": "M"
+  },
+  {
+    "name": "Clifton Somers",
+    "drop": -48.0,
+    "mw": "M"
+  },
+  {
+    "name": "Andy Spencer",
+    "drop": -14.0,
+    "mw": "M"
+  },
+  {
+    "name": "Gary Spiess",
+    "drop": -9.1667,
+    "mw": "M"
+  },
+  {
+    "name": "Rebekah Staub",
+    "drop": -11.0,
+    "mw": "W"
+  },
+  {
+    "name": "Justin Strong",
+    "drop": 0,
+    "mw": "M"
+  },
+  {
+    "name": "Ryan Tew",
+    "drop": -13.0,
+    "mw": "M"
+  },
+  {
+    "name": "Andy Thielen",
+    "drop": -10.0,
+    "mw": "M"
+  },
+  {
+    "name": "Nick Trent",
+    "drop": -1.0,
+    "mw": "M"
+  },
+  {
+    "name": "Liz Underwood",
+    "drop": -10.0,
+    "mw": "W"
+  },
+  {
+    "name": "Jackie Vangilder",
+    "drop": -11.1667,
+    "mw": "W"
+  },
+  {
+    "name": "Scott Voyek",
+    "drop": -15.6667,
+    "mw": "M"
+  },
+  {
+    "name": "Chance Webster",
+    "drop": -8.65,
+    "mw": "M"
+  },
+  {
+    "name": "Chad Weldon",
+    "drop": -11.5,
+    "mw": "M"
+  },
+  {
+    "name": "David Wilkinson",
+    "drop": -3.15,
+    "mw": "M"
+  },
+  {
+    "name": "Henry Yost",
+    "drop": -19.0,
+    "mw": "M"
+  }
+]
