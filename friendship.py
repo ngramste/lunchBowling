@@ -42,3 +42,7 @@ for team in teams:
 
 print("Friendly Team: " + " and ".join(friendTeam) + ", " + str(friendScore))
 print("Meanie Team: " + ":".join(meanTeam) + ", " + str(meanScore))
+
+fd = open(c.DATA_FOLDER + "friendship.json", "w")
+fd.write(json.dumps(teams))
+fd.close()
