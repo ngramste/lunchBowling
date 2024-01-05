@@ -24,24 +24,25 @@ for bowler in report:
   
 # -------------- Find the larget drop in averages -------------- #
 
-men = {'name': '', 'drop': 0.0}
-women = {'name': '', 'drop': 0.0}
+men = {'name': '', 'drop': 300}
+women = {'name': '', 'drop': 300}
 unknown = []
 all = []
 
 for bowler in report:
-    data = {'name': bowler, 'drop': 0}
+    data = {'name': bowler, 'drop': 300}
+    
+    if len(report[bowler]['weeks']) <= 1:
+      data['drop'] = 0
     
     if 'mw' not in report[bowler]:
       data['mw'] = 'U'
-      if len(report[bowler]['weeks']) > 0:
+      if len(report[bowler]['weeks']) > 1:
         for week in report[bowler]['weeks']:
           if 'changeInAve' in week:
             if week['changeInAve'] < data['drop']:
               data['drop'] = week['changeInAve']
         unknown.append(data)
-      else:
-        data['drop'] = 0
         
     elif report[bowler]['mw'] == 'M':
       data['mw'] = 'M'
