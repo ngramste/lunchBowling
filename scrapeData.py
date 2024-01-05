@@ -4,7 +4,7 @@ import pandas as pd
 import json
 from datetime import datetime
 
-errorLog = open("error.log", "a")
+errorLog = open("error.log", "w")
 
 # -------------- Get Bowler List -------------- #
 
@@ -55,6 +55,7 @@ for week in range(1,13):
       for bowlerIndex in range(0,2):
         try:
           bowler = tree.xpath('//table[@id="ctl00_MainContent_ctl02_RadGrid1_ctl00"]/tbody/tr/td[2]/a/text()')[bowlerIndex]
+          mw = tree.xpath('//table[@id="ctl00_MainContent_ctl02_RadGrid1_ctl00"]/tbody/tr/td[3]/text()')[bowlerIndex]
           avg = tree.xpath('//table[@id="ctl00_MainContent_ctl02_RadGrid1_ctl00"]/tbody/tr/td[4]/text()')[bowlerIndex]
           hcp = tree.xpath('//table[@id="ctl00_MainContent_ctl02_RadGrid1_ctl00"]/tbody/tr/td[5]/text()')[bowlerIndex]
           gm1 = tree.xpath('//table[@id="ctl00_MainContent_ctl02_RadGrid1_ctl00"]/tbody/tr/td[6]/text()')[bowlerIndex]
@@ -83,6 +84,7 @@ for week in range(1,13):
           weekStats['total'] = total
           weekStats['against'] = team
 
+          bowlerList[bowler]['mw'] = mw
           bowlerList[bowler]['weeks'].append(weekStats)
 
           if (bowlerList[bowler]['hsg'] == gm1 or bowlerList[bowler]['hsg'] == gm2):

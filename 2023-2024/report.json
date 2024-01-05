@@ -48,6 +48,7 @@
         "against": "Roll Clones"
       }
     ],
+    "mw": "W",
     "hsgTeam": "Roll Clones",
     "hssTeam": "Roll Clones"
   },
@@ -177,6 +178,7 @@
         "against": "We Don't Give A Split"
       }
     ],
+    "mw": "M",
     "hsgTeam": "Alias Smith and Godfrey",
     "hssTeam": "Sandbaggers"
   },
@@ -306,6 +308,7 @@
         "against": "Bad Attitude"
       }
     ],
+    "mw": "M",
     "hsgTeam": "Barely Bowling",
     "hssTeam": "The Outsiders"
   },
@@ -402,6 +405,7 @@
         "against": "Split Happens"
       }
     ],
+    "mw": "M",
     "hsgTeam": "Shoe Throwin Mad",
     "hssTeam": "Shoe Throwin Mad"
   },
@@ -520,6 +524,7 @@
         "against": "XXX Dancers"
       }
     ],
+    "mw": "M",
     "hssTeam": "MoJo",
     "hsgTeam": "L.O.F.T"
   },
@@ -561,6 +566,7 @@
         "against": "The Outsiders"
       }
     ],
+    "mw": "W",
     "hsgTeam": "Roll Clones",
     "hssTeam": "The Outsiders"
   },
@@ -635,6 +641,7 @@
         "against": "Top Gun"
       }
     ],
+    "mw": "M",
     "hsgTeam": "XXX Dancers",
     "hssTeam": "XXX Dancers"
   },
@@ -764,6 +771,7 @@
         "against": "Shoe Throwin Mad"
       }
     ],
+    "mw": "W",
     "hssTeam": "Spare Me",
     "hsgTeam": "Shoe Throwin Mad"
   },
@@ -783,6 +791,7 @@
         "against": "Lane Violation"
       }
     ],
+    "mw": "M",
     "hsgTeam": "Lane Violation",
     "hssTeam": "Lane Violation"
   },
@@ -813,6 +822,7 @@
         "against": "L.O.F.T"
       }
     ],
+    "mw": "M",
     "hsgTeam": "D & A Lawn Care",
     "hssTeam": "D & A Lawn Care"
   },
@@ -920,6 +930,7 @@
         "against": "Bob_Rossing It"
       }
     ],
+    "mw": "M",
     "hssTeam": "XXX Dancers",
     "hsgTeam": "Rick Rollers"
   },
@@ -972,6 +983,7 @@
         "against": "The Munsons"
       }
     ],
+    "mw": "M",
     "hsgTeam": "I am Root",
     "hssTeam": "MoJo"
   },
@@ -1001,7 +1013,8 @@
         "total": "424",
         "against": "Top Gun"
       }
-    ]
+    ],
+    "mw": "M"
   },
   "Chris Degroot": {
     "hsg": "258",
@@ -1118,6 +1131,7 @@
         "against": "Guess Who"
       }
     ],
+    "mw": "M",
     "hsgTeam": "Splits-n-Giggles",
     "hssTeam": "Top Gun"
   },
@@ -1219,6 +1233,7 @@
         "against": "Bob_Rossing It"
       }
     ],
+    "mw": "M",
     "hsgTeam": "Backstabbers",
     "hssTeam": "Backstabbers"
   },
@@ -1249,6 +1264,7 @@
         "against": "We Don't Give A Split"
       }
     ],
+    "mw": "M",
     "hsgTeam": "MoJo",
     "hssTeam": "MoJo"
   },
@@ -1323,6 +1339,7 @@
         "against": "Alias Smith and Godfrey"
       }
     ],
+    "mw": "M",
     "hsgTeam": "Guess Who",
     "hssTeam": "Guess Who"
   },
@@ -1364,6 +1381,7 @@
         "against": "The Munsons"
       }
     ],
+    "mw": "W",
     "hsgTeam": "D & A Lawn Care",
     "hssTeam": "The Munsons"
   },
@@ -1427,6 +1445,7 @@
         "against": "Spare Me"
       }
     ],
+    "mw": "W",
     "hssTeam": "The Outsiders",
     "hsgTeam": "Spare Me"
   },
@@ -1446,6 +1465,7 @@
         "against": "Sandbaggers"
       }
     ],
+    "mw": "M",
     "hsgTeam": "Sandbaggers",
     "hssTeam": "Sandbaggers"
   },
@@ -1520,6 +1540,7 @@
         "against": "Spare Me"
       }
     ],
+    "mw": "M",
     "hsgTeam": "Splatters2",
     "hssTeam": "Splatters2"
   },
@@ -1627,6 +1648,7 @@
         "against": "Barely Bowling"
       }
     ],
+    "mw": "M",
     "hsgTeam": "I am Root",
     "hssTeam": "I am Root"
   },
@@ -1756,6 +1778,7 @@
         "against": "The Outsiders"
       }
     ],
+    "mw": "W",
     "hssTeam": "Splits-n-Giggles",
     "hsgTeam": "Backstabbers"
   },
@@ -1885,6 +1908,7 @@
         "against": "L.O.F.T"
       }
     ],
+    "mw": "M",
     "hsgTeam": "The Munsons",
     "hssTeam": "L.O.F.T"
   },
@@ -1926,6 +1950,7 @@
         "against": "Splatters2"
       }
     ],
+    "mw": "W",
     "hsgTeam": "Frickin Ten Pin",
     "hssTeam": "Frickin Ten Pin"
   },
@@ -1967,6 +1992,7 @@
         "against": "D & A Lawn Care"
       }
     ],
+    "mw": "M",
     "hsgTeam": "Alias Smith and Godfrey",
     "hssTeam": "Alias Smith and Godfrey"
   },
@@ -2030,6 +2056,7 @@
         "against": "I am Root"
       }
     ],
+    "mw": "W",
     "hsgTeam": "Craptastic",
     "hssTeam": "Craptastic"
   },
@@ -2159,6 +2186,7 @@
         "against": "Rick Rollers"
       }
     ],
+    "mw": "M",
     "hsgTeam": "Guess Who",
     "hssTeam": "XXX Dancers"
   },
@@ -2266,6 +2294,7 @@
         "against": "Top Gun"
       }
     ],
+    "mw": "M",
     "hsgTeam": "L.O.F.T",
     "hssTeam": "L.O.F.T"
   },
@@ -2318,6 +2347,7 @@
         "against": "Roll Clones"
       }
     ],
+    "mw": "M",
     "hsgTeam": "Roll Clones",
     "hssTeam": "Roll Clones"
   },
@@ -2447,6 +2477,7 @@
         "against": "SPAM"
       }
     ],
+    "mw": "M",
     "hsgTeam": "Engineering Strikes",
     "hssTeam": "Engineering Strikes"
   },
@@ -2554,6 +2585,7 @@
         "against": "SPAM"
       }
     ],
+    "mw": "W",
     "hssTeam": "Frickin Ten Pin",
     "hsgTeam": "SPAM"
   },
@@ -2573,6 +2605,7 @@
         "against": "Backstabbers"
       }
     ],
+    "mw": "M",
     "hsgTeam": "Backstabbers",
     "hssTeam": "Backstabbers"
   },
@@ -2691,6 +2724,7 @@
         "against": "Shoe Throwin Mad"
       }
     ],
+    "mw": "M",
     "hsgTeam": "Roll Clones",
     "hssTeam": "Lane Violation"
   },
@@ -2765,6 +2799,7 @@
         "against": "Alias Smith and Godfrey"
       }
     ],
+    "mw": "W",
     "hsgTeam": "Backstabbers",
     "hssTeam": "Backstabbers"
   },
@@ -2861,6 +2896,7 @@
         "against": "Sandbaggers"
       }
     ],
+    "mw": "M",
     "hsgTeam": "Lane Violation",
     "hssTeam": "Lane Violation"
   },
@@ -2880,6 +2916,7 @@
         "against": "SPAM"
       }
     ],
+    "mw": "W",
     "hsgTeam": "SPAM",
     "hssTeam": "SPAM"
   },
@@ -2987,6 +3024,7 @@
         "against": "Strike a Pose"
       }
     ],
+    "mw": "M",
     "hsgTeam": "Strike a Pose",
     "hssTeam": "D & A Lawn Care"
   },
@@ -3115,7 +3153,8 @@
         "total": "420",
         "against": "Bad Attitude"
       }
-    ]
+    ],
+    "mw": "M"
   },
   "Jason Lampe": {
     "hsg": "188",
@@ -3221,6 +3260,7 @@
         "against": "Craptastic"
       }
     ],
+    "mw": "M",
     "hssTeam": "MoJo",
     "hsgTeam": "D & A Lawn Care"
   },
@@ -3339,6 +3379,7 @@
         "against": "Lane Violation"
       }
     ],
+    "mw": "M",
     "hsgTeam": "Bob_Rossing It",
     "hssTeam": "Bob_Rossing It"
   },
@@ -3391,6 +3432,7 @@
         "against": "Bad Attitude"
       }
     ],
+    "mw": "M",
     "hsgTeam": "XXX Dancers",
     "hssTeam": "XXX Dancers"
   },
@@ -3410,6 +3452,7 @@
         "against": "XXX Dancers"
       }
     ],
+    "mw": "M",
     "hsgTeam": "XXX Dancers",
     "hssTeam": "XXX Dancers"
   },
@@ -3528,6 +3571,7 @@
         "against": "Splits-n-Giggles"
       }
     ],
+    "mw": "M",
     "hsgTeam": "Craptastic",
     "hssTeam": "Craptastic"
   },
@@ -3591,6 +3635,7 @@
         "against": "Backstabbers"
       }
     ],
+    "mw": "M",
     "hssTeam": "Backstabbers"
   },
   "Adam Michaelis": {
@@ -3675,6 +3720,7 @@
         "against": "Frickin Ten Pin"
       }
     ],
+    "mw": "M",
     "hsgTeam": "SPAM",
     "hssTeam": "Frickin Ten Pin"
   },
@@ -3793,6 +3839,7 @@
         "against": "Lane Violation"
       }
     ],
+    "mw": "W",
     "hsgTeam": "D & A Lawn Care",
     "hssTeam": "D & A Lawn Care"
   },
@@ -3900,6 +3947,7 @@
         "against": "MoJo"
       }
     ],
+    "mw": "M",
     "hssTeam": "Lane Violation",
     "hsgTeam": "Barely Bowling"
   },
@@ -3968,6 +4016,7 @@
         "against": "Sandbaggers"
       }
     ],
+    "mw": "M",
     "hsgTeam": "Engineering Strikes"
   },
   "Katie Nance": {
@@ -4096,6 +4145,7 @@
         "against": "Split Happens"
       }
     ],
+    "mw": "W",
     "hsgTeam": "The Munsons",
     "hssTeam": "Top Gun"
   },
@@ -4159,6 +4209,7 @@
         "against": "I am Root"
       }
     ],
+    "mw": "M",
     "hsgTeam": "I am Root",
     "hssTeam": "I am Root"
   },
@@ -4277,6 +4328,7 @@
         "against": "Splits-n-Giggles"
       }
     ],
+    "mw": "M",
     "hssTeam": "MoJo",
     "hsgTeam": "Craptastic"
   },
@@ -4384,6 +4436,7 @@
         "against": "Split Happens"
       }
     ],
+    "mw": "M",
     "hsgTeam": "Top Gun",
     "hssTeam": "Split Happens"
   },
@@ -4407,7 +4460,8 @@
         "total": "431",
         "against": "The Munsons"
       }
-    ]
+    ],
+    "mw": "M"
   },
   "Tom Petersen": {
     "hsg": "184",
@@ -4524,6 +4578,7 @@
         "against": "1 Mor"
       }
     ],
+    "mw": "M",
     "hsgTeam": "I am Root",
     "hssTeam": "I am Root"
   },
@@ -4620,6 +4675,7 @@
         "against": "Craptastic"
       }
     ],
+    "mw": "M",
     "hsgTeam": "1 Mor",
     "hssTeam": "1 Mor"
   },
@@ -4749,6 +4805,7 @@
         "against": "I am Root"
       }
     ],
+    "mw": "M",
     "hsgTeam": "Splits-n-Giggles",
     "hssTeam": "Splits-n-Giggles"
   },
@@ -4878,6 +4935,7 @@
         "against": "Guess Who"
       }
     ],
+    "mw": "M",
     "hsgTeam": "Guess Who",
     "hssTeam": "Guess Who"
   },
@@ -4934,7 +4992,8 @@
         "total": "368",
         "against": "We Don't Give A Split"
       }
-    ]
+    ],
+    "mw": "M"
   },
   "Dan Roggow": {
     "hsg": "180",
@@ -5029,6 +5088,7 @@
         "against": "Engineering Strikes"
       }
     ],
+    "mw": "M",
     "hsgTeam": "Frickin Ten Pin",
     "hssTeam": "XXX Dancers"
   },
@@ -5048,6 +5108,7 @@
         "against": "Rick Rollers"
       }
     ],
+    "mw": "M",
     "hsgTeam": "Rick Rollers",
     "hssTeam": "Rick Rollers"
   },
@@ -5166,6 +5227,7 @@
         "against": "1 Mor"
       }
     ],
+    "mw": "M",
     "hsgTeam": "I am Root",
     "hssTeam": "I am Root"
   },
@@ -5240,6 +5302,7 @@
         "against": "Shoe Throwin Mad"
       }
     ],
+    "mw": "W",
     "hsgTeam": "Shoe Throwin Mad",
     "hssTeam": "Shoe Throwin Mad"
   },
@@ -5369,6 +5432,7 @@
         "against": "Barely Bowling"
       }
     ],
+    "mw": "M",
     "hssTeam": "Lane Violation",
     "hsgTeam": "1 Mor"
   },
@@ -5476,6 +5540,7 @@
         "against": "Roll Clones"
       }
     ],
+    "mw": "M",
     "hsgTeam": "Splatters2",
     "hssTeam": "Splatters2"
   },
@@ -5594,6 +5659,7 @@
         "against": "Frickin Ten Pin"
       }
     ],
+    "mw": "M",
     "hsgTeam": "MoJo",
     "hssTeam": "MoJo"
   },
@@ -5723,6 +5789,7 @@
         "against": "The Outsiders"
       }
     ],
+    "mw": "W",
     "hsgTeam": "Strike a Pose",
     "hssTeam": "Strike a Pose"
   },
@@ -5852,6 +5919,7 @@
         "against": "D & A Lawn Care"
       }
     ],
+    "mw": "M",
     "hsgTeam": "Bad Attitude",
     "hssTeam": "Alias Smith and Godfrey"
   },
@@ -5871,6 +5939,7 @@
         "against": "Sandbaggers"
       }
     ],
+    "mw": "M",
     "hsgTeam": "Sandbaggers",
     "hssTeam": "Sandbaggers"
   },
@@ -5978,6 +6047,7 @@
         "against": "XXX Dancers"
       }
     ],
+    "mw": "M",
     "hsgTeam": "SPAM",
     "hssTeam": "SPAM"
   },
@@ -6074,6 +6144,7 @@
         "against": "Alias Smith and Godfrey"
       }
     ],
+    "mw": "M",
     "hsgTeam": "Spare Me",
     "hssTeam": "Spare Me"
   },
@@ -6202,7 +6273,8 @@
         "total": "431",
         "against": "Backstabbers"
       }
-    ]
+    ],
+    "mw": "M"
   },
   "Gary Spiess": {
     "hsg": "242",
@@ -6286,6 +6358,7 @@
         "against": "Bad Attitude"
       }
     ],
+    "mw": "M",
     "hsgTeam": "Top Gun",
     "hssTeam": "Top Gun"
   },
@@ -6382,6 +6455,7 @@
         "against": "We Don't Give A Split"
       }
     ],
+    "mw": "W",
     "hsgTeam": "Bad Attitude",
     "hssTeam": "Craptastic"
   },
@@ -6412,6 +6486,7 @@
         "against": "L.O.F.T"
       }
     ],
+    "mw": "M",
     "hsgTeam": "Guess Who",
     "hssTeam": "L.O.F.T"
   },
@@ -6530,6 +6605,7 @@
         "against": "Alias Smith and Godfrey"
       }
     ],
+    "mw": "M",
     "hsgTeam": "Bad Attitude",
     "hssTeam": "Bad Attitude"
   },
@@ -6659,6 +6735,7 @@
         "against": "Barely Bowling"
       }
     ],
+    "mw": "M",
     "hsgTeam": "Bad Attitude",
     "hssTeam": "Bad Attitude"
   },
@@ -6733,6 +6810,7 @@
         "against": "Backstabbers"
       }
     ],
+    "mw": "M",
     "hsgTeam": "Splatters2",
     "hssTeam": "Splatters2"
   },
@@ -6862,6 +6940,7 @@
         "against": "Splatters2"
       }
     ],
+    "mw": "W",
     "hsgTeam": "Alias Smith and Godfrey",
     "hssTeam": "Engineering Strikes"
   },
@@ -6925,6 +7004,7 @@
         "against": "Spare Me"
       }
     ],
+    "mw": "W",
     "hsgTeam": "Craptastic",
     "hssTeam": "Craptastic"
   },
@@ -7054,6 +7134,7 @@
         "against": "Rick Rollers"
       }
     ],
+    "mw": "M",
     "hsgTeam": "Rick Rollers",
     "hssTeam": "Rick Rollers"
   },
@@ -7161,6 +7242,7 @@
         "against": "MoJo"
       }
     ],
+    "mw": "M",
     "hssTeam": "Lane Violation",
     "hsgTeam": "Strike a Pose"
   },
@@ -7290,6 +7372,7 @@
         "against": "Strike a Pose"
       }
     ],
+    "mw": "M",
     "hsgTeam": "Top Gun",
     "hssTeam": "Top Gun"
   },
@@ -7397,6 +7480,7 @@
         "against": "Engineering Strikes"
       }
     ],
+    "mw": "M",
     "hsgTeam": "Guess Who",
     "hssTeam": "Guess Who"
   },
@@ -7460,6 +7544,7 @@
         "against": "The Munsons"
       }
     ],
+    "mw": "M",
     "hsgTeam": "1 Mor",
     "hssTeam": "1 Mor"
   }
