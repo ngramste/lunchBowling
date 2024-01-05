@@ -1,8 +1,8 @@
 from lxml import html
 import requests
-import pandas as pd
 import json
 from datetime import datetime
+import constants as c
 
 errorLog = open("error.log", "w")
 
@@ -17,6 +17,7 @@ for page in range(1,6):
 
   try:
     bowlers = tree.xpath('//table/tbody/tr/td[1]/a/text()')
+    links = tree.xpath('//table/tbody/tr/td[1]/a/@href')
     hsg = tree.xpath('//table/tbody/tr/td[10]/text()')
     hss = tree.xpath('//table/tbody/tr/td[11]/text()')
 
@@ -31,6 +32,7 @@ for page in range(1,6):
       stats = {}
       stats['hsg'] = hsg[bowler]
       stats['hss'] = hss[bowler]
+      stats['link'] = 'https://www.leaguesecretary.com/' + links[bowler]
       stats['weeks'] = []
       bowlerList[name] = stats
 
@@ -93,7 +95,30 @@ for week in range(1,13):
           if (bowlerList[bowler]['hss'] == ss):
             bowlerList[bowler]['hssTeam'] = team
 
+# -------------- Fill in missing bowler data -------------- #
+            
+for bowler in bowlerList:
+  if len(bowlerList[bowler]['weeks']) == 0:
+    print("Filling some missing data for " + bowler)
+    page = requests.get(bowlerList[bowler]['link'])
+    tree = html.fromstring(page.content)
+    
+    data = tree.xpath('//table/tbody/tr/td/text()')
+    
+    for index in range(0,int(len(data)/17)):
+      weekStats = {}
+      weekStats['week'] = int(data[index * 17 + 0])
+      weekStats['avg'] = data[index * 17 + 7]
+      weekStats['hcp'] = str(int(int(data[index * 17 + 5]) / 2))
+      weekStats['gm1'] = data[index * 17 + 2]
+      weekStats['gm2'] = data[index * 17 + 3]
+      weekStats['ss'] = data[index * 17 + 4]
+      weekStats['hs'] = data[index * 17 + 5]
+      weekStats['total'] = data[index * 17 + 6]
+      
+      bowlerList[bowler]['weeks'].append(weekStats)
+
 errorLog.close()
-fd = open("2023-2024/report.json", "w")
+fd = open(c.REPORT_PATH, "w")
 fd.write(json.dumps(bowlerList))
 fd.close()

@@ -1,6 +1,7 @@
 import json
+import constants as c
 
-with open("2023-2024/report.json") as json_data:
+with open(c.REPORT_PATH) as json_data:
   report = json.load(json_data)
 
 teams = {}
