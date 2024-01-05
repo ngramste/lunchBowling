@@ -28,3 +28,8 @@ for bowler in bowlers:
     print("    gm1  " + str(week['gm1']))
     print("    gm2  " + str(week['gm2']))
     print("    diff " + str(week['diff']))
+    
+
+fd = open(c.DATA_FOLDER + "centuries.json", "w")
+fd.write(json.dumps(bowlers))
+fd.close()
