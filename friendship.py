@@ -23,7 +23,6 @@ meanTeam = []
 meanScore = 100
 
 for team in teams:
-  print(teams[team])
   if friendScore <= teams[team]:
     if friendScore == teams[team]:
       friendScore = teams[team]
