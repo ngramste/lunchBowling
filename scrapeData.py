@@ -19,9 +19,9 @@ for page in range(1,6):
     bowlers = tree.xpath('//table/tbody/tr/td[1]/a/text()')
     hsg = tree.xpath('//table/tbody/tr/td[10]/text()')
     hss = tree.xpath('//table/tbody/tr/td[11]/text()')
-    
+
   except:
-    print("Invalid URL: " + url)      
+    print("Invalid URL: " + url)
     errorLog.write(str(datetime.now()) + " Invalid URL: " + url +"\n")
     errorLog.write("  page = " + str(page) + "\n")
 
@@ -44,37 +44,54 @@ for week in range(1,13):
 
     try:
       team = tree.xpath('//div[@class="panel-body"]/h3/text()')[1].split("Team: ")[1]
-      
+
     except:
-      print("Invalid URL: " + url)      
+      print("Invalid URL: " + url)
       errorLog.write(str(datetime.now()) + " Invalid URL: " + url +"\n")
       errorLog.write("  week = " + str(week) + "\n")
       errorLog.write("  uid = " + str(uid) + "\n")
-      
+
     else:
       for bowlerIndex in range(0,2):
-        bowler = tree.xpath('//table/tbody/tr/td[2]/a/text()')[bowlerIndex]
-        gm1 = tree.xpath('//table/tbody/tr/td[6]/text()')[bowlerIndex]
-        gm2 = tree.xpath('//table/tbody/tr/td[7]/text()')[bowlerIndex]
-        ss = tree.xpath('//table/tbody/tr/td[8]/text()')[bowlerIndex]
-        
-        print([week, bowler, gm1, gm2, ss])
-        weekStats = {}
-        weekStats['week'] = week
-        weekStats['gm1'] = gm1
-        weekStats['gm2'] = gm2
-        weekStats['ss'] = ss
-        weekStats['against'] = team
-        
-        bowlerList[bowler]['weeks'].append(weekStats)
+        try:
+          bowler = tree.xpath('//table[@id="ctl00_MainContent_ctl02_RadGrid1_ctl00"]/tbody/tr/td[2]/a/text()')[bowlerIndex]
+          avg = tree.xpath('//table[@id="ctl00_MainContent_ctl02_RadGrid1_ctl00"]/tbody/tr/td[4]/text()')[bowlerIndex]
+          hcp = tree.xpath('//table[@id="ctl00_MainContent_ctl02_RadGrid1_ctl00"]/tbody/tr/td[5]/text()')[bowlerIndex]
+          gm1 = tree.xpath('//table[@id="ctl00_MainContent_ctl02_RadGrid1_ctl00"]/tbody/tr/td[6]/text()')[bowlerIndex]
+          gm2 = tree.xpath('//table[@id="ctl00_MainContent_ctl02_RadGrid1_ctl00"]/tbody/tr/td[7]/text()')[bowlerIndex]
+          ss = tree.xpath('//table[@id="ctl00_MainContent_ctl02_RadGrid1_ctl00"]/tbody/tr/td[8]/text()')[bowlerIndex]
+          hs = tree.xpath('//table[@id="ctl00_MainContent_ctl02_RadGrid1_ctl00"]/tbody/tr/td[9]/text()')[bowlerIndex]
+          total = tree.xpath('//table[@id="ctl00_MainContent_ctl02_RadGrid1_ctl00"]/tbody/tr/td[10]/text()')[bowlerIndex]
 
-        if (bowlerList[bowler]['hsg'] == gm1 or bowlerList[bowler]['hsg'] == gm2):
-          bowlerList[bowler]['hsgTeam'] = team
+        except:
+          print("Invalid Bowler Index: " + url)
+          errorLog.write(str(datetime.now()) + " Invalid Bowler Index: " + url +"\n")
+          errorLog.write("  week = " + str(week) + "\n")
+          errorLog.write("  uid = " + str(uid) + "\n")
+          errorLog.write("  bowlerIndex = " + str(bowlerIndex) + "\n")
 
-        if (bowlerList[bowler]['hss'] == ss):
-          bowlerList[bowler]['hssTeam'] = team
-    
+        else:
+          print([week, bowler, gm1, gm2, ss])
+          weekStats = {}
+          weekStats['week'] = week
+          weekStats['avg'] = avg
+          weekStats['hcp'] = hcp
+          weekStats['gm1'] = gm1
+          weekStats['gm2'] = gm2
+          weekStats['ss'] = ss
+          weekStats['hs'] = hs
+          weekStats['total'] = total
+          weekStats['against'] = team
+
+          bowlerList[bowler]['weeks'].append(weekStats)
+
+          if (bowlerList[bowler]['hsg'] == gm1 or bowlerList[bowler]['hsg'] == gm2):
+            bowlerList[bowler]['hsgTeam'] = team
+
+          if (bowlerList[bowler]['hss'] == ss):
+            bowlerList[bowler]['hssTeam'] = team
+
 errorLog.close()
-fd = open("report.json", "w")
+fd = open("2023-2024/report.json", "w")
 fd.write(json.dumps(bowlerList))
 fd.close()
