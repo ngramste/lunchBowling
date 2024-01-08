@@ -45,7 +45,8 @@ for week in range(1,13):
     tree = html.fromstring(page.content)
 
     try:
-      team = tree.xpath('//div[@class="panel-body"]/h3/text()')[1].split("Team: ")[1]
+      team = tree.xpath('//div[@class="panel-body"]/h3/text()')[0].split("Team: ")[1]
+      against = tree.xpath('//div[@class="panel-body"]/h3/text()')[1].split("Team: ")[1]
 
     except:
       print("Invalid URL: " + url)
@@ -84,39 +85,50 @@ for week in range(1,13):
           weekStats['ss'] = ss
           weekStats['hs'] = hs
           weekStats['total'] = total
-          weekStats['against'] = team
+          weekStats['against'] = against
 
           bowlerList[bowler]['mw'] = mw
           bowlerList[bowler]['weeks'].append(weekStats)
+          
+          bowlerList[bowler]['team'] = team
 
           if (bowlerList[bowler]['hsg'] == gm1 or bowlerList[bowler]['hsg'] == gm2):
-            bowlerList[bowler]['hsgTeam'] = team
+            bowlerList[bowler]['hsgTeam'] = against
 
           if (bowlerList[bowler]['hss'] == ss):
-            bowlerList[bowler]['hssTeam'] = team
+            bowlerList[bowler]['hssTeam'] = against
 
 # -------------- Fill in missing bowler data -------------- #
-            
+
 for bowler in bowlerList:
-  if len(bowlerList[bowler]['weeks']) == 0:
-    print("Filling some missing data for " + bowler)
-    page = requests.get(bowlerList[bowler]['link'])
-    tree = html.fromstring(page.content)
-    
-    data = tree.xpath('//table/tbody/tr/td/text()')
-    
-    for index in range(0,int(len(data)/17)):
-      weekStats = {}
-      weekStats['week'] = int(data[index * 17 + 0])
-      weekStats['avg'] = data[index * 17 + 7]
-      weekStats['hcp'] = str(int(int(data[index * 17 + 5]) / 2))
-      weekStats['gm1'] = data[index * 17 + 2]
-      weekStats['gm2'] = data[index * 17 + 3]
-      weekStats['ss'] = data[index * 17 + 4]
-      weekStats['hs'] = data[index * 17 + 5]
-      weekStats['total'] = data[index * 17 + 6]
+  try:
+    if len(bowlerList[bowler]['weeks']) == 0:
+      print("Filling some missing data for " + bowler)
+      page = requests.get(bowlerList[bowler]['link'])
+      tree = html.fromstring(page.content)
       
-      bowlerList[bowler]['weeks'].append(weekStats)
+      data = tree.xpath('//table/tbody/tr/td/text()')
+      team = tree.xpath('//span[@id="MainContent_BowlerHistoryGrid1_Note1"]/a/text()')[0]
+      
+      if (len(tree.xpath('//span[@id="MainContent_BowlerHistoryGrid1_Note1"]/a/text()')) == 2):
+        bowlerList[bowler]['team'] = team
+      
+      for index in range(0,int(len(data)/17)):
+        weekStats = {}
+        weekStats['week'] = int(data[index * 17 + 0])
+        weekStats['avg'] = data[index * 17 + 7]
+        weekStats['hcp'] = str(int(int(data[index * 17 + 5]) / 2))
+        weekStats['gm1'] = data[index * 17 + 2]
+        weekStats['gm2'] = data[index * 17 + 3]
+        weekStats['ss'] = data[index * 17 + 4]
+        weekStats['hs'] = data[index * 17 + 5]
+        weekStats['total'] = data[index * 17 + 6]
+        
+        bowlerList[bowler]['weeks'].append(weekStats)
+        
+  except Exception as e:
+    print("We had a problem filling out extra data for " + str(bowler))
+    errorLog.write(str(datetime.now()) + " bowler = " + str(bowler) + ": " + str(e) +"\n")
 
 errorLog.close()
 fd = open(c.REPORT_PATH, "w")

@@ -7,6 +7,10 @@ with open(c.REPORT_PATH) as json_data:
 teams = {}
 
 for bowler in report:
+  if 'team' in report[bowler]:
+    teams[report[bowler]['team']] = 0
+
+for bowler in report:
   if 'hsgTeam' in report[bowler]:
     if report[bowler]['hsgTeam'] in teams:
       teams[report[bowler]['hsgTeam']] += 1
@@ -40,8 +44,8 @@ for team in teams:
       meanScore = teams[team]
       meanTeam = [team]
 
-print("Friendly Team: " + " and ".join(friendTeam) + ", " + str(friendScore))
-print("Meanie Team: " + ":".join(meanTeam) + ", " + str(meanScore))
+print("Friendly Team(s): " + " and ".join(friendTeam) + ", " + str(friendScore))
+print("Meanie Team(s): " + " and ".join(meanTeam) + ", " + str(meanScore))
 
 fd = open(c.DATA_FOLDER + "friendship.json", "w")
 fd.write(json.dumps(teams))
