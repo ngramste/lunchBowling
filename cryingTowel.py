@@ -4,6 +4,11 @@ import constants as c
 with open(c.REPORT_PATH) as json_data:
   report = json.load(json_data)
   
+# -------------- Sort weekly averages for every bowler -------------- #
+  
+for bowler in report:
+  report[bowler]['weeks'] = sorted(report[bowler]['weeks'], key=lambda v: v['week'])
+  
 # -------------- Figure out weekly averages for every bowler -------------- #
   
 for bowler in report:
