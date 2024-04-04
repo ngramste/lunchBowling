@@ -15,20 +15,44 @@
       "diff": 110
     }
   ],
-  "Ray Harken": [
+  "Mark Godfrey": [
     {
-      "week": 10,
-      "gm1": "300",
-      "gm2": "197",
+      "week": 19,
+      "gm1": "162",
+      "gm2": "279",
+      "diff": 117
+    }
+  ],
+  "Allison Hecker": [
+    {
+      "week": 17,
+      "gm1": "103",
+      "gm2": "206",
       "diff": 103
     }
   ],
-  "Kyle Setrum": [
+  "Matthew Karlen": [
     {
-      "week": 8,
-      "gm1": "297",
-      "gm2": "195",
-      "diff": 102
+      "week": 20,
+      "gm1": "123",
+      "gm2": "231",
+      "diff": 108
+    }
+  ],
+  "Bradley Rhein": [
+    {
+      "week": 18,
+      "gm1": "251",
+      "gm2": "141",
+      "diff": 110
+    }
+  ],
+  "Brad Roggow": [
+    {
+      "week": 5,
+      "gm1": "140",
+      "gm2": "0",
+      "diff": 140
     }
   ],
   "Gary Spiess": [
@@ -39,12 +63,12 @@
       "diff": 103
     }
   ],
-  "Ryan Tew": [
+  "Chance Webster": [
     {
-      "week": 8,
-      "gm1": "300",
-      "gm2": "173",
-      "diff": 127
+      "week": 15,
+      "gm1": "146",
+      "gm2": "256",
+      "diff": 110
     }
   ]
 }

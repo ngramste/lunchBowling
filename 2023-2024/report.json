@@ -27,17 +27,6 @@
         "against": "MoJo"
       },
       {
-        "week": 8,
-        "avg": "110",
-        "hcp": "99",
-        "gm1": "155",
-        "gm2": "118",
-        "ss": "273",
-        "hs": "198",
-        "total": "471",
-        "against": "Bob_Rossing It"
-      },
-      {
         "week": 11,
         "avg": "116",
         "hcp": "93",
@@ -47,6 +36,72 @@
         "hs": "186",
         "total": "452",
         "against": "Roll Clones"
+      },
+      {
+        "week": 14,
+        "avg": "120",
+        "hcp": "90",
+        "gm1": "144",
+        "gm2": "114",
+        "ss": "258",
+        "hs": "180",
+        "total": "438",
+        "against": "I am Root"
+      },
+      {
+        "week": 15,
+        "avg": "122",
+        "hcp": "88",
+        "gm1": "110",
+        "gm2": "138",
+        "ss": "248",
+        "hs": "176",
+        "total": "424",
+        "against": "We Don't Give A Split"
+      },
+      {
+        "week": 16,
+        "avg": "122",
+        "hcp": "88",
+        "gm1": "136",
+        "gm2": "111",
+        "ss": "247",
+        "hs": "176",
+        "total": "423",
+        "against": "Sandbaggers"
+      },
+      {
+        "week": 18,
+        "avg": "123",
+        "hcp": "87",
+        "gm1": "135",
+        "gm2": "110",
+        "ss": "245",
+        "hs": "174",
+        "total": "419",
+        "against": "Backstabbers"
+      },
+      {
+        "week": 19,
+        "avg": "123",
+        "hcp": "87",
+        "gm1": "130",
+        "gm2": "127",
+        "ss": "257",
+        "hs": "174",
+        "total": "431",
+        "against": "The Munsons"
+      },
+      {
+        "week": 22,
+        "avg": "123",
+        "hcp": "87",
+        "gm1": "127",
+        "gm2": "127",
+        "ss": "254",
+        "hs": "174",
+        "total": "428",
+        "against": "Spare Me"
       }
     ],
     "mw": "W",
@@ -126,17 +181,6 @@
         "against": "I am Root"
       },
       {
-        "week": 8,
-        "avg": "210",
-        "hcp": "9",
-        "gm1": "277",
-        "gm2": "268",
-        "ss": "545",
-        "hs": "18",
-        "total": "563",
-        "against": "Alias Smith and Godfrey"
-      },
-      {
         "week": 9,
         "avg": "210",
         "hcp": "9",
@@ -179,11 +223,132 @@
         "hs": "20",
         "total": "456",
         "against": "We Don't Give A Split"
+      },
+      {
+        "week": 13,
+        "avg": "209",
+        "hcp": "9",
+        "gm1": "242",
+        "gm2": "248",
+        "ss": "490",
+        "hs": "18",
+        "total": "508",
+        "against": "Frickin Ten Pin"
+      },
+      {
+        "week": 14,
+        "avg": "212",
+        "hcp": "7",
+        "gm1": "257",
+        "gm2": "243",
+        "ss": "500",
+        "hs": "14",
+        "total": "514",
+        "against": "Splatters2"
+      },
+      {
+        "week": 15,
+        "avg": "215",
+        "hcp": "4",
+        "gm1": "227",
+        "gm2": "194",
+        "ss": "421",
+        "hs": "8",
+        "total": "429",
+        "against": "Vacant"
+      },
+      {
+        "week": 16,
+        "avg": "215",
+        "hcp": "4",
+        "gm1": "267",
+        "gm2": "245",
+        "ss": "512",
+        "hs": "8",
+        "total": "520",
+        "against": "SPAM"
+      },
+      {
+        "week": 17,
+        "avg": "218",
+        "hcp": "1",
+        "gm1": "236",
+        "gm2": "247",
+        "ss": "483",
+        "hs": "2",
+        "total": "485",
+        "against": "Bad Attitude"
+      },
+      {
+        "week": 18,
+        "avg": "219",
+        "hcp": "0",
+        "gm1": "239",
+        "gm2": "201",
+        "ss": "440",
+        "hs": "0",
+        "total": "440",
+        "against": "Bob_Rossing It"
+      },
+      {
+        "week": 19,
+        "avg": "219",
+        "hcp": "0",
+        "gm1": "238",
+        "gm2": "268",
+        "ss": "506",
+        "hs": "0",
+        "total": "506",
+        "against": "Split Happens"
+      },
+      {
+        "week": 20,
+        "avg": "221",
+        "hcp": "0",
+        "gm1": "214",
+        "gm2": "245",
+        "ss": "459",
+        "hs": "0",
+        "total": "459",
+        "against": "Guess Who"
+      },
+      {
+        "week": 22,
+        "avg": "222",
+        "hcp": "0",
+        "gm1": "237",
+        "gm2": "209",
+        "ss": "446",
+        "hs": "0",
+        "total": "446",
+        "against": "L.O.F.T"
+      },
+      {
+        "week": 23,
+        "avg": "222",
+        "hcp": "0",
+        "gm1": "235",
+        "gm2": "225",
+        "ss": "460",
+        "hs": "0",
+        "total": "460",
+        "against": "Rick Rollers"
+      },
+      {
+        "week": 24,
+        "avg": "222",
+        "hcp": "0",
+        "gm1": "233",
+        "gm2": "238",
+        "ss": "471",
+        "hs": "0",
+        "total": "471",
+        "against": "Engineering Strikes"
       }
     ],
     "mw": "M",
     "team": "1 Mor",
-    "hsgTeam": "Alias Smith and Godfrey",
+    "hsgTeam": "Split Happens",
     "hssTeam": "Sandbaggers"
   },
   "Chris Boeding": {
@@ -258,17 +423,6 @@
         "against": "The Outsiders"
       },
       {
-        "week": 8,
-        "avg": "158",
-        "hcp": "55",
-        "gm1": "209",
-        "gm2": "168",
-        "ss": "377",
-        "hs": "110",
-        "total": "487",
-        "against": "Frickin Ten Pin"
-      },
-      {
         "week": 9,
         "avg": "158",
         "hcp": "55",
@@ -311,6 +465,127 @@
         "hs": "114",
         "total": "439",
         "against": "Bad Attitude"
+      },
+      {
+        "week": 13,
+        "avg": "157",
+        "hcp": "56",
+        "gm1": "174",
+        "gm2": "167",
+        "ss": "341",
+        "hs": "112",
+        "total": "453",
+        "against": "XXX Dancers"
+      },
+      {
+        "week": 14,
+        "avg": "158",
+        "hcp": "55",
+        "gm1": "154",
+        "gm2": "134",
+        "ss": "288",
+        "hs": "110",
+        "total": "398",
+        "against": "Top Gun"
+      },
+      {
+        "week": 15,
+        "avg": "157",
+        "hcp": "56",
+        "gm1": "202",
+        "gm2": "171",
+        "ss": "373",
+        "hs": "112",
+        "total": "485",
+        "against": "Split Happens"
+      },
+      {
+        "week": 16,
+        "avg": "159",
+        "hcp": "54",
+        "gm1": "179",
+        "gm2": "139",
+        "ss": "318",
+        "hs": "108",
+        "total": "426",
+        "against": "Bob_Rossing It"
+      },
+      {
+        "week": 17,
+        "avg": "159",
+        "hcp": "54",
+        "gm1": "149",
+        "gm2": "149",
+        "ss": "0",
+        "hs": "406",
+        "total": "406",
+        "against": "Shoe Throwin Mad"
+      },
+      {
+        "week": 18,
+        "avg": "159",
+        "hcp": "54",
+        "gm1": "172",
+        "gm2": "172",
+        "ss": "344",
+        "hs": "108",
+        "total": "452",
+        "against": "Craptastic"
+      },
+      {
+        "week": 19,
+        "avg": "160",
+        "hcp": "54",
+        "gm1": "139",
+        "gm2": "156",
+        "ss": "295",
+        "hs": "108",
+        "total": "403",
+        "against": "Roll Clones"
+      },
+      {
+        "week": 20,
+        "avg": "159",
+        "hcp": "54",
+        "gm1": "160",
+        "gm2": "132",
+        "ss": "292",
+        "hs": "108",
+        "total": "400",
+        "against": "1 Mor"
+      },
+      {
+        "week": 22,
+        "avg": "158",
+        "hcp": "55",
+        "gm1": "148",
+        "gm2": "148",
+        "ss": "0",
+        "hs": "406",
+        "total": "406",
+        "against": "I am Root"
+      },
+      {
+        "week": 23,
+        "avg": "158",
+        "hcp": "55",
+        "gm1": "161",
+        "gm2": "157",
+        "ss": "318",
+        "hs": "110",
+        "total": "428",
+        "against": "Vacant"
+      },
+      {
+        "week": 24,
+        "avg": "158",
+        "hcp": "55",
+        "gm1": "186",
+        "gm2": "198",
+        "ss": "384",
+        "hs": "110",
+        "total": "494",
+        "against": "Splatters2"
       }
     ],
     "mw": "M",
@@ -379,17 +654,6 @@
         "against": "Top Gun"
       },
       {
-        "week": 8,
-        "avg": "164",
-        "hcp": "50",
-        "gm1": "154",
-        "gm2": "154",
-        "ss": "0",
-        "hs": "408",
-        "total": "408",
-        "against": "The Munsons"
-      },
-      {
         "week": 11,
         "avg": "164",
         "hcp": "50",
@@ -410,6 +674,127 @@
         "hs": "102",
         "total": "454",
         "against": "Split Happens"
+      },
+      {
+        "week": 13,
+        "avg": "165",
+        "hcp": "49",
+        "gm1": "186",
+        "gm2": "180",
+        "ss": "366",
+        "hs": "98",
+        "total": "464",
+        "against": "Guess Who"
+      },
+      {
+        "week": 14,
+        "avg": "167",
+        "hcp": "47",
+        "gm1": "138",
+        "gm2": "140",
+        "ss": "278",
+        "hs": "94",
+        "total": "372",
+        "against": "L.O.F.T"
+      },
+      {
+        "week": 15,
+        "avg": "164",
+        "hcp": "50",
+        "gm1": "187",
+        "gm2": "145",
+        "ss": "332",
+        "hs": "100",
+        "total": "432",
+        "against": "I am Root"
+      },
+      {
+        "week": 16,
+        "avg": "164",
+        "hcp": "50",
+        "gm1": "194",
+        "gm2": "173",
+        "ss": "367",
+        "hs": "100",
+        "total": "467",
+        "against": "Craptastic"
+      },
+      {
+        "week": 17,
+        "avg": "166",
+        "hcp": "48",
+        "gm1": "150",
+        "gm2": "189",
+        "ss": "339",
+        "hs": "96",
+        "total": "435",
+        "against": "Vacant"
+      },
+      {
+        "week": 18,
+        "avg": "166",
+        "hcp": "48",
+        "gm1": "180",
+        "gm2": "147",
+        "ss": "327",
+        "hs": "96",
+        "total": "423",
+        "against": "Lane Violation"
+      },
+      {
+        "week": 19,
+        "avg": "166",
+        "hcp": "48",
+        "gm1": "145",
+        "gm2": "182",
+        "ss": "327",
+        "hs": "96",
+        "total": "423",
+        "against": "Strike a Pose"
+      },
+      {
+        "week": 20,
+        "avg": "166",
+        "hcp": "48",
+        "gm1": "183",
+        "gm2": "158",
+        "ss": "341",
+        "hs": "96",
+        "total": "437",
+        "against": "D & A Lawn Care"
+      },
+      {
+        "week": 22,
+        "avg": "166",
+        "hcp": "48",
+        "gm1": "152",
+        "gm2": "189",
+        "ss": "341",
+        "hs": "96",
+        "total": "437",
+        "against": "Sandbaggers"
+      },
+      {
+        "week": 23,
+        "avg": "166",
+        "hcp": "48",
+        "gm1": "183",
+        "gm2": "187",
+        "ss": "370",
+        "hs": "96",
+        "total": "466",
+        "against": "Alias Smith and Godfrey"
+      },
+      {
+        "week": 24,
+        "avg": "167",
+        "hcp": "47",
+        "gm1": "158",
+        "gm2": "145",
+        "ss": "303",
+        "hs": "94",
+        "total": "397",
+        "against": "Top Gun"
       }
     ],
     "mw": "M",
@@ -489,17 +874,6 @@
         "against": "Shoe Throwin Mad"
       },
       {
-        "week": 8,
-        "avg": "175",
-        "hcp": "40",
-        "gm1": "167",
-        "gm2": "239",
-        "ss": "406",
-        "hs": "80",
-        "total": "486",
-        "against": "Splatters2"
-      },
-      {
         "week": 10,
         "avg": "175",
         "hcp": "40",
@@ -531,6 +905,127 @@
         "hs": "78",
         "total": "419",
         "against": "XXX Dancers"
+      },
+      {
+        "week": 13,
+        "avg": "175",
+        "hcp": "40",
+        "gm1": "194",
+        "gm2": "204",
+        "ss": "398",
+        "hs": "80",
+        "total": "478",
+        "against": "Top Gun"
+      },
+      {
+        "week": 14,
+        "avg": "177",
+        "hcp": "38",
+        "gm1": "198",
+        "gm2": "166",
+        "ss": "364",
+        "hs": "76",
+        "total": "440",
+        "against": "Engineering Strikes"
+      },
+      {
+        "week": 15,
+        "avg": "178",
+        "hcp": "37",
+        "gm1": "164",
+        "gm2": "148",
+        "ss": "312",
+        "hs": "74",
+        "total": "386",
+        "against": "Guess Who"
+      },
+      {
+        "week": 16,
+        "avg": "176",
+        "hcp": "39",
+        "gm1": "207",
+        "gm2": "221",
+        "ss": "428",
+        "hs": "78",
+        "total": "506",
+        "against": "Backstabbers"
+      },
+      {
+        "week": 17,
+        "avg": "179",
+        "hcp": "36",
+        "gm1": "167",
+        "gm2": "177",
+        "ss": "344",
+        "hs": "72",
+        "total": "416",
+        "against": "Spare Me"
+      },
+      {
+        "week": 18,
+        "avg": "178",
+        "hcp": "37",
+        "gm1": "167",
+        "gm2": "166",
+        "ss": "333",
+        "hs": "74",
+        "total": "407",
+        "against": "Roll Clones"
+      },
+      {
+        "week": 19,
+        "avg": "177",
+        "hcp": "38",
+        "gm1": "191",
+        "gm2": "166",
+        "ss": "357",
+        "hs": "76",
+        "total": "433",
+        "against": "1 Mor"
+      },
+      {
+        "week": 20,
+        "avg": "177",
+        "hcp": "38",
+        "gm1": "170",
+        "gm2": "130",
+        "ss": "300",
+        "hs": "76",
+        "total": "376",
+        "against": "I am Root"
+      },
+      {
+        "week": 22,
+        "avg": "176",
+        "hcp": "39",
+        "gm1": "183",
+        "gm2": "232",
+        "ss": "415",
+        "hs": "78",
+        "total": "493",
+        "against": "Vacant"
+      },
+      {
+        "week": 23,
+        "avg": "177",
+        "hcp": "38",
+        "gm1": "220",
+        "gm2": "225",
+        "ss": "445",
+        "hs": "76",
+        "total": "521",
+        "against": "Craptastic"
+      },
+      {
+        "week": 24,
+        "avg": "180",
+        "hcp": "36",
+        "gm1": "213",
+        "gm2": "213",
+        "ss": "426",
+        "hs": "72",
+        "total": "498",
+        "against": "D & A Lawn Care"
       }
     ],
     "mw": "M",
@@ -555,17 +1050,6 @@
         "against": "Roll Clones"
       },
       {
-        "week": 8,
-        "avg": "121",
-        "hcp": "89",
-        "gm1": "156",
-        "gm2": "165",
-        "ss": "321",
-        "hs": "178",
-        "total": "499",
-        "against": "I am Root"
-      },
-      {
         "week": 11,
         "avg": "121",
         "hcp": "89",
@@ -575,6 +1059,39 @@
         "hs": "178",
         "total": "445",
         "against": "The Outsiders"
+      },
+      {
+        "week": 13,
+        "avg": "125",
+        "hcp": "85",
+        "gm1": "148",
+        "gm2": "121",
+        "ss": "269",
+        "hs": "170",
+        "total": "439",
+        "against": "Shoe Throwin Mad"
+      },
+      {
+        "week": 14,
+        "avg": "127",
+        "hcp": "83",
+        "gm1": "124",
+        "gm2": "111",
+        "ss": "235",
+        "hs": "166",
+        "total": "401",
+        "against": "Backstabbers"
+      },
+      {
+        "week": 24,
+        "avg": "125",
+        "hcp": "85",
+        "gm1": "109",
+        "gm2": "162",
+        "ss": "271",
+        "hs": "170",
+        "total": "441",
+        "against": "Roll Clones"
       }
     ],
     "mw": "W",
@@ -596,17 +1113,6 @@
         "ss": "246",
         "hs": "174",
         "total": "420",
-        "against": "Barely Bowling"
-      },
-      {
-        "week": 8,
-        "avg": "113",
-        "hcp": "96",
-        "gm1": "166",
-        "gm2": "258",
-        "ss": "424",
-        "hs": "192",
-        "total": "616",
         "against": "Barely Bowling"
       },
       {
@@ -652,6 +1158,83 @@
         "hs": "400",
         "total": "400",
         "against": "Top Gun"
+      },
+      {
+        "week": 13,
+        "avg": "127",
+        "hcp": "83",
+        "gm1": "165",
+        "gm2": "131",
+        "ss": "296",
+        "hs": "166",
+        "total": "462",
+        "against": "Engineering Strikes"
+      },
+      {
+        "week": 14,
+        "avg": "132",
+        "hcp": "79",
+        "gm1": "122",
+        "gm2": "122",
+        "ss": "0",
+        "hs": "402",
+        "total": "402",
+        "against": "SPAM"
+      },
+      {
+        "week": 15,
+        "avg": "132",
+        "hcp": "79",
+        "gm1": "119",
+        "gm2": "135",
+        "ss": "254",
+        "hs": "158",
+        "total": "412",
+        "against": "Shoe Throwin Mad"
+      },
+      {
+        "week": 17,
+        "avg": "131",
+        "hcp": "80",
+        "gm1": "114",
+        "gm2": "136",
+        "ss": "250",
+        "hs": "160",
+        "total": "410",
+        "against": "Backstabbers"
+      },
+      {
+        "week": 19,
+        "avg": "130",
+        "hcp": "81",
+        "gm1": "133",
+        "gm2": "135",
+        "ss": "268",
+        "hs": "162",
+        "total": "430",
+        "against": "I am Root"
+      },
+      {
+        "week": 20,
+        "avg": "130",
+        "hcp": "81",
+        "gm1": "114",
+        "gm2": "182",
+        "ss": "296",
+        "hs": "162",
+        "total": "458",
+        "against": "Vacant"
+      },
+      {
+        "week": 24,
+        "avg": "132",
+        "hcp": "79",
+        "gm1": "122",
+        "gm2": "122",
+        "ss": "0",
+        "hs": "402",
+        "total": "402",
+        "against": "Vacant"
       }
     ],
     "mw": "M",
@@ -673,7 +1256,7 @@
         "ss": "178",
         "hs": "234",
         "total": "412",
-        "against": "Splits-n-Giggles"
+        "against": "Vacant"
       },
       {
         "week": 3,
@@ -731,17 +1314,6 @@
         "against": "Lane Violation"
       },
       {
-        "week": 8,
-        "avg": "93",
-        "hcp": "114",
-        "gm1": "59",
-        "gm2": "116",
-        "ss": "175",
-        "hs": "228",
-        "total": "403",
-        "against": "Splits-n-Giggles"
-      },
-      {
         "week": 9,
         "avg": "93",
         "hcp": "114",
@@ -784,6 +1356,94 @@
         "hs": "222",
         "total": "447",
         "against": "Shoe Throwin Mad"
+      },
+      {
+        "week": 14,
+        "avg": "98",
+        "hcp": "109",
+        "gm1": "88",
+        "gm2": "88",
+        "ss": "0",
+        "hs": "394",
+        "total": "394",
+        "against": "The Munsons"
+      },
+      {
+        "week": 15,
+        "avg": "98",
+        "hcp": "109",
+        "gm1": "111",
+        "gm2": "134",
+        "ss": "245",
+        "hs": "218",
+        "total": "463",
+        "against": "Frickin Ten Pin"
+      },
+      {
+        "week": 16,
+        "avg": "100",
+        "hcp": "108",
+        "gm1": "90",
+        "gm2": "90",
+        "ss": "0",
+        "hs": "396",
+        "total": "396",
+        "against": "Splatters2"
+      },
+      {
+        "week": 18,
+        "avg": "100",
+        "hcp": "108",
+        "gm1": "122",
+        "gm2": "141",
+        "ss": "263",
+        "hs": "216",
+        "total": "479",
+        "against": "Top Gun"
+      },
+      {
+        "week": 20,
+        "avg": "103",
+        "hcp": "105",
+        "gm1": "107",
+        "gm2": "105",
+        "ss": "212",
+        "hs": "210",
+        "total": "422",
+        "against": "Bad Attitude"
+      },
+      {
+        "week": 22,
+        "avg": "103",
+        "hcp": "105",
+        "gm1": "93",
+        "gm2": "93",
+        "ss": "0",
+        "hs": "396",
+        "total": "396",
+        "against": "SPAM"
+      },
+      {
+        "week": 23,
+        "avg": "103",
+        "hcp": "105",
+        "gm1": "93",
+        "gm2": "93",
+        "ss": "0",
+        "hs": "396",
+        "total": "396",
+        "against": "Engineering Strikes"
+      },
+      {
+        "week": 24,
+        "avg": "103",
+        "hcp": "105",
+        "gm1": "106",
+        "gm2": "103",
+        "ss": "209",
+        "hs": "210",
+        "total": "419",
+        "against": "Alias Smith and Godfrey"
       }
     ],
     "mw": "W",
@@ -806,6 +1466,50 @@
         "hs": "22",
         "total": "437",
         "against": "Lane Violation"
+      },
+      {
+        "week": 17,
+        "avg": "207",
+        "hcp": "11",
+        "gm1": "185",
+        "gm2": "245",
+        "ss": "430",
+        "hs": "22",
+        "total": "452",
+        "against": "D & A Lawn Care"
+      },
+      {
+        "week": 18,
+        "avg": "211",
+        "hcp": "8",
+        "gm1": "183",
+        "gm2": "216",
+        "ss": "399",
+        "hs": "16",
+        "total": "415",
+        "against": "Shoe Throwin Mad"
+      },
+      {
+        "week": 22,
+        "avg": "207",
+        "hcp": "11",
+        "gm1": "180",
+        "gm2": "177",
+        "ss": "357",
+        "hs": "22",
+        "total": "379",
+        "against": "The Outsiders"
+      },
+      {
+        "week": 24,
+        "avg": "200",
+        "hcp": "18",
+        "gm1": "182",
+        "gm2": "195",
+        "ss": "377",
+        "hs": "36",
+        "total": "413",
+        "against": "Guess Who"
       }
     ],
     "mw": "M",
@@ -828,17 +1532,6 @@
         "hs": "220",
         "total": "415",
         "against": "D & A Lawn Care"
-      },
-      {
-        "week": 8,
-        "avg": "97",
-        "hcp": "110",
-        "gm1": "110",
-        "gm2": "171",
-        "ss": "281",
-        "hs": "220",
-        "total": "501",
-        "against": "L.O.F.T"
       }
     ],
     "mw": "M",
@@ -896,17 +1589,6 @@
         "against": "XXX Dancers"
       },
       {
-        "week": 8,
-        "avg": "152",
-        "hcp": "61",
-        "gm1": "172",
-        "gm2": "170",
-        "ss": "342",
-        "hs": "122",
-        "total": "464",
-        "against": "The Outsiders"
-      },
-      {
         "week": 9,
         "avg": "152",
         "hcp": "61",
@@ -949,6 +1631,116 @@
         "hs": "132",
         "total": "437",
         "against": "Bob_Rossing It"
+      },
+      {
+        "week": 13,
+        "avg": "147",
+        "hcp": "65",
+        "gm1": "178",
+        "gm2": "173",
+        "ss": "351",
+        "hs": "130",
+        "total": "481",
+        "against": "Split Happens"
+      },
+      {
+        "week": 14,
+        "avg": "150",
+        "hcp": "63",
+        "gm1": "166",
+        "gm2": "169",
+        "ss": "335",
+        "hs": "126",
+        "total": "461",
+        "against": "Guess Who"
+      },
+      {
+        "week": 16,
+        "avg": "152",
+        "hcp": "61",
+        "gm1": "164",
+        "gm2": "145",
+        "ss": "309",
+        "hs": "122",
+        "total": "431",
+        "against": "Roll Clones"
+      },
+      {
+        "week": 17,
+        "avg": "152",
+        "hcp": "61",
+        "gm1": "113",
+        "gm2": "159",
+        "ss": "272",
+        "hs": "122",
+        "total": "394",
+        "against": "I am Root"
+      },
+      {
+        "week": 18,
+        "avg": "151",
+        "hcp": "62",
+        "gm1": "181",
+        "gm2": "171",
+        "ss": "352",
+        "hs": "124",
+        "total": "476",
+        "against": "Strike a Pose"
+      },
+      {
+        "week": 19,
+        "avg": "152",
+        "hcp": "61",
+        "gm1": "165",
+        "gm2": "140",
+        "ss": "305",
+        "hs": "122",
+        "total": "427",
+        "against": "D & A Lawn Care"
+      },
+      {
+        "week": 20,
+        "avg": "152",
+        "hcp": "61",
+        "gm1": "164",
+        "gm2": "188",
+        "ss": "352",
+        "hs": "122",
+        "total": "474",
+        "against": "Sandbaggers"
+      },
+      {
+        "week": 22,
+        "avg": "154",
+        "hcp": "59",
+        "gm1": "178",
+        "gm2": "222",
+        "ss": "400",
+        "hs": "118",
+        "total": "518",
+        "against": "Alias Smith and Godfrey"
+      },
+      {
+        "week": 23,
+        "avg": "157",
+        "hcp": "56",
+        "gm1": "177",
+        "gm2": "163",
+        "ss": "340",
+        "hs": "112",
+        "total": "452",
+        "against": "Lane Violation"
+      },
+      {
+        "week": 24,
+        "avg": "158",
+        "hcp": "55",
+        "gm1": "140",
+        "gm2": "159",
+        "ss": "299",
+        "hs": "110",
+        "total": "409",
+        "against": "XXX Dancers"
       }
     ],
     "mw": "M",
@@ -1004,12 +1796,98 @@
         "hs": "136",
         "total": "430",
         "against": "The Munsons"
+      },
+      {
+        "week": 15,
+        "avg": "144",
+        "hcp": "68",
+        "gm1": "140",
+        "gm2": "178",
+        "ss": "318",
+        "hs": "136",
+        "total": "454",
+        "against": "D & A Lawn Care"
+      },
+      {
+        "week": 17,
+        "avg": "147",
+        "hcp": "65",
+        "gm1": "141",
+        "gm2": "138",
+        "ss": "279",
+        "hs": "130",
+        "total": "409",
+        "against": "Frickin Ten Pin"
+      },
+      {
+        "week": 18,
+        "avg": "145",
+        "hcp": "67",
+        "gm1": "154",
+        "gm2": "157",
+        "ss": "311",
+        "hs": "134",
+        "total": "445",
+        "against": "SPAM"
+      },
+      {
+        "week": 20,
+        "avg": "147",
+        "hcp": "65",
+        "gm1": "154",
+        "gm2": "145",
+        "ss": "299",
+        "hs": "130",
+        "total": "429",
+        "against": "Top Gun"
+      },
+      {
+        "week": 23,
+        "avg": "147",
+        "hcp": "65",
+        "gm1": "160",
+        "gm2": "135",
+        "ss": "295",
+        "hs": "130",
+        "total": "425",
+        "against": "Bad Attitude"
       }
     ],
     "mw": "M",
     "team": "Sandbaggers",
     "hsgTeam": "I am Root",
     "hssTeam": "MoJo"
+  },
+  "Ryan DeBlick": {
+    "hsg": "129",
+    "hss": "245",
+    "link": "https://www.leaguesecretary.com//bowling-centers/cedar-rapids-bowl-cedar-rapids-iowa/bowling-leagues/lunch-league-2023-2024/bowler-info/ryan-deblick/2023/fall/130603/93",
+    "weeks": [
+      {
+        "week": 13,
+        "avg": "119",
+        "hcp": "90",
+        "gm1": "117",
+        "gm2": "122",
+        "ss": "239",
+        "hs": "180",
+        "total": "419",
+        "against": "D & A Lawn Care"
+      },
+      {
+        "week": 18,
+        "avg": "119",
+        "hcp": "90",
+        "gm1": "156",
+        "gm2": "144",
+        "ss": "300",
+        "hs": "180",
+        "total": "480",
+        "against": "MoJo"
+      }
+    ],
+    "mw": "M",
+    "team": "The Munsons"
   },
   "Jaden Defields": {
     "hsg": "187",
@@ -1100,18 +1978,7 @@
         "ss": "450",
         "hs": "52",
         "total": "502",
-        "against": "Splits-n-Giggles"
-      },
-      {
-        "week": 8,
-        "avg": "197",
-        "hcp": "20",
-        "gm1": "172",
-        "gm2": "264",
-        "ss": "436",
-        "hs": "40",
-        "total": "476",
-        "against": "Backstabbers"
+        "against": "Vacant"
       },
       {
         "week": 9,
@@ -1156,12 +2023,133 @@
         "hs": "24",
         "total": "477",
         "against": "Guess Who"
+      },
+      {
+        "week": 13,
+        "avg": "208",
+        "hcp": "10",
+        "gm1": "196",
+        "gm2": "267",
+        "ss": "463",
+        "hs": "20",
+        "total": "483",
+        "against": "L.O.F.T"
+      },
+      {
+        "week": 14,
+        "avg": "210",
+        "hcp": "9",
+        "gm1": "209",
+        "gm2": "226",
+        "ss": "435",
+        "hs": "18",
+        "total": "453",
+        "against": "Rick Rollers"
+      },
+      {
+        "week": 15,
+        "avg": "210",
+        "hcp": "9",
+        "gm1": "234",
+        "gm2": "190",
+        "ss": "424",
+        "hs": "18",
+        "total": "442",
+        "against": "Roll Clones"
+      },
+      {
+        "week": 16,
+        "avg": "211",
+        "hcp": "8",
+        "gm1": "197",
+        "gm2": "183",
+        "ss": "380",
+        "hs": "16",
+        "total": "396",
+        "against": "Engineering Strikes"
+      },
+      {
+        "week": 17,
+        "avg": "209",
+        "hcp": "9",
+        "gm1": "200",
+        "gm2": "208",
+        "ss": "408",
+        "hs": "18",
+        "total": "426",
+        "against": "1 Mor"
+      },
+      {
+        "week": 18,
+        "avg": "209",
+        "hcp": "9",
+        "gm1": "198",
+        "gm2": "215",
+        "ss": "413",
+        "hs": "18",
+        "total": "431",
+        "against": "Alias Smith and Godfrey"
+      },
+      {
+        "week": 19,
+        "avg": "209",
+        "hcp": "9",
+        "gm1": "212",
+        "gm2": "265",
+        "ss": "477",
+        "hs": "18",
+        "total": "495",
+        "against": "Lane Violation"
+      },
+      {
+        "week": 20,
+        "avg": "210",
+        "hcp": "9",
+        "gm1": "188",
+        "gm2": "258",
+        "ss": "446",
+        "hs": "18",
+        "total": "464",
+        "against": "Strike a Pose"
+      },
+      {
+        "week": 22,
+        "avg": "211",
+        "hcp": "8",
+        "gm1": "211",
+        "gm2": "206",
+        "ss": "417",
+        "hs": "16",
+        "total": "433",
+        "against": "D & A Lawn Care"
+      },
+      {
+        "week": 23,
+        "avg": "211",
+        "hcp": "8",
+        "gm1": "249",
+        "gm2": "235",
+        "ss": "484",
+        "hs": "16",
+        "total": "500",
+        "against": "Sandbaggers"
+      },
+      {
+        "week": 24,
+        "avg": "212",
+        "hcp": "7",
+        "gm1": "203",
+        "gm2": "201",
+        "ss": "404",
+        "hs": "14",
+        "total": "418",
+        "against": "SPAM"
       }
     ],
     "mw": "M",
     "team": "Bad Attitude",
-    "hsgTeam": "Splits-n-Giggles",
-    "hssTeam": "Top Gun"
+    "hsgTeam": "Strike a Pose",
+    "hssTeam": "Lane Violation"
   },
   "Gene Dooley": {
     "hsg": "179",
@@ -1261,6 +2249,72 @@
         "hs": "50",
         "total": "404",
         "against": "Bob_Rossing It"
+      },
+      {
+        "week": 14,
+        "avg": "190",
+        "hcp": "27",
+        "gm1": "235",
+        "gm2": "174",
+        "ss": "409",
+        "hs": "54",
+        "total": "463",
+        "against": "Guess Who"
+      },
+      {
+        "week": 15,
+        "avg": "191",
+        "hcp": "26",
+        "gm1": "183",
+        "gm2": "158",
+        "ss": "341",
+        "hs": "52",
+        "total": "393",
+        "against": "Craptastic"
+      },
+      {
+        "week": 18,
+        "avg": "189",
+        "hcp": "27",
+        "gm1": "191",
+        "gm2": "203",
+        "ss": "394",
+        "hs": "54",
+        "total": "448",
+        "against": "Strike a Pose"
+      },
+      {
+        "week": 20,
+        "avg": "189",
+        "hcp": "27",
+        "gm1": "201",
+        "gm2": "234",
+        "ss": "435",
+        "hs": "54",
+        "total": "489",
+        "against": "Sandbaggers"
+      },
+      {
+        "week": 22,
+        "avg": "191",
+        "hcp": "26",
+        "gm1": "192",
+        "gm2": "193",
+        "ss": "385",
+        "hs": "52",
+        "total": "437",
+        "against": "Alias Smith and Godfrey"
+      },
+      {
+        "week": 24,
+        "avg": "191",
+        "hcp": "26",
+        "gm1": "213",
+        "gm2": "171",
+        "ss": "384",
+        "hs": "52",
+        "total": "436",
+        "against": "XXX Dancers"
       }
     ],
     "mw": "M",
@@ -1415,6 +2469,17 @@
         "hs": "224",
         "total": "469",
         "against": "The Munsons"
+      },
+      {
+        "week": 22,
+        "avg": "104",
+        "hcp": "104",
+        "gm1": "81",
+        "gm2": "104",
+        "ss": "185",
+        "hs": "208",
+        "total": "393",
+        "against": "Engineering Strikes"
       }
     ],
     "mw": "W",
@@ -1447,7 +2512,7 @@
         "ss": "147",
         "hs": "266",
         "total": "413",
-        "against": "Splits-n-Giggles"
+        "against": "Vacant"
       },
       {
         "week": 9,
@@ -1481,12 +2546,67 @@
         "hs": "248",
         "total": "439",
         "against": "Spare Me"
+      },
+      {
+        "week": 13,
+        "avg": "84",
+        "hcp": "122",
+        "gm1": "74",
+        "gm2": "97",
+        "ss": "171",
+        "hs": "244",
+        "total": "415",
+        "against": "Shoe Throwin Mad"
+      },
+      {
+        "week": 17,
+        "avg": "85",
+        "hcp": "121",
+        "gm1": "107",
+        "gm2": "93",
+        "ss": "200",
+        "hs": "242",
+        "total": "442",
+        "against": "We Don't Give A Split"
+      },
+      {
+        "week": 18,
+        "avg": "87",
+        "hcp": "119",
+        "gm1": "87",
+        "gm2": "101",
+        "ss": "188",
+        "hs": "238",
+        "total": "426",
+        "against": "XXX Dancers"
+      },
+      {
+        "week": 20,
+        "avg": "88",
+        "hcp": "118",
+        "gm1": "74",
+        "gm2": "88",
+        "ss": "162",
+        "hs": "236",
+        "total": "398",
+        "against": "SPAM"
+      },
+      {
+        "week": 23,
+        "avg": "87",
+        "hcp": "119",
+        "gm1": "94",
+        "gm2": "86",
+        "ss": "180",
+        "hs": "238",
+        "total": "418",
+        "against": "Top Gun"
       }
     ],
     "mw": "W",
     "team": "Lane Violation",
     "hssTeam": "The Outsiders",
-    "hsgTeam": "Spare Me"
+    "hsgTeam": "We Don't Give A Split"
   },
   "Aaron Fitzgerald": {
     "hsg": "152",
@@ -1503,12 +2623,76 @@
         "hs": "140",
         "total": "425",
         "against": "Sandbaggers"
+      },
+      {
+        "week": 17,
+        "avg": "142",
+        "hcp": "70",
+        "gm1": "154",
+        "gm2": "135",
+        "ss": "289",
+        "hs": "140",
+        "total": "429",
+        "against": "Guess Who"
+      },
+      {
+        "week": 18,
+        "avg": "143",
+        "hcp": "69",
+        "gm1": "149",
+        "gm2": "156",
+        "ss": "305",
+        "hs": "138",
+        "total": "443",
+        "against": "Splatters2"
+      },
+      {
+        "week": 20,
+        "avg": "146",
+        "hcp": "66",
+        "gm1": "166",
+        "gm2": "143",
+        "ss": "309",
+        "hs": "132",
+        "total": "441",
+        "against": "We Don't Give A Split"
       }
     ],
     "mw": "M",
     "team": "Shoe Throwin Mad",
     "hsgTeam": "Sandbaggers",
     "hssTeam": "Sandbaggers"
+  },
+  "Greg Fontana": {
+    "hsg": "153",
+    "hss": "276",
+    "link": "https://www.leaguesecretary.com//bowling-centers/cedar-rapids-bowl-cedar-rapids-iowa/bowling-leagues/lunch-league-2023-2024/bowler-info/greg-fontana/2023/fall/130603/95",
+    "weeks": [
+      {
+        "week": 22,
+        "avg": "125",
+        "hcp": "85",
+        "gm1": "104",
+        "gm2": "146",
+        "ss": "250",
+        "hs": "170",
+        "total": "420",
+        "against": "1 Mor"
+      },
+      {
+        "week": 24,
+        "avg": "125",
+        "hcp": "85",
+        "gm1": "91",
+        "gm2": "96",
+        "ss": "187",
+        "hs": "170",
+        "total": "357",
+        "against": "Shoe Throwin Mad"
+      }
+    ],
+    "mw": "M",
+    "team": "L.O.F.T"
   },
   "John Gabrielson": {
     "hsg": "262",
@@ -1535,7 +2719,7 @@
         "ss": "396",
         "hs": "24",
         "total": "420",
-        "against": "Splits-n-Giggles"
+        "against": "Vacant"
       },
       {
         "week": 7,
@@ -1580,6 +2764,83 @@
         "hs": "24",
         "total": "432",
         "against": "Spare Me"
+      },
+      {
+        "week": 14,
+        "avg": "206",
+        "hcp": "12",
+        "gm1": "220",
+        "gm2": "170",
+        "ss": "390",
+        "hs": "24",
+        "total": "414",
+        "against": "Backstabbers"
+      },
+      {
+        "week": 15,
+        "avg": "204",
+        "hcp": "14",
+        "gm1": "218",
+        "gm2": "171",
+        "ss": "389",
+        "hs": "28",
+        "total": "417",
+        "against": "MoJo"
+      },
+      {
+        "week": 16,
+        "avg": "203",
+        "hcp": "15",
+        "gm1": "197",
+        "gm2": "174",
+        "ss": "371",
+        "hs": "30",
+        "total": "401",
+        "against": "Frickin Ten Pin"
+      },
+      {
+        "week": 19,
+        "avg": "201",
+        "hcp": "17",
+        "gm1": "243",
+        "gm2": "246",
+        "ss": "489",
+        "hs": "34",
+        "total": "523",
+        "against": "Bad Attitude"
+      },
+      {
+        "week": 20,
+        "avg": "205",
+        "hcp": "13",
+        "gm1": "211",
+        "gm2": "172",
+        "ss": "383",
+        "hs": "26",
+        "total": "409",
+        "against": "SPAM"
+      },
+      {
+        "week": 23,
+        "avg": "204",
+        "hcp": "14",
+        "gm1": "195",
+        "gm2": "203",
+        "ss": "398",
+        "hs": "28",
+        "total": "426",
+        "against": "Top Gun"
+      },
+      {
+        "week": 24,
+        "avg": "204",
+        "hcp": "14",
+        "gm1": "199",
+        "gm2": "171",
+        "ss": "370",
+        "hs": "28",
+        "total": "398",
+        "against": "Roll Clones"
       }
     ],
     "mw": "M",
@@ -1659,17 +2920,6 @@
         "against": "I am Root"
       },
       {
-        "week": 8,
-        "avg": "209",
-        "hcp": "9",
-        "gm1": "290",
-        "gm2": "264",
-        "ss": "554",
-        "hs": "18",
-        "total": "572",
-        "against": "Alias Smith and Godfrey"
-      },
-      {
         "week": 9,
         "avg": "209",
         "hcp": "9",
@@ -1690,11 +2940,132 @@
         "hs": "416",
         "total": "416",
         "against": "Barely Bowling"
+      },
+      {
+        "week": 13,
+        "avg": "209",
+        "hcp": "9",
+        "gm1": "199",
+        "gm2": "199",
+        "ss": "0",
+        "hs": "416",
+        "total": "416",
+        "against": "Frickin Ten Pin"
+      },
+      {
+        "week": 14,
+        "avg": "209",
+        "hcp": "9",
+        "gm1": "222",
+        "gm2": "210",
+        "ss": "432",
+        "hs": "18",
+        "total": "450",
+        "against": "Splatters2"
+      },
+      {
+        "week": 15,
+        "avg": "210",
+        "hcp": "9",
+        "gm1": "214",
+        "gm2": "267",
+        "ss": "481",
+        "hs": "18",
+        "total": "499",
+        "against": "Vacant"
+      },
+      {
+        "week": 16,
+        "avg": "213",
+        "hcp": "6",
+        "gm1": "237",
+        "gm2": "268",
+        "ss": "505",
+        "hs": "12",
+        "total": "517",
+        "against": "SPAM"
+      },
+      {
+        "week": 17,
+        "avg": "217",
+        "hcp": "2",
+        "gm1": "269",
+        "gm2": "205",
+        "ss": "474",
+        "hs": "4",
+        "total": "478",
+        "against": "Bad Attitude"
+      },
+      {
+        "week": 18,
+        "avg": "219",
+        "hcp": "0",
+        "gm1": "180",
+        "gm2": "208",
+        "ss": "388",
+        "hs": "0",
+        "total": "388",
+        "against": "Bob_Rossing It"
+      },
+      {
+        "week": 19,
+        "avg": "217",
+        "hcp": "2",
+        "gm1": "206",
+        "gm2": "259",
+        "ss": "465",
+        "hs": "4",
+        "total": "469",
+        "against": "Split Happens"
+      },
+      {
+        "week": 20,
+        "avg": "218",
+        "hcp": "1",
+        "gm1": "258",
+        "gm2": "182",
+        "ss": "440",
+        "hs": "2",
+        "total": "442",
+        "against": "Guess Who"
+      },
+      {
+        "week": 22,
+        "avg": "218",
+        "hcp": "1",
+        "gm1": "208",
+        "gm2": "208",
+        "ss": "0",
+        "hs": "418",
+        "total": "418",
+        "against": "L.O.F.T"
+      },
+      {
+        "week": 23,
+        "avg": "218",
+        "hcp": "1",
+        "gm1": "203",
+        "gm2": "224",
+        "ss": "427",
+        "hs": "2",
+        "total": "429",
+        "against": "Rick Rollers"
+      },
+      {
+        "week": 24,
+        "avg": "218",
+        "hcp": "1",
+        "gm1": "266",
+        "gm2": "213",
+        "ss": "479",
+        "hs": "2",
+        "total": "481",
+        "against": "Engineering Strikes"
       }
     ],
     "mw": "M",
     "team": "1 Mor",
-    "hsgTeam": "I am Root",
+    "hsgTeam": "Engineering Strikes",
     "hssTeam": "I am Root"
   },
   "Heidi Godfrey": {
@@ -1733,7 +3104,7 @@
         "ss": "333",
         "hs": "136",
         "total": "469",
-        "against": "Splits-n-Giggles"
+        "against": "Vacant"
       },
       {
         "week": 5,
@@ -1767,17 +3138,6 @@
         "hs": "126",
         "total": "375",
         "against": "Frickin Ten Pin"
-      },
-      {
-        "week": 8,
-        "avg": "147",
-        "hcp": "65",
-        "gm1": "159",
-        "gm2": "156",
-        "ss": "315",
-        "hs": "130",
-        "total": "445",
-        "against": "1 Mor"
       },
       {
         "week": 9,
@@ -1822,11 +3182,121 @@
         "hs": "134",
         "total": "445",
         "against": "The Outsiders"
+      },
+      {
+        "week": 13,
+        "avg": "146",
+        "hcp": "66",
+        "gm1": "114",
+        "gm2": "152",
+        "ss": "266",
+        "hs": "132",
+        "total": "398",
+        "against": "Spare Me"
+      },
+      {
+        "week": 14,
+        "avg": "145",
+        "hcp": "67",
+        "gm1": "104",
+        "gm2": "148",
+        "ss": "252",
+        "hs": "134",
+        "total": "386",
+        "against": "Shoe Throwin Mad"
+      },
+      {
+        "week": 15,
+        "avg": "144",
+        "hcp": "68",
+        "gm1": "105",
+        "gm2": "146",
+        "ss": "251",
+        "hs": "136",
+        "total": "387",
+        "against": "Splatters2"
+      },
+      {
+        "week": 17,
+        "avg": "142",
+        "hcp": "70",
+        "gm1": "147",
+        "gm2": "153",
+        "ss": "300",
+        "hs": "140",
+        "total": "440",
+        "against": "Barely Bowling"
+      },
+      {
+        "week": 18,
+        "avg": "143",
+        "hcp": "69",
+        "gm1": "142",
+        "gm2": "151",
+        "ss": "293",
+        "hs": "138",
+        "total": "431",
+        "against": "Bad Attitude"
+      },
+      {
+        "week": 19,
+        "avg": "143",
+        "hcp": "69",
+        "gm1": "133",
+        "gm2": "181",
+        "ss": "314",
+        "hs": "138",
+        "total": "452",
+        "against": "SPAM"
+      },
+      {
+        "week": 20,
+        "avg": "144",
+        "hcp": "68",
+        "gm1": "128",
+        "gm2": "133",
+        "ss": "261",
+        "hs": "136",
+        "total": "397",
+        "against": "Engineering Strikes"
+      },
+      {
+        "week": 22,
+        "avg": "143",
+        "hcp": "69",
+        "gm1": "107",
+        "gm2": "164",
+        "ss": "271",
+        "hs": "138",
+        "total": "409",
+        "against": "Top Gun"
+      },
+      {
+        "week": 23,
+        "avg": "143",
+        "hcp": "69",
+        "gm1": "133",
+        "gm2": "123",
+        "ss": "256",
+        "hs": "138",
+        "total": "394",
+        "against": "XXX Dancers"
+      },
+      {
+        "week": 24,
+        "avg": "142",
+        "hcp": "70",
+        "gm1": "103",
+        "gm2": "102",
+        "ss": "205",
+        "hs": "140",
+        "total": "345",
+        "against": "Strike a Pose"
       }
     ],
     "mw": "W",
     "team": "Alias Smith and Godfrey",
-    "hssTeam": "Splits-n-Giggles",
+    "hssTeam": "Vacant",
     "hsgTeam": "Backstabbers"
   },
   "Mark Godfrey": {
@@ -1901,17 +3371,6 @@
         "against": "Roll Clones"
       },
       {
-        "week": 8,
-        "avg": "180",
-        "hcp": "36",
-        "gm1": "176",
-        "gm2": "158",
-        "ss": "334",
-        "hs": "72",
-        "total": "406",
-        "against": "Shoe Throwin Mad"
-      },
-      {
         "week": 9,
         "avg": "180",
         "hcp": "36",
@@ -1954,6 +3413,127 @@
         "hs": "72",
         "total": "460",
         "against": "L.O.F.T"
+      },
+      {
+        "week": 13,
+        "avg": "180",
+        "hcp": "36",
+        "gm1": "181",
+        "gm2": "184",
+        "ss": "365",
+        "hs": "72",
+        "total": "437",
+        "against": "Rick Rollers"
+      },
+      {
+        "week": 14,
+        "avg": "180",
+        "hcp": "36",
+        "gm1": "195",
+        "gm2": "215",
+        "ss": "410",
+        "hs": "72",
+        "total": "482",
+        "against": "Bob_Rossing It"
+      },
+      {
+        "week": 15,
+        "avg": "182",
+        "hcp": "34",
+        "gm1": "169",
+        "gm2": "189",
+        "ss": "358",
+        "hs": "68",
+        "total": "426",
+        "against": "Engineering Strikes"
+      },
+      {
+        "week": 16,
+        "avg": "182",
+        "hcp": "34",
+        "gm1": "225",
+        "gm2": "158",
+        "ss": "383",
+        "hs": "68",
+        "total": "451",
+        "against": "1 Mor"
+      },
+      {
+        "week": 17,
+        "avg": "183",
+        "hcp": "33",
+        "gm1": "209",
+        "gm2": "227",
+        "ss": "436",
+        "hs": "66",
+        "total": "502",
+        "against": "Craptastic"
+      },
+      {
+        "week": 18,
+        "avg": "185",
+        "hcp": "31",
+        "gm1": "243",
+        "gm2": "191",
+        "ss": "434",
+        "hs": "62",
+        "total": "496",
+        "against": "Sandbaggers"
+      },
+      {
+        "week": 19,
+        "avg": "187",
+        "hcp": "29",
+        "gm1": "162",
+        "gm2": "279",
+        "ss": "441",
+        "hs": "58",
+        "total": "499",
+        "against": "Alias Smith and Godfrey"
+      },
+      {
+        "week": 20,
+        "avg": "189",
+        "hcp": "27",
+        "gm1": "177",
+        "gm2": "194",
+        "ss": "371",
+        "hs": "54",
+        "total": "425",
+        "against": "Lane Violation"
+      },
+      {
+        "week": 22,
+        "avg": "188",
+        "hcp": "28",
+        "gm1": "172",
+        "gm2": "205",
+        "ss": "377",
+        "hs": "56",
+        "total": "433",
+        "against": "Strike a Pose"
+      },
+      {
+        "week": 23,
+        "avg": "188",
+        "hcp": "28",
+        "gm1": "190",
+        "gm2": "195",
+        "ss": "385",
+        "hs": "56",
+        "total": "441",
+        "against": "D & A Lawn Care"
+      },
+      {
+        "week": 24,
+        "avg": "189",
+        "hcp": "27",
+        "gm1": "188",
+        "gm2": "158",
+        "ss": "346",
+        "hs": "54",
+        "total": "400",
+        "against": "Bad Attitude"
       }
     ],
     "mw": "M",
@@ -2001,53 +3581,9 @@
       }
     ],
     "mw": "W",
-    "team": "Splits-n-Giggles",
+    "team": "Vacant",
     "hsgTeam": "Frickin Ten Pin",
     "hssTeam": "Frickin Ten Pin"
-  },
-  "Ray Harken": {
-    "hsg": "300",
-    "hss": "497",
-    "link": "https://www.leaguesecretary.com//bowling-centers/cedar-rapids-bowl-cedar-rapids-iowa/bowling-leagues/lunch-league-2023-2024/bowler-info/ray-harken/2023/fall/130603/83",
-    "weeks": [
-      {
-        "week": 9,
-        "avg": "202",
-        "hcp": "16",
-        "gm1": "206",
-        "gm2": "235",
-        "ss": "441",
-        "hs": "32",
-        "total": "473",
-        "against": "Guess Who"
-      },
-      {
-        "week": 10,
-        "avg": "208",
-        "hcp": "10",
-        "gm1": "300",
-        "gm2": "197",
-        "ss": "497",
-        "hs": "20",
-        "total": "517",
-        "against": "Alias Smith and Godfrey"
-      },
-      {
-        "week": 12,
-        "avg": "218",
-        "hcp": "1",
-        "gm1": "223",
-        "gm2": "174",
-        "ss": "397",
-        "hs": "2",
-        "total": "399",
-        "against": "D & A Lawn Care"
-      }
-    ],
-    "mw": "M",
-    "team": "Backstabbers",
-    "hsgTeam": "Alias Smith and Godfrey",
-    "hssTeam": "Alias Smith and Godfrey"
   },
   "Allison Hecker": {
     "hsg": "169",
@@ -2099,15 +3635,59 @@
         "against": "Strike a Pose"
       },
       {
-        "week": 8,
+        "week": 15,
         "avg": "125",
         "hcp": "85",
-        "gm1": "161",
-        "gm2": "159",
-        "ss": "320",
+        "gm1": "110",
+        "gm2": "156",
+        "ss": "266",
         "hs": "170",
-        "total": "490",
-        "against": "I am Root"
+        "total": "436",
+        "against": "MoJo"
+      },
+      {
+        "week": 16,
+        "avg": "127",
+        "hcp": "83",
+        "gm1": "117",
+        "gm2": "137",
+        "ss": "254",
+        "hs": "166",
+        "total": "420",
+        "against": "Frickin Ten Pin"
+      },
+      {
+        "week": 17,
+        "avg": "127",
+        "hcp": "83",
+        "gm1": "103",
+        "gm2": "206",
+        "ss": "309",
+        "hs": "166",
+        "total": "475",
+        "against": "We Don't Give A Split"
+      },
+      {
+        "week": 19,
+        "avg": "131",
+        "hcp": "80",
+        "gm1": "123",
+        "gm2": "149",
+        "ss": "272",
+        "hs": "160",
+        "total": "432",
+        "against": "Bad Attitude"
+      },
+      {
+        "week": 22,
+        "avg": "131",
+        "hcp": "80",
+        "gm1": "177",
+        "gm2": "158",
+        "ss": "335",
+        "hs": "160",
+        "total": "495",
+        "against": "Engineering Strikes"
       }
     ],
     "mw": "W",
@@ -2184,18 +3764,7 @@
         "ss": "344",
         "hs": "16",
         "total": "360",
-        "against": "Splits-n-Giggles"
-      },
-      {
-        "week": 8,
-        "avg": "211",
-        "hcp": "8",
-        "gm1": "225",
-        "gm2": "194",
-        "ss": "419",
-        "hs": "16",
-        "total": "435",
-        "against": "Spare Me"
+        "against": "Vacant"
       },
       {
         "week": 9,
@@ -2240,6 +3809,127 @@
         "hs": "20",
         "total": "401",
         "against": "Rick Rollers"
+      },
+      {
+        "week": 13,
+        "avg": "206",
+        "hcp": "12",
+        "gm1": "207",
+        "gm2": "180",
+        "ss": "387",
+        "hs": "24",
+        "total": "411",
+        "against": "Bob_Rossing It"
+      },
+      {
+        "week": 14,
+        "avg": "205",
+        "hcp": "13",
+        "gm1": "172",
+        "gm2": "216",
+        "ss": "388",
+        "hs": "26",
+        "total": "414",
+        "against": "Split Happens"
+      },
+      {
+        "week": 15,
+        "avg": "204",
+        "hcp": "14",
+        "gm1": "180",
+        "gm2": "194",
+        "ss": "374",
+        "hs": "28",
+        "total": "402",
+        "against": "SPAM"
+      },
+      {
+        "week": 16,
+        "avg": "203",
+        "hcp": "15",
+        "gm1": "190",
+        "gm2": "173",
+        "ss": "363",
+        "hs": "30",
+        "total": "393",
+        "against": "Bad Attitude"
+      },
+      {
+        "week": 17,
+        "avg": "201",
+        "hcp": "17",
+        "gm1": "170",
+        "gm2": "183",
+        "ss": "353",
+        "hs": "34",
+        "total": "387",
+        "against": "Roll Clones"
+      },
+      {
+        "week": 18,
+        "avg": "200",
+        "hcp": "18",
+        "gm1": "177",
+        "gm2": "181",
+        "ss": "358",
+        "hs": "36",
+        "total": "394",
+        "against": "D & A Lawn Care"
+      },
+      {
+        "week": 19,
+        "avg": "198",
+        "hcp": "19",
+        "gm1": "160",
+        "gm2": "194",
+        "ss": "354",
+        "hs": "38",
+        "total": "392",
+        "against": "Sandbaggers"
+      },
+      {
+        "week": 20,
+        "avg": "197",
+        "hcp": "20",
+        "gm1": "224",
+        "gm2": "199",
+        "ss": "423",
+        "hs": "40",
+        "total": "463",
+        "against": "Alias Smith and Godfrey"
+      },
+      {
+        "week": 22,
+        "avg": "198",
+        "hcp": "19",
+        "gm1": "191",
+        "gm2": "233",
+        "ss": "424",
+        "hs": "38",
+        "total": "462",
+        "against": "Lane Violation"
+      },
+      {
+        "week": 23,
+        "avg": "199",
+        "hcp": "18",
+        "gm1": "190",
+        "gm2": "216",
+        "ss": "406",
+        "hs": "36",
+        "total": "442",
+        "against": "Strike a Pose"
+      },
+      {
+        "week": 24,
+        "avg": "199",
+        "hcp": "18",
+        "gm1": "196",
+        "gm2": "213",
+        "ss": "409",
+        "hs": "36",
+        "total": "445",
+        "against": "1 Mor"
       }
     ],
     "mw": "M",
@@ -2297,17 +3987,6 @@
         "against": "Spare Me"
       },
       {
-        "week": 8,
-        "avg": "149",
-        "hcp": "63",
-        "gm1": "138",
-        "gm2": "146",
-        "ss": "284",
-        "hs": "126",
-        "total": "410",
-        "against": "Barely Bowling"
-      },
-      {
         "week": 9,
         "avg": "149",
         "hcp": "63",
@@ -2350,6 +4029,116 @@
         "hs": "110",
         "total": "421",
         "against": "Top Gun"
+      },
+      {
+        "week": 13,
+        "avg": "158",
+        "hcp": "55",
+        "gm1": "163",
+        "gm2": "134",
+        "ss": "297",
+        "hs": "110",
+        "total": "407",
+        "against": "Engineering Strikes"
+      },
+      {
+        "week": 14,
+        "avg": "157",
+        "hcp": "56",
+        "gm1": "159",
+        "gm2": "115",
+        "ss": "274",
+        "hs": "112",
+        "total": "386",
+        "against": "SPAM"
+      },
+      {
+        "week": 15,
+        "avg": "155",
+        "hcp": "58",
+        "gm1": "153",
+        "gm2": "142",
+        "ss": "295",
+        "hs": "116",
+        "total": "411",
+        "against": "Shoe Throwin Mad"
+      },
+      {
+        "week": 16,
+        "avg": "154",
+        "hcp": "59",
+        "gm1": "144",
+        "gm2": "144",
+        "ss": "0",
+        "hs": "406",
+        "total": "406",
+        "against": "Guess Who"
+      },
+      {
+        "week": 18,
+        "avg": "154",
+        "hcp": "59",
+        "gm1": "143",
+        "gm2": "166",
+        "ss": "309",
+        "hs": "118",
+        "total": "427",
+        "against": "1 Mor"
+      },
+      {
+        "week": 19,
+        "avg": "154",
+        "hcp": "59",
+        "gm1": "201",
+        "gm2": "151",
+        "ss": "352",
+        "hs": "118",
+        "total": "470",
+        "against": "I am Root"
+      },
+      {
+        "week": 20,
+        "avg": "156",
+        "hcp": "57",
+        "gm1": "158",
+        "gm2": "183",
+        "ss": "341",
+        "hs": "114",
+        "total": "455",
+        "against": "Vacant"
+      },
+      {
+        "week": 22,
+        "avg": "157",
+        "hcp": "56",
+        "gm1": "128",
+        "gm2": "136",
+        "ss": "264",
+        "hs": "112",
+        "total": "376",
+        "against": "Craptastic"
+      },
+      {
+        "week": 23,
+        "avg": "155",
+        "hcp": "58",
+        "gm1": "146",
+        "gm2": "115",
+        "ss": "261",
+        "hs": "116",
+        "total": "377",
+        "against": "Roll Clones"
+      },
+      {
+        "week": 24,
+        "avg": "154",
+        "hcp": "59",
+        "gm1": "125",
+        "gm2": "139",
+        "ss": "264",
+        "hs": "118",
+        "total": "382",
+        "against": "Vacant"
       }
     ],
     "mw": "M",
@@ -2405,6 +4194,28 @@
         "hs": "210",
         "total": "510",
         "against": "Roll Clones"
+      },
+      {
+        "week": 19,
+        "avg": "115",
+        "hcp": "94",
+        "gm1": "81",
+        "gm2": "96",
+        "ss": "177",
+        "hs": "188",
+        "total": "365",
+        "against": "The Outsiders"
+      },
+      {
+        "week": 23,
+        "avg": "109",
+        "hcp": "99",
+        "gm1": "115",
+        "gm2": "126",
+        "ss": "241",
+        "hs": "198",
+        "total": "439",
+        "against": "Backstabbers"
       }
     ],
     "mw": "M",
@@ -2484,17 +4295,6 @@
         "against": "Rick Rollers"
       },
       {
-        "week": 8,
-        "avg": "137",
-        "hcp": "74",
-        "gm1": "143",
-        "gm2": "135",
-        "ss": "278",
-        "hs": "148",
-        "total": "426",
-        "against": "We Don't Give A Split"
-      },
-      {
         "week": 9,
         "avg": "137",
         "hcp": "74",
@@ -2537,6 +4337,116 @@
         "hs": "140",
         "total": "397",
         "against": "SPAM"
+      },
+      {
+        "week": 13,
+        "avg": "141",
+        "hcp": "71",
+        "gm1": "182",
+        "gm2": "127",
+        "ss": "309",
+        "hs": "142",
+        "total": "451",
+        "against": "Bad Attitude"
+      },
+      {
+        "week": 14,
+        "avg": "142",
+        "hcp": "70",
+        "gm1": "149",
+        "gm2": "168",
+        "ss": "317",
+        "hs": "140",
+        "total": "457",
+        "against": "XXX Dancers"
+      },
+      {
+        "week": 16,
+        "avg": "143",
+        "hcp": "69",
+        "gm1": "170",
+        "gm2": "180",
+        "ss": "350",
+        "hs": "138",
+        "total": "488",
+        "against": "Shoe Throwin Mad"
+      },
+      {
+        "week": 17,
+        "avg": "145",
+        "hcp": "67",
+        "gm1": "147",
+        "gm2": "106",
+        "ss": "253",
+        "hs": "134",
+        "total": "387",
+        "against": "The Munsons"
+      },
+      {
+        "week": 18,
+        "avg": "144",
+        "hcp": "68",
+        "gm1": "117",
+        "gm2": "134",
+        "ss": "251",
+        "hs": "136",
+        "total": "387",
+        "against": "Vacant"
+      },
+      {
+        "week": 19,
+        "avg": "143",
+        "hcp": "69",
+        "gm1": "159",
+        "gm2": "176",
+        "ss": "335",
+        "hs": "138",
+        "total": "473",
+        "against": "Craptastic"
+      },
+      {
+        "week": 20,
+        "avg": "144",
+        "hcp": "68",
+        "gm1": "131",
+        "gm2": "188",
+        "ss": "319",
+        "hs": "136",
+        "total": "455",
+        "against": "Roll Clones"
+      },
+      {
+        "week": 22,
+        "avg": "145",
+        "hcp": "67",
+        "gm1": "136",
+        "gm2": "123",
+        "ss": "259",
+        "hs": "134",
+        "total": "393",
+        "against": "1 Mor"
+      },
+      {
+        "week": 23,
+        "avg": "144",
+        "hcp": "68",
+        "gm1": "95",
+        "gm2": "112",
+        "ss": "207",
+        "hs": "136",
+        "total": "343",
+        "against": "I am Root"
+      },
+      {
+        "week": 24,
+        "avg": "142",
+        "hcp": "70",
+        "gm1": "148",
+        "gm2": "247",
+        "ss": "395",
+        "hs": "140",
+        "total": "535",
+        "against": "Shoe Throwin Mad"
       }
     ],
     "mw": "M",
@@ -2605,17 +4515,6 @@
         "against": "Rick Rollers"
       },
       {
-        "week": 8,
-        "avg": "114",
-        "hcp": "95",
-        "gm1": "113",
-        "gm2": "121",
-        "ss": "234",
-        "hs": "190",
-        "total": "424",
-        "against": "We Don't Give A Split"
-      },
-      {
         "week": 9,
         "avg": "114",
         "hcp": "95",
@@ -2647,6 +4546,94 @@
         "hs": "198",
         "total": "429",
         "against": "SPAM"
+      },
+      {
+        "week": 13,
+        "avg": "111",
+        "hcp": "98",
+        "gm1": "109",
+        "gm2": "117",
+        "ss": "226",
+        "hs": "196",
+        "total": "422",
+        "against": "Bad Attitude"
+      },
+      {
+        "week": 14,
+        "avg": "111",
+        "hcp": "98",
+        "gm1": "105",
+        "gm2": "94",
+        "ss": "199",
+        "hs": "196",
+        "total": "395",
+        "against": "XXX Dancers"
+      },
+      {
+        "week": 16,
+        "avg": "110",
+        "hcp": "99",
+        "gm1": "160",
+        "gm2": "112",
+        "ss": "272",
+        "hs": "198",
+        "total": "470",
+        "against": "Shoe Throwin Mad"
+      },
+      {
+        "week": 17,
+        "avg": "112",
+        "hcp": "97",
+        "gm1": "114",
+        "gm2": "125",
+        "ss": "239",
+        "hs": "194",
+        "total": "433",
+        "against": "The Munsons"
+      },
+      {
+        "week": 18,
+        "avg": "113",
+        "hcp": "96",
+        "gm1": "127",
+        "gm2": "119",
+        "ss": "246",
+        "hs": "192",
+        "total": "438",
+        "against": "Vacant"
+      },
+      {
+        "week": 19,
+        "avg": "113",
+        "hcp": "96",
+        "gm1": "123",
+        "gm2": "163",
+        "ss": "286",
+        "hs": "192",
+        "total": "478",
+        "against": "Craptastic"
+      },
+      {
+        "week": 20,
+        "avg": "115",
+        "hcp": "94",
+        "gm1": "156",
+        "gm2": "100",
+        "ss": "256",
+        "hs": "188",
+        "total": "444",
+        "against": "Roll Clones"
+      },
+      {
+        "week": 23,
+        "avg": "116",
+        "hcp": "93",
+        "gm1": "106",
+        "gm2": "106",
+        "ss": "0",
+        "hs": "398",
+        "total": "398",
+        "against": "I am Root"
       }
     ],
     "mw": "W",
@@ -2669,6 +4656,105 @@
         "hs": "180",
         "total": "419",
         "against": "Backstabbers"
+      },
+      {
+        "week": 13,
+        "avg": "119",
+        "hcp": "90",
+        "gm1": "85",
+        "gm2": "104",
+        "ss": "189",
+        "hs": "180",
+        "total": "369",
+        "against": "The Munsons"
+      },
+      {
+        "week": 14,
+        "avg": "107",
+        "hcp": "101",
+        "gm1": "91",
+        "gm2": "116",
+        "ss": "207",
+        "hs": "202",
+        "total": "409",
+        "against": "The Outsiders"
+      },
+      {
+        "week": 15,
+        "avg": "105",
+        "hcp": "103",
+        "gm1": "108",
+        "gm2": "94",
+        "ss": "202",
+        "hs": "206",
+        "total": "408",
+        "against": "Sandbaggers"
+      },
+      {
+        "week": 16,
+        "avg": "104",
+        "hcp": "104",
+        "gm1": "137",
+        "gm2": "110",
+        "ss": "247",
+        "hs": "208",
+        "total": "455",
+        "against": "Alias Smith and Godfrey"
+      },
+      {
+        "week": 17,
+        "avg": "108",
+        "hcp": "100",
+        "gm1": "142",
+        "gm2": "99",
+        "ss": "241",
+        "hs": "200",
+        "total": "441",
+        "against": "Splatters2"
+      },
+      {
+        "week": 18,
+        "avg": "110",
+        "hcp": "99",
+        "gm1": "141",
+        "gm2": "118",
+        "ss": "259",
+        "hs": "198",
+        "total": "457",
+        "against": "Engineering Strikes"
+      },
+      {
+        "week": 19,
+        "avg": "113",
+        "hcp": "96",
+        "gm1": "127",
+        "gm2": "117",
+        "ss": "244",
+        "hs": "192",
+        "total": "436",
+        "against": "Top Gun"
+      },
+      {
+        "week": 20,
+        "avg": "114",
+        "hcp": "95",
+        "gm1": "105",
+        "gm2": "130",
+        "ss": "235",
+        "hs": "190",
+        "total": "425",
+        "against": "XXX Dancers"
+      },
+      {
+        "week": 24,
+        "avg": "114",
+        "hcp": "95",
+        "gm1": "163",
+        "gm2": "116",
+        "ss": "279",
+        "hs": "190",
+        "total": "469",
+        "against": "Split Happens"
       }
     ],
     "mw": "M",
@@ -2748,17 +4834,6 @@
         "against": "We Don't Give A Split"
       },
       {
-        "week": 8,
-        "avg": "199",
-        "hcp": "18",
-        "gm1": "239",
-        "gm2": "193",
-        "ss": "432",
-        "hs": "36",
-        "total": "468",
-        "against": "Craptastic"
-      },
-      {
         "week": 9,
         "avg": "199",
         "hcp": "18",
@@ -2790,6 +4865,28 @@
         "hs": "30",
         "total": "494",
         "against": "Shoe Throwin Mad"
+      },
+      {
+        "week": 22,
+        "avg": "206",
+        "hcp": "12",
+        "gm1": "236",
+        "gm2": "223",
+        "ss": "459",
+        "hs": "24",
+        "total": "483",
+        "against": "Bad Attitude"
+      },
+      {
+        "week": 23,
+        "avg": "208",
+        "hcp": "10",
+        "gm1": "288",
+        "gm2": "244",
+        "ss": "532",
+        "hs": "20",
+        "total": "552",
+        "against": "SPAM"
       }
     ],
     "mw": "M",
@@ -2836,17 +4933,6 @@
         "against": "Backstabbers"
       },
       {
-        "week": 8,
-        "avg": "138",
-        "hcp": "73",
-        "gm1": "132",
-        "gm2": "152",
-        "ss": "284",
-        "hs": "146",
-        "total": "430",
-        "against": "XXX Dancers"
-      },
-      {
         "week": 10,
         "avg": "138",
         "hcp": "73",
@@ -2867,6 +4953,72 @@
         "hs": "402",
         "total": "402",
         "against": "Alias Smith and Godfrey"
+      },
+      {
+        "week": 15,
+        "avg": "139",
+        "hcp": "72",
+        "gm1": "104",
+        "gm2": "161",
+        "ss": "265",
+        "hs": "144",
+        "total": "409",
+        "against": "Rick Rollers"
+      },
+      {
+        "week": 17,
+        "avg": "138",
+        "hcp": "73",
+        "gm1": "126",
+        "gm2": "125",
+        "ss": "251",
+        "hs": "146",
+        "total": "397",
+        "against": "L.O.F.T"
+      },
+      {
+        "week": 19,
+        "avg": "136",
+        "hcp": "75",
+        "gm1": "117",
+        "gm2": "110",
+        "ss": "227",
+        "hs": "150",
+        "total": "377",
+        "against": "Barely Bowling"
+      },
+      {
+        "week": 22,
+        "avg": "133",
+        "hcp": "78",
+        "gm1": "131",
+        "gm2": "147",
+        "ss": "278",
+        "hs": "156",
+        "total": "434",
+        "against": "Frickin Ten Pin"
+      },
+      {
+        "week": 23,
+        "avg": "134",
+        "hcp": "77",
+        "gm1": "141",
+        "gm2": "104",
+        "ss": "245",
+        "hs": "154",
+        "total": "399",
+        "against": "We Don't Give A Split"
+      },
+      {
+        "week": 24,
+        "avg": "133",
+        "hcp": "78",
+        "gm1": "156",
+        "gm2": "134",
+        "ss": "290",
+        "hs": "156",
+        "total": "446",
+        "against": "The Outsiders"
       }
     ],
     "mw": "W",
@@ -2966,6 +5118,94 @@
         "hs": "66",
         "total": "437",
         "against": "Sandbaggers"
+      },
+      {
+        "week": 14,
+        "avg": "183",
+        "hcp": "33",
+        "gm1": "193",
+        "gm2": "156",
+        "ss": "349",
+        "hs": "66",
+        "total": "415",
+        "against": "Strike a Pose"
+      },
+      {
+        "week": 15,
+        "avg": "182",
+        "hcp": "34",
+        "gm1": "184",
+        "gm2": "236",
+        "ss": "420",
+        "hs": "68",
+        "total": "488",
+        "against": "Rick Rollers"
+      },
+      {
+        "week": 16,
+        "avg": "185",
+        "hcp": "31",
+        "gm1": "178",
+        "gm2": "151",
+        "ss": "329",
+        "hs": "62",
+        "total": "391",
+        "against": "The Outsiders"
+      },
+      {
+        "week": 17,
+        "avg": "183",
+        "hcp": "33",
+        "gm1": "212",
+        "gm2": "172",
+        "ss": "384",
+        "hs": "66",
+        "total": "450",
+        "against": "L.O.F.T"
+      },
+      {
+        "week": 20,
+        "avg": "184",
+        "hcp": "32",
+        "gm1": "123",
+        "gm2": "231",
+        "ss": "354",
+        "hs": "64",
+        "total": "418",
+        "against": "Splatters2"
+      },
+      {
+        "week": 22,
+        "avg": "183",
+        "hcp": "33",
+        "gm1": "177",
+        "gm2": "190",
+        "ss": "367",
+        "hs": "66",
+        "total": "433",
+        "against": "Frickin Ten Pin"
+      },
+      {
+        "week": 23,
+        "avg": "183",
+        "hcp": "33",
+        "gm1": "236",
+        "gm2": "196",
+        "ss": "432",
+        "hs": "66",
+        "total": "498",
+        "against": "We Don't Give A Split"
+      },
+      {
+        "week": 24,
+        "avg": "185",
+        "hcp": "31",
+        "gm1": "161",
+        "gm2": "172",
+        "ss": "333",
+        "hs": "62",
+        "total": "395",
+        "against": "The Outsiders"
       }
     ],
     "mw": "M",
@@ -3067,17 +5307,6 @@
         "against": "Split Happens"
       },
       {
-        "week": 8,
-        "avg": "197",
-        "hcp": "20",
-        "gm1": "220",
-        "gm2": "200",
-        "ss": "420",
-        "hs": "40",
-        "total": "460",
-        "against": "SPAM"
-      },
-      {
         "week": 11,
         "avg": "197",
         "hcp": "20",
@@ -3098,6 +5327,72 @@
         "hs": "34",
         "total": "484",
         "against": "Strike a Pose"
+      },
+      {
+        "week": 13,
+        "avg": "204",
+        "hcp": "14",
+        "gm1": "157",
+        "gm2": "182",
+        "ss": "339",
+        "hs": "28",
+        "total": "367",
+        "against": "Lane Violation"
+      },
+      {
+        "week": 14,
+        "avg": "200",
+        "hcp": "18",
+        "gm1": "162",
+        "gm2": "251",
+        "ss": "413",
+        "hs": "36",
+        "total": "449",
+        "against": "Alias Smith and Godfrey"
+      },
+      {
+        "week": 19,
+        "avg": "201",
+        "hcp": "17",
+        "gm1": "166",
+        "gm2": "206",
+        "ss": "372",
+        "hs": "34",
+        "total": "406",
+        "against": "Frickin Ten Pin"
+      },
+      {
+        "week": 22,
+        "avg": "200",
+        "hcp": "18",
+        "gm1": "183",
+        "gm2": "279",
+        "ss": "462",
+        "hs": "36",
+        "total": "498",
+        "against": "MoJo"
+      },
+      {
+        "week": 23,
+        "avg": "202",
+        "hcp": "16",
+        "gm1": "230",
+        "gm2": "187",
+        "ss": "417",
+        "hs": "32",
+        "total": "449",
+        "against": "Barely Bowling"
+      },
+      {
+        "week": 24,
+        "avg": "202",
+        "hcp": "16",
+        "gm1": "229",
+        "gm2": "203",
+        "ss": "432",
+        "hs": "32",
+        "total": "464",
+        "against": "L.O.F.T"
       }
     ],
     "mw": "M",
@@ -3177,17 +5472,6 @@
         "against": "The Outsiders"
       },
       {
-        "week": 8,
-        "avg": "152",
-        "hcp": "61",
-        "gm1": "170",
-        "gm2": "205",
-        "ss": "375",
-        "hs": "122",
-        "total": "497",
-        "against": "Frickin Ten Pin"
-      },
-      {
         "week": 9,
         "avg": "152",
         "hcp": "61",
@@ -3230,6 +5514,127 @@
         "hs": "126",
         "total": "420",
         "against": "Bad Attitude"
+      },
+      {
+        "week": 13,
+        "avg": "150",
+        "hcp": "63",
+        "gm1": "146",
+        "gm2": "195",
+        "ss": "341",
+        "hs": "126",
+        "total": "467",
+        "against": "XXX Dancers"
+      },
+      {
+        "week": 14,
+        "avg": "151",
+        "hcp": "62",
+        "gm1": "141",
+        "gm2": "141",
+        "ss": "0",
+        "hs": "406",
+        "total": "406",
+        "against": "Top Gun"
+      },
+      {
+        "week": 15,
+        "avg": "151",
+        "hcp": "62",
+        "gm1": "134",
+        "gm2": "211",
+        "ss": "345",
+        "hs": "124",
+        "total": "469",
+        "against": "Split Happens"
+      },
+      {
+        "week": 16,
+        "avg": "153",
+        "hcp": "60",
+        "gm1": "181",
+        "gm2": "145",
+        "ss": "326",
+        "hs": "120",
+        "total": "446",
+        "against": "Bob_Rossing It"
+      },
+      {
+        "week": 17,
+        "avg": "154",
+        "hcp": "59",
+        "gm1": "163",
+        "gm2": "129",
+        "ss": "292",
+        "hs": "118",
+        "total": "410",
+        "against": "Shoe Throwin Mad"
+      },
+      {
+        "week": 18,
+        "avg": "153",
+        "hcp": "60",
+        "gm1": "154",
+        "gm2": "197",
+        "ss": "351",
+        "hs": "120",
+        "total": "471",
+        "against": "Craptastic"
+      },
+      {
+        "week": 19,
+        "avg": "155",
+        "hcp": "58",
+        "gm1": "162",
+        "gm2": "139",
+        "ss": "301",
+        "hs": "116",
+        "total": "417",
+        "against": "Roll Clones"
+      },
+      {
+        "week": 20,
+        "avg": "154",
+        "hcp": "59",
+        "gm1": "144",
+        "gm2": "144",
+        "ss": "0",
+        "hs": "406",
+        "total": "406",
+        "against": "1 Mor"
+      },
+      {
+        "week": 22,
+        "avg": "154",
+        "hcp": "59",
+        "gm1": "165",
+        "gm2": "191",
+        "ss": "356",
+        "hs": "118",
+        "total": "474",
+        "against": "I am Root"
+      },
+      {
+        "week": 23,
+        "avg": "156",
+        "hcp": "57",
+        "gm1": "173",
+        "gm2": "176",
+        "ss": "349",
+        "hs": "114",
+        "total": "463",
+        "against": "Vacant"
+      },
+      {
+        "week": 24,
+        "avg": "157",
+        "hcp": "56",
+        "gm1": "174",
+        "gm2": "143",
+        "ss": "317",
+        "hs": "112",
+        "total": "429",
+        "against": "Splatters2"
       }
     ],
     "mw": "M",
@@ -3296,17 +5701,6 @@
         "against": "MoJo"
       },
       {
-        "week": 8,
-        "avg": "147",
-        "hcp": "65",
-        "gm1": "159",
-        "gm2": "162",
-        "ss": "321",
-        "hs": "130",
-        "total": "451",
-        "against": "Bob_Rossing It"
-      },
-      {
         "week": 9,
         "avg": "147",
         "hcp": "65",
@@ -3337,6 +5731,72 @@
         "ss": "298",
         "hs": "124",
         "total": "422",
+        "against": "Craptastic"
+      },
+      {
+        "week": 13,
+        "avg": "150",
+        "hcp": "63",
+        "gm1": "148",
+        "gm2": "132",
+        "ss": "280",
+        "hs": "126",
+        "total": "406",
+        "against": "Vacant"
+      },
+      {
+        "week": 16,
+        "avg": "149",
+        "hcp": "63",
+        "gm1": "201",
+        "gm2": "168",
+        "ss": "369",
+        "hs": "126",
+        "total": "495",
+        "against": "Sandbaggers"
+      },
+      {
+        "week": 17,
+        "avg": "152",
+        "hcp": "61",
+        "gm1": "145",
+        "gm2": "143",
+        "ss": "288",
+        "hs": "122",
+        "total": "410",
+        "against": "Alias Smith and Godfrey"
+      },
+      {
+        "week": 20,
+        "avg": "152",
+        "hcp": "61",
+        "gm1": "115",
+        "gm2": "120",
+        "ss": "235",
+        "hs": "122",
+        "total": "357",
+        "against": "The Outsiders"
+      },
+      {
+        "week": 23,
+        "avg": "150",
+        "hcp": "63",
+        "gm1": "171",
+        "gm2": "175",
+        "ss": "346",
+        "hs": "126",
+        "total": "472",
+        "against": "Shoe Throwin Mad"
+      },
+      {
+        "week": 24,
+        "avg": "152",
+        "hcp": "61",
+        "gm1": "186",
+        "gm2": "151",
+        "ss": "337",
+        "hs": "122",
+        "total": "459",
         "against": "Craptastic"
       }
     ],
@@ -3417,17 +5877,6 @@
         "against": "Bob_Rossing It"
       },
       {
-        "week": 8,
-        "avg": "155",
-        "hcp": "58",
-        "gm1": "167",
-        "gm2": "164",
-        "ss": "331",
-        "hs": "116",
-        "total": "447",
-        "against": "Engineering Strikes"
-      },
-      {
         "week": 9,
         "avg": "155",
         "hcp": "58",
@@ -3459,6 +5908,116 @@
         "hs": "112",
         "total": "468",
         "against": "Lane Violation"
+      },
+      {
+        "week": 13,
+        "avg": "160",
+        "hcp": "54",
+        "gm1": "177",
+        "gm2": "181",
+        "ss": "358",
+        "hs": "108",
+        "total": "466",
+        "against": "Alias Smith and Godfrey"
+      },
+      {
+        "week": 14,
+        "avg": "162",
+        "hcp": "52",
+        "gm1": "174",
+        "gm2": "192",
+        "ss": "366",
+        "hs": "104",
+        "total": "470",
+        "against": "Sandbaggers"
+      },
+      {
+        "week": 16,
+        "avg": "164",
+        "hcp": "50",
+        "gm1": "232",
+        "gm2": "165",
+        "ss": "397",
+        "hs": "100",
+        "total": "497",
+        "against": "Rick Rollers"
+      },
+      {
+        "week": 17,
+        "avg": "166",
+        "hcp": "48",
+        "gm1": "179",
+        "gm2": "194",
+        "ss": "373",
+        "hs": "96",
+        "total": "469",
+        "against": "Split Happens"
+      },
+      {
+        "week": 18,
+        "avg": "168",
+        "hcp": "46",
+        "gm1": "163",
+        "gm2": "211",
+        "ss": "374",
+        "hs": "92",
+        "total": "466",
+        "against": "Frickin Ten Pin"
+      },
+      {
+        "week": 19,
+        "avg": "169",
+        "hcp": "45",
+        "gm1": "171",
+        "gm2": "165",
+        "ss": "336",
+        "hs": "90",
+        "total": "426",
+        "against": "We Don't Give A Split"
+      },
+      {
+        "week": 20,
+        "avg": "169",
+        "hcp": "45",
+        "gm1": "145",
+        "gm2": "143",
+        "ss": "288",
+        "hs": "90",
+        "total": "378",
+        "against": "MoJo"
+      },
+      {
+        "week": 22,
+        "avg": "167",
+        "hcp": "47",
+        "gm1": "211",
+        "gm2": "134",
+        "ss": "345",
+        "hs": "94",
+        "total": "439",
+        "against": "Barely Bowling"
+      },
+      {
+        "week": 23,
+        "avg": "168",
+        "hcp": "46",
+        "gm1": "199",
+        "gm2": "199",
+        "ss": "398",
+        "hs": "92",
+        "total": "490",
+        "against": "Splatters2"
+      },
+      {
+        "week": 24,
+        "avg": "169",
+        "hcp": "45",
+        "gm1": "181",
+        "gm2": "147",
+        "ss": "328",
+        "hs": "90",
+        "total": "418",
+        "against": "Backstabbers"
       }
     ],
     "mw": "M",
@@ -3514,6 +6073,61 @@
         "hs": "132",
         "total": "418",
         "against": "Bad Attitude"
+      },
+      {
+        "week": 15,
+        "avg": "145",
+        "hcp": "67",
+        "gm1": "158",
+        "gm2": "137",
+        "ss": "295",
+        "hs": "134",
+        "total": "429",
+        "against": "Craptastic"
+      },
+      {
+        "week": 16,
+        "avg": "146",
+        "hcp": "66",
+        "gm1": "133",
+        "gm2": "153",
+        "ss": "286",
+        "hs": "132",
+        "total": "418",
+        "against": "Roll Clones"
+      },
+      {
+        "week": 17,
+        "avg": "145",
+        "hcp": "67",
+        "gm1": "137",
+        "gm2": "157",
+        "ss": "294",
+        "hs": "134",
+        "total": "428",
+        "against": "I am Root"
+      },
+      {
+        "week": 19,
+        "avg": "145",
+        "hcp": "67",
+        "gm1": "140",
+        "gm2": "147",
+        "ss": "287",
+        "hs": "134",
+        "total": "421",
+        "against": "D & A Lawn Care"
+      },
+      {
+        "week": 23,
+        "avg": "145",
+        "hcp": "67",
+        "gm1": "170",
+        "gm2": "172",
+        "ss": "342",
+        "hs": "134",
+        "total": "476",
+        "against": "Lane Violation"
       }
     ],
     "mw": "M",
@@ -3536,12 +6150,153 @@
         "hs": "228",
         "total": "414",
         "against": "XXX Dancers"
+      },
+      {
+        "week": 19,
+        "avg": "93",
+        "hcp": "114",
+        "gm1": "128",
+        "gm2": "116",
+        "ss": "244",
+        "hs": "228",
+        "total": "472",
+        "against": "Guess Who"
       }
     ],
     "mw": "M",
     "team": "Roll Clones",
     "hsgTeam": "XXX Dancers",
     "hssTeam": "XXX Dancers"
+  },
+  "Jackson LoPata": {
+    "hsg": "119",
+    "hss": "237",
+    "link": "https://www.leaguesecretary.com//bowling-centers/cedar-rapids-bowl-cedar-rapids-iowa/bowling-leagues/lunch-league-2023-2024/bowler-info/jackson-lopata/2023/fall/130603/91",
+    "weeks": [
+      {
+        "week": 13,
+        "avg": "97",
+        "hcp": "110",
+        "gm1": "109",
+        "gm2": "85",
+        "ss": "194",
+        "hs": "220",
+        "total": "414",
+        "against": "Craptastic"
+      },
+      {
+        "week": 14,
+        "avg": "97",
+        "hcp": "110",
+        "gm1": "78",
+        "gm2": "104",
+        "ss": "182",
+        "hs": "220",
+        "total": "402",
+        "against": "Vacant"
+      },
+      {
+        "week": 15,
+        "avg": "94",
+        "hcp": "113",
+        "gm1": "127",
+        "gm2": "83",
+        "ss": "210",
+        "hs": "226",
+        "total": "436",
+        "against": "Lane Violation"
+      },
+      {
+        "week": 16,
+        "avg": "97",
+        "hcp": "110",
+        "gm1": "127",
+        "gm2": "118",
+        "ss": "245",
+        "hs": "220",
+        "total": "465",
+        "against": "We Don't Give A Split"
+      },
+      {
+        "week": 17,
+        "avg": "103",
+        "hcp": "105",
+        "gm1": "142",
+        "gm2": "98",
+        "ss": "240",
+        "hs": "210",
+        "total": "450",
+        "against": "Strike a Pose"
+      },
+      {
+        "week": 18,
+        "avg": "107",
+        "hcp": "101",
+        "gm1": "97",
+        "gm2": "97",
+        "ss": "0",
+        "hs": "396",
+        "total": "396",
+        "against": "The Munsons"
+      },
+      {
+        "week": 19,
+        "avg": "107",
+        "hcp": "101",
+        "gm1": "124",
+        "gm2": "104",
+        "ss": "228",
+        "hs": "202",
+        "total": "430",
+        "against": "The Outsiders"
+      },
+      {
+        "week": 20,
+        "avg": "108",
+        "hcp": "100",
+        "gm1": "105",
+        "gm2": "75",
+        "ss": "180",
+        "hs": "200",
+        "total": "380",
+        "against": "Spare Me"
+      },
+      {
+        "week": 22,
+        "avg": "105",
+        "hcp": "103",
+        "gm1": "132",
+        "gm2": "125",
+        "ss": "257",
+        "hs": "206",
+        "total": "463",
+        "against": "Shoe Throwin Mad"
+      },
+      {
+        "week": 23,
+        "avg": "108",
+        "hcp": "100",
+        "gm1": "143",
+        "gm2": "109",
+        "ss": "252",
+        "hs": "200",
+        "total": "452",
+        "against": "Backstabbers"
+      },
+      {
+        "week": 24,
+        "avg": "110",
+        "hcp": "99",
+        "gm1": "99",
+        "gm2": "123",
+        "ss": "222",
+        "hs": "198",
+        "total": "420",
+        "against": "Rick Rollers"
+      }
+    ],
+    "mw": "M",
+    "team": "MoJo"
   },
   "Kevin Maruga": {
     "hsg": "168",
@@ -3604,17 +6359,6 @@
         "against": "Sandbaggers"
       },
       {
-        "week": 8,
-        "avg": "127",
-        "hcp": "83",
-        "gm1": "103",
-        "gm2": "103",
-        "ss": "206",
-        "hs": "166",
-        "total": "372",
-        "against": "Split Happens"
-      },
-      {
         "week": 9,
         "avg": "127",
         "hcp": "83",
@@ -3656,7 +6400,106 @@
         "ss": "233",
         "hs": "166",
         "total": "399",
-        "against": "Splits-n-Giggles"
+        "against": "Vacant"
+      },
+      {
+        "week": 13,
+        "avg": "126",
+        "hcp": "84",
+        "gm1": "116",
+        "gm2": "116",
+        "ss": "0",
+        "hs": "400",
+        "total": "400",
+        "against": "I am Root"
+      },
+      {
+        "week": 14,
+        "avg": "126",
+        "hcp": "84",
+        "gm1": "116",
+        "gm2": "116",
+        "ss": "0",
+        "hs": "400",
+        "total": "400",
+        "against": "1 Mor"
+      },
+      {
+        "week": 15,
+        "avg": "126",
+        "hcp": "84",
+        "gm1": "150",
+        "gm2": "119",
+        "ss": "269",
+        "hs": "168",
+        "total": "437",
+        "against": "Alias Smith and Godfrey"
+      },
+      {
+        "week": 16,
+        "avg": "126",
+        "hcp": "84",
+        "gm1": "147",
+        "gm2": "157",
+        "ss": "304",
+        "hs": "168",
+        "total": "472",
+        "against": "Strike a Pose"
+      },
+      {
+        "week": 18,
+        "avg": "129",
+        "hcp": "81",
+        "gm1": "108",
+        "gm2": "136",
+        "ss": "244",
+        "hs": "162",
+        "total": "406",
+        "against": "Shoe Throwin Mad"
+      },
+      {
+        "week": 19,
+        "avg": "128",
+        "hcp": "82",
+        "gm1": "145",
+        "gm2": "151",
+        "ss": "296",
+        "hs": "164",
+        "total": "460",
+        "against": "Backstabbers"
+      },
+      {
+        "week": 20,
+        "avg": "130",
+        "hcp": "81",
+        "gm1": "170",
+        "gm2": "152",
+        "ss": "322",
+        "hs": "162",
+        "total": "484",
+        "against": "The Munsons"
+      },
+      {
+        "week": 22,
+        "avg": "132",
+        "hcp": "79",
+        "gm1": "158",
+        "gm2": "171",
+        "ss": "329",
+        "hs": "158",
+        "total": "487",
+        "against": "The Outsiders"
+      },
+      {
+        "week": 23,
+        "avg": "134",
+        "hcp": "77",
+        "gm1": "124",
+        "gm2": "146",
+        "ss": "270",
+        "hs": "154",
+        "total": "424",
+        "against": "Spare Me"
       }
     ],
     "mw": "M",
@@ -3723,6 +6566,83 @@
         "hs": "72",
         "total": "504",
         "against": "Backstabbers"
+      },
+      {
+        "week": 13,
+        "avg": "185",
+        "hcp": "31",
+        "gm1": "197",
+        "gm2": "189",
+        "ss": "386",
+        "hs": "62",
+        "total": "448",
+        "against": "The Outsiders"
+      },
+      {
+        "week": 14,
+        "avg": "186",
+        "hcp": "30",
+        "gm1": "223",
+        "gm2": "155",
+        "ss": "378",
+        "hs": "60",
+        "total": "438",
+        "against": "Spare Me"
+      },
+      {
+        "week": 17,
+        "avg": "187",
+        "hcp": "29",
+        "gm1": "149",
+        "gm2": "163",
+        "ss": "312",
+        "hs": "58",
+        "total": "370",
+        "against": "Frickin Ten Pin"
+      },
+      {
+        "week": 19,
+        "avg": "183",
+        "hcp": "33",
+        "gm1": "206",
+        "gm2": "173",
+        "ss": "379",
+        "hs": "66",
+        "total": "445",
+        "against": "Engineering Strikes"
+      },
+      {
+        "week": 22,
+        "avg": "184",
+        "hcp": "32",
+        "gm1": "191",
+        "gm2": "194",
+        "ss": "385",
+        "hs": "64",
+        "total": "449",
+        "against": "XXX Dancers"
+      },
+      {
+        "week": 23,
+        "avg": "184",
+        "hcp": "32",
+        "gm1": "217",
+        "gm2": "184",
+        "ss": "401",
+        "hs": "64",
+        "total": "465",
+        "against": "Bad Attitude"
+      },
+      {
+        "week": 24,
+        "avg": "186",
+        "hcp": "30",
+        "gm1": "170",
+        "gm2": "198",
+        "ss": "368",
+        "hs": "60",
+        "total": "428",
+        "against": "Frickin Ten Pin"
       }
     ],
     "mw": "M",
@@ -3810,6 +6730,116 @@
         "hs": "144",
         "total": "467",
         "against": "Frickin Ten Pin"
+      },
+      {
+        "week": 13,
+        "avg": "141",
+        "hcp": "71",
+        "gm1": "113",
+        "gm2": "112",
+        "ss": "225",
+        "hs": "142",
+        "total": "367",
+        "against": "Splatters2"
+      },
+      {
+        "week": 14,
+        "avg": "138",
+        "hcp": "73",
+        "gm1": "144",
+        "gm2": "138",
+        "ss": "282",
+        "hs": "146",
+        "total": "428",
+        "against": "Barely Bowling"
+      },
+      {
+        "week": 15,
+        "avg": "138",
+        "hcp": "73",
+        "gm1": "117",
+        "gm2": "138",
+        "ss": "255",
+        "hs": "146",
+        "total": "401",
+        "against": "XXX Dancers"
+      },
+      {
+        "week": 17,
+        "avg": "137",
+        "hcp": "74",
+        "gm1": "174",
+        "gm2": "160",
+        "ss": "334",
+        "hs": "148",
+        "total": "482",
+        "against": "Top Gun"
+      },
+      {
+        "week": 18,
+        "avg": "140",
+        "hcp": "72",
+        "gm1": "154",
+        "gm2": "142",
+        "ss": "296",
+        "hs": "144",
+        "total": "440",
+        "against": "Rick Rollers"
+      },
+      {
+        "week": 19,
+        "avg": "140",
+        "hcp": "72",
+        "gm1": "146",
+        "gm2": "160",
+        "ss": "306",
+        "hs": "144",
+        "total": "450",
+        "against": "Bob_Rossing It"
+      },
+      {
+        "week": 20,
+        "avg": "141",
+        "hcp": "71",
+        "gm1": "132",
+        "gm2": "151",
+        "ss": "283",
+        "hs": "142",
+        "total": "425",
+        "against": "Split Happens"
+      },
+      {
+        "week": 22,
+        "avg": "141",
+        "hcp": "71",
+        "gm1": "131",
+        "gm2": "131",
+        "ss": "0",
+        "hs": "404",
+        "total": "404",
+        "against": "Guess Who"
+      },
+      {
+        "week": 23,
+        "avg": "141",
+        "hcp": "71",
+        "gm1": "144",
+        "gm2": "99",
+        "ss": "243",
+        "hs": "142",
+        "total": "385",
+        "against": "L.O.F.T"
+      },
+      {
+        "week": 24,
+        "avg": "140",
+        "hcp": "72",
+        "gm1": "122",
+        "gm2": "163",
+        "ss": "285",
+        "hs": "144",
+        "total": "429",
+        "against": "We Don't Give A Split"
       }
     ],
     "mw": "M",
@@ -3931,6 +6961,105 @@
         "hs": "134",
         "total": "433",
         "against": "Lane Violation"
+      },
+      {
+        "week": 13,
+        "avg": "145",
+        "hcp": "67",
+        "gm1": "118",
+        "gm2": "137",
+        "ss": "255",
+        "hs": "134",
+        "total": "389",
+        "against": "Alias Smith and Godfrey"
+      },
+      {
+        "week": 14,
+        "avg": "144",
+        "hcp": "68",
+        "gm1": "149",
+        "gm2": "173",
+        "ss": "322",
+        "hs": "136",
+        "total": "458",
+        "against": "Sandbaggers"
+      },
+      {
+        "week": 16,
+        "avg": "145",
+        "hcp": "67",
+        "gm1": "139",
+        "gm2": "170",
+        "ss": "309",
+        "hs": "134",
+        "total": "443",
+        "against": "Rick Rollers"
+      },
+      {
+        "week": 17,
+        "avg": "146",
+        "hcp": "66",
+        "gm1": "148",
+        "gm2": "146",
+        "ss": "294",
+        "hs": "132",
+        "total": "426",
+        "against": "Split Happens"
+      },
+      {
+        "week": 18,
+        "avg": "146",
+        "hcp": "66",
+        "gm1": "165",
+        "gm2": "168",
+        "ss": "333",
+        "hs": "132",
+        "total": "465",
+        "against": "Frickin Ten Pin"
+      },
+      {
+        "week": 20,
+        "avg": "147",
+        "hcp": "65",
+        "gm1": "164",
+        "gm2": "150",
+        "ss": "314",
+        "hs": "130",
+        "total": "444",
+        "against": "MoJo"
+      },
+      {
+        "week": 22,
+        "avg": "148",
+        "hcp": "64",
+        "gm1": "133",
+        "gm2": "116",
+        "ss": "249",
+        "hs": "128",
+        "total": "377",
+        "against": "Barely Bowling"
+      },
+      {
+        "week": 23,
+        "avg": "146",
+        "hcp": "66",
+        "gm1": "176",
+        "gm2": "160",
+        "ss": "336",
+        "hs": "132",
+        "total": "468",
+        "against": "Splatters2"
+      },
+      {
+        "week": 24,
+        "avg": "147",
+        "hcp": "65",
+        "gm1": "125",
+        "gm2": "154",
+        "ss": "279",
+        "hs": "130",
+        "total": "409",
+        "against": "Backstabbers"
       }
     ],
     "mw": "W",
@@ -4041,6 +7170,127 @@
         "hs": "66",
         "total": "431",
         "against": "MoJo"
+      },
+      {
+        "week": 13,
+        "avg": "183",
+        "hcp": "33",
+        "gm1": "136",
+        "gm2": "135",
+        "ss": "271",
+        "hs": "66",
+        "total": "337",
+        "against": "We Don't Give A Split"
+      },
+      {
+        "week": 14,
+        "avg": "178",
+        "hcp": "37",
+        "gm1": "204",
+        "gm2": "230",
+        "ss": "434",
+        "hs": "74",
+        "total": "508",
+        "against": "Frickin Ten Pin"
+      },
+      {
+        "week": 15,
+        "avg": "181",
+        "hcp": "35",
+        "gm1": "148",
+        "gm2": "166",
+        "ss": "314",
+        "hs": "70",
+        "total": "384",
+        "against": "Bad Attitude"
+      },
+      {
+        "week": 16,
+        "avg": "179",
+        "hcp": "36",
+        "gm1": "191",
+        "gm2": "186",
+        "ss": "377",
+        "hs": "72",
+        "total": "449",
+        "against": "Top Gun"
+      },
+      {
+        "week": 17,
+        "avg": "180",
+        "hcp": "36",
+        "gm1": "189",
+        "gm2": "137",
+        "ss": "326",
+        "hs": "72",
+        "total": "398",
+        "against": "Engineering Strikes"
+      },
+      {
+        "week": 18,
+        "avg": "179",
+        "hcp": "36",
+        "gm1": "181",
+        "gm2": "146",
+        "ss": "327",
+        "hs": "72",
+        "total": "399",
+        "against": "Split Happens"
+      },
+      {
+        "week": 19,
+        "avg": "178",
+        "hcp": "37",
+        "gm1": "193",
+        "gm2": "234",
+        "ss": "427",
+        "hs": "74",
+        "total": "501",
+        "against": "Guess Who"
+      },
+      {
+        "week": 20,
+        "avg": "180",
+        "hcp": "36",
+        "gm1": "146",
+        "gm2": "175",
+        "ss": "321",
+        "hs": "72",
+        "total": "393",
+        "against": "L.O.F.T"
+      },
+      {
+        "week": 22,
+        "avg": "179",
+        "hcp": "36",
+        "gm1": "183",
+        "gm2": "204",
+        "ss": "387",
+        "hs": "72",
+        "total": "459",
+        "against": "Rick Rollers"
+      },
+      {
+        "week": 23,
+        "avg": "180",
+        "hcp": "36",
+        "gm1": "159",
+        "gm2": "198",
+        "ss": "357",
+        "hs": "72",
+        "total": "429",
+        "against": "Bob_Rossing It"
+      },
+      {
+        "week": 24,
+        "avg": "180",
+        "hcp": "36",
+        "gm1": "200",
+        "gm2": "181",
+        "ss": "381",
+        "hs": "72",
+        "total": "453",
+        "against": "Lane Violation"
       }
     ],
     "mw": "M",
@@ -4091,64 +7341,31 @@
     "link": "https://www.leaguesecretary.com//bowling-centers/cedar-rapids-bowl-cedar-rapids-iowa/bowling-leagues/lunch-league-2023-2024/bowler-info/tyler-mosset/2023/fall/130603/85",
     "weeks": [
       {
-        "week": 3,
-        "avg": "123",
-        "hcp": "87",
-        "gm1": "137",
-        "gm2": "110",
-        "ss": "247",
-        "hs": "174",
-        "total": "421",
-        "against": "Engineering Strikes"
-      },
-      {
-        "week": 5,
-        "avg": "123",
-        "hcp": "87",
-        "gm1": "133",
-        "gm2": "112",
-        "ss": "245",
-        "hs": "174",
-        "total": "419",
-        "against": "Bad Attitude"
-      },
-      {
-        "week": 8,
-        "avg": "123",
-        "hcp": "87",
-        "gm1": "148",
-        "gm2": "102",
-        "ss": "250",
-        "hs": "174",
-        "total": "424",
-        "against": "XXX Dancers"
-      },
-      {
-        "week": 11,
-        "avg": "119",
-        "hcp": "90",
+        "week": 10,
+        "avg": "115",
+        "hcp": "94",
         "gm1": "130",
-        "gm2": "116",
-        "ss": "246",
-        "hs": "180",
-        "total": "426",
-        "against": "Alias Smith and Godfrey"
+        "gm2": "131",
+        "ss": "261",
+        "hs": "188",
+        "total": "449",
+        "against": "Rick Rollers"
       },
       {
-        "week": 12,
-        "avg": "119",
-        "hcp": "90",
-        "gm1": "136",
-        "gm2": "90",
-        "ss": "226",
-        "hs": "180",
-        "total": "406",
-        "against": "Sandbaggers"
+        "week": 24,
+        "avg": "127",
+        "hcp": "83",
+        "gm1": "160",
+        "gm2": "170",
+        "ss": "330",
+        "hs": "166",
+        "total": "496",
+        "against": "Top Gun"
       }
     ],
     "mw": "M",
-    "team": "The Munsons",
-    "hsgTeam": "Engineering Strikes"
+    "team": "XXX Dancers",
+    "hssTeam": "Rick Rollers"
   },
   "Katie Nance": {
     "hsg": "179",
@@ -4222,17 +7439,6 @@
         "against": "Top Gun"
       },
       {
-        "week": 8,
-        "avg": "142",
-        "hcp": "70",
-        "gm1": "179",
-        "gm2": "197",
-        "ss": "376",
-        "hs": "140",
-        "total": "516",
-        "against": "The Munsons"
-      },
-      {
         "week": 9,
         "avg": "142",
         "hcp": "70",
@@ -4275,11 +7481,110 @@
         "hs": "144",
         "total": "372",
         "against": "Split Happens"
+      },
+      {
+        "week": 13,
+        "avg": "136",
+        "hcp": "75",
+        "gm1": "144",
+        "gm2": "159",
+        "ss": "303",
+        "hs": "150",
+        "total": "453",
+        "against": "Guess Who"
+      },
+      {
+        "week": 14,
+        "avg": "138",
+        "hcp": "73",
+        "gm1": "128",
+        "gm2": "128",
+        "ss": "0",
+        "hs": "402",
+        "total": "402",
+        "against": "L.O.F.T"
+      },
+      {
+        "week": 15,
+        "avg": "138",
+        "hcp": "73",
+        "gm1": "134",
+        "gm2": "88",
+        "ss": "222",
+        "hs": "146",
+        "total": "368",
+        "against": "I am Root"
+      },
+      {
+        "week": 16,
+        "avg": "135",
+        "hcp": "76",
+        "gm1": "153",
+        "gm2": "117",
+        "ss": "270",
+        "hs": "152",
+        "total": "422",
+        "against": "Craptastic"
+      },
+      {
+        "week": 17,
+        "avg": "135",
+        "hcp": "76",
+        "gm1": "153",
+        "gm2": "126",
+        "ss": "279",
+        "hs": "152",
+        "total": "431",
+        "against": "Vacant"
+      },
+      {
+        "week": 18,
+        "avg": "135",
+        "hcp": "76",
+        "gm1": "134",
+        "gm2": "136",
+        "ss": "270",
+        "hs": "152",
+        "total": "422",
+        "against": "Lane Violation"
+      },
+      {
+        "week": 19,
+        "avg": "135",
+        "hcp": "76",
+        "gm1": "158",
+        "gm2": "147",
+        "ss": "305",
+        "hs": "152",
+        "total": "457",
+        "against": "Strike a Pose"
+      },
+      {
+        "week": 22,
+        "avg": "136",
+        "hcp": "75",
+        "gm1": "173",
+        "gm2": "210",
+        "ss": "383",
+        "hs": "150",
+        "total": "533",
+        "against": "Sandbaggers"
+      },
+      {
+        "week": 23,
+        "avg": "140",
+        "hcp": "72",
+        "gm1": "108",
+        "gm2": "139",
+        "ss": "247",
+        "hs": "144",
+        "total": "391",
+        "against": "Alias Smith and Godfrey"
       }
     ],
     "mw": "W",
     "team": "XXX Dancers",
-    "hsgTeam": "The Munsons",
+    "hsgTeam": "Top Gun",
     "hssTeam": "Top Gun"
   },
   "Jacob Newsom": {
@@ -4287,17 +7592,6 @@
     "hss": "381",
     "link": "https://www.leaguesecretary.com//bowling-centers/cedar-rapids-bowl-cedar-rapids-iowa/bowling-leagues/lunch-league-2023-2024/bowler-info/jacob-newsom/2023/fall/130603/21",
     "weeks": [
-      {
-        "week": 8,
-        "avg": "177",
-        "hcp": "38",
-        "gm1": "199",
-        "gm2": "156",
-        "ss": "355",
-        "hs": "76",
-        "total": "431",
-        "against": "Guess Who"
-      },
       {
         "week": 9,
         "avg": "153",
@@ -4329,7 +7623,7 @@
         "ss": "0",
         "hs": "404",
         "total": "404",
-        "against": "Splits-n-Giggles"
+        "against": "Vacant"
       },
       {
         "week": 12,
@@ -4341,6 +7635,127 @@
         "hs": "138",
         "total": "519",
         "against": "I am Root"
+      },
+      {
+        "week": 13,
+        "avg": "159",
+        "hcp": "54",
+        "gm1": "137",
+        "gm2": "136",
+        "ss": "273",
+        "hs": "108",
+        "total": "381",
+        "against": "1 Mor"
+      },
+      {
+        "week": 14,
+        "avg": "153",
+        "hcp": "60",
+        "gm1": "181",
+        "gm2": "179",
+        "ss": "360",
+        "hs": "120",
+        "total": "480",
+        "against": "Roll Clones"
+      },
+      {
+        "week": 15,
+        "avg": "158",
+        "hcp": "55",
+        "gm1": "122",
+        "gm2": "138",
+        "ss": "260",
+        "hs": "110",
+        "total": "370",
+        "against": "Strike a Pose"
+      },
+      {
+        "week": 16,
+        "avg": "153",
+        "hcp": "60",
+        "gm1": "143",
+        "gm2": "143",
+        "ss": "0",
+        "hs": "406",
+        "total": "406",
+        "against": "Lane Violation"
+      },
+      {
+        "week": 17,
+        "avg": "153",
+        "hcp": "60",
+        "gm1": "180",
+        "gm2": "203",
+        "ss": "383",
+        "hs": "120",
+        "total": "503",
+        "against": "Sandbaggers"
+      },
+      {
+        "week": 18,
+        "avg": "159",
+        "hcp": "54",
+        "gm1": "181",
+        "gm2": "146",
+        "ss": "327",
+        "hs": "108",
+        "total": "435",
+        "against": "Spare Me"
+      },
+      {
+        "week": 19,
+        "avg": "159",
+        "hcp": "54",
+        "gm1": "122",
+        "gm2": "178",
+        "ss": "300",
+        "hs": "108",
+        "total": "408",
+        "against": "Shoe Throwin Mad"
+      },
+      {
+        "week": 20,
+        "avg": "158",
+        "hcp": "55",
+        "gm1": "157",
+        "gm2": "204",
+        "ss": "361",
+        "hs": "110",
+        "total": "471",
+        "against": "Backstabbers"
+      },
+      {
+        "week": 22,
+        "avg": "160",
+        "hcp": "54",
+        "gm1": "154",
+        "gm2": "133",
+        "ss": "287",
+        "hs": "108",
+        "total": "395",
+        "against": "The Munsons"
+      },
+      {
+        "week": 23,
+        "avg": "159",
+        "hcp": "54",
+        "gm1": "151",
+        "gm2": "159",
+        "ss": "310",
+        "hs": "108",
+        "total": "418",
+        "against": "The Outsiders"
+      },
+      {
+        "week": 24,
+        "avg": "158",
+        "hcp": "55",
+        "gm1": "182",
+        "gm2": "150",
+        "ss": "332",
+        "hs": "110",
+        "total": "442",
+        "against": "Sandbaggers"
       }
     ],
     "mw": "M",
@@ -4420,17 +7835,6 @@
         "against": "Sandbaggers"
       },
       {
-        "week": 8,
-        "avg": "145",
-        "hcp": "67",
-        "gm1": "194",
-        "gm2": "261",
-        "ss": "455",
-        "hs": "134",
-        "total": "589",
-        "against": "Split Happens"
-      },
-      {
         "week": 10,
         "avg": "145",
         "hcp": "67",
@@ -4461,7 +7865,106 @@
         "ss": "313",
         "hs": "130",
         "total": "443",
-        "against": "Splits-n-Giggles"
+        "against": "Vacant"
+      },
+      {
+        "week": 13,
+        "avg": "148",
+        "hcp": "64",
+        "gm1": "160",
+        "gm2": "138",
+        "ss": "298",
+        "hs": "128",
+        "total": "426",
+        "against": "I am Root"
+      },
+      {
+        "week": 14,
+        "avg": "148",
+        "hcp": "64",
+        "gm1": "138",
+        "gm2": "138",
+        "ss": "0",
+        "hs": "404",
+        "total": "404",
+        "against": "1 Mor"
+      },
+      {
+        "week": 15,
+        "avg": "148",
+        "hcp": "64",
+        "gm1": "132",
+        "gm2": "194",
+        "ss": "326",
+        "hs": "128",
+        "total": "454",
+        "against": "Alias Smith and Godfrey"
+      },
+      {
+        "week": 16,
+        "avg": "149",
+        "hcp": "63",
+        "gm1": "140",
+        "gm2": "172",
+        "ss": "312",
+        "hs": "126",
+        "total": "438",
+        "against": "Strike a Pose"
+      },
+      {
+        "week": 17,
+        "avg": "149",
+        "hcp": "63",
+        "gm1": "173",
+        "gm2": "133",
+        "ss": "306",
+        "hs": "126",
+        "total": "432",
+        "against": "D & A Lawn Care"
+      },
+      {
+        "week": 19,
+        "avg": "150",
+        "hcp": "63",
+        "gm1": "133",
+        "gm2": "118",
+        "ss": "251",
+        "hs": "126",
+        "total": "377",
+        "against": "Backstabbers"
+      },
+      {
+        "week": 20,
+        "avg": "148",
+        "hcp": "64",
+        "gm1": "126",
+        "gm2": "148",
+        "ss": "274",
+        "hs": "128",
+        "total": "402",
+        "against": "The Munsons"
+      },
+      {
+        "week": 23,
+        "avg": "147",
+        "hcp": "65",
+        "gm1": "135",
+        "gm2": "106",
+        "ss": "241",
+        "hs": "130",
+        "total": "371",
+        "against": "Spare Me"
+      },
+      {
+        "week": 24,
+        "avg": "146",
+        "hcp": "66",
+        "gm1": "153",
+        "gm2": "145",
+        "ss": "298",
+        "hs": "132",
+        "total": "430",
+        "against": "Guess Who"
       }
     ],
     "mw": "M",
@@ -4541,17 +8044,6 @@
         "against": "Roll Clones"
       },
       {
-        "week": 8,
-        "avg": "196",
-        "hcp": "21",
-        "gm1": "172",
-        "gm2": "245",
-        "ss": "417",
-        "hs": "42",
-        "total": "459",
-        "against": "Shoe Throwin Mad"
-      },
-      {
         "week": 9,
         "avg": "196",
         "hcp": "21",
@@ -4572,6 +8064,127 @@
         "hs": "38",
         "total": "499",
         "against": "Split Happens"
+      },
+      {
+        "week": 13,
+        "avg": "202",
+        "hcp": "16",
+        "gm1": "221",
+        "gm2": "224",
+        "ss": "445",
+        "hs": "32",
+        "total": "477",
+        "against": "Rick Rollers"
+      },
+      {
+        "week": 14,
+        "avg": "204",
+        "hcp": "14",
+        "gm1": "160",
+        "gm2": "256",
+        "ss": "416",
+        "hs": "28",
+        "total": "444",
+        "against": "Bob_Rossing It"
+      },
+      {
+        "week": 15,
+        "avg": "204",
+        "hcp": "14",
+        "gm1": "215",
+        "gm2": "211",
+        "ss": "426",
+        "hs": "28",
+        "total": "454",
+        "against": "Engineering Strikes"
+      },
+      {
+        "week": 16,
+        "avg": "205",
+        "hcp": "13",
+        "gm1": "213",
+        "gm2": "155",
+        "ss": "368",
+        "hs": "26",
+        "total": "394",
+        "against": "1 Mor"
+      },
+      {
+        "week": 17,
+        "avg": "203",
+        "hcp": "15",
+        "gm1": "168",
+        "gm2": "231",
+        "ss": "399",
+        "hs": "30",
+        "total": "429",
+        "against": "Craptastic"
+      },
+      {
+        "week": 18,
+        "avg": "203",
+        "hcp": "15",
+        "gm1": "203",
+        "gm2": "199",
+        "ss": "402",
+        "hs": "30",
+        "total": "432",
+        "against": "Sandbaggers"
+      },
+      {
+        "week": 19,
+        "avg": "203",
+        "hcp": "15",
+        "gm1": "223",
+        "gm2": "235",
+        "ss": "458",
+        "hs": "30",
+        "total": "488",
+        "against": "Alias Smith and Godfrey"
+      },
+      {
+        "week": 20,
+        "avg": "204",
+        "hcp": "14",
+        "gm1": "181",
+        "gm2": "161",
+        "ss": "342",
+        "hs": "28",
+        "total": "370",
+        "against": "Lane Violation"
+      },
+      {
+        "week": 22,
+        "avg": "202",
+        "hcp": "16",
+        "gm1": "186",
+        "gm2": "181",
+        "ss": "367",
+        "hs": "32",
+        "total": "399",
+        "against": "Strike a Pose"
+      },
+      {
+        "week": 23,
+        "avg": "201",
+        "hcp": "17",
+        "gm1": "189",
+        "gm2": "201",
+        "ss": "390",
+        "hs": "34",
+        "total": "424",
+        "against": "D & A Lawn Care"
+      },
+      {
+        "week": 24,
+        "avg": "201",
+        "hcp": "17",
+        "gm1": "186",
+        "gm2": "165",
+        "ss": "351",
+        "hs": "34",
+        "total": "385",
+        "against": "Bad Attitude"
       }
     ],
     "mw": "M",
@@ -4661,6 +8274,17 @@
         "hs": "72",
         "total": "431",
         "against": "The Munsons"
+      },
+      {
+        "week": 20,
+        "avg": "178",
+        "hcp": "37",
+        "gm1": "199",
+        "gm2": "178",
+        "ss": "377",
+        "hs": "74",
+        "total": "451",
+        "against": "D & A Lawn Care"
       }
     ],
     "mw": "M",
@@ -4757,7 +8381,7 @@
         "ss": "324",
         "hs": "156",
         "total": "480",
-        "against": "Splits-n-Giggles"
+        "against": "Vacant"
       },
       {
         "week": 11,
@@ -4780,6 +8404,116 @@
         "hs": "144",
         "total": "447",
         "against": "1 Mor"
+      },
+      {
+        "week": 13,
+        "avg": "141",
+        "hcp": "71",
+        "gm1": "103",
+        "gm2": "170",
+        "ss": "273",
+        "hs": "142",
+        "total": "415",
+        "against": "Roll Clones"
+      },
+      {
+        "week": 14,
+        "avg": "140",
+        "hcp": "72",
+        "gm1": "133",
+        "gm2": "115",
+        "ss": "248",
+        "hs": "144",
+        "total": "392",
+        "against": "Craptastic"
+      },
+      {
+        "week": 16,
+        "avg": "139",
+        "hcp": "72",
+        "gm1": "149",
+        "gm2": "169",
+        "ss": "318",
+        "hs": "144",
+        "total": "462",
+        "against": "MoJo"
+      },
+      {
+        "week": 17,
+        "avg": "140",
+        "hcp": "72",
+        "gm1": "185",
+        "gm2": "150",
+        "ss": "335",
+        "hs": "144",
+        "total": "479",
+        "against": "Lane Violation"
+      },
+      {
+        "week": 18,
+        "avg": "142",
+        "hcp": "70",
+        "gm1": "126",
+        "gm2": "181",
+        "ss": "307",
+        "hs": "140",
+        "total": "447",
+        "against": "The Outsiders"
+      },
+      {
+        "week": 19,
+        "avg": "143",
+        "hcp": "69",
+        "gm1": "123",
+        "gm2": "168",
+        "ss": "291",
+        "hs": "138",
+        "total": "429",
+        "against": "Spare Me"
+      },
+      {
+        "week": 20,
+        "avg": "143",
+        "hcp": "69",
+        "gm1": "111",
+        "gm2": "141",
+        "ss": "252",
+        "hs": "138",
+        "total": "390",
+        "against": "Shoe Throwin Mad"
+      },
+      {
+        "week": 22,
+        "avg": "142",
+        "hcp": "70",
+        "gm1": "183",
+        "gm2": "166",
+        "ss": "349",
+        "hs": "140",
+        "total": "489",
+        "against": "Backstabbers"
+      },
+      {
+        "week": 23,
+        "avg": "144",
+        "hcp": "68",
+        "gm1": "165",
+        "gm2": "133",
+        "ss": "298",
+        "hs": "136",
+        "total": "434",
+        "against": "The Munsons"
+      },
+      {
+        "week": 24,
+        "avg": "144",
+        "hcp": "68",
+        "gm1": "148",
+        "gm2": "156",
+        "ss": "304",
+        "hs": "136",
+        "total": "440",
+        "against": "I am Root"
       }
     ],
     "mw": "M",
@@ -4879,6 +8613,116 @@
         "hs": "130",
         "total": "481",
         "against": "Craptastic"
+      },
+      {
+        "week": 13,
+        "avg": "150",
+        "hcp": "63",
+        "gm1": "164",
+        "gm2": "147",
+        "ss": "311",
+        "hs": "126",
+        "total": "437",
+        "against": "Vacant"
+      },
+      {
+        "week": 14,
+        "avg": "151",
+        "hcp": "62",
+        "gm1": "149",
+        "gm2": "188",
+        "ss": "337",
+        "hs": "124",
+        "total": "461",
+        "against": "I am Root"
+      },
+      {
+        "week": 15,
+        "avg": "153",
+        "hcp": "60",
+        "gm1": "144",
+        "gm2": "141",
+        "ss": "285",
+        "hs": "120",
+        "total": "405",
+        "against": "We Don't Give A Split"
+      },
+      {
+        "week": 17,
+        "avg": "152",
+        "hcp": "61",
+        "gm1": "145",
+        "gm2": "142",
+        "ss": "287",
+        "hs": "122",
+        "total": "409",
+        "against": "Alias Smith and Godfrey"
+      },
+      {
+        "week": 18,
+        "avg": "151",
+        "hcp": "62",
+        "gm1": "153",
+        "gm2": "111",
+        "ss": "264",
+        "hs": "124",
+        "total": "388",
+        "against": "Backstabbers"
+      },
+      {
+        "week": 19,
+        "avg": "149",
+        "hcp": "63",
+        "gm1": "159",
+        "gm2": "139",
+        "ss": "298",
+        "hs": "126",
+        "total": "424",
+        "against": "The Munsons"
+      },
+      {
+        "week": 20,
+        "avg": "149",
+        "hcp": "63",
+        "gm1": "113",
+        "gm2": "123",
+        "ss": "236",
+        "hs": "126",
+        "total": "362",
+        "against": "The Outsiders"
+      },
+      {
+        "week": 22,
+        "avg": "147",
+        "hcp": "65",
+        "gm1": "172",
+        "gm2": "142",
+        "ss": "314",
+        "hs": "130",
+        "total": "444",
+        "against": "Spare Me"
+      },
+      {
+        "week": 23,
+        "avg": "148",
+        "hcp": "64",
+        "gm1": "120",
+        "gm2": "130",
+        "ss": "250",
+        "hs": "128",
+        "total": "378",
+        "against": "Shoe Throwin Mad"
+      },
+      {
+        "week": 24,
+        "avg": "146",
+        "hcp": "66",
+        "gm1": "154",
+        "gm2": "155",
+        "ss": "309",
+        "hs": "132",
+        "total": "441",
+        "against": "Craptastic"
       }
     ],
     "mw": "M",
@@ -4958,17 +8802,6 @@
         "against": "Alias Smith and Godfrey"
       },
       {
-        "week": 8,
-        "avg": "158",
-        "hcp": "55",
-        "gm1": "181",
-        "gm2": "196",
-        "ss": "377",
-        "hs": "110",
-        "total": "487",
-        "against": "Guess Who"
-      },
-      {
         "week": 9,
         "avg": "158",
         "hcp": "55",
@@ -4999,7 +8832,7 @@
         "ss": "374",
         "hs": "108",
         "total": "482",
-        "against": "Splits-n-Giggles"
+        "against": "Vacant"
       },
       {
         "week": 12,
@@ -5011,12 +8844,133 @@
         "hs": "102",
         "total": "428",
         "against": "I am Root"
+      },
+      {
+        "week": 13,
+        "avg": "163",
+        "hcp": "51",
+        "gm1": "142",
+        "gm2": "150",
+        "ss": "292",
+        "hs": "102",
+        "total": "394",
+        "against": "1 Mor"
+      },
+      {
+        "week": 14,
+        "avg": "161",
+        "hcp": "53",
+        "gm1": "212",
+        "gm2": "198",
+        "ss": "410",
+        "hs": "106",
+        "total": "516",
+        "against": "Roll Clones"
+      },
+      {
+        "week": 15,
+        "avg": "165",
+        "hcp": "49",
+        "gm1": "141",
+        "gm2": "159",
+        "ss": "300",
+        "hs": "98",
+        "total": "398",
+        "against": "Strike a Pose"
+      },
+      {
+        "week": 16,
+        "avg": "164",
+        "hcp": "50",
+        "gm1": "154",
+        "gm2": "154",
+        "ss": "0",
+        "hs": "408",
+        "total": "408",
+        "against": "Lane Violation"
+      },
+      {
+        "week": 17,
+        "avg": "164",
+        "hcp": "50",
+        "gm1": "161",
+        "gm2": "147",
+        "ss": "308",
+        "hs": "100",
+        "total": "408",
+        "against": "Sandbaggers"
+      },
+      {
+        "week": 18,
+        "avg": "163",
+        "hcp": "51",
+        "gm1": "153",
+        "gm2": "153",
+        "ss": "0",
+        "hs": "408",
+        "total": "408",
+        "against": "Spare Me"
+      },
+      {
+        "week": 19,
+        "avg": "163",
+        "hcp": "51",
+        "gm1": "189",
+        "gm2": "178",
+        "ss": "367",
+        "hs": "102",
+        "total": "469",
+        "against": "Shoe Throwin Mad"
+      },
+      {
+        "week": 20,
+        "avg": "164",
+        "hcp": "50",
+        "gm1": "182",
+        "gm2": "179",
+        "ss": "361",
+        "hs": "100",
+        "total": "461",
+        "against": "Backstabbers"
+      },
+      {
+        "week": 22,
+        "avg": "165",
+        "hcp": "49",
+        "gm1": "112",
+        "gm2": "155",
+        "ss": "267",
+        "hs": "98",
+        "total": "365",
+        "against": "The Munsons"
+      },
+      {
+        "week": 23,
+        "avg": "163",
+        "hcp": "51",
+        "gm1": "148",
+        "gm2": "150",
+        "ss": "298",
+        "hs": "102",
+        "total": "400",
+        "against": "The Outsiders"
+      },
+      {
+        "week": 24,
+        "avg": "163",
+        "hcp": "51",
+        "gm1": "197",
+        "gm2": "204",
+        "ss": "401",
+        "hs": "102",
+        "total": "503",
+        "against": "Sandbaggers"
       }
     ],
     "mw": "M",
     "team": "Frickin Ten Pin",
-    "hsgTeam": "Splits-n-Giggles",
-    "hssTeam": "Splits-n-Giggles"
+    "hsgTeam": "Vacant",
+    "hssTeam": "Vacant"
   },
   "Scot Reed": {
     "hsg": "248",
@@ -5076,7 +9030,7 @@
         "ss": "0",
         "hs": "410",
         "total": "410",
-        "against": "Splits-n-Giggles"
+        "against": "Vacant"
       },
       {
         "week": 7,
@@ -5088,17 +9042,6 @@
         "hs": "82",
         "total": "437",
         "against": "Craptastic"
-      },
-      {
-        "week": 8,
-        "avg": "175",
-        "hcp": "40",
-        "gm1": "176",
-        "gm2": "245",
-        "ss": "421",
-        "hs": "80",
-        "total": "501",
-        "against": "Backstabbers"
       },
       {
         "week": 9,
@@ -5143,6 +9086,127 @@
         "hs": "66",
         "total": "549",
         "against": "Guess Who"
+      },
+      {
+        "week": 13,
+        "avg": "189",
+        "hcp": "27",
+        "gm1": "179",
+        "gm2": "179",
+        "ss": "0",
+        "hs": "412",
+        "total": "412",
+        "against": "L.O.F.T"
+      },
+      {
+        "week": 14,
+        "avg": "189",
+        "hcp": "27",
+        "gm1": "267",
+        "gm2": "176",
+        "ss": "443",
+        "hs": "54",
+        "total": "497",
+        "against": "Rick Rollers"
+      },
+      {
+        "week": 15,
+        "avg": "192",
+        "hcp": "25",
+        "gm1": "195",
+        "gm2": "277",
+        "ss": "472",
+        "hs": "50",
+        "total": "522",
+        "against": "Roll Clones"
+      },
+      {
+        "week": 16,
+        "avg": "195",
+        "hcp": "22",
+        "gm1": "173",
+        "gm2": "182",
+        "ss": "355",
+        "hs": "44",
+        "total": "399",
+        "against": "Engineering Strikes"
+      },
+      {
+        "week": 17,
+        "avg": "194",
+        "hcp": "23",
+        "gm1": "197",
+        "gm2": "245",
+        "ss": "442",
+        "hs": "46",
+        "total": "488",
+        "against": "1 Mor"
+      },
+      {
+        "week": 18,
+        "avg": "196",
+        "hcp": "21",
+        "gm1": "231",
+        "gm2": "192",
+        "ss": "423",
+        "hs": "42",
+        "total": "465",
+        "against": "Alias Smith and Godfrey"
+      },
+      {
+        "week": 19,
+        "avg": "197",
+        "hcp": "20",
+        "gm1": "256",
+        "gm2": "209",
+        "ss": "465",
+        "hs": "40",
+        "total": "505",
+        "against": "Lane Violation"
+      },
+      {
+        "week": 20,
+        "avg": "199",
+        "hcp": "18",
+        "gm1": "206",
+        "gm2": "209",
+        "ss": "415",
+        "hs": "36",
+        "total": "451",
+        "against": "Strike a Pose"
+      },
+      {
+        "week": 22,
+        "avg": "200",
+        "hcp": "18",
+        "gm1": "231",
+        "gm2": "210",
+        "ss": "441",
+        "hs": "36",
+        "total": "477",
+        "against": "D & A Lawn Care"
+      },
+      {
+        "week": 23,
+        "avg": "201",
+        "hcp": "17",
+        "gm1": "223",
+        "gm2": "178",
+        "ss": "401",
+        "hs": "34",
+        "total": "435",
+        "against": "Sandbaggers"
+      },
+      {
+        "week": 24,
+        "avg": "201",
+        "hcp": "17",
+        "gm1": "163",
+        "gm2": "206",
+        "ss": "369",
+        "hs": "34",
+        "total": "403",
+        "against": "SPAM"
       }
     ],
     "mw": "M",
@@ -5204,6 +9268,86 @@
         "ss": "259",
         "hs": "152",
         "total": "411"
+      },
+      {
+        "week": 13,
+        "avg": "134",
+        "hcp": "77",
+        "gm1": "98",
+        "gm2": "123",
+        "ss": "221",
+        "hs": "154",
+        "total": "375"
+      },
+      {
+        "week": 15,
+        "avg": "130",
+        "hcp": "81",
+        "gm1": "125",
+        "gm2": "153",
+        "ss": "278",
+        "hs": "162",
+        "total": "440"
+      },
+      {
+        "week": 16,
+        "avg": "131",
+        "hcp": "80",
+        "gm1": "136",
+        "gm2": "133",
+        "ss": "269",
+        "hs": "160",
+        "total": "429"
+      },
+      {
+        "week": 17,
+        "avg": "132",
+        "hcp": "79",
+        "gm1": "129",
+        "gm2": "148",
+        "ss": "277",
+        "hs": "158",
+        "total": "435"
+      },
+      {
+        "week": 18,
+        "avg": "132",
+        "hcp": "79",
+        "gm1": "251",
+        "gm2": "141",
+        "ss": "392",
+        "hs": "158",
+        "total": "550"
+      },
+      {
+        "week": 19,
+        "avg": "138",
+        "hcp": "73",
+        "gm1": "142",
+        "gm2": "119",
+        "ss": "261",
+        "hs": "146",
+        "total": "407"
+      },
+      {
+        "week": 22,
+        "avg": "137",
+        "hcp": "74",
+        "gm1": "164",
+        "gm2": "121",
+        "ss": "285",
+        "hs": "148",
+        "total": "433"
+      },
+      {
+        "week": 23,
+        "avg": "138",
+        "hcp": "73",
+        "gm1": "149",
+        "gm2": "152",
+        "ss": "301",
+        "hs": "146",
+        "total": "447"
       }
     ],
     "team": "Barely Bowling"
@@ -5214,52 +9358,76 @@
     "link": "https://www.leaguesecretary.com//bowling-centers/cedar-rapids-bowl-cedar-rapids-iowa/bowling-leagues/lunch-league-2023-2024/bowler-info/brad-roggow/2023/fall/130603/18",
     "weeks": [
       {
-        "week": 1,
+        "week": 3,
         "avg": "120",
         "hcp": "90",
-        "gm1": "100",
-        "gm2": "141",
-        "ss": "241",
+        "gm1": "120",
+        "gm2": "184",
+        "ss": "304",
         "hs": "180",
-        "total": "421",
-        "against": "Lane Violation"
+        "total": "484",
+        "against": "Splatters2"
       },
       {
-        "week": 7,
-        "avg": "129",
-        "hcp": "81",
-        "gm1": "89",
-        "gm2": "151",
-        "ss": "240",
-        "hs": "162",
-        "total": "402",
-        "against": "1 Mor"
-      },
-      {
-        "week": 8,
-        "avg": "127",
-        "hcp": "83",
+        "week": 5,
+        "avg": "136",
+        "hcp": "75",
         "gm1": "140",
-        "gm2": "142",
-        "ss": "282",
-        "hs": "166",
-        "total": "448",
-        "against": "Lane Violation"
+        "gm2": "0",
+        "ss": "255",
+        "hs": "150",
+        "total": "405",
+        "against": "We Don't Give A Split"
       },
       {
-        "week": 11,
-        "avg": "127",
-        "hcp": "83",
-        "gm1": "96",
-        "gm2": "106",
-        "ss": "202",
-        "hs": "166",
-        "total": "368",
-        "against": "We Don't Give A Split"
+        "week": 6,
+        "avg": "136",
+        "hcp": "75",
+        "gm1": "110",
+        "gm2": "121",
+        "ss": "231",
+        "hs": "150",
+        "total": "381",
+        "against": "Guess Who"
+      },
+      {
+        "week": 13,
+        "avg": "121",
+        "hcp": "89",
+        "gm1": "120",
+        "gm2": "98",
+        "ss": "218",
+        "hs": "178",
+        "total": "396",
+        "against": "SPAM"
+      },
+      {
+        "week": 20,
+        "avg": "123",
+        "hcp": "87",
+        "gm1": "137",
+        "gm2": "119",
+        "ss": "256",
+        "hs": "174",
+        "total": "430",
+        "against": "Craptastic"
+      },
+      {
+        "week": 24,
+        "avg": "124",
+        "hcp": "86",
+        "gm1": "164",
+        "gm2": "124",
+        "ss": "288",
+        "hs": "172",
+        "total": "460",
+        "against": "MoJo"
       }
     ],
     "mw": "M",
-    "team": "I am Root"
+    "team": "Rick Rollers",
+    "hsgTeam": "Splatters2",
+    "hssTeam": "Splatters2"
   },
   "Dan Roggow": {
     "hsg": "180",
@@ -5353,6 +9521,127 @@
         "hs": "142",
         "total": "423",
         "against": "Engineering Strikes"
+      },
+      {
+        "week": 13,
+        "avg": "141",
+        "hcp": "71",
+        "gm1": "137",
+        "gm2": "112",
+        "ss": "249",
+        "hs": "142",
+        "total": "391",
+        "against": "SPAM"
+      },
+      {
+        "week": 14,
+        "avg": "140",
+        "hcp": "72",
+        "gm1": "121",
+        "gm2": "129",
+        "ss": "250",
+        "hs": "144",
+        "total": "394",
+        "against": "Bad Attitude"
+      },
+      {
+        "week": 15,
+        "avg": "138",
+        "hcp": "73",
+        "gm1": "127",
+        "gm2": "162",
+        "ss": "289",
+        "hs": "146",
+        "total": "435",
+        "against": "The Munsons"
+      },
+      {
+        "week": 16,
+        "avg": "139",
+        "hcp": "72",
+        "gm1": "170",
+        "gm2": "123",
+        "ss": "293",
+        "hs": "144",
+        "total": "437",
+        "against": "Spare Me"
+      },
+      {
+        "week": 17,
+        "avg": "139",
+        "hcp": "72",
+        "gm1": "109",
+        "gm2": "172",
+        "ss": "281",
+        "hs": "144",
+        "total": "425",
+        "against": "The Outsiders"
+      },
+      {
+        "week": 18,
+        "avg": "139",
+        "hcp": "72",
+        "gm1": "137",
+        "gm2": "143",
+        "ss": "280",
+        "hs": "144",
+        "total": "424",
+        "against": "I am Root"
+      },
+      {
+        "week": 19,
+        "avg": "139",
+        "hcp": "72",
+        "gm1": "143",
+        "gm2": "132",
+        "ss": "275",
+        "hs": "144",
+        "total": "419",
+        "against": "Vacant"
+      },
+      {
+        "week": 20,
+        "avg": "139",
+        "hcp": "72",
+        "gm1": "174",
+        "gm2": "125",
+        "ss": "299",
+        "hs": "144",
+        "total": "443",
+        "against": "Craptastic"
+      },
+      {
+        "week": 22,
+        "avg": "140",
+        "hcp": "72",
+        "gm1": "132",
+        "gm2": "152",
+        "ss": "284",
+        "hs": "144",
+        "total": "428",
+        "against": "Roll Clones"
+      },
+      {
+        "week": 23,
+        "avg": "140",
+        "hcp": "72",
+        "gm1": "139",
+        "gm2": "162",
+        "ss": "301",
+        "hs": "144",
+        "total": "445",
+        "against": "1 Mor"
+      },
+      {
+        "week": 24,
+        "avg": "140",
+        "hcp": "72",
+        "gm1": "143",
+        "gm2": "126",
+        "ss": "269",
+        "hs": "144",
+        "total": "413",
+        "against": "MoJo"
       }
     ],
     "mw": "M",
@@ -5375,6 +9664,28 @@
         "hs": "126",
         "total": "427",
         "against": "Rick Rollers"
+      },
+      {
+        "week": 15,
+        "avg": "150",
+        "hcp": "63",
+        "gm1": "137",
+        "gm2": "121",
+        "ss": "258",
+        "hs": "126",
+        "total": "384",
+        "against": "Bob_Rossing It"
+      },
+      {
+        "week": 16,
+        "avg": "139",
+        "hcp": "72",
+        "gm1": "102",
+        "gm2": "124",
+        "ss": "226",
+        "hs": "144",
+        "total": "370",
+        "against": "L.O.F.T"
       }
     ],
     "mw": "M",
@@ -5443,17 +9754,6 @@
         "against": "Alias Smith and Godfrey"
       },
       {
-        "week": 8,
-        "avg": "126",
-        "hcp": "84",
-        "gm1": "181",
-        "gm2": "119",
-        "ss": "300",
-        "hs": "168",
-        "total": "468",
-        "against": "L.O.F.T"
-      },
-      {
         "week": 9,
         "avg": "126",
         "hcp": "84",
@@ -5473,7 +9773,7 @@
         "ss": "247",
         "hs": "168",
         "total": "415",
-        "against": "Splits-n-Giggles"
+        "against": "Vacant"
       },
       {
         "week": 11,
@@ -5496,6 +9796,116 @@
         "hs": "162",
         "total": "451",
         "against": "1 Mor"
+      },
+      {
+        "week": 13,
+        "avg": "131",
+        "hcp": "80",
+        "gm1": "167",
+        "gm2": "147",
+        "ss": "314",
+        "hs": "160",
+        "total": "474",
+        "against": "Roll Clones"
+      },
+      {
+        "week": 14,
+        "avg": "133",
+        "hcp": "78",
+        "gm1": "123",
+        "gm2": "154",
+        "ss": "277",
+        "hs": "156",
+        "total": "433",
+        "against": "Craptastic"
+      },
+      {
+        "week": 15,
+        "avg": "134",
+        "hcp": "77",
+        "gm1": "154",
+        "gm2": "117",
+        "ss": "271",
+        "hs": "154",
+        "total": "425",
+        "against": "Barely Bowling"
+      },
+      {
+        "week": 16,
+        "avg": "134",
+        "hcp": "77",
+        "gm1": "108",
+        "gm2": "130",
+        "ss": "238",
+        "hs": "154",
+        "total": "392",
+        "against": "MoJo"
+      },
+      {
+        "week": 18,
+        "avg": "133",
+        "hcp": "78",
+        "gm1": "120",
+        "gm2": "118",
+        "ss": "238",
+        "hs": "156",
+        "total": "394",
+        "against": "The Outsiders"
+      },
+      {
+        "week": 19,
+        "avg": "132",
+        "hcp": "79",
+        "gm1": "148",
+        "gm2": "155",
+        "ss": "303",
+        "hs": "158",
+        "total": "461",
+        "against": "Spare Me"
+      },
+      {
+        "week": 20,
+        "avg": "133",
+        "hcp": "78",
+        "gm1": "147",
+        "gm2": "155",
+        "ss": "302",
+        "hs": "156",
+        "total": "458",
+        "against": "Shoe Throwin Mad"
+      },
+      {
+        "week": 22,
+        "avg": "134",
+        "hcp": "77",
+        "gm1": "124",
+        "gm2": "124",
+        "ss": "0",
+        "hs": "402",
+        "total": "402",
+        "against": "Backstabbers"
+      },
+      {
+        "week": 23,
+        "avg": "134",
+        "hcp": "77",
+        "gm1": "138",
+        "gm2": "120",
+        "ss": "258",
+        "hs": "154",
+        "total": "412",
+        "against": "The Munsons"
+      },
+      {
+        "week": 24,
+        "avg": "134",
+        "hcp": "77",
+        "gm1": "146",
+        "gm2": "128",
+        "ss": "274",
+        "hs": "154",
+        "total": "428",
+        "against": "I am Root"
       }
     ],
     "mw": "M",
@@ -5517,7 +9927,7 @@
         "ss": "214",
         "hs": "202",
         "total": "416",
-        "against": "Splits-n-Giggles"
+        "against": "Vacant"
       },
       {
         "week": 3,
@@ -5542,17 +9952,6 @@
         "against": "Sandbaggers"
       },
       {
-        "week": 8,
-        "avg": "102",
-        "hcp": "106",
-        "gm1": "128",
-        "gm2": "177",
-        "ss": "305",
-        "hs": "212",
-        "total": "517",
-        "against": "Splits-n-Giggles"
-      },
-      {
         "week": 10,
         "avg": "102",
         "hcp": "106",
@@ -5573,6 +9972,39 @@
         "hs": "208",
         "total": "442",
         "against": "Shoe Throwin Mad"
+      },
+      {
+        "week": 13,
+        "avg": "106",
+        "hcp": "102",
+        "gm1": "141",
+        "gm2": "115",
+        "ss": "256",
+        "hs": "204",
+        "total": "460",
+        "against": "Backstabbers"
+      },
+      {
+        "week": 14,
+        "avg": "109",
+        "hcp": "99",
+        "gm1": "99",
+        "gm2": "99",
+        "ss": "0",
+        "hs": "396",
+        "total": "396",
+        "against": "The Munsons"
+      },
+      {
+        "week": 17,
+        "avg": "109",
+        "hcp": "99",
+        "gm1": "124",
+        "gm2": "118",
+        "ss": "242",
+        "hs": "198",
+        "total": "440",
+        "against": "MoJo"
       }
     ],
     "mw": "W",
@@ -5652,17 +10084,6 @@
         "against": "Bad Attitude"
       },
       {
-        "week": 8,
-        "avg": "207",
-        "hcp": "11",
-        "gm1": "297",
-        "gm2": "195",
-        "ss": "492",
-        "hs": "22",
-        "total": "514",
-        "against": "D & A Lawn Care"
-      },
-      {
         "week": 9,
         "avg": "207",
         "hcp": "11",
@@ -5671,7 +10092,7 @@
         "ss": "390",
         "hs": "22",
         "total": "412",
-        "against": "Splits-n-Giggles"
+        "against": "Vacant"
       },
       {
         "week": 10,
@@ -5705,12 +10126,252 @@
         "hs": "26",
         "total": "467",
         "against": "Barely Bowling"
+      },
+      {
+        "week": 13,
+        "avg": "206",
+        "hcp": "12",
+        "gm1": "186",
+        "gm2": "200",
+        "ss": "386",
+        "hs": "24",
+        "total": "410",
+        "against": "MoJo"
+      },
+      {
+        "week": 14,
+        "avg": "205",
+        "hcp": "13",
+        "gm1": "194",
+        "gm2": "208",
+        "ss": "402",
+        "hs": "26",
+        "total": "428",
+        "against": "We Don't Give A Split"
+      },
+      {
+        "week": 15,
+        "avg": "205",
+        "hcp": "13",
+        "gm1": "212",
+        "gm2": "164",
+        "ss": "376",
+        "hs": "26",
+        "total": "402",
+        "against": "Top Gun"
+      },
+      {
+        "week": 16,
+        "avg": "203",
+        "hcp": "15",
+        "gm1": "213",
+        "gm2": "193",
+        "ss": "406",
+        "hs": "30",
+        "total": "436",
+        "against": "XXX Dancers"
+      },
+      {
+        "week": 17,
+        "avg": "203",
+        "hcp": "15",
+        "gm1": "173",
+        "gm2": "126",
+        "ss": "299",
+        "hs": "30",
+        "total": "329",
+        "against": "SPAM"
+      },
+      {
+        "week": 18,
+        "avg": "200",
+        "hcp": "18",
+        "gm1": "180",
+        "gm2": "205",
+        "ss": "385",
+        "hs": "36",
+        "total": "421",
+        "against": "Guess Who"
+      },
+      {
+        "week": 19,
+        "avg": "200",
+        "hcp": "18",
+        "gm1": "194",
+        "gm2": "257",
+        "ss": "451",
+        "hs": "36",
+        "total": "487",
+        "against": "L.O.F.T"
+      },
+      {
+        "week": 20,
+        "avg": "201",
+        "hcp": "17",
+        "gm1": "204",
+        "gm2": "227",
+        "ss": "431",
+        "hs": "34",
+        "total": "465",
+        "against": "Rick Rollers"
+      },
+      {
+        "week": 22,
+        "avg": "202",
+        "hcp": "16",
+        "gm1": "215",
+        "gm2": "191",
+        "ss": "406",
+        "hs": "32",
+        "total": "438",
+        "against": "Bob_Rossing It"
+      },
+      {
+        "week": 23,
+        "avg": "202",
+        "hcp": "16",
+        "gm1": "212",
+        "gm2": "213",
+        "ss": "425",
+        "hs": "32",
+        "total": "457",
+        "against": "Split Happens"
+      },
+      {
+        "week": 24,
+        "avg": "202",
+        "hcp": "16",
+        "gm1": "226",
+        "gm2": "268",
+        "ss": "494",
+        "hs": "32",
+        "total": "526",
+        "against": "Barely Bowling"
       }
     ],
     "mw": "M",
     "team": "Craptastic",
     "hssTeam": "Lane Violation",
-    "hsgTeam": "1 Mor"
+    "hsgTeam": "L.O.F.T"
+  },
+  "Josh Sevcik": {
+    "hsg": "0",
+    "hss": "0",
+    "link": "https://www.leaguesecretary.com//bowling-centers/cedar-rapids-bowl-cedar-rapids-iowa/bowling-leagues/lunch-league-2023-2024/bowler-info/josh-sevcik/2023/fall/130603/24",
+    "weeks": [
+      {
+        "week": 13,
+        "avg": "119",
+        "hcp": "90",
+        "gm1": "112",
+        "gm2": "126",
+        "ss": "238",
+        "hs": "180",
+        "total": "418",
+        "against": "Barely Bowling"
+      },
+      {
+        "week": 14,
+        "avg": "119",
+        "hcp": "90",
+        "gm1": "141",
+        "gm2": "167",
+        "ss": "308",
+        "hs": "180",
+        "total": "488",
+        "against": "MoJo"
+      },
+      {
+        "week": 15,
+        "avg": "136",
+        "hcp": "75",
+        "gm1": "131",
+        "gm2": "101",
+        "ss": "232",
+        "hs": "150",
+        "total": "382",
+        "against": "1 Mor"
+      },
+      {
+        "week": 16,
+        "avg": "129",
+        "hcp": "81",
+        "gm1": "175",
+        "gm2": "141",
+        "ss": "316",
+        "hs": "162",
+        "total": "478",
+        "against": "I am Root"
+      },
+      {
+        "week": 17,
+        "avg": "136",
+        "hcp": "75",
+        "gm1": "143",
+        "gm2": "146",
+        "ss": "289",
+        "hs": "150",
+        "total": "439",
+        "against": "XXX Dancers"
+      },
+      {
+        "week": 18,
+        "avg": "138",
+        "hcp": "73",
+        "gm1": "139",
+        "gm2": "128",
+        "ss": "267",
+        "hs": "146",
+        "total": "413",
+        "against": "L.O.F.T"
+      },
+      {
+        "week": 20,
+        "avg": "137",
+        "hcp": "74",
+        "gm1": "134",
+        "gm2": "137",
+        "ss": "271",
+        "hs": "148",
+        "total": "419",
+        "against": "Bob_Rossing It"
+      },
+      {
+        "week": 22,
+        "avg": "137",
+        "hcp": "74",
+        "gm1": "138",
+        "gm2": "159",
+        "ss": "297",
+        "hs": "148",
+        "total": "445",
+        "against": "Split Happens"
+      },
+      {
+        "week": 23,
+        "avg": "138",
+        "hcp": "73",
+        "gm1": "165",
+        "gm2": "165",
+        "ss": "330",
+        "hs": "146",
+        "total": "476",
+        "against": "Guess Who"
+      },
+      {
+        "week": 24,
+        "avg": "141",
+        "hcp": "71",
+        "gm1": "107",
+        "gm2": "145",
+        "ss": "252",
+        "hs": "142",
+        "total": "394",
+        "against": "Bob_Rossing It"
+      }
+    ],
+    "mw": "M",
+    "team": "Vacant"
   },
   "Mohammed Shamsi": {
     "hsg": "119",
@@ -5815,12 +10476,131 @@
         "hs": "228",
         "total": "387",
         "against": "Roll Clones"
+      },
+      {
+        "week": 13,
+        "avg": "92",
+        "hcp": "115",
+        "gm1": "139",
+        "gm2": "96",
+        "ss": "235",
+        "hs": "230",
+        "total": "465",
+        "against": "Craptastic"
+      },
+      {
+        "week": 14,
+        "avg": "94",
+        "hcp": "113",
+        "gm1": "109",
+        "gm2": "101",
+        "ss": "210",
+        "hs": "226",
+        "total": "436",
+        "against": "Vacant"
+      },
+      {
+        "week": 15,
+        "avg": "95",
+        "hcp": "112",
+        "gm1": "115",
+        "gm2": "99",
+        "ss": "214",
+        "hs": "224",
+        "total": "438",
+        "against": "Lane Violation"
+      },
+      {
+        "week": 16,
+        "avg": "96",
+        "hcp": "111",
+        "gm1": "96",
+        "gm2": "90",
+        "ss": "186",
+        "hs": "222",
+        "total": "408",
+        "against": "We Don't Give A Split"
+      },
+      {
+        "week": 17,
+        "avg": "96",
+        "hcp": "111",
+        "gm1": "118",
+        "gm2": "104",
+        "ss": "222",
+        "hs": "222",
+        "total": "444",
+        "against": "Strike a Pose"
+      },
+      {
+        "week": 18,
+        "avg": "97",
+        "hcp": "110",
+        "gm1": "87",
+        "gm2": "87",
+        "ss": "0",
+        "hs": "394",
+        "total": "394",
+        "against": "The Munsons"
+      },
+      {
+        "week": 20,
+        "avg": "97",
+        "hcp": "110",
+        "gm1": "122",
+        "gm2": "100",
+        "ss": "222",
+        "hs": "220",
+        "total": "442",
+        "against": "Spare Me"
+      },
+      {
+        "week": 22,
+        "avg": "98",
+        "hcp": "109",
+        "gm1": "125",
+        "gm2": "129",
+        "ss": "254",
+        "hs": "218",
+        "total": "472",
+        "against": "Shoe Throwin Mad"
+      },
+      {
+        "week": 24,
+        "avg": "99",
+        "hcp": "108",
+        "gm1": "93",
+        "gm2": "148",
+        "ss": "241",
+        "hs": "216",
+        "total": "457",
+        "against": "Rick Rollers"
       }
     ],
     "mw": "M",
     "team": "MoJo",
     "hsgTeam": "Splatters2",
     "hssTeam": "Splatters2"
+  },
+  "Brooke Smalley": {
+    "hsg": "129",
+    "hss": "245",
+    "link": "https://www.leaguesecretary.com//bowling-centers/cedar-rapids-bowl-cedar-rapids-iowa/bowling-leagues/lunch-league-2023-2024/bowler-info/brooke-smalley/2023/fall/130603/94",
+    "weeks": [
+      {
+        "week": 18,
+        "avg": "99",
+        "hcp": "108",
+        "gm1": "98",
+        "gm2": "100",
+        "ss": "198",
+        "hs": "216",
+        "total": "414",
+        "against": "XXX Dancers"
+      }
+    ],
+    "mw": "W",
+    "team": "Lane Violation"
   },
   "Brian Smith": {
     "hsg": "190",
@@ -5936,6 +10716,116 @@
         "hs": "114",
         "total": "420",
         "against": "Frickin Ten Pin"
+      },
+      {
+        "week": 13,
+        "avg": "156",
+        "hcp": "57",
+        "gm1": "191",
+        "gm2": "169",
+        "ss": "360",
+        "hs": "114",
+        "total": "474",
+        "against": "Splatters2"
+      },
+      {
+        "week": 15,
+        "avg": "158",
+        "hcp": "55",
+        "gm1": "161",
+        "gm2": "172",
+        "ss": "333",
+        "hs": "110",
+        "total": "443",
+        "against": "XXX Dancers"
+      },
+      {
+        "week": 16,
+        "avg": "158",
+        "hcp": "55",
+        "gm1": "173",
+        "gm2": "154",
+        "ss": "327",
+        "hs": "110",
+        "total": "437",
+        "against": "Vacant"
+      },
+      {
+        "week": 17,
+        "avg": "159",
+        "hcp": "54",
+        "gm1": "183",
+        "gm2": "155",
+        "ss": "338",
+        "hs": "108",
+        "total": "446",
+        "against": "Top Gun"
+      },
+      {
+        "week": 18,
+        "avg": "159",
+        "hcp": "54",
+        "gm1": "148",
+        "gm2": "148",
+        "ss": "296",
+        "hs": "108",
+        "total": "404",
+        "against": "Rick Rollers"
+      },
+      {
+        "week": 19,
+        "avg": "159",
+        "hcp": "54",
+        "gm1": "170",
+        "gm2": "182",
+        "ss": "352",
+        "hs": "108",
+        "total": "460",
+        "against": "Bob_Rossing It"
+      },
+      {
+        "week": 20,
+        "avg": "160",
+        "hcp": "54",
+        "gm1": "164",
+        "gm2": "180",
+        "ss": "344",
+        "hs": "108",
+        "total": "452",
+        "against": "Split Happens"
+      },
+      {
+        "week": 22,
+        "avg": "160",
+        "hcp": "54",
+        "gm1": "163",
+        "gm2": "136",
+        "ss": "299",
+        "hs": "108",
+        "total": "407",
+        "against": "Guess Who"
+      },
+      {
+        "week": 23,
+        "avg": "160",
+        "hcp": "54",
+        "gm1": "133",
+        "gm2": "140",
+        "ss": "273",
+        "hs": "108",
+        "total": "381",
+        "against": "L.O.F.T"
+      },
+      {
+        "week": 24,
+        "avg": "158",
+        "hcp": "55",
+        "gm1": "156",
+        "gm2": "184",
+        "ss": "340",
+        "hs": "110",
+        "total": "450",
+        "against": "We Don't Give A Split"
       }
     ],
     "mw": "M",
@@ -5979,7 +10869,7 @@
         "ss": "289",
         "hs": "138",
         "total": "427",
-        "against": "Splits-n-Giggles"
+        "against": "Vacant"
       },
       {
         "week": 5,
@@ -6013,17 +10903,6 @@
         "hs": "146",
         "total": "452",
         "against": "Frickin Ten Pin"
-      },
-      {
-        "week": 8,
-        "avg": "140",
-        "hcp": "72",
-        "gm1": "141",
-        "gm2": "205",
-        "ss": "346",
-        "hs": "144",
-        "total": "490",
-        "against": "1 Mor"
       },
       {
         "week": 9,
@@ -6068,6 +10947,127 @@
         "hs": "142",
         "total": "419",
         "against": "The Outsiders"
+      },
+      {
+        "week": 13,
+        "avg": "141",
+        "hcp": "71",
+        "gm1": "146",
+        "gm2": "153",
+        "ss": "299",
+        "hs": "142",
+        "total": "441",
+        "against": "Spare Me"
+      },
+      {
+        "week": 14,
+        "avg": "142",
+        "hcp": "70",
+        "gm1": "178",
+        "gm2": "137",
+        "ss": "315",
+        "hs": "140",
+        "total": "455",
+        "against": "Shoe Throwin Mad"
+      },
+      {
+        "week": 15,
+        "avg": "143",
+        "hcp": "69",
+        "gm1": "120",
+        "gm2": "151",
+        "ss": "271",
+        "hs": "138",
+        "total": "409",
+        "against": "Splatters2"
+      },
+      {
+        "week": 16,
+        "avg": "142",
+        "hcp": "70",
+        "gm1": "128",
+        "gm2": "136",
+        "ss": "264",
+        "hs": "140",
+        "total": "404",
+        "against": "D & A Lawn Care"
+      },
+      {
+        "week": 17,
+        "avg": "142",
+        "hcp": "70",
+        "gm1": "163",
+        "gm2": "118",
+        "ss": "281",
+        "hs": "140",
+        "total": "421",
+        "against": "Barely Bowling"
+      },
+      {
+        "week": 18,
+        "avg": "142",
+        "hcp": "70",
+        "gm1": "144",
+        "gm2": "147",
+        "ss": "291",
+        "hs": "140",
+        "total": "431",
+        "against": "Bad Attitude"
+      },
+      {
+        "week": 19,
+        "avg": "142",
+        "hcp": "70",
+        "gm1": "149",
+        "gm2": "133",
+        "ss": "282",
+        "hs": "140",
+        "total": "422",
+        "against": "SPAM"
+      },
+      {
+        "week": 20,
+        "avg": "142",
+        "hcp": "70",
+        "gm1": "166",
+        "gm2": "131",
+        "ss": "297",
+        "hs": "140",
+        "total": "437",
+        "against": "Engineering Strikes"
+      },
+      {
+        "week": 22,
+        "avg": "142",
+        "hcp": "70",
+        "gm1": "167",
+        "gm2": "157",
+        "ss": "324",
+        "hs": "140",
+        "total": "464",
+        "against": "Top Gun"
+      },
+      {
+        "week": 23,
+        "avg": "143",
+        "hcp": "69",
+        "gm1": "122",
+        "gm2": "130",
+        "ss": "252",
+        "hs": "138",
+        "total": "390",
+        "against": "XXX Dancers"
+      },
+      {
+        "week": 24,
+        "avg": "142",
+        "hcp": "70",
+        "gm1": "108",
+        "gm2": "134",
+        "ss": "242",
+        "hs": "140",
+        "total": "382",
+        "against": "Strike a Pose"
       }
     ],
     "mw": "W",
@@ -6147,17 +11147,6 @@
         "against": "The Munsons"
       },
       {
-        "week": 8,
-        "avg": "177",
-        "hcp": "38",
-        "gm1": "219",
-        "gm2": "209",
-        "ss": "428",
-        "hs": "76",
-        "total": "504",
-        "against": "Bad Attitude"
-      },
-      {
         "week": 9,
         "avg": "177",
         "hcp": "38",
@@ -6200,6 +11189,127 @@
         "hs": "72",
         "total": "472",
         "against": "D & A Lawn Care"
+      },
+      {
+        "week": 13,
+        "avg": "181",
+        "hcp": "35",
+        "gm1": "183",
+        "gm2": "202",
+        "ss": "385",
+        "hs": "70",
+        "total": "455",
+        "against": "Strike a Pose"
+      },
+      {
+        "week": 14,
+        "avg": "182",
+        "hcp": "34",
+        "gm1": "163",
+        "gm2": "164",
+        "ss": "327",
+        "hs": "68",
+        "total": "395",
+        "against": "Lane Violation"
+      },
+      {
+        "week": 15,
+        "avg": "180",
+        "hcp": "36",
+        "gm1": "183",
+        "gm2": "265",
+        "ss": "448",
+        "hs": "72",
+        "total": "520",
+        "against": "The Outsiders"
+      },
+      {
+        "week": 16,
+        "avg": "184",
+        "hcp": "32",
+        "gm1": "182",
+        "gm2": "232",
+        "ss": "414",
+        "hs": "64",
+        "total": "478",
+        "against": "Split Happens"
+      },
+      {
+        "week": 17,
+        "avg": "185",
+        "hcp": "31",
+        "gm1": "224",
+        "gm2": "206",
+        "ss": "430",
+        "hs": "62",
+        "total": "492",
+        "against": "Bob_Rossing It"
+      },
+      {
+        "week": 18,
+        "avg": "187",
+        "hcp": "29",
+        "gm1": "169",
+        "gm2": "170",
+        "ss": "339",
+        "hs": "58",
+        "total": "397",
+        "against": "Barely Bowling"
+      },
+      {
+        "week": 19,
+        "avg": "186",
+        "hcp": "30",
+        "gm1": "193",
+        "gm2": "198",
+        "ss": "391",
+        "hs": "60",
+        "total": "451",
+        "against": "Splatters2"
+      },
+      {
+        "week": 20,
+        "avg": "187",
+        "hcp": "29",
+        "gm1": "162",
+        "gm2": "218",
+        "ss": "380",
+        "hs": "58",
+        "total": "438",
+        "against": "Frickin Ten Pin"
+      },
+      {
+        "week": 22,
+        "avg": "187",
+        "hcp": "29",
+        "gm1": "168",
+        "gm2": "181",
+        "ss": "349",
+        "hs": "58",
+        "total": "407",
+        "against": "We Don't Give A Split"
+      },
+      {
+        "week": 23,
+        "avg": "186",
+        "hcp": "30",
+        "gm1": "179",
+        "gm2": "182",
+        "ss": "361",
+        "hs": "60",
+        "total": "421",
+        "against": "MoJo"
+      },
+      {
+        "week": 24,
+        "avg": "186",
+        "hcp": "30",
+        "gm1": "166",
+        "gm2": "199",
+        "ss": "365",
+        "hs": "60",
+        "total": "425",
+        "against": "Spare Me"
       }
     ],
     "mw": "M",
@@ -6301,17 +11411,6 @@
         "against": "Shoe Throwin Mad"
       },
       {
-        "week": 8,
-        "avg": "154",
-        "hcp": "59",
-        "gm1": "191",
-        "gm2": "175",
-        "ss": "366",
-        "hs": "118",
-        "total": "484",
-        "against": "Splatters2"
-      },
-      {
         "week": 10,
         "avg": "154",
         "hcp": "59",
@@ -6332,6 +11431,83 @@
         "hs": "110",
         "total": "383",
         "against": "XXX Dancers"
+      },
+      {
+        "week": 14,
+        "avg": "155",
+        "hcp": "58",
+        "gm1": "147",
+        "gm2": "176",
+        "ss": "323",
+        "hs": "116",
+        "total": "439",
+        "against": "Engineering Strikes"
+      },
+      {
+        "week": 15,
+        "avg": "156",
+        "hcp": "57",
+        "gm1": "190",
+        "gm2": "151",
+        "ss": "341",
+        "hs": "114",
+        "total": "455",
+        "against": "Guess Who"
+      },
+      {
+        "week": 19,
+        "avg": "157",
+        "hcp": "56",
+        "gm1": "144",
+        "gm2": "149",
+        "ss": "293",
+        "hs": "112",
+        "total": "405",
+        "against": "1 Mor"
+      },
+      {
+        "week": 20,
+        "avg": "156",
+        "hcp": "57",
+        "gm1": "142",
+        "gm2": "162",
+        "ss": "304",
+        "hs": "114",
+        "total": "418",
+        "against": "I am Root"
+      },
+      {
+        "week": 22,
+        "avg": "156",
+        "hcp": "57",
+        "gm1": "177",
+        "gm2": "161",
+        "ss": "338",
+        "hs": "114",
+        "total": "452",
+        "against": "Vacant"
+      },
+      {
+        "week": 23,
+        "avg": "157",
+        "hcp": "56",
+        "gm1": "161",
+        "gm2": "159",
+        "ss": "320",
+        "hs": "112",
+        "total": "432",
+        "against": "Craptastic"
+      },
+      {
+        "week": 24,
+        "avg": "157",
+        "hcp": "56",
+        "gm1": "127",
+        "gm2": "123",
+        "ss": "250",
+        "hs": "112",
+        "total": "362",
+        "against": "D & A Lawn Care"
       }
     ],
     "mw": "M",
@@ -6378,17 +11554,6 @@
         "against": "XXX Dancers"
       },
       {
-        "week": 8,
-        "avg": "178",
-        "hcp": "37",
-        "gm1": "167",
-        "gm2": "234",
-        "ss": "401",
-        "hs": "74",
-        "total": "475",
-        "against": "Top Gun"
-      },
-      {
         "week": 9,
         "avg": "178",
         "hcp": "37",
@@ -6431,6 +11596,116 @@
         "hs": "66",
         "total": "441",
         "against": "Alias Smith and Godfrey"
+      },
+      {
+        "week": 13,
+        "avg": "184",
+        "hcp": "32",
+        "gm1": "169",
+        "gm2": "202",
+        "ss": "371",
+        "hs": "64",
+        "total": "435",
+        "against": "Sandbaggers"
+      },
+      {
+        "week": 14,
+        "avg": "184",
+        "hcp": "32",
+        "gm1": "173",
+        "gm2": "194",
+        "ss": "367",
+        "hs": "64",
+        "total": "431",
+        "against": "D & A Lawn Care"
+      },
+      {
+        "week": 15,
+        "avg": "184",
+        "hcp": "32",
+        "gm1": "138",
+        "gm2": "213",
+        "ss": "351",
+        "hs": "64",
+        "total": "415",
+        "against": "Backstabbers"
+      },
+      {
+        "week": 16,
+        "avg": "183",
+        "hcp": "33",
+        "gm1": "202",
+        "gm2": "195",
+        "ss": "397",
+        "hs": "66",
+        "total": "463",
+        "against": "The Munsons"
+      },
+      {
+        "week": 17,
+        "avg": "184",
+        "hcp": "32",
+        "gm1": "225",
+        "gm2": "219",
+        "ss": "444",
+        "hs": "64",
+        "total": "508",
+        "against": "Rick Rollers"
+      },
+      {
+        "week": 18,
+        "avg": "187",
+        "hcp": "29",
+        "gm1": "175",
+        "gm2": "168",
+        "ss": "343",
+        "hs": "58",
+        "total": "401",
+        "against": "We Don't Give A Split"
+      },
+      {
+        "week": 19,
+        "avg": "186",
+        "hcp": "30",
+        "gm1": "171",
+        "gm2": "189",
+        "ss": "360",
+        "hs": "60",
+        "total": "420",
+        "against": "MoJo"
+      },
+      {
+        "week": 20,
+        "avg": "185",
+        "hcp": "31",
+        "gm1": "161",
+        "gm2": "200",
+        "ss": "361",
+        "hs": "62",
+        "total": "423",
+        "against": "Barely Bowling"
+      },
+      {
+        "week": 23,
+        "avg": "185",
+        "hcp": "31",
+        "gm1": "163",
+        "gm2": "191",
+        "ss": "354",
+        "hs": "62",
+        "total": "416",
+        "against": "Frickin Ten Pin"
+      },
+      {
+        "week": 24,
+        "avg": "185",
+        "hcp": "31",
+        "gm1": "180",
+        "gm2": "261",
+        "ss": "441",
+        "hs": "62",
+        "total": "503",
+        "against": "The Munsons"
       }
     ],
     "mw": "M",
@@ -6510,17 +11785,6 @@
         "against": "We Don't Give A Split"
       },
       {
-        "week": 8,
-        "avg": "149",
-        "hcp": "63",
-        "gm1": "188",
-        "gm2": "150",
-        "ss": "338",
-        "hs": "126",
-        "total": "464",
-        "against": "Craptastic"
-      },
-      {
         "week": 9,
         "avg": "149",
         "hcp": "63",
@@ -6563,6 +11827,127 @@
         "hs": "126",
         "total": "431",
         "against": "Backstabbers"
+      },
+      {
+        "week": 13,
+        "avg": "150",
+        "hcp": "63",
+        "gm1": "119",
+        "gm2": "183",
+        "ss": "302",
+        "hs": "126",
+        "total": "428",
+        "against": "The Munsons"
+      },
+      {
+        "week": 14,
+        "avg": "150",
+        "hcp": "63",
+        "gm1": "151",
+        "gm2": "133",
+        "ss": "284",
+        "hs": "126",
+        "total": "410",
+        "against": "The Outsiders"
+      },
+      {
+        "week": 15,
+        "avg": "150",
+        "hcp": "63",
+        "gm1": "226",
+        "gm2": "152",
+        "ss": "378",
+        "hs": "126",
+        "total": "504",
+        "against": "Sandbaggers"
+      },
+      {
+        "week": 16,
+        "avg": "152",
+        "hcp": "61",
+        "gm1": "184",
+        "gm2": "131",
+        "ss": "315",
+        "hs": "122",
+        "total": "437",
+        "against": "Alias Smith and Godfrey"
+      },
+      {
+        "week": 17,
+        "avg": "153",
+        "hcp": "60",
+        "gm1": "162",
+        "gm2": "181",
+        "ss": "343",
+        "hs": "120",
+        "total": "463",
+        "against": "Splatters2"
+      },
+      {
+        "week": 18,
+        "avg": "154",
+        "hcp": "59",
+        "gm1": "162",
+        "gm2": "164",
+        "ss": "326",
+        "hs": "118",
+        "total": "444",
+        "against": "Engineering Strikes"
+      },
+      {
+        "week": 19,
+        "avg": "154",
+        "hcp": "59",
+        "gm1": "156",
+        "gm2": "126",
+        "ss": "282",
+        "hs": "118",
+        "total": "400",
+        "against": "Top Gun"
+      },
+      {
+        "week": 20,
+        "avg": "154",
+        "hcp": "59",
+        "gm1": "202",
+        "gm2": "184",
+        "ss": "386",
+        "hs": "118",
+        "total": "504",
+        "against": "XXX Dancers"
+      },
+      {
+        "week": 22,
+        "avg": "156",
+        "hcp": "57",
+        "gm1": "146",
+        "gm2": "187",
+        "ss": "333",
+        "hs": "114",
+        "total": "447",
+        "against": "Bad Attitude"
+      },
+      {
+        "week": 23,
+        "avg": "156",
+        "hcp": "57",
+        "gm1": "157",
+        "gm2": "160",
+        "ss": "317",
+        "hs": "114",
+        "total": "431",
+        "against": "SPAM"
+      },
+      {
+        "week": 24,
+        "avg": "156",
+        "hcp": "57",
+        "gm1": "155",
+        "gm2": "143",
+        "ss": "298",
+        "hs": "114",
+        "total": "412",
+        "against": "Split Happens"
       }
     ],
     "mw": "M",
@@ -6640,15 +12025,125 @@
         "against": "The Munsons"
       },
       {
-        "week": 8,
+        "week": 13,
         "avg": "166",
         "hcp": "48",
-        "gm1": "223",
-        "gm2": "167",
-        "ss": "390",
+        "gm1": "169",
+        "gm2": "154",
+        "ss": "323",
         "hs": "96",
-        "total": "486",
-        "against": "Bad Attitude"
+        "total": "419",
+        "against": "Strike a Pose"
+      },
+      {
+        "week": 14,
+        "avg": "165",
+        "hcp": "49",
+        "gm1": "140",
+        "gm2": "161",
+        "ss": "301",
+        "hs": "98",
+        "total": "399",
+        "against": "Lane Violation"
+      },
+      {
+        "week": 15,
+        "avg": "164",
+        "hcp": "50",
+        "gm1": "140",
+        "gm2": "146",
+        "ss": "286",
+        "hs": "100",
+        "total": "386",
+        "against": "The Outsiders"
+      },
+      {
+        "week": 16,
+        "avg": "161",
+        "hcp": "53",
+        "gm1": "144",
+        "gm2": "126",
+        "ss": "270",
+        "hs": "106",
+        "total": "376",
+        "against": "Split Happens"
+      },
+      {
+        "week": 17,
+        "avg": "159",
+        "hcp": "54",
+        "gm1": "194",
+        "gm2": "174",
+        "ss": "368",
+        "hs": "108",
+        "total": "476",
+        "against": "Bob_Rossing It"
+      },
+      {
+        "week": 18,
+        "avg": "161",
+        "hcp": "53",
+        "gm1": "190",
+        "gm2": "161",
+        "ss": "351",
+        "hs": "106",
+        "total": "457",
+        "against": "Barely Bowling"
+      },
+      {
+        "week": 19,
+        "avg": "162",
+        "hcp": "52",
+        "gm1": "159",
+        "gm2": "142",
+        "ss": "301",
+        "hs": "104",
+        "total": "405",
+        "against": "Splatters2"
+      },
+      {
+        "week": 20,
+        "avg": "161",
+        "hcp": "53",
+        "gm1": "172",
+        "gm2": "157",
+        "ss": "329",
+        "hs": "106",
+        "total": "435",
+        "against": "Frickin Ten Pin"
+      },
+      {
+        "week": 22,
+        "avg": "161",
+        "hcp": "53",
+        "gm1": "147",
+        "gm2": "170",
+        "ss": "317",
+        "hs": "106",
+        "total": "423",
+        "against": "We Don't Give A Split"
+      },
+      {
+        "week": 23,
+        "avg": "161",
+        "hcp": "53",
+        "gm1": "183",
+        "gm2": "157",
+        "ss": "340",
+        "hs": "106",
+        "total": "446",
+        "against": "MoJo"
+      },
+      {
+        "week": 24,
+        "avg": "162",
+        "hcp": "52",
+        "gm1": "183",
+        "gm2": "139",
+        "ss": "322",
+        "hs": "104",
+        "total": "426",
+        "against": "Spare Me"
       }
     ],
     "mw": "M",
@@ -6717,17 +12212,6 @@
         "against": "Bad Attitude"
       },
       {
-        "week": 8,
-        "avg": "173",
-        "hcp": "42",
-        "gm1": "201",
-        "gm2": "243",
-        "ss": "444",
-        "hs": "84",
-        "total": "528",
-        "against": "Strike a Pose"
-      },
-      {
         "week": 9,
         "avg": "173",
         "hcp": "42",
@@ -6751,42 +12235,9 @@
       }
     ],
     "mw": "W",
-    "team": "Splits-n-Giggles",
+    "team": "Vacant",
     "hsgTeam": "Bad Attitude",
     "hssTeam": "Craptastic"
-  },
-  "Justin Strong": {
-    "hsg": "176",
-    "hss": "324",
-    "link": "https://www.leaguesecretary.com//bowling-centers/cedar-rapids-bowl-cedar-rapids-iowa/bowling-leagues/lunch-league-2023-2024/bowler-info/justin-strong/2023/fall/130603/87",
-    "weeks": [
-      {
-        "week": 11,
-        "avg": "158",
-        "hcp": "55",
-        "gm1": "140",
-        "gm2": "176",
-        "ss": "316",
-        "hs": "110",
-        "total": "426",
-        "against": "Guess Who"
-      },
-      {
-        "week": 12,
-        "avg": "158",
-        "hcp": "55",
-        "gm1": "168",
-        "gm2": "156",
-        "ss": "324",
-        "hs": "110",
-        "total": "434",
-        "against": "L.O.F.T"
-      }
-    ],
-    "mw": "M",
-    "team": "SPAM",
-    "hsgTeam": "Guess Who",
-    "hssTeam": "L.O.F.T"
   },
   "Ryan Tew": {
     "hsg": "279",
@@ -6849,17 +12300,6 @@
         "against": "Guess Who"
       },
       {
-        "week": 8,
-        "avg": "201",
-        "hcp": "17",
-        "gm1": "300",
-        "gm2": "173",
-        "ss": "473",
-        "hs": "34",
-        "total": "507",
-        "against": "Top Gun"
-      },
-      {
         "week": 9,
         "avg": "201",
         "hcp": "17",
@@ -6902,6 +12342,116 @@
         "hs": "20",
         "total": "411",
         "against": "Alias Smith and Godfrey"
+      },
+      {
+        "week": 13,
+        "avg": "207",
+        "hcp": "11",
+        "gm1": "178",
+        "gm2": "174",
+        "ss": "352",
+        "hs": "22",
+        "total": "374",
+        "against": "Sandbaggers"
+      },
+      {
+        "week": 14,
+        "avg": "204",
+        "hcp": "14",
+        "gm1": "158",
+        "gm2": "237",
+        "ss": "395",
+        "hs": "28",
+        "total": "423",
+        "against": "D & A Lawn Care"
+      },
+      {
+        "week": 15,
+        "avg": "203",
+        "hcp": "15",
+        "gm1": "234",
+        "gm2": "200",
+        "ss": "434",
+        "hs": "30",
+        "total": "464",
+        "against": "Backstabbers"
+      },
+      {
+        "week": 16,
+        "avg": "204",
+        "hcp": "14",
+        "gm1": "215",
+        "gm2": "159",
+        "ss": "374",
+        "hs": "28",
+        "total": "402",
+        "against": "The Munsons"
+      },
+      {
+        "week": 18,
+        "avg": "203",
+        "hcp": "15",
+        "gm1": "215",
+        "gm2": "201",
+        "ss": "416",
+        "hs": "30",
+        "total": "446",
+        "against": "We Don't Give A Split"
+      },
+      {
+        "week": 19,
+        "avg": "203",
+        "hcp": "15",
+        "gm1": "184",
+        "gm2": "225",
+        "ss": "409",
+        "hs": "30",
+        "total": "439",
+        "against": "MoJo"
+      },
+      {
+        "week": 20,
+        "avg": "203",
+        "hcp": "15",
+        "gm1": "226",
+        "gm2": "185",
+        "ss": "411",
+        "hs": "30",
+        "total": "441",
+        "against": "Barely Bowling"
+      },
+      {
+        "week": 22,
+        "avg": "204",
+        "hcp": "14",
+        "gm1": "268",
+        "gm2": "193",
+        "ss": "461",
+        "hs": "28",
+        "total": "489",
+        "against": "Splatters2"
+      },
+      {
+        "week": 23,
+        "avg": "205",
+        "hcp": "13",
+        "gm1": "204",
+        "gm2": "243",
+        "ss": "447",
+        "hs": "26",
+        "total": "473",
+        "against": "Frickin Ten Pin"
+      },
+      {
+        "week": 24,
+        "avg": "206",
+        "hcp": "12",
+        "gm1": "178",
+        "gm2": "161",
+        "ss": "339",
+        "hs": "24",
+        "total": "363",
+        "against": "The Munsons"
       }
     ],
     "mw": "M",
@@ -6981,17 +12531,6 @@
         "against": "Bad Attitude"
       },
       {
-        "week": 8,
-        "avg": "165",
-        "hcp": "49",
-        "gm1": "167",
-        "gm2": "211",
-        "ss": "378",
-        "hs": "98",
-        "total": "476",
-        "against": "D & A Lawn Care"
-      },
-      {
         "week": 9,
         "avg": "165",
         "hcp": "49",
@@ -7000,7 +12539,7 @@
         "ss": "335",
         "hs": "98",
         "total": "433",
-        "against": "Splits-n-Giggles"
+        "against": "Vacant"
       },
       {
         "week": 10,
@@ -7034,12 +12573,264 @@
         "hs": "94",
         "total": "425",
         "against": "Barely Bowling"
+      },
+      {
+        "week": 13,
+        "avg": "167",
+        "hcp": "47",
+        "gm1": "187",
+        "gm2": "206",
+        "ss": "393",
+        "hs": "94",
+        "total": "487",
+        "against": "MoJo"
+      },
+      {
+        "week": 14,
+        "avg": "169",
+        "hcp": "45",
+        "gm1": "178",
+        "gm2": "187",
+        "ss": "365",
+        "hs": "90",
+        "total": "455",
+        "against": "We Don't Give A Split"
+      },
+      {
+        "week": 15,
+        "avg": "170",
+        "hcp": "45",
+        "gm1": "211",
+        "gm2": "211",
+        "ss": "422",
+        "hs": "90",
+        "total": "512",
+        "against": "Top Gun"
+      },
+      {
+        "week": 16,
+        "avg": "173",
+        "hcp": "42",
+        "gm1": "151",
+        "gm2": "200",
+        "ss": "351",
+        "hs": "84",
+        "total": "435",
+        "against": "XXX Dancers"
+      },
+      {
+        "week": 17,
+        "avg": "173",
+        "hcp": "42",
+        "gm1": "170",
+        "gm2": "189",
+        "ss": "359",
+        "hs": "84",
+        "total": "443",
+        "against": "SPAM"
+      },
+      {
+        "week": 18,
+        "avg": "173",
+        "hcp": "42",
+        "gm1": "212",
+        "gm2": "194",
+        "ss": "406",
+        "hs": "84",
+        "total": "490",
+        "against": "Guess Who"
+      },
+      {
+        "week": 19,
+        "avg": "175",
+        "hcp": "40",
+        "gm1": "164",
+        "gm2": "140",
+        "ss": "304",
+        "hs": "80",
+        "total": "384",
+        "against": "L.O.F.T"
+      },
+      {
+        "week": 20,
+        "avg": "174",
+        "hcp": "41",
+        "gm1": "141",
+        "gm2": "135",
+        "ss": "276",
+        "hs": "82",
+        "total": "358",
+        "against": "Rick Rollers"
+      },
+      {
+        "week": 22,
+        "avg": "172",
+        "hcp": "43",
+        "gm1": "175",
+        "gm2": "145",
+        "ss": "320",
+        "hs": "86",
+        "total": "406",
+        "against": "Bob_Rossing It"
+      },
+      {
+        "week": 23,
+        "avg": "171",
+        "hcp": "44",
+        "gm1": "161",
+        "gm2": "115",
+        "ss": "276",
+        "hs": "88",
+        "total": "364",
+        "against": "Split Happens"
+      },
+      {
+        "week": 24,
+        "avg": "170",
+        "hcp": "45",
+        "gm1": "158",
+        "gm2": "174",
+        "ss": "332",
+        "hs": "90",
+        "total": "422",
+        "against": "Barely Bowling"
       }
     ],
     "mw": "M",
     "team": "Craptastic",
     "hsgTeam": "Bad Attitude",
     "hssTeam": "Bad Attitude"
+  },
+  "James Toothaker": {
+    "hsg": "0",
+    "hss": "0",
+    "link": "https://www.leaguesecretary.com//bowling-centers/cedar-rapids-bowl-cedar-rapids-iowa/bowling-leagues/lunch-league-2023-2024/bowler-info/james-toothaker/2023/fall/130603/22",
+    "weeks": [
+      {
+        "week": 13,
+        "avg": "157",
+        "hcp": "56",
+        "gm1": "160",
+        "gm2": "155",
+        "ss": "315",
+        "hs": "112",
+        "total": "427",
+        "against": "Barely Bowling"
+      },
+      {
+        "week": 14,
+        "avg": "157",
+        "hcp": "56",
+        "gm1": "135",
+        "gm2": "121",
+        "ss": "256",
+        "hs": "112",
+        "total": "368",
+        "against": "MoJo"
+      },
+      {
+        "week": 15,
+        "avg": "142",
+        "hcp": "70",
+        "gm1": "126",
+        "gm2": "138",
+        "ss": "264",
+        "hs": "140",
+        "total": "404",
+        "against": "1 Mor"
+      },
+      {
+        "week": 16,
+        "avg": "139",
+        "hcp": "72",
+        "gm1": "151",
+        "gm2": "156",
+        "ss": "307",
+        "hs": "144",
+        "total": "451",
+        "against": "I am Root"
+      },
+      {
+        "week": 17,
+        "avg": "142",
+        "hcp": "70",
+        "gm1": "142",
+        "gm2": "169",
+        "ss": "311",
+        "hs": "140",
+        "total": "451",
+        "against": "XXX Dancers"
+      },
+      {
+        "week": 18,
+        "avg": "145",
+        "hcp": "67",
+        "gm1": "135",
+        "gm2": "135",
+        "ss": "0",
+        "hs": "404",
+        "total": "404",
+        "against": "L.O.F.T"
+      },
+      {
+        "week": 19,
+        "avg": "145",
+        "hcp": "67",
+        "gm1": "135",
+        "gm2": "135",
+        "ss": "0",
+        "hs": "404",
+        "total": "404",
+        "against": "Rick Rollers"
+      },
+      {
+        "week": 20,
+        "avg": "145",
+        "hcp": "67",
+        "gm1": "109",
+        "gm2": "188",
+        "ss": "297",
+        "hs": "134",
+        "total": "431",
+        "against": "Bob_Rossing It"
+      },
+      {
+        "week": 22,
+        "avg": "145",
+        "hcp": "67",
+        "gm1": "176",
+        "gm2": "161",
+        "ss": "337",
+        "hs": "134",
+        "total": "471",
+        "against": "Split Happens"
+      },
+      {
+        "week": 23,
+        "avg": "149",
+        "hcp": "63",
+        "gm1": "131",
+        "gm2": "123",
+        "ss": "254",
+        "hs": "126",
+        "total": "380",
+        "against": "Guess Who"
+      },
+      {
+        "week": 24,
+        "avg": "146",
+        "hcp": "66",
+        "gm1": "161",
+        "gm2": "114",
+        "ss": "275",
+        "hs": "132",
+        "total": "407",
+        "against": "Bob_Rossing It"
+      }
+    ],
+    "mw": "W",
+    "team": "Vacant",
+    "hssTeam": "Rick Rollers"
   },
   "Nick Trent": {
     "hsg": "193",
@@ -7055,7 +12846,7 @@
         "ss": "262",
         "hs": "160",
         "total": "422",
-        "against": "Splits-n-Giggles"
+        "against": "Vacant"
       },
       {
         "week": 4,
@@ -7111,11 +12902,55 @@
         "hs": "126",
         "total": "440",
         "against": "Backstabbers"
+      },
+      {
+        "week": 15,
+        "avg": "150",
+        "hcp": "63",
+        "gm1": "140",
+        "gm2": "170",
+        "ss": "310",
+        "hs": "126",
+        "total": "436",
+        "against": "D & A Lawn Care"
+      },
+      {
+        "week": 16,
+        "avg": "151",
+        "hcp": "62",
+        "gm1": "138",
+        "gm2": "159",
+        "ss": "297",
+        "hs": "124",
+        "total": "421",
+        "against": "Barely Bowling"
+      },
+      {
+        "week": 19,
+        "avg": "150",
+        "hcp": "63",
+        "gm1": "141",
+        "gm2": "193",
+        "ss": "334",
+        "hs": "126",
+        "total": "460",
+        "against": "Engineering Strikes"
+      },
+      {
+        "week": 24,
+        "avg": "152",
+        "hcp": "61",
+        "gm1": "147",
+        "gm2": "168",
+        "ss": "315",
+        "hs": "122",
+        "total": "437",
+        "against": "Frickin Ten Pin"
       }
     ],
     "mw": "M",
     "team": "Sandbaggers",
-    "hsgTeam": "Splatters2",
+    "hsgTeam": "Engineering Strikes",
     "hssTeam": "Splatters2"
   },
   "Liz Underwood": {
@@ -7190,17 +13025,6 @@
         "against": "Engineering Strikes"
       },
       {
-        "week": 8,
-        "avg": "101",
-        "hcp": "107",
-        "gm1": "128",
-        "gm2": "160",
-        "ss": "288",
-        "hs": "214",
-        "total": "502",
-        "against": "Strike a Pose"
-      },
-      {
         "week": 9,
         "avg": "101",
         "hcp": "107",
@@ -7246,7 +13070,7 @@
       }
     ],
     "mw": "W",
-    "team": "Splits-n-Giggles",
+    "team": "Vacant",
     "hsgTeam": "Alias Smith and Godfrey",
     "hssTeam": "Engineering Strikes"
   },
@@ -7309,6 +13133,105 @@
         "hs": "172",
         "total": "412",
         "against": "Spare Me"
+      },
+      {
+        "week": 15,
+        "avg": "123",
+        "hcp": "87",
+        "gm1": "113",
+        "gm2": "163",
+        "ss": "276",
+        "hs": "174",
+        "total": "450",
+        "against": "Frickin Ten Pin"
+      },
+      {
+        "week": 16,
+        "avg": "125",
+        "hcp": "85",
+        "gm1": "115",
+        "gm2": "115",
+        "ss": "0",
+        "hs": "400",
+        "total": "400",
+        "against": "Splatters2"
+      },
+      {
+        "week": 17,
+        "avg": "125",
+        "hcp": "85",
+        "gm1": "101",
+        "gm2": "122",
+        "ss": "223",
+        "hs": "170",
+        "total": "393",
+        "against": "MoJo"
+      },
+      {
+        "week": 18,
+        "avg": "123",
+        "hcp": "87",
+        "gm1": "142",
+        "gm2": "111",
+        "ss": "253",
+        "hs": "174",
+        "total": "427",
+        "against": "Top Gun"
+      },
+      {
+        "week": 19,
+        "avg": "124",
+        "hcp": "86",
+        "gm1": "114",
+        "gm2": "114",
+        "ss": "0",
+        "hs": "400",
+        "total": "400",
+        "against": "XXX Dancers"
+      },
+      {
+        "week": 20,
+        "avg": "124",
+        "hcp": "86",
+        "gm1": "111",
+        "gm2": "110",
+        "ss": "221",
+        "hs": "172",
+        "total": "393",
+        "against": "Bad Attitude"
+      },
+      {
+        "week": 22,
+        "avg": "122",
+        "hcp": "88",
+        "gm1": "112",
+        "gm2": "112",
+        "ss": "0",
+        "hs": "400",
+        "total": "400",
+        "against": "SPAM"
+      },
+      {
+        "week": 23,
+        "avg": "122",
+        "hcp": "88",
+        "gm1": "112",
+        "gm2": "112",
+        "ss": "0",
+        "hs": "400",
+        "total": "400",
+        "against": "Engineering Strikes"
+      },
+      {
+        "week": 24,
+        "avg": "122",
+        "hcp": "88",
+        "gm1": "150",
+        "gm2": "110",
+        "ss": "260",
+        "hs": "176",
+        "total": "436",
+        "against": "Alias Smith and Godfrey"
       }
     ],
     "mw": "W",
@@ -7385,18 +13308,7 @@
         "ss": "333",
         "hs": "82",
         "total": "415",
-        "against": "Splits-n-Giggles"
-      },
-      {
-        "week": 8,
-        "avg": "173",
-        "hcp": "42",
-        "gm1": "151",
-        "gm2": "170",
-        "ss": "321",
-        "hs": "84",
-        "total": "405",
-        "against": "Spare Me"
+        "against": "Vacant"
       },
       {
         "week": 9,
@@ -7441,6 +13353,127 @@
         "hs": "72",
         "total": "500",
         "against": "Rick Rollers"
+      },
+      {
+        "week": 13,
+        "avg": "182",
+        "hcp": "34",
+        "gm1": "224",
+        "gm2": "147",
+        "ss": "371",
+        "hs": "68",
+        "total": "439",
+        "against": "Bob_Rossing It"
+      },
+      {
+        "week": 14,
+        "avg": "182",
+        "hcp": "34",
+        "gm1": "188",
+        "gm2": "160",
+        "ss": "348",
+        "hs": "68",
+        "total": "416",
+        "against": "Split Happens"
+      },
+      {
+        "week": 15,
+        "avg": "182",
+        "hcp": "34",
+        "gm1": "224",
+        "gm2": "192",
+        "ss": "416",
+        "hs": "68",
+        "total": "484",
+        "against": "SPAM"
+      },
+      {
+        "week": 16,
+        "avg": "183",
+        "hcp": "33",
+        "gm1": "186",
+        "gm2": "154",
+        "ss": "340",
+        "hs": "66",
+        "total": "406",
+        "against": "Bad Attitude"
+      },
+      {
+        "week": 17,
+        "avg": "182",
+        "hcp": "34",
+        "gm1": "171",
+        "gm2": "181",
+        "ss": "352",
+        "hs": "68",
+        "total": "420",
+        "against": "Roll Clones"
+      },
+      {
+        "week": 18,
+        "avg": "182",
+        "hcp": "34",
+        "gm1": "210",
+        "gm2": "155",
+        "ss": "365",
+        "hs": "68",
+        "total": "433",
+        "against": "D & A Lawn Care"
+      },
+      {
+        "week": 19,
+        "avg": "182",
+        "hcp": "34",
+        "gm1": "203",
+        "gm2": "193",
+        "ss": "396",
+        "hs": "68",
+        "total": "464",
+        "against": "Sandbaggers"
+      },
+      {
+        "week": 20,
+        "avg": "183",
+        "hcp": "33",
+        "gm1": "171",
+        "gm2": "224",
+        "ss": "395",
+        "hs": "66",
+        "total": "461",
+        "against": "Alias Smith and Godfrey"
+      },
+      {
+        "week": 22,
+        "avg": "184",
+        "hcp": "32",
+        "gm1": "177",
+        "gm2": "216",
+        "ss": "393",
+        "hs": "64",
+        "total": "457",
+        "against": "Lane Violation"
+      },
+      {
+        "week": 23,
+        "avg": "184",
+        "hcp": "32",
+        "gm1": "182",
+        "gm2": "215",
+        "ss": "397",
+        "hs": "64",
+        "total": "461",
+        "against": "Strike a Pose"
+      },
+      {
+        "week": 24,
+        "avg": "185",
+        "hcp": "31",
+        "gm1": "197",
+        "gm2": "171",
+        "ss": "368",
+        "hs": "62",
+        "total": "430",
+        "against": "1 Mor"
       }
     ],
     "mw": "M",
@@ -7551,6 +13584,116 @@
         "hs": "136",
         "total": "443",
         "against": "MoJo"
+      },
+      {
+        "week": 13,
+        "avg": "145",
+        "hcp": "67",
+        "gm1": "150",
+        "gm2": "163",
+        "ss": "313",
+        "hs": "134",
+        "total": "447",
+        "against": "We Don't Give A Split"
+      },
+      {
+        "week": 14,
+        "avg": "146",
+        "hcp": "66",
+        "gm1": "117",
+        "gm2": "115",
+        "ss": "232",
+        "hs": "132",
+        "total": "364",
+        "against": "Frickin Ten Pin"
+      },
+      {
+        "week": 15,
+        "avg": "143",
+        "hcp": "69",
+        "gm1": "146",
+        "gm2": "256",
+        "ss": "402",
+        "hs": "138",
+        "total": "540",
+        "against": "Bad Attitude"
+      },
+      {
+        "week": 16,
+        "avg": "148",
+        "hcp": "64",
+        "gm1": "127",
+        "gm2": "162",
+        "ss": "289",
+        "hs": "128",
+        "total": "417",
+        "against": "Top Gun"
+      },
+      {
+        "week": 17,
+        "avg": "148",
+        "hcp": "64",
+        "gm1": "127",
+        "gm2": "194",
+        "ss": "321",
+        "hs": "128",
+        "total": "449",
+        "against": "Engineering Strikes"
+      },
+      {
+        "week": 18,
+        "avg": "148",
+        "hcp": "64",
+        "gm1": "216",
+        "gm2": "143",
+        "ss": "359",
+        "hs": "128",
+        "total": "487",
+        "against": "Split Happens"
+      },
+      {
+        "week": 20,
+        "avg": "150",
+        "hcp": "63",
+        "gm1": "132",
+        "gm2": "155",
+        "ss": "287",
+        "hs": "126",
+        "total": "413",
+        "against": "L.O.F.T"
+      },
+      {
+        "week": 22,
+        "avg": "150",
+        "hcp": "63",
+        "gm1": "157",
+        "gm2": "155",
+        "ss": "312",
+        "hs": "126",
+        "total": "438",
+        "against": "Rick Rollers"
+      },
+      {
+        "week": 23,
+        "avg": "150",
+        "hcp": "63",
+        "gm1": "162",
+        "gm2": "177",
+        "ss": "339",
+        "hs": "126",
+        "total": "465",
+        "against": "Bob_Rossing It"
+      },
+      {
+        "week": 24,
+        "avg": "151",
+        "hcp": "62",
+        "gm1": "169",
+        "gm2": "183",
+        "ss": "352",
+        "hs": "124",
+        "total": "476",
+        "against": "Lane Violation"
       }
     ],
     "mw": "M",
@@ -7630,17 +13773,6 @@
         "against": "Split Happens"
       },
       {
-        "week": 8,
-        "avg": "153",
-        "hcp": "60",
-        "gm1": "233",
-        "gm2": "248",
-        "ss": "481",
-        "hs": "120",
-        "total": "601",
-        "against": "SPAM"
-      },
-      {
         "week": 9,
         "avg": "153",
         "hcp": "60",
@@ -7683,6 +13815,127 @@
         "hs": "104",
         "total": "476",
         "against": "Strike a Pose"
+      },
+      {
+        "week": 13,
+        "avg": "164",
+        "hcp": "50",
+        "gm1": "203",
+        "gm2": "144",
+        "ss": "347",
+        "hs": "100",
+        "total": "447",
+        "against": "Lane Violation"
+      },
+      {
+        "week": 14,
+        "avg": "165",
+        "hcp": "49",
+        "gm1": "172",
+        "gm2": "172",
+        "ss": "344",
+        "hs": "98",
+        "total": "442",
+        "against": "Alias Smith and Godfrey"
+      },
+      {
+        "week": 15,
+        "avg": "166",
+        "hcp": "48",
+        "gm1": "119",
+        "gm2": "172",
+        "ss": "291",
+        "hs": "96",
+        "total": "387",
+        "against": "Bob_Rossing It"
+      },
+      {
+        "week": 16,
+        "avg": "164",
+        "hcp": "50",
+        "gm1": "141",
+        "gm2": "160",
+        "ss": "301",
+        "hs": "100",
+        "total": "401",
+        "against": "L.O.F.T"
+      },
+      {
+        "week": 17,
+        "avg": "163",
+        "hcp": "51",
+        "gm1": "179",
+        "gm2": "167",
+        "ss": "346",
+        "hs": "102",
+        "total": "448",
+        "against": "Guess Who"
+      },
+      {
+        "week": 18,
+        "avg": "164",
+        "hcp": "50",
+        "gm1": "169",
+        "gm2": "160",
+        "ss": "329",
+        "hs": "100",
+        "total": "429",
+        "against": "Splatters2"
+      },
+      {
+        "week": 19,
+        "avg": "164",
+        "hcp": "50",
+        "gm1": "195",
+        "gm2": "147",
+        "ss": "342",
+        "hs": "100",
+        "total": "442",
+        "against": "Frickin Ten Pin"
+      },
+      {
+        "week": 20,
+        "avg": "164",
+        "hcp": "50",
+        "gm1": "146",
+        "gm2": "204",
+        "ss": "350",
+        "hs": "100",
+        "total": "450",
+        "against": "We Don't Give A Split"
+      },
+      {
+        "week": 22,
+        "avg": "165",
+        "hcp": "49",
+        "gm1": "165",
+        "gm2": "182",
+        "ss": "347",
+        "hs": "98",
+        "total": "445",
+        "against": "MoJo"
+      },
+      {
+        "week": 23,
+        "avg": "165",
+        "hcp": "49",
+        "gm1": "213",
+        "gm2": "166",
+        "ss": "379",
+        "hs": "98",
+        "total": "477",
+        "against": "Barely Bowling"
+      },
+      {
+        "week": 24,
+        "avg": "166",
+        "hcp": "48",
+        "gm1": "143",
+        "gm2": "139",
+        "ss": "282",
+        "hs": "96",
+        "total": "378",
+        "against": "L.O.F.T"
       }
     ],
     "mw": "M",
@@ -7793,6 +14046,94 @@
         "hs": "404",
         "total": "404",
         "against": "Engineering Strikes"
+      },
+      {
+        "week": 14,
+        "avg": "148",
+        "hcp": "64",
+        "gm1": "126",
+        "gm2": "140",
+        "ss": "266",
+        "hs": "128",
+        "total": "394",
+        "against": "Bad Attitude"
+      },
+      {
+        "week": 15,
+        "avg": "146",
+        "hcp": "66",
+        "gm1": "145",
+        "gm2": "210",
+        "ss": "355",
+        "hs": "132",
+        "total": "487",
+        "against": "The Munsons"
+      },
+      {
+        "week": 16,
+        "avg": "149",
+        "hcp": "63",
+        "gm1": "143",
+        "gm2": "138",
+        "ss": "281",
+        "hs": "126",
+        "total": "407",
+        "against": "Spare Me"
+      },
+      {
+        "week": 17,
+        "avg": "148",
+        "hcp": "64",
+        "gm1": "177",
+        "gm2": "158",
+        "ss": "335",
+        "hs": "128",
+        "total": "463",
+        "against": "The Outsiders"
+      },
+      {
+        "week": 18,
+        "avg": "150",
+        "hcp": "63",
+        "gm1": "141",
+        "gm2": "152",
+        "ss": "293",
+        "hs": "126",
+        "total": "419",
+        "against": "I am Root"
+      },
+      {
+        "week": 19,
+        "avg": "150",
+        "hcp": "63",
+        "gm1": "122",
+        "gm2": "112",
+        "ss": "234",
+        "hs": "126",
+        "total": "360",
+        "against": "Vacant"
+      },
+      {
+        "week": 22,
+        "avg": "147",
+        "hcp": "65",
+        "gm1": "147",
+        "gm2": "158",
+        "ss": "305",
+        "hs": "130",
+        "total": "435",
+        "against": "Roll Clones"
+      },
+      {
+        "week": 23,
+        "avg": "148",
+        "hcp": "64",
+        "gm1": "195",
+        "gm2": "144",
+        "ss": "339",
+        "hs": "128",
+        "total": "467",
+        "against": "1 Mor"
       }
     ],
     "mw": "M",
@@ -7825,7 +14166,7 @@
         "ss": "299",
         "hs": "82",
         "total": "381",
-        "against": "Splits-n-Giggles"
+        "against": "Vacant"
       },
       {
         "week": 5,
@@ -7859,6 +14200,72 @@
         "hs": "72",
         "total": "395",
         "against": "The Munsons"
+      },
+      {
+        "week": 13,
+        "avg": "177",
+        "hcp": "38",
+        "gm1": "157",
+        "gm2": "162",
+        "ss": "319",
+        "hs": "76",
+        "total": "395",
+        "against": "The Outsiders"
+      },
+      {
+        "week": 14,
+        "avg": "175",
+        "hcp": "40",
+        "gm1": "178",
+        "gm2": "148",
+        "ss": "326",
+        "hs": "80",
+        "total": "406",
+        "against": "Spare Me"
+      },
+      {
+        "week": 16,
+        "avg": "170",
+        "hcp": "45",
+        "gm1": "139",
+        "gm2": "192",
+        "ss": "331",
+        "hs": "90",
+        "total": "421",
+        "against": "Barely Bowling"
+      },
+      {
+        "week": 18,
+        "avg": "170",
+        "hcp": "45",
+        "gm1": "197",
+        "gm2": "148",
+        "ss": "345",
+        "hs": "90",
+        "total": "435",
+        "against": "SPAM"
+      },
+      {
+        "week": 20,
+        "avg": "170",
+        "hcp": "45",
+        "gm1": "162",
+        "gm2": "148",
+        "ss": "310",
+        "hs": "90",
+        "total": "400",
+        "against": "Top Gun"
+      },
+      {
+        "week": 22,
+        "avg": "169",
+        "hcp": "45",
+        "gm1": "197",
+        "gm2": "210",
+        "ss": "407",
+        "hs": "90",
+        "total": "497",
+        "against": "XXX Dancers"
       }
     ],
     "mw": "M",
