@@ -6,6 +6,9 @@ import constants as c
 
 errorLog = open("error.log", "w")
 
+weeks = [1,3,4,5,6,7,9,10,11,12,13,14,15,16,17,18,19,20,22,23,24]
+# weeks = [1,3]
+
 # -------------- Get Bowler List -------------- #
 
 bowlerList = {}
@@ -18,8 +21,8 @@ for page in range(1,6):
   try:
     bowlers = tree.xpath('//table/tbody/tr/td[1]/a/text()')
     links = tree.xpath('//table/tbody/tr/td[1]/a/@href')
-    hsg = tree.xpath('//table/tbody/tr/td[10]/text()')
-    hss = tree.xpath('//table/tbody/tr/td[11]/text()')
+    hsg = tree.xpath('//table/tbody/tr/td[11]/text()')
+    hss = tree.xpath('//table/tbody/tr/td[12]/text()')
 
   except:
     print("Invalid URL: " + url)
@@ -38,7 +41,7 @@ for page in range(1,6):
 
 # -------------- Get Scoring Against Team and weelky scores -------------- #
 
-for week in range(1,13):
+for week in weeks:
   for uid in range(1,31):
     url = 'https://www.leaguesecretary.com/bowling-centers/cedar-rapids-bowl-cedar-rapids-iowa/bowling-leagues/lunch-league-2023-2024/team/recap-sheet/first-team/2023/fall/' + str(week) + '/130603/' + str(uid)
     page = requests.get(url)
