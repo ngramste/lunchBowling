@@ -25,11 +25,6 @@
     "mw": "M"
   },
   {
-    "name": "Dana Canfield",
-    "drop": -2,
-    "mw": "W"
-  },
-  {
     "name": "Cory Chandler",
     "drop": -1,
     "mw": "M"
@@ -37,16 +32,6 @@
   {
     "name": "Roland Cohagen",
     "drop": -2,
-    "mw": "M"
-  },
-  {
-    "name": "Jason Cray",
-    "drop": -7,
-    "mw": "M"
-  },
-  {
-    "name": "Neal Crooks",
-    "drop": 0,
     "mw": "M"
   },
   {
@@ -60,33 +45,13 @@
     "mw": "M"
   },
   {
-    "name": "Ryan DeBlick",
-    "drop": 0,
-    "mw": "M"
-  },
-  {
-    "name": "Jaden Defields",
-    "drop": -11,
-    "mw": "M"
-  },
-  {
     "name": "Chris Degroot",
     "drop": -2,
     "mw": "M"
   },
   {
-    "name": "Gene Dooley",
-    "drop": 0,
-    "mw": "U"
-  },
-  {
     "name": "Michael Dooley",
     "drop": -4,
-    "mw": "M"
-  },
-  {
-    "name": "Ryan Edwards",
-    "drop": -2,
     "mw": "M"
   },
   {
@@ -95,24 +60,9 @@
     "mw": "M"
   },
   {
-    "name": "Cynthia Faas",
-    "drop": -3,
-    "mw": "W"
-  },
-  {
     "name": "Sarah Fettkether",
     "drop": -1,
     "mw": "W"
-  },
-  {
-    "name": "Aaron Fitzgerald",
-    "drop": 0,
-    "mw": "M"
-  },
-  {
-    "name": "Greg Fontana",
-    "drop": -16,
-    "mw": "M"
   },
   {
     "name": "John Gabrielson",
@@ -133,11 +83,6 @@
     "name": "Mark Godfrey",
     "drop": -4,
     "mw": "M"
-  },
-  {
-    "name": "Christine Griffin",
-    "drop": 0,
-    "mw": "W"
   },
   {
     "name": "Allison Hecker",
@@ -190,11 +135,6 @@
     "mw": "M"
   },
   {
-    "name": "Lauren Korber",
-    "drop": 0,
-    "mw": "W"
-  },
-  {
     "name": "Reed Kovach",
     "drop": -13,
     "mw": "M"
@@ -217,11 +157,6 @@
   {
     "name": "Dave Leedom",
     "drop": -1,
-    "mw": "M"
-  },
-  {
-    "name": "Connor Levine",
-    "drop": 0,
     "mw": "M"
   },
   {
@@ -255,16 +190,6 @@
     "mw": "M"
   },
   {
-    "name": "Brandon Mord",
-    "drop": -14,
-    "mw": "U"
-  },
-  {
-    "name": "Tyler Mosset",
-    "drop": 3,
-    "mw": "M"
-  },
-  {
     "name": "Katie Nance",
     "drop": -5,
     "mw": "W"
@@ -288,11 +213,6 @@
     "name": "Joe Paffrath",
     "drop": -8,
     "mw": "U"
-  },
-  {
-    "name": "Steve Patton",
-    "drop": 0,
-    "mw": "M"
   },
   {
     "name": "Tom Petersen",
@@ -330,11 +250,6 @@
     "mw": "M"
   },
   {
-    "name": "Isaac Schlichtemeier",
-    "drop": -11,
-    "mw": "M"
-  },
-  {
     "name": "Derek Schmidt",
     "drop": -3,
     "mw": "M"
@@ -360,11 +275,6 @@
     "mw": "M"
   },
   {
-    "name": "Brooke Smalley",
-    "drop": 0,
-    "mw": "W"
-  },
-  {
     "name": "Brian Smith",
     "drop": -5,
     "mw": "M"
@@ -377,11 +287,6 @@
   {
     "name": "Perry Smith",
     "drop": -7,
-    "mw": "M"
-  },
-  {
-    "name": "Ryan Smith",
-    "drop": 0,
     "mw": "M"
   },
   {
