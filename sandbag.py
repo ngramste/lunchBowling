@@ -6,12 +6,14 @@ with open(c.DATA_FOLDER + "report-cryData.json") as json_data:
 
 bowlers = {}
 
+weeksSkipped = 0
+
 for bowler in report:
   lastIndex = len(report[bowler]['weeks']) - 1
-  if 10 > lastIndex:
+  if weeksSkipped > lastIndex:
     continue
 
-  bowlers[bowler] = int(report[bowler]['weeks'][lastIndex]['aveAfter']) - int(report[bowler]['weeks'][1]['aveBefore'])
+  bowlers[bowler] = int(report[bowler]['weeks'][lastIndex]['aveAfter']) - int(report[bowler]['weeks'][weeksSkipped]['aveBefore'])
 
 # ----------- Crazy sorting done here --------------
 sortedList = sorted(bowlers, key=lambda v: bowlers[v])

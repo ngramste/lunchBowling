@@ -42,8 +42,9 @@ all = []
 for bowler in report:
     data = {'name': bowler, 'drop': 300}
 
-    if len(report[bowler]['weeks']) <= 1:
+    if len(report[bowler]['weeks']) <= 5:
       data['drop'] = 0
+      continue
 
     if 'mw' not in report[bowler]:
       data['mw'] = 'U'
@@ -81,9 +82,9 @@ print(json.dumps(women))
 print(json.dumps(unknown))
 
 fd = open(c.DATA_FOLDER + "report-cryData.json", "w")
-fd.write(json.dumps(report))
+fd.write(json.dumps(report, indent=2))
 fd.close()
 
 fd = open(c.DATA_FOLDER + "cryingTowel.json", "w")
-fd.write(json.dumps(all))
+fd.write(json.dumps(all, indent=2))
 fd.close()
