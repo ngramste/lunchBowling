@@ -25,6 +25,10 @@ for week in schedule["weeks"]:
       
       request = requests.post(c.Summary_Read, postData)
       
-      fd = open(c.SUMMARY_PATH + "/" + filename, "w")
-      fd.write(json.dumps(request.json()))
-      fd.close()
+      if request.json()['Total'] == 0:
+        print("Results for week " + str(week["weekNum"]) + " have not been published")
+      
+      else:
+        fd = open(c.SUMMARY_PATH + "/" + filename, "w")
+        fd.write(json.dumps(request.json()))
+        fd.close()
