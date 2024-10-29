@@ -1,24 +1,28 @@
 import json
 import constants as c
-
-with open(c.REPORT_PATH) as json_data:
-  report = json.load(json_data)
+from os import listdir
+import re
 
 bowlers = {}
 
-for bowler in report:
-  for week in report[bowler]['weeks']:
-    if abs(int(week['gm1']) - int(week['gm2'])) >= 100:
-      stats = {}
-      stats['week'] = week['week']
-      stats['gm1'] = week['gm1']
-      stats['gm2'] = week['gm2']
-      stats['diff'] = abs(int(week['gm1']) - int(week['gm2']))
+for filename in listdir(c.SUMMARY_PATH):
+  with open(c.SUMMARY_PATH + "\\" + filename) as json_data:
+    report = json.load(json_data)
+    
+    for bowler in report["Data"]:
+      if abs(int(bowler['Score1']) - int(bowler['Score2'])) >= 100:
+        name = bowler["BowlerName"]
+        
+        stats = {}
+        stats['week'] = re.findall(r'\d+', filename)[0]
+        stats['gm1'] = bowler['Score1']
+        stats['gm2'] = bowler['Score2']
+        stats['diff'] = abs(int(bowler['Score1']) - int(bowler['Score2']))
 
-      if bowler not in bowlers:
-        bowlers[bowler] = []
+        if name not in bowlers:
+          bowlers[name] = []
 
-      bowlers[bowler].append(stats)
+        bowlers[name].append(stats)
 
 for bowler in bowlers:
   # print(bowler)
