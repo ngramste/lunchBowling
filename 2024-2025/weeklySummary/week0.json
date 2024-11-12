@@ -31,12 +31,12 @@
       "TeamNum": 1
     },
     {
-      "BowlerID": 62,
-      "BowlerName": "Degroot, Chris",
+      "BowlerID": 37,
+      "BowlerName": "Henderson, Anthony",
       "TeamID": 4,
       "TeamName": "Bad Attitude",
-      "AverageBeforeBowling": 194,
-      "HandicapBeforeBowling": 23,
+      "AverageBeforeBowling": -1,
+      "HandicapBeforeBowling": -1,
       "GameNum1": 1,
       "ScoreType1": "S",
       "Score1": 173,
@@ -517,7 +517,7 @@
       "HandicapBeforeBowling": 76,
       "Score1": 183,
       "Score2": 133,
-      "SeriesTotal": -1,
+      "SeriesTotal": 316,
       "HandicapSeriesTotal": -1,
       "PlusMinusAverage": -1,
       "TeamNum": 23
@@ -529,9 +529,9 @@
       "TeamName": "Top Gun",
       "AverageBeforeBowling": 173,
       "HandicapBeforeBowling": 42,
-      "Score1": 183,
-      "Score2": 133,
-      "SeriesTotal": -1,
+      "Score1": 202,
+      "Score2": 219,
+      "SeriesTotal": 421,
       "HandicapSeriesTotal": -1,
       "PlusMinusAverage": -1,
       "TeamNum": 26
@@ -545,7 +545,7 @@
       "HandicapBeforeBowling": 83,
       "Score1": 149,
       "Score2": 124,
-      "SeriesTotal": -1,
+      "SeriesTotal": 273,
       "HandicapSeriesTotal": -1,
       "PlusMinusAverage": -1,
       "TeamNum": 9
@@ -559,7 +559,7 @@
       "HandicapBeforeBowling": -1,
       "Score1": 177,
       "Score2": 130,
-      "SeriesTotal": -1,
+      "SeriesTotal": 307,
       "HandicapSeriesTotal": -1,
       "PlusMinusAverage": -1,
       "TeamNum": 9
@@ -573,7 +573,7 @@
       "HandicapBeforeBowling": 64,
       "Score1": 172,
       "Score2": 168,
-      "SeriesTotal": -1,
+      "SeriesTotal": 340,
       "HandicapSeriesTotal": -1,
       "PlusMinusAverage": -1,
       "TeamNum": 27
@@ -587,7 +587,7 @@
       "HandicapBeforeBowling": 62,
       "Score1": 140,
       "Score2": 93,
-      "SeriesTotal": -1,
+      "SeriesTotal": 233,
       "HandicapSeriesTotal": -1,
       "PlusMinusAverage": -1,
       "TeamNum": 27
@@ -601,7 +601,7 @@
       "HandicapBeforeBowling": 91,
       "Score1": 115,
       "Score2": 137,
-      "SeriesTotal": -1,
+      "SeriesTotal": 252,
       "HandicapSeriesTotal": -1,
       "PlusMinusAverage": -1,
       "TeamNum": 12
@@ -615,7 +615,7 @@
       "HandicapBeforeBowling": 72,
       "Score1": 139,
       "Score2": 150,
-      "SeriesTotal": -1,
+      "SeriesTotal": 289,
       "HandicapSeriesTotal": -1,
       "PlusMinusAverage": -1,
       "TeamNum": 12
@@ -629,7 +629,7 @@
       "HandicapBeforeBowling": 99,
       "Score1": 133,
       "Score2": 153,
-      "SeriesTotal": -1,
+      "SeriesTotal": 286,
       "HandicapSeriesTotal": -1,
       "PlusMinusAverage": -1,
       "TeamNum": 14
@@ -643,7 +643,7 @@
       "HandicapBeforeBowling": 63,
       "Score1": 140,
       "Score2": 140,
-      "SeriesTotal": -1,
+      "SeriesTotal": 280,
       "HandicapSeriesTotal": -1,
       "PlusMinusAverage": -1,
       "TeamNum": 14
@@ -657,7 +657,7 @@
       "HandicapBeforeBowling": -1,
       "Score1": 166,
       "Score2": 156,
-      "SeriesTotal": -1,
+      "SeriesTotal": 322,
       "HandicapSeriesTotal": -1,
       "PlusMinusAverage": -1,
       "TeamNum": 18
@@ -671,7 +671,7 @@
       "HandicapBeforeBowling": -1,
       "Score1": 165,
       "Score2": 187,
-      "SeriesTotal": -1,
+      "SeriesTotal": 352,
       "HandicapSeriesTotal": -1,
       "PlusMinusAverage": -1,
       "TeamNum": 18
@@ -685,7 +685,7 @@
       "HandicapBeforeBowling": 70,
       "Score1": 174,
       "Score2": 164,
-      "SeriesTotal": -1,
+      "SeriesTotal": 338,
       "HandicapSeriesTotal": -1,
       "PlusMinusAverage": -1,
       "TeamNum": 6
@@ -699,7 +699,7 @@
       "HandicapBeforeBowling": -1,
       "Score1": 132,
       "Score2": 107,
-      "SeriesTotal": -1,
+      "SeriesTotal": 239,
       "HandicapSeriesTotal": -1,
       "PlusMinusAverage": -1,
       "TeamNum": 6
@@ -713,7 +713,7 @@
       "HandicapBeforeBowling": 72,
       "Score1": 128,
       "Score2": 126,
-      "SeriesTotal": -1,
+      "SeriesTotal": 254,
       "HandicapSeriesTotal": -1,
       "PlusMinusAverage": -1,
       "TeamNum": 19
@@ -727,7 +727,7 @@
       "HandicapBeforeBowling": 73,
       "Score1": 149,
       "Score2": 147,
-      "SeriesTotal": -1,
+      "SeriesTotal": 296,
       "HandicapSeriesTotal": -1,
       "PlusMinusAverage": -1,
       "TeamNum": 19
@@ -741,7 +741,7 @@
       "HandicapBeforeBowling": 38,
       "Score1": 276,
       "Score2": 183,
-      "SeriesTotal": -1,
+      "SeriesTotal": 459,
       "HandicapSeriesTotal": -1,
       "PlusMinusAverage": -1,
       "TeamNum": 21
@@ -755,7 +755,7 @@
       "HandicapBeforeBowling": 72,
       "Score1": 133,
       "Score2": 150,
-      "SeriesTotal": -1,
+      "SeriesTotal": 283,
       "HandicapSeriesTotal": -1,
       "PlusMinusAverage": -1,
       "TeamNum": 21
@@ -769,7 +769,7 @@
       "HandicapBeforeBowling": -1,
       "Score1": 168,
       "Score2": 167,
-      "SeriesTotal": -1,
+      "SeriesTotal": 335,
       "HandicapSeriesTotal": -1,
       "PlusMinusAverage": -1,
       "TeamNum": 11
@@ -783,7 +783,7 @@
       "HandicapBeforeBowling": 63,
       "Score1": 165,
       "Score2": 149,
-      "SeriesTotal": -1,
+      "SeriesTotal": 314,
       "HandicapSeriesTotal": -1,
       "PlusMinusAverage": -1,
       "TeamNum": 11
@@ -797,7 +797,7 @@
       "HandicapBeforeBowling": 16,
       "Score1": 300,
       "Score2": 219,
-      "SeriesTotal": -1,
+      "SeriesTotal": 519,
       "HandicapSeriesTotal": -1,
       "PlusMinusAverage": -1,
       "TeamNum": 24
@@ -811,7 +811,7 @@
       "HandicapBeforeBowling": 71,
       "Score1": 143,
       "Score2": 163,
-      "SeriesTotal": -1,
+      "SeriesTotal": 306,
       "HandicapSeriesTotal": -1,
       "PlusMinusAverage": -1,
       "TeamNum": 24
@@ -825,7 +825,7 @@
       "HandicapBeforeBowling": 111,
       "Score1": 72,
       "Score2": 69,
-      "SeriesTotal": -1,
+      "SeriesTotal": 141,
       "HandicapSeriesTotal": -1,
       "PlusMinusAverage": -1,
       "TeamNum": 13
@@ -839,7 +839,7 @@
       "HandicapBeforeBowling": -1,
       "Score1": 204,
       "Score2": 161,
-      "SeriesTotal": -1,
+      "SeriesTotal": 365,
       "HandicapSeriesTotal": -1,
       "PlusMinusAverage": -1,
       "TeamNum": 13
@@ -853,7 +853,7 @@
       "HandicapBeforeBowling": 14,
       "Score1": 195,
       "Score2": 212,
-      "SeriesTotal": -1,
+      "SeriesTotal": 407,
       "HandicapSeriesTotal": -1,
       "PlusMinusAverage": -1,
       "TeamNum": 25
@@ -867,7 +867,7 @@
       "HandicapBeforeBowling": 19,
       "Score1": 162,
       "Score2": 227,
-      "SeriesTotal": -1,
+      "SeriesTotal": 389,
       "HandicapSeriesTotal": -1,
       "PlusMinusAverage": -1,
       "TeamNum": 25
@@ -881,7 +881,7 @@
       "HandicapBeforeBowling": 105,
       "Score1": 121,
       "Score2": 74,
-      "SeriesTotal": -1,
+      "SeriesTotal": 195,
       "HandicapSeriesTotal": -1,
       "PlusMinusAverage": -1,
       "TeamNum": 28
@@ -895,7 +895,7 @@
       "HandicapBeforeBowling": 71,
       "Score1": 149,
       "Score2": 164,
-      "SeriesTotal": -1,
+      "SeriesTotal": 313,
       "HandicapSeriesTotal": -1,
       "PlusMinusAverage": -1,
       "TeamNum": 28
@@ -909,7 +909,7 @@
       "HandicapBeforeBowling": 71,
       "Score1": 123,
       "Score2": 168,
-      "SeriesTotal": -1,
+      "SeriesTotal": 291,
       "HandicapSeriesTotal": -1,
       "PlusMinusAverage": -1,
       "TeamNum": 16
@@ -923,7 +923,7 @@
       "HandicapBeforeBowling": -1,
       "Score1": 161,
       "Score2": 184,
-      "SeriesTotal": -1,
+      "SeriesTotal": 345,
       "HandicapSeriesTotal": -1,
       "PlusMinusAverage": -1,
       "TeamNum": 16
@@ -937,7 +937,7 @@
       "HandicapBeforeBowling": 25,
       "Score1": 232,
       "Score2": 242,
-      "SeriesTotal": -1,
+      "SeriesTotal": 474,
       "HandicapSeriesTotal": -1,
       "PlusMinusAverage": -1,
       "TeamNum": 17
@@ -951,7 +951,7 @@
       "HandicapBeforeBowling": 13,
       "Score1": 192,
       "Score2": 139,
-      "SeriesTotal": -1,
+      "SeriesTotal": 331,
       "HandicapSeriesTotal": -1,
       "PlusMinusAverage": -1,
       "TeamNum": 17
@@ -965,7 +965,7 @@
       "HandicapBeforeBowling": -1,
       "Score1": 188,
       "Score2": 173,
-      "SeriesTotal": -1,
+      "SeriesTotal": 361,
       "HandicapSeriesTotal": -1,
       "PlusMinusAverage": -1,
       "TeamNum": 15
@@ -979,7 +979,7 @@
       "HandicapBeforeBowling": 72,
       "Score1": 123,
       "Score2": 111,
-      "SeriesTotal": -1,
+      "SeriesTotal": 234,
       "HandicapSeriesTotal": -1,
       "PlusMinusAverage": -1,
       "TeamNum": 15
@@ -993,7 +993,7 @@
       "HandicapBeforeBowling": 63,
       "Score1": 206,
       "Score2": 225,
-      "SeriesTotal": -1,
+      "SeriesTotal": 431,
       "HandicapSeriesTotal": -1,
       "PlusMinusAverage": -1,
       "TeamNum": 20
@@ -1007,7 +1007,7 @@
       "HandicapBeforeBowling": 16,
       "Score1": 238,
       "Score2": 258,
-      "SeriesTotal": -1,
+      "SeriesTotal": 496,
       "HandicapSeriesTotal": -1,
       "PlusMinusAverage": -1,
       "TeamNum": 20
@@ -1021,7 +1021,7 @@
       "HandicapBeforeBowling": 46,
       "Score1": 156,
       "Score2": 113,
-      "SeriesTotal": -1,
+      "SeriesTotal": 269,
       "HandicapSeriesTotal": -1,
       "PlusMinusAverage": -1,
       "TeamNum": 22
@@ -1035,7 +1035,7 @@
       "HandicapBeforeBowling": 74,
       "Score1": 141,
       "Score2": 169,
-      "SeriesTotal": -1,
+      "SeriesTotal": 310,
       "HandicapSeriesTotal": -1,
       "PlusMinusAverage": -1,
       "TeamNum": 22
