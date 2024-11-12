@@ -8,9 +8,10 @@ with open(c.SUMMARY_PATH + "\\" + "week0.json") as json_data:
   report = json.load(json_data)
   
   for index, bowler in enumerate(report["Data"]):
-    if bowler['SeriesTotal'] == -1:
+    if bowler['HandicapBeforeBowling'] != -1:
       print("" + str(index) + ", " + bowler['BowlerName'])
-      report["Data"][index]['SeriesTotal'] = bowler['Score1'] + bowler['Score2']
+      report["Data"][index]['HandicapSeriesTotal'] = bowler['SeriesTotal'] + bowler['HandicapBeforeBowling'] + bowler['HandicapBeforeBowling']
+      report["Data"][index]['PlusMinusAverage'] = int(bowler['SeriesTotal']/2) - bowler['AverageBeforeBowling']
       
   
   fd = open(c.SUMMARY_PATH + "\\" + "week0.json.new", "w")
