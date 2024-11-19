@@ -30,5 +30,5 @@ for week in schedule["weeks"]:
       
       else:
         fd = open(c.SUMMARY_PATH + "/" + filename, "w")
-        fd.write(json.dumps(request.json()))
+        fd.write(json.dumps(request.json(), indent=2))
         fd.close()
