@@ -1,30 +1,114 @@
 {
-  "Rick Rollers": 19,
-  "Engineering Strikes": 19,
-  "I am Root": 18,
-  "The Outsiders": 17,
-  "Bad Attitude": 16.5,
-  "Craptastic": 16,
-  "AWACS ON/OFF": 15,
-  "One More": 14,
-  "TB Inc LLC": 14,
-  "The Munsons": 14,
-  "Barely Bowling": 14,
-  "Lunch Hour Hookers": 13,
-  "Spare Me": 12,
-  "XXX Dancers": 12,
-  "Split Happens": 11,
-  "Top Gun": 10,
-  "The Century Club": 10,
-  "Guess Who": 10,
-  "SPAM": 10,
-  "We Don't Give A Split": 10,
-  "Mark it Zero !": 9,
-  "Roll Clones": 8.5,
-  "Lane Violation": 8,
-  "Who gives a split": 8,
-  "Backstabbers": 8,
-  "Bob_Rossing It": 7.5,
-  "Sandbaggers": 6.5,
-  "Alias Smith and Godfrey": 6
+  "Engineering Strikes": {
+    "score": 19,
+    "handicapPins": 7141
+  },
+  "Rick Rollers": {
+    "score": 19,
+    "handicapPins": 6967
+  },
+  "I am Root": {
+    "score": 18,
+    "handicapPins": 7056
+  },
+  "The Outsiders": {
+    "score": 17,
+    "handicapPins": 6864
+  },
+  "Bad Attitude": {
+    "score": 16.5,
+    "handicapPins": 7145
+  },
+  "Craptastic": {
+    "score": 16,
+    "handicapPins": 6839
+  },
+  "AWACS ON/OFF": {
+    "score": 15,
+    "handicapPins": 7083
+  },
+  "One More": {
+    "score": 14,
+    "handicapPins": 7035
+  },
+  "TB Inc LLC": {
+    "score": 14,
+    "handicapPins": 6907
+  },
+  "Barely Bowling": {
+    "score": 14,
+    "handicapPins": 6861
+  },
+  "The Munsons": {
+    "score": 14,
+    "handicapPins": 6794
+  },
+  "Lunch Hour Hookers": {
+    "score": 13,
+    "handicapPins": 6968
+  },
+  "XXX Dancers": {
+    "score": 12,
+    "handicapPins": 6915
+  },
+  "Spare Me": {
+    "score": 12,
+    "handicapPins": 6894
+  },
+  "Split Happens": {
+    "score": 11,
+    "handicapPins": 7009
+  },
+  "SPAM": {
+    "score": 10,
+    "handicapPins": 7032
+  },
+  "Top Gun": {
+    "score": 10,
+    "handicapPins": 6981
+  },
+  "The Century Club": {
+    "score": 10,
+    "handicapPins": 6773
+  },
+  "We Don't Give A Split": {
+    "score": 10,
+    "handicapPins": 6747
+  },
+  "Guess Who": {
+    "score": 10,
+    "handicapPins": 6613
+  },
+  "Mark it Zero !": {
+    "score": 9,
+    "handicapPins": 6762
+  },
+  "Roll Clones": {
+    "score": 8.5,
+    "handicapPins": 6637
+  },
+  "Backstabbers": {
+    "score": 8,
+    "handicapPins": 7142
+  },
+  "Lane Violation": {
+    "score": 8,
+    "handicapPins": 6892
+  },
+  "Who gives a split": {
+    "score": 8,
+    "handicapPins": 6844
+  },
+  "Bob_Rossing It": {
+    "score": 7.5,
+    "handicapPins": 6581
+  },
+  "Sandbaggers": {
+    "score": 6.5,
+    "handicapPins": 6663
+  },
+  "Alias Smith and Godfrey": {
+    "score": 6,
+    "handicapPins": 6696
+  }
 }

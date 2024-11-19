@@ -25,7 +25,10 @@ with open(c.TEAMS_PATH) as json_teams:
               
             if teamName not in teamScores:
               
-              teamScores[teamName] = 0
+              teamScores[teamName] = {
+                'score': 0,
+                'handicapPins': 0
+              }
               
             opponentNum = list(filter(lambda team: team != teamNum, matchup))[0]
             
@@ -40,25 +43,27 @@ with open(c.TEAMS_PATH) as json_teams:
             oppoentGame2 = opponents[0]['Score2'] + opponents[0]['HandicapBeforeBowling'] + opponents[1]['Score2'] + opponents[1]['HandicapBeforeBowling']
             opponentsSeries = oppoentGame1 + oppoentGame2
             
+            teamScores[teamName]['handicapPins'] += series
+            
             if game1 > oppoentGame1:
-              teamScores[teamName] += 1
+              teamScores[teamName]['score'] += 1
             
             if game1 == oppoentGame1:
-              teamScores[teamName] += 0.5
+              teamScores[teamName]['score'] += 0.5
               
             if game2 > oppoentGame2:
-              teamScores[teamName] += 1
+              teamScores[teamName]['score'] += 1
             
             if game2 == oppoentGame2:
-              teamScores[teamName] += 0.5
+              teamScores[teamName]['score'] += 0.5
               
             if series > opponentsSeries:
-              teamScores[teamName] += 1
+              teamScores[teamName]['score'] += 1
             
             if series == opponentsSeries:
-              teamScores[teamName] += 0.5
+              teamScores[teamName]['score'] += 0.5
               
-sortedScores = dict(sorted(teamScores.items(), key=lambda item: item[1], reverse = True))
+sortedScores = dict(sorted(teamScores.items(), key=lambda item: (item[1]['score'], item[1]['handicapPins']), reverse = True))
 print(json.dumps(sortedScores, indent=2))
 
 fd = open(c.DATA_FOLDER + "standings.json", "w")
