@@ -95,9 +95,11 @@ with open(c.TEAMS_PATH) as json_teams:
         meanScore = teams[team]
         meanTeam = [team]
 
+  sortedFriendship = dict(sorted(teams.items(), key=lambda item: item[1], reverse = True))
+
   print("Friendly Team(s): " + " and ".join(friendTeam) + ", " + str(friendScore))
   print("Meanie Team(s): " + " and ".join(meanTeam) + ", " + str(meanScore))
   
   fd = open(c.DATA_FOLDER + "friendship.json", "w")
-  fd.write(json.dumps(teams, indent=2))
+  fd.write(json.dumps(sortedFriendship, indent=2))
   fd.close()
