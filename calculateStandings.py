@@ -33,8 +33,18 @@ with open(c.TEAMS_PATH) as json_teams:
             if teamName not in teamScores:
               teamScores[teamName] = {
                 'score': 0,
-                'handicapPins': 0
+                'scratchPins': 0,
+                'handicapPins': 0,
+                'weeks': []
               }
+              
+            weekData = {
+              'week': 0,
+              'game1': 0,
+              'game2': 0,
+              'scratchSeries': 0,
+              'handicapSeries': 0
+            }
               
             # Store the opponents name and team number for later reference
             opponentNum = list(filter(lambda team: team != teamNum, matchup))[0]
@@ -44,9 +54,13 @@ with open(c.TEAMS_PATH) as json_teams:
             bowlers = list(filter(lambda bowler: bowler['TeamNum'] == teamNum, report['Data']))
             opponents = list(filter(lambda bowler: bowler['TeamNum'] == opponentNum, report['Data']))
             
-            # Figure out what the team in question scored
             game1 = bowlers[0]['Score1'] + bowlers[0]['HandicapBeforeBowling'] + bowlers[1]['Score1'] + bowlers[1]['HandicapBeforeBowling']
             game2 = bowlers[0]['Score2'] + bowlers[0]['HandicapBeforeBowling'] + bowlers[1]['Score2'] + bowlers[1]['HandicapBeforeBowling']
+            handicapSeries = game1 + game2
+            
+            # Figure out what the team in question scored
+            game1 = bowlers[0]['Score1'] + bowlers[1]['Score1']
+            game2 = bowlers[0]['Score2'] + bowlers[1]['Score2']
             series = game1 + game2
             
             # Figure out what the opponents scored
@@ -69,7 +83,19 @@ with open(c.TEAMS_PATH) as json_teams:
             #   }, indent=2))
             
             # Add in the handicap series to the team score data
-            teamScores[teamName]['handicapPins'] += series
+            teamScores[teamName]['handicapPins'] += handicapSeries
+            
+            # Add in the handicap series to the team score data
+            teamScores[teamName]['scratchPins'] += series
+            
+            # Add in the information for this week
+            weekData['week'] = int(week)
+            weekData['game1'] = game1
+            weekData['game2'] = game2
+            weekData['scratchSeries'] = series
+            weekData['handicapSeries'] = handicapSeries
+            
+            teamScores[teamName]['weeks'].append(weekData)
             
             # These if statements will add up the points for this week
             if game1 > oppoentGame1:
@@ -84,10 +110,10 @@ with open(c.TEAMS_PATH) as json_teams:
             if game2 == oppoentGame2:
               teamScores[teamName]['score'] += 0.5
               
-            if series > opponentsSeries:
+            if handicapSeries > opponentsSeries:
               teamScores[teamName]['score'] += 1
             
-            if series == opponentsSeries:
+            if handicapSeries == opponentsSeries:
               teamScores[teamName]['score'] += 0.5
               
 # Sort the scores from first place to last

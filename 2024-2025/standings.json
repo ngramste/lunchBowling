@@ -1,114 +1,1766 @@
 {
-  "Engineering Strikes": {
-    "score": 19,
-    "handicapPins": 7141
-  },
-  "Rick Rollers": {
-    "score": 19,
-    "handicapPins": 6967
-  },
-  "I am Root": {
-    "score": 18,
-    "handicapPins": 7056
-  },
-  "The Outsiders": {
-    "score": 17,
-    "handicapPins": 6864
-  },
   "Bad Attitude": {
-    "score": 16.5,
-    "handicapPins": 7145
+    "score": 11.5,
+    "scratchPins": 6421,
+    "handicapPins": 7145,
+    "weeks": [
+      {
+        "week": 0,
+        "game1": 406,
+        "game2": 474,
+        "scratchSeries": 880,
+        "handicapSeries": 992
+      },
+      {
+        "week": 1,
+        "game1": 369,
+        "game2": 306,
+        "scratchSeries": 675,
+        "handicapSeries": 859
+      },
+      {
+        "week": 3,
+        "game1": 374,
+        "game2": 346,
+        "scratchSeries": 720,
+        "handicapSeries": 884
+      },
+      {
+        "week": 4,
+        "game1": 375,
+        "game2": 407,
+        "scratchSeries": 782,
+        "handicapSeries": 842
+      },
+      {
+        "week": 5,
+        "game1": 410,
+        "game2": 425,
+        "scratchSeries": 835,
+        "handicapSeries": 893
+      },
+      {
+        "week": 6,
+        "game1": 515,
+        "game2": 427,
+        "scratchSeries": 942,
+        "handicapSeries": 996
+      },
+      {
+        "week": 7,
+        "game1": 421,
+        "game2": 420,
+        "scratchSeries": 841,
+        "handicapSeries": 889
+      },
+      {
+        "week": 8,
+        "game1": 361,
+        "game2": 385,
+        "scratchSeries": 746,
+        "handicapSeries": 790
+      }
+    ]
   },
-  "Craptastic": {
-    "score": 16,
-    "handicapPins": 6839
-  },
-  "AWACS ON/OFF": {
-    "score": 15,
-    "handicapPins": 7083
+  "Engineering Strikes": {
+    "score": 10,
+    "scratchPins": 6133,
+    "handicapPins": 7141,
+    "weeks": [
+      {
+        "week": 0,
+        "game1": 381,
+        "game2": 437,
+        "scratchSeries": 818,
+        "handicapSeries": 992
+      },
+      {
+        "week": 1,
+        "game1": 326,
+        "game2": 359,
+        "scratchSeries": 685,
+        "handicapSeries": 859
+      },
+      {
+        "week": 3,
+        "game1": 348,
+        "game2": 435,
+        "scratchSeries": 783,
+        "handicapSeries": 899
+      },
+      {
+        "week": 4,
+        "game1": 383,
+        "game2": 332,
+        "scratchSeries": 715,
+        "handicapSeries": 821
+      },
+      {
+        "week": 5,
+        "game1": 378,
+        "game2": 408,
+        "scratchSeries": 786,
+        "handicapSeries": 902
+      },
+      {
+        "week": 6,
+        "game1": 392,
+        "game2": 403,
+        "scratchSeries": 795,
+        "handicapSeries": 907
+      },
+      {
+        "week": 7,
+        "game1": 382,
+        "game2": 375,
+        "scratchSeries": 757,
+        "handicapSeries": 861
+      },
+      {
+        "week": 8,
+        "game1": 377,
+        "game2": 417,
+        "scratchSeries": 794,
+        "handicapSeries": 900
+      }
+    ]
   },
   "One More": {
-    "score": 14,
-    "handicapPins": 7035
+    "score": 10,
+    "scratchPins": 6575,
+    "handicapPins": 7035,
+    "weeks": [
+      {
+        "week": 0,
+        "game1": 328,
+        "game2": 389,
+        "scratchSeries": 717,
+        "handicapSeries": 759
+      },
+      {
+        "week": 1,
+        "game1": 429,
+        "game2": 419,
+        "scratchSeries": 848,
+        "handicapSeries": 890
+      },
+      {
+        "week": 3,
+        "game1": 345,
+        "game2": 523,
+        "scratchSeries": 868,
+        "handicapSeries": 958
+      },
+      {
+        "week": 4,
+        "game1": 447,
+        "game2": 368,
+        "scratchSeries": 815,
+        "handicapSeries": 877
+      },
+      {
+        "week": 5,
+        "game1": 395,
+        "game2": 455,
+        "scratchSeries": 850,
+        "handicapSeries": 910
+      },
+      {
+        "week": 6,
+        "game1": 390,
+        "game2": 422,
+        "scratchSeries": 812,
+        "handicapSeries": 866
+      },
+      {
+        "week": 7,
+        "game1": 424,
+        "game2": 428,
+        "scratchSeries": 852,
+        "handicapSeries": 908
+      },
+      {
+        "week": 8,
+        "game1": 403,
+        "game2": 410,
+        "scratchSeries": 813,
+        "handicapSeries": 867
+      }
+    ]
   },
-  "TB Inc LLC": {
-    "score": 14,
-    "handicapPins": 6907
+  "The Outsiders": {
+    "score": 9,
+    "scratchPins": 6326,
+    "handicapPins": 6864,
+    "weeks": [
+      {
+        "week": 0,
+        "game1": 357,
+        "game2": 439,
+        "scratchSeries": 796,
+        "handicapSeries": 862
+      },
+      {
+        "week": 1,
+        "game1": 393,
+        "game2": 413,
+        "scratchSeries": 806,
+        "handicapSeries": 872
+      },
+      {
+        "week": 3,
+        "game1": 454,
+        "game2": 352,
+        "scratchSeries": 806,
+        "handicapSeries": 876
+      },
+      {
+        "week": 4,
+        "game1": 399,
+        "game2": 483,
+        "scratchSeries": 882,
+        "handicapSeries": 950
+      },
+      {
+        "week": 5,
+        "game1": 366,
+        "game2": 359,
+        "scratchSeries": 725,
+        "handicapSeries": 777
+      },
+      {
+        "week": 6,
+        "game1": 361,
+        "game2": 397,
+        "scratchSeries": 758,
+        "handicapSeries": 826
+      },
+      {
+        "week": 7,
+        "game1": 423,
+        "game2": 383,
+        "scratchSeries": 806,
+        "handicapSeries": 882
+      },
+      {
+        "week": 8,
+        "game1": 345,
+        "game2": 402,
+        "scratchSeries": 747,
+        "handicapSeries": 819
+      }
+    ]
   },
-  "Barely Bowling": {
-    "score": 14,
-    "handicapPins": 6861
+  "AWACS ON/OFF": {
+    "score": 7,
+    "scratchPins": 5617,
+    "handicapPins": 7083,
+    "weeks": [
+      {
+        "week": 0,
+        "game1": 409,
+        "game2": 333,
+        "scratchSeries": 742,
+        "handicapSeries": 962
+      },
+      {
+        "week": 1,
+        "game1": 309,
+        "game2": 325,
+        "scratchSeries": 634,
+        "handicapSeries": 854
+      },
+      {
+        "week": 3,
+        "game1": 349,
+        "game2": 337,
+        "scratchSeries": 686,
+        "handicapSeries": 860
+      },
+      {
+        "week": 4,
+        "game1": 361,
+        "game2": 322,
+        "scratchSeries": 683,
+        "handicapSeries": 857
+      },
+      {
+        "week": 5,
+        "game1": 355,
+        "game2": 348,
+        "scratchSeries": 703,
+        "handicapSeries": 877
+      },
+      {
+        "week": 6,
+        "game1": 348,
+        "game2": 353,
+        "scratchSeries": 701,
+        "handicapSeries": 871
+      },
+      {
+        "week": 7,
+        "game1": 370,
+        "game2": 352,
+        "scratchSeries": 722,
+        "handicapSeries": 890
+      },
+      {
+        "week": 8,
+        "game1": 405,
+        "game2": 341,
+        "scratchSeries": 746,
+        "handicapSeries": 912
+      }
+    ]
   },
-  "The Munsons": {
-    "score": 14,
-    "handicapPins": 6794
-  },
-  "Lunch Hour Hookers": {
-    "score": 13,
-    "handicapPins": 6968
-  },
-  "XXX Dancers": {
-    "score": 12,
-    "handicapPins": 6915
-  },
-  "Spare Me": {
-    "score": 12,
-    "handicapPins": 6894
+  "I am Root": {
+    "score": 7,
+    "scratchPins": 4710,
+    "handicapPins": 7056,
+    "weeks": [
+      {
+        "week": 0,
+        "game1": 254,
+        "game2": 287,
+        "scratchSeries": 541,
+        "handicapSeries": 867
+      },
+      {
+        "week": 1,
+        "game1": 269,
+        "game2": 249,
+        "scratchSeries": 518,
+        "handicapSeries": 844
+      },
+      {
+        "week": 3,
+        "game1": 263,
+        "game2": 314,
+        "scratchSeries": 577,
+        "handicapSeries": 893
+      },
+      {
+        "week": 4,
+        "game1": 293,
+        "game2": 343,
+        "scratchSeries": 636,
+        "handicapSeries": 936
+      },
+      {
+        "week": 5,
+        "game1": 309,
+        "game2": 303,
+        "scratchSeries": 612,
+        "handicapSeries": 894
+      },
+      {
+        "week": 6,
+        "game1": 343,
+        "game2": 307,
+        "scratchSeries": 650,
+        "handicapSeries": 924
+      },
+      {
+        "week": 7,
+        "game1": 289,
+        "game2": 303,
+        "scratchSeries": 592,
+        "handicapSeries": 852
+      },
+      {
+        "week": 8,
+        "game1": 274,
+        "game2": 310,
+        "scratchSeries": 584,
+        "handicapSeries": 846
+      }
+    ]
   },
   "Split Happens": {
-    "score": 11,
-    "handicapPins": 7009
+    "score": 6,
+    "scratchPins": 5263,
+    "handicapPins": 7009,
+    "weeks": [
+      {
+        "week": 0,
+        "game1": 337,
+        "game2": 358,
+        "scratchSeries": 695,
+        "handicapSeries": 907
+      },
+      {
+        "week": 1,
+        "game1": 288,
+        "game2": 306,
+        "scratchSeries": 594,
+        "handicapSeries": 850
+      },
+      {
+        "week": 3,
+        "game1": 273,
+        "game2": 334,
+        "scratchSeries": 607,
+        "handicapSeries": 795
+      },
+      {
+        "week": 4,
+        "game1": 370,
+        "game2": 292,
+        "scratchSeries": 662,
+        "handicapSeries": 902
+      },
+      {
+        "week": 5,
+        "game1": 265,
+        "game2": 354,
+        "scratchSeries": 619,
+        "handicapSeries": 841
+      },
+      {
+        "week": 6,
+        "game1": 331,
+        "game2": 446,
+        "scratchSeries": 777,
+        "handicapSeries": 1003
+      },
+      {
+        "week": 7,
+        "game1": 363,
+        "game2": 289,
+        "scratchSeries": 652,
+        "handicapSeries": 852
+      },
+      {
+        "week": 8,
+        "game1": 343,
+        "game2": 314,
+        "scratchSeries": 657,
+        "handicapSeries": 859
+      }
+    ]
   },
-  "SPAM": {
-    "score": 10,
-    "handicapPins": 7032
+  "Rick Rollers": {
+    "score": 6,
+    "scratchPins": 4523,
+    "handicapPins": 6967,
+    "weeks": [
+      {
+        "week": 0,
+        "game1": 273,
+        "game2": 293,
+        "scratchSeries": 566,
+        "handicapSeries": 890
+      },
+      {
+        "week": 1,
+        "game1": 272,
+        "game2": 249,
+        "scratchSeries": 521,
+        "handicapSeries": 845
+      },
+      {
+        "week": 3,
+        "game1": 253,
+        "game2": 286,
+        "scratchSeries": 539,
+        "handicapSeries": 841
+      },
+      {
+        "week": 4,
+        "game1": 275,
+        "game2": 285,
+        "scratchSeries": 560,
+        "handicapSeries": 864
+      },
+      {
+        "week": 5,
+        "game1": 254,
+        "game2": 265,
+        "scratchSeries": 519,
+        "handicapSeries": 821
+      },
+      {
+        "week": 6,
+        "game1": 297,
+        "game2": 290,
+        "scratchSeries": 587,
+        "handicapSeries": 891
+      },
+      {
+        "week": 7,
+        "game1": 287,
+        "game2": 303,
+        "scratchSeries": 590,
+        "handicapSeries": 886
+      },
+      {
+        "week": 8,
+        "game1": 318,
+        "game2": 323,
+        "scratchSeries": 641,
+        "handicapSeries": 929
+      }
+    ]
   },
-  "Top Gun": {
-    "score": 10,
-    "handicapPins": 6981
+  "Craptastic": {
+    "score": 6,
+    "scratchPins": 5379,
+    "handicapPins": 6839,
+    "weeks": [
+      {
+        "week": 0,
+        "game1": 371,
+        "game2": 270,
+        "scratchSeries": 641,
+        "handicapSeries": 795
+      },
+      {
+        "week": 1,
+        "game1": 329,
+        "game2": 380,
+        "scratchSeries": 709,
+        "handicapSeries": 863
+      },
+      {
+        "week": 3,
+        "game1": 288,
+        "game2": 302,
+        "scratchSeries": 590,
+        "handicapSeries": 774
+      },
+      {
+        "week": 4,
+        "game1": 354,
+        "game2": 369,
+        "scratchSeries": 723,
+        "handicapSeries": 935
+      },
+      {
+        "week": 5,
+        "game1": 373,
+        "game2": 307,
+        "scratchSeries": 680,
+        "handicapSeries": 872
+      },
+      {
+        "week": 6,
+        "game1": 371,
+        "game2": 318,
+        "scratchSeries": 689,
+        "handicapSeries": 881
+      },
+      {
+        "week": 7,
+        "game1": 301,
+        "game2": 383,
+        "scratchSeries": 684,
+        "handicapSeries": 872
+      },
+      {
+        "week": 8,
+        "game1": 365,
+        "game2": 298,
+        "scratchSeries": 663,
+        "handicapSeries": 847
+      }
+    ]
   },
-  "The Century Club": {
-    "score": 10,
-    "handicapPins": 6773
-  },
-  "We Don't Give A Split": {
-    "score": 10,
-    "handicapPins": 6747
-  },
-  "Guess Who": {
-    "score": 10,
-    "handicapPins": 6613
-  },
-  "Mark it Zero !": {
-    "score": 9,
-    "handicapPins": 6762
+  "The Munsons": {
+    "score": 5,
+    "scratchPins": 4878,
+    "handicapPins": 6794,
+    "weeks": [
+      {
+        "week": 0,
+        "game1": 284,
+        "game2": 352,
+        "scratchSeries": 636,
+        "handicapSeries": 864
+      },
+      {
+        "week": 1,
+        "game1": 295,
+        "game2": 273,
+        "scratchSeries": 568,
+        "handicapSeries": 848
+      },
+      {
+        "week": 3,
+        "game1": 312,
+        "game2": 320,
+        "scratchSeries": 632,
+        "handicapSeries": 856
+      },
+      {
+        "week": 4,
+        "game1": 264,
+        "game2": 265,
+        "scratchSeries": 529,
+        "handicapSeries": 801
+      },
+      {
+        "week": 5,
+        "game1": 319,
+        "game2": 337,
+        "scratchSeries": 656,
+        "handicapSeries": 898
+      },
+      {
+        "week": 6,
+        "game1": 286,
+        "game2": 289,
+        "scratchSeries": 575,
+        "handicapSeries": 791
+      },
+      {
+        "week": 7,
+        "game1": 335,
+        "game2": 340,
+        "scratchSeries": 675,
+        "handicapSeries": 913
+      },
+      {
+        "week": 8,
+        "game1": 254,
+        "game2": 353,
+        "scratchSeries": 607,
+        "handicapSeries": 823
+      }
+    ]
   },
   "Roll Clones": {
-    "score": 8.5,
-    "handicapPins": 6637
+    "score": 5.0,
+    "scratchPins": 5615,
+    "handicapPins": 6637,
+    "weeks": [
+      {
+        "week": 0,
+        "game1": 424,
+        "game2": 381,
+        "scratchSeries": 805,
+        "handicapSeries": 881
+      },
+      {
+        "week": 1,
+        "game1": 398,
+        "game2": 398,
+        "scratchSeries": 796,
+        "handicapSeries": 872
+      },
+      {
+        "week": 3,
+        "game1": 292,
+        "game2": 314,
+        "scratchSeries": 606,
+        "handicapSeries": 678
+      },
+      {
+        "week": 4,
+        "game1": 276,
+        "game2": 292,
+        "scratchSeries": 568,
+        "handicapSeries": 858
+      },
+      {
+        "week": 5,
+        "game1": 405,
+        "game2": 370,
+        "scratchSeries": 775,
+        "handicapSeries": 903
+      },
+      {
+        "week": 6,
+        "game1": 277,
+        "game2": 406,
+        "scratchSeries": 683,
+        "handicapSeries": 801
+      },
+      {
+        "week": 7,
+        "game1": 356,
+        "game2": 360,
+        "scratchSeries": 716,
+        "handicapSeries": 846
+      },
+      {
+        "week": 8,
+        "game1": 327,
+        "game2": 339,
+        "scratchSeries": 666,
+        "handicapSeries": 798
+      }
+    ]
   },
-  "Backstabbers": {
-    "score": 8,
-    "handicapPins": 7142
+  "SPAM": {
+    "score": 4,
+    "scratchPins": 6168,
+    "handicapPins": 7032,
+    "weeks": [
+      {
+        "week": 0,
+        "game1": 444,
+        "game2": 483,
+        "scratchSeries": 927,
+        "handicapSeries": 1085
+      },
+      {
+        "week": 1,
+        "game1": 336,
+        "game2": 369,
+        "scratchSeries": 705,
+        "handicapSeries": 863
+      },
+      {
+        "week": 3,
+        "game1": 381,
+        "game2": 421,
+        "scratchSeries": 802,
+        "handicapSeries": 868
+      },
+      {
+        "week": 4,
+        "game1": 396,
+        "game2": 418,
+        "scratchSeries": 814,
+        "handicapSeries": 890
+      },
+      {
+        "week": 5,
+        "game1": 396,
+        "game2": 394,
+        "scratchSeries": 790,
+        "handicapSeries": 862
+      },
+      {
+        "week": 6,
+        "game1": 372,
+        "game2": 357,
+        "scratchSeries": 729,
+        "handicapSeries": 805
+      },
+      {
+        "week": 7,
+        "game1": 355,
+        "game2": 321,
+        "scratchSeries": 676,
+        "handicapSeries": 858
+      },
+      {
+        "week": 8,
+        "game1": 326,
+        "game2": 399,
+        "scratchSeries": 725,
+        "handicapSeries": 801
+      }
+    ]
   },
-  "Lane Violation": {
-    "score": 8,
-    "handicapPins": 6892
+  "Top Gun": {
+    "score": 4,
+    "scratchPins": 5377,
+    "handicapPins": 6981,
+    "weeks": [
+      {
+        "week": 0,
+        "game1": 385,
+        "game2": 352,
+        "scratchSeries": 737,
+        "handicapSeries": 973
+      },
+      {
+        "week": 1,
+        "game1": 291,
+        "game2": 327,
+        "scratchSeries": 618,
+        "handicapSeries": 854
+      },
+      {
+        "week": 3,
+        "game1": 325,
+        "game2": 328,
+        "scratchSeries": 653,
+        "handicapSeries": 835
+      },
+      {
+        "week": 4,
+        "game1": 271,
+        "game2": 361,
+        "scratchSeries": 632,
+        "handicapSeries": 884
+      },
+      {
+        "week": 5,
+        "game1": 340,
+        "game2": 312,
+        "scratchSeries": 652,
+        "handicapSeries": 822
+      },
+      {
+        "week": 6,
+        "game1": 370,
+        "game2": 336,
+        "scratchSeries": 706,
+        "handicapSeries": 880
+      },
+      {
+        "week": 7,
+        "game1": 370,
+        "game2": 299,
+        "scratchSeries": 669,
+        "handicapSeries": 845
+      },
+      {
+        "week": 8,
+        "game1": 340,
+        "game2": 370,
+        "scratchSeries": 710,
+        "handicapSeries": 888
+      }
+    ]
   },
-  "Who gives a split": {
-    "score": 8,
-    "handicapPins": 6844
+  "Lunch Hour Hookers": {
+    "score": 4,
+    "scratchPins": 5134,
+    "handicapPins": 6968,
+    "weeks": [
+      {
+        "week": 0,
+        "game1": 347,
+        "game2": 294,
+        "scratchSeries": 641,
+        "handicapSeries": 833
+      },
+      {
+        "week": 1,
+        "game1": 306,
+        "game2": 290,
+        "scratchSeries": 596,
+        "handicapSeries": 850
+      },
+      {
+        "week": 3,
+        "game1": 299,
+        "game2": 332,
+        "scratchSeries": 631,
+        "handicapSeries": 941
+      },
+      {
+        "week": 4,
+        "game1": 266,
+        "game2": 338,
+        "scratchSeries": 604,
+        "handicapSeries": 850
+      },
+      {
+        "week": 5,
+        "game1": 390,
+        "game2": 369,
+        "scratchSeries": 759,
+        "handicapSeries": 953
+      },
+      {
+        "week": 6,
+        "game1": 301,
+        "game2": 314,
+        "scratchSeries": 615,
+        "handicapSeries": 867
+      },
+      {
+        "week": 7,
+        "game1": 309,
+        "game2": 295,
+        "scratchSeries": 604,
+        "handicapSeries": 826
+      },
+      {
+        "week": 8,
+        "game1": 353,
+        "game2": 331,
+        "scratchSeries": 684,
+        "handicapSeries": 848
+      }
+    ]
+  },
+  "XXX Dancers": {
+    "score": 4,
+    "scratchPins": 4791,
+    "handicapPins": 6915,
+    "weeks": [
+      {
+        "week": 0,
+        "game1": 311,
+        "game2": 284,
+        "scratchSeries": 595,
+        "handicapSeries": 811
+      },
+      {
+        "week": 1,
+        "game1": 264,
+        "game2": 298,
+        "scratchSeries": 562,
+        "handicapSeries": 846
+      },
+      {
+        "week": 3,
+        "game1": 324,
+        "game2": 280,
+        "scratchSeries": 604,
+        "handicapSeries": 896
+      },
+      {
+        "week": 4,
+        "game1": 281,
+        "game2": 347,
+        "scratchSeries": 628,
+        "handicapSeries": 888
+      },
+      {
+        "week": 5,
+        "game1": 326,
+        "game2": 280,
+        "scratchSeries": 606,
+        "handicapSeries": 868
+      },
+      {
+        "week": 6,
+        "game1": 276,
+        "game2": 299,
+        "scratchSeries": 575,
+        "handicapSeries": 833
+      },
+      {
+        "week": 7,
+        "game1": 330,
+        "game2": 357,
+        "scratchSeries": 687,
+        "handicapSeries": 949
+      },
+      {
+        "week": 8,
+        "game1": 266,
+        "game2": 268,
+        "scratchSeries": 534,
+        "handicapSeries": 824
+      }
+    ]
+  },
+  "TB Inc LLC": {
+    "score": 4,
+    "scratchPins": 4703,
+    "handicapPins": 6907,
+    "weeks": [
+      {
+        "week": 0,
+        "game1": 277,
+        "game2": 273,
+        "scratchSeries": 550,
+        "handicapSeries": 840
+      },
+      {
+        "week": 1,
+        "game1": 295,
+        "game2": 262,
+        "scratchSeries": 557,
+        "handicapSeries": 847
+      },
+      {
+        "week": 3,
+        "game1": 286,
+        "game2": 342,
+        "scratchSeries": 628,
+        "handicapSeries": 922
+      },
+      {
+        "week": 4,
+        "game1": 302,
+        "game2": 317,
+        "scratchSeries": 619,
+        "handicapSeries": 889
+      },
+      {
+        "week": 5,
+        "game1": 235,
+        "game2": 328,
+        "scratchSeries": 563,
+        "handicapSeries": 825
+      },
+      {
+        "week": 6,
+        "game1": 273,
+        "game2": 292,
+        "scratchSeries": 565,
+        "handicapSeries": 831
+      },
+      {
+        "week": 7,
+        "game1": 290,
+        "game2": 357,
+        "scratchSeries": 647,
+        "handicapSeries": 917
+      },
+      {
+        "week": 8,
+        "game1": 298,
+        "game2": 276,
+        "scratchSeries": 574,
+        "handicapSeries": 836
+      }
+    ]
+  },
+  "Spare Me": {
+    "score": 4,
+    "scratchPins": 4856,
+    "handicapPins": 6894,
+    "weeks": [
+      {
+        "week": 0,
+        "game1": 306,
+        "game2": 271,
+        "scratchSeries": 577,
+        "handicapSeries": 897
+      },
+      {
+        "week": 1,
+        "game1": 311,
+        "game2": 274,
+        "scratchSeries": 585,
+        "handicapSeries": 851
+      },
+      {
+        "week": 3,
+        "game1": 242,
+        "game2": 265,
+        "scratchSeries": 507,
+        "handicapSeries": 841
+      },
+      {
+        "week": 4,
+        "game1": 372,
+        "game2": 310,
+        "scratchSeries": 682,
+        "handicapSeries": 850
+      },
+      {
+        "week": 5,
+        "game1": 324,
+        "game2": 408,
+        "scratchSeries": 732,
+        "handicapSeries": 984
+      },
+      {
+        "week": 6,
+        "game1": 264,
+        "game2": 312,
+        "scratchSeries": 576,
+        "handicapSeries": 798
+      },
+      {
+        "week": 7,
+        "game1": 294,
+        "game2": 314,
+        "scratchSeries": 608,
+        "handicapSeries": 846
+      },
+      {
+        "week": 8,
+        "game1": 289,
+        "game2": 300,
+        "scratchSeries": 589,
+        "handicapSeries": 827
+      }
+    ]
+  },
+  "Barely Bowling": {
+    "score": 4,
+    "scratchPins": 4409,
+    "handicapPins": 6861,
+    "weeks": [
+      {
+        "week": 0,
+        "game1": 275,
+        "game2": 274,
+        "scratchSeries": 549,
+        "handicapSeries": 865
+      },
+      {
+        "week": 1,
+        "game1": 289,
+        "game2": 219,
+        "scratchSeries": 508,
+        "handicapSeries": 840
+      },
+      {
+        "week": 3,
+        "game1": 318,
+        "game2": 317,
+        "scratchSeries": 635,
+        "handicapSeries": 887
+      },
+      {
+        "week": 4,
+        "game1": 269,
+        "game2": 327,
+        "scratchSeries": 596,
+        "handicapSeries": 938
+      },
+      {
+        "week": 5,
+        "game1": 235,
+        "game2": 263,
+        "scratchSeries": 498,
+        "handicapSeries": 782
+      },
+      {
+        "week": 6,
+        "game1": 226,
+        "game2": 318,
+        "scratchSeries": 544,
+        "handicapSeries": 884
+      },
+      {
+        "week": 7,
+        "game1": 282,
+        "game2": 254,
+        "scratchSeries": 536,
+        "handicapSeries": 808
+      },
+      {
+        "week": 8,
+        "game1": 240,
+        "game2": 303,
+        "scratchSeries": 543,
+        "handicapSeries": 857
+      }
+    ]
+  },
+  "The Century Club": {
+    "score": 4,
+    "scratchPins": 4653,
+    "handicapPins": 6773,
+    "weeks": [
+      {
+        "week": 0,
+        "game1": 312,
+        "game2": 261,
+        "scratchSeries": 573,
+        "handicapSeries": 825
+      },
+      {
+        "week": 1,
+        "game1": 293,
+        "game2": 307,
+        "scratchSeries": 600,
+        "handicapSeries": 852
+      },
+      {
+        "week": 3,
+        "game1": 328,
+        "game2": 308,
+        "scratchSeries": 636,
+        "handicapSeries": 922
+      },
+      {
+        "week": 4,
+        "game1": 288,
+        "game2": 297,
+        "scratchSeries": 585,
+        "handicapSeries": 847
+      },
+      {
+        "week": 5,
+        "game1": 267,
+        "game2": 272,
+        "scratchSeries": 539,
+        "handicapSeries": 801
+      },
+      {
+        "week": 6,
+        "game1": 288,
+        "game2": 286,
+        "scratchSeries": 574,
+        "handicapSeries": 842
+      },
+      {
+        "week": 7,
+        "game1": 255,
+        "game2": 331,
+        "scratchSeries": 586,
+        "handicapSeries": 854
+      },
+      {
+        "week": 8,
+        "game1": 251,
+        "game2": 309,
+        "scratchSeries": 560,
+        "handicapSeries": 830
+      }
+    ]
+  },
+  "Mark it Zero !": {
+    "score": 3.5,
+    "scratchPins": 5298,
+    "handicapPins": 6762,
+    "weeks": [
+      {
+        "week": 0,
+        "game1": 443,
+        "game2": 382,
+        "scratchSeries": 825,
+        "handicapSeries": 999
+      },
+      {
+        "week": 1,
+        "game1": 334,
+        "game2": 352,
+        "scratchSeries": 686,
+        "handicapSeries": 860
+      },
+      {
+        "week": 3,
+        "game1": 285,
+        "game2": 276,
+        "scratchSeries": 561,
+        "handicapSeries": 691
+      },
+      {
+        "week": 4,
+        "game1": 262,
+        "game2": 286,
+        "scratchSeries": 548,
+        "handicapSeries": 718
+      },
+      {
+        "week": 5,
+        "game1": 295,
+        "game2": 308,
+        "scratchSeries": 603,
+        "handicapSeries": 807
+      },
+      {
+        "week": 6,
+        "game1": 407,
+        "game2": 329,
+        "scratchSeries": 736,
+        "handicapSeries": 948
+      },
+      {
+        "week": 7,
+        "game1": 315,
+        "game2": 307,
+        "scratchSeries": 622,
+        "handicapSeries": 820
+      },
+      {
+        "week": 8,
+        "game1": 381,
+        "game2": 336,
+        "scratchSeries": 717,
+        "handicapSeries": 919
+      }
+    ]
   },
   "Bob_Rossing It": {
-    "score": 7.5,
-    "handicapPins": 6581
+    "score": 3.5,
+    "scratchPins": 4331,
+    "handicapPins": 6581,
+    "weeks": [
+      {
+        "week": 0,
+        "game1": 326,
+        "game2": 254,
+        "scratchSeries": 580,
+        "handicapSeries": 866
+      },
+      {
+        "week": 1,
+        "game1": 258,
+        "game2": 256,
+        "scratchSeries": 514,
+        "handicapSeries": 680
+      },
+      {
+        "week": 3,
+        "game1": 254,
+        "game2": 313,
+        "scratchSeries": 567,
+        "handicapSeries": 847
+      },
+      {
+        "week": 4,
+        "game1": 220,
+        "game2": 294,
+        "scratchSeries": 514,
+        "handicapSeries": 880
+      },
+      {
+        "week": 5,
+        "game1": 252,
+        "game2": 255,
+        "scratchSeries": 507,
+        "handicapSeries": 863
+      },
+      {
+        "week": 6,
+        "game1": 284,
+        "game2": 309,
+        "scratchSeries": 593,
+        "handicapSeries": 857
+      },
+      {
+        "week": 7,
+        "game1": 276,
+        "game2": 268,
+        "scratchSeries": 544,
+        "handicapSeries": 798
+      },
+      {
+        "week": 8,
+        "game1": 252,
+        "game2": 260,
+        "scratchSeries": 512,
+        "handicapSeries": 790
+      }
+    ]
+  },
+  "Backstabbers": {
+    "score": 3,
+    "scratchPins": 5634,
+    "handicapPins": 7142,
+    "weeks": [
+      {
+        "week": 0,
+        "game1": 380,
+        "game2": 363,
+        "scratchSeries": 743,
+        "handicapSeries": 955
+      },
+      {
+        "week": 1,
+        "game1": 311,
+        "game2": 332,
+        "scratchSeries": 643,
+        "handicapSeries": 855
+      },
+      {
+        "week": 3,
+        "game1": 289,
+        "game2": 345,
+        "scratchSeries": 634,
+        "handicapSeries": 800
+      },
+      {
+        "week": 4,
+        "game1": 350,
+        "game2": 364,
+        "scratchSeries": 714,
+        "handicapSeries": 898
+      },
+      {
+        "week": 5,
+        "game1": 350,
+        "game2": 305,
+        "scratchSeries": 655,
+        "handicapSeries": 861
+      },
+      {
+        "week": 6,
+        "game1": 317,
+        "game2": 386,
+        "scratchSeries": 703,
+        "handicapSeries": 883
+      },
+      {
+        "week": 7,
+        "game1": 346,
+        "game2": 364,
+        "scratchSeries": 710,
+        "handicapSeries": 886
+      },
+      {
+        "week": 8,
+        "game1": 454,
+        "game2": 378,
+        "scratchSeries": 832,
+        "handicapSeries": 1004
+      }
+    ]
+  },
+  "We Don't Give A Split": {
+    "score": 3,
+    "scratchPins": 4563,
+    "handicapPins": 6747,
+    "weeks": [
+      {
+        "week": 0,
+        "game1": 297,
+        "game2": 282,
+        "scratchSeries": 579,
+        "handicapSeries": 819
+      },
+      {
+        "week": 1,
+        "game1": 293,
+        "game2": 318,
+        "scratchSeries": 611,
+        "handicapSeries": 851
+      },
+      {
+        "week": 3,
+        "game1": 255,
+        "game2": 266,
+        "scratchSeries": 521,
+        "handicapSeries": 811
+      },
+      {
+        "week": 4,
+        "game1": 270,
+        "game2": 303,
+        "scratchSeries": 573,
+        "handicapSeries": 871
+      },
+      {
+        "week": 5,
+        "game1": 322,
+        "game2": 247,
+        "scratchSeries": 569,
+        "handicapSeries": 821
+      },
+      {
+        "week": 6,
+        "game1": 295,
+        "game2": 272,
+        "scratchSeries": 567,
+        "handicapSeries": 863
+      },
+      {
+        "week": 7,
+        "game1": 256,
+        "game2": 281,
+        "scratchSeries": 537,
+        "handicapSeries": 859
+      },
+      {
+        "week": 8,
+        "game1": 321,
+        "game2": 285,
+        "scratchSeries": 606,
+        "handicapSeries": 852
+      }
+    ]
+  },
+  "Guess Who": {
+    "score": 3,
+    "scratchPins": 4719,
+    "handicapPins": 6613,
+    "weeks": [
+      {
+        "week": 0,
+        "game1": 333,
+        "game2": 316,
+        "scratchSeries": 649,
+        "handicapSeries": 869
+      },
+      {
+        "week": 1,
+        "game1": 286,
+        "game2": 275,
+        "scratchSeries": 561,
+        "handicapSeries": 687
+      },
+      {
+        "week": 3,
+        "game1": 247,
+        "game2": 293,
+        "scratchSeries": 540,
+        "handicapSeries": 754
+      },
+      {
+        "week": 4,
+        "game1": 287,
+        "game2": 272,
+        "scratchSeries": 559,
+        "handicapSeries": 811
+      },
+      {
+        "week": 5,
+        "game1": 300,
+        "game2": 289,
+        "scratchSeries": 589,
+        "handicapSeries": 855
+      },
+      {
+        "week": 6,
+        "game1": 274,
+        "game2": 257,
+        "scratchSeries": 531,
+        "handicapSeries": 799
+      },
+      {
+        "week": 7,
+        "game1": 289,
+        "game2": 329,
+        "scratchSeries": 618,
+        "handicapSeries": 896
+      },
+      {
+        "week": 8,
+        "game1": 311,
+        "game2": 361,
+        "scratchSeries": 672,
+        "handicapSeries": 942
+      }
+    ]
+  },
+  "Lane Violation": {
+    "score": 2,
+    "scratchPins": 4412,
+    "handicapPins": 6892,
+    "weeks": [
+      {
+        "week": 0,
+        "game1": 276,
+        "game2": 230,
+        "scratchSeries": 506,
+        "handicapSeries": 796
+      },
+      {
+        "week": 1,
+        "game1": 215,
+        "game2": 196,
+        "scratchSeries": 411,
+        "handicapSeries": 831
+      },
+      {
+        "week": 3,
+        "game1": 355,
+        "game2": 354,
+        "scratchSeries": 709,
+        "handicapSeries": 975
+      },
+      {
+        "week": 4,
+        "game1": 223,
+        "game2": 197,
+        "scratchSeries": 420,
+        "handicapSeries": 854
+      },
+      {
+        "week": 5,
+        "game1": 280,
+        "game2": 265,
+        "scratchSeries": 545,
+        "handicapSeries": 813
+      },
+      {
+        "week": 6,
+        "game1": 286,
+        "game2": 304,
+        "scratchSeries": 590,
+        "handicapSeries": 790
+      },
+      {
+        "week": 7,
+        "game1": 269,
+        "game2": 262,
+        "scratchSeries": 531,
+        "handicapSeries": 829
+      },
+      {
+        "week": 8,
+        "game1": 370,
+        "game2": 330,
+        "scratchSeries": 700,
+        "handicapSeries": 1004
+      }
+    ]
   },
   "Sandbaggers": {
-    "score": 6.5,
-    "handicapPins": 6663
+    "score": 1.5,
+    "scratchPins": 5333,
+    "handicapPins": 6663,
+    "weeks": [
+      {
+        "week": 0,
+        "game1": 331,
+        "game2": 343,
+        "scratchSeries": 674,
+        "handicapSeries": 858
+      },
+      {
+        "week": 1,
+        "game1": 337,
+        "game2": 413,
+        "scratchSeries": 750,
+        "handicapSeries": 872
+      },
+      {
+        "week": 3,
+        "game1": 305,
+        "game2": 274,
+        "scratchSeries": 579,
+        "handicapSeries": 779
+      },
+      {
+        "week": 4,
+        "game1": 316,
+        "game2": 302,
+        "scratchSeries": 618,
+        "handicapSeries": 854
+      },
+      {
+        "week": 5,
+        "game1": 408,
+        "game2": 385,
+        "scratchSeries": 793,
+        "handicapSeries": 893
+      },
+      {
+        "week": 6,
+        "game1": 322,
+        "game2": 338,
+        "scratchSeries": 660,
+        "handicapSeries": 764
+      },
+      {
+        "week": 7,
+        "game1": 334,
+        "game2": 263,
+        "scratchSeries": 597,
+        "handicapSeries": 819
+      },
+      {
+        "week": 8,
+        "game1": 305,
+        "game2": 357,
+        "scratchSeries": 662,
+        "handicapSeries": 824
+      }
+    ]
+  },
+  "Who gives a split": {
+    "score": 1,
+    "scratchPins": 4146,
+    "handicapPins": 6844,
+    "weeks": [
+      {
+        "week": 0,
+        "game1": 270,
+        "game2": 238,
+        "scratchSeries": 508,
+        "handicapSeries": 860
+      },
+      {
+        "week": 1,
+        "game1": 272,
+        "game2": 216,
+        "scratchSeries": 488,
+        "handicapSeries": 840
+      },
+      {
+        "week": 3,
+        "game1": 256,
+        "game2": 271,
+        "scratchSeries": 527,
+        "handicapSeries": 869
+      },
+      {
+        "week": 4,
+        "game1": 270,
+        "game2": 308,
+        "scratchSeries": 578,
+        "handicapSeries": 866
+      },
+      {
+        "week": 5,
+        "game1": 260,
+        "game2": 205,
+        "scratchSeries": 465,
+        "handicapSeries": 795
+      },
+      {
+        "week": 6,
+        "game1": 314,
+        "game2": 221,
+        "scratchSeries": 535,
+        "handicapSeries": 863
+      },
+      {
+        "week": 7,
+        "game1": 267,
+        "game2": 228,
+        "scratchSeries": 495,
+        "handicapSeries": 837
+      },
+      {
+        "week": 8,
+        "game1": 280,
+        "game2": 270,
+        "scratchSeries": 550,
+        "handicapSeries": 914
+      }
+    ]
   },
   "Alias Smith and Godfrey": {
-    "score": 6,
-    "handicapPins": 6696
+    "score": 1,
+    "scratchPins": 4256,
+    "handicapPins": 6696,
+    "weeks": [
+      {
+        "week": 0,
+        "game1": 276,
+        "game2": 303,
+        "scratchSeries": 579,
+        "handicapSeries": 867
+      },
+      {
+        "week": 1,
+        "game1": 269,
+        "game2": 286,
+        "scratchSeries": 555,
+        "handicapSeries": 847
+      },
+      {
+        "week": 3,
+        "game1": 223,
+        "game2": 304,
+        "scratchSeries": 527,
+        "handicapSeries": 809
+      },
+      {
+        "week": 4,
+        "game1": 266,
+        "game2": 241,
+        "scratchSeries": 507,
+        "handicapSeries": 799
+      },
+      {
+        "week": 5,
+        "game1": 247,
+        "game2": 208,
+        "scratchSeries": 455,
+        "handicapSeries": 841
+      },
+      {
+        "week": 6,
+        "game1": 289,
+        "game2": 271,
+        "scratchSeries": 560,
+        "handicapSeries": 862
+      },
+      {
+        "week": 7,
+        "game1": 277,
+        "game2": 252,
+        "scratchSeries": 529,
+        "handicapSeries": 827
+      },
+      {
+        "week": 8,
+        "game1": 272,
+        "game2": 272,
+        "scratchSeries": 544,
+        "handicapSeries": 844
+      }
+    ]
   }
 }
