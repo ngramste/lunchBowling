@@ -10,3 +10,4 @@ leagueId = 130603
 year = 2024
 season = "f"
 Summary_Read = "https://www.leaguesecretary.com/League/Summary_Read"
+NINE_PIN_WEEK = 9
