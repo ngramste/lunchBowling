@@ -54,9 +54,9 @@ with open(c.TEAMS_PATH) as json_teams:
             bowlers = list(filter(lambda bowler: bowler['TeamNum'] == teamNum, report['Data']))
             opponents = list(filter(lambda bowler: bowler['TeamNum'] == opponentNum, report['Data']))
             
-            game1 = bowlers[0]['Score1'] + bowlers[0]['HandicapBeforeBowling'] + bowlers[1]['Score1'] + bowlers[1]['HandicapBeforeBowling']
-            game2 = bowlers[0]['Score2'] + bowlers[0]['HandicapBeforeBowling'] + bowlers[1]['Score2'] + bowlers[1]['HandicapBeforeBowling']
-            handicapSeries = game1 + game2
+            handicapGame1 = bowlers[0]['Score1'] + bowlers[0]['HandicapBeforeBowling'] + bowlers[1]['Score1'] + bowlers[1]['HandicapBeforeBowling']
+            handicapGame2 = bowlers[0]['Score2'] + bowlers[0]['HandicapBeforeBowling'] + bowlers[1]['Score2'] + bowlers[1]['HandicapBeforeBowling']
+            handicapSeries = handicapGame1 + handicapGame2
             
             # Figure out what the team in question scored
             game1 = bowlers[0]['Score1'] + bowlers[1]['Score1']
@@ -64,9 +64,9 @@ with open(c.TEAMS_PATH) as json_teams:
             series = game1 + game2
             
             # Figure out what the opponents scored
-            oppoentGame1 = opponents[0]['Score1'] + opponents[0]['HandicapBeforeBowling'] + opponents[1]['Score1'] + opponents[1]['HandicapBeforeBowling']
-            oppoentGame2 = opponents[0]['Score2'] + opponents[0]['HandicapBeforeBowling'] + opponents[1]['Score2'] + opponents[1]['HandicapBeforeBowling']
-            opponentsSeries = oppoentGame1 + oppoentGame2
+            oppoentHandicapGame1 = opponents[0]['Score1'] + opponents[0]['HandicapBeforeBowling'] + opponents[1]['Score1'] + opponents[1]['HandicapBeforeBowling']
+            oppoentHandicapGame2 = opponents[0]['Score2'] + opponents[0]['HandicapBeforeBowling'] + opponents[1]['Score2'] + opponents[1]['HandicapBeforeBowling']
+            opponentsSeries = oppoentHandicapGame1 + oppoentHandicapGame2
             
             # Just code for debugging, uncomment to see the stats for a single team for the season
             # if teamNum == 28:
@@ -75,9 +75,9 @@ with open(c.TEAMS_PATH) as json_teams:
             #     'name': teamName,
             #     'opponent': opponentName,
             #     'game1': game1,
-            #     'oppoentGame1': oppoentGame1,
+            #     'oppoentHandicapGame1': oppoentHandicapGame1,
             #     'game2': game2,
-            #     'oppoentGame2': oppoentGame2,
+            #     'oppoentHandicapGame2': oppoentHandicapGame2,
             #     'series': series,
             #     'opponentsSeries': opponentsSeries
             #   }, indent=2))
@@ -92,29 +92,37 @@ with open(c.TEAMS_PATH) as json_teams:
             weekData['week'] = int(week)
             weekData['game1'] = game1
             weekData['game2'] = game2
+            weekData['handicapGame1'] = handicapGame1
+            weekData['handicapGame2'] = handicapGame2
             weekData['scratchSeries'] = series
             weekData['handicapSeries'] = handicapSeries
+            weekData['oppoentHandicapGame1'] = oppoentHandicapGame1
+            weekData['oppoentHandicapGame2'] = oppoentHandicapGame2
+            weekData['opponentsSeries'] = opponentsSeries
+            weekData['pointsEarned'] = 0
             
             teamScores[teamName]['weeks'].append(weekData)
             
             # These if statements will add up the points for this week
-            if game1 > oppoentGame1:
-              teamScores[teamName]['score'] += 1
+            if handicapGame1 > oppoentHandicapGame1:
+              weekData['pointsEarned'] += 1
             
-            if game1 == oppoentGame1:
-              teamScores[teamName]['score'] += 0.5
+            if handicapGame1 == oppoentHandicapGame1:
+              weekData['pointsEarned'] += 0.5
               
-            if game2 > oppoentGame2:
-              teamScores[teamName]['score'] += 1
+            if handicapGame2 > oppoentHandicapGame2:
+              weekData['pointsEarned'] += 1
             
-            if game2 == oppoentGame2:
-              teamScores[teamName]['score'] += 0.5
+            if handicapGame2 == oppoentHandicapGame2:
+              weekData['pointsEarned'] += 0.5
               
             if handicapSeries > opponentsSeries:
-              teamScores[teamName]['score'] += 1
+              weekData['pointsEarned'] += 1
             
             if handicapSeries == opponentsSeries:
-              teamScores[teamName]['score'] += 0.5
+              weekData['pointsEarned'] += 0.5
+              
+            teamScores[teamName]['score'] += weekData['pointsEarned']
               
 # Sort the scores from first place to last
 sortedScores = dict(sorted(teamScores.items(), key=lambda item: (item[1]['score'], item[1]['handicapPins']), reverse = True))
