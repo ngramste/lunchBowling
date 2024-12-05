@@ -743,6 +743,130 @@
       }
     ]
   },
+  "AWACS ON/OFF": {
+    "score": 16,
+    "scratchPins": 6318,
+    "handicapPins": 7984,
+    "weeks": [
+      {
+        "week": 0,
+        "game1": 409,
+        "game2": 333,
+        "scratchSeries": 742,
+        "handicapSeries": 962,
+        "handicapGame1": 519,
+        "handicapGame2": 443,
+        "oppoentHandicapGame1": 468,
+        "oppoentHandicapGame2": 524,
+        "opponentsSeries": 992,
+        "pointsEarned": 1
+      },
+      {
+        "week": 1,
+        "game1": 309,
+        "game2": 325,
+        "scratchSeries": 634,
+        "handicapSeries": 854,
+        "handicapGame1": 419,
+        "handicapGame2": 435,
+        "oppoentHandicapGame1": 413,
+        "oppoentHandicapGame2": 438,
+        "opponentsSeries": 851,
+        "pointsEarned": 2
+      },
+      {
+        "week": 10,
+        "game1": 368,
+        "game2": 333,
+        "scratchSeries": 701,
+        "handicapSeries": 901,
+        "handicapGame1": 468,
+        "handicapGame2": 433,
+        "oppoentHandicapGame1": 450,
+        "oppoentHandicapGame2": 465,
+        "opponentsSeries": 915,
+        "pointsEarned": 1
+      },
+      {
+        "week": 3,
+        "game1": 349,
+        "game2": 337,
+        "scratchSeries": 686,
+        "handicapSeries": 860,
+        "handicapGame1": 436,
+        "handicapGame2": 424,
+        "oppoentHandicapGame1": 416,
+        "oppoentHandicapGame2": 419,
+        "opponentsSeries": 835,
+        "pointsEarned": 3
+      },
+      {
+        "week": 4,
+        "game1": 361,
+        "game2": 322,
+        "scratchSeries": 683,
+        "handicapSeries": 857,
+        "handicapGame1": 448,
+        "handicapGame2": 409,
+        "oppoentHandicapGame1": 440,
+        "oppoentHandicapGame2": 414,
+        "opponentsSeries": 854,
+        "pointsEarned": 2
+      },
+      {
+        "week": 5,
+        "game1": 355,
+        "game2": 348,
+        "scratchSeries": 703,
+        "handicapSeries": 877,
+        "handicapGame1": 442,
+        "handicapGame2": 435,
+        "oppoentHandicapGame1": 450,
+        "oppoentHandicapGame2": 534,
+        "opponentsSeries": 984,
+        "pointsEarned": 0
+      },
+      {
+        "week": 6,
+        "game1": 348,
+        "game2": 353,
+        "scratchSeries": 701,
+        "handicapSeries": 871,
+        "handicapGame1": 433,
+        "handicapGame2": 438,
+        "oppoentHandicapGame1": 417,
+        "oppoentHandicapGame2": 449,
+        "opponentsSeries": 866,
+        "pointsEarned": 2
+      },
+      {
+        "week": 7,
+        "game1": 370,
+        "game2": 352,
+        "scratchSeries": 722,
+        "handicapSeries": 890,
+        "handicapGame1": 454,
+        "handicapGame2": 436,
+        "oppoentHandicapGame1": 446,
+        "oppoentHandicapGame2": 412,
+        "opponentsSeries": 858,
+        "pointsEarned": 3
+      },
+      {
+        "week": 8,
+        "game1": 405,
+        "game2": 341,
+        "scratchSeries": 746,
+        "handicapSeries": 912,
+        "handicapGame1": 488,
+        "handicapGame2": 424,
+        "oppoentHandicapGame1": 362,
+        "oppoentHandicapGame2": 461,
+        "opponentsSeries": 823,
+        "pointsEarned": 2
+      }
+    ]
+  },
   "Craptastic": {
     "score": 16,
     "scratchPins": 5976,
@@ -864,130 +988,6 @@
         "oppoentHandicapGame2": 437,
         "opponentsSeries": 867,
         "pointsEarned": 1
-      }
-    ]
-  },
-  "AWACS ON/OFF": {
-    "score": 15,
-    "scratchPins": 6318,
-    "handicapPins": 7942,
-    "weeks": [
-      {
-        "week": 0,
-        "game1": 409,
-        "game2": 333,
-        "scratchSeries": 742,
-        "handicapSeries": 962,
-        "handicapGame1": 519,
-        "handicapGame2": 443,
-        "oppoentHandicapGame1": 468,
-        "oppoentHandicapGame2": 524,
-        "opponentsSeries": 992,
-        "pointsEarned": 1
-      },
-      {
-        "week": 1,
-        "game1": 309,
-        "game2": 325,
-        "scratchSeries": 634,
-        "handicapSeries": 854,
-        "handicapGame1": 419,
-        "handicapGame2": 435,
-        "oppoentHandicapGame1": 413,
-        "oppoentHandicapGame2": 438,
-        "opponentsSeries": 851,
-        "pointsEarned": 2
-      },
-      {
-        "week": 10,
-        "game1": 368,
-        "game2": 333,
-        "scratchSeries": 701,
-        "handicapSeries": 859,
-        "handicapGame1": 447,
-        "handicapGame2": 412,
-        "oppoentHandicapGame1": 450,
-        "oppoentHandicapGame2": 465,
-        "opponentsSeries": 915,
-        "pointsEarned": 0
-      },
-      {
-        "week": 3,
-        "game1": 349,
-        "game2": 337,
-        "scratchSeries": 686,
-        "handicapSeries": 860,
-        "handicapGame1": 436,
-        "handicapGame2": 424,
-        "oppoentHandicapGame1": 416,
-        "oppoentHandicapGame2": 419,
-        "opponentsSeries": 835,
-        "pointsEarned": 3
-      },
-      {
-        "week": 4,
-        "game1": 361,
-        "game2": 322,
-        "scratchSeries": 683,
-        "handicapSeries": 857,
-        "handicapGame1": 448,
-        "handicapGame2": 409,
-        "oppoentHandicapGame1": 440,
-        "oppoentHandicapGame2": 414,
-        "opponentsSeries": 854,
-        "pointsEarned": 2
-      },
-      {
-        "week": 5,
-        "game1": 355,
-        "game2": 348,
-        "scratchSeries": 703,
-        "handicapSeries": 877,
-        "handicapGame1": 442,
-        "handicapGame2": 435,
-        "oppoentHandicapGame1": 450,
-        "oppoentHandicapGame2": 534,
-        "opponentsSeries": 984,
-        "pointsEarned": 0
-      },
-      {
-        "week": 6,
-        "game1": 348,
-        "game2": 353,
-        "scratchSeries": 701,
-        "handicapSeries": 871,
-        "handicapGame1": 433,
-        "handicapGame2": 438,
-        "oppoentHandicapGame1": 417,
-        "oppoentHandicapGame2": 449,
-        "opponentsSeries": 866,
-        "pointsEarned": 2
-      },
-      {
-        "week": 7,
-        "game1": 370,
-        "game2": 352,
-        "scratchSeries": 722,
-        "handicapSeries": 890,
-        "handicapGame1": 454,
-        "handicapGame2": 436,
-        "oppoentHandicapGame1": 446,
-        "oppoentHandicapGame2": 412,
-        "opponentsSeries": 858,
-        "pointsEarned": 3
-      },
-      {
-        "week": 8,
-        "game1": 405,
-        "game2": 341,
-        "scratchSeries": 746,
-        "handicapSeries": 912,
-        "handicapGame1": 488,
-        "handicapGame2": 424,
-        "oppoentHandicapGame1": 362,
-        "oppoentHandicapGame2": 461,
-        "opponentsSeries": 823,
-        "pointsEarned": 2
       }
     ]
   },
@@ -2231,130 +2231,6 @@
       }
     ]
   },
-  "Guess Who": {
-    "score": 13,
-    "scratchPins": 5376,
-    "handicapPins": 7528,
-    "weeks": [
-      {
-        "week": 0,
-        "game1": 333,
-        "game2": 316,
-        "scratchSeries": 649,
-        "handicapSeries": 869,
-        "handicapGame1": 443,
-        "handicapGame2": 426,
-        "oppoentHandicapGame1": 530,
-        "oppoentHandicapGame2": 469,
-        "opponentsSeries": 999,
-        "pointsEarned": 0
-      },
-      {
-        "week": 1,
-        "game1": 286,
-        "game2": 275,
-        "scratchSeries": 561,
-        "handicapSeries": 687,
-        "handicapGame1": 349,
-        "handicapGame2": 338,
-        "oppoentHandicapGame1": 432,
-        "oppoentHandicapGame2": 412,
-        "opponentsSeries": 844,
-        "pointsEarned": 0
-      },
-      {
-        "week": 10,
-        "game1": 321,
-        "game2": 336,
-        "scratchSeries": 657,
-        "handicapSeries": 915,
-        "handicapGame1": 450,
-        "handicapGame2": 465,
-        "oppoentHandicapGame1": 447,
-        "oppoentHandicapGame2": 412,
-        "opponentsSeries": 859,
-        "pointsEarned": 3
-      },
-      {
-        "week": 3,
-        "game1": 247,
-        "game2": 293,
-        "scratchSeries": 540,
-        "handicapSeries": 754,
-        "handicapGame1": 354,
-        "handicapGame2": 400,
-        "oppoentHandicapGame1": 380,
-        "oppoentHandicapGame2": 394,
-        "opponentsSeries": 774,
-        "pointsEarned": 1
-      },
-      {
-        "week": 4,
-        "game1": 287,
-        "game2": 272,
-        "scratchSeries": 559,
-        "handicapSeries": 811,
-        "handicapGame1": 413,
-        "handicapGame2": 398,
-        "oppoentHandicapGame1": 437,
-        "oppoentHandicapGame2": 452,
-        "opponentsSeries": 889,
-        "pointsEarned": 0
-      },
-      {
-        "week": 5,
-        "game1": 300,
-        "game2": 289,
-        "scratchSeries": 589,
-        "handicapSeries": 855,
-        "handicapGame1": 433,
-        "handicapGame2": 422,
-        "oppoentHandicapGame1": 425,
-        "oppoentHandicapGame2": 370,
-        "opponentsSeries": 795,
-        "pointsEarned": 3
-      },
-      {
-        "week": 6,
-        "game1": 274,
-        "game2": 257,
-        "scratchSeries": 531,
-        "handicapSeries": 799,
-        "handicapGame1": 408,
-        "handicapGame2": 391,
-        "oppoentHandicapGame1": 407,
-        "oppoentHandicapGame2": 476,
-        "opponentsSeries": 883,
-        "pointsEarned": 1
-      },
-      {
-        "week": 7,
-        "game1": 289,
-        "game2": 329,
-        "scratchSeries": 618,
-        "handicapSeries": 896,
-        "handicapGame1": 428,
-        "handicapGame2": 468,
-        "oppoentHandicapGame1": 435,
-        "oppoentHandicapGame2": 451,
-        "opponentsSeries": 886,
-        "pointsEarned": 2
-      },
-      {
-        "week": 8,
-        "game1": 311,
-        "game2": 361,
-        "scratchSeries": 672,
-        "handicapSeries": 942,
-        "handicapGame1": 446,
-        "handicapGame2": 496,
-        "oppoentHandicapGame1": 386,
-        "oppoentHandicapGame2": 438,
-        "opponentsSeries": 824,
-        "pointsEarned": 3
-      }
-    ]
-  },
   "We Don't Give A Split": {
     "score": 12,
     "scratchPins": 5210,
@@ -2599,6 +2475,130 @@
         "oppoentHandicapGame1": 393,
         "oppoentHandicapGame2": 405,
         "opponentsSeries": 798,
+        "pointsEarned": 3
+      }
+    ]
+  },
+  "Guess Who": {
+    "score": 12,
+    "scratchPins": 5376,
+    "handicapPins": 7528,
+    "weeks": [
+      {
+        "week": 0,
+        "game1": 333,
+        "game2": 316,
+        "scratchSeries": 649,
+        "handicapSeries": 869,
+        "handicapGame1": 443,
+        "handicapGame2": 426,
+        "oppoentHandicapGame1": 530,
+        "oppoentHandicapGame2": 469,
+        "opponentsSeries": 999,
+        "pointsEarned": 0
+      },
+      {
+        "week": 1,
+        "game1": 286,
+        "game2": 275,
+        "scratchSeries": 561,
+        "handicapSeries": 687,
+        "handicapGame1": 349,
+        "handicapGame2": 338,
+        "oppoentHandicapGame1": 432,
+        "oppoentHandicapGame2": 412,
+        "opponentsSeries": 844,
+        "pointsEarned": 0
+      },
+      {
+        "week": 10,
+        "game1": 321,
+        "game2": 336,
+        "scratchSeries": 657,
+        "handicapSeries": 915,
+        "handicapGame1": 450,
+        "handicapGame2": 465,
+        "oppoentHandicapGame1": 468,
+        "oppoentHandicapGame2": 433,
+        "opponentsSeries": 901,
+        "pointsEarned": 2
+      },
+      {
+        "week": 3,
+        "game1": 247,
+        "game2": 293,
+        "scratchSeries": 540,
+        "handicapSeries": 754,
+        "handicapGame1": 354,
+        "handicapGame2": 400,
+        "oppoentHandicapGame1": 380,
+        "oppoentHandicapGame2": 394,
+        "opponentsSeries": 774,
+        "pointsEarned": 1
+      },
+      {
+        "week": 4,
+        "game1": 287,
+        "game2": 272,
+        "scratchSeries": 559,
+        "handicapSeries": 811,
+        "handicapGame1": 413,
+        "handicapGame2": 398,
+        "oppoentHandicapGame1": 437,
+        "oppoentHandicapGame2": 452,
+        "opponentsSeries": 889,
+        "pointsEarned": 0
+      },
+      {
+        "week": 5,
+        "game1": 300,
+        "game2": 289,
+        "scratchSeries": 589,
+        "handicapSeries": 855,
+        "handicapGame1": 433,
+        "handicapGame2": 422,
+        "oppoentHandicapGame1": 425,
+        "oppoentHandicapGame2": 370,
+        "opponentsSeries": 795,
+        "pointsEarned": 3
+      },
+      {
+        "week": 6,
+        "game1": 274,
+        "game2": 257,
+        "scratchSeries": 531,
+        "handicapSeries": 799,
+        "handicapGame1": 408,
+        "handicapGame2": 391,
+        "oppoentHandicapGame1": 407,
+        "oppoentHandicapGame2": 476,
+        "opponentsSeries": 883,
+        "pointsEarned": 1
+      },
+      {
+        "week": 7,
+        "game1": 289,
+        "game2": 329,
+        "scratchSeries": 618,
+        "handicapSeries": 896,
+        "handicapGame1": 428,
+        "handicapGame2": 468,
+        "oppoentHandicapGame1": 435,
+        "oppoentHandicapGame2": 451,
+        "opponentsSeries": 886,
+        "pointsEarned": 2
+      },
+      {
+        "week": 8,
+        "game1": 311,
+        "game2": 361,
+        "scratchSeries": 672,
+        "handicapSeries": 942,
+        "handicapGame1": 446,
+        "handicapGame2": 496,
+        "oppoentHandicapGame1": 386,
+        "oppoentHandicapGame2": 438,
+        "opponentsSeries": 824,
         "pointsEarned": 3
       }
     ]
