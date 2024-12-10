@@ -132,13 +132,14 @@ print(json.dumps(sortedScores, indent=2))
 
 
             
-headers = ["Place", "Team Name", "Points Won", "Pins+HDCP", "Scratch Pins"]
+headers = ["Place", "Team Name", "Points Won", "Points Lost", "Pins+HDCP", "Scratch Pins"]
 data = []
 for index, team in enumerate(sortedScores):
   data.append([
     index + 1,
     team,
     sortedScores[team]['score'],
+    (len(listdir(c.SUMMARY_PATH)) * 3) - sortedScores[team]['score'],
     sortedScores[team]['handicapPins'],
     sortedScores[team]['scratchPins']
   ])
