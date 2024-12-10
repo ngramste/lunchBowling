@@ -173,7 +173,6 @@ with open(c.TEAMS_PATH) as json_teams:
                   - opponent['bowlers'][1]['handicapseries']):
             totalPts += 0.5
           
-          # print("\n", "Week " + week)
           headers = ["\n"+team['name'], "Old\nHDCP", "\n-1-", "\n-2-", "\nTotal", "HDCP\nTotal","\n"+opponent['name'], "Old\nHDCP", "\n-1-", "\n-2-", "\nTotal", "HDCP\nTotal"]
           data = [
             [
