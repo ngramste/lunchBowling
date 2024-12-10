@@ -277,6 +277,11 @@ with open(c.TEAMS_PATH) as json_teams:
             
           recaps += "\n\n\n\n" + tabulate(data, headers=headers)
           
+          # if it is an interesting team, print out the data
+          if team['name'] == "The Munsons" or opponent['name'] == "The Munsons":
+            print("\n\n Week " + week)
+            print(tabulate(data, headers=headers))
+          
       # Write the recaps out to file for safe keeping
       fd = open(c.RECAPS_PATH + "\\" + filename.replace(".json", ".txt"), "w")
       fd.write(recaps)

@@ -1,0 +1,30 @@
+  Place  Team Name                  Points Won    Pins+HDCP    Scratch Pins
+-------  -----------------------  ------------  -----------  --------------
+      1  I am Root                        21           7989            5379
+      2  Bad Attitude                     19.5         8108            7330
+      3  Engineering Strikes              19           7974            6866
+      4  Rick Rollers                     19           7789            5067
+      5  The Outsiders                    19           7756            7138
+      6  TB Inc LLC                       17           7832            5364
+      7  AWACS ON/OFF                     16           7984            6318
+      8  Craptastic                       16           7622            5976
+      9  The Munsons                      15           7663            5513
+     10  Split Happens                    14           7925            5979
+     11  One More                         14           7852            7338
+     12  Lunch Hour Hookers               14           7796            5796
+     13  Spare Me                         14           7792            5512
+     14  Barely Bowling                   14           7733            4997
+     15  SPAM                             13           7901            6951
+     16  Top Gun                          13           7793            5967
+     17  XXX Dancers                      13           7767            5447
+     18  The Century Club                 13           7718            5328
+     19  We Don't Give A Split            12           7640            5210
+     20  Mark it Zero !                   12           7598            5938
+     21  Guess Who                        12           7528            5376
+     22  Who gives a split                10           7676            4660
+     23  Roll Clones                       9.5         7395            6235
+     24  Backstabbers                      9           7981            6319
+     25  Sandbaggers                       8.5         7530            6074
+     26  Lane Violation                    8           7658            4768
+     27  Bob_Rossing It                    7.5         7406            4864
+     28  Alias Smith and Godfrey           6           7522            4782

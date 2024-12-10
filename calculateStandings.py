@@ -2,6 +2,7 @@ import json
 import constants as c
 from os import listdir
 import re
+from tabulate import tabulate
 
 teamScores = {}
 
@@ -123,12 +124,27 @@ with open(c.TEAMS_PATH) as json_teams:
               weekData['pointsEarned'] += 0.5
               
             teamScores[teamName]['score'] += weekData['pointsEarned']
+            
               
 # Sort the scores from first place to last
 sortedScores = dict(sorted(teamScores.items(), key=lambda item: (item[1]['score'], item[1]['handicapPins']), reverse = True))
 print(json.dumps(sortedScores, indent=2))
 
+
+            
+headers = ["Place", "Team Name", "Points Won", "Pins+HDCP", "Scratch Pins"]
+data = []
+for index, team in enumerate(sortedScores):
+  data.append([
+    index + 1,
+    team,
+    sortedScores[team]['score'],
+    sortedScores[team]['handicapPins'],
+    sortedScores[team]['scratchPins']
+  ])
+print(tabulate(data, headers=headers))
+
 # Write the results out to file for safe keeping
-fd = open(c.DATA_FOLDER + "standings.json", "w")
-fd.write(json.dumps(sortedScores, indent=2))
+fd = open(c.DATA_FOLDER + "standings.txt", "w")
+fd.write(tabulate(data, headers=headers))
 fd.close()
