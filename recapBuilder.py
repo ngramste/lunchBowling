@@ -279,10 +279,9 @@ with open(c.TEAMS_PATH) as json_teams:
           recaps += "\n\n\n\n" + tabulate(data, headers=headers)
           
       # Write the recaps out to file for safe keeping
-      fd = open(c.RECAPS_PATH + "\\" + filename, "w")
+      fd = open(c.RECAPS_PATH + "\\" + filename.replace(".json", ".txt"), "w")
       fd.write(recaps)
       fd.close()
-          
           
           
           
