@@ -35,7 +35,7 @@ with open(c.TEAMS_PATH) as json_teams:
                 'score': 0,
                 'scratchPins': 0,
                 'handicapPins': 0,
-                'weeks': []
+                # 'weeks': []
               }
               
             weekData = {
@@ -101,7 +101,7 @@ with open(c.TEAMS_PATH) as json_teams:
             weekData['opponentsSeries'] = opponentsSeries
             weekData['pointsEarned'] = 0
             
-            teamScores[teamName]['weeks'].append(weekData)
+            # teamScores[teamName]['weeks'].append(weekData)
             
             # These if statements will add up the points for this week
             if handicapGame1 > oppoentHandicapGame1:
