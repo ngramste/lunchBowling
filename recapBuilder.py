@@ -4,6 +4,10 @@ from os import listdir
 import re
 from tabulate import tabulate
 
+testpoints = 0
+testscratch = 0
+testhandicap = 0
+
 # We need to reference a lot of local files to figure everything out, start with getting basic team data
 with open(c.TEAMS_PATH) as json_teams:
   report_teams = json.load(json_teams)
@@ -279,7 +283,17 @@ with open(c.TEAMS_PATH) as json_teams:
           
           # if it is an interesting team, print out the data
           if team['name'] == "The Munsons" or opponent['name'] == "The Munsons":
+            if team['name'] == "The Munsons":
+              testpoints += game1Pts + game2Pts + totalPts
+              testhandicap += team['handicapseries']
+              testscratch += team['scratchseries']
+            if opponent['name'] == "The Munsons":
+              testpoints += 3 - game1Pts - game2Pts - totalPts
+              testhandicap += opponent['handicapseries']
+              testscratch += opponent['scratchseries']
+              
             print("\n\n Week " + week)
+            print("Points: "+str(testpoints)+" Handicap: "+str(testhandicap)+" Scratch: " +str(testscratch) )
             print(tabulate(data, headers=headers))
           
       # Write the recaps out to file for safe keeping
