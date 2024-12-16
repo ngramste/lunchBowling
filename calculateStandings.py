@@ -6,6 +6,15 @@ from tabulate import tabulate
 
 teamScores = {}
 
+def handicapGetter(name, weekNum):
+  # Now lets open the season schedule for reference
+  with open(c.BOWLER_AVERAGES_PATH) as json_data:
+    bowlers = json.load(json_data)
+    
+    for week in bowlers[name]:
+      if week['week'] == int(weekNum):
+        return week['handicapBefore']
+
 # We need to reference a lot of local files to figure everything out, start with getting basic team data
 with open(c.TEAMS_PATH) as json_teams:
   report_teams = json.load(json_teams)
@@ -55,8 +64,8 @@ with open(c.TEAMS_PATH) as json_teams:
             bowlers = list(filter(lambda bowler: bowler['TeamNum'] == teamNum, report['Data']))
             opponents = list(filter(lambda bowler: bowler['TeamNum'] == opponentNum, report['Data']))
             
-            handicapGame1 = bowlers[0]['Score1'] + bowlers[0]['HandicapBeforeBowling'] + bowlers[1]['Score1'] + bowlers[1]['HandicapBeforeBowling']
-            handicapGame2 = bowlers[0]['Score2'] + bowlers[0]['HandicapBeforeBowling'] + bowlers[1]['Score2'] + bowlers[1]['HandicapBeforeBowling']
+            handicapGame1 = bowlers[0]['Score1'] + handicapGetter(bowlers[0]['BowlerName'], week) + bowlers[1]['Score1'] + handicapGetter(bowlers[1]['BowlerName'], week)
+            handicapGame2 = bowlers[0]['Score2'] + handicapGetter(bowlers[0]['BowlerName'], week) + bowlers[1]['Score2'] + handicapGetter(bowlers[1]['BowlerName'], week)
             handicapSeries = handicapGame1 + handicapGame2
             
             # Figure out what the team in question scored
@@ -65,12 +74,12 @@ with open(c.TEAMS_PATH) as json_teams:
             series = game1 + game2
             
             # Figure out what the opponents scored
-            oppoentHandicapGame1 = opponents[0]['Score1'] + opponents[0]['HandicapBeforeBowling'] + opponents[1]['Score1'] + opponents[1]['HandicapBeforeBowling']
-            oppoentHandicapGame2 = opponents[0]['Score2'] + opponents[0]['HandicapBeforeBowling'] + opponents[1]['Score2'] + opponents[1]['HandicapBeforeBowling']
+            oppoentHandicapGame1 = opponents[0]['Score1'] + handicapGetter(opponents[0]['BowlerName'], week) + opponents[1]['Score1'] + handicapGetter(opponents[1]['BowlerName'], week)
+            oppoentHandicapGame2 = opponents[0]['Score2'] + handicapGetter(opponents[0]['BowlerName'], week) + opponents[1]['Score2'] + handicapGetter(opponents[1]['BowlerName'], week)
             opponentsSeries = oppoentHandicapGame1 + oppoentHandicapGame2
             
             # Just code for debugging, uncomment to see the stats for a single team for the season
-            # if teamNum == 28:
+            # if teamNum == 9:
             #   print(json.dumps({
             #     'week': filename,
             #     'name': teamName,

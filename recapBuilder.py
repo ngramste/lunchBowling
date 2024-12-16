@@ -8,6 +8,15 @@ testpoints = 0
 testscratch = 0
 testhandicap = 0
 
+def handicapGetter(name, weekNum):
+  # Now lets open the season schedule for reference
+  with open(c.BOWLER_AVERAGES_PATH) as json_data:
+    bowlers = json.load(json_data)
+    
+    for week in bowlers[name]:
+      if week['week'] == int(weekNum):
+        return week['handicapBefore']
+
 # We need to reference a lot of local files to figure everything out, start with getting basic team data
 with open(c.TEAMS_PATH) as json_teams:
   report_teams = json.load(json_teams)
@@ -42,7 +51,7 @@ with open(c.TEAMS_PATH) as json_teams:
                 'bowlers': [
                   {
                     'name': list(filter(lambda bowler: bowler['TeamNum'] == team1ID, report['Data']))[0]['BowlerName'],
-                    'handicap': list(filter(lambda bowler: bowler['TeamNum'] == team1ID, report['Data']))[0]['HandicapBeforeBowling'],
+                    'handicap': handicapGetter(list(filter(lambda bowler: bowler['TeamNum'] == team1ID, report['Data']))[0]['BowlerName'], week),
                     'games': [
                       {
                         'scratch': list(filter(lambda bowler: bowler['TeamNum'] == team1ID, report['Data']))[0]['Score1'],
@@ -58,7 +67,7 @@ with open(c.TEAMS_PATH) as json_teams:
                   },
                   {
                     'name': list(filter(lambda bowler: bowler['TeamNum'] == team1ID, report['Data']))[1]['BowlerName'],
-                    'handicap': list(filter(lambda bowler: bowler['TeamNum'] == team1ID, report['Data']))[1]['HandicapBeforeBowling'],
+                    'handicap': handicapGetter(list(filter(lambda bowler: bowler['TeamNum'] == team1ID, report['Data']))[1]['BowlerName'], week),
                     'games': [
                       {
                         'scratch': list(filter(lambda bowler: bowler['TeamNum'] == team1ID, report['Data']))[1]['Score1'],
@@ -82,7 +91,7 @@ with open(c.TEAMS_PATH) as json_teams:
                 'bowlers': [
                   {
                     'name': list(filter(lambda bowler: bowler['TeamNum'] == team2ID, report['Data']))[0]['BowlerName'],
-                    'handicap': list(filter(lambda bowler: bowler['TeamNum'] == team2ID, report['Data']))[0]['HandicapBeforeBowling'],
+                    'handicap': handicapGetter(list(filter(lambda bowler: bowler['TeamNum'] == team2ID, report['Data']))[0]['BowlerName'], week),
                     'games': [
                       {
                         'scratch': list(filter(lambda bowler: bowler['TeamNum'] == team2ID, report['Data']))[0]['Score1'],
@@ -98,7 +107,7 @@ with open(c.TEAMS_PATH) as json_teams:
                   },
                   {
                     'name': list(filter(lambda bowler: bowler['TeamNum'] == team2ID, report['Data']))[1]['BowlerName'],
-                    'handicap': list(filter(lambda bowler: bowler['TeamNum'] == team2ID, report['Data']))[1]['HandicapBeforeBowling'],
+                    'handicap': handicapGetter(list(filter(lambda bowler: bowler['TeamNum'] == team2ID, report['Data']))[1]['BowlerName'], week),
                     'games': [
                       {
                         'scratch': list(filter(lambda bowler: bowler['TeamNum'] == team2ID, report['Data']))[1]['Score1'],

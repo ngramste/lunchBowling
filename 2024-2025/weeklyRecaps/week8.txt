@@ -96,12 +96,12 @@ Team Points Won          0      0      0        0        Team Points Won        
                     Old                            HDCP                       Old                            HDCP
 The Century Club    HDCP    -1-    -2-    Total    Total    Barely Bowling    HDCP    -1-    -2-    Total    Total
 ------------------  ------  -----  -----  -------  -------  ----------------  ------  -----  -----  -------  -------
-Defields, Jaden     72      134    171    305      449      Bacon, Whitney    83      131    158    289      455
-Rhein, Bradley      63      117    138    255      381      Ramstead, Nick    74      109    145    254      402
+Defields, Jaden     60      134    171    305      425      Bacon, Whitney    83      131    158    289      455
+Rhein, Bradley      70      117    138    255      395      Ramstead, Nick    74      109    145    254      402
                             ====   ====   ====     ====                               ====   ====   ====     ====
 Scratch Total               251    309    560      560      Scratch Total             240    303    543      543
-Handicap                    135    135             270      Handicap                  157    157             314
-Total                       386    444    560      830      Total                     397    460    543      857
+Handicap                    130    130             260      Handicap                  157    157             314
+Total                       381    439    560      820      Total                     397    460    543      857
 Team Points Won             0      0      0        0        Team Points Won           1      1      1        3
 
 
@@ -122,13 +122,13 @@ Team Points Won          1      0      0        1        Team Points Won        
                   Old                            HDCP                      Old                            HDCP
 Bob_Rossing It    HDCP    -1-    -2-    Total    Total    Bad Attitude     HDCP    -1-    -2-    Total    Total
 ----------------  ------  -----  -----  -------  -------  ---------------  ------  -----  -----  -------  -------
-Chandler, Cory    68      134    134    0        404      Degroot, Chris   18      205    209    414      450
+Chandler, Cory    68      134    134    0        404      Degroot, Chris   16      205    209    414      446
 Herbrand, Justin  71      118    126    244      386      Reed, Scot       4       156    176    332      340
                           ====   ====   ====     ====                              ====   ====   ====     ====
 Scratch Total             252    260    512      512      Scratch Total            361    385    746      746
-Handicap                  139    139             278      Handicap                 22     22              44
-Total                     391    399    512      790      Total                    383    407    746      790
-Team Points Won           1      0      0.5      1.5      Team Points Won          0      1      0.5      1.5
+Handicap                  139    139             278      Handicap                 20     20              40
+Total                     391    399    512      790      Total                    381    405    746      786
+Team Points Won           1      0      1        2        Team Points Won          0      1      0        1
 
 
 

@@ -18,13 +18,13 @@ Team Points Won          0      0      0        0        Team Points Won        
                  Old                            HDCP                      Old                            HDCP
 SPAM             HDCP    -1-    -2-    Total    Total    XXX Dancers      HDCP    -1-    -2-    Total    Total
 ---------------  ------  -----  -----  -------  -------  ---------------  ------  -----  -----  -------  -------
-G, M             33      172    162    334      400      Burkhardt, Drew  54      174    158    332      440
-O, M             0       209    259    468      468      Nance, Katie     92      150    122    272      456
+G, M             33      172    162    334      400      Burkhardt, Drew  36      174    158    332      404
+O, M             0       209    259    468      468      Nance, Katie     82      150    122    272      436
                          ====   ====   ====     ====                              ====   ====   ====     ====
 Scratch Total            381    421    802      802      Scratch Total            324    280    604      604
-Handicap                 33     33              66       Handicap                 146    146             292
-Total                    414    454    802      868      Total                    470    426    604      896
-Team Points Won          0      1      0        1        Team Points Won          1      0      1        2
+Handicap                 33     33              66       Handicap                 118    118             236
+Total                    414    454    802      868      Total                    442    398    604      840
+Team Points Won          0      1      1        2        Team Points Won          1      0      0        1
 
 
 
@@ -70,12 +70,12 @@ Team Points Won          1      1      1        3        Team Points Won        
                   Old                            HDCP                         Old                            HDCP
 Mark it Zero !    HDCP    -1-    -2-    Total    Total    The Century Club    HDCP    -1-    -2-    Total    Total
 ----------------  ------  -----  -----  -------  -------  ------------------  ------  -----  -----  -------  -------
-Dalbol, Andrew    0       170    159    329      329      Defields, Jaden     89      156    168    324      502
-Roggow, Brad      65      115    117    232      362      Rhein, Bradley      54      172    140    312      420
+Dalbol, Andrew    0       170    159    329      329      Defields, Jaden     54      156    168    324      432
+Roggow, Brad      65      115    117    232      362      Rhein, Bradley      77      172    140    312      466
                           ====   ====   ====     ====                                 ====   ====   ====     ====
 Scratch Total             285    276    561      561      Scratch Total               328    308    636      636
-Handicap                  65     65              130      Handicap                    143    143             286
-Total                     350    341    561      691      Total                       471    451    636      922
+Handicap                  65     65              130      Handicap                    131    131             262
+Total                     350    341    561      691      Total                       459    439    636      898
 Team Points Won           0      0      0        0        Team Points Won             1      1      1        3
 
 
@@ -96,13 +96,13 @@ Team Points Won          0      1      1        2        Team Points Won        
                      Old                            HDCP                         Old                            HDCP
 Who gives a split    HDCP    -1-    -2-    Total    Total    Bad Attitude        HDCP    -1-    -2-    Total    Total
 -------------------  ------  -----  -----  -------  -------  ------------------  ------  -----  -----  -------  -------
-Evenson, Rayce       107     115    135    250      464      Degroot, Chris      23      190    192    382      428
-Toothaker, James     64      141    136    277      405      Henderson, Anthony  59      184    154    338      456
+Evenson, Rayce       108     115    135    250      466      Degroot, Chris      26      190    192    382      434
+Toothaker, James     64      141    136    277      405      Henderson, Anthony  41      184    154    338      420
                              ====   ====   ====     ====                                 ====   ====   ====     ====
 Scratch Total                256    271    527      527      Scratch Total               374    346    720      720
-Handicap                     171    171             342      Handicap                    82     82              164
-Total                        427    442    527      869      Total                       456    428    720      884
-Team Points Won              0      1      0        1        Team Points Won             1      0      1        2
+Handicap                     172    172             344      Handicap                    67     67              134
+Total                        428    443    527      871      Total                       441    413    720      854
+Team Points Won              0      1      1        2        Team Points Won             1      0      0        1
 
 
 

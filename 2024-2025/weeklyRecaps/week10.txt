@@ -109,12 +109,12 @@ Team Points Won          0      0      0        0        Team Points Won        
                     Old                            HDCP                       Old                            HDCP
 The Century Club    HDCP    -1-    -2-    Total    Total    Bob_Rossing It    HDCP    -1-    -2-    Total    Total
 ------------------  ------  -----  -----  -------  -------  ----------------  ------  -----  -----  -------  -------
-Defields, Jaden     70      183    211    394      534      Herbrand, Justin  72      143    155    298      442
-Rhein, Bradley      65      129    152    281      411      Mosset, Tyler     74      99     136    235      383
+Defields, Jaden     60      183    211    394      514      Herbrand, Justin  72      143    155    298      442
+Rhein, Bradley      72      129    152    281      425      Mosset, Tyler     74      99     136    235      383
                             ====   ====   ====     ====                               ====   ====   ====     ====
 Scratch Total               312    363    675      675      Scratch Total             242    291    533      533
-Handicap                    135    135             270      Handicap                  146    146             292
-Total                       447    498    675      945      Total                     388    437    533      825
+Handicap                    132    132             264      Handicap                  146    146             292
+Total                       444    495    675      939      Total                     388    437    533      825
 Team Points Won             1      1      1        3        Team Points Won           0      0      0        0
 
 
@@ -135,12 +135,12 @@ Team Points Won          1      1      1        3        Team Points Won        
                  Old                            HDCP                      Old                            HDCP
 Bad Attitude     HDCP    -1-    -2-    Total    Total    Rick Rollers     HDCP    -1-    -2-    Total    Total
 ---------------  ------  -----  -----  -------  -------  ---------------  ------  -----  -----  -------  -------
-Degroot, Chris   17      258    212    470      504      Roggow, Dan      76      125    125    0        402
+Degroot, Chris   15      258    212    470      500      Roggow, Dan      76      125    125    0        402
 Reed, Scot       10      255    184    439      459      W, D             63      166    128    294      420
                          ====   ====   ====     ====                              ====   ====   ====     ====
 Scratch Total            513    396    909      909      Scratch Total            291    253    544      544
-Handicap                 27     27              54       Handicap                 139    139             278
-Total                    540    423    909      963      Total                    430    392    544      822
+Handicap                 25     25              50       Handicap                 139    139             278
+Total                    538    421    909      959      Total                    430    392    544      822
 Team Points Won          1      1      1        3        Team Points Won          0      0      0        0
 
 
@@ -148,12 +148,12 @@ Team Points Won          1      1      1        3        Team Points Won        
                  Old                            HDCP                        Old                            HDCP
 XXX Dancers      HDCP    -1-    -2-    Total    Total    Spare Me           HDCP    -1-    -2-    Total    Total
 ---------------  ------  -----  -----  -------  -------  -----------------  ------  -----  -----  -------  -------
-Burkhardt, Drew  48      127    182    309      405      Lawless, Brian     51      224    169    393      495
+Burkhardt, Drew  43      127    182    309      395      Lawless, Brian     51      224    169    393      495
 Patton, Steve    50      155    192    347      447      Mitchell, Melissa  70      125    138    263      403
                          ====   ====   ====     ====                                ====   ====   ====     ====
 Scratch Total            282    374    656      656      Scratch Total              349    307    656      656
-Handicap                 98     98              196      Handicap                   121    121             242
-Total                    380    472    656      852      Total                      470    428    656      898
+Handicap                 93     93              186      Handicap                   121    121             242
+Total                    375    467    656      842      Total                      470    428    656      898
 Team Points Won          0      1      0        1        Team Points Won            1      0      1        2
 
 

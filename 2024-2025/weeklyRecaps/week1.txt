@@ -57,13 +57,13 @@ Team Points Won          0      1      1        2        Team Points Won        
                   Old                            HDCP                            Old                            HDCP
 Bob_Rossing It    HDCP    -1-    -2-    Total    Total    Engineering Strikes    HDCP    -1-    -2-    Total    Total
 ----------------  ------  -----  -----  -------  -------  ---------------------  ------  -----  -----  -------  -------
-Chandler, Cory    0       130    130    0        260      H, K                   19      211    186    397      435
+Chandler, Cory    72      130    130    0        404      H, K                   19      211    186    397      435
 Herbrand, Justin  83      128    126    254      420      V, S                   68      115    173    288      424
                           ====   ====   ====     ====                                    ====   ====   ====     ====
 Scratch Total             258    256    514      514      Scratch Total                  326    359    685      685
-Handicap                  83     83              166      Handicap                       87     87              174
-Total                     341    339    514      680      Total                          413    446    685      859
-Team Points Won           0      0      0        0        Team Points Won                1      1      1        3
+Handicap                  155    155             310      Handicap                       87     87              174
+Total                     413    411    514      824      Total                          413    446    685      859
+Team Points Won           0.5    0      0        0.5      Team Points Won                0.5    1      1        2.5
 
 
 
@@ -71,11 +71,11 @@ Team Points Won           0      0      0        0        Team Points Won       
 Guess Who        HDCP    -1-    -2-    Total    Total    I am Root        HDCP    -1-    -2-    Total    Total
 ---------------  ------  -----  -----  -------  -------  ---------------  ------  -----  -----  -------  -------
 Boeding, Chris   63      156    145    301      427      Michaelis, Adam  91      124    113    237      419
-K, K             0       130    130    0        260      Smith, Brian     72      145    136    281      425
+K, K             72      130    130    0        404      Smith, Brian     72      145    136    281      425
                          ====   ====   ====     ====                              ====   ====   ====     ====
 Scratch Total            286    275    561      561      Scratch Total            269    249    518      518
-Handicap                 63     63              126      Handicap                 163    163             326
-Total                    349    338    561      687      Total                    432    412    518      844
+Handicap                 135    135             270      Handicap                 163    163             326
+Total                    421    410    561      831      Total                    432    412    518      844
 Team Points Won          0      0      0        0        Team Points Won          1      1      1        3
 
 

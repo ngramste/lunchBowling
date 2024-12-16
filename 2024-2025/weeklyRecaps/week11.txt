@@ -109,12 +109,12 @@ Team Points Won          1      1      1        3        Team Points Won        
                          Old                            HDCP                      Old                            HDCP
 We Don't Give A Split    HDCP    -1-    -2-    Total    Total    XXX Dancers      HDCP    -1-    -2-    Total    Total
 -----------------------  ------  -----  -----  -------  -------  ---------------  ------  -----  -----  -------  -------
-Crooks, Neal             93      86     129    215      401      Burkhardt, Drew  49      160    185    345      443
+Crooks, Neal             93      86     129    215      401      Burkhardt, Drew  45      160    185    345      435
 Schmidt, Derek           54      148    223    371      479      Nance, Katie     76      118    160    278      430
                                  ====   ====   ====     ====                              ====   ====   ====     ====
 Scratch Total                    234    352    586      586      Scratch Total            278    345    623      623
-Handicap                         147    147             294      Handicap                 125    125             250
-Total                            381    499    586      880      Total                    403    470    623      873
+Handicap                         147    147             294      Handicap                 121    121             242
+Total                            381    499    586      880      Total                    399    466    623      865
 Team Points Won                  0      1      1        2        Team Points Won          1      0      0        1
 
 
@@ -122,12 +122,12 @@ Team Points Won                  0      1      1        2        Team Points Won
                  Old                            HDCP                         Old                            HDCP
 Split Happens    HDCP    -1-    -2-    Total    Total    Sandbaggers         HDCP    -1-    -2-    Total    Total
 ---------------  ------  -----  -----  -------  -------  ------------------  ------  -----  -----  -------  -------
-B, B             43      167    202    369      455      Henderson, Anthony  52      150    153    303      407
+B, B             43      167    202    369      455      Henderson, Anthony  45      150    153    303      393
 Smith, Stan      54      156    165    321      429      Trent, Nick         67      138    161    299      433
                          ====   ====   ====     ====                                 ====   ====   ====     ====
 Scratch Total            323    367    690      690      Scratch Total               288    314    602      602
-Handicap                 97     97              194      Handicap                    119    119             238
-Total                    420    464    690      884      Total                       407    433    602      840
+Handicap                 97     97              194      Handicap                    112    112             224
+Total                    420    464    690      884      Total                       400    426    602      826
 Team Points Won          1      1      1        3        Team Points Won             0      0      0        0
 
 
@@ -148,12 +148,12 @@ Team Points Won          0      0      0        0        Team Points Won        
                     Old                            HDCP                      Old                            HDCP
 The Century Club    HDCP    -1-    -2-    Total    Total    AWACS ON/OFF     HDCP    -1-    -2-    Total    Total
 ------------------  ------  -----  -----  -------  -------  ---------------  ------  -----  -----  -------  -------
-Defields, Jaden     63      180    151    331      457      Cray, Jason      18      157    193    350      386
-Rhein, Bradley      66      147    123    270      402      M, K             60      201    183    384      504
+Defields, Jaden     55      180    151    331      441      Cray, Jason      18      157    193    350      386
+Rhein, Bradley      72      147    123    270      414      M, K             60      201    183    384      504
                             ====   ====   ====     ====                              ====   ====   ====     ====
 Scratch Total               327    274    601      601      Scratch Total            358    376    734      734
-Handicap                    129    129             258      Handicap                 78     78              156
-Total                       456    403    601      859      Total                    436    454    734      890
+Handicap                    127    127             254      Handicap                 78     78              156
+Total                       454    401    601      855      Total                    436    454    734      890
 Team Points Won             1      0      0        1        Team Points Won          0      1      1        2
 
 
@@ -174,10 +174,10 @@ Team Points Won          1      0      1        2        Team Points Won        
                  Old                            HDCP                      Old                            HDCP
 Bad Attitude     HDCP    -1-    -2-    Total    Total    The Outsiders    HDCP    -1-    -2-    Total    Total
 ---------------  ------  -----  -----  -------  -------  ---------------  ------  -----  -----  -------  -------
-Degroot, Chris   11      215    228    443      465      Somers, Clifton  29      177    177    0        412
+Degroot, Chris   9       215    228    443      461      Somers, Clifton  29      177    177    0        412
 Reed, Scot       9       233    171    404      422      Tew, Ryan        9       218    190    408      426
                          ====   ====   ====     ====                              ====   ====   ====     ====
 Scratch Total            448    399    847      847      Scratch Total            395    367    762      762
-Handicap                 20     20              40       Handicap                 38     38              76
-Total                    468    419    847      887      Total                    433    405    762      838
+Handicap                 18     18              36       Handicap                 38     38              76
+Total                    466    417    847      883      Total                    433    405    762      838
 Team Points Won          1      1      1        3        Team Points Won          0      0      0        0
