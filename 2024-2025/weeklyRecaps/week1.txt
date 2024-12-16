@@ -6,11 +6,11 @@ Reprint of scores for week 1
 One More         HDCP    -1-    -2-    Total    Total    Alias Smith and Godfrey    HDCP    -1-    -2-    Total    Total
 ---------------  ------  -----  -----  -------  -------  -------------------------  ------  -----  -----  -------  -------
 Bell, Tracy      0       229    227    456      456      Godfrey, Heidi             76      146    124    270      422
-Harken, Ray      21      200    192    392      434      Smith, Debbie              70      123    162    285      425
+Harken, Ray      21      200    192    392      434      Smith, Debbie              68      126    162    288      424
                          ====   ====   ====     ====                                        ====   ====   ====     ====
-Scratch Total            429    419    848      848      Scratch Total                      269    286    555      555
-Handicap                 21     21              42       Handicap                           146    146             292
-Total                    450    440    848      890      Total                              415    432    555      847
+Scratch Total            429    419    848      848      Scratch Total                      272    286    558      558
+Handicap                 21     21              42       Handicap                           144    144             288
+Total                    450    440    848      890      Total                              416    430    558      846
 Team Points Won          1      1      1        3        Team Points Won                    0      0      0        0
 
 
