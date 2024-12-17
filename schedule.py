@@ -8,6 +8,7 @@ class bowlingSchedule:
     # Now lets open the season schedule for reference
     json_scedule = open(c.SCHEDULE_PATH, "r")
     self.schedule = json.load(json_scedule)
+    json_scedule.close()
     
   def getCurrentWeekNumbers(self):
     weekNumbers = []
