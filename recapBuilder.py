@@ -8,14 +8,18 @@ testpoints = 0
 testscratch = 0
 testhandicap = 0
 
+json_bowlers_data = open(c.BOWLER_AVERAGES_PATH, "r")
+bowlers_data = json.load(json_bowlers_data)
+
 def handicapGetter(name, weekNum):
-  # Now lets open the season schedule for reference
-  with open(c.BOWLER_AVERAGES_PATH) as json_data:
-    bowlers = json.load(json_data)
-    
-    for week in bowlers[name]:
-      if week['week'] == int(weekNum):
-        return week['handicapBefore']
+  for week in bowlers_data[name]:
+    if week['week'] == int(weekNum):
+      return week['handicapBefore']
+
+def averageBeforeGetter(name, weekNum):
+  for week in bowlers_data[name]:
+    if week['week'] == int(weekNum):
+      return week['averageBefore']
 
 # We need to reference a lot of local files to figure everything out, start with getting basic team data
 with open(c.TEAMS_PATH) as json_teams:
@@ -186,16 +190,18 @@ with open(c.TEAMS_PATH) as json_teams:
                   - opponent['bowlers'][1]['handicapseries']):
             totalPts += 0.5
           
-          headers = ["\n"+team['name'], "Old\nHDCP", "\n-1-", "\n-2-", "\nTotal", "HDCP\nTotal","\n"+opponent['name'], "Old\nHDCP", "\n-1-", "\n-2-", "\nTotal", "HDCP\nTotal"]
+          headers = ["\n"+team['name'], "Old\nAvg", "Old\nHDCP", "\n-1-", "\n-2-", "\nTotal", "HDCP\nTotal","\n"+opponent['name'], "Old\nAvg", "Old\nHDCP", "\n-1-", "\n-2-", "\nTotal", "HDCP\nTotal"]
           data = [
             [
               team['bowlers'][0]['name'],
+              averageBeforeGetter(team['bowlers'][0]['name'], week),
               team['bowlers'][0]['handicap'],
               team['bowlers'][0]['games'][0]['scratch'],
               team['bowlers'][0]['games'][1]['scratch'],
               team['bowlers'][0]['scratchseries'],
               team['bowlers'][0]['handicapseries'],
               opponent['bowlers'][0]['name'],
+              averageBeforeGetter(opponent['bowlers'][0]['name'], week),
               opponent['bowlers'][0]['handicap'],
               opponent['bowlers'][0]['games'][0]['scratch'],
               opponent['bowlers'][0]['games'][1]['scratch'],
@@ -204,12 +210,14 @@ with open(c.TEAMS_PATH) as json_teams:
             ],
             [
               team['bowlers'][1]['name'],
+              averageBeforeGetter(team['bowlers'][1]['name'], week),
               team['bowlers'][1]['handicap'],
               team['bowlers'][1]['games'][0]['scratch'],
               team['bowlers'][1]['games'][1]['scratch'],
               team['bowlers'][1]['scratchseries'],
               team['bowlers'][1]['handicapseries'],
               opponent['bowlers'][1]['name'],
+              averageBeforeGetter(opponent['bowlers'][1]['name'], week),
               opponent['bowlers'][1]['handicap'],
               opponent['bowlers'][1]['games'][0]['scratch'],
               opponent['bowlers'][1]['games'][1]['scratch'],
@@ -219,10 +227,12 @@ with open(c.TEAMS_PATH) as json_teams:
             [
               "",
               "",
+              "",
               "====",
               "====",
               "====",
               "====",
+              "",
               "",
               "",
               "====",
@@ -233,11 +243,13 @@ with open(c.TEAMS_PATH) as json_teams:
             [
               "Scratch Total",
               "",
+              "",
               team['bowlers'][0]['games'][0]['scratch'] + team['bowlers'][1]['games'][0]['scratch'],
               team['bowlers'][0]['games'][1]['scratch'] + team['bowlers'][1]['games'][1]['scratch'],
               team['scratchseries'],
               team['scratchseries'],
               "Scratch Total",
+              "",
               "",
               opponent['bowlers'][0]['games'][0]['scratch'] + opponent['bowlers'][1]['games'][0]['scratch'],
               opponent['bowlers'][0]['games'][1]['scratch'] + opponent['bowlers'][1]['games'][1]['scratch'],
@@ -247,11 +259,13 @@ with open(c.TEAMS_PATH) as json_teams:
             [
               "Handicap",
               "",
+              "",
               team['bowlers'][0]['handicap'] + team['bowlers'][1]['handicap'],
               team['bowlers'][0]['handicap'] + team['bowlers'][1]['handicap'],
               "",
               (team['bowlers'][0]['handicap'] + team['bowlers'][1]['handicap']) * 2,
               "Handicap",
+              "",
               "",
               opponent['bowlers'][0]['handicap'] + opponent['bowlers'][1]['handicap'],
               opponent['bowlers'][0]['handicap'] + opponent['bowlers'][1]['handicap'],
@@ -261,11 +275,13 @@ with open(c.TEAMS_PATH) as json_teams:
             [
               "Total",
               "",
+              "",
               team['bowlers'][0]['games'][0]['handicap'] + team['bowlers'][1]['games'][0]['handicap'],
               team['bowlers'][0]['games'][1]['handicap'] + team['bowlers'][1]['games'][1]['handicap'],
               team['scratchseries'],
               team['handicapseries'],
               "Total",
+              "",
               "",
               opponent['bowlers'][0]['games'][0]['handicap'] + opponent['bowlers'][1]['games'][0]['handicap'],
               opponent['bowlers'][0]['games'][1]['handicap'] + opponent['bowlers'][1]['games'][1]['handicap'],
@@ -275,11 +291,13 @@ with open(c.TEAMS_PATH) as json_teams:
             [
               "Team Points Won",
               "",
+              "",
               game1Pts,
               game2Pts,
               totalPts,
               game1Pts + game2Pts + totalPts,
               "Team Points Won",
+              "",
               "",
               1 - game1Pts,
               1 - game2Pts,

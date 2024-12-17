@@ -6,14 +6,13 @@ from tabulate import tabulate
 
 teamScores = {}
 
+json_bowlers_data = open(c.BOWLER_AVERAGES_PATH, "r")
+bowlers_data = json.load(json_bowlers_data)
+
 def handicapGetter(name, weekNum):
-  # Now lets open the season schedule for reference
-  with open(c.BOWLER_AVERAGES_PATH) as json_data:
-    bowlers = json.load(json_data)
-    
-    for week in bowlers[name]:
-      if week['week'] == int(weekNum):
-        return week['handicapBefore']
+  for week in bowlers_data[name]:
+    if week['week'] == int(weekNum):
+      return week['handicapBefore']
 
 # We need to reference a lot of local files to figure everything out, start with getting basic team data
 with open(c.TEAMS_PATH) as json_teams:

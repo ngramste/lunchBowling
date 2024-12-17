@@ -2,182 +2,182 @@ Reprint of scores for week 8
 
 
 
-                       Old                            HDCP                       Old                            HDCP
-TB Inc LLC             HDCP    -1-    -2-    Total    Total    Lane Violation    HDCP    -1-    -2-    Total    Total
----------------------  ------  -----  -----  -------  -------  ----------------  ------  -----  -----  -------  -------
-Schlichtemeier, Isaac  79      139    113    252      410      Gabrielson, John  26      237    210    447      499
-W, C                   52      159    163    322      426      Mulnix, Moriah    126     133    120    253      505
-                               ====   ====   ====     ====                               ====   ====   ====     ====
-Scratch Total                  298    276    574      574      Scratch Total             370    330    700      700
-Handicap                       131    131             262      Handicap                  152    152             304
-Total                          429    407    574      836      Total                     522    482    700      1004
-Team Points Won                0      0      0        0        Team Points Won           1      1      1        3
+                       Old    Old                            HDCP                       Old    Old                            HDCP
+TB Inc LLC             Avg    HDCP    -1-    -2-    Total    Total    Lane Violation    Avg    HDCP    -1-    -2-    Total    Total
+---------------------  -----  ------  -----  -----  -------  -------  ----------------  -----  ------  -----  -----  -------  -------
+Schlichtemeier, Isaac  132    79      139    113    252      410      Gabrielson, John  191    26      237    210    447      499
+W, C                   162    52      159    163    322      426      Mulnix, Moriah    80     126     133    120    253      505
+                                      ====   ====   ====     ====                                      ====   ====   ====     ====
+Scratch Total                         298    276    574      574      Scratch Total                    370    330    700      700
+Handicap                              131    131             262      Handicap                         152    152             304
+Total                                 429    407    574      836      Total                            522    482    700      1004
+Team Points Won                       0      0      0        0        Team Points Won                  1      1      1        3
 
 
 
-                 Old                            HDCP                      Old                            HDCP
-The Munsons      HDCP    -1-    -2-    Total    Total    AWACS ON/OFF     HDCP    -1-    -2-    Total    Total
----------------  ------  -----  -----  -------  -------  ---------------  ------  -----  -----  -------  -------
-Karlen, Matthew  34      146    192    338      406      Cray, Jason      20      224    183    407      447
-Mosset, Tyler    74      108    161    269      417      M, K             63      181    158    339      465
-                         ====   ====   ====     ====                              ====   ====   ====     ====
-Scratch Total            254    353    607      607      Scratch Total            405    341    746      746
-Handicap                 108    108             216      Handicap                 83     83              166
-Total                    362    461    607      823      Total                    488    424    746      912
-Team Points Won          0      1      0        1        Team Points Won          1      0      1        2
+                 Old    Old                            HDCP                      Old    Old                            HDCP
+The Munsons      Avg    HDCP    -1-    -2-    Total    Total    AWACS ON/OFF     Avg    HDCP    -1-    -2-    Total    Total
+---------------  -----  ------  -----  -----  -------  -------  ---------------  -----  ------  -----  -----  -------  -------
+Karlen, Matthew  182    34      146    192    338      406      Cray, Jason      197    20      224    183    407      447
+Mosset, Tyler    137    74      108    161    269      417      M, K             150    63      181    158    339      465
+                                ====   ====   ====     ====                                     ====   ====   ====     ====
+Scratch Total                   254    353    607      607      Scratch Total                   405    341    746      746
+Handicap                        108    108             216      Handicap                        83     83              166
+Total                           362    461    607      823      Total                           488    424    746      912
+Team Points Won                 0      1      0        1        Team Points Won                 1      0      1        2
 
 
 
-                  Old                            HDCP                      Old                            HDCP
-Mark it Zero !    HDCP    -1-    -2-    Total    Total    Roll Clones      HDCP    -1-    -2-    Total    Total
-----------------  ------  -----  -----  -------  -------  ---------------  ------  -----  -----  -------  -------
-Dalbol, Andrew    28      244    192    436      492      Moffat, Andrew   30      140    179    319      379
-Roggow, Brad      73      137    144    281      427      Webster, Chance  36      187    160    347      419
-                          ====   ====   ====     ====                              ====   ====   ====     ====
-Scratch Total             381    336    717      717      Scratch Total            327    339    666      666
-Handicap                  101    101             202      Handicap                 66     66              132
-Total                     482    437    717      919      Total                    393    405    666      798
-Team Points Won           1      1      1        3        Team Points Won          0      0      0        0
+                  Old    Old                            HDCP                      Old    Old                            HDCP
+Mark it Zero !    Avg    HDCP    -1-    -2-    Total    Total    Roll Clones      Avg    HDCP    -1-    -2-    Total    Total
+----------------  -----  ------  -----  -----  -------  -------  ---------------  -----  ------  -----  -----  -------  -------
+Dalbol, Andrew    188    28      244    192    436      492      Moffat, Andrew   186    30      140    179    319      379
+Roggow, Brad      138    73      137    144    281      427      Webster, Chance  180    36      187    160    347      419
+                                 ====   ====   ====     ====                                     ====   ====   ====     ====
+Scratch Total                    381    336    717      717      Scratch Total                   327    339    666      666
+Handicap                         101    101             202      Handicap                        66     66              132
+Total                            482    437    717      919      Total                           393    405    666      798
+Team Points Won                  1      1      1        3        Team Points Won                 0      0      0        0
 
 
 
-                 Old                            HDCP                      Old                            HDCP
-The Outsiders    HDCP    -1-    -2-    Total    Total    SPAM             HDCP    -1-    -2-    Total    Total
----------------  ------  -----  -----  -------  -------  ---------------  ------  -----  -----  -------  -------
-Somers, Clifton  27      151    159    310      364      G, M             38      165    195    360      436
-Tew, Ryan        9       194    243    437      455      O, M             0       161    204    365      365
-                         ====   ====   ====     ====                              ====   ====   ====     ====
-Scratch Total            345    402    747      747      Scratch Total            326    399    725      725
-Handicap                 36     36              72       Handicap                 38     38              76
-Total                    381    438    747      819      Total                    364    437    725      801
-Team Points Won          1      1      1        3        Team Points Won          0      0      0        0
+                 Old    Old                            HDCP                      Old    Old                            HDCP
+The Outsiders    Avg    HDCP    -1-    -2-    Total    Total    SPAM             Avg    HDCP    -1-    -2-    Total    Total
+---------------  -----  ------  -----  -----  -------  -------  ---------------  -----  ------  -----  -----  -------  -------
+Somers, Clifton  189    27      151    159    310      364      G, M             177    38      165    195    360      436
+Tew, Ryan        209    9       194    243    437      455      O, M             219    0       161    204    365      365
+                                ====   ====   ====     ====                                     ====   ====   ====     ====
+Scratch Total                   345    402    747      747      Scratch Total                   326    399    725      725
+Handicap                        36     36              72       Handicap                        38     38              76
+Total                           381    438    747      819      Total                           364    437    725      801
+Team Points Won                 1      1      1        3        Team Points Won                 0      0      0        0
 
 
 
-                         Old                            HDCP                          Old                            HDCP
-We Don't Give A Split    HDCP    -1-    -2-    Total    Total    Who gives a split    HDCP    -1-    -2-    Total    Total
------------------------  ------  -----  -----  -------  -------  -------------------  ------  -----  -----  -------  -------
-Petersen, Tim            66      154    128    282      414      Burge, Courtney      83      142    135    277      443
-Schmidt, Derek           57      167    157    324      438      Evenson, Rayce       99      138    135    273      471
-                                 ====   ====   ====     ====                                  ====   ====   ====     ====
-Scratch Total                    321    285    606      606      Scratch Total                280    270    550      550
-Handicap                         123    123             246      Handicap                     182    182             364
-Total                            444    408    606      852      Total                        462    452    550      914
-Team Points Won                  0      0      0        0        Team Points Won              1      1      1        3
+                         Old    Old                            HDCP                          Old    Old                            HDCP
+We Don't Give A Split    Avg    HDCP    -1-    -2-    Total    Total    Who gives a split    Avg    HDCP    -1-    -2-    Total    Total
+-----------------------  -----  ------  -----  -----  -------  -------  -------------------  -----  ------  -----  -----  -------  -------
+Petersen, Tim            146    66      154    128    282      414      Burge, Courtney      127    83      142    135    277      443
+Schmidt, Derek           156    57      167    157    324      438      Evenson, Rayce       110    99      138    135    273      471
+                                        ====   ====   ====     ====                                         ====   ====   ====     ====
+Scratch Total                           321    285    606      606      Scratch Total                       280    270    550      550
+Handicap                                123    123             246      Handicap                            182    182             364
+Total                                   444    408    606      852      Total                               462    452    550      914
+Team Points Won                         0      0      0        0        Team Points Won                     1      1      1        3
 
 
 
-                           Old                            HDCP                      Old                            HDCP
-Alias Smith and Godfrey    HDCP    -1-    -2-    Total    Total    Split Happens    HDCP    -1-    -2-    Total    Total
--------------------------  ------  -----  -----  -------  -------  ---------------  ------  -----  -----  -------  -------
-Godfrey, Heidi             72      129    137    266      410      B, B             43      157    156    313      399
-Smith, Debbie              78      143    135    278      434      Smith, Stan      58      186    158    344      460
-                                   ====   ====   ====     ====                              ====   ====   ====     ====
-Scratch Total                      272    272    544      544      Scratch Total            343    314    657      657
-Handicap                           150    150             300      Handicap                 101    101             202
-Total                              422    422    544      844      Total                    444    415    657      859
-Team Points Won                    0      1      0        1        Team Points Won          1      0      1        2
+                           Old    Old                            HDCP                      Old    Old                            HDCP
+Alias Smith and Godfrey    Avg    HDCP    -1-    -2-    Total    Total    Split Happens    Avg    HDCP    -1-    -2-    Total    Total
+-------------------------  -----  ------  -----  -----  -------  -------  ---------------  -----  ------  -----  -----  -------  -------
+Godfrey, Heidi             139    72      129    137    266      410      B, B             172    43      157    156    313      399
+Smith, Debbie              133    78      143    135    278      434      Smith, Stan      155    58      186    158    344      460
+                                          ====   ====   ====     ====                                     ====   ====   ====     ====
+Scratch Total                             272    272    544      544      Scratch Total                   343    314    657      657
+Handicap                                  150    150             300      Handicap                        101    101             202
+Total                                     422    422    544      844      Total                           444    415    657      859
+Team Points Won                           0      1      0        1        Team Points Won                 1      0      1        2
 
 
 
-                 Old                            HDCP                      Old                            HDCP
-Top Gun          HDCP    -1-    -2-    Total    Total    Backstabbers     HDCP    -1-    -2-    Total    Total
----------------  ------  -----  -----  -------  -------  ---------------  ------  -----  -----  -------  -------
-Curry, Lonny     59      184    159    343      461      Smith, Perry     36      277    224    501      573
-D, M             30      156    211    367      427      Spiess, Gary     50      177    154    331      431
-                         ====   ====   ====     ====                              ====   ====   ====     ====
-Scratch Total            340    370    710      710      Scratch Total            454    378    832      832
-Handicap                 89     89              178      Handicap                 86     86              172
-Total                    429    459    710      888      Total                    540    464    832      1004
-Team Points Won          0      0      0        0        Team Points Won          1      1      1        3
+                 Old    Old                            HDCP                      Old    Old                            HDCP
+Top Gun          Avg    HDCP    -1-    -2-    Total    Total    Backstabbers     Avg    HDCP    -1-    -2-    Total    Total
+---------------  -----  ------  -----  -----  -------  -------  ---------------  -----  ------  -----  -----  -------  -------
+Curry, Lonny     154    59      184    159    343      461      Smith, Perry     179    36      277    224    501      573
+D, M             186    30      156    211    367      427      Spiess, Gary     164    50      177    154    331      431
+                                ====   ====   ====     ====                                     ====   ====   ====     ====
+Scratch Total                   340    370    710      710      Scratch Total                   454    378    832      832
+Handicap                        89     89              178      Handicap                        86     86              172
+Total                           429    459    710      888      Total                           540    464    832      1004
+Team Points Won                 0      0      0        0        Team Points Won                 1      1      1        3
 
 
 
-                    Old                            HDCP                       Old                            HDCP
-The Century Club    HDCP    -1-    -2-    Total    Total    Barely Bowling    HDCP    -1-    -2-    Total    Total
-------------------  ------  -----  -----  -------  -------  ----------------  ------  -----  -----  -------  -------
-Defields, Jaden     60      134    171    305      425      Bacon, Whitney    83      131    158    289      455
-Rhein, Bradley      70      117    138    255      395      Ramstead, Nick    74      109    145    254      402
-                            ====   ====   ====     ====                               ====   ====   ====     ====
-Scratch Total               251    309    560      560      Scratch Total             240    303    543      543
-Handicap                    130    130             260      Handicap                  157    157             314
-Total                       381    439    560      820      Total                     397    460    543      857
-Team Points Won             0      0      0        0        Team Points Won           1      1      1        3
+                    Old    Old                            HDCP                       Old    Old                            HDCP
+The Century Club    Avg    HDCP    -1-    -2-    Total    Total    Barely Bowling    Avg    HDCP    -1-    -2-    Total    Total
+------------------  -----  ------  -----  -----  -------  -------  ----------------  -----  ------  -----  -----  -------  -------
+Defields, Jaden     153    60      134    171    305      425      Bacon, Whitney    127    83      131    158    289      455
+Rhein, Bradley      142    70      117    138    255      395      Ramstead, Nick    137    74      109    145    254      402
+                                   ====   ====   ====     ====                                      ====   ====   ====     ====
+Scratch Total                      251    309    560      560      Scratch Total                    240    303    543      543
+Handicap                           130    130             260      Handicap                         157    157             314
+Total                              381    439    560      820      Total                            397    460    543      857
+Team Points Won                    0      0      0        0        Team Points Won                  1      1      1        3
 
 
 
-                 Old                            HDCP                      Old                            HDCP
-Craptastic       HDCP    -1-    -2-    Total    Total    One More         HDCP    -1-    -2-    Total    Total
----------------  ------  -----  -----  -------  -------  ---------------  ------  -----  -----  -------  -------
-S, K             45      161    171    332      422      Bell, Tracy      0       202    236    438      438
-Thielen, Andy    47      204    127    331      425      Harken, Ray      27      201    174    375      429
-                         ====   ====   ====     ====                              ====   ====   ====     ====
-Scratch Total            365    298    663      663      Scratch Total            403    410    813      813
-Handicap                 92     92              184      Handicap                 27     27              54
-Total                    457    390    663      847      Total                    430    437    813      867
-Team Points Won          1      0      0        1        Team Points Won          0      1      1        2
+                 Old    Old                            HDCP                      Old    Old                            HDCP
+Craptastic       Avg    HDCP    -1-    -2-    Total    Total    One More         Avg    HDCP    -1-    -2-    Total    Total
+---------------  -----  ------  -----  -----  -------  -------  ---------------  -----  ------  -----  -----  -------  -------
+S, K             169    45      161    171    332      422      Bell, Tracy      221    0       202    236    438      438
+Thielen, Andy    167    47      204    127    331      425      Harken, Ray      190    27      201    174    375      429
+                                ====   ====   ====     ====                                     ====   ====   ====     ====
+Scratch Total                   365    298    663      663      Scratch Total                   403    410    813      813
+Handicap                        92     92              184      Handicap                        27     27              54
+Total                           457    390    663      847      Total                           430    437    813      867
+Team Points Won                 1      0      0        1        Team Points Won                 0      1      1        2
 
 
 
-                  Old                            HDCP                      Old                            HDCP
-Bob_Rossing It    HDCP    -1-    -2-    Total    Total    Bad Attitude     HDCP    -1-    -2-    Total    Total
-----------------  ------  -----  -----  -------  -------  ---------------  ------  -----  -----  -------  -------
-Chandler, Cory    68      134    134    0        404      Degroot, Chris   16      205    209    414      446
-Herbrand, Justin  71      118    126    244      386      Reed, Scot       4       156    176    332      340
-                          ====   ====   ====     ====                              ====   ====   ====     ====
-Scratch Total             252    260    512      512      Scratch Total            361    385    746      746
-Handicap                  139    139             278      Handicap                 20     20              40
-Total                     391    399    512      790      Total                    381    405    746      786
-Team Points Won           1      0      1        2        Team Points Won          0      1      0        1
+                  Old    Old                            HDCP                      Old    Old                            HDCP
+Bob_Rossing It    Avg    HDCP    -1-    -2-    Total    Total    Bad Attitude     Avg    HDCP    -1-    -2-    Total    Total
+----------------  -----  ------  -----  -----  -------  -------  ---------------  -----  ------  -----  -----  -------  -------
+Chandler, Cory    144    68      134    134    0        404      Degroot, Chris   202    16      205    209    414      446
+Herbrand, Justin  141    71      118    126    244      386      Reed, Scot       215    4       156    176    332      340
+                                 ====   ====   ====     ====                                     ====   ====   ====     ====
+Scratch Total                    252    260    512      512      Scratch Total                   361    385    746      746
+Handicap                         139    139             278      Handicap                        20     20              40
+Total                            391    399    512      790      Total                           381    405    746      786
+Team Points Won                  1      0      1        2        Team Points Won                 0      1      0        1
 
 
 
-                   Old                            HDCP                      Old                            HDCP
-Spare Me           HDCP    -1-    -2-    Total    Total    I am Root        HDCP    -1-    -2-    Total    Total
------------------  ------  -----  -----  -------  -------  ---------------  ------  -----  -----  -------  -------
-Lawless, Brian     50      144    167    311      411      Michaelis, Adam  78      116    129    245      401
-Mitchell, Melissa  69      145    133    278      416      Smith, Brian     53      158    181    339      445
-                           ====   ====   ====     ====                              ====   ====   ====     ====
-Scratch Total              289    300    589      589      Scratch Total            274    310    584      584
-Handicap                   119    119             238      Handicap                 131    131             262
-Total                      408    419    589      827      Total                    405    441    584      846
-Team Points Won            1      0      0        1        Team Points Won          0      1      1        2
+                   Old    Old                            HDCP                      Old    Old                            HDCP
+Spare Me           Avg    HDCP    -1-    -2-    Total    Total    I am Root        Avg    HDCP    -1-    -2-    Total    Total
+-----------------  -----  ------  -----  -----  -------  -------  ---------------  -----  ------  -----  -----  -------  -------
+Lawless, Brian     164    50      144    167    311      411      Michaelis, Adam  133    78      116    129    245      401
+Mitchell, Melissa  143    69      145    133    278      416      Smith, Brian     161    53      158    181    339      445
+                                  ====   ====   ====     ====                                     ====   ====   ====     ====
+Scratch Total                     289    300    589      589      Scratch Total                   274    310    584      584
+Handicap                          119    119             238      Handicap                        131    131             262
+Total                             408    419    589      827      Total                           405    441    584      846
+Team Points Won                   1      0      0        1        Team Points Won                 0      1      1        2
 
 
 
-                      Old                            HDCP                      Old                            HDCP
-Lunch Hour Hookers    HDCP    -1-    -2-    Total    Total    Rick Rollers     HDCP    -1-    -2-    Total    Total
---------------------  ------  -----  -----  -------  -------  ---------------  ------  -----  -----  -------  -------
-K, D                  35      201    163    364      434      Roggow, Dan      80      150    169    319      479
-Spencer, Andy         47      152    168    320      414      W, D             64      168    154    322      450
-                              ====   ====   ====     ====                              ====   ====   ====     ====
-Scratch Total                 353    331    684      684      Scratch Total            318    323    641      641
-Handicap                      82     82              164      Handicap                 144    144             288
-Total                         435    413    684      848      Total                    462    467    641      929
-Team Points Won               0      0      0        0        Team Points Won          1      1      1        3
+                      Old    Old                            HDCP                      Old    Old                            HDCP
+Lunch Hour Hookers    Avg    HDCP    -1-    -2-    Total    Total    Rick Rollers     Avg    HDCP    -1-    -2-    Total    Total
+--------------------  -----  ------  -----  -----  -------  -------  ---------------  -----  ------  -----  -----  -------  -------
+K, D                  181    35      201    163    364      434      Roggow, Dan      131    80      150    169    319      479
+Spencer, Andy         167    47      152    168    320      414      W, D             148    64      168    154    322      450
+                                     ====   ====   ====     ====                                     ====   ====   ====     ====
+Scratch Total                        353    331    684      684      Scratch Total                   318    323    641      641
+Handicap                             82     82              164      Handicap                        144    144             288
+Total                                435    413    684      848      Total                           462    467    641      929
+Team Points Won                      0      0      0        0        Team Points Won                 1      1      1        3
 
 
 
-                 Old                            HDCP                            Old                            HDCP
-XXX Dancers      HDCP    -1-    -2-    Total    Total    Engineering Strikes    HDCP    -1-    -2-    Total    Total
----------------  ------  -----  -----  -------  -------  ---------------------  ------  -----  -----  -------  -------
-Nance, Katie     75      129    130    259      409      H, K                   22      174    193    367      411
-Peterson, Eric   70      137    138    275      415      V, S                   31      203    224    427      489
-                         ====   ====   ====     ====                                    ====   ====   ====     ====
-Scratch Total            266    268    534      534      Scratch Total                  377    417    794      794
-Handicap                 145    145             290      Handicap                       53     53              106
-Total                    411    413    534      824      Total                          430    470    794      900
-Team Points Won          0      0      0        0        Team Points Won                1      1      1        3
+                 Old    Old                            HDCP                            Old    Old                            HDCP
+XXX Dancers      Avg    HDCP    -1-    -2-    Total    Total    Engineering Strikes    Avg    HDCP    -1-    -2-    Total    Total
+---------------  -----  ------  -----  -----  -------  -------  ---------------------  -----  ------  -----  -----  -------  -------
+Nance, Katie     136    75      129    130    259      409      H, K                   195    22      174    193    367      411
+Peterson, Eric   142    70      137    138    275      415      V, S                   185    31      203    224    427      489
+                                ====   ====   ====     ====                                           ====   ====   ====     ====
+Scratch Total                   266    268    534      534      Scratch Total                         377    417    794      794
+Handicap                        145    145             290      Handicap                              53     53              106
+Total                           411    413    534      824      Total                                 430    470    794      900
+Team Points Won                 0      0      0        0        Team Points Won                       1      1      1        3
 
 
 
-                   Old                            HDCP                      Old                            HDCP
-Sandbaggers        HDCP    -1-    -2-    Total    Total    Guess Who        HDCP    -1-    -2-    Total    Total
------------------  ------  -----  -----  -------  -------  ---------------  ------  -----  -----  -------  -------
-Mcdowell, Michael  14      162    205    367      395      Boeding, Chris   60      160    200    360      480
-Trent, Nick        67      143    152    295      429      K, K             75      151    161    312      462
-                           ====   ====   ====     ====                              ====   ====   ====     ====
-Scratch Total              305    357    662      662      Scratch Total            311    361    672      672
-Handicap                   81     81              162      Handicap                 135    135             270
-Total                      386    438    662      824      Total                    446    496    672      942
-Team Points Won            0      0      0        0        Team Points Won          1      1      1        3
+                   Old    Old                            HDCP                      Old    Old                            HDCP
+Sandbaggers        Avg    HDCP    -1-    -2-    Total    Total    Guess Who        Avg    HDCP    -1-    -2-    Total    Total
+-----------------  -----  ------  -----  -----  -------  -------  ---------------  -----  ------  -----  -----  -------  -------
+Mcdowell, Michael  204    14      162    205    367      395      Boeding, Chris   153    60      160    200    360      480
+Trent, Nick        145    67      143    152    295      429      K, K             136    75      151    161    312      462
+                                  ====   ====   ====     ====                                     ====   ====   ====     ====
+Scratch Total                     305    357    662      662      Scratch Total                   311    361    672      672
+Handicap                          81     81              162      Handicap                        135    135             270
+Total                             386    438    662      824      Total                           446    496    672      942
+Team Points Won                   0      0      0        0        Team Points Won                 1      1      1        3
