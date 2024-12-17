@@ -1,13 +1,78 @@
 import json
 import constants as c
+from os import listdir
+import re
+from datetime import datetime
+
+def getDate(report, weekNum):
+  for week in report['weeks']:
+    if week['weekNum'] == weekNum:
+      return week['date']
 
 class bowlerGames:
   def __init__(self):
-
+    self.bowlers = {}
+    
     # Now lets open the season schedule for reference
-    json_bowlers = open(c.BOWLER_AVERAGES_PATH, "r")
-    self.bowlers = json.load(json_bowlers)
-    json_bowlers.close()
+    with open(c.SCHEDULE_PATH) as json_scedule:
+      report_scedule = json.load(json_scedule)
+
+      # Loop over all the recorded results, these reports hold the scores for each week
+      for filename in listdir(c.SUMMARY_PATH):
+        with open(c.SUMMARY_PATH + "\\" + filename) as json_data:
+          report = json.load(json_data)
+          week = int(re.findall(r'\d+', filename)[0])
+          date = getDate(report_scedule, week)
+          
+          for bowler in report['Data']:
+            if bowler['BowlerName'] not in self.bowlers:
+              self.bowlers[bowler['BowlerName']] = []
+              
+            scores = {
+              "week": week,
+              "date": date,
+              "timestamp": int(datetime.strptime(date, "%m/%d/%Y").timestamp()),
+              "Score1": bowler["Score1"],
+              "Score2": bowler["Score2"],
+              "ScoreType1": bowler["ScoreType1"],
+              "ScoreType2": bowler["ScoreType2"]
+            }
+            
+            self.bowlers[bowler['BowlerName']].append(scores)
+            
+            # Now sort the weeks
+            self.bowlers[bowler['BowlerName']] = sorted(self.bowlers[bowler['BowlerName']], key=lambda week: week['timestamp'])
+            
+    # Calculate the averages
+    for bowler in self.bowlers:
+      totalScratch = 0
+      games = 0
+      for week in self.bowlers[bowler]:
+        if (0 == games):
+          week['averageBefore'] = int((week['Score1'] + week['Score2']) / 2)
+        else:
+          week['averageBefore'] = int(totalScratch / games)
+        
+        week['handicapBefore'] = max(0, int((220 - week['averageBefore']) * 0.9))
+        
+        # If bowler was absent, don't roll these scores into their average
+        if week['ScoreType1'] == "A":
+          # Special case where bowler is absent and haven't yet bowled
+          if 0 == games:
+            week['averageBefore'] = 140
+            week['handicapBefore'] = max(0, int((220 - week['averageBefore']) * 0.9))
+        else:
+          games += 2
+          totalScratch += week['Score1']
+          totalScratch += week['Score2']
+        
+        week['totalScratch'] = totalScratch
+        if 0 == games:
+          # Special case where bowler is absent and haven't yet bowled for the year
+          week['averageAfter'] = 140
+        else:
+          week['averageAfter'] = int(totalScratch / games)
+        week['handicapAfter'] = max(0, int((220 - week['averageAfter']) * 0.9))
     
   def getGames(self, name):
     return self.bowlers[name]
