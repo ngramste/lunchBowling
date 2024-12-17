@@ -1,0 +1,30 @@
+  Place  Team Name                  Points Won    Points Lost    Pins+HDCP    Scratch Pins
+-------  -----------------------  ------------  -------------  -----------  --------------
+      1  Mark it Zero !                    6              0           1859            1511
+      2  Rick Rollers                      6              0           1735            1087
+      3  SPAM                              5              1           1948            1632
+      4  Bad Attitude                      5              1           1923            1555
+      5  The Outsiders                     5              1           1734            1602
+      6  I am Root                         5              1           1711            1059
+      7  Engineering Strikes               4.5            1.5         1851            1503
+      8  Roll Clones                       4.5            1.5         1753            1601
+      9  Spare Me                          4              2           1748            1162
+     10  The Munsons                       4              2           1712            1204
+     11  Barely Bowling                    4              2           1705            1057
+     12  Top Gun                           3              3           1827            1355
+     13  AWACS ON/OFF                      3              3           1816            1376
+     14  TB Inc LLC                        3              3           1687            1107
+     15  The Century Club                  3              3           1677            1173
+     16  Craptastic                        3              3           1658            1350
+     17  One More                          3              3           1649            1565
+     18  Sandbaggers                       2.5            3.5         1730            1424
+     19  Split Happens                     2              4           1757            1289
+     20  Who gives a split                 2              4           1700             996
+     21  Lunch Hour Hookers                2              4           1683            1237
+     22  Backstabbers                      1              5           1810            1386
+     23  We Don't Give A Split             1              5           1670            1190
+     24  XXX Dancers                       1              5           1657            1157
+     25  Lane Violation                    1              5           1627             917
+     26  Bob_Rossing It                    0.5            5.5         1690            1094
+     27  Alias Smith and Godfrey           0              6           1713            1137
+     28  Guess Who                         0              6           1700            1210

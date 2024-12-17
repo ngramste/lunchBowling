@@ -1,0 +1,30 @@
+  Place  Team Name                  Points Won    Points Lost    Pins+HDCP    Scratch Pins
+-------  -----------------------  ------------  -------------  -----------  --------------
+      1  One More                          3              0            890             848
+      2  The Outsiders                     3              0            872             806
+      3  Mark it Zero !                    3              0            860             686
+      4  Rick Rollers                      3              0            845             521
+      5  I am Root                         3              0            844             518
+      6  Engineering Strikes               2.5            0.5          859             685
+      7  Craptastic                        2              1            863             709
+      8  SPAM                              2              1            863             705
+      9  Bad Attitude                      2              1            859             675
+     10  AWACS ON/OFF                      2              1            854             634
+     11  The Century Club                  2              1            852             600
+     12  Spare Me                          2              1            851             585
+     13  The Munsons                       2              1            848             568
+     14  Roll Clones                       1.5            1.5          872             796
+     15  Sandbaggers                       1.5            1.5          872             750
+     16  Backstabbers                      1              2            855             643
+     17  We Don't Give A Split             1              2            851             611
+     18  Lunch Hour Hookers                1              2            850             596
+     19  TB Inc LLC                        1              2            847             557
+     20  XXX Dancers                       1              2            846             562
+     21  Barely Bowling                    1              2            840             508
+     22  Who gives a split                 1              2            840             488
+     23  Bob_Rossing It                    0.5            2.5          824             514
+     24  Top Gun                           0              3            854             618
+     25  Split Happens                     0              3            850             594
+     26  Alias Smith and Godfrey           0              3            846             558
+     27  Guess Who                         0              3            831             561
+     28  Lane Violation                    0              3            831             411

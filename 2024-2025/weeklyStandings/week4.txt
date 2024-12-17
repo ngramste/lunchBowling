@@ -1,0 +1,30 @@
+  Place  Team Name                  Points Won    Points Lost    Pins+HDCP    Scratch Pins
+-------  -----------------------  ------------  -------------  -----------  --------------
+      1  Rick Rollers                     11              1           3440            2186
+      2  SPAM                             10              2           3706            3248
+      3  I am Root                        10              2           3540            2272
+      4  The Outsiders                     9              3           3560            3290
+      5  TB Inc LLC                        9              3           3498            2354
+      6  AWACS ON/OFF                      8              4           3533            2745
+      7  Barely Bowling                    8              4           3530            2288
+      8  The Munsons                       8              4           3369            2365
+      9  Craptastic                        8              4           3367            2663
+     10  Engineering Strikes               7.5            4.5         3571            3001
+     11  Spare Me                          7              5           3439            2351
+     12  Bad Attitude                      6              6           3621            3057
+     13  One More                          6              6           3484            3248
+     14  The Century Club                  6              6           3410            2394
+     15  We Don't Give A Split             6              6           3352            2284
+     16  Mark it Zero !                    6              6           3268            2620
+     17  Sandbaggers                       5.5            6.5         3363            2621
+     18  Lunch Hour Hookers                5              7           3474            2472
+     19  Lane Violation                    5              7           3456            2046
+     20  XXX Dancers                       5              7           3379            2389
+     21  Roll Clones                       4.5            7.5         3289            2775
+     22  Split Happens                     4              8           3454            2558
+     23  Who gives a split                 4              8           3439            2101
+     24  Top Gun                           3              9           3546            2640
+     25  Bob_Rossing It                    2.5            9.5         3417            2175
+     26  Backstabbers                      2             10           3508            2734
+     27  Alias Smith and Godfrey           1             11           3321            2171
+     28  Guess Who                         1             11           3265            2309

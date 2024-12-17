@@ -14,3 +14,10 @@ class teamInfo:
   
   def getTeamName(self, teamNum):
     return self.getTeam(teamNum)['TeamName']
+  
+  def getTeamNumbers(self):
+    teams = []
+    for team in self.teams:
+      teams.append(team['TeamNum'])
+      
+    return teams
