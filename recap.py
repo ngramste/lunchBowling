@@ -20,6 +20,13 @@ class recaps:
           'data': report['Data']
         })
         
+  def getWeekNums(self):
+    weeks = []
+    for week in self.summaries:
+      weeks.append(week['week'])
+      
+    return weeks
+        
   def getWeek(self, weekNum):
     return next((item for item in self.summaries if int(item['week']) == int(weekNum)), None)['data']
     

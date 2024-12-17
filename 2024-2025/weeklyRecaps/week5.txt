@@ -32,7 +32,7 @@ Team Points Won                 1      0      1        2        Team Points Won 
 Rick Rollers     Avg    HDCP    -1-    -2-    Total    Total    Top Gun          Avg    HDCP    -1-    -2-    Total    Total
 ---------------  -----  ------  -----  -----  -------  -------  ---------------  -----  ------  -----  -----  -------  -------
 Roggow, Dan      132    79      124    135    259      417      Curry, Lonny     152    61      171    133    304      426
-W, D             140    72      130    130    0        404      D, M             193    24      169    179    348      396
+W, D             140    72      a130   a130   260      404      D, M             193    24      169    179    348      396
                                 ====   ====   ====     ====                                     ====   ====   ====     ====
 Scratch Total                   254    265    519      519      Scratch Total                   340    312    652      652
 Handicap                        151    151             302      Handicap                        85     85              170
@@ -44,7 +44,7 @@ Team Points Won                 0      1      0        1        Team Points Won 
                     Old    Old                            HDCP                      Old    Old                            HDCP
 The Century Club    Avg    HDCP    -1-    -2-    Total    Total    XXX Dancers      Avg    HDCP    -1-    -2-    Total    Total
 ------------------  -----  ------  -----  -----  -------  -------  ---------------  -----  ------  -----  -----  -------  -------
-Defields, Jaden     154    59      125    125    0        368      Burkhardt, Drew  173    42      189    158    347      431
+Defields, Jaden     154    59      a125   a125   250      368      Burkhardt, Drew  173    42      189    158    347      431
 Rhein, Bradley      145    67      142    147    289      423      Nance, Katie     134    77      137    122    259      413
                                    ====   ====   ====     ====                                     ====   ====   ====     ====
 Scratch Total                      267    272    539      539      Scratch Total                   326    280    606      606

@@ -57,7 +57,7 @@ Team Points Won                 0      0      0        0        Team Points Won 
                  Old    Old                            HDCP                      Old    Old                            HDCP
 AWACS ON/OFF     Avg    HDCP    -1-    -2-    Total    Total    Top Gun          Avg    HDCP    -1-    -2-    Total    Total
 ---------------  -----  ------  -----  -----  -------  -------  ---------------  -----  ------  -----  -----  -------  -------
-Cray, Jason      203    15      180    163    343      373      Curry, Lonny     146    66      136    136    0        404
+Cray, Jason      203    15      180    163    343      373      Curry, Lonny     146    66      a136   a136   272      404
 M, K             140    72      169    174    343      487      D, M             192    25      189    192    381      431
                                 ====   ====   ====     ====                                     ====   ====   ====     ====
 Scratch Total                   349    337    686      686      Scratch Total                   325    328    653      653
@@ -161,7 +161,7 @@ Team Points Won                 1      0      1        2        Team Points Won 
                   Old    Old                            HDCP                       Old    Old                            HDCP
 Lane Violation    Avg    HDCP    -1-    -2-    Total    Total    Bob_Rossing It    Avg    HDCP    -1-    -2-    Total    Total
 ----------------  -----  ------  -----  -----  -------  -------  ----------------  -----  ------  -----  -----  -------  -------
-Gabrielson, John  182    34      252    212    464      532      Chandler, Cory    153    60      143    143    0        406
+Gabrielson, John  182    34      252    212    464      532      Chandler, Cory    153    60      a143   a143   286      406
 Hecker, Allison   109    99      103    142    245      443      Herbrand, Justin  131    80      111    170    281      441
                                  ====   ====   ====     ====                                      ====   ====   ====     ====
 Scratch Total                    355    354    709      709      Scratch Total                    254    313    567      567

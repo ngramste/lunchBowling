@@ -3,330 +3,177 @@ import constants as c
 from os import listdir
 import re
 from tabulate import tabulate
+from schedule import schedule
+from bowlerGames import bowlerGames
+from teamInfo import teamInfo
+from recap import recaps
 
-testpoints = 0
-testscratch = 0
-testhandicap = 0
+schedule = schedule()
+bowlerGames = bowlerGames()
+teamInfo = teamInfo()
+recaps = recaps()
 
-json_bowlers_data = open(c.BOWLER_AVERAGES_PATH, "r")
-bowlers_data = json.load(json_bowlers_data)
-
-def handicapGetter(name, weekNum):
-  for week in bowlers_data[name]:
-    if week['week'] == int(weekNum):
-      return week['handicapBefore']
-
-def averageBeforeGetter(name, weekNum):
-  for week in bowlers_data[name]:
-    if week['week'] == int(weekNum):
-      return week['averageBefore']
-
-# We need to reference a lot of local files to figure everything out, start with getting basic team data
-with open(c.TEAMS_PATH) as json_teams:
-  report_teams = json.load(json_teams)
-
-  # Now lets open the season schedule for reference
-  with open(c.SCHEDULE_PATH) as json_scedule:
-    report_scedule = json.load(json_scedule)
-
-    # Loop over all the recorded results, these reports hold the scores for each week
-    for filename in listdir(c.SUMMARY_PATH):
+# Loop over all recorded weeks
+for week in recaps.getWeekNums():
+  table_output = "Reprint of scores for week " + str(week)
+    
+  # Loop over all the matchups
+  for matchup in schedule.getWeek(week)['matchups']:
+    
+    bowlers = [
+      recaps.getTeamMemberNames(week, matchup[0])[0],
+      recaps.getTeamMemberNames(week, matchup[0])[1],
+      recaps.getTeamMemberNames(week, matchup[1])[0],
+      recaps.getTeamMemberNames(week, matchup[1])[1]
+    ]
+          
+    game1Pts = 0
+    game2Pts = 0
+    totalPts = 0
+    if 0 < (bowlerGames.getHandicapGame(bowlers[0], week, 1) + bowlerGames.getHandicapGame(bowlers[1], week, 1) 
+            - bowlerGames.getHandicapGame(bowlers[2], week, 1) - bowlerGames.getHandicapGame(bowlers[3], week, 1)):
+      game1Pts += 1
       
-      with open(c.SUMMARY_PATH + "\\" + filename) as json_data:
-        report = json.load(json_data)
-        week = re.findall(r'\d+', filename)[0]
-        recaps = "Reprint of scores for week " + week
-        
-        # Build the array of arrays for weekly matchups
-        weekMatchups = [weekData for weekData in report_scedule['weeks'] if weekData['weekNum'] == int(week)][0]['matchups']
-        
-        # Loop over each matchup for this week
-        for matchup in weekMatchups:
-          team1ID = matchup[0]
-          team2ID = matchup[1]
-          
-          results = {
-            'teams': [
-              {
-                'name': list(filter(lambda team: team['TeamNum'] == team1ID, report_teams['Data']))[0]['TeamName'],
-                'handicap': 0,
-                'scratchseries': 0,
-                'handicapseries': 0,
-                'bowlers': [
-                  {
-                    'name': list(filter(lambda bowler: bowler['TeamNum'] == team1ID, report['Data']))[0]['BowlerName'],
-                    'handicap': handicapGetter(list(filter(lambda bowler: bowler['TeamNum'] == team1ID, report['Data']))[0]['BowlerName'], week),
-                    'games': [
-                      {
-                        'scratch': list(filter(lambda bowler: bowler['TeamNum'] == team1ID, report['Data']))[0]['Score1'],
-                        'handicap': 0
-                      },
-                      {
-                        'scratch': list(filter(lambda bowler: bowler['TeamNum'] == team1ID, report['Data']))[0]['Score2'],
-                        'handicap': 0
-                      }
-                    ],
-                    'scratchseries': list(filter(lambda bowler: bowler['TeamNum'] == team1ID, report['Data']))[0]['SeriesTotal'],
-                    'handicapseries': 0
-                  },
-                  {
-                    'name': list(filter(lambda bowler: bowler['TeamNum'] == team1ID, report['Data']))[1]['BowlerName'],
-                    'handicap': handicapGetter(list(filter(lambda bowler: bowler['TeamNum'] == team1ID, report['Data']))[1]['BowlerName'], week),
-                    'games': [
-                      {
-                        'scratch': list(filter(lambda bowler: bowler['TeamNum'] == team1ID, report['Data']))[1]['Score1'],
-                        'handicap': 0
-                      },
-                      {
-                        'scratch': list(filter(lambda bowler: bowler['TeamNum'] == team1ID, report['Data']))[1]['Score2'],
-                        'handicap': 0
-                      }
-                    ],
-                    'scratchseries': list(filter(lambda bowler: bowler['TeamNum'] == team1ID, report['Data']))[1]['SeriesTotal'],
-                    'handicapseries': 0
-                  }
-                ]
-              },
-              {
-                'name': list(filter(lambda team: team['TeamNum'] == team2ID, report_teams['Data']))[0]['TeamName'],
-                'handicap': 0,
-                'scratchseries': 0,
-                'handicapseries': 0,
-                'bowlers': [
-                  {
-                    'name': list(filter(lambda bowler: bowler['TeamNum'] == team2ID, report['Data']))[0]['BowlerName'],
-                    'handicap': handicapGetter(list(filter(lambda bowler: bowler['TeamNum'] == team2ID, report['Data']))[0]['BowlerName'], week),
-                    'games': [
-                      {
-                        'scratch': list(filter(lambda bowler: bowler['TeamNum'] == team2ID, report['Data']))[0]['Score1'],
-                        'handicap': 0
-                      },
-                      {
-                        'scratch': list(filter(lambda bowler: bowler['TeamNum'] == team2ID, report['Data']))[0]['Score2'],
-                        'handicap': 0
-                      }
-                    ],
-                    'scratchseries': list(filter(lambda bowler: bowler['TeamNum'] == team2ID, report['Data']))[0]['SeriesTotal'],
-                    'handicapseries': 0
-                  },
-                  {
-                    'name': list(filter(lambda bowler: bowler['TeamNum'] == team2ID, report['Data']))[1]['BowlerName'],
-                    'handicap': handicapGetter(list(filter(lambda bowler: bowler['TeamNum'] == team2ID, report['Data']))[1]['BowlerName'], week),
-                    'games': [
-                      {
-                        'scratch': list(filter(lambda bowler: bowler['TeamNum'] == team2ID, report['Data']))[1]['Score1'],
-                        'handicap': 0
-                      },
-                      {
-                        'scratch': list(filter(lambda bowler: bowler['TeamNum'] == team2ID, report['Data']))[1]['Score2'],
-                        'handicap': 0
-                      }
-                    ],
-                    'scratchseries': list(filter(lambda bowler: bowler['TeamNum'] == team2ID, report['Data']))[1]['SeriesTotal'],
-                    'handicapseries': 0
-                  }
-                ]
-              }
-            ]
-          }
-          
-          for team in results['teams']:
-            teamhandicap = 0
-            teamscratchseries = 0
-            teamhandicapseries = 0
-            for bowler in team['bowlers']:
-              handicapseries = 0
-              teamhandicap += bowler['handicap']
-              for game in bowler['games']:
-                game['handicap'] = game['scratch'] + bowler['handicap']
-                handicapseries += game['handicap']
-                teamscratchseries += game['scratch']
-                teamhandicapseries += game['handicap']
-              bowler['handicapseries'] = handicapseries
-            team['scratchseries'] = teamscratchseries
-            team['handicapseries'] = teamhandicapseries
-            team['handicap'] = teamhandicap
-            
-          
-          team = results['teams'][0]
-          opponent = results['teams'][1]
-          
-          game1Pts = 0
-          game2Pts = 0
-          totalPts = 0
-          if 0 < (team['bowlers'][0]['games'][0]['handicap'] 
-                  + team['bowlers'][1]['games'][0]['handicap'] 
-                  - opponent['bowlers'][0]['games'][0]['handicap'] 
-                  - opponent['bowlers'][1]['games'][0]['handicap']):
-            game1Pts += 1
-            
-          if 0 == (team['bowlers'][0]['games'][0]['handicap'] 
-                   + team['bowlers'][1]['games'][0]['handicap'] 
-                   - opponent['bowlers'][0]['games'][0]['handicap'] 
-                   - opponent['bowlers'][1]['games'][0]['handicap']):
-            game1Pts += 0.5
-            
-          if 0 < (team['bowlers'][0]['games'][1]['handicap'] 
-                  + team['bowlers'][1]['games'][1]['handicap'] 
-                  - opponent['bowlers'][0]['games'][1]['handicap'] 
-                  - opponent['bowlers'][1]['games'][1]['handicap']):
-            game2Pts += 1
-            
-          if 0 == (team['bowlers'][0]['games'][1]['handicap'] 
-                   + team['bowlers'][1]['games'][1]['handicap'] 
-                   - opponent['bowlers'][0]['games'][1]['handicap'] 
-                   - opponent['bowlers'][1]['games'][1]['handicap']):
-            game2Pts += 0.5
-            
-          if 0 < (team['bowlers'][0]['handicapseries'] 
-                  + team['bowlers'][1]['handicapseries'] 
-                  - opponent['bowlers'][0]['handicapseries'] 
-                  - opponent['bowlers'][1]['handicapseries']):
-            totalPts += 1
-            
-          if 0 == (team['bowlers'][0]['handicapseries'] 
-                  + team['bowlers'][1]['handicapseries'] 
-                  - opponent['bowlers'][0]['handicapseries'] 
-                  - opponent['bowlers'][1]['handicapseries']):
-            totalPts += 0.5
-          
-          headers = ["\n"+team['name'], "Old\nAvg", "Old\nHDCP", "\n-1-", "\n-2-", "\nTotal", "HDCP\nTotal","\n"+opponent['name'], "Old\nAvg", "Old\nHDCP", "\n-1-", "\n-2-", "\nTotal", "HDCP\nTotal"]
-          data = [
-            [
-              team['bowlers'][0]['name'],
-              averageBeforeGetter(team['bowlers'][0]['name'], week),
-              team['bowlers'][0]['handicap'],
-              team['bowlers'][0]['games'][0]['scratch'],
-              team['bowlers'][0]['games'][1]['scratch'],
-              team['bowlers'][0]['scratchseries'],
-              team['bowlers'][0]['handicapseries'],
-              opponent['bowlers'][0]['name'],
-              averageBeforeGetter(opponent['bowlers'][0]['name'], week),
-              opponent['bowlers'][0]['handicap'],
-              opponent['bowlers'][0]['games'][0]['scratch'],
-              opponent['bowlers'][0]['games'][1]['scratch'],
-              opponent['bowlers'][0]['scratchseries'],
-              opponent['bowlers'][0]['handicapseries']
-            ],
-            [
-              team['bowlers'][1]['name'],
-              averageBeforeGetter(team['bowlers'][1]['name'], week),
-              team['bowlers'][1]['handicap'],
-              team['bowlers'][1]['games'][0]['scratch'],
-              team['bowlers'][1]['games'][1]['scratch'],
-              team['bowlers'][1]['scratchseries'],
-              team['bowlers'][1]['handicapseries'],
-              opponent['bowlers'][1]['name'],
-              averageBeforeGetter(opponent['bowlers'][1]['name'], week),
-              opponent['bowlers'][1]['handicap'],
-              opponent['bowlers'][1]['games'][0]['scratch'],
-              opponent['bowlers'][1]['games'][1]['scratch'],
-              opponent['bowlers'][1]['scratchseries'],
-              opponent['bowlers'][1]['handicapseries']
-            ],
-            [
-              "",
-              "",
-              "",
-              "====",
-              "====",
-              "====",
-              "====",
-              "",
-              "",
-              "",
-              "====",
-              "====",
-              "====",
-              "===="
-            ],
-            [
-              "Scratch Total",
-              "",
-              "",
-              team['bowlers'][0]['games'][0]['scratch'] + team['bowlers'][1]['games'][0]['scratch'],
-              team['bowlers'][0]['games'][1]['scratch'] + team['bowlers'][1]['games'][1]['scratch'],
-              team['scratchseries'],
-              team['scratchseries'],
-              "Scratch Total",
-              "",
-              "",
-              opponent['bowlers'][0]['games'][0]['scratch'] + opponent['bowlers'][1]['games'][0]['scratch'],
-              opponent['bowlers'][0]['games'][1]['scratch'] + opponent['bowlers'][1]['games'][1]['scratch'],
-              opponent['scratchseries'],
-              opponent['scratchseries']
-            ],
-            [
-              "Handicap",
-              "",
-              "",
-              team['bowlers'][0]['handicap'] + team['bowlers'][1]['handicap'],
-              team['bowlers'][0]['handicap'] + team['bowlers'][1]['handicap'],
-              "",
-              (team['bowlers'][0]['handicap'] + team['bowlers'][1]['handicap']) * 2,
-              "Handicap",
-              "",
-              "",
-              opponent['bowlers'][0]['handicap'] + opponent['bowlers'][1]['handicap'],
-              opponent['bowlers'][0]['handicap'] + opponent['bowlers'][1]['handicap'],
-              "",
-              (opponent['bowlers'][0]['handicap'] + opponent['bowlers'][1]['handicap']) * 2
-            ],
-            [
-              "Total",
-              "",
-              "",
-              team['bowlers'][0]['games'][0]['handicap'] + team['bowlers'][1]['games'][0]['handicap'],
-              team['bowlers'][0]['games'][1]['handicap'] + team['bowlers'][1]['games'][1]['handicap'],
-              team['scratchseries'],
-              team['handicapseries'],
-              "Total",
-              "",
-              "",
-              opponent['bowlers'][0]['games'][0]['handicap'] + opponent['bowlers'][1]['games'][0]['handicap'],
-              opponent['bowlers'][0]['games'][1]['handicap'] + opponent['bowlers'][1]['games'][1]['handicap'],
-              opponent['scratchseries'],
-              opponent['handicapseries']
-            ],
-            [
-              "Team Points Won",
-              "",
-              "",
-              game1Pts,
-              game2Pts,
-              totalPts,
-              game1Pts + game2Pts + totalPts,
-              "Team Points Won",
-              "",
-              "",
-              1 - game1Pts,
-              1 - game2Pts,
-              1 - totalPts,
-              3 - game1Pts - game2Pts - totalPts
-            ]
-          ]
-            
-          recaps += "\n\n\n\n" + tabulate(data, headers=headers)
-          
-          # if it is an interesting team, print out the data
-          if team['name'] == "The Munsons" or opponent['name'] == "The Munsons":
-            if team['name'] == "The Munsons":
-              testpoints += game1Pts + game2Pts + totalPts
-              testhandicap += team['handicapseries']
-              testscratch += team['scratchseries']
-            if opponent['name'] == "The Munsons":
-              testpoints += 3 - game1Pts - game2Pts - totalPts
-              testhandicap += opponent['handicapseries']
-              testscratch += opponent['scratchseries']
-              
-            print("\n\n Week " + week)
-            print("Points: "+str(testpoints)+" Handicap: "+str(testhandicap)+" Scratch: " +str(testscratch) )
-            print(tabulate(data, headers=headers))
-          
-      # Write the recaps out to file for safe keeping
-      fd = open(c.RECAPS_PATH + "\\" + filename.replace(".json", ".txt"), "w")
-      fd.write(recaps)
-      fd.close()
-          
-          
-          
+    if 0 == (bowlerGames.getHandicapGame(bowlers[0], week, 1) + bowlerGames.getHandicapGame(bowlers[1], week, 1) 
+            - bowlerGames.getHandicapGame(bowlers[2], week, 1) - bowlerGames.getHandicapGame(bowlers[3], week, 1)):
+      game1Pts += 0.5
+      
+    if 0 < (bowlerGames.getHandicapGame(bowlers[0], week, 2) + bowlerGames.getHandicapGame(bowlers[1], week, 2) 
+            - bowlerGames.getHandicapGame(bowlers[2], week, 2) - bowlerGames.getHandicapGame(bowlers[3], week, 2)):
+      game2Pts += 1
+      
+    if 0 == (bowlerGames.getHandicapGame(bowlers[0], week, 2) + bowlerGames.getHandicapGame(bowlers[1], week, 2) 
+            - bowlerGames.getHandicapGame(bowlers[2], week, 2) - bowlerGames.getHandicapGame(bowlers[3], week, 2)):
+      game2Pts += 0.5
+      
+    if 0 < (bowlerGames.getHandicapSeries(bowlers[0], week) + bowlerGames.getHandicapSeries(bowlers[1], week)
+            - bowlerGames.getHandicapSeries(bowlers[2], week) - bowlerGames.getHandicapSeries(bowlers[3], week)):
+      totalPts += 1
+      
+    if 0 == (bowlerGames.getHandicapSeries(bowlers[0], week) + bowlerGames.getHandicapSeries(bowlers[1], week)
+            - bowlerGames.getHandicapSeries(bowlers[2], week) - bowlerGames.getHandicapSeries(bowlers[3], week)):
+      totalPts += 0.5
+    
+    headers = ["\n"+teamInfo.getTeamName(matchup[0]), "Old\nAvg", "Old\nHDCP", "\n-1-", "\n-2-", "\nTotal", "HDCP\nTotal","\n"+teamInfo.getTeamName(matchup[1]), "Old\nAvg", "Old\nHDCP", "\n-1-", "\n-2-", "\nTotal", "HDCP\nTotal"]
+    data = [
+      [
+        bowlers[0],
+        bowlerGames.getGame(bowlers[0], week)['averageBefore'],
+        bowlerGames.getGame(bowlers[0], week)['handicapBefore'],
+        bowlerGames.getGamePrefix(bowlers[0], week, 1) + str(bowlerGames.getGame(bowlers[0], week)['Score1']),
+        bowlerGames.getGamePrefix(bowlers[0], week, 2) + str(bowlerGames.getGame(bowlers[0], week)['Score2']),
+        bowlerGames.getScratchSeries(bowlers[0], week),
+        bowlerGames.getHandicapSeries(bowlers[0], week),
+        bowlers[2],
+        bowlerGames.getGame(bowlers[2], week)['averageBefore'],
+        bowlerGames.getGame(bowlers[2], week)['handicapBefore'],
+        bowlerGames.getGamePrefix(bowlers[2], week, 1) + str(bowlerGames.getGame(bowlers[2], week)['Score1']),
+        bowlerGames.getGamePrefix(bowlers[2], week, 1) + str(bowlerGames.getGame(bowlers[2], week)['Score2']),
+        bowlerGames.getScratchSeries(bowlers[2], week),
+        bowlerGames.getHandicapSeries(bowlers[2], week)
+      ],
+      [
+        bowlers[1],
+        bowlerGames.getGame(bowlers[1], week)['averageBefore'],
+        bowlerGames.getGame(bowlers[1], week)['handicapBefore'],
+        bowlerGames.getGamePrefix(bowlers[1], week, 1) + str(bowlerGames.getGame(bowlers[1], week)['Score1']),
+        bowlerGames.getGamePrefix(bowlers[1], week, 1) + str(bowlerGames.getGame(bowlers[1], week)['Score2']),
+        bowlerGames.getScratchSeries(bowlers[1], week),
+        bowlerGames.getHandicapSeries(bowlers[1], week),
+        bowlers[3],
+        bowlerGames.getGame(bowlers[3], week)['averageBefore'],
+        bowlerGames.getGame(bowlers[3], week)['handicapBefore'],
+        bowlerGames.getGamePrefix(bowlers[3], week, 1) + str(bowlerGames.getGame(bowlers[3], week)['Score1']),
+        bowlerGames.getGamePrefix(bowlers[3], week, 1) + str(bowlerGames.getGame(bowlers[3], week)['Score2']),
+        bowlerGames.getScratchSeries(bowlers[3], week),
+        bowlerGames.getHandicapSeries(bowlers[3], week)
+      ],
+      [
+        "",
+        "",
+        "",
+        "====",
+        "====",
+        "====",
+        "====",
+        "",
+        "",
+        "",
+        "====",
+        "====",
+        "====",
+        "===="
+      ],
+      [
+        "Scratch Total",
+        "",
+        "",
+        bowlerGames.getGame(bowlers[0], week)['Score1'] + bowlerGames.getGame(bowlers[1], week)['Score1'],
+        bowlerGames.getGame(bowlers[0], week)['Score2'] + bowlerGames.getGame(bowlers[1], week)['Score2'],
+        bowlerGames.getScratchSeries(bowlers[0], week) + bowlerGames.getScratchSeries(bowlers[1], week),
+        bowlerGames.getScratchSeries(bowlers[0], week) + bowlerGames.getScratchSeries(bowlers[1], week),
+        "Scratch Total",
+        "",
+        "",
+        bowlerGames.getGame(bowlers[2], week)['Score1'] + bowlerGames.getGame(bowlers[3], week)['Score1'],
+        bowlerGames.getGame(bowlers[2], week)['Score2'] + bowlerGames.getGame(bowlers[3], week)['Score2'],
+        bowlerGames.getScratchSeries(bowlers[2], week) + bowlerGames.getScratchSeries(bowlers[3], week),
+        bowlerGames.getScratchSeries(bowlers[2], week) + bowlerGames.getScratchSeries(bowlers[3], week)
+      ],
+      [
+        "Handicap",
+        "",
+        "",
+        bowlerGames.getGame(bowlers[0], week)['handicapBefore'] + bowlerGames.getGame(bowlers[1], week)['handicapBefore'],
+        bowlerGames.getGame(bowlers[0], week)['handicapBefore'] + bowlerGames.getGame(bowlers[1], week)['handicapBefore'],
+        "",
+        2 * (bowlerGames.getGame(bowlers[0], week)['handicapBefore'] + bowlerGames.getGame(bowlers[1], week)['handicapBefore']),
+        "Handicap",
+        "",
+        "",
+        bowlerGames.getGame(bowlers[2], week)['handicapBefore'] + bowlerGames.getGame(bowlers[3], week)['handicapBefore'],
+        bowlerGames.getGame(bowlers[2], week)['handicapBefore'] + bowlerGames.getGame(bowlers[3], week)['handicapBefore'],
+        "",
+        2 * (bowlerGames.getGame(bowlers[2], week)['handicapBefore'] + bowlerGames.getGame(bowlers[3], week)['handicapBefore']),
+      ],
+      [
+        "Total",
+        "",
+        "",
+        bowlerGames.getHandicapGame(bowlers[0], week, 1) + bowlerGames.getHandicapGame(bowlers[1], week, 1),
+        bowlerGames.getHandicapGame(bowlers[0], week, 2) + bowlerGames.getHandicapGame(bowlers[1], week, 2),
+        bowlerGames.getScratchSeries(bowlers[0], week) + bowlerGames.getScratchSeries(bowlers[1], week),
+        bowlerGames.getHandicapSeries(bowlers[0], week) + bowlerGames.getHandicapSeries(bowlers[1], week),
+        "Total",
+        "",
+        "",
+        bowlerGames.getHandicapGame(bowlers[2], week, 1) + bowlerGames.getHandicapGame(bowlers[3], week, 1),
+        bowlerGames.getHandicapGame(bowlers[2], week, 2) + bowlerGames.getHandicapGame(bowlers[3], week, 2),
+        bowlerGames.getScratchSeries(bowlers[2], week) + bowlerGames.getScratchSeries(bowlers[3], week),
+        bowlerGames.getHandicapSeries(bowlers[2], week) + bowlerGames.getHandicapSeries(bowlers[3], week)
+      ],
+      [
+        "Team Points Won",
+        "",
+        "",
+        game1Pts,
+        game2Pts,
+        totalPts,
+        game1Pts + game2Pts + totalPts,
+        "Team Points Won",
+        "",
+        "",
+        1 - game1Pts,
+        1 - game2Pts,
+        1 - totalPts,
+        3 - game1Pts - game2Pts - totalPts
+      ]
+    ]
+      
+    table_output += "\n\n\n\n" + tabulate(data, headers=headers)
+    
+  # Write the recaps out to file for safe keeping
+  fd = open(c.RECAPS_PATH + "\\week" + str(week) + ".txt", "w")
+  fd.write(table_output)
+  fd.close()
+  

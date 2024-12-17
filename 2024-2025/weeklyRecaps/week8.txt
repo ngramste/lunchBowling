@@ -122,7 +122,7 @@ Team Points Won                 1      0      0        1        Team Points Won 
                   Old    Old                            HDCP                      Old    Old                            HDCP
 Bob_Rossing It    Avg    HDCP    -1-    -2-    Total    Total    Bad Attitude     Avg    HDCP    -1-    -2-    Total    Total
 ----------------  -----  ------  -----  -----  -------  -------  ---------------  -----  ------  -----  -----  -------  -------
-Chandler, Cory    144    68      134    134    0        404      Degroot, Chris   202    16      205    209    414      446
+Chandler, Cory    144    68      a134   a134   268      404      Degroot, Chris   202    16      205    209    414      446
 Herbrand, Justin  141    71      118    126    244      386      Reed, Scot       215    4       156    176    332      340
                                  ====   ====   ====     ====                                     ====   ====   ====     ====
 Scratch Total                    252    260    512      512      Scratch Total                   361    385    746      746

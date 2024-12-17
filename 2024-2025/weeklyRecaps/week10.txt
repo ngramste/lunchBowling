@@ -135,7 +135,7 @@ Team Points Won                 1      1      1        3        Team Points Won 
                  Old    Old                            HDCP                      Old    Old                            HDCP
 Bad Attitude     Avg    HDCP    -1-    -2-    Total    Total    Rick Rollers     Avg    HDCP    -1-    -2-    Total    Total
 ---------------  -----  ------  -----  -----  -------  -------  ---------------  -----  ------  -----  -----  -------  -------
-Degroot, Chris   203    15      258    212    470      500      Roggow, Dan      135    76      125    125    0        402
+Degroot, Chris   203    15      258    212    470      500      Roggow, Dan      135    76      a125   a125   250      402
 Reed, Scot       208    10      255    184    439      459      W, D             150    63      166    128    294      420
                                 ====   ====   ====     ====                                     ====   ====   ====     ====
 Scratch Total                   513    396    909      909      Scratch Total                   291    253    544      544

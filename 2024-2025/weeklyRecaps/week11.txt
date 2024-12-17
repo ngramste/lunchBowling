@@ -174,7 +174,7 @@ Team Points Won                 1      0      1        2        Team Points Won 
                  Old    Old                            HDCP                      Old    Old                            HDCP
 Bad Attitude     Avg    HDCP    -1-    -2-    Total    Total    The Outsiders    Avg    HDCP    -1-    -2-    Total    Total
 ---------------  -----  ------  -----  -----  -------  -------  ---------------  -----  ------  -----  -----  -------  -------
-Degroot, Chris   209    9       215    228    443      461      Somers, Clifton  187    29      177    177    0        412
+Degroot, Chris   209    9       215    228    443      461      Somers, Clifton  187    29      a177   a177   354      412
 Reed, Scot       209    9       233    171    404      422      Tew, Ryan        209    9       218    190    408      426
                                 ====   ====   ====     ====                                     ====   ====   ====     ====
 Scratch Total                   448    399    847      847      Scratch Total                   395    367    762      762

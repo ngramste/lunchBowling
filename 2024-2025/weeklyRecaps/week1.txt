@@ -57,7 +57,7 @@ Team Points Won                 0      1      1        2        Team Points Won 
                   Old    Old                            HDCP                            Old    Old                            HDCP
 Bob_Rossing It    Avg    HDCP    -1-    -2-    Total    Total    Engineering Strikes    Avg    HDCP    -1-    -2-    Total    Total
 ----------------  -----  ------  -----  -----  -------  -------  ---------------------  -----  ------  -----  -----  -------  -------
-Chandler, Cory    140    72      130    130    0        404      H, K                   198    19      211    186    397      435
+Chandler, Cory    140    72      a130   a130   260      404      H, K                   198    19      211    186    397      435
 Herbrand, Justin  127    83      128    126    254      420      V, S                   144    68      115    173    288      424
                                  ====   ====   ====     ====                                           ====   ====   ====     ====
 Scratch Total                    258    256    514      514      Scratch Total                         326    359    685      685
@@ -71,7 +71,7 @@ Team Points Won                  0.5    0      0        0.5      Team Points Won
 Guess Who        Avg    HDCP    -1-    -2-    Total    Total    I am Root        Avg    HDCP    -1-    -2-    Total    Total
 ---------------  -----  ------  -----  -----  -------  -------  ---------------  -----  ------  -----  -----  -------  -------
 Boeding, Chris   150    63      156    145    301      427      Michaelis, Adam  118    91      124    113    237      419
-K, K             140    72      130    130    0        404      Smith, Brian     140    72      145    136    281      425
+K, K             140    72      a130   a130   260      404      Smith, Brian     140    72      145    136    281      425
                                 ====   ====   ====     ====                                     ====   ====   ====     ====
 Scratch Total                   286    275    561      561      Scratch Total                   269    249    518      518
 Handicap                        135    135             270      Handicap                        163    163             326

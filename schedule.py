@@ -2,7 +2,7 @@ import json
 import constants as c
 from datetime import datetime
 
-class bowlingSchedule:
+class schedule:
   def __init__(self):
 
     # Now lets open the season schedule for reference
