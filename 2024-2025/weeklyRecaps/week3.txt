@@ -31,7 +31,7 @@ Team Points Won                 0      1      1        2        Team Points Won 
                  Old    Old                            HDCP                              Old    Old                            HDCP
 Sandbaggers      Avg    HDCP    -1-    -2-    Total    Total    We Don't Give A Split    Avg    HDCP    -1-    -2-    Total    Total
 ---------------  -----  ------  -----  -----  -------  -------  -----------------------  -----  ------  -----  -----  -------  -------
-Trent, Nick      152    61      154    127    281      403      Crooks, Neal             127    83      110    145    255      421
+Trent, Nick      152    61      154    127    281      403      Crooks, Neal             e127   e83     110    145    255      421
 Yost, Henry      176    39      151    147    298      376      Petersen, Tim            151    62      145    121    266      390
                                 ====   ====   ====     ====                                             ====   ====   ====     ====
 Scratch Total                   305    274    579      579      Scratch Total                           255    266    521      521
@@ -96,7 +96,7 @@ Team Points Won                 0      1      1        2        Team Points Won 
                      Old    Old                            HDCP                         Old    Old                            HDCP
 Who gives a split    Avg    HDCP    -1-    -2-    Total    Total    Bad Attitude        Avg    HDCP    -1-    -2-    Total    Total
 -------------------  -----  ------  -----  -----  -------  -------  ------------------  -----  ------  -----  -----  -------  -------
-Evenson, Rayce       100    108     115    135    250      466      Degroot, Chris      191    26      190    192    382      434
+Evenson, Rayce       100    108     115    135    250      466      Degroot, Chris      e191   e26     190    192    382      434
 Toothaker, James     148    64      141    136    277      405      Henderson, Anthony  174    41      184    154    338      420
                                     ====   ====   ====     ====                                        ====   ====   ====     ====
 Scratch Total                       256    271    527      527      Scratch Total                      374    346    720      720
@@ -109,8 +109,8 @@ Team Points Won                     0      1      1        2        Team Points 
                   Old    Old                            HDCP                                Old    Old                            HDCP
 Spare Me          Avg    HDCP    -1-    -2-    Total    Total    Alias Smith and Godfrey    Avg    HDCP    -1-    -2-    Total    Total
 ----------------  -----  ------  -----  -----  -------  -------  -------------------------  -----  ------  -----  -----  -------  -------
-Mitchell, Robert  114    95      116    112    228      418      Godfrey, Heidi             141    71      121    143    264      406
-Strong, Justin    139    72      126    153    279      423      Smith, Debbie              142    70      102    161    263      403
+Mitchell, Robert  e114   e95     116    112    228      418      Godfrey, Heidi             141    71      121    143    264      406
+Strong, Justin    e139   e72     126    153    279      423      Smith, Debbie              142    70      102    161    263      403
                                  ====   ====   ====     ====                                               ====   ====   ====     ====
 Scratch Total                    242    265    507      507      Scratch Total                             223    304    527      527
 Handicap                         167    167             334      Handicap                                  141    141             282

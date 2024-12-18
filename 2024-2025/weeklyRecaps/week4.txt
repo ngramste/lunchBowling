@@ -6,7 +6,7 @@ Reprint of scores for week 4
 Top Gun          Avg    HDCP    -1-    -2-    Total    Total    Barely Bowling    Avg    HDCP    -1-    -2-    Total    Total
 ---------------  -----  ------  -----  -----  -------  -------  ----------------  -----  ------  -----  -----  -------  -------
 Curry, Lonny     146    66      155    170    325      457      Bacon, Whitney    119    90      130    134    264      444
-L, D             153    60      116    191    307      427      Ramstead, Nick    130    81      139    193    332      494
+L, D             e153   e60     116    191    307      427      Ramstead, Nick    130    81      139    193    332      494
                                 ====   ====   ====     ====                                      ====   ====   ====     ====
 Scratch Total                   271    361    632      632      Scratch Total                    269    327    596      596
 Handicap                        126    126             252      Handicap                         171    171             342
@@ -31,7 +31,7 @@ Team Points Won                    0      0      0        0        Team Points W
                  Old    Old                            HDCP                       Old    Old                            HDCP
 One More         Avg    HDCP    -1-    -2-    Total    Total    Bob_Rossing It    Avg    HDCP    -1-    -2-    Total    Total
 ---------------  -----  ------  -----  -----  -------  -------  ----------------  -----  ------  -----  -----  -------  -------
-Bell, Tracy      216    3       220    214    434      440      Bachman, Jason    102    106     85     120    205      417
+Bell, Tracy      216    3       220    214    434      440      Bachman, Jason    e102   e106    85     120    205      417
 Harken, Ray      188    28      227    154    381      437      Herbrand, Justin  134    77      135    174    309      463
                                 ====   ====   ====     ====                                      ====   ====   ====     ====
 Scratch Total                   447    368    815      815      Scratch Total                    220    294    514      514
@@ -70,7 +70,7 @@ Team Points Won                 1      0      0        1        Team Points Won 
                       Old    Old                            HDCP                      Old    Old                            HDCP
 Lunch Hour Hookers    Avg    HDCP    -1-    -2-    Total    Total    XXX Dancers      Avg    HDCP    -1-    -2-    Total    Total
 --------------------  -----  ------  -----  -----  -------  -------  ---------------  -----  ------  -----  -----  -------  -------
-Karl, Anthony         127    83      126    178    304      470      Dooley, Gene     168    46      148    188    336      428
+Karl, Anthony         127    83      126    178    304      470      Dooley, Gene     e168   e46     148    188    336      428
 Spencer, Andy         175    40      140    160    300      380      Nance, Katie     130    81      133    159    292      454
                                      ====   ====   ====     ====                                     ====   ====   ====     ====
 Scratch Total                        266    338    604      604      Scratch Total                   281    347    628      628
@@ -135,7 +135,7 @@ Team Points Won                  0      0      0        0        Team Points Won
                  Old    Old                            HDCP                      Old    Old                            HDCP
 The Outsiders    Avg    HDCP    -1-    -2-    Total    Total    Roll Clones      Avg    HDCP    -1-    -2-    Total    Total
 ---------------  -----  ------  -----  -----  -------  -------  ---------------  -----  ------  -----  -----  -------  -------
-Somers, Clifton  197    20      184    267    451      491      Mcnamer, Carson  86     120     94     79     173      413
+Somers, Clifton  197    20      184    267    451      491      Mcnamer, Carson  e86    e120    94     79     173      413
 Tew, Ryan        204    14      215    216    431      459      Moffat, Andrew   192    25      182    213    395      445
                                 ====   ====   ====     ====                                     ====   ====   ====     ====
 Scratch Total                   399    483    882      882      Scratch Total                   276    292    568      568

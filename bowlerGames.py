@@ -86,6 +86,14 @@ class bowlerGames:
   def getGame(self, name, weekNum):
     return next((item for item in self.getGames(name) if int(item['week']) == int(weekNum)), None)
   
+  def establishingFlag(self, name, weekNum):
+    for game in self.getGames(name):
+      if "A" != game['ScoreType1']:
+        if game['week'] == weekNum:
+          return "e"
+        else:
+          return ""
+  
   def getScratchSeries(self, name, weekNum):
     game = self.getGame(name, weekNum)
     return game['Score1'] + game['Score2']
@@ -113,7 +121,6 @@ class bowlerGames:
     if gameNum == 2:
       if game['ScoreType2'] == "A":
         return "a"
-      
     return ""
       
   def getGender(self, name):

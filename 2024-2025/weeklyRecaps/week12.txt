@@ -45,7 +45,7 @@ Team Points Won                  1      1      1        3        Team Points Won
 The Munsons      Avg    HDCP    -1-    -2-    Total    Total    Alias Smith and Godfrey    Avg    HDCP    -1-    -2-    Total    Total
 ---------------  -----  ------  -----  -----  -------  -------  -------------------------  -----  ------  -----  -----  -------  -------
 Karlen, Jessica  124    86      112    91     203      375      Godfrey, Heidi             139    72      132    151    283      427
-Mosset, Tyler    133    78      132    114    246      402      Smith, Ryan                224    0       212    236    448      448
+Mosset, Tyler    133    78      132    114    246      402      Smith, Ryan                e224   e0      212    236    448      448
                                 ====   ====   ====     ====                                               ====   ====   ====     ====
 Scratch Total                   244    205    449      449      Scratch Total                             344    387    731      731
 Handicap                        164    164             328      Handicap                                  72     72              144

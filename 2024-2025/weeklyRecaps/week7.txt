@@ -71,7 +71,7 @@ Team Points Won                 0      1      1        2        Team Points Won 
 Who gives a split    Avg    HDCP    -1-    -2-    Total    Total    Top Gun          Avg    HDCP    -1-    -2-    Total    Total
 -------------------  -----  ------  -----  -----  -------  -------  ---------------  -----  ------  -----  -----  -------  -------
 Evenson, Rayce       110    99      113    104    217      415      Curry, Lonny     152    61      203    129    332      454
-Sevick, Josh         139    72      154    124    278      422      D, M             189    27      167    170    337      391
+Sevick, Josh         e139   e72     154    124    278      422      D, M             189    27      167    170    337      391
                                     ====   ====   ====     ====                                     ====   ====   ====     ====
 Scratch Total                       267    228    495      495      Scratch Total                   370    299    669      669
 Handicap                            171    171             342      Handicap                        88     88              176

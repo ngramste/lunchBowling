@@ -6,7 +6,7 @@ Reprint of scores for week 0
 Split Happens    Avg    HDCP    -1-    -2-    Total    Total    Craptastic       Avg    HDCP    -1-    -2-    Total    Total
 ---------------  -----  ------  -----  -----  -------  -------  ---------------  -----  ------  -----  -----  -------  -------
 B, B             152    61      169    188    357      479      S, K             194    23      169    144    313      359
-Patton, Steve    169    45      168    170    338      428      Thielen, Andy    160    54      202    126    328      436
+Patton, Steve    e169   e45     168    170    338      428      Thielen, Andy    160    54      202    126    328      436
                                 ====   ====   ====     ====                                     ====   ====   ====     ====
 Scratch Total                   337    358    695      695      Scratch Total                   371    270    641      641
 Handicap                        106    106             212      Handicap                        77     77              154
@@ -19,7 +19,7 @@ Team Points Won                 0      1      1        2        Team Points Won 
 Top Gun          Avg    HDCP    -1-    -2-    Total    Total    Bob_Rossing It    Avg    HDCP    -1-    -2-    Total    Total
 ---------------  -----  ------  -----  -----  -------  -------  ----------------  -----  ------  -----  -----  -------  -------
 Curry, Lonny     135    76      183    133    316      468      Herbrand, Justin  127    83      149    124    273      439
-D, M             173    42      202    219    421      505      Chandler, Cory    153    60      177    130    307      427
+D, M             173    42      202    219    421      505      Chandler, Cory    e153   e60     177    130    307      427
                                 ====   ====   ====     ====                                      ====   ====   ====     ====
 Scratch Total                   385    352    737      737      Scratch Total                    326    254    580      580
 Handicap                        118    118             236      Handicap                         143    143             286
@@ -70,8 +70,8 @@ Team Points Won                    1      1      1        3        Team Points W
                  Old    Old                            HDCP                      Old    Old                            HDCP
 Sandbaggers      Avg    HDCP    -1-    -2-    Total    Total    Spare Me         Avg    HDCP    -1-    -2-    Total    Total
 ---------------  -----  ------  -----  -----  -------  -------  ---------------  -----  ------  -----  -----  -------  -------
-Dahm, Matthew    161    53      166    156    322      428      Lawless, Brian   142    70      174    164    338      478
-Yost, Henry      176    39      165    187    352      430      Bacon, Whitney   119    90      132    107    239      419
+Dahm, Matthew    e161   e53     166    156    322      428      Lawless, Brian   142    70      174    164    338      478
+Yost, Henry      e176   e39     165    187    352      430      Bacon, Whitney   e119   e90     132    107    239      419
                                 ====   ====   ====     ====                                     ====   ====   ====     ====
 Scratch Total                   331    343    674      674      Scratch Total                   306    271    577      577
 Handicap                        92     92              184      Handicap                        160    160             320
@@ -83,7 +83,7 @@ Team Points Won                 0      1      0        1        Team Points Won 
                       Old    Old                            HDCP                            Old    Old                            HDCP
 Lunch Hour Hookers    Avg    HDCP    -1-    -2-    Total    Total    TB Inc LLC             Avg    HDCP    -1-    -2-    Total    Total
 --------------------  -----  ------  -----  -----  -------  -------  ---------------------  -----  ------  -----  -----  -------  -------
-K, D                  151    62      133    170    303      427      Schlichtemeier, Isaac  140    72      128    126    254      398
+K, D                  e151   e62     133    170    303      427      Schlichtemeier, Isaac  140    72      128    126    254      398
 Spencer, Andy         182    34      214    124    338      406      W, C                   138    73      149    147    296      442
                                      ====   ====   ====     ====                                           ====   ====   ====     ====
 Scratch Total                        347    294    641      641      Scratch Total                         277    273    550      550
@@ -109,7 +109,7 @@ Team Points Won                       0      1      1        2        Team Point
                  Old    Old                            HDCP                       Old    Old                            HDCP
 Guess Who        Avg    HDCP    -1-    -2-    Total    Total    Mark it Zero !    Avg    HDCP    -1-    -2-    Total    Total
 ---------------  -----  ------  -----  -----  -------  -------  ----------------  -----  ------  -----  -----  -------  -------
-K, K             167    47      168    167    335      429      Dalbol, Andrew    202    16      300    219    519      551
+K, K             e167   e47     168    167    335      429      Dalbol, Andrew    202    16      300    219    519      551
 Boeding, Chris   150    63      165    149    314      440      Roggow, Brad      141    71      143    163    306      448
                                 ====   ====   ====     ====                                      ====   ====   ====     ====
 Scratch Total                   333    316    649      649      Scratch Total                    443    382    825      825
@@ -123,7 +123,7 @@ Team Points Won                 0      0      0        0        Team Points Won 
 Lane Violation    Avg    HDCP    -1-    -2-    Total    Total    The Outsiders    Avg    HDCP    -1-    -2-    Total    Total
 ----------------  -----  ------  -----  -----  -------  -------  ---------------  -----  ------  -----  -----  -------  -------
 Mulnix, Moriah    96     111     72     69     141      363      Somers, Clifton  204    14      195    212    407      435
-Gabrielson, John  182    34      204    161    365      433      Tew, Ryan        198    19      162    227    389      427
+Gabrielson, John  e182   e34     204    161    365      433      Tew, Ryan        198    19      162    227    389      427
                                  ====   ====   ====     ====                                     ====   ====   ====     ====
 Scratch Total                    276    230    506      506      Scratch Total                   357    439    796      796
 Handicap                         145    145             290      Handicap                        33     33              66
@@ -136,7 +136,7 @@ Team Points Won                  1      0      0        1        Team Points Won
 Who gives a split    Avg    HDCP    -1-    -2-    Total    Total    The Munsons      Avg    HDCP    -1-    -2-    Total    Total
 -------------------  -----  ------  -----  -----  -------  -------  ---------------  -----  ------  -----  -----  -------  -------
 Evenson, Rayce       103    105     121    74     195      405      Karlen, Jessica  141    71      123    168    291      433
-Toothaker, James     141    71      149    164    313      455      Karlen, Matthew  172    43      161    184    345      431
+Toothaker, James     141    71      149    164    313      455      Karlen, Matthew  e172   e43     161    184    345      431
                                     ====   ====   ====     ====                                     ====   ====   ====     ====
 Scratch Total                       270    238    508      508      Scratch Total                   284    352    636      636
 Handicap                            176    176             352      Handicap                        114    114             228
@@ -148,7 +148,7 @@ Team Points Won                     1      0      0        1        Team Points 
                  Old    Old                            HDCP                      Old    Old                            HDCP
 Roll Clones      Avg    HDCP    -1-    -2-    Total    Total    XXX Dancers      Avg    HDCP    -1-    -2-    Total    Total
 ---------------  -----  ------  -----  -----  -------  -------  ---------------  -----  ------  -----  -----  -------  -------
-Moffat, Andrew   192    25      232    242    474      524      Burkhardt, Drew  180    36      188    173    361      433
+Moffat, Andrew   192    25      232    242    474      524      Burkhardt, Drew  e180   e36     188    173    361      433
 Webster, Chance  205    13      192    139    331      357      Nance, Katie     139    72      123    111    234      378
                                 ====   ====   ====     ====                                     ====   ====   ====     ====
 Scratch Total                   424    381    805      805      Scratch Total                   311    284    595      595
@@ -174,7 +174,7 @@ Team Points Won                 1      1      1        3        Team Points Won 
                          Old    Old                            HDCP                       Old    Old                            HDCP
 We Don't Give A Split    Avg    HDCP    -1-    -2-    Total    Total    Barely Bowling    Avg    HDCP    -1-    -2-    Total    Total
 -----------------------  -----  ------  -----  -----  -------  -------  ----------------  -----  ------  -----  -----  -------  -------
-Petersen, Tim            168    46      156    113    269      361      Lampe, Jason      138    73      135    141    276      422
+Petersen, Tim            168    46      156    113    269      361      Lampe, Jason      e138   e73     135    141    276      422
 Schmidt, Derek           137    74      141    169    310      458      Ramstead, Nick    125    85      140    133    273      443
                                         ====   ====   ====     ====                                      ====   ====   ====     ====
 Scratch Total                           297    282    579      579      Scratch Total                    275    274    549      549
