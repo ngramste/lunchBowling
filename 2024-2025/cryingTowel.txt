@@ -1,0 +1,71 @@
+Bowler                 Gender      Drop    Week
+---------------------  --------  ------  ------
+Dalbol, Andrew         M             22       3
+Moffat, Andrew         M             22       3
+Webster, Chance        M             20       0
+S, K                   M             19       0
+Bell, Tracy            M             18       0
+Petersen, Tim          M             17       0
+Rhein, Bradley         M             17       0
+Harken, Ray            M             16       0
+Chandler, Cory         M             14       7
+Yost, Henry            M             14       3
+Dahm, Matthew          M             13       7
+Mulnix, Moriah         W             13       0
+Gabrielson, John       M             12       6
+K, K                   M             12       3
+Mcdowell, Michael      M             12       5
+Cray, Jason            M             11       3
+Nance, Katie           W             11       0
+Roggow, Brad           M             11       3
+Spiess, Gary           M             10       3
+Boeding, Chris         M              9       3
+Patton, Steve          M              9       3
+Spencer, Andy          M              8       4
+V, S                   M              8       4
+Burkhardt, Drew        M              7       3
+L, D                   M              7      10
+Mitchell, Melissa      W              7       6
+Reed, Scot             M              7       4
+Schlichtemeier, Isaac  M              7       0
+Somers, Clifton        M              7       3
+Defields, Jaden        M              6       4
+G, M                   M              6       3
+H, K                   M              6       0
+O, M                   M              6       6
+Trent, Nick            M              6       3
+Hecker, Allison        W              5      10
+Karlen, Jessica        W              5       4
+Lawless, Brian         M              5       4
+Mosset, Tyler          M              5       6
+W, D                   M              5       0
+B, B                   M              4       3
+D, M                   M              4       5
+Henderson, Anthony     M              4      11
+Karlen, Matthew        M              4       4
+Ramstead, Nick         M              4       5
+Smith, Debbie          W              4       3
+Curry, Lonny           M              3      11
+Evenson, Rayce         M              3       0
+Godfrey, Heidi         W              3       3
+Michaelis, Adam        M              3       7
+Peterson, Eric         M              3       8
+Smith, Perry           M              3      12
+Smith, Stan            M              3       5
+Thielen, Andy          M              3      10
+Toothaker, James       M              3       3
+Burge, Courtney        W              2       6
+Herbrand, Justin       M              2       8
+Karl, Anthony          M              2       6
+K, D                   M              2       7
+M, K                   M              2       4
+Smith, Brian           M              2      12
+Tew, Ryan              M              2       0
+W, C                   M              2       6
+Roggow, Dan            M              1       5
+Degroot, Chris         M              0
+Delaney, Aaron         M              0
+Dooley, Gene           M              0
+K, R                   M              0
+Schmidt, Derek         M              0
+Strong, Justin         M              0

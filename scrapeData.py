@@ -22,6 +22,21 @@ if c.TEAMS_FILENAME not in data_folder:
   fd = open(c.TEAMS_PATH, "w")
   fd.write(json.dumps(request.json(), indent=2))
   fd.close()
+  
+# Scrape bowler list
+# Build the post request for the secret league secretary API call
+postData = {
+  "leagueId": c.leagueId,
+  "year": c.year,
+  "season": c.season
+}
+  
+# Get that juicy juicy data!
+request = requests.post(c.Player_List_Read, postData)
+
+fd = open(c.PLAYERS_PATH, "w")
+fd.write(json.dumps(request.json(), indent=2))
+fd.close()
 
 # Open the schedule, we will use this to see what weeks might have data to scrape
 with open(c.SCHEDULE_PATH) as json_data:

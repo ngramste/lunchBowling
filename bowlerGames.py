@@ -3,6 +3,7 @@ import constants as c
 from os import listdir
 import re
 from datetime import datetime
+from players import players
 
 def getDate(report, weekNum):
   for week in report['weeks']:
@@ -11,6 +12,8 @@ def getDate(report, weekNum):
 
 class bowlerGames:
   def __init__(self):
+    self.players = players()
+    
     self.bowlers = {}
     
     # Now lets open the season schedule for reference
@@ -75,7 +78,10 @@ class bowlerGames:
         week['handicapAfter'] = max(0, int((220 - week['averageAfter']) * 0.9))
     
   def getGames(self, name):
-    return self.bowlers[name]
+    try:
+      return self.bowlers[name]
+    except:
+      return None
   
   def getGame(self, name, weekNum):
     return next((item for item in self.getGames(name) if int(item['week']) == int(weekNum)), None)
@@ -109,3 +115,6 @@ class bowlerGames:
         return "a"
       
     return ""
+      
+  def getGender(self, name):
+    return players.getPlayerByName(name)['Gender']
