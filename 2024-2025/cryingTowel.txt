@@ -63,9 +63,8 @@ Smith, Brian           M              2      12
 Tew, Ryan              M              2       0
 W, C                   M              2       6
 Roggow, Dan            M              1       5
-Degroot, Chris         M              0
-Delaney, Aaron         M              0
-Dooley, Gene           M              0
-K, R                   M              0
-Schmidt, Derek         M              0
-Strong, Justin         M              0
+Degroot, Chris         M              0       3
+Dooley, Gene           M              0       4
+K, R                   M              0       5
+Schmidt, Derek         M              0       1
+Strong, Justin         M              0       3

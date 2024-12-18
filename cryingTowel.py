@@ -16,7 +16,7 @@ report = {}
 for player in players.getPlayerNames():
   if player not in report:
     report[player] = {
-      'drop': 0,
+      'drop': -301,
       'week': None,
       'gender': players.getGender(player)
     }
@@ -32,12 +32,13 @@ sortedReport = dict(sorted(report.items(), key=lambda item: item[1]['drop'], rev
 headers = ["Bowler", "Gender", "Drop", "Week"]
 data = []
 for bowler in sortedReport:
-  data.append([
-    bowler,
-    sortedReport[bowler]['gender'],
-    sortedReport[bowler]['drop'],
-    sortedReport[bowler]['week']
-  ])
+  if (-301 != sortedReport[bowler]['drop']):
+    data.append([
+      bowler,
+      sortedReport[bowler]['gender'],
+      sortedReport[bowler]['drop'],
+      sortedReport[bowler]['week']
+    ])
 
 print(tabulate(data, headers=headers))
 
