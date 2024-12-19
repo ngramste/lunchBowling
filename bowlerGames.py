@@ -4,48 +4,39 @@ from os import listdir
 import re
 from datetime import datetime
 from players import players
-
-def getDate(report, weekNum):
-  for week in report['weeks']:
-    if week['weekNum'] == weekNum:
-      return week['date']
+from recap import recaps
+from schedule import schedule
 
 class bowlerGames:
   def __init__(self):
     self.players = players()
+    self.recaps = recaps()
+    self.schedule = schedule()
     
     self.bowlers = {}
     
-    # Now lets open the season schedule for reference
-    with open(c.SCHEDULE_PATH) as json_scedule:
-      report_scedule = json.load(json_scedule)
-
-      # Loop over all the recorded results, these reports hold the scores for each week
-      for filename in listdir(c.SUMMARY_PATH):
-        with open(c.SUMMARY_PATH + "\\" + filename) as json_data:
-          report = json.load(json_data)
-          week = int(re.findall(r'\d+', filename)[0])
-          date = getDate(report_scedule, week)
+    for week in self.recaps.getWeekNums():
+      date = self.schedule.getDate(week)
+      
+      for bowler in self.recaps.getWeek(week):
+        if bowler['BowlerName'] not in self.bowlers:
+          self.bowlers[bowler['BowlerName']] = []
           
-          for bowler in report['Data']:
-            if bowler['BowlerName'] not in self.bowlers:
-              self.bowlers[bowler['BowlerName']] = []
-              
-            scores = {
-              "week": week,
-              "date": date,
-              "timestamp": int(datetime.strptime(date, "%m/%d/%Y").timestamp()),
-              "Score1": bowler["Score1"],
-              "Score2": bowler["Score2"],
-              "ScoreType1": bowler["ScoreType1"],
-              "ScoreType2": bowler["ScoreType2"]
-            }
-            
-            self.bowlers[bowler['BowlerName']].append(scores)
-            
-            # Now sort the weeks
-            self.bowlers[bowler['BowlerName']] = sorted(self.bowlers[bowler['BowlerName']], key=lambda week: week['timestamp'])
-            
+        scores = {
+          "week": week,
+          "date": date,
+          "timestamp": int(datetime.strptime(date, "%m/%d/%Y").timestamp()),
+          "Score1": bowler["Score1"],
+          "Score2": bowler["Score2"],
+          "ScoreType1": bowler["ScoreType1"],
+          "ScoreType2": bowler["ScoreType2"]
+        }
+        
+        self.bowlers[bowler['BowlerName']].append(scores)
+        
+        # Now sort the weeks
+        self.bowlers[bowler['BowlerName']] = sorted(self.bowlers[bowler['BowlerName']], key=lambda week: week['timestamp'])
+    
     # Calculate the averages
     for bowler in self.bowlers:
       totalScratch = 0
@@ -104,7 +95,6 @@ class bowlerGames:
   
   def getHandicapGame(self, name, weekNum, gameNum):
     game = self.getGame(name, weekNum)
-    
     if gameNum == 1:
       return game['Score1'] + game['handicapBefore']
     
@@ -124,4 +114,4 @@ class bowlerGames:
     return ""
       
   def getGender(self, name):
-    return players.getPlayerByName(name)['Gender']
+    return self.players.getPlayerByName(name)['Gender']

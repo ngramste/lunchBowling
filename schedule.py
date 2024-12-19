@@ -29,6 +29,13 @@ class schedule:
         return week
     return None
   
+  def getDate(self, weekNum):
+    # Loop over all the weeks in the schedule
+    for week in self.schedule["weeks"]:
+      if int(week["weekNum"]) == int(weekNum):
+        return week["date"]
+    return None
+  
   def getTimestamp(self, weekNum):
     dateStr = self.getWeek(weekNum)['date']
     return int(datetime.strptime(dateStr, "%m/%d/%Y").timestamp())
