@@ -7,7 +7,7 @@ import re
 bowlers = {}
 
 for filename in listdir(c.SUMMARY_PATH):
-  with open(c.SUMMARY_PATH + "\\" + filename) as json_data:
+  with open(c.SUMMARY_PATH + "/" + filename) as json_data:
     # Make calculations on weeks leading up to 9 pin only
     if c.NINE_PIN_WEEK > int(re.findall(r'\d+', filename)[0]):
       report = json.load(json_data)
@@ -34,7 +34,7 @@ for filename in listdir(c.SUMMARY_PATH):
         bowlers[name]['handicap'] = int((220 - bowlers[name]['average']) * 0.9)
         
 # Calculate nine pin scores
-with open(c.DATA_FOLDER + "\\9pin.csv") as csv_data:
+with open(c.DATA_FOLDER + "/9pin.csv") as csv_data:
   report = csv_read=csv.reader(csv_data, delimiter=';')
 
   # Loop over all of the results

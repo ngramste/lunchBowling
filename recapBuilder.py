@@ -26,7 +26,7 @@ for week in recaps.getWeekNums():
       recaps.getTeamMemberNames(week, matchup[1])[0],
       recaps.getTeamMemberNames(week, matchup[1])[1]
     ]
-          
+    
     game1Pts = 0
     game2Pts = 0
     totalPts = 0
@@ -160,7 +160,7 @@ for week in recaps.getWeekNums():
     table_output += "\n\n\n\n" + tabulate(data, headers=headers)
     
   # Write the recaps out to file for safe keeping
-  fd = open(c.RECAPS_PATH + "\\week" + str(week) + ".txt", "w")
+  fd = open(c.RECAPS_PATH + "/week" + str(week) + ".txt", "w")
   fd.write(table_output)
   fd.close()
   

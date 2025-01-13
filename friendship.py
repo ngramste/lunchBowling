@@ -13,7 +13,7 @@ with open(c.TEAMS_PATH) as json_teams:
     report_scedule = json.load(json_scedule)
 
     for filename in listdir(c.SUMMARY_PATH):
-      with open(c.SUMMARY_PATH + "\\" + filename) as json_data:
+      with open(c.SUMMARY_PATH + "/" + filename) as json_data:
         report = json.load(json_data)
         week = re.findall(r'\d+', filename)[0]
         weekMatchups = [weekData for weekData in report_scedule['weeks'] if weekData['weekNum'] == int(week)][0]['matchups']

@@ -6,7 +6,7 @@ import re
 bowlers = {}
 
 for filename in listdir(c.SUMMARY_PATH):
-  with open(c.SUMMARY_PATH + "\\" + filename) as json_data:
+  with open(c.SUMMARY_PATH + "/" + filename) as json_data:
     report = json.load(json_data)
     
     for bowler in report["Data"]:

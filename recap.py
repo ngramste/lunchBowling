@@ -11,7 +11,7 @@ class recaps:
     
     # Loop over all the recorded results, these reports hold the scores for each week
     for filename in listdir(c.SUMMARY_PATH):
-      with open(c.SUMMARY_PATH + "\\" + filename) as json_data:
+      with open(c.SUMMARY_PATH + "/" + filename) as json_data:
         report = json.load(json_data)
         week = int(re.findall(r'\d+', filename)[0])
         

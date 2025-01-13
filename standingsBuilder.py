@@ -78,6 +78,6 @@ for week in schedule.getCurrentWeekNumbers():
   # print(tabulate(data, headers=headers))
 
   # Write the results out to file for safe keeping
-  fd = open(c.STANDINGS_PATH + "\\week" + str(week) + ".txt", "w")
+  fd = open(c.STANDINGS_PATH + "/week" + str(week) + ".txt", "w")
   fd.write(tabulate(data, headers=headers))
   fd.close()
