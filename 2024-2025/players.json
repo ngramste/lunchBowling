@@ -162,29 +162,6 @@
       "EnteringAverage": 0
     },
     {
-      "TeamID": 0,
-      "TeamName": "",
-      "TeamNameURLFormated": "",
-      "BowlerID": 9,
-      "BowlerName": "Crooks, Neal",
-      "BowlerNameURLFormated": "crooks-neal",
-      "Gender": "M",
-      "TotalPins": 0,
-      "TotalGames": 0,
-      "Average": 0,
-      "ScratchHandicapFlag": true,
-      "HandicapAfterBowling": 0,
-      "HighHandicapGame": 0,
-      "HighHandicapSeries": 0,
-      "HighScratchGame": 0,
-      "HighScratchSeries": 0,
-      "MostImproved": 0.0,
-      "BowlerPosition": 0,
-      "BowlerStatus": "T",
-      "TeamNum": 0,
-      "EnteringAverage": 0
-    },
-    {
       "TeamID": 26,
       "TeamName": "Top Gun",
       "TeamNameURLFormated": "top-gun",
@@ -668,29 +645,6 @@
       "EnteringAverage": 184
     },
     {
-      "TeamID": 0,
-      "TeamName": "",
-      "TeamNameURLFormated": "",
-      "BowlerID": 117,
-      "BowlerName": "K, R",
-      "BowlerNameURLFormated": "k-r",
-      "Gender": "M",
-      "TotalPins": 0,
-      "TotalGames": 0,
-      "Average": 0,
-      "ScratchHandicapFlag": true,
-      "HandicapAfterBowling": 0,
-      "HighHandicapGame": 0,
-      "HighHandicapSeries": 0,
-      "HighScratchGame": 0,
-      "HighScratchSeries": 0,
-      "MostImproved": 0.0,
-      "BowlerPosition": 0,
-      "BowlerStatus": "T",
-      "TeamNum": 0,
-      "EnteringAverage": 203
-    },
-    {
       "TeamID": 11,
       "TeamName": "Guess Who",
       "TeamNameURLFormated": "guess-who",
@@ -758,29 +712,6 @@
       "BowlerStatus": "R",
       "TeamNum": 6,
       "EnteringAverage": 169
-    },
-    {
-      "TeamID": 26,
-      "TeamName": "Top Gun",
-      "TeamNameURLFormated": "top-gun",
-      "BowlerID": 7,
-      "BowlerName": "L, D",
-      "BowlerNameURLFormated": "l-d",
-      "Gender": "M",
-      "TotalPins": 0,
-      "TotalGames": 0,
-      "Average": 0,
-      "ScratchHandicapFlag": true,
-      "HandicapAfterBowling": 0,
-      "HighHandicapGame": 0,
-      "HighHandicapSeries": 0,
-      "HighScratchGame": 0,
-      "HighScratchSeries": 0,
-      "MostImproved": 0.0,
-      "BowlerPosition": 3,
-      "BowlerStatus": "R",
-      "TeamNum": 26,
-      "EnteringAverage": 0
     },
     {
       "TeamID": 21,
@@ -1404,6 +1335,29 @@
       "EnteringAverage": 162
     },
     {
+      "TeamID": 0,
+      "TeamName": "",
+      "TeamNameURLFormated": "",
+      "BowlerID": 87,
+      "BowlerName": "Strong, Justin",
+      "BowlerNameURLFormated": "strong-justin",
+      "Gender": "M",
+      "TotalPins": 0,
+      "TotalGames": 0,
+      "Average": 0,
+      "ScratchHandicapFlag": true,
+      "HandicapAfterBowling": 0,
+      "HighHandicapGame": 0,
+      "HighHandicapSeries": 0,
+      "HighScratchGame": 0,
+      "HighScratchSeries": 0,
+      "MostImproved": 0.0,
+      "BowlerPosition": 0,
+      "BowlerStatus": "T",
+      "TeamNum": 0,
+      "EnteringAverage": 0
+    },
+    {
       "TeamID": 25,
       "TeamName": "The Outsiders",
       "TeamNameURLFormated": "the-outsiders",
@@ -1611,7 +1565,7 @@
       "EnteringAverage": 171
     }
   ],
-  "Total": 70,
+  "Total": 68,
   "AggregateResults": null,
   "Errors": null
 }
