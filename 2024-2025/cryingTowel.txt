@@ -7,7 +7,6 @@ S, K                   M             19       0
 Bell, Tracy            M             18       0
 Petersen, Tim          M             17       0
 Rhein, Bradley         M             17       0
-Harken, Ray            M             16       0
 Chandler, Cory         M             14       7
 Yost, Henry            M             14       3
 Dahm, Matthew          M             13       7
@@ -24,10 +23,12 @@ Spencer, Andy          M              8       4
 V, S                   M              8       4
 Burkhardt, Drew        M              7       3
 Lampe, Jason           M              7       5
+L, D                   M              7      10
 Mitchell, Melissa      W              7       6
 Reed, Scot             M              7       4
 Schlichtemeier, Isaac  M              7       0
 Somers, Clifton        M              7       3
+Crooks, Neal           M              6       4
 Defields, Jaden        M              6       4
 G, M                   M              6       3
 H, K                   M              6       0
@@ -54,6 +55,7 @@ Smith, Perry           M              3      12
 Smith, Stan            M              3       5
 Thielen, Andy          M              3      10
 Toothaker, James       M              3       3
+W, C                   M              3      15
 Burge, Courtney        W              2       6
 Herbrand, Justin       M              2       8
 Karl, Anthony          M              2       6
@@ -61,7 +63,6 @@ K, D                   M              2       7
 M, K                   M              2       4
 Smith, Brian           M              2      12
 Tew, Ryan              M              2       0
-W, C                   M              2       6
 Roggow, Dan            M              1       5
 Schmidt, Derek         M              1      14
 Dooley, Gene           M              0       4
