@@ -12,17 +12,17 @@
      10  The Outsiders                    24             18          12110           11104
      11  We Don't Give A Split            23             19          11967            8165
      12  Barely Bowling                   22             20          12090            7848
-     13  Top Gun                          22             20          12050            9260
-     14  One More                         21             21          12330           11588
-     15  SPAM                             21             21          12208           10830
+     13  One More                         21             21          12330           11588
+     14  SPAM                             21             21          12208           10830
+     15  Top Gun                          21             21          12050            9260
      16  The Century Club                 21             21          12002            8448
      17  The Munsons                      21             21          11990            8556
      18  Lunch Hour Hookers               20             22          12138            8938
      19  XXX Dancers                      20             22          11985            8601
      20  Spare Me                         18             24          12112            8566
      21  Lane Violation                   18             24          12051            7471
-     22  Who gives a split                18             24          11809            7177
-     23  Mark it Zero !                   17             25          11828            9176
+     22  Mark it Zero !                   18             24          11836            9184
+     23  Who gives a split                18             24          11809            7177
      24  Bob_Rossing It                   15.5           26.5        11959            7749
      25  Roll Clones                      15.5           26.5        11594            9584
      26  Backstabbers                     14             28          12225            9763

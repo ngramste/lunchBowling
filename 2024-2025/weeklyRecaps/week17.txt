@@ -97,11 +97,11 @@ Team Points Won                 0      0      0        0        Team Points Won 
 Mark it Zero !    Avg    HDCP    -1-    -2-    Total    Total    Who gives a split    Avg    HDCP    -1-    -2-    Total    Total
 ----------------  -----  ------  -----  -----  -------  -------  -------------------  -----  ------  -----  -----  -------  -------
 Dalbol, Andrew    196    21      191    158    349      391      Crow, Jim            e184   e32     187    181    368      432
-Roggow, Brad      133    78      141    146    287      443      Evenson, Rayce       110    99      122    151    273      471
+Roggow, Brad      132    79      141    146    287      445      Evenson, Rayce       110    99      122    151    273      471
                                  ====   ====   ====     ====                                         ====   ====   ====     ====
 Scratch Total                    332    304    636      636      Scratch Total                       309    332    641      641
-Handicap                         99     99              198      Handicap                            131    131             262
-Total                            431    403    636      834      Total                               440    463    641      903
+Handicap                         100    100             200      Handicap                            131    131             262
+Total                            432    404    636      836      Total                               440    463    641      903
 Team Points Won                  0      0      0        0        Team Points Won                     1      1      1        3
 
 
