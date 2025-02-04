@@ -32,6 +32,7 @@ Crooks, Neal           M              6       4
 Defields, Jaden        M              6       4
 G, M                   M              6       3
 H, K                   M              6       0
+K, R                   M              6      14
 O, M                   M              6       6
 Trent, Nick            M              6       3
 Degroot, Chris         M              5      13
@@ -61,9 +62,9 @@ Herbrand, Justin       M              2       8
 Karl, Anthony          M              2       6
 K, D                   M              2       7
 M, K                   M              2       4
+Roggow, Dan            M              2      17
 Smith, Brian           M              2      12
 Tew, Ryan              M              2       0
-Roggow, Dan            M              1       5
 Schmidt, Derek         M              1      14
 Dooley, Gene           M              0       4
 Smith, Ryan            M              0      12

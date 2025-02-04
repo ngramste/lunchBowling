@@ -645,6 +645,29 @@
       "EnteringAverage": 184
     },
     {
+      "TeamID": 0,
+      "TeamName": "",
+      "TeamNameURLFormated": "",
+      "BowlerID": 117,
+      "BowlerName": "K, R",
+      "BowlerNameURLFormated": "k-r",
+      "Gender": "M",
+      "TotalPins": 0,
+      "TotalGames": 0,
+      "Average": 0,
+      "ScratchHandicapFlag": true,
+      "HandicapAfterBowling": 0,
+      "HighHandicapGame": 0,
+      "HighHandicapSeries": 0,
+      "HighScratchGame": 0,
+      "HighScratchSeries": 0,
+      "MostImproved": 0.0,
+      "BowlerPosition": 0,
+      "BowlerStatus": "T",
+      "TeamNum": 0,
+      "EnteringAverage": 203
+    },
+    {
       "TeamID": 11,
       "TeamName": "Guess Who",
       "TeamNameURLFormated": "guess-who",
@@ -1588,7 +1611,7 @@
       "EnteringAverage": 171
     }
   ],
-  "Total": 69,
+  "Total": 70,
   "AggregateResults": null,
   "Errors": null
 }
