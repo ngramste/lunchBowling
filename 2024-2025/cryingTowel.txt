@@ -7,6 +7,7 @@ S, K                   M             19       0
 Bell, Tracy            M             18       0
 Petersen, Tim          M             17       0
 Rhein, Bradley         M             17       0
+Harken, Ray            M             16       0
 Chandler, Cory         M             14       7
 Yost, Henry            M             14       3
 Dahm, Matthew          M             13       7
@@ -17,8 +18,10 @@ Mcdowell, Michael      M             12       5
 Cray, Jason            M             11       3
 Nance, Katie           W             11       0
 Roggow, Brad           M             11       3
+Barton, John           M             10      12
 Spiess, Gary           M             10       3
 Boeding, Chris         M              9       3
+Patton, Steve          M              9       3
 Spencer, Andy          M              8       4
 V, S                   M              8       4
 Burkhardt, Drew        M              7       3
@@ -41,6 +44,7 @@ Karlen, Jessica        W              5       4
 Lawless, Brian         M              5       4
 Mosset, Tyler          M              5       6
 W, D                   M              5       0
+Bacon, Whitney         W              4       5
 B, B                   M              4       3
 D, M                   M              4       5
 Henderson, Anthony     M              4      11
@@ -66,6 +70,12 @@ Roggow, Dan            M              2      17
 Smith, Brian           M              2      12
 Tew, Ryan              M              2       0
 Schmidt, Derek         M              1      14
+Crow, Jim              M              0      17
 Dooley, Gene           M              0       4
+Geesaman, Bob          M              0      15
+Goehenouer, David      M              0      17
+Korbel, Loren          M              0      18
+Kvindlog, Elise        W              0      14
+Sevick, Josh           M              0       7
 Smith, Ryan            M              0      12
 Strong, Justin         M              0       3
