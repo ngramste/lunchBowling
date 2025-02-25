@@ -13,6 +13,7 @@ function BuildTeamRecap(teamName, weekNum) {
     // Create the headers
     let th = document.createElement("th");
     th.innerHTML = teamName;
+    th.style = "width: calc(14 * 12pt); text-align: left;"
     tr.appendChild(th);
     
     th = document.createElement("th");
