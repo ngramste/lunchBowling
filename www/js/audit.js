@@ -160,8 +160,8 @@ function BuildTeamRecap(teamName, weekNum) {
     teamPoints.game1 = (teamScore.game1 > opponentsScore.game1) ? 1:0;
     teamPoints.game1 += (teamScore.game1 == opponentsScore.game1) ? 0.5:0;
     
-    teamPoints.game2 = (teamScore.game1 > opponentsScore.game1) ? 1:0;
-    teamPoints.game2 += (teamScore.game1 == opponentsScore.game1) ? 0.5:0;
+    teamPoints.game2 = (teamScore.game2 > opponentsScore.game2) ? 1:0;
+    teamPoints.game2 += (teamScore.game2 == opponentsScore.game2) ? 0.5:0;
     
     teamPoints.series = (teamScore.series > opponentsScore.series) ? 1:0;
     teamPoints.series += (teamScore.series == opponentsScore.series) ? 0.5:0;
@@ -277,8 +277,8 @@ function RunningTotals(teamName, weekNum) {
         teamPoints.game1 = (teamScore.game1 > opponentsScore.game1) ? 1:0;
         teamPoints.game1 += (teamScore.game1 == opponentsScore.game1) ? 0.5:0;
         
-        teamPoints.game2 = (teamScore.game1 > opponentsScore.game1) ? 1:0;
-        teamPoints.game2 += (teamScore.game1 == opponentsScore.game1) ? 0.5:0;
+        teamPoints.game2 = (teamScore.game2 > opponentsScore.game2) ? 1:0;
+        teamPoints.game2 += (teamScore.game2 == opponentsScore.game2) ? 0.5:0;
         
         teamPoints.series = (teamScore.series > opponentsScore.series) ? 1:0;
         teamPoints.series += (teamScore.series == opponentsScore.series) ? 0.5:0;
