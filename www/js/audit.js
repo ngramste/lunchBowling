@@ -38,6 +38,7 @@ function BuildTeamRecap(teamName, weekNum) {
     th = document.createElement("th");
     th.innerHTML = "HDCP<br>Total";
     tr.appendChild(th);
+    tr.style = "border-bottom: 1px solid black;"
     
     table.appendChild(tr);
     
@@ -106,6 +107,7 @@ function BuildTeamRecap(teamName, weekNum) {
     td = document.createElement("td");
     td.innerHTML = bowlers[0].Score1 + bowlers[1].Score1 + bowlers[0].Score2 + bowlers[1].Score2;
     tr.appendChild(td);
+    tr.style = "border-top: 1px solid black;"
     
     table.appendChild(tr);
     
@@ -196,6 +198,7 @@ function BuildTeamRecap(teamName, weekNum) {
     td = document.createElement("td");
     td.innerHTML = teamScore.series;
     tr.appendChild(td);
+    tr.style = "border-bottom: 1px solid black;"
     
     table.appendChild(tr);
     
@@ -231,6 +234,104 @@ function BuildTeamRecap(teamName, weekNum) {
     tr.appendChild(td);
     
     table.appendChild(tr);
+    table.style = "border: 1px solid black; border-collapse: collapse;";
+    
+    return table;
+}
+
+function RunningTotals(teamName, weekNum) {
+    let fullSchedule = gameData.schedule.schedule;
+    let subSchedule = [];
+    
+    // Get all weeks before specified week
+    fullSchedule.forEach(week => {
+        if (gameData.schedule.getTimestamp(week.weekNum) <= gameData.schedule.getTimestamp(weekNum)) {
+            subSchedule.push(week); 
+        }
+    });
+    
+    let runningTotal = {
+        pointsWon: 0,
+        pointsLost: 0,
+        handicapPins: 0,
+        scratchPins: 0
+    }
+    
+    subSchedule.forEach(week => {
+        let bowlers = gameData.recaps.getTeam(week.weekNum, teamData.getTeamByName(teamName).TeamNum);
+        let opponents = gameData.recaps.getTeam(week.weekNum, gameData.schedule.getOpponentNumber(week.weekNum, teamData.getTeamByName(teamName).TeamNum));
+        
+        let teamScore = {
+            game1: bowlers[0].Score1 + bowlers[1].Score1 + bowlers[0].HandicapBeforeBowling + bowlers[1].HandicapBeforeBowling,
+            game2: bowlers[0].Score2 + bowlers[1].Score2 + bowlers[0].HandicapBeforeBowling + bowlers[1].HandicapBeforeBowling,
+            series: bowlers[0].Score1 + bowlers[1].Score1 + bowlers[0].Score2 + bowlers[1].Score2 + (2 * (bowlers[0].HandicapBeforeBowling + bowlers[1].HandicapBeforeBowling))
+        };
+        
+        let opponentsScore = {
+            game1: opponents[0].Score1 + opponents[1].Score1 + opponents[0].HandicapBeforeBowling + opponents[1].HandicapBeforeBowling,
+            game2: opponents[0].Score2 + opponents[1].Score2 + opponents[0].HandicapBeforeBowling + opponents[1].HandicapBeforeBowling,
+            series: opponents[0].Score1 + opponents[1].Score1 + opponents[0].Score2 + opponents[1].Score2 + (2 * (opponents[0].HandicapBeforeBowling + opponents[1].HandicapBeforeBowling))
+        };
+    
+        let teamPoints = {};
+        teamPoints.game1 = (teamScore.game1 > opponentsScore.game1) ? 1:0;
+        teamPoints.game1 += (teamScore.game1 == opponentsScore.game1) ? 0.5:0;
+        
+        teamPoints.game2 = (teamScore.game1 > opponentsScore.game1) ? 1:0;
+        teamPoints.game2 += (teamScore.game1 == opponentsScore.game1) ? 0.5:0;
+        
+        teamPoints.series = (teamScore.series > opponentsScore.series) ? 1:0;
+        teamPoints.series += (teamScore.series == opponentsScore.series) ? 0.5:0;
+        
+        teamPoints.total = teamPoints.game1 + teamPoints.game2 + teamPoints.series;
+        
+        runningTotal.pointsWon += teamPoints.total;
+        runningTotal.pointsLost += (3 - teamPoints.total);
+        runningTotal.handicapPins += teamScore.series;
+        runningTotal.scratchPins += (bowlers[0].Score1 + bowlers[1].Score1 + bowlers[0].Score2 + bowlers[1].Score2);
+    });
+    
+    let table = document.createElement("table");
+    
+    let tr = document.createElement("tr");
+    let th = document.createElement("th");
+    th.style = "text-align: left;";
+    th.innerHTML = "Points Won:";
+    tr.appendChild(th);
+    let td = document.createElement("td");
+    td.innerHTML = runningTotal.pointsWon;
+    tr.appendChild(td);
+    table.appendChild(tr);
+    
+    tr = document.createElement("tr");
+    th = document.createElement("th");
+    th.style = "text-align: left;";
+    th.innerHTML = "Points Lost:";
+    tr.appendChild(th);
+    td = document.createElement("td");
+    td.innerHTML = runningTotal.pointsLost;
+    tr.appendChild(td);
+    table.appendChild(tr);
+    
+    tr = document.createElement("tr");
+    th = document.createElement("th");
+    th.style = "text-align: left;";
+    th.innerHTML = "Handicap Pins:";
+    tr.appendChild(th);
+    td = document.createElement("td");
+    td.innerHTML = runningTotal.handicapPins;
+    tr.appendChild(td);
+    table.appendChild(tr);
+    
+    tr = document.createElement("tr");
+    th = document.createElement("th");
+    th.style = "text-align: left;";
+    th.innerHTML = "Scratch Pins:";
+    tr.appendChild(th);
+    td = document.createElement("td");
+    td.innerHTML = runningTotal.scratchPins;
+    tr.appendChild(td);
+    table.appendChild(tr);
     
     return table;
 }
@@ -242,12 +343,15 @@ function BuildRecap(teamName, weekNum) {
     
     let tr = document.createElement("tr");
     
+    let totals = document.createElement("td");
     let team1 = document.createElement("td");
     let team2 = document.createElement("td");
     
+    totals.appendChild(RunningTotals(teamName, weekNum));
     team1.appendChild(BuildTeamRecap(teamName, weekNum));
     team2.appendChild(BuildTeamRecap(opponent.TeamName, weekNum));
     
+    tr.appendChild(totals);
     tr.appendChild(team1);
     tr.appendChild(team2);
     
