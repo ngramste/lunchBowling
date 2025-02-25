@@ -9,9 +9,17 @@ class teamInfo {
             });
         });
     }
+    
+    getTeamList() {
+        return this.json_teams.map(team => team.TeamName);
+    }
 
     getTeam(teamNum) {
         return this.json_teams.find(team => team.TeamNum == teamNum);
+    }
+    
+    getTeamByName(name) {
+        return this.json_teams.find(team => team.TeamName == name);
     }
 
     getTeamName(teamNum) {
