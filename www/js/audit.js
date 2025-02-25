@@ -296,9 +296,19 @@ function RunningTotals(teamName, weekNum) {
     let tr = document.createElement("tr");
     let th = document.createElement("th");
     th.style = "text-align: left;";
-    th.innerHTML = "Points Won:";
+    th.innerHTML = "Date:";
     tr.appendChild(th);
     let td = document.createElement("td");
+    td.innerHTML = gameData.schedule.getWeek(weekNum).date;
+    tr.appendChild(td);
+    table.appendChild(tr);
+    
+    tr = document.createElement("tr");
+    th = document.createElement("th");
+    th.style = "text-align: left;";
+    th.innerHTML = "Points Won:";
+    tr.appendChild(th);
+    td = document.createElement("td");
     td.innerHTML = runningTotal.pointsWon;
     tr.appendChild(td);
     table.appendChild(tr);
@@ -374,9 +384,9 @@ function TeamSelected(event) {
     });
     
     schedule.forEach(week => {
-        let tr = document.createElement("th");
-        tr.innerHTML = `${week.weekNum} ${week.date}`;
-        dataDom.appendChild(tr);
+        // let tr = document.createElement("th");
+        // tr.innerHTML = `${week.weekNum} ${week.date}`;
+        // dataDom.appendChild(tr);
         dataDom.appendChild(BuildRecap(team, week.weekNum));
     });
 }
