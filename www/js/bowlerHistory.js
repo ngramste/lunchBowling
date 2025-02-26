@@ -114,7 +114,7 @@ function BowlerSelected(event) {
         tr.appendChild(td);
         
         td = document.createElement("td");
-        td.innerHTML = Math.floor(totalPins / totalGames);
+        td.innerHTML = `${Math.floor(totalPins / totalGames)}=${totalPins}/${totalGames}`;
         tr.appendChild(td);
         
         td = document.createElement("td");
