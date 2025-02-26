@@ -44,13 +44,13 @@ Team Points Won                 0      1      0        1        Team Points Won 
                     Old    Old                            HDCP                      Old    Old                            HDCP
 The Century Club    Avg    HDCP    -1-    -2-    Total    Total    XXX Dancers      Avg    HDCP    -1-    -2-    Total    Total
 ------------------  -----  ------  -----  -----  -------  -------  ---------------  -----  ------  -----  -----  -------  -------
-Defields, Jaden     154    59      a125   a125   250      368      Burkhardt, Drew  173    42      189    158    347      431
+Defields, Jaden     154    59      a144   a144   288      406      Burkhardt, Drew  173    42      189    158    347      431
 Rhein, Bradley      145    67      142    147    289      423      Nance, Katie     134    77      137    122    259      413
                                    ====   ====   ====     ====                                     ====   ====   ====     ====
-Scratch Total                      267    272    539      539      Scratch Total                   326    280    606      606
+Scratch Total                      286    291    577      577      Scratch Total                   326    280    606      606
 Handicap                           126    126             252      Handicap                        119    119             238
-Total                              393    398    539      791      Total                           445    399    606      844
-Team Points Won                    0      0      0        0        Team Points Won                 1      1      1        3
+Total                              412    417    577      829      Total                           445    399    606      844
+Team Points Won                    0      1      0        1        Team Points Won                 1      0      1        2
 
 
 

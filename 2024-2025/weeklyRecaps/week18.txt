@@ -24,7 +24,7 @@ Herbrand, Justin  142    70      a132   a132   264      404      Roggow, Brad   
 Scratch Total                    228    228    456      456      Scratch Total                    318    288    606      606
 Handicap                         172    172             344      Handicap                         101    101             202
 Total                            400    400    456      800      Total                            419    389    606      808
-Team Points Won                  0      1      0        1        Team Points Won                  1      0      1        2
+Team Points Won                  0      0      0        0        Team Points Won                  1      1      1        3
 
 
 

@@ -17,9 +17,9 @@
      15  Roll Clones                       8.5            9.5         4993            4233
      16  Split Happens                     8             10           5298            3954
      17  Top Gun                           8             10           5248            3998
-     18  XXX Dancers                       8             10           5038            3570
-     19  We Don't Give A Split             7             11           5036            3420
-     20  The Century Club                  7             11           5027            3507
+     18  The Century Club                  8             10           5065            3545
+     19  XXX Dancers                       7             11           5038            3570
+     20  We Don't Give A Split             7             11           5036            3420
      21  Bob_Rossing It                    6.5           11.5         5137            3275
      22  Sandbaggers                       6.5           11.5         5020            4074
      23  Mark it Zero !                    6             12           5023            3959

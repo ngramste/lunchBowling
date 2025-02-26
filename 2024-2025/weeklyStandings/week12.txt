@@ -12,16 +12,16 @@
      10  One More                         18             15           9645            9019
      11  SPAM                             17             16           9644            8534
      12  Guess Who                        17             16           9564            6776
-     13  Top Gun                          16             17           9503            7323
-     14  Lunch Hour Hookers               16             17           9455            6945
-     15  The Century Club                 16             17           9380            6572
+     13  The Century Club                 17             16           9418            6610
+     14  Top Gun                          16             17           9503            7323
+     15  Lunch Hour Hookers               16             17           9455            6945
      16  The Munsons                      16             17           9269            6557
      17  We Don't Give A Split            15             18           9423            6375
      18  Mark it Zero !                   15             18           9331            7273
      19  Spare Me                         14             19           9529            6677
      20  Barely Bowling                   14             19           9395            6031
-     21  XXX Dancers                      14             19           9325            6651
-     22  Who gives a split                14             19           9324            5666
+     21  Who gives a split                14             19           9324            5666
+     22  XXX Dancers                      13             20           9325            6651
      23  Roll Clones                      12.5           20.5         9071            7613
      24  Lane Violation                   12             21           9531            6091
      25  Backstabbers                     11             22           9682            7710

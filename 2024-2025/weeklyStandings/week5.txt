@@ -14,11 +14,11 @@
      12  AWACS ON/OFF                      8              7           4410            3448
      13  One More                          8              7           4394            4098
      14  Barely Bowling                    8              7           4312            2786
-     15  XXX Dancers                       8              7           4223            2995
-     16  Roll Clones                       7.5            7.5         4192            3550
-     17  We Don't Give A Split             7              8           4173            2853
-     18  Sandbaggers                       6.5            8.5         4256            3414
-     19  The Century Club                  6              9           4201            2933
+     15  Roll Clones                       7.5            7.5         4192            3550
+     16  The Century Club                  7              8           4239            2971
+     17  XXX Dancers                       7              8           4223            2995
+     18  We Don't Give A Split             7              8           4173            2853
+     19  Sandbaggers                       6.5            8.5         4256            3414
      20  Mark it Zero !                    6              9           4075            3223
      21  Top Gun                           5             10           4368            3292
      22  Split Happens                     5             10           4295            3177

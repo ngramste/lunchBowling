@@ -1,6 +1,6 @@
   Place  Team Name                  Points Won    Points Lost    Pins+HDCP    Scratch Pins
 -------  -----------------------  ------------  -------------  -----------  --------------
-      1  TB Inc LLC                       26             10          10469            7235
+      1  TB Inc LLC                       27              9          10469            7235
       2  Rick Rollers                     25             11          10366            6818
       3  Bad Attitude                     24             12          10713            9715
       4  AWACS ON/OFF                     23             13          10597            8429
@@ -10,16 +10,16 @@
       8  The Outsiders                    22             14          10380            9532
       9  Guess Who                        20             16          10619            7597
      10  Split Happens                    20             16          10511            7973
-     11  One More                         19             17          10479            9799
-     12  SPAM                             18             18          10473            9275
-     13  Spare Me                         17             19          10409            7323
-     14  Lunch Hour Hookers               17             19          10352            7580
-     15  Barely Bowling                   17             19          10311            6661
-     16  We Don't Give A Split            17             19          10277            6995
-     17  XXX Dancers                      17             19          10256            7340
-     18  The Century Club                 17             19          10224            7166
-     19  Who gives a split                17             19          10144            6164
-     20  Top Gun                          16             20          10283            7863
+     11  SPAM                             18             18          10473            9275
+     12  The Century Club                 18             18          10262            7204
+     13  One More                         18             18           9645            9019
+     14  Spare Me                         17             19          10409            7323
+     15  Lunch Hour Hookers               17             19          10352            7580
+     16  Barely Bowling                   17             19          10311            6661
+     17  We Don't Give A Split            17             19          10277            6995
+     18  Who gives a split                17             19          10144            6164
+     19  Top Gun                          16             20          10283            7863
+     20  XXX Dancers                      16             20          10256            7340
      21  The Munsons                      16             20          10161            7205
      22  Mark it Zero !                   15             21          10135            7881
      23  Lane Violation                   14             22          10345            6489

@@ -4,20 +4,20 @@
       2  I am Root                        29             16          13224            9102
       3  Engineering Strikes              28.5           16.5        13216           11486
       4  AWACS ON/OFF                     28             17          13104           10492
-      5  Split Happens                    27             18          13104            9946
-      6  TB Inc LLC                       27             18          12936            8950
+      5  TB Inc LLC                       28             17          12936            8950
+      6  Split Happens                    27             18          13104            9946
       7  Rick Rollers                     27             18          12843            8469
       8  Guess Who                        26             19          13281            9613
       9  Bad Attitude                     26             19          13280           12148
      10  Barely Bowling                   25             20          12954            8438
-     11  The Outsiders                    24             21          12940           11858
-     12  The Century Club                 24             21          12877            9079
-     13  We Don't Give A Split            24             21          12768            8730
-     14  One More                         23             22          13224           12474
-     15  Lunch Hour Hookers               23             22          13118            9754
-     16  SPAM                             23             22          13012           11544
-     17  Top Gun                          23             22          12912            9950
-     18  XXX Dancers                      22             23          12828            9124
+     11  The Century Club                 25             20          12915            9117
+     12  We Don't Give A Split            24             21          12768            8730
+     13  The Outsiders                    24             21          12110           11104
+     14  Lunch Hour Hookers               23             22          13118            9754
+     15  SPAM                             23             22          13012           11544
+     16  Top Gun                          23             22          12912            9950
+     17  One More                         22             23          12390           11694
+     18  XXX Dancers                      21             24          12828            9124
      19  The Munsons                      21             24          12814            9046
      20  Who gives a split                21             24          12712            7818
      21  Spare Me                         18             27          12966            9190

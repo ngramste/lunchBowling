@@ -26,10 +26,12 @@ function BuildTeamRecap(teamName, weekNum) {
     
     th = document.createElement("th");
     th.innerHTML = "-1-";
+    th.style = "width: calc(2.5 * 12pt); text-align: left;"
     tr.appendChild(th);
     
     th = document.createElement("th");
     th.innerHTML = "-2-";
+    th.style = "width: calc(2.5 * 12pt); text-align: left;"
     tr.appendChild(th);
     
     th = document.createElement("th");
@@ -52,27 +54,27 @@ function BuildTeamRecap(teamName, weekNum) {
         tr.appendChild(td);
         
         td = document.createElement("td");
-        td.innerHTML = bowler.AverageBeforeBowling;
+        td.innerHTML = gameData.getGame(bowler.BowlerName, weekNum).averageBefore;
         tr.appendChild(td);
         
         td = document.createElement("td");
-        td.innerHTML = bowler.HandicapBeforeBowling;
+        td.innerHTML = gameData.getGame(bowler.BowlerName, weekNum).handicapBefore;
         tr.appendChild(td);
         
         td = document.createElement("td");
-        td.innerHTML = bowler.Score1;
+        td.innerHTML = `${gameData.establishingFlag(bowler.BowlerName, weekNum)}${gameData.getGamePrefix(bowler.BowlerName, weekNum, 1)}${bowler.Score1}`;
         tr.appendChild(td);
         
         td = document.createElement("td");
-        td.innerHTML = bowler.Score2;
+        td.innerHTML = `${gameData.establishingFlag(bowler.BowlerName, weekNum)}${gameData.getGamePrefix(bowler.BowlerName, weekNum, 2)}${bowler.Score2}`;
         tr.appendChild(td);
         
         td = document.createElement("td");
-        td.innerHTML = (bowler.Score1 + bowler.Score2);
+        td.innerHTML = gameData.getScratchSeries(bowler.BowlerName, weekNum);
         tr.appendChild(td);
         
         td = document.createElement("td");
-        td.innerHTML = (bowler.Score1 + bowler.Score2 + (bowler.HandicapBeforeBowling * 2));
+        td.innerHTML = gameData.getHandicapSeries(bowler.BowlerName, weekNum);
         tr.appendChild(td);
         
         table.appendChild(tr);
@@ -128,11 +130,11 @@ function BuildTeamRecap(teamName, weekNum) {
     tr.appendChild(td);
     
     td = document.createElement("td");
-    td.innerHTML = bowlers[0].HandicapBeforeBowling + bowlers[1].HandicapBeforeBowling;
+    td.innerHTML = gameData.getGame(bowlers[0].BowlerName, weekNum, 1).handicapBefore + gameData.getGame(bowlers[1].BowlerName, weekNum, 1).handicapBefore;
     tr.appendChild(td);
     
     td = document.createElement("td");
-    td.innerHTML = bowlers[0].HandicapBeforeBowling + bowlers[1].HandicapBeforeBowling;
+    td.innerHTML = gameData.getGame(bowlers[0].BowlerName, weekNum, 1).handicapBefore + gameData.getGame(bowlers[1].BowlerName, weekNum, 1).handicapBefore;
     tr.appendChild(td);
     
     td = document.createElement("td");
@@ -140,22 +142,41 @@ function BuildTeamRecap(teamName, weekNum) {
     tr.appendChild(td);
     
     td = document.createElement("td");
-    td.innerHTML = 2 * (bowlers[0].HandicapBeforeBowling + bowlers[1].HandicapBeforeBowling);
+    td.innerHTML = 2 * (gameData.getGame(bowlers[0].BowlerName, weekNum, 1).handicapBefore + gameData.getGame(bowlers[1].BowlerName, weekNum, 1).handicapBefore);
     tr.appendChild(td);
     
     table.appendChild(tr);
     
-    let teamScore = {
-        game1: bowlers[0].Score1 + bowlers[1].Score1 + bowlers[0].HandicapBeforeBowling + bowlers[1].HandicapBeforeBowling,
-        game2: bowlers[0].Score2 + bowlers[1].Score2 + bowlers[0].HandicapBeforeBowling + bowlers[1].HandicapBeforeBowling,
-        series: bowlers[0].Score1 + bowlers[1].Score1 + bowlers[0].Score2 + bowlers[1].Score2 + (2 * (bowlers[0].HandicapBeforeBowling + bowlers[1].HandicapBeforeBowling))
-    };
+    let teamScore;
+    let opponentsScore;
     
-    let opponentsScore = {
-        game1: opponents[0].Score1 + opponents[1].Score1 + opponents[0].HandicapBeforeBowling + opponents[1].HandicapBeforeBowling,
-        game2: opponents[0].Score2 + opponents[1].Score2 + opponents[0].HandicapBeforeBowling + opponents[1].HandicapBeforeBowling,
-        series: opponents[0].Score1 + opponents[1].Score1 + opponents[0].Score2 + opponents[1].Score2 + (2 * (opponents[0].HandicapBeforeBowling + opponents[1].HandicapBeforeBowling))
-    };
+    if ("a" == gameData.getGamePrefix(bowlers[0].BowlerName, weekNum, 1) && "a" == gameData.getGamePrefix(bowlers[1].BowlerName, weekNum, 1)) {
+        teamScore = {
+            game1: 0,
+            game2: 0,
+            series: 0
+        };
+    } else {
+        teamScore = {
+            game1: gameData.getHandicapGame(bowlers[0].BowlerName, weekNum, 1) + gameData.getHandicapGame(bowlers[1].BowlerName, weekNum, 1),
+            game2: gameData.getHandicapGame(bowlers[0].BowlerName, weekNum, 2) + gameData.getHandicapGame(bowlers[1].BowlerName, weekNum, 2),
+            series: gameData.getHandicapSeries(bowlers[0].BowlerName, weekNum) + gameData.getHandicapSeries(bowlers[1].BowlerName, weekNum)
+        };
+    }
+    
+    if ("a" == gameData.getGamePrefix(opponents[0].BowlerName, weekNum, 1) && "a" == gameData.getGamePrefix(opponents[1].BowlerName, weekNum, 1)) {
+        opponentsScore = {
+            game1: 0,
+            game2: 0,
+            series: 0
+        };
+    } else {
+        opponentsScore = {
+            game1: gameData.getHandicapGame(opponents[0].BowlerName, weekNum, 1) + gameData.getHandicapGame(opponents[1].BowlerName, weekNum, 1),
+            game2: gameData.getHandicapGame(opponents[0].BowlerName, weekNum, 2) + gameData.getHandicapGame(opponents[1].BowlerName, weekNum, 2),
+            series: gameData.getHandicapSeries(opponents[0].BowlerName, weekNum) + gameData.getHandicapSeries(opponents[1].BowlerName, weekNum)
+        };
+    }
     
     let teamPoints = {};
     teamPoints.game1 = (teamScore.game1 > opponentsScore.game1) ? 1:0;
@@ -261,18 +282,34 @@ function RunningTotals(teamName, weekNum) {
     subSchedule.forEach(week => {
         let bowlers = gameData.recaps.getTeam(week.weekNum, teamData.getTeamByName(teamName).TeamNum);
         let opponents = gameData.recaps.getTeam(week.weekNum, gameData.schedule.getOpponentNumber(week.weekNum, teamData.getTeamByName(teamName).TeamNum));
+    
+        if ("a" == gameData.getGamePrefix(bowlers[0].BowlerName, week.weekNum, 1) && "a" == gameData.getGamePrefix(bowlers[1].BowlerName, week.weekNum, 1)) {
+            teamScore = {
+                game1: 0,
+                game2: 0,
+                series: 0
+            };
+        } else {
+            teamScore = {
+                game1: gameData.getHandicapGame(bowlers[0].BowlerName, week.weekNum, 1) + gameData.getHandicapGame(bowlers[1].BowlerName, week.weekNum, 1),
+                game2: gameData.getHandicapGame(bowlers[0].BowlerName, week.weekNum, 2) + gameData.getHandicapGame(bowlers[1].BowlerName, week.weekNum, 2),
+                series: gameData.getHandicapSeries(bowlers[0].BowlerName, week.weekNum) + gameData.getHandicapSeries(bowlers[1].BowlerName, week.weekNum)
+            };
+        }
         
-        let teamScore = {
-            game1: bowlers[0].Score1 + bowlers[1].Score1 + bowlers[0].HandicapBeforeBowling + bowlers[1].HandicapBeforeBowling,
-            game2: bowlers[0].Score2 + bowlers[1].Score2 + bowlers[0].HandicapBeforeBowling + bowlers[1].HandicapBeforeBowling,
-            series: bowlers[0].Score1 + bowlers[1].Score1 + bowlers[0].Score2 + bowlers[1].Score2 + (2 * (bowlers[0].HandicapBeforeBowling + bowlers[1].HandicapBeforeBowling))
-        };
-        
-        let opponentsScore = {
-            game1: opponents[0].Score1 + opponents[1].Score1 + opponents[0].HandicapBeforeBowling + opponents[1].HandicapBeforeBowling,
-            game2: opponents[0].Score2 + opponents[1].Score2 + opponents[0].HandicapBeforeBowling + opponents[1].HandicapBeforeBowling,
-            series: opponents[0].Score1 + opponents[1].Score1 + opponents[0].Score2 + opponents[1].Score2 + (2 * (opponents[0].HandicapBeforeBowling + opponents[1].HandicapBeforeBowling))
-        };
+        if ("a" == gameData.getGamePrefix(opponents[0].BowlerName, week.weekNum, 1) && "a" == gameData.getGamePrefix(opponents[1].BowlerName, week.weekNum, 1)) {
+            opponentsScore = {
+                game1: 0,
+                game2: 0,
+                series: 0
+            };
+        } else {
+            opponentsScore = {
+                game1: gameData.getHandicapGame(opponents[0].BowlerName, week.weekNum, 1) + gameData.getHandicapGame(opponents[1].BowlerName, week.weekNum, 1),
+                game2: gameData.getHandicapGame(opponents[0].BowlerName, week.weekNum, 2) + gameData.getHandicapGame(opponents[1].BowlerName, week.weekNum, 2),
+                series: gameData.getHandicapSeries(opponents[0].BowlerName, week.weekNum) + gameData.getHandicapSeries(opponents[1].BowlerName, week.weekNum)
+            };
+        }
     
         let teamPoints = {};
         teamPoints.game1 = (teamScore.game1 > opponentsScore.game1) ? 1:0;
@@ -288,8 +325,12 @@ function RunningTotals(teamName, weekNum) {
         
         runningTotal.pointsWon += teamPoints.total;
         runningTotal.pointsLost += (3 - teamPoints.total);
-        runningTotal.handicapPins += teamScore.series;
-        runningTotal.scratchPins += (bowlers[0].Score1 + bowlers[1].Score1 + bowlers[0].Score2 + bowlers[1].Score2);
+        
+        
+        if ("a" != gameData.getGamePrefix(bowlers[0].BowlerName, week.weekNum, 1) || "a" != gameData.getGamePrefix(bowlers[1].BowlerName, week.weekNum, 1)) {
+            runningTotal.handicapPins += teamScore.series;
+            runningTotal.scratchPins += (bowlers[0].Score1 + bowlers[1].Score1 + bowlers[0].Score2 + bowlers[1].Score2);
+        }
     });
     
     let table = document.createElement("table");
@@ -297,9 +338,19 @@ function RunningTotals(teamName, weekNum) {
     let tr = document.createElement("tr");
     let th = document.createElement("th");
     th.style = "text-align: left;";
-    th.innerHTML = "Date:";
+    th.innerHTML = "Week:";
     tr.appendChild(th);
     let td = document.createElement("td");
+    td.innerHTML = weekNum;
+    tr.appendChild(td);
+    table.appendChild(tr);
+    
+    tr = document.createElement("tr");
+    th = document.createElement("th");
+    th.style = "text-align: left;";
+    th.innerHTML = "Date:";
+    tr.appendChild(th);
+    td = document.createElement("td");
     td.innerHTML = gameData.schedule.getWeek(weekNum).date;
     tr.appendChild(td);
     table.appendChild(tr);
@@ -385,9 +436,6 @@ function TeamSelected(event) {
     });
     
     schedule.forEach(week => {
-        // let tr = document.createElement("th");
-        // tr.innerHTML = `${week.weekNum} ${week.date}`;
-        // dataDom.appendChild(tr);
         dataDom.appendChild(BuildRecap(team, week.weekNum));
     });
 }

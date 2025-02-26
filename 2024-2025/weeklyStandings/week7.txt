@@ -14,11 +14,11 @@
      12  SPAM                             11             10           6211            5443
      13  Spare Me                         11             10           6067            4267
      14  Barely Bowling                   11             10           6004            3866
-     15  XXX Dancers                      11             10           5973            4257
-     16  Top Gun                          10             11           6093            4667
-     17  We Don't Give A Split            10             11           5895            3957
-     18  Split Happens                     9             12           6150            4606
-     19  The Century Club                  9             12           5871            4093
+     15  Top Gun                          10             11           6093            4667
+     16  XXX Dancers                      10             11           5973            4257
+     17  The Century Club                 10             11           5909            4131
+     18  We Don't Give A Split            10             11           5895            3957
+     19  Split Happens                     9             12           6150            4606
      20  Roll Clones                       8.5           12.5         5839            4949
      21  Guess Who                         7             14           5815            4047
      22  Bob_Rossing It                    6.5           14.5         5935            3819

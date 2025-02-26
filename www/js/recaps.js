@@ -33,6 +33,10 @@ class recaps {
         return this.getWeek(weekNum).filter(bowler => bowler.TeamNum == teamNum);
     }
 
+    getBowler(weekNum, bowlerName) {
+        return this.getWeek(weekNum).find(bowler => bowler.BowlerName == bowlerName);
+    }
+
     getTeamMemberNames(weekNum, teamNum) {
         return this.getTeam(weekNum, teamNum).map(bowler => bowler.BowlerName);
     }

@@ -15,13 +15,13 @@
      13  Spare Me                         12             12           6894            4856
      14  SPAM                             11             13           7012            6168
      15  Split Happens                    11             13           7009            5263
-     16  XXX Dancers                      11             13           6797            4791
-     17  Top Gun                          10             14           6981            5377
+     16  Top Gun                          10             14           6981            5377
+     17  XXX Dancers                      10             14           6797            4791
      18  Guess Who                        10             14           6757            4719
      19  We Don't Give A Split            10             14           6747            4563
-     20  Who gives a split                 9             15           6850            4146
-     21  Mark it Zero !                    9             15           6762            5298
-     22  The Century Club                  9             15           6691            4653
+     20  The Century Club                 10             14           6729            4691
+     21  Who gives a split                 9             15           6850            4146
+     22  Mark it Zero !                    9             15           6762            5298
      23  Bob_Rossing It                    8.5           15.5         6725            4331
      24  Roll Clones                       8.5           15.5         6637            5615
      25  Backstabbers                      8             16           7142            5634

@@ -17,11 +17,11 @@
      15  Spare Me                         14             16           8628            6014
      16  Barely Bowling                   14             16           8558            5508
      17  Who gives a split                14             16           8534            5194
-     18  We Don't Give A Split            14             16           8520            5796
-     19  Top Gun                          13             17           8574            6576
-     20  XXX Dancers                      13             17           8504            6070
-     21  The Century Club                 13             17           8485            5929
-     22  Mark it Zero !                   13             17           8427            6569
+     18  The Century Club                 14             16           8523            5967
+     19  We Don't Give A Split            14             16           8520            5796
+     20  Top Gun                          13             17           8574            6576
+     21  Mark it Zero !                   13             17           8427            6569
+     22  XXX Dancers                      12             18           8504            6070
      23  Roll Clones                      11.5           18.5         8290            6980
      24  Bob_Rossing It                   10.5           19.5         8391            5425
      25  Backstabbers                      9             21           8872            7054

@@ -30,29 +30,35 @@ for week in recaps.getWeekNums():
     game1Pts = 0
     game2Pts = 0
     totalPts = 0
-    if 0 < (bowlerGames.getHandicapGame(bowlers[0], week, 1) + bowlerGames.getHandicapGame(bowlers[1], week, 1) 
-            - bowlerGames.getHandicapGame(bowlers[2], week, 1) - bowlerGames.getHandicapGame(bowlers[3], week, 1)):
-      game1Pts += 1
-      
-    if 0 == (bowlerGames.getHandicapGame(bowlers[0], week, 1) + bowlerGames.getHandicapGame(bowlers[1], week, 1) 
-            - bowlerGames.getHandicapGame(bowlers[2], week, 1) - bowlerGames.getHandicapGame(bowlers[3], week, 1)):
-      game1Pts += 0.5
-      
-    if 0 < (bowlerGames.getHandicapGame(bowlers[0], week, 2) + bowlerGames.getHandicapGame(bowlers[1], week, 2) 
-            - bowlerGames.getHandicapGame(bowlers[2], week, 2) - bowlerGames.getHandicapGame(bowlers[3], week, 2)):
-      game2Pts += 1
-      
-    if 0 == (bowlerGames.getHandicapGame(bowlers[0], week, 2) + bowlerGames.getHandicapGame(bowlers[1], week, 2) 
-            - bowlerGames.getHandicapGame(bowlers[2], week, 2) - bowlerGames.getHandicapGame(bowlers[3], week, 2)):
-      game2Pts += 0.5
-      
-    if 0 < (bowlerGames.getHandicapSeries(bowlers[0], week) + bowlerGames.getHandicapSeries(bowlers[1], week)
-            - bowlerGames.getHandicapSeries(bowlers[2], week) - bowlerGames.getHandicapSeries(bowlers[3], week)):
-      totalPts += 1
-      
-    if 0 == (bowlerGames.getHandicapSeries(bowlers[0], week) + bowlerGames.getHandicapSeries(bowlers[1], week)
-            - bowlerGames.getHandicapSeries(bowlers[2], week) - bowlerGames.getHandicapSeries(bowlers[3], week)):
-      totalPts += 0.5
+    
+    if "a" == bowlerGames.getGamePrefix(bowlers[2], week, 1) and "a" == bowlerGames.getGamePrefix(bowlers[3], week, 1):
+      game1Pts = 1
+      game2Pts = 1
+      totalPts = 1
+    elif "a" != bowlerGames.getGamePrefix(bowlers[0], week, 1) or "a" != bowlerGames.getGamePrefix(bowlers[1], week, 1):
+      if 0 < (bowlerGames.getHandicapGame(bowlers[0], week, 1) + bowlerGames.getHandicapGame(bowlers[1], week, 1) 
+              - bowlerGames.getHandicapGame(bowlers[2], week, 1) - bowlerGames.getHandicapGame(bowlers[3], week, 1)):
+        game1Pts += 1
+        
+      if 0 == (bowlerGames.getHandicapGame(bowlers[0], week, 1) + bowlerGames.getHandicapGame(bowlers[1], week, 1) 
+              - bowlerGames.getHandicapGame(bowlers[2], week, 1) - bowlerGames.getHandicapGame(bowlers[3], week, 1)):
+        game1Pts += 0.5
+        
+      if 0 < (bowlerGames.getHandicapGame(bowlers[0], week, 2) + bowlerGames.getHandicapGame(bowlers[1], week, 2) 
+              - bowlerGames.getHandicapGame(bowlers[2], week, 2) - bowlerGames.getHandicapGame(bowlers[3], week, 2)):
+        game2Pts += 1
+        
+      if 0 == (bowlerGames.getHandicapGame(bowlers[0], week, 2) + bowlerGames.getHandicapGame(bowlers[1], week, 2) 
+              - bowlerGames.getHandicapGame(bowlers[2], week, 2) - bowlerGames.getHandicapGame(bowlers[3], week, 2)):
+        game2Pts += 0.5
+        
+      if 0 < (bowlerGames.getHandicapSeries(bowlers[0], week) + bowlerGames.getHandicapSeries(bowlers[1], week)
+              - bowlerGames.getHandicapSeries(bowlers[2], week) - bowlerGames.getHandicapSeries(bowlers[3], week)):
+        totalPts += 1
+        
+      if 0 == (bowlerGames.getHandicapSeries(bowlers[0], week) + bowlerGames.getHandicapSeries(bowlers[1], week)
+              - bowlerGames.getHandicapSeries(bowlers[2], week) - bowlerGames.getHandicapSeries(bowlers[3], week)):
+        totalPts += 0.5
     
     headers = ["\n"+teamInfo.getTeamName(matchup[0]), "Old\nAvg", "Old\nHDCP", "\n-1-", "\n-2-", "\nTotal", "HDCP\nTotal","\n"+teamInfo.getTeamName(matchup[1]), "Old\nAvg", "Old\nHDCP", "\n-1-", "\n-2-", "\nTotal", "HDCP\nTotal"]
     data = [

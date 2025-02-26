@@ -1,30 +1,30 @@
   Place  Team Name                  Points Won    Points Lost    Pins+HDCP    Scratch Pins
 -------  -----------------------  ------------  -------------  -----------  --------------
       1  Craptastic                       35             16          14953           11903
-      2  I am Root                        32             19          14872           10282
-      3  TB Inc LLC                       32             19          14751           10261
+      2  TB Inc LLC                       33             18          14751           10261
+      3  I am Root                        32             19          14872           10282
       4  Engineering Strikes              31.5           19.5        14999           13075
       5  AWACS ON/OFF                     31             20          14848           11928
       6  Split Happens                    30             21          14831           11281
       7  Lunch Hour Hookers               29             22          15011           11289
-      8  One More                         29             22          14963           14197
-      9  Rick Rollers                     29             22          14440            9508
-     10  Barely Bowling                   28             23          14621            9501
-     11  We Don't Give A Split            28             23          14422            9808
-     12  The Munsons                      27             24          14548           10212
-     13  Who gives a split                27             24          14521            8987
-     14  Bad Attitude                     26             25          14926           13704
-     15  Guess Who                        26             25          14883           10795
-     16  The Century Club                 26             25          14644           10366
-     17  The Outsiders                    26             25          14601           13361
+      8  Rick Rollers                     29             22          14440            9508
+      9  Barely Bowling                   28             23          14621            9501
+     10  We Don't Give A Split            28             23          14422            9808
+     11  One More                         28             23          14129           13417
+     12  The Century Club                 27             24          14682           10404
+     13  The Munsons                      27             24          14548           10212
+     14  Who gives a split                27             24          14521            8987
+     15  Bad Attitude                     26             25          14926           13704
+     16  Guess Who                        26             25          14883           10795
+     17  The Outsiders                    26             25          13771           12607
      18  SPAM                             25             26          14649           12993
      19  Top Gun                          24             27          14658           11338
      20  Lane Violation                   22             29          14651            9431
-     21  XXX Dancers                      22             29          14544           10374
-     22  Backstabbers                     21             30          14935           11987
-     23  Roll Clones                      20.5           30.5        14110           11452
-     24  Mark it Zero !                   20             31          14324           11064
+     21  Backstabbers                     21             30          14935           11987
+     22  XXX Dancers                      21             30          14544           10374
+     23  Mark it Zero !                   21             30          14324           11064
+     24  Roll Clones                      20.5           30.5        14110           11452
      25  Spare Me                         19             32          14637           10399
-     26  Bob_Rossing It                   18.5           32.5        14448            9294
+     26  Bob_Rossing It                   17.5           33.5        13648            8838
      27  Sandbaggers                      16.5           34.5        14425           11469
      28  Alias Smith and Godfrey          13             38          14354            9392

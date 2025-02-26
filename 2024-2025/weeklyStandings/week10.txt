@@ -16,12 +16,12 @@
      14  Spare Me                         14             13           7792            5512
      15  Barely Bowling                   14             13           7733            4997
      16  Top Gun                          13             14           7793            5967
-     17  Guess Who                        12             15           7672            5376
-     18  We Don't Give A Split            12             15           7640            5210
-     19  XXX Dancers                      12             15           7639            5447
-     20  The Century Club                 12             15           7630            5328
-     21  Mark it Zero !                   12             15           7598            5938
-     22  Who gives a split                11             16           7682            4660
+     17  The Century Club                 13             14           7668            5366
+     18  Guess Who                        12             15           7672            5376
+     19  We Don't Give A Split            12             15           7640            5210
+     20  Mark it Zero !                   12             15           7598            5938
+     21  Who gives a split                11             16           7682            4660
+     22  XXX Dancers                      11             16           7639            5447
      23  Roll Clones                       9.5           17.5         7395            6235
      24  Backstabbers                      9             18           7981            6319
      25  Bob_Rossing It                    8.5           18.5         7550            4864
