@@ -50,7 +50,10 @@ function BuildTeamRecap(teamName, weekNum) {
         tr = document.createElement("tr");
         
         let td = document.createElement("td");
-        td.innerHTML = bowler.BowlerName;
+        let a = document.createElement("a");
+        a.innerHTML = bowler.BowlerName;
+        a.href = `./bowler.html?name=${bowler.BowlerName}`;
+        td.appendChild(a);
         tr.appendChild(td);
         
         td = document.createElement("td");
@@ -351,7 +354,10 @@ function RunningTotals(teamName, weekNum) {
     th.innerHTML = "Date:";
     tr.appendChild(th);
     td = document.createElement("td");
-    td.innerHTML = gameData.schedule.getWeek(weekNum).date;
+    let a = document.createElement("a");
+    a.innerHTML = gameData.schedule.getWeek(weekNum).date;
+    a.href = `./index.html?weekNum=${weekNum}`;
+    td.appendChild(a);
     tr.appendChild(td);
     table.appendChild(tr);
     
@@ -457,8 +463,16 @@ window.onload = function () {
             
             teamSelect.addEventListener("change", TeamSelected);
             
-            // Auto select the first option
-            TeamSelected({target: {value: teamData.getTeamList()[0]}});
+            let params = new URLSearchParams(window.location.search);
+            let teamName = params.get("teamName");
+            
+            if (teamName) {
+                teamSelect.value = teamName;
+                TeamSelected({target: {value: teamName}});
+            } else {
+                // Auto select the first option
+                TeamSelected({target: {value: teamData.getTeamList()[0]}});
+            }
         })
     });
 }

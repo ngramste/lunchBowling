@@ -78,11 +78,17 @@ function BowlerSelected(event) {
         tr.appendChild(td);
         
         td = document.createElement("td");
-        td.innerHTML = week.date;
+        let a = document.createElement("a");
+        a.innerHTML = week.date;
+        a.href = `./index.html?weekNum=${week.week}`;
+        td.appendChild(a);
         tr.appendChild(td);
         
         td = document.createElement("td");
-        td.innerHTML = gameData.recaps.summaries[week.week].find(bowler => bowler.BowlerName == bowlerName).TeamName;
+        a = document.createElement("a");
+        a.href = `./team.html?teamName=${gameData.recaps.summaries[week.week].find(bowler => bowler.BowlerName == bowlerName).TeamName}`;
+        a.innerHTML = gameData.recaps.summaries[week.week].find(bowler => bowler.BowlerName == bowlerName).TeamName;
+        td.appendChild(a);
         tr.appendChild(td);
         
         td = document.createElement("td");
@@ -146,8 +152,19 @@ window.onload = function () {
 
             bowlerSelect.addEventListener("change", BowlerSelected);
 
-            // Auto select the first option
-            BowlerSelected({ target: { value: gameData.players.getPlayerNames()[0] } });
+            let params = new URLSearchParams(window.location.search);
+            let bowlerName = params.get("name");
+            
+            if (null != bowlerName) {
+                bowlerSelect.value = bowlerName;
+                BowlerSelected({ target: { value: bowlerName } });
+            } else {
+                // Auto select the last option
+                bowlerSelect.value = gameData.players.getPlayerNames()[0];
+                // Auto select the first option
+                BowlerSelected({ target: { value: gameData.players.getPlayerNames()[0] } });
+            }
+
         })
     });
 }

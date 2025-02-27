@@ -33,7 +33,7 @@ class standings {
                         
                         // Calculate the pin count difference between the teams
                         let bowlers = this.recaps.getTeam(week.weekNum, this.teamInfo.getTeamByName(team).TeamNum);
-                        let opponents = gameData.recaps.getTeam(week.weekNum, this.schedule.getOpponentNumber(week.weekNum, this.teamInfo.getTeamByName(team).TeamNum));
+                        let opponents = this.recaps.getTeam(week.weekNum, this.schedule.getOpponentNumber(week.weekNum, this.teamInfo.getTeamByName(team).TeamNum));
                         
                         let game1 = -opponents.map(bowler => this.bowlerGames.getHandicapGame(bowler.BowlerName, week.weekNum, 1)).reduce((a, b) => a + b, 0);
                         game1 += bowlers.map(bowler => this.bowlerGames.getHandicapGame(bowler.BowlerName, week.weekNum, 1)).reduce((a, b) => a + b, 0);
