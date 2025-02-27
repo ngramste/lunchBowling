@@ -80,6 +80,6 @@ class standings {
     }
     
     getTeamPlace(teamName, weekNum) {
-        return this.getWeek(weekNum).find(team => team.teamName == teamName);
+        return this.getWeek(weekNum).find(team => team.teamName == teamName).place;
     }
 }

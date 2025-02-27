@@ -1,5 +1,6 @@
 let gameData = null;
 let teamData = null;
+let weeklyStandings = null;
 
 function BuildTeamRecap(teamName, weekNum) {
     let schedule = gameData.schedule;
@@ -364,6 +365,16 @@ function RunningTotals(teamName, weekNum) {
     tr = document.createElement("tr");
     th = document.createElement("th");
     th.style = "text-align: left;";
+    th.innerHTML = "Place:";
+    tr.appendChild(th);
+    td = document.createElement("td");
+    td.innerHTML = weeklyStandings.getTeamPlace(teamName, weekNum);
+    tr.appendChild(td);
+    table.appendChild(tr);
+    
+    tr = document.createElement("tr");
+    th = document.createElement("th");
+    th.style = "text-align: left;";
     th.innerHTML = "Points Won:";
     tr.appendChild(th);
     td = document.createElement("td");
@@ -448,31 +459,34 @@ function TeamSelected(event) {
 
 // Setup a function to be called when the document is finished loading.
 window.onload = function () {
-    new bowlerGames().then(result => {
-        gameData = result;
-        new teamInfo().then(result => {
-            teamData = result;
-            let teamSelect = document.getElementById("teams");
-            
-            teamData.getTeamList().forEach(team => {
-                let option = document.createElement("option");
-                option.value = team;
-                option.innerHTML = team;
-                teamSelect.appendChild(option);
-            });
-            
-            teamSelect.addEventListener("change", TeamSelected);
-            
-            let params = new URLSearchParams(window.location.search);
-            let teamName = params.get("teamName");
-            
-            if (teamName) {
-                teamSelect.value = teamName;
-                TeamSelected({target: {value: teamName}});
-            } else {
-                // Auto select the first option
-                TeamSelected({target: {value: teamData.getTeamList()[0]}});
-            }
-        })
+    new standings().then(result => {
+        weeklyStandings = result;
+        new bowlerGames().then(result => {
+            gameData = result;
+            new teamInfo().then(result => {
+                teamData = result;
+                let teamSelect = document.getElementById("teams");
+                
+                teamData.getTeamList().forEach(team => {
+                    let option = document.createElement("option");
+                    option.value = team;
+                    option.innerHTML = team;
+                    teamSelect.appendChild(option);
+                });
+                
+                teamSelect.addEventListener("change", TeamSelected);
+                
+                let params = new URLSearchParams(window.location.search);
+                let teamName = params.get("teamName");
+                
+                if (teamName) {
+                    teamSelect.value = teamName;
+                    TeamSelected({target: {value: teamName}});
+                } else {
+                    // Auto select the first option
+                    TeamSelected({target: {value: teamData.getTeamList()[0]}});
+                }
+            })
+        });
     });
 }
