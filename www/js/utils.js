@@ -21,3 +21,7 @@ function makeRequest(method, url) {
         xhr.send();
     });
 }
+
+function nameFlipper(name) {
+    return `${name.split(", ")[1]} ${name.split(", ")[0]}`;
+}

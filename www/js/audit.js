@@ -52,7 +52,7 @@ function BuildTeamRecap(teamName, weekNum) {
         
         let td = document.createElement("td");
         let a = document.createElement("a");
-        a.innerHTML = bowler.BowlerName;
+        a.innerHTML = nameFlipper(bowler.BowlerName);
         a.href = `./bowler.html?name=${bowler.BowlerName}`;
         td.appendChild(a);
         tr.appendChild(td);
