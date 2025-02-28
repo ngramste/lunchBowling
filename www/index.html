@@ -14,18 +14,21 @@
         <script src="js/standingsInfo.js"></script>
         
         <style>
-            *{
+            td, th, tr, select, option {
+                padding: 2px 8px 2px 8px;
                 font-family: 'Courier New', Courier, monospace;
                 font-size: 12pt;
             }
-            td, th {
-                padding: 2px 8px 2px 8px;
+            h1 {
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
             }
         </style>
     </head>
     <body>
         <select id="weeks" name="weeks"></select>
+        <h1>Team Standings</h1>
         <table id="data"></table>
+        <h1>Season High Scores</h1>
         <table id="highScores"></table>
     </body>
 </html>

@@ -6,13 +6,196 @@ function HighScores(weekNum) {
     table.innerHTML = "";
     
     // Get everyone's high scores, filtering out people who hadn't bowled at all this season
-    let highScores = weeklyStandings.bowlerGames.players.getPlayerNamesByGender("W").map(name => [name, weeklyStandings.bowlerGames.getHighGames(name)]);
+    let highScores = weeklyStandings.bowlerGames.players.getPlayerNamesByGender("M").map(name => [name, weeklyStandings.bowlerGames.getHighGames(name, 6, weekNum)]);
     highScores = highScores.filter(score => score[1] != undefined);
     
-    let highScratchSeries = highScores.map(score => [score[0], Math.max(score[1].highScratchGame.Score1, score[1].highScratchGame.Score2)]);
+    let tr = document.createElement("tr");
+    
+    let th = document.createElement("th");
+    th.innerHTML = "Men";
+    tr.appendChild(th);
+    
+    let highScratchGame = highScores.map(score => [score[0], Math.max(score[1].highScratchGame.Score1, score[1].highScratchGame.Score2)]);
+    highScratchGame = highScratchGame.sort(function(a,b) {return b[1] - a[1]});
+    
+    let td = document.createElement("td");
+    td.innerHTML = "Scratch Game";
+    tr.appendChild(td);
+    
+    for(let index = 0; index < 3; index++) {
+        td = document.createElement("td");
+        td.style.paddingRight = "50px";
+        td.innerHTML = `${highScratchGame[index][1]} ${highScratchGame[index][0]}`;
+        tr.appendChild(td);
+    }
+    
+    table.appendChild(tr);
+    
+    tr = document.createElement("tr");
+    
+    th = document.createElement("th");
+    th.innerHTML = "";
+    tr.appendChild(th);
+    
+    let highScratchSeries = highScores.map(score => [score[0], score[1].highScratchSeries.Score1 + score[1].highScratchSeries.Score2]);
     highScratchSeries = highScratchSeries.sort(function(a,b) {return b[1] - a[1]});
     
-    console.log(highScratchSeries);
+    td = document.createElement("td");
+    td.innerHTML = "Scratch Series";
+    tr.appendChild(td);
+    
+    for(let index = 0; index < 3; index++) {
+        td = document.createElement("td");
+        td.style.paddingRight = "50px";
+        td.innerHTML = `${highScratchSeries[index][1]} ${highScratchSeries[index][0]}`;
+        tr.appendChild(td);
+    }
+    
+    table.appendChild(tr);
+    
+    tr = document.createElement("tr");
+    
+    th = document.createElement("th");
+    th.innerHTML = "";
+    tr.appendChild(th);
+    
+    let highHandicapGame = highScores.map(score => [score[0], Math.max(score[1].highHandicapGame.Score1 + score[1].highHandicapGame.handicapBefore, score[1].highHandicapGame.Score2 + score[1].highHandicapGame.handicapBefore)]);
+    highHandicapGame = highHandicapGame.sort(function(a,b) {return b[1] - a[1]});
+    
+    td = document.createElement("td");
+    td.innerHTML = "Handicap Game";
+    tr.appendChild(td);
+    
+    for(let index = 0; index < 3; index++) {
+        td = document.createElement("td");
+        td.style.paddingRight = "50px";
+        td.innerHTML = `${highHandicapGame[index][1]} ${highHandicapGame[index][0]}`;
+        tr.appendChild(td);
+    }
+    
+    table.appendChild(tr);
+    
+    tr = document.createElement("tr");
+    
+    th = document.createElement("th");
+    th.innerHTML = "";
+    tr.appendChild(th);
+    
+    let highHandicapSeries = highScores.map(score => [score[0], score[1].highHandicapSeries.Score1 + score[1].highHandicapSeries.Score2 + 2*score[1].highHandicapSeries.handicapBefore]);
+    highHandicapSeries = highHandicapSeries.sort(function(a,b) {return b[1] - a[1]});
+    
+    td = document.createElement("td");
+    td.innerHTML = "Handicap Series";
+    tr.appendChild(td);
+    
+    for(let index = 0; index < 3; index++) {
+        td = document.createElement("td");
+        td.style.paddingRight = "50px";
+        td.innerHTML = `${highHandicapSeries[index][1]} ${highHandicapSeries[index][0]}`;
+        tr.appendChild(td);
+    }
+    
+    table.appendChild(tr);
+    tr = document.createElement("tr");
+    for(let cols = 0; cols < 5; cols++) {
+        td = document.createElement("td");
+        td.innerHTML = "-----";
+        tr.appendChild(td);
+    }
+    table.appendChild(tr);
+    
+    // Get everyone's high scores, filtering out people who hadn't bowled at all this season
+    highScores = weeklyStandings.bowlerGames.players.getPlayerNamesByGender("W").map(name => [name, weeklyStandings.bowlerGames.getHighGames(name, 6, weekNum)]);
+    highScores = highScores.filter(score => score[1] != undefined);
+    
+    tr = document.createElement("tr");
+    
+    th = document.createElement("th");
+    th.innerHTML = "Women";
+    tr.appendChild(th);
+    
+    highScratchGame = highScores.map(score => [score[0], Math.max(score[1].highScratchGame.Score1, score[1].highScratchGame.Score2)]);
+    highScratchGame = highScratchGame.sort(function(a,b) {return b[1] - a[1]});
+    
+    td = document.createElement("td");
+    td.innerHTML = "Scratch Game";
+    tr.appendChild(td);
+    
+    for(let index = 0; index < 3; index++) {
+        td = document.createElement("td");
+        td.style.paddingRight = "50px";
+        td.innerHTML = `${highScratchGame[index][1]} ${highScratchGame[index][0]}`;
+        tr.appendChild(td);
+    }
+    
+    table.appendChild(tr);
+    
+    tr = document.createElement("tr");
+    
+    th = document.createElement("th");
+    th.innerHTML = "";
+    tr.appendChild(th);
+    
+    highScratchSeries = highScores.map(score => [score[0], score[1].highScratchSeries.Score1 + score[1].highScratchSeries.Score2]);
+    highScratchSeries = highScratchSeries.sort(function(a,b) {return b[1] - a[1]});
+    
+    td = document.createElement("td");
+    td.innerHTML = "Scratch Series";
+    tr.appendChild(td);
+    
+    for(let index = 0; index < 3; index++) {
+        td = document.createElement("td");
+        td.style.paddingRight = "50px";
+        td.innerHTML = `${highScratchSeries[index][1]} ${highScratchSeries[index][0]}`;
+        tr.appendChild(td);
+    }
+    
+    table.appendChild(tr);
+    
+    tr = document.createElement("tr");
+    
+    th = document.createElement("th");
+    th.innerHTML = "";
+    tr.appendChild(th);
+    
+    highHandicapGame = highScores.map(score => [score[0], Math.max(score[1].highHandicapGame.Score1 + score[1].highHandicapGame.handicapBefore, score[1].highHandicapGame.Score2 + score[1].highHandicapGame.handicapBefore)]);
+    highHandicapGame = highHandicapGame.sort(function(a,b) {return b[1] - a[1]});
+    
+    td = document.createElement("td");
+    td.innerHTML = "Handicap Game";
+    tr.appendChild(td);
+    
+    for(let index = 0; index < 3; index++) {
+        td = document.createElement("td");
+        td.style.paddingRight = "50px";
+        td.innerHTML = `${highHandicapGame[index][1]} ${highHandicapGame[index][0]}`;
+        tr.appendChild(td);
+    }
+    
+    table.appendChild(tr);
+    
+    tr = document.createElement("tr");
+    
+    th = document.createElement("th");
+    th.innerHTML = "";
+    tr.appendChild(th);
+    
+    highHandicapSeries = highScores.map(score => [score[0], score[1].highHandicapSeries.Score1 + score[1].highHandicapSeries.Score2 + 2*score[1].highHandicapSeries.handicapBefore]);
+    highHandicapSeries = highHandicapSeries.sort(function(a,b) {return b[1] - a[1]});
+    
+    td = document.createElement("td");
+    td.innerHTML = "Handicap Series";
+    tr.appendChild(td);
+    
+    for(let index = 0; index < 3; index++) {
+        td = document.createElement("td");
+        td.style.paddingRight = "50px";
+        td.innerHTML = `${highHandicapSeries[index][1]} ${highHandicapSeries[index][0]}`;
+        tr.appendChild(td);
+    }
+    
+    table.appendChild(tr);
+    
 }
 
 function WeekSelected(event) {
