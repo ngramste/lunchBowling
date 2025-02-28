@@ -133,4 +133,28 @@ class bowlerGames {
     getGender(name) {
         return this.players.getPlayerByName(name).Gender;
     }
+    
+    getHighGames(name, weekNum = null) {
+        let weeks = this.getGames(name);
+        
+        if (null != weekNum) {
+            weeks = this.getGames(name).filter(week => week.timestamp <= this.schedule.getTimestamp(weekNum));
+        }
+        
+        if (undefined != weeks) {
+            let highScratchGame = Math.max(... weeks.map(week => [week.Score1, week.Score2]).flat());
+            let highScratchSeries = Math.max(... weeks.map(week => week.Score1 + week.Score2).flat());
+            let highHandicapGame = Math.max(... weeks.map(week => [week.Score1 + week.handicapBefore, week.Score2 + week.handicapBefore]).flat());
+            let highHandicapSeries = Math.max(... weeks.map(week => week.Score1 + week.handicapBefore + week.Score2 + week.handicapBefore).flat());
+            
+            return {
+                highScratchGame: weeks.find(week => week.Score1 == highScratchGame || week.Score2 == highScratchGame),
+                highScratchSeries: weeks.find(week => week.Score1 + week.Score2 == highScratchSeries),
+                highHandicapGame: weeks.find(week => (week.Score1 + week.handicapBefore) == highHandicapGame || (week.Score2 + week.handicapBefore) == highHandicapGame),
+                highHandicapSeries: weeks.find(week => (week.Score1 + week.handicapBefore + week.Score2 + week.handicapBefore) == highHandicapSeries)
+            };
+        } else {
+            return undefined;
+        }
+    }
 }

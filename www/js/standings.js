@@ -44,15 +44,23 @@ class standings {
                         let series = -opponents.map(bowler => this.bowlerGames.getHandicapSeries(bowler.BowlerName, week.weekNum)).reduce((a, b) => a + b, 0);
                         series += bowlers.map(bowler => this.bowlerGames.getHandicapSeries(bowler.BowlerName, week.weekNum)).reduce((a, b) => a + b, 0);
                         
-                        // Calculate the associated points earned based on pin totals
-                        scores.pointsWon += (game1 > 0) ? 1 : (game1 == 0) ? 0.5 : 0;
-                        scores.pointsWon += (game2 > 0) ? 1 : (game2 == 0) ? 0.5 : 0;
-                        scores.pointsWon += (series > 0) ? 1 : (series == 0) ? 0.5 : 0;
+                        if (       "a" == this.bowlerGames.getGamePrefix(opponents[0].BowlerName, week.weekNum, 1) 
+                                && "a" == this.bowlerGames.getGamePrefix(opponents[1].BowlerName, week.weekNum, 1)) {
+                            scores.pointsWon += 3;
+                            scores.scratchPins += bowlers.map(bowler => this.bowlerGames.getScratchSeries(bowler.BowlerName, week.weekNum)).reduce((a, b) => a + b, 0);
+                            scores.handicapPins += bowlers.map(bowler => this.bowlerGames.getHandicapSeries(bowler.BowlerName, week.weekNum)).reduce((a, b) => a + b, 0);
+                        } else if ("a" != this.bowlerGames.getGamePrefix(bowlers[0].BowlerName, week.weekNum, 1) 
+                                || "a" != this.bowlerGames.getGamePrefix(bowlers[1].BowlerName, week.weekNum, 1)) {
+                            // Calculate the associated points earned based on pin totals
+                            scores.pointsWon += (game1 > 0) ? 1 : (game1 == 0) ? 0.5 : 0;
+                            scores.pointsWon += (game2 > 0) ? 1 : (game2 == 0) ? 0.5 : 0;
+                            scores.pointsWon += (series > 0) ? 1 : (series == 0) ? 0.5 : 0;
+                            
+                            scores.scratchPins += bowlers.map(bowler => this.bowlerGames.getScratchSeries(bowler.BowlerName, week.weekNum)).reduce((a, b) => a + b, 0);
+                            scores.handicapPins += bowlers.map(bowler => this.bowlerGames.getHandicapSeries(bowler.BowlerName, week.weekNum)).reduce((a, b) => a + b, 0);
+                        }
                         
                         scores.pointsLost = ((previous.length * 3) + 3) - scores.pointsWon;
-                        
-                        scores.scratchPins += bowlers.map(bowler => this.bowlerGames.getScratchSeries(bowler.BowlerName, week.weekNum)).reduce((a, b) => a + b, 0);
-                        scores.handicapPins += bowlers.map(bowler => this.bowlerGames.getHandicapSeries(bowler.BowlerName, week.weekNum)).reduce((a, b) => a + b, 0);
                         
                         this.json_data[week.weekNum].push(scores);
                     });
@@ -62,7 +70,7 @@ class standings {
                         if (0 != (b.pointsWon - a.pointsWon)) {
                             return b.pointsWon - a.pointsWon;
                         } else {
-                            return b.scratchPins - a.scratchPins;
+                            return b.handicapPins - a.handicapPins;
                         };
                     });
                     

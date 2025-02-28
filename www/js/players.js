@@ -21,6 +21,12 @@ class players {
     getPlayerNames() {
         return this.json_players.map(bowler => bowler.BowlerName);
     }
+    
+    getPlayerNamesByGender(gender) {
+        return weeklyStandings.bowlerGames.players.getPlayerNames()
+            .map(bowlerName => (weeklyStandings.bowlerGames.players.getGender(bowlerName) == gender) ? bowlerName : undefined)
+            .filter(bowlerName => bowlerName != undefined);
+    }
 
     getGender(name) {
         return this.getPlayerByName(name).Gender;

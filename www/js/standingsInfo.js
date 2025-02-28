@@ -1,6 +1,20 @@
 let teamData = null;
 let weeklyStandings = null;
 
+function HighScores(weekNum) {
+    let table = document.getElementById("highScores");
+    table.innerHTML = "";
+    
+    // Get everyone's high scores, filtering out people who hadn't bowled at all this season
+    let highScores = weeklyStandings.bowlerGames.players.getPlayerNamesByGender("W").map(name => [name, weeklyStandings.bowlerGames.getHighGames(name)]);
+    highScores = highScores.filter(score => score[1] != undefined);
+    
+    let highScratchSeries = highScores.map(score => [score[0], Math.max(score[1].highScratchGame.Score1, score[1].highScratchGame.Score2)]);
+    highScratchSeries = highScratchSeries.sort(function(a,b) {return b[1] - a[1]});
+    
+    console.log(highScratchSeries);
+}
+
 function WeekSelected(event) {
     let week = JSON.parse(event.target.value);
     let table = document.getElementById("data");
@@ -22,6 +36,10 @@ function WeekSelected(event) {
     
     th = document.createElement("th");
     th.innerHTML = "Points Lost";
+    tr.appendChild(th);
+    
+    th = document.createElement("th");
+    th.innerHTML = "Pins+HDCP";
     tr.appendChild(th);
     
     th = document.createElement("th");
@@ -53,17 +71,22 @@ function WeekSelected(event) {
         tr.appendChild(td);
         
         td = document.createElement("td");
+        td.innerHTML = team.handicapPins;
+        tr.appendChild(td);
+        
+        td = document.createElement("td");
         td.innerHTML = team.scratchPins;
         tr.appendChild(td);
         
         table.appendChild(tr);
     });
+    
+    HighScores(week.weekNum);
 }
 
 // Setup a function to be called when the document is finished loading.
 window.onload = function () {
     new standings().then(result => {
-        console.log(result);
         weeklyStandings = result;
         new teamInfo().then(result => {
             teamData = result;
