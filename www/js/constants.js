@@ -17,3 +17,5 @@ const Summary_Read = "https://www.leaguesecretary.com/League/Summary_Read";
 const Team_List_Read = "https://www.leaguesecretary.com/Team/TeamList_Read";
 const Player_List_Read = "https://www.leaguesecretary.com/Bowler/BowlerByWeekList_Read";
 const NINE_PIN_WEEK = 9;
+const MIN_GAMES_FOR_AWARD = 11;
+const MIN_WEEKS_FOR_AWARD = Math.ceil(MIN_GAMES_FOR_AWARD / 2);
