@@ -3,8 +3,10 @@ class players {
 
     constructor () {
         return new Promise(resolve => {
-            makeRequest("GET", PLAYERS_PATH).then(responseText => {
-                this.json_players = JSON.parse(responseText).Data;
+            Promise.all([
+                makeRequest("GET", PLAYERS_PATH).then(responseText => this.json_players = JSON.parse(responseText).Data),
+                makeRequest("GET", FRIENDLY_NAMES_PATH).then(responseText => this.friendly_names = JSON.parse(responseText).Data)
+            ]).then(() => {
                 resolve(this);
             });
         });
@@ -30,5 +32,17 @@ class players {
 
     getGender(name) {
         return this.getPlayerByName(name).Gender;
+    }
+
+    prettyName(bowlerName) {
+        let name = this.friendly_names.find(bowler => bowler.BowlerName == bowlerName);
+
+        if (undefined == name) {
+            name = bowlerName;
+        } else {
+            name = name.FriendlyName;
+        }
+
+        return `${name.split(",")[1]} ${name.split(",")[0]}`;
     }
 }

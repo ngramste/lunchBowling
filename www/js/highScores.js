@@ -56,7 +56,7 @@ function HighScores(weekNum) {
     for(let index = 0; index < Math.min(3, highScores.length); index++) {
         td = document.createElement("td");
         td.style.paddingRight = "50px";
-        td.innerHTML = `${highScratchGame[index][1]} ${nameFlipper(highScratchGame[index][0])}`;
+        td.innerHTML = `${highScratchGame[index][1]} ${weeklyStandings.bowlerGames.players.prettyName(highScratchGame[index][0])}`;
         tr.appendChild(td);
     }
     
@@ -78,7 +78,7 @@ function HighScores(weekNum) {
     for(let index = 0; index < Math.min(3, highScores.length); index++) {
         td = document.createElement("td");
         td.style.paddingRight = "50px";
-        td.innerHTML = `${highScratchSeries[index][1]} ${nameFlipper(highScratchSeries[index][0])}`;
+        td.innerHTML = `${highScratchSeries[index][1]} ${weeklyStandings.bowlerGames.players.prettyName(highScratchSeries[index][0])}`;
         tr.appendChild(td);
     }
     
@@ -100,7 +100,7 @@ function HighScores(weekNum) {
     for(let index = 0; index < Math.min(3, highScores.length); index++) {
         td = document.createElement("td");
         td.style.paddingRight = "50px";
-        td.innerHTML = `${highHandicapGame[index][1]} ${nameFlipper(highHandicapGame[index][0])}`;
+        td.innerHTML = `${highHandicapGame[index][1]} ${weeklyStandings.bowlerGames.players.prettyName(highHandicapGame[index][0])}`;
         tr.appendChild(td);
     }
     
@@ -122,7 +122,7 @@ function HighScores(weekNum) {
     for(let index = 0; index < Math.min(3, highScores.length); index++) {
         td = document.createElement("td");
         td.style.paddingRight = "50px";
-        td.innerHTML = `${highHandicapSeries[index][1]} ${nameFlipper(highHandicapSeries[index][0])}`;
+        td.innerHTML = `${highHandicapSeries[index][1]} ${weeklyStandings.bowlerGames.players.prettyName(highHandicapSeries[index][0])}`;
         tr.appendChild(td);
     }
     
@@ -155,7 +155,7 @@ function HighScores(weekNum) {
     for(let index = 0; index < Math.min(3, highScores.length); index++) {
         td = document.createElement("td");
         td.style.paddingRight = "50px";
-        td.innerHTML = `${highScratchGame[index][1]} ${nameFlipper(highScratchGame[index][0])}`;
+        td.innerHTML = `${highScratchGame[index][1]} ${weeklyStandings.bowlerGames.players.prettyName(highScratchGame[index][0])}`;
         tr.appendChild(td);
     }
     
@@ -177,7 +177,7 @@ function HighScores(weekNum) {
     for(let index = 0; index < Math.min(3, highScores.length); index++) {
         td = document.createElement("td");
         td.style.paddingRight = "50px";
-        td.innerHTML = `${highScratchSeries[index][1]} ${nameFlipper(highScratchSeries[index][0])}`;
+        td.innerHTML = `${highScratchSeries[index][1]} ${weeklyStandings.bowlerGames.players.prettyName(highScratchSeries[index][0])}`;
         tr.appendChild(td);
     }
     
@@ -199,7 +199,7 @@ function HighScores(weekNum) {
     for(let index = 0; index < Math.min(3, highScores.length); index++) {
         td = document.createElement("td");
         td.style.paddingRight = "50px";
-        td.innerHTML = `${highHandicapGame[index][1]} ${nameFlipper(highHandicapGame[index][0])}`;
+        td.innerHTML = `${highHandicapGame[index][1]} ${weeklyStandings.bowlerGames.players.prettyName(highHandicapGame[index][0])}`;
         tr.appendChild(td);
     }
     
@@ -221,7 +221,7 @@ function HighScores(weekNum) {
     for(let index = 0; index < Math.min(3, highScores.length); index++) {
         td = document.createElement("td");
         td.style.paddingRight = "50px";
-        td.innerHTML = `${highHandicapSeries[index][1]} ${nameFlipper(highHandicapSeries[index][0])}`;
+        td.innerHTML = `${highHandicapSeries[index][1]} ${weeklyStandings.bowlerGames.players.prettyName(highHandicapSeries[index][0])}`;
         tr.appendChild(td);
     }
     

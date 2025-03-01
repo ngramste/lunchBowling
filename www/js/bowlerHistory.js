@@ -146,7 +146,7 @@ window.onload = function () {
             gameData.players.getPlayerNames().forEach(bowler => {
                 let option = document.createElement("option");
                 option.value = bowler;
-                option.innerHTML = bowler;
+                option.innerHTML = gameData.players.prettyName(bowler);
                 bowlerSelect.appendChild(option);
             });
 
