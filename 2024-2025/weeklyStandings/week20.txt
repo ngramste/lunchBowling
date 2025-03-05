@@ -1,0 +1,30 @@
+  Place  Team Name                  Points Won    Points Lost    Pins+HDCP    Scratch Pins
+-------  -----------------------  ------------  -------------  -----------  --------------
+      1  Craptastic                       38             16          15824           12612
+      2  TB Inc LLC                       35             19          15609           10871
+      3  Engineering Strikes              34.5           19.5        15898           13878
+      4  I am Root                        33             21          15732           10894
+      5  AWACS ON/OFF                     32             22          15725           12653
+      6  Lunch Hour Hookers               31             23          15993           12077
+      7  Split Happens                    31             23          15657           11907
+      8  Rick Rollers                     31             23          15358           10142
+      9  We Don't Give A Split            31             23          15329           10471
+     10  Guess Who                        29             25          15805           11501
+     11  Barely Bowling                   29             25          15511           10099
+     12  Who gives a split                29             25          15415            9673
+     13  One More                         29             25          15046           14326
+     14  The Outsiders                    29             25          14707           13463
+     15  Bad Attitude                     28             26          15886           14610
+     16  The Century Club                 27             27          15504           10988
+     17  The Munsons                      27             27          15405           10733
+     18  Top Gun                          26             28          15550           12064
+     19  SPAM                             26             28          15542           13790
+     20  Backstabbers                     23             31          15814           12710
+     21  Roll Clones                      22.5           31.5        15025           12203
+     22  Lane Violation                   22             32          15511           10079
+     23  Mark it Zero !                   22             32          15127           11661
+     24  XXX Dancers                      21             33          15437           11097
+     25  Spare Me                         20             34          15548           11076
+     26  Sandbaggers                      18.5           35.5        15356           12136
+     27  Bob_Rossing It                   18.5           35.5        14477            9499
+     28  Alias Smith and Godfrey          13             41          15208            9948

@@ -217,9 +217,9 @@
       "PointsWonDec": 0.0
     },
     {
-      "TeamID": 22,
-      "TeamName": "We Don't Give A Split",
-      "TeamNameURLFormated": "we-dont-give-a-split",
+      "TeamID": 0,
+      "TeamName": "",
+      "TeamNameURLFormated": "",
       "BowlerID": 9,
       "BowlerName": "Crooks, Neal",
       "BowlerNameURLFormated": "crooks-neal",
@@ -236,7 +236,7 @@
       "MostImproved": 0.0,
       "BowlerPosition": 0,
       "BowlerStatus": "T",
-      "TeamNum": 22,
+      "TeamNum": 0,
       "EnteringAverage": 0,
       "PointsWonDec": 0.0
     },
@@ -793,9 +793,9 @@
       "PointsWonDec": 0.0
     },
     {
-      "TeamID": 16,
-      "TeamName": "The Munsons",
-      "TeamNameURLFormated": "the-munsons",
+      "TeamID": 9,
+      "TeamName": "Bob_Rossing It",
+      "TeamNameURLFormated": "bobrossing-it",
       "BowlerID": 133,
       "BowlerName": "Karlen, Matthew",
       "BowlerNameURLFormated": "karlen-matthew",
@@ -812,7 +812,7 @@
       "MostImproved": 0.0,
       "BowlerPosition": 2,
       "BowlerStatus": "R",
-      "TeamNum": 16,
+      "TeamNum": 9,
       "EnteringAverage": 184,
       "PointsWonDec": 0.0
     },
@@ -913,9 +913,9 @@
       "PointsWonDec": 0.0
     },
     {
-      "TeamID": 12,
-      "TeamName": "I am Root",
-      "TeamNameURLFormated": "i-am-root",
+      "TeamID": 5,
+      "TeamName": "Barely Bowling",
+      "TeamNameURLFormated": "barely-bowling",
       "BowlerID": 118,
       "BowlerName": "Lampe, Jason",
       "BowlerNameURLFormated": "lampe-jason",
@@ -932,7 +932,7 @@
       "MostImproved": 0.0,
       "BowlerPosition": 2,
       "BowlerStatus": "R",
-      "TeamNum": 12,
+      "TeamNum": 5,
       "EnteringAverage": 152,
       "PointsWonDec": 0.0
     },
@@ -1201,9 +1201,9 @@
       "PointsWonDec": 0.0
     },
     {
-      "TeamID": 0,
-      "TeamName": "",
-      "TeamNameURLFormated": "",
+      "TeamID": 15,
+      "TeamName": "XXX Dancers",
+      "TeamNameURLFormated": "xxx-dancers",
       "BowlerID": 12,
       "BowlerName": "Patton, Steve",
       "BowlerNameURLFormated": "patton-steve",
@@ -1220,7 +1220,7 @@
       "MostImproved": 0.0,
       "BowlerPosition": 3,
       "BowlerStatus": "T",
-      "TeamNum": 0,
+      "TeamNum": 15,
       "EnteringAverage": 178,
       "PointsWonDec": 0.0
     },
