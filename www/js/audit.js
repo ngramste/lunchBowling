@@ -65,16 +65,34 @@ function BuildTeamRecap(teamName, weekNum) {
         td.innerHTML = gameData.getGame(bowler.BowlerName, weekNum).handicapBefore;
         tr.appendChild(td);
         
+        let highGames = gameData.getHighGames(bowler.BowlerName, 2);
+        let lowGames = gameData.getLowGames(bowler.BowlerName, 2);
+        
         td = document.createElement("td");
         td.innerHTML = `${gameData.establishingFlag(bowler.BowlerName, weekNum)}${gameData.getGamePrefix(bowler.BowlerName, weekNum, 1)}${bowler.Score1}`;
+        if (undefined != highGames && highGames.highScratchGame.week == weekNum && highGames.highScratchGame.Score1 > highGames.highScratchGame.Score2) {
+            td.style = "background-color: green; color: white";
+        } else if (undefined != lowGames && lowGames.lowScratchGame.week == weekNum && lowGames.lowScratchGame.Score1 < lowGames.lowScratchGame.Score2) {
+            td.style = "background-color: red; color: white";
+        }
         tr.appendChild(td);
         
         td = document.createElement("td");
         td.innerHTML = `${gameData.establishingFlag(bowler.BowlerName, weekNum)}${gameData.getGamePrefix(bowler.BowlerName, weekNum, 2)}${bowler.Score2}`;
+        if (undefined != highGames && highGames.highScratchGame.week == weekNum && highGames.highScratchGame.Score1 < highGames.highScratchGame.Score2) {
+            td.style = "background-color: green; color: white";
+        } else if (undefined != lowGames && lowGames.lowScratchGame.week == weekNum && lowGames.lowScratchGame.Score1 > lowGames.lowScratchGame.Score2) {
+            td.style = "background-color: red; color: white";
+        }
         tr.appendChild(td);
         
         td = document.createElement("td");
         td.innerHTML = gameData.getScratchSeries(bowler.BowlerName, weekNum);
+        if (undefined != highGames && highGames.highScratchSeries.week == weekNum) {
+            td.style = "background-color: green; color: white";
+        } else if (undefined != lowGames && lowGames.lowScratchSeries.week == weekNum) {
+            td.style = "background-color: red; color: white";
+        }
         tr.appendChild(td);
         
         td = document.createElement("td");

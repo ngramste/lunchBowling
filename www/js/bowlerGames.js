@@ -158,4 +158,29 @@ class bowlerGames {
         }
         return undefined;
     }
+    
+    getLowGames(name, minWeeks = 1, weekNum = null) {
+        let weeks = this.getGames(name);
+        
+        if (undefined != this.getGames(name)) {
+            if (null != weekNum) {
+                weeks = this.getGames(name).filter(week => week.timestamp <= this.schedule.getTimestamp(weekNum));
+            }
+            
+            if (undefined != weeks && weeks.length >= minWeeks) {
+                let lowScratchGame = Math.min(... weeks.map(week => [week.Score1, week.Score2]).flat());
+                let lowScratchSeries = Math.min(... weeks.map(week => week.Score1 + week.Score2).flat());
+                let lowHandicapGame = Math.min(... weeks.map(week => [week.Score1 + week.handicapBefore, week.Score2 + week.handicapBefore]).flat());
+                let lowHandicapSeries = Math.min(... weeks.map(week => week.Score1 + week.handicapBefore + week.Score2 + week.handicapBefore).flat());
+                
+                return {
+                    lowScratchGame: weeks.find(week => week.Score1 == lowScratchGame || week.Score2 == lowScratchGame),
+                    lowScratchSeries: weeks.find(week => week.Score1 + week.Score2 == lowScratchSeries),
+                    lowHandicapGame: weeks.find(week => (week.Score1 + week.handicapBefore) == lowHandicapGame || (week.Score2 + week.handicapBefore) == lowHandicapGame),
+                    lowHandicapSeries: weeks.find(week => (week.Score1 + week.handicapBefore + week.Score2 + week.handicapBefore) == lowHandicapSeries)
+                };
+            }
+        }
+        return undefined;
+    }
 }
