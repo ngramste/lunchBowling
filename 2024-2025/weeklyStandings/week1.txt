@@ -4,14 +4,14 @@
       2  The Outsiders                     3              0            872             806
       3  Mark it Zero !                    3              0            860             686
       4  Rick Rollers                      3              0            845             521
-      5  I am Root                         3              0            844             518
-      6  Engineering Strikes               2.5            0.5          859             685
-      7  Craptastic                        2              1            863             709
-      8  SPAM                              2              1            863             705
-      9  Bad Attitude                      2              1            859             675
-     10  AWACS ON/OFF                      2              1            854             634
-     11  The Century Club                  2              1            852             600
-     12  Spare Me                          2              1            851             585
+      5  Craptastic                        2              1            863             709
+      6  SPAM                              2              1            863             705
+      7  Bad Attitude                      2              1            859             675
+      8  Engineering Strikes               2              1            859             685
+      9  AWACS ON/OFF                      2              1            854             634
+     10  The Century Club                  2              1            852             600
+     11  Spare Me                          2              1            851             585
+     12  Guess Who                         2              1            851             581
      13  The Munsons                       2              1            848             568
      14  Roll Clones                       1.5            1.5          872             796
      15  Sandbaggers                       1.5            1.5          872             750
@@ -20,11 +20,11 @@
      18  Lunch Hour Hookers                1              2            850             596
      19  TB Inc LLC                        1              2            847             557
      20  XXX Dancers                       1              2            846             562
-     21  Barely Bowling                    1              2            840             508
-     22  Who gives a split                 1              2            840             488
-     23  Bob_Rossing It                    0.5            2.5          824             514
-     24  Top Gun                           0              3            854             618
-     25  Split Happens                     0              3            850             594
-     26  Alias Smith and Godfrey           0              3            846             558
-     27  Guess Who                         0              3            831             561
+     21  Bob_Rossing It                    1              2            844             534
+     22  I am Root                         1              2            844             518
+     23  Barely Bowling                    1              2            840             508
+     24  Who gives a split                 1              2            840             488
+     25  Top Gun                           0              3            854             618
+     26  Split Happens                     0              3            850             594
+     27  Alias Smith and Godfrey           0              3            846             558
      28  Lane Violation                    0              3            831             411

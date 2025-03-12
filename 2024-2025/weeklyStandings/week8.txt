@@ -1,9 +1,9 @@
   Place  Team Name                  Points Won    Points Lost    Pins+HDCP    Scratch Pins
 -------  -----------------------  ------------  -------------  -----------  --------------
       1  Rick Rollers                     19              5           6967            4523
-      2  Engineering Strikes              18.5            5.5         7141            6133
-      3  I am Root                        18              6           7056            4710
-      4  The Outsiders                    17              7           6864            6326
+      2  Engineering Strikes              18              6           7141            6133
+      3  The Outsiders                    17              7           6864            6326
+      4  I am Root                        16              8           7056            4710
       5  Craptastic                       16              8           6839            5379
       6  Bad Attitude                     15              9           7187            6421
       7  AWACS ON/OFF                     15              9           7083            5617
@@ -13,16 +13,16 @@
      11  The Munsons                      14             10           6794            4878
      12  Lunch Hour Hookers               13             11           6968            5134
      13  Spare Me                         12             12           6894            4856
-     14  SPAM                             11             13           7012            6168
-     15  Split Happens                    11             13           7009            5263
-     16  Top Gun                          10             14           6981            5377
-     17  XXX Dancers                      10             14           6797            4791
-     18  Guess Who                        10             14           6757            4719
+     14  Guess Who                        12             12           6777            4739
+     15  SPAM                             11             13           7012            6168
+     16  Split Happens                    11             13           7009            5263
+     17  Top Gun                          10             14           6981            5377
+     18  XXX Dancers                      10             14           6797            4791
      19  We Don't Give A Split            10             14           6747            4563
      20  The Century Club                 10             14           6729            4691
      21  Who gives a split                 9             15           6850            4146
      22  Mark it Zero !                    9             15           6762            5298
-     23  Bob_Rossing It                    8.5           15.5         6725            4331
+     23  Bob_Rossing It                    9             15           6745            4351
      24  Roll Clones                       8.5           15.5         6637            5615
      25  Backstabbers                      8             16           7142            5634
      26  Lane Violation                    8             16           6892            4412

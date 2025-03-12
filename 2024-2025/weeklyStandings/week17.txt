@@ -1,13 +1,13 @@
   Place  Team Name                  Points Won    Points Lost    Pins+HDCP    Scratch Pins
 -------  -----------------------  ------------  -------------  -----------  --------------
       1  Craptastic                       30             15          13166           10446
-      2  I am Root                        29             16          13224            9102
-      3  Engineering Strikes              28.5           16.5        13216           11486
+      2  Guess Who                        28             17          13301            9633
+      3  Engineering Strikes              28             17          13216           11486
       4  AWACS ON/OFF                     28             17          13104           10492
       5  TB Inc LLC                       28             17          12936            8950
-      6  Split Happens                    27             18          13104            9946
-      7  Rick Rollers                     27             18          12843            8469
-      8  Guess Who                        26             19          13281            9613
+      6  I am Root                        27             18          13224            9102
+      7  Split Happens                    27             18          13104            9946
+      8  Rick Rollers                     27             18          12843            8469
       9  Bad Attitude                     26             19          13280           12148
      10  Barely Bowling                   25             20          12954            8438
      11  The Century Club                 25             20          12915            9117
@@ -23,7 +23,7 @@
      21  Spare Me                         18             27          12966            9190
      22  Lane Violation                   18             27          12878            8084
      23  Mark it Zero !                   18             27          12672            9820
-     24  Bob_Rossing It                   16.5           28.5        12782            8228
+     24  Bob_Rossing It                   17             28          12802            8248
      25  Roll Clones                      16.5           28.5        12425           10253
      26  Backstabbers                     16             29          13061           10437
      27  Sandbaggers                      14.5           30.5        12659            9975

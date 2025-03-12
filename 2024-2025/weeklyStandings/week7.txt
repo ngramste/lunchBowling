@@ -1,11 +1,11 @@
   Place  Team Name                  Points Won    Points Lost    Pins+HDCP    Scratch Pins
 -------  -----------------------  ------------  -------------  -----------  --------------
-      1  I am Root                        16              5           6210            4126
-      2  Rick Rollers                     16              5           6038            3882
-      3  Engineering Strikes              15.5            5.5         6241            5339
-      4  TB Inc LLC                       15              6           6071            4129
-      5  Craptastic                       15              6           5992            4716
-      6  Bad Attitude                     14              7           6401            5675
+      1  Rick Rollers                     16              5           6038            3882
+      2  Engineering Strikes              15              6           6241            5339
+      3  TB Inc LLC                       15              6           6071            4129
+      4  Craptastic                       15              6           5992            4716
+      5  Bad Attitude                     14              7           6401            5675
+      6  I am Root                        14              7           6210            4126
       7  The Outsiders                    14              7           6045            5579
       8  AWACS ON/OFF                     13              8           6171            4871
       9  Lunch Hour Hookers               13              8           6120            4450
@@ -19,9 +19,9 @@
      17  The Century Club                 10             11           5909            4131
      18  We Don't Give A Split            10             11           5895            3957
      19  Split Happens                     9             12           6150            4606
-     20  Roll Clones                       8.5           12.5         5839            4949
-     21  Guess Who                         7             14           5815            4047
-     22  Bob_Rossing It                    6.5           14.5         5935            3819
+     20  Guess Who                         9             12           5835            4067
+     21  Roll Clones                       8.5           12.5         5839            4949
+     22  Bob_Rossing It                    7             14           5955            3839
      23  Sandbaggers                       6.5           14.5         5839            4671
      24  Who gives a split                 6             15           5936            3596
      25  Mark it Zero !                    6             15           5843            4581

@@ -4,11 +4,11 @@
       2  Rick Rollers                     25             11          10366            6818
       3  Bad Attitude                     24             12          10713            9715
       4  AWACS ON/OFF                     23             13          10597            8429
-      5  I am Root                        23             13          10538            7170
-      6  Craptastic                       23             13          10399            8199
-      7  Engineering Strikes              22.5           13.5        10526            9112
+      5  Craptastic                       23             13          10399            8199
+      6  Guess Who                        22             14          10639            7617
+      7  Engineering Strikes              22             14          10526            9112
       8  The Outsiders                    22             14          10380            9532
-      9  Guess Who                        20             16          10619            7597
+      9  I am Root                        21             15          10538            7170
      10  Split Happens                    20             16          10511            7973
      11  SPAM                             18             18          10473            9275
      12  The Century Club                 18             18          10262            7204
@@ -23,7 +23,7 @@
      21  The Munsons                      16             20          10161            7205
      22  Mark it Zero !                   15             21          10135            7881
      23  Lane Violation                   14             22          10345            6489
-     24  Bob_Rossing It                   12.5           23.5        10131            6541
+     24  Bob_Rossing It                   13             23          10151            6561
      25  Roll Clones                      12.5           23.5         9880            8194
      26  Backstabbers                     12             24          10481            8349
      27  Sandbaggers                      11.5           24.5        10133            8011

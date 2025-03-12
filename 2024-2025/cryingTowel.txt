@@ -5,6 +5,7 @@ Moffat, Andrew         M             22       3
 Webster, Chance        M             20       0
 S, K                   M             19       0
 Bell, Tracy            M             18       0
+Crow, Jim              M             17      21
 Petersen, Tim          M             17       0
 Rhein, Bradley         M             17       0
 Harken, Ray            M             16       0
@@ -70,7 +71,6 @@ Roggow, Dan            M              2      17
 Smith, Brian           M              2      12
 Tew, Ryan              M              2       0
 Schmidt, Derek         M              1      14
-Crow, Jim              M              0      17
 Dooley, Gene           M              0       4
 Geesaman, Bob          M              0      15
 Goehenouer, David      M              0      17

@@ -2,18 +2,18 @@
 -------  -----------------------  ------------  -------------  -----------  --------------
       1  Craptastic                       41             16          16757           13385
       2  TB Inc LLC                       38             19          16488           11504
-      3  Engineering Strikes              36.5           20.5        16785           14671
+      3  Engineering Strikes              36             21          16785           14671
       4  AWACS ON/OFF                     35             22          16592           13398
       5  Lunch Hour Hookers               34             23          16927           12773
-      6  I am Root                        34             23          16558           11472
-      7  Split Happens                    34             23          16501           12549
-      8  Barely Bowling                   32             25          16506           10822
-      9  Rick Rollers                     32             25          16285           10789
-     10  One More                         32             25          16008           15288
-     11  We Don't Give A Split            31             26          16191           11045
-     12  The Outsiders                    31             26          15644           14324
-     13  Bad Attitude                     30             27          16799           15477
-     14  Guess Who                        30             27          16675           12159
+      6  Split Happens                    34             23          16501           12549
+      7  Guess Who                        32             25          16695           12179
+      8  I am Root                        32             25          16558           11472
+      9  Barely Bowling                   32             25          16506           10822
+     10  Rick Rollers                     32             25          16285           10789
+     11  One More                         32             25          16008           15288
+     12  We Don't Give A Split            31             26          16191           11045
+     13  The Outsiders                    31             26          15644           14324
+     14  Bad Attitude                     30             27          16799           15477
      15  SPAM                             29             28          16465           14617
      16  Who gives a split                29             28          16202           10282
      17  The Century Club                 27             30          16271           11515
@@ -26,5 +26,5 @@
      24  XXX Dancers                      21             36          16293           11719
      25  Sandbaggers                      20.5           36.5        16212           12816
      26  Spare Me                         20             37          16373           11673
-     27  Bob_Rossing It                   18.5           38.5        15278           10042
+     27  Bob_Rossing It                   19             38          15298           10062
      28  Alias Smith and Godfrey          15             42          16039           10481

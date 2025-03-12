@@ -1,10 +1,10 @@
   Place  Team Name                  Points Won    Points Lost    Pins+HDCP    Scratch Pins
 -------  -----------------------  ------------  -------------  -----------  --------------
-      1  I am Root                        21              6           7989            5379
+      1  I am Root                        19              8           7989            5379
       2  Rick Rollers                     19              8           7789            5067
       3  The Outsiders                    19              8           7756            7138
-      4  Engineering Strikes              18.5            8.5         7974            6866
-      5  Bad Attitude                     18              9           8146            7330
+      4  Bad Attitude                     18              9           8146            7330
+      5  Engineering Strikes              18              9           7974            6866
       6  TB Inc LLC                       18              9           7832            5364
       7  AWACS ON/OFF                     16             11           7984            6318
       8  Craptastic                       16             11           7622            5976
@@ -15,16 +15,16 @@
      13  Lunch Hour Hookers               14             13           7796            5796
      14  Spare Me                         14             13           7792            5512
      15  Barely Bowling                   14             13           7733            4997
-     16  Top Gun                          13             14           7793            5967
-     17  The Century Club                 13             14           7668            5366
-     18  Guess Who                        12             15           7672            5376
+     16  Guess Who                        14             13           7692            5396
+     17  Top Gun                          13             14           7793            5967
+     18  The Century Club                 13             14           7668            5366
      19  We Don't Give A Split            12             15           7640            5210
      20  Mark it Zero !                   12             15           7598            5938
      21  Who gives a split                11             16           7682            4660
      22  XXX Dancers                      11             16           7639            5447
      23  Roll Clones                       9.5           17.5         7395            6235
      24  Backstabbers                      9             18           7981            6319
-     25  Bob_Rossing It                    8.5           18.5         7550            4864
+     25  Bob_Rossing It                    9             18           7570            4884
      26  Sandbaggers                       8.5           18.5         7530            6074
      27  Lane Violation                    8             19           7658            4768
      28  Alias Smith and Godfrey           6             21           7521            4785

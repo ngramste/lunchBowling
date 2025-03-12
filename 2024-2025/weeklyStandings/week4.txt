@@ -2,14 +2,14 @@
 -------  -----------------------  ------------  -------------  -----------  --------------
       1  Rick Rollers                     11              1           3440            2186
       2  SPAM                             10              2           3706            3248
-      3  I am Root                        10              2           3540            2272
-      4  The Outsiders                     9              3           3560            3290
-      5  TB Inc LLC                        9              3           3498            2354
+      3  The Outsiders                     9              3           3560            3290
+      4  TB Inc LLC                        9              3           3498            2354
+      5  I am Root                         8              4           3540            2272
       6  AWACS ON/OFF                      8              4           3533            2745
       7  Barely Bowling                    8              4           3530            2288
       8  The Munsons                       8              4           3369            2365
       9  Craptastic                        8              4           3367            2663
-     10  Engineering Strikes               7.5            4.5         3571            3001
+     10  Engineering Strikes               7              5           3571            3001
      11  Spare Me                          7              5           3439            2351
      12  Bad Attitude                      6              6           3621            3057
      13  One More                          6              6           3484            3248
@@ -24,7 +24,7 @@
      22  Split Happens                     4              8           3454            2558
      23  Who gives a split                 4              8           3439            2101
      24  Top Gun                           3              9           3546            2640
-     25  Bob_Rossing It                    2.5            9.5         3417            2175
-     26  Backstabbers                      2             10           3508            2734
-     27  Alias Smith and Godfrey           1             11           3321            2171
-     28  Guess Who                         1             11           3265            2309
+     25  Bob_Rossing It                    3              9           3437            2195
+     26  Guess Who                         3              9           3285            2329
+     27  Backstabbers                      2             10           3508            2734
+     28  Alias Smith and Godfrey           1             11           3321            2171

@@ -1,16 +1,16 @@
   Place  Team Name                  Points Won    Points Lost    Pins+HDCP    Scratch Pins
 -------  -----------------------  ------------  -------------  -----------  --------------
       1  Craptastic                       32             16          14059           11173
-      2  I am Root                        30             18          14044            9678
-      3  Split Happens                    30             18          14030           10676
-      4  TB Inc LLC                       30             18          13844            9604
-      5  AWACS ON/OFF                     29             19          13985           11219
-      6  Rick Rollers                     29             19          13704            9050
-      7  Engineering Strikes              28.5           19.5        14071           12245
-      8  The Century Club                 27             21          13822            9782
-      9  Barely Bowling                   27             21          13793            8975
-     10  Bad Attitude                     26             22          14131           12955
-     11  Guess Who                        26             22          14079           10203
+      2  Split Happens                    30             18          14030           10676
+      3  TB Inc LLC                       30             18          13844            9604
+      4  AWACS ON/OFF                     29             19          13985           11219
+      5  Rick Rollers                     29             19          13704            9050
+      6  Guess Who                        28             20          14099           10223
+      7  Engineering Strikes              28             20          14071           12245
+      8  I am Root                        28             20          14044            9678
+      9  The Century Club                 27             21          13822            9782
+     10  Barely Bowling                   27             21          13793            8975
+     11  Bad Attitude                     26             22          14131           12955
      12  Lunch Hour Hookers               26             22          14050           10480
      13  We Don't Give A Split            26             22          13585            9259
      14  One More                         25             23          13248           12544
@@ -25,6 +25,6 @@
      23  Backstabbers                     19             29          14002           11216
      24  Spare Me                         18             30          13803            9797
      25  Roll Clones                      17.5           30.5        13202           10710
-     26  Bob_Rossing It                   16.5           31.5        12782            8228
+     26  Bob_Rossing It                   17             31          12802            8248
      27  Sandbaggers                      14.5           33.5        13527           10707
      28  Alias Smith and Godfrey          12             36          13542            8878

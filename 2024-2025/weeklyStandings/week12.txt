@@ -2,16 +2,16 @@
 -------  -----------------------  ------------  -------------  -----------  --------------
       1  TB Inc LLC                       24              9           9587            6605
       2  Bad Attitude                     23             10           9944            8980
-      3  Engineering Strikes              22.5           10.5         9728            8416
-      4  I am Root                        22             11           9724            6608
-      5  Rick Rollers                     22             11           9552            6278
-      6  AWACS ON/OFF                     21             12           9767            7745
+      3  Engineering Strikes              22             11           9728            8416
+      4  Rick Rollers                     22             11           9552            6278
+      5  AWACS ON/OFF                     21             12           9767            7745
+      6  I am Root                        20             13           9724            6608
       7  Split Happens                    20             13           9708            7364
       8  Craptastic                       20             13           9510            7488
       9  The Outsiders                    20             13           9480            8708
-     10  One More                         18             15           9645            9019
-     11  SPAM                             17             16           9644            8534
-     12  Guess Who                        17             16           9564            6776
+     10  Guess Who                        19             14           9584            6796
+     11  One More                         18             15           9645            9019
+     12  SPAM                             17             16           9644            8534
      13  The Century Club                 17             16           9418            6610
      14  Top Gun                          16             17           9503            7323
      15  Lunch Hour Hookers               16             17           9455            6945
@@ -25,6 +25,6 @@
      23  Roll Clones                      12.5           20.5         9071            7613
      24  Lane Violation                   12             21           9531            6091
      25  Backstabbers                     11             22           9682            7710
-     26  Bob_Rossing It                   10.5           22.5         9277            6037
+     26  Bob_Rossing It                   11             22           9297            6057
      27  Alias Smith and Godfrey          10             23           9262            6082
      28  Sandbaggers                       9.5           23.5         9245            7401

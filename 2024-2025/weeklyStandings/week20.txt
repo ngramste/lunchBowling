@@ -2,14 +2,14 @@
 -------  -----------------------  ------------  -------------  -----------  --------------
       1  Craptastic                       38             16          15824           12612
       2  TB Inc LLC                       35             19          15609           10871
-      3  Engineering Strikes              34.5           19.5        15898           13878
-      4  I am Root                        33             21          15732           10894
-      5  AWACS ON/OFF                     32             22          15725           12653
-      6  Lunch Hour Hookers               31             23          15993           12077
-      7  Split Happens                    31             23          15657           11907
-      8  Rick Rollers                     31             23          15358           10142
-      9  We Don't Give A Split            31             23          15329           10471
-     10  Guess Who                        29             25          15805           11501
+      3  Engineering Strikes              34             20          15898           13878
+      4  AWACS ON/OFF                     32             22          15725           12653
+      5  Lunch Hour Hookers               31             23          15993           12077
+      6  Guess Who                        31             23          15825           11521
+      7  I am Root                        31             23          15732           10894
+      8  Split Happens                    31             23          15657           11907
+      9  Rick Rollers                     31             23          15358           10142
+     10  We Don't Give A Split            31             23          15329           10471
      11  Barely Bowling                   29             25          15511           10099
      12  Who gives a split                29             25          15415            9673
      13  One More                         29             25          15046           14326
@@ -25,6 +25,6 @@
      23  Mark it Zero !                   22             32          15127           11661
      24  XXX Dancers                      21             33          15437           11097
      25  Spare Me                         20             34          15548           11076
-     26  Sandbaggers                      18.5           35.5        15356           12136
-     27  Bob_Rossing It                   18.5           35.5        14477            9499
+     26  Bob_Rossing It                   19             35          14497            9519
+     27  Sandbaggers                      18.5           35.5        15356           12136
      28  Alias Smith and Godfrey          13             41          15208            9948

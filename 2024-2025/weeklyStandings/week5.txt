@@ -1,9 +1,9 @@
   Place  Team Name                  Points Won    Points Lost    Pins+HDCP    Scratch Pins
 -------  -----------------------  ------------  -------------  -----------  --------------
-      1  I am Root                        12              3           4434            2884
-      2  Rick Rollers                     12              3           4261            2705
-      3  SPAM                             11              4           4568            4038
-      4  Engineering Strikes              10.5            4.5         4473            3787
+      1  Rick Rollers                     12              3           4261            2705
+      2  SPAM                             11              4           4568            4038
+      3  Engineering Strikes              10              5           4473            3787
+      4  I am Root                        10              5           4434            2884
       5  Spare Me                         10              5           4423            3083
       6  TB Inc LLC                       10              5           4323            2917
       7  The Munsons                      10              5           4267            3021
@@ -19,12 +19,12 @@
      17  XXX Dancers                       7              8           4223            2995
      18  We Don't Give A Split             7              8           4173            2853
      19  Sandbaggers                       6.5            8.5         4256            3414
-     20  Mark it Zero !                    6              9           4075            3223
-     21  Top Gun                           5             10           4368            3292
-     22  Split Happens                     5             10           4295            3177
-     23  Lane Violation                    5             10           4269            2591
-     24  Bob_Rossing It                    4.5           10.5         4280            2682
-     25  Who gives a split                 4             11           4236            2566
-     26  Alias Smith and Godfrey           4             11           4162            2626
-     27  Guess Who                         4             11           4120            2898
+     20  Guess Who                         6              9           4140            2918
+     21  Mark it Zero !                    6              9           4075            3223
+     22  Top Gun                           5             10           4368            3292
+     23  Bob_Rossing It                    5             10           4300            2702
+     24  Split Happens                     5             10           4295            3177
+     25  Lane Violation                    5             10           4269            2591
+     26  Who gives a split                 4             11           4236            2566
+     27  Alias Smith and Godfrey           4             11           4162            2626
      28  Backstabbers                      3             12           4369            3389
