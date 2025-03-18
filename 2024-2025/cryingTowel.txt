@@ -76,6 +76,8 @@ Geesaman, Bob          M              0      15
 Goehenouer, David      M              0      17
 Korbel, Loren          M              0      18
 Kvindlog, Elise        W              0      14
+Mueller, Kyle          M              0      22
 Sevick, Josh           M              0       7
+Skogerbee, Ben         M              0      22
 Smith, Ryan            M              0      12
 Strong, Justin         M              0       3
