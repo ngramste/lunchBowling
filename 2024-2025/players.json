@@ -217,9 +217,9 @@
       "PointsWonDec": 0.0
     },
     {
-      "TeamID": 0,
-      "TeamName": "",
-      "TeamNameURLFormated": "",
+      "TeamID": 22,
+      "TeamName": "We Don't Give A Split",
+      "TeamNameURLFormated": "we-dont-give-a-split",
       "BowlerID": 9,
       "BowlerName": "Crooks, Neal",
       "BowlerNameURLFormated": "crooks-neal",
@@ -236,7 +236,7 @@
       "MostImproved": 0.0,
       "BowlerPosition": 0,
       "BowlerStatus": "T",
-      "TeamNum": 0,
+      "TeamNum": 22,
       "EnteringAverage": 0,
       "PointsWonDec": 0.0
     },
@@ -841,9 +841,9 @@
       "PointsWonDec": 0.0
     },
     {
-      "TeamID": 19,
-      "TeamName": "TB Inc LLC",
-      "TeamNameURLFormated": "tb-inc-llc",
+      "TeamID": 0,
+      "TeamName": "",
+      "TeamNameURLFormated": "",
       "BowlerID": 117,
       "BowlerName": "K, R",
       "BowlerNameURLFormated": "k-r",
@@ -860,7 +860,7 @@
       "MostImproved": 0.0,
       "BowlerPosition": 0,
       "BowlerStatus": "T",
-      "TeamNum": 19,
+      "TeamNum": 0,
       "EnteringAverage": 203,
       "PointsWonDec": 0.0
     },
@@ -1225,9 +1225,9 @@
       "PointsWonDec": 0.0
     },
     {
-      "TeamID": 10,
-      "TeamName": "Engineering Strikes",
-      "TeamNameURLFormated": "engineering-strikes",
+      "TeamID": 23,
+      "TeamName": "Split Happens",
+      "TeamNameURLFormated": "split-happens",
       "BowlerID": 12,
       "BowlerName": "Patton, Steve",
       "BowlerNameURLFormated": "patton-steve",
@@ -1244,7 +1244,7 @@
       "MostImproved": 0.0,
       "BowlerPosition": 3,
       "BowlerStatus": "T",
-      "TeamNum": 10,
+      "TeamNum": 23,
       "EnteringAverage": 178,
       "PointsWonDec": 0.0
     },
@@ -1297,9 +1297,9 @@
       "PointsWonDec": 0.0
     },
     {
-      "TeamID": 5,
-      "TeamName": "Barely Bowling",
-      "TeamNameURLFormated": "barely-bowling",
+      "TeamID": 27,
+      "TeamName": "The Century Club",
+      "TeamNameURLFormated": "the-century-club",
       "BowlerID": 23,
       "BowlerName": "Ramstead, Nick",
       "BowlerNameURLFormated": "ramstead-nick",
@@ -1316,7 +1316,7 @@
       "MostImproved": 0.0,
       "BowlerPosition": 1,
       "BowlerStatus": "R",
-      "TeamNum": 5,
+      "TeamNum": 27,
       "EnteringAverage": 147,
       "PointsWonDec": 0.0
     },
@@ -1441,9 +1441,9 @@
       "PointsWonDec": 0.0
     },
     {
-      "TeamID": 22,
-      "TeamName": "We Don't Give A Split",
-      "TeamNameURLFormated": "we-dont-give-a-split",
+      "TeamID": 28,
+      "TeamName": "Who gives a split",
+      "TeamNameURLFormated": "who-gives-a-split",
       "BowlerID": 48,
       "BowlerName": "Schmidt, Derek",
       "BowlerNameURLFormated": "schmidt-derek",
@@ -1460,7 +1460,7 @@
       "MostImproved": 0.0,
       "BowlerPosition": 2,
       "BowlerStatus": "R",
-      "TeamNum": 22,
+      "TeamNum": 28,
       "EnteringAverage": 134,
       "PointsWonDec": 0.0
     },

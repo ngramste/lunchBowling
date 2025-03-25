@@ -70,9 +70,9 @@ M, K                   M              2       4
 Roggow, Dan            M              2      17
 Smith, Brian           M              2      12
 Tew, Ryan              M              2       0
+Geesaman, Bob          M              1      23
 Schmidt, Derek         M              1      14
 Dooley, Gene           M              0       4
-Geesaman, Bob          M              0      15
 Goehenouer, David      M              0      17
 Korbel, Loren          M              0      18
 Kvindlog, Elise        W              0      14
