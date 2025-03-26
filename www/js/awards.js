@@ -138,6 +138,37 @@ function getIndividualAwards() {
     return awards;
 }
 
+function buildRow(prize, teamName, people, score, award, plaqueText) {
+    tr = document.createElement("tr");
+
+    td = document.createElement("td");
+    td.innerHTML = prize;
+    tr.appendChild(td);
+
+    td = document.createElement("td");
+    td.innerHTML = teamName;
+    tr.appendChild(td);
+
+    td = document.createElement("td");
+    td.innerHTML = people.join(",<br>");
+    tr.appendChild(td);
+
+    td = document.createElement("td");
+    td.innerHTML = score;
+    tr.appendChild(td);
+
+    td = document.createElement("td");
+    td.innerHTML = award;
+    tr.appendChild(td);
+
+    td = document.createElement("td");
+    td.setAttribute("style", "text-align: center");
+    td.innerHTML = plaqueText;
+    tr.appendChild(td);
+    
+    return tr;
+}
+
 // Setup a function to be called when the document is finished loading.
 window.onload = function () {
     Promise.all([
@@ -175,390 +206,103 @@ window.onload = function () {
         tr.appendChild(th);
 
         table.appendChild(tr);
-        tr = document.createElement("tr");
 
         let prize = "Noon League 1st Place";
-        let td = document.createElement("td");
-        td.innerHTML = prize;
-        tr.appendChild(td);
-
         let teamName = weeklyStandings.getLatestWeek()[0].teamName;
-        td = document.createElement("td");
-        td.innerHTML = teamName;
-        tr.appendChild(td);
-
         let people = getValidTeamMembers(teamData.getTeamByName(teamName).TeamNum);
-        td = document.createElement("td");
-        td.innerHTML = people.join(",<br>");
-        tr.appendChild(td);
-
         let score = weeklyStandings.getLatestWeek()[0].pointsWon;
-        td = document.createElement("td");
-        td.innerHTML = score;
-        tr.appendChild(td);
-
-        td = document.createElement("td");
-        td.innerHTML = `${people.length} plaques - (size - 7x9)`;
-        tr.appendChild(td);
-
-        td = document.createElement("td");
-        td.setAttribute("style", "text-align: center");
-        td.innerHTML = `${prize}<br>${teamName}<br>${people.join(", ")}`;
-        tr.appendChild(td);
-
-        table.appendChild(tr);
-        tr = document.createElement("tr");
+        let award = `${people.length} plaques - (size - 7x9)`;
+        let plaqueText = `${prize}<br>${teamName}<br>${people.join(", ")}`;
+        table.appendChild(buildRow(prize, teamName, people, score, award, plaqueText));
 
         prize = "Noon League 2nd Place";
-        td = document.createElement("td");
-        td.innerHTML = prize;
-        tr.appendChild(td);
-
         teamName = weeklyStandings.getLatestWeek()[1].teamName;
-        td = document.createElement("td");
-        td.innerHTML = teamName;
-        tr.appendChild(td);
-
         people = getValidTeamMembers(teamData.getTeamByName(teamName).TeamNum);
-        td = document.createElement("td");
-        td.innerHTML = people.join(",<br>");
-        tr.appendChild(td);
-
         score = weeklyStandings.getLatestWeek()[1].pointsWon;
-        td = document.createElement("td");
-        td.innerHTML = score;
-        tr.appendChild(td);
-
-        td = document.createElement("td");
-        td.innerHTML = `${people.length} plaques - (size - 5x7)`;
-        tr.appendChild(td);
-
-        td = document.createElement("td");
-        td.setAttribute("style", "text-align: center");
-        td.innerHTML = `${prize}<br>${teamName}<br>${people.join(", ")}`;
-        tr.appendChild(td);
-
-        table.appendChild(tr);
-        tr = document.createElement("tr");
+        award = `${people.length} plaques - (size - 5x7)`;
+        plaqueText = `${prize}<br>${teamName}<br>${people.join(", ")}`;
+        table.appendChild(buildRow(prize, teamName, people, score, award, plaqueText));
 
         prize = "Noon League 3rd Place";
-        td = document.createElement("td");
-        td.innerHTML = prize;
-        tr.appendChild(td);
-
         teamName = weeklyStandings.getLatestWeek()[2].teamName;
-        td = document.createElement("td");
-        td.innerHTML = teamName;
-        tr.appendChild(td);
-
         people = getValidTeamMembers(teamData.getTeamByName(teamName).TeamNum);
-        td = document.createElement("td");
-        td.innerHTML = people.join(",<br>");
-        tr.appendChild(td);
-
         score = weeklyStandings.getLatestWeek()[2].pointsWon;
-        td = document.createElement("td");
-        td.innerHTML = score;
-        tr.appendChild(td);
-
-        td = document.createElement("td");
-        td.innerHTML = `${people.length} plaques - (size - 5x7)`;
-        tr.appendChild(td);
-
-        td = document.createElement("td");
-        td.setAttribute("style", "text-align: center");
-        td.innerHTML = `${prize}<br>${teamName}<br>${people.join(", ")}`;
-        tr.appendChild(td);
-
-        table.appendChild(tr);
-        tr = document.createElement("tr");
+        award = `${people.length} plaques - (size - 5x7)`;
+        plaqueText = `${prize}<br>${teamName}<br>${people.join(", ")}`;
+        table.appendChild(buildRow(prize, teamName, people, score, award, plaqueText));
 
         prize = "Noon League Last Place";
-        td = document.createElement("td");
-        td.innerHTML = prize;
-        tr.appendChild(td);
-
         teamName = weeklyStandings.getLatestWeek()[weeklyStandings.getLatestWeek().length - 1].teamName;
-        td = document.createElement("td");
-        td.innerHTML = teamName;
-        tr.appendChild(td);
-
         people = getValidTeamMembers(teamData.getTeamByName(teamName).TeamNum);
-        td = document.createElement("td");
-        td.innerHTML = people.join(",<br>");
-        tr.appendChild(td);
-
         score = weeklyStandings.getLatestWeek()[weeklyStandings.getLatestWeek().length - 1].pointsWon;
-        td = document.createElement("td");
-        td.innerHTML = score;
-        tr.appendChild(td);
-
-        td = document.createElement("td");
-        td.innerHTML = `${people.length} Goofy bowler trophies`;
-        tr.appendChild(td);
-
-        td = document.createElement("td");
-        td.setAttribute("style", "text-align: center");
-        td.innerHTML = `${prize}<br>${teamName}<br>${people.join(", ")}`;
-        tr.appendChild(td);
-
-        table.appendChild(tr);
+        award = `${people.length} Goofy bowler trophies`;
+        plaqueText = `${prize}<br>${teamName}<br>${people.join(", ")}`;
+        table.appendChild(buildRow(prize, teamName, people, score, award, plaqueText));
+        
         let individual = getIndividualAwards();
-        tr = document.createElement("tr");
 
         prize = "Noon League Men's High Scratch Series";
-        td = document.createElement("td");
-        td.innerHTML = prize;
-        tr.appendChild(td);
-
         teamName = leagueRecaps.getBowler(individual.men.highSS[1].week, individual.men.highSS[0]).TeamName;
-        td = document.createElement("td");
-        td.innerHTML = teamName;
-        tr.appendChild(td);
-
-        people = playerData.prettyName(individual.men.highSS[0]);
-        td = document.createElement("td");
-        td.innerHTML = people;
-        tr.appendChild(td);
-
+        people = [playerData.prettyName(individual.men.highSS[0])];
         score = individual.men.highSS[1].Score1 + individual.men.highSS[1].Score2;
-        td = document.createElement("td");
-        td.innerHTML = score;
-        tr.appendChild(td);
-
-        td = document.createElement("td");
-        td.innerHTML = `1 plaque - (size - 5x7)`;
-        tr.appendChild(td);
-
-        td = document.createElement("td");
-        td.setAttribute("style", "text-align: center");
-        td.innerHTML = `${prize}<br>${teamName}<br>${people}: ${score}`;
-        tr.appendChild(td);
-
-        table.appendChild(tr);
-        tr = document.createElement("tr");
+        award = `1 plaque - (size - 5x7)`;
+        plaqueText = `${prize}<br>${teamName}<br>${people}: ${score}`;
+        table.appendChild(buildRow(prize, teamName, people, score, award, plaqueText));
 
         prize = "Noon League Men's High Scratch Game";
-        td = document.createElement("td");
-        td.innerHTML = prize;
-        tr.appendChild(td);
-
         teamName = leagueRecaps.getBowler(individual.men.highSG[1].week, individual.men.highSG[0]).TeamName;
-        td = document.createElement("td");
-        td.innerHTML = teamName;
-        tr.appendChild(td);
-
-        people = playerData.prettyName(individual.men.highSG[0]);
-        td = document.createElement("td");
-        td.innerHTML = people;
-        tr.appendChild(td);
-
+        people = [playerData.prettyName(individual.men.highSG[0])];
         score = Math.max(individual.men.highSG[1].Score1, individual.men.highSG[1].Score2);
-        td = document.createElement("td");
-        td.innerHTML = score;
-        tr.appendChild(td);
-
-        td = document.createElement("td");
-        td.innerHTML = `1 plaque - (size - 5x7)`;
-        tr.appendChild(td);
-
-        td = document.createElement("td");
-        td.setAttribute("style", "text-align: center");
-        td.innerHTML = `${prize}<br>${teamName}<br>${people}: ${score}`;
-        tr.appendChild(td);
-
-        table.appendChild(tr);
-        tr = document.createElement("tr");
+        award = `1 plaque - (size - 5x7)`;
+        plaqueText = `${prize}<br>${teamName}<br>${people}: ${score}`;
+        table.appendChild(buildRow(prize, teamName, people, score, award, plaqueText));
 
         prize = "Noon League Men's High Handicap Series";
-        td = document.createElement("td");
-        td.innerHTML = prize;
-        tr.appendChild(td);
-
         teamName = leagueRecaps.getBowler(individual.men.highHS[1].week, individual.men.highHS[0]).TeamName;
-        td = document.createElement("td");
-        td.innerHTML = teamName;
-        tr.appendChild(td);
-
-        people = playerData.prettyName(individual.men.highHS[0]);
-        td = document.createElement("td");
-        td.innerHTML = people;
-        tr.appendChild(td);
-
+        people = [playerData.prettyName(individual.men.highHS[0])];
         score = individual.men.highHS[1].Score1 + individual.men.highHS[1].Score2 + (2 * individual.men.highHS[1].handicapBefore);
-        td = document.createElement("td");
-        td.innerHTML = score;
-        tr.appendChild(td);
-
-        td = document.createElement("td");
-        td.innerHTML = `1 plaque - (size - 5x7)`;
-        tr.appendChild(td);
-
-        td = document.createElement("td");
-        td.setAttribute("style", "text-align: center");
-        td.innerHTML = `${prize}<br>${teamName}<br>${people}: ${score}`;
-        tr.appendChild(td);
-
-        table.appendChild(tr);
-        tr = document.createElement("tr");
+        award = `1 plaque - (size - 5x7)`;
+        plaqueText = `${prize}<br>${teamName}<br>${people}: ${score}`;
+        table.appendChild(buildRow(prize, teamName, people, score, award, plaqueText));
 
         prize = "Noon League Men's High Handicap Game";
-        td = document.createElement("td");
-        td.innerHTML = prize;
-        tr.appendChild(td);
-
         teamName = leagueRecaps.getBowler(individual.men.highHG[1].week, individual.men.highHG[0]).TeamName;
-        td = document.createElement("td");
-        td.innerHTML = teamName;
-        tr.appendChild(td);
-
-        people = playerData.prettyName(individual.men.highHG[0]);
-        td = document.createElement("td");
-        td.innerHTML = people;
-        tr.appendChild(td);
-
+        people = [playerData.prettyName(individual.men.highHG[0])];
         score = Math.max(individual.men.highHG[1].Score1 + individual.men.highHG[1].handicapBefore, individual.men.highHG[1].Score2 + individual.men.highHG[1].handicapBefore);
-        td = document.createElement("td");
-        td.innerHTML = score;
-        tr.appendChild(td);
-
-        td = document.createElement("td");
-        td.innerHTML = `1 plaque - (size - 5x7)`;
-        tr.appendChild(td);
-
-        td = document.createElement("td");
-        td.setAttribute("style", "text-align: center");
-        td.innerHTML = `${prize}<br>${teamName}<br>${people}: ${score}`;
-        tr.appendChild(td);
-
-        table.appendChild(tr);
-        tr = document.createElement("tr");
+        award = `1 plaque - (size - 5x7)`;
+        plaqueText = `${prize}<br>${teamName}<br>${people}: ${score}`;
+        table.appendChild(buildRow(prize, teamName, people, score, award, plaqueText));
 
         prize = "Noon League Women's High Scratch Series";
-        td = document.createElement("td");
-        td.innerHTML = prize;
-        tr.appendChild(td);
-
         teamName = leagueRecaps.getBowler(individual.women.highSS[1].week, individual.women.highSS[0]).TeamName;
-        td = document.createElement("td");
-        td.innerHTML = teamName;
-        tr.appendChild(td);
-
-        people = playerData.prettyName(individual.women.highSS[0]);
-        td = document.createElement("td");
-        td.innerHTML = people;
-        tr.appendChild(td);
-
+        people = [playerData.prettyName(individual.women.highSS[0])];
         score = individual.women.highSS[1].Score1 + individual.women.highSS[1].Score2;
-        td = document.createElement("td");
-        td.innerHTML = score;
-        tr.appendChild(td);
-
-        td = document.createElement("td");
-        td.innerHTML = `1 plaque - (size - 5x7)`;
-        tr.appendChild(td);
-
-        td = document.createElement("td");
-        td.setAttribute("style", "text-align: center");
-        td.innerHTML = `${prize}<br>${teamName}<br>${people}: ${score}`;
-        tr.appendChild(td);
-
-        table.appendChild(tr);
-        tr = document.createElement("tr");
+        award = `1 plaque - (size - 5x7)`;
+        plaqueText = `${prize}<br>${teamName}<br>${people}: ${score}`;
+        table.appendChild(buildRow(prize, teamName, people, score, award, plaqueText));
 
         prize = "Noon League Women's High Scratch Game";
-        td = document.createElement("td");
-        td.innerHTML = prize;
-        tr.appendChild(td);
-
         teamName = leagueRecaps.getBowler(individual.women.highSG[1].week, individual.women.highSG[0]).TeamName;
-        td = document.createElement("td");
-        td.innerHTML = teamName;
-        tr.appendChild(td);
-
-        people = playerData.prettyName(individual.women.highSG[0]);
-        td = document.createElement("td");
-        td.innerHTML = people;
-        tr.appendChild(td);
-
+        people = [playerData.prettyName(individual.women.highSG[0])];
         score = Math.max(individual.women.highSG[1].Score1, individual.women.highSG[1].Score2);
-        td = document.createElement("td");
-        td.innerHTML = score;
-        tr.appendChild(td);
-
-        td = document.createElement("td");
-        td.innerHTML = `1 plaque - (size - 5x7)`;
-        tr.appendChild(td);
-
-        td = document.createElement("td");
-        td.setAttribute("style", "text-align: center");
-        td.innerHTML = `${prize}<br>${teamName}<br>${people}: ${score}`;
-        tr.appendChild(td);
-
-        table.appendChild(tr);
-        tr = document.createElement("tr");
+        award = `1 plaque - (size - 5x7)`;
+        plaqueText = `${prize}<br>${teamName}<br>${people}: ${score}`;
+        table.appendChild(buildRow(prize, teamName, people, score, award, plaqueText));
 
         prize = "Noon League Women's High Handicap Series";
-        td = document.createElement("td");
-        td.innerHTML = prize;
-        tr.appendChild(td);
-
         teamName = leagueRecaps.getBowler(individual.women.highHS[1].week, individual.women.highHS[0]).TeamName;
-        td = document.createElement("td");
-        td.innerHTML = teamName;
-        tr.appendChild(td);
-
-        people = playerData.prettyName(individual.women.highHS[0]);
-        td = document.createElement("td");
-        td.innerHTML = people;
-        tr.appendChild(td);
-
+        people = [playerData.prettyName(individual.women.highHS[0])];
         score = individual.women.highHS[1].Score1 + individual.women.highHS[1].Score2 + (2 * individual.women.highHS[1].handicapBefore);
-        td = document.createElement("td");
-        td.innerHTML = score;
-        tr.appendChild(td);
-
-        td = document.createElement("td");
-        td.innerHTML = `1 plaque - (size - 5x7)`;
-        tr.appendChild(td);
-
-        td = document.createElement("td");
-        td.setAttribute("style", "text-align: center");
-        td.innerHTML = `${prize}<br>${teamName}<br>${people}: ${score}`;
-        tr.appendChild(td);
-
-        table.appendChild(tr);
-        tr = document.createElement("tr");
+        award = `1 plaque - (size - 5x7)`;
+        plaqueText = `${prize}<br>${teamName}<br>${people}: ${score}`;
+        table.appendChild(buildRow(prize, teamName, people, score, award, plaqueText));
 
         prize = "Noon League Women's High Handicap Game";
-        td = document.createElement("td");
-        td.innerHTML = prize;
-        tr.appendChild(td);
-
         teamName = leagueRecaps.getBowler(individual.women.highHG[1].week, individual.women.highHG[0]).TeamName;
-        td = document.createElement("td");
-        td.innerHTML = teamName;
-        tr.appendChild(td);
-
-        people = playerData.prettyName(individual.women.highHG[0]);
-        td = document.createElement("td");
-        td.innerHTML = people;
-        tr.appendChild(td);
-
+        people = [playerData.prettyName(individual.women.highHG[0])];
         score = Math.max(individual.women.highHG[1].Score1 + individual.women.highHG[1].handicapBefore, individual.women.highHG[1].Score2 + individual.men.highHG[1].handicapBefore);
-        td = document.createElement("td");
-        td.innerHTML = score;
-        tr.appendChild(td);
-
-        td = document.createElement("td");
-        td.innerHTML = `1 plaque - (size - 5x7)`;
-        tr.appendChild(td);
-
-        td = document.createElement("td");
-        td.setAttribute("style", "text-align: center");
-        td.innerHTML = `${prize}<br>${teamName}<br>${people}: ${score}`;
-        tr.appendChild(td);
-
-        table.appendChild(tr);
+        award = `1 plaque - (size - 5x7)`;
+        plaqueText = `${prize}<br>${teamName}<br>${people}: ${score}`;
+        table.appendChild(buildRow(prize, teamName, people, score, award, plaqueText));
     });
 };
