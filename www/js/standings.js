@@ -86,6 +86,10 @@ class standings {
     getWeek(weekNum) {
         return this.json_data[weekNum];
     }
+
+    getLatestWeek() {
+        return this.json_data[Math.max(... Object.keys(this.json_data))];
+    }
     
     getTeamPlace(teamName, weekNum) {
         return this.getWeek(weekNum).find(team => team.teamName == teamName).place;

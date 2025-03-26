@@ -43,6 +43,6 @@ class players {
             name = name.FriendlyName;
         }
 
-        return `${name.split(",")[1]} ${name.split(",")[0]}`;
+        return `${name.split(",")[1]} ${name.split(",")[0]}`.trim();
     }
 }
