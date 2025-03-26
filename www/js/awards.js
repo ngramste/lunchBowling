@@ -332,7 +332,7 @@ window.onload = function () {
 
         td = document.createElement("td");
         td.setAttribute("style", "text-align: center");
-        td.innerHTML = `${prize}<br>${teamName}<br>${people}`;
+        td.innerHTML = `${prize}<br>${teamName}<br>${people}: ${score}`;
         tr.appendChild(td);
 
         table.appendChild(tr);
@@ -364,7 +364,7 @@ window.onload = function () {
 
         td = document.createElement("td");
         td.setAttribute("style", "text-align: center");
-        td.innerHTML = `${prize}<br>${teamName}<br>${people}`;
+        td.innerHTML = `${prize}<br>${teamName}<br>${people}: ${score}`;
         tr.appendChild(td);
 
         table.appendChild(tr);
@@ -396,7 +396,7 @@ window.onload = function () {
 
         td = document.createElement("td");
         td.setAttribute("style", "text-align: center");
-        td.innerHTML = `${prize}<br>${teamName}<br>${people}`;
+        td.innerHTML = `${prize}<br>${teamName}<br>${people}: ${score}`;
         tr.appendChild(td);
 
         table.appendChild(tr);
@@ -428,7 +428,7 @@ window.onload = function () {
 
         td = document.createElement("td");
         td.setAttribute("style", "text-align: center");
-        td.innerHTML = `${prize}<br>${teamName}<br>${people}`;
+        td.innerHTML = `${prize}<br>${teamName}<br>${people}: ${score}`;
         tr.appendChild(td);
 
         table.appendChild(tr);
@@ -460,7 +460,7 @@ window.onload = function () {
 
         td = document.createElement("td");
         td.setAttribute("style", "text-align: center");
-        td.innerHTML = `${prize}<br>${teamName}<br>${people}`;
+        td.innerHTML = `${prize}<br>${teamName}<br>${people}: ${score}`;
         tr.appendChild(td);
 
         table.appendChild(tr);
@@ -492,7 +492,7 @@ window.onload = function () {
 
         td = document.createElement("td");
         td.setAttribute("style", "text-align: center");
-        td.innerHTML = `${prize}<br>${teamName}<br>${people}`;
+        td.innerHTML = `${prize}<br>${teamName}<br>${people}: ${score}`;
         tr.appendChild(td);
 
         table.appendChild(tr);
@@ -524,7 +524,7 @@ window.onload = function () {
 
         td = document.createElement("td");
         td.setAttribute("style", "text-align: center");
-        td.innerHTML = `${prize}<br>${teamName}<br>${people}`;
+        td.innerHTML = `${prize}<br>${teamName}<br>${people}: ${score}`;
         tr.appendChild(td);
 
         table.appendChild(tr);
@@ -556,7 +556,7 @@ window.onload = function () {
 
         td = document.createElement("td");
         td.setAttribute("style", "text-align: center");
-        td.innerHTML = `${prize}<br>${teamName}<br>${people}`;
+        td.innerHTML = `${prize}<br>${teamName}<br>${people}: ${score}`;
         tr.appendChild(td);
 
         table.appendChild(tr);
