@@ -40,8 +40,10 @@ class bowlerGames {
                     this.bowlers[bowler].forEach(week => {
                         if (0 == games) {
                             week.averageBefore = Math.floor((week.Score1 + week.Score2) / 2);
+                            week.averageBeforeFloating = (week.Score1 + week.Score2) / 2;
                         } else {
                             week.averageBefore = Math.floor(totalScratch / games);
+                            week.averageBeforeFloating = totalScratch / games;
                         }
 
                         week.handicapBefore = Math.floor(Math.max(0, (220 - week.averageBefore) * 0.9));
@@ -65,6 +67,7 @@ class bowlerGames {
                             week.averageAfter = 140;
                         } else {
                             week.averageAfter = Math.floor(totalScratch / games);
+                            week.averageAfterFloating = totalScratch / games;
                         }
 
                         week.handicapAfter = Math.floor(Math.max(0, (220 - week.averageAfter) * 0.9));

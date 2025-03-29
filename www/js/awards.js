@@ -3,6 +3,7 @@ let weeklyStandings = null;
 let leagueRecaps = null;
 let playerData = null;
 let gameData = null;
+let scheduleData = null;
 
 function getValidTeamMembers(teamNum, weeksRequired = 6) {
     let names = leagueRecaps.getWeekNums().map(week => leagueRecaps.getTeamMemberNames(week, teamNum)).flat();
@@ -138,6 +139,86 @@ function getIndividualAwards() {
     return awards;
 }
 
+function largestDropInAve(minWeeks = 6) {
+    return playerData.getPlayerNames().map(player => {
+        let retval = {
+            player: player,
+            gender: gameData.getGender(player),
+            drop: 0
+        };
+        let games = gameData.getGames(player);
+        if ((games != undefined) && (games.length >= minWeeks)) {
+            retval.drop = Math.min(... games.map(game => game.averageAfterFloating - game.averageBeforeFloating).filter(num => !isNaN(num)));
+        }
+
+        return retval;
+    }).sort(function(a,b) {return a.drop - b.drop});
+}
+
+function calculateMeanies() {
+    // Build the team list
+    let teams = teamData.getTeamList().map(team => {
+        return {
+            teamName: team, 
+            points: 0
+        };
+    });
+    
+    // Get all the low game data
+    let bowlers = playerData.getPlayerNames().filter(bowler => gameData.getLowGames(bowler, 2) != undefined).map(player => {
+        return {
+            bowlerName: player,
+            lowGameOpponent: teamData.getTeamName(scheduleData.getOpponentNumber(gameData.getLowGames(player).lowScratchGame.week, gameData.recaps.summaries[gameData.getLowGames(player).lowScratchGame.week].find(bowler => bowler.BowlerName == player).TeamNum)),
+            lowSeriesOpponent: teamData.getTeamName(scheduleData.getOpponentNumber(gameData.getLowGames(player).lowScratchSeries.week, gameData.recaps.summaries[gameData.getLowGames(player).lowScratchSeries.week].find(bowler => bowler.BowlerName == player).TeamNum))
+        };
+    });
+    
+    // Tally up the points
+    bowlers.forEach(bowler => {
+        let team = teams.find(team => team.teamName == bowler.lowGameOpponent);
+        team.points += 1;
+        team = teams.find(team => team.teamName == bowler.lowSeriesOpponent);
+        team.points += 1;
+    });
+    
+    // Sort the list of teams
+    teams.sort(function(a,b) {return b.points - a.points});
+    
+    return teams;
+}
+
+function calculateFriendship() {
+    // Build the team list
+    let teams = teamData.getTeamList().map(team => {
+        return {
+            teamName: team, 
+            points: 0
+        };
+    });
+    
+    // Get all the high game data
+    let bowlers = playerData.getPlayerNames().filter(bowler => gameData.getHighGames(bowler, 2) != undefined).map(player => {
+        return {
+            bowlerName: player,
+            highGameOpponent: teamData.getTeamName(scheduleData.getOpponentNumber(gameData.getHighGames(player).highScratchGame.week, gameData.recaps.summaries[gameData.getHighGames(player).highScratchGame.week].find(bowler => bowler.BowlerName == player).TeamNum)),
+            highSeriesOpponent: teamData.getTeamName(scheduleData.getOpponentNumber(gameData.getHighGames(player).highScratchSeries.week, gameData.recaps.summaries[gameData.getHighGames(player).highScratchSeries.week].find(bowler => bowler.BowlerName == player).TeamNum))
+        };
+    });
+    
+    // Tally up the points
+    bowlers.forEach(bowler => {
+        let team = teams.find(team => team.teamName == bowler.highGameOpponent);
+        team.points += 1;
+        team = teams.find(team => team.teamName == bowler.highSeriesOpponent);
+        team.points += 1;
+    });
+    
+    // Sort the list of teams
+    teams.sort(function(a,b) {return b.points - a.points});
+    
+    return teams;
+}
+
 function buildRow(prize, teamName, people, score, award, plaqueText) {
     tr = document.createElement("tr");
 
@@ -176,7 +257,8 @@ window.onload = function () {
         new teamInfo().then(result => teamData = result),
         new recaps().then(result => leagueRecaps = result),
         new players().then(result => playerData = result),
-        new bowlerGames().then(result => gameData = result)
+        new bowlerGames().then(result => gameData = result),
+        new schedule().then(result => scheduleData = result)
     ]).then(() => {
         let table = document.getElementById("data");
         let tr = document.createElement("tr");
@@ -395,8 +477,6 @@ window.onload = function () {
             // Sort the results and get the first result
             .sort(function(a,b) {return b[1] - a[1]})[0];
 
-        console.log(JSON.stringify(improvements).replaceAll("],[", "]\n["));
-
         prize = "Noon League Most Improved";
         teamName = gameData.getPlayerTeam(improvements[0]);
         people = [gameData.players.prettyName(improvements[0])];
@@ -425,6 +505,38 @@ window.onload = function () {
         score = bowlers[0].aveStart - bowlers[0].aveEnd;
         award = "Toilet Paper and butt";
         plaqueText = `${prize}<br>${teamName}<br>${people.join(", ")}: ${score} Pins`;
+        table.appendChild(buildRow(prize, teamName, people, score, award, plaqueText));
+
+        let grumpy = largestDropInAve()[0];
+
+        prize = "Largest Drop in Average";
+        teamName = gameData.getPlayerTeam(grumpy.player);
+        people = [gameData.players.prettyName(grumpy.player)];
+        score = grumpy.drop.toFixed(2);
+        award = "Gumpy Sack";
+        plaqueText = "";
+        table.appendChild(buildRow(prize, teamName, people, score, award, plaqueText));
+
+        let friends = calculateFriendship();
+        friends = friends.filter(friend => friend.points == friends[0].points);
+
+        prize = "Friendship Awards";
+        teamName = friends.map(friend => friend.teamName).join(", ");
+        people = friends.map(friend => getValidTeamMembers(teamData.getTeamByName(friend.teamName).TeamNum)).flat();
+        score = friends[0].points;
+        award = `${people.length} Snickers Bars`;
+        plaqueText = "";
+        table.appendChild(buildRow(prize, teamName, people, score, award, plaqueText));
+
+        let meanies = calculateMeanies();
+        meanies = meanies.filter(meanie => meanie.points == meanies[0].points);
+
+        prize = "Meanie Awards";
+        teamName = meanies.map(meanie => meanie.teamName).join(", ");
+        people = meanies.map(meanie => getValidTeamMembers(teamData.getTeamByName(meanie.teamName).TeamNum)).flat();
+        score = meanies[0].points;
+        award = `${people.length} Sour Patch Kids`;
+        plaqueText = "";
         table.appendChild(buildRow(prize, teamName, people, score, award, plaqueText));
     });
 };
