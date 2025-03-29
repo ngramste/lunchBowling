@@ -304,5 +304,117 @@ window.onload = function () {
         award = `1 plaque - (size - 5x7)`;
         plaqueText = `${prize}<br>${teamName}<br>${people}: ${score}`;
         table.appendChild(buildRow(prize, teamName, people, score, award, plaqueText));
+
+        let teams = teamData.getTeamList().map(team => {
+            return {
+                teamName: team,
+                scores: gameData.getTeamHighGames(teamData.getTeamByName(team).TeamNum)
+            }
+        });
+
+        let teamList = [];
+
+        // Sort on the high scratch series
+        teams.sort(function(a,b) {
+            return b.scores.highScratchSeries.score - a.scores.highScratchSeries.score
+        });
+
+        teamList.push(teams[0].teamName);
+
+        prize = "Noon League Team High Scratch Series";
+        teamName = teams[0].teamName;
+        people = getValidTeamMembers(teamData.getTeamByName(teams[0].teamName).TeamNum);
+        score = teams[0].scores.highScratchSeries.score;
+        award = `${people.length} plaques - (size - 5x7)`;
+        plaqueText = `${prize}<br>${teamName}<br>${people}: ${score}`;
+        table.appendChild(buildRow(prize, teamName, people, score, award, plaqueText));
+
+        // Sort on the high scratch game
+        teams.sort(function(a,b) {
+            return b.scores.highScratchGame.score - a.scores.highScratchGame.score
+        });
+
+        index = -1;
+        do {
+            index++;
+        } while (teamList.includes(teams[index].teamName));
+
+        teamList.push(teams[index].teamName);
+
+        prize = "Noon League Team High Scratch Game";
+        teamName = teams[index].teamName;
+        people = getValidTeamMembers(teamData.getTeamByName(teams[index].teamName).TeamNum);
+        score = teams[0].scores.highScratchGame.score;
+        award = `${people.length} plaques - (size - 5x7)`;
+        plaqueText = `${prize}<br>${teamName}<br>${people}: ${score}`;
+        table.appendChild(buildRow(prize, teamName, people, score, award, plaqueText));
+
+        // Sort on the high handicap series
+        teams.sort(function(a,b) {
+            return b.scores.highHandicapSeries.score - a.scores.highHandicapSeries.score
+        });
+
+        index = -1;
+        do {
+            index++;
+        } while (teamList.includes(teams[index].teamName));
+
+        teamList.push(teams[index].teamName);
+
+        prize = "Noon League Team High Handicap Series";
+        teamName = teams[index].teamName;
+        people = getValidTeamMembers(teamData.getTeamByName(teams[index].teamName).TeamNum);
+        score = teams[0].scores.highHandicapSeries.score;
+        award = `${people.length} plaques - (size - 5x7)`;
+        plaqueText = `${prize}<br>${teamName}<br>${people}: ${score}`;
+        table.appendChild(buildRow(prize, teamName, people, score, award, plaqueText));
+
+        // Sort on the high handicap game
+        teams.sort(function(a,b) {
+            return b.scores.highHandicapGame.score - a.scores.highHandicapGame.score
+        });
+
+        index = -1;
+        do {
+            index++;
+        } while (teamList.includes(teams[index].teamName));
+
+        prize = "Noon League Team High Handicap Game";
+        teamName = teams[index].teamName;
+        people = getValidTeamMembers(teamData.getTeamByName(teams[index].teamName).TeamNum);
+        score = teams[0].scores.highHandicapGame.score;
+        award = `${people.length} plaques - (size - 5x7)`;
+        plaqueText = `${prize}<br>${teamName}<br>${people}: ${score}`;
+        table.appendChild(buildRow(prize, teamName, people, score, award, plaqueText));
+
+        prize = "Noon League Most Improved";
+        teamName = "";
+        people = [];
+        score = "";
+        award = "";
+        plaqueText = "";
+        table.appendChild(buildRow(prize, teamName, people, score, award, plaqueText));
+
+        let bowlers = gameData.players.getPlayerNames()
+            // filter out people who didn't bowl a game
+            .filter(player => undefined != gameData.getGames(player))
+            // Get averages in first and last weeks of bowling
+            .map(player => {
+                return {
+                    bowlerName: player, 
+                    aveStart: gameData.getGames(player)[0].averageAfter, 
+                    aveEnd: gameData.getGames(player)[gameData.getGames(player).length - 1].averageAfter
+                }
+            })
+            // Sort by rise in average
+            .sort(function(a,b){return (b.aveEnd-b.aveStart) - (a.aveEnd-a.aveStart)});
+            gameData.players.prettyName(bowlers[0].bowlerName)
+        prize = "Noon League Sandbagger";
+        teamName = gameData.getPlayerTeam(bowlers[0].bowlerName);
+        people = [gameData.players.prettyName(bowlers[0].bowlerName)];
+        score = `${bowlers[0].aveStart - bowlers[0].aveEnd} Pins`;
+        award = "Toilet Paper and butt";
+        plaqueText = `${prize}<br>${teamName}<br>${people}: ${score}`;
+        table.appendChild(buildRow(prize, teamName, people, score, award, plaqueText));
     });
 };

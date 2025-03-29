@@ -84,6 +84,17 @@ class bowlerGames {
         return this.getGames(name).find(game => game.week == weekNum);
     }
 
+    getPlayerTeam(name) {
+        let weekNums = this.getGames(name).map(week => week.week);
+        let teamList = weekNums.map(week => gameData.recaps.summaries[week].find(bowler => bowler.BowlerName == name).TeamName);
+
+        let count = {};
+        teamList.forEach(team => count[team] = (count[team]) ? count[team] + 1 : 1);
+
+        let max = Math.max(... Object.values(count));
+        return Object.keys(count).find(key => count[key] == max);
+    }
+
     establishingFlag(name, weekNum) {
         let games = this.getGames(name);
         for (let game = 0; game < games.length; game++) {
@@ -182,5 +193,73 @@ class bowlerGames {
             }
         }
         return undefined;
+    }
+
+    getTeamHighGames(teamNum, weekNum = 52) {
+        let scores = {};
+
+        let teamGames = this.schedule.getCurrentWeekNumbers()
+            .filter(week => week <= weekNum)
+            .map(week => {
+                return {
+                    weekNum: week,
+                    games: this.recaps.getTeam(week, teamNum)
+                };
+            });
+
+        // Sort by team scratch series
+        teamGames.sort(function(a,b) {
+            return (b.games[0].Score1 + b.games[0].Score2 + b.games[1].Score1 + b.games[1].Score2) 
+                    - (a.games[0].Score1 + a.games[0].Score2 + a.games[1].Score1 + a.games[1].Score2)
+        });
+
+        scores.highScratchSeries = {
+            score: teamGames[0].games.map(game => game.Score1 + game.Score2).reduce((a,b) => a + b),
+            games: teamGames[0]
+        };
+
+        // Sort by team scratch game
+        teamGames.sort(function(a,b) {
+            return Math.max(... [b.games[0].Score1 + b.games[1].Score1, b.games[0].Score2 + b.games[1].Score2]) 
+                    - Math.max(... [a.games[0].Score1 + a.games[1].Score1, a.games[0].Score2 + a.games[1].Score2])
+        });
+
+        scores.highScratchGame = {
+            score: Math.max(... [teamGames[0].games[0].Score1 + teamGames[0].games[1].Score1, teamGames[0].games[0].Score2 + teamGames[0].games[1].Score2]),
+            games: teamGames[0]
+        };
+
+        // Sort by team handicap series
+        teamGames.sort(function(a,b) {
+            return b.games.map(game => game.Score1 + game.Score2 + ( 2 * game.HandicapBeforeBowling)).reduce((a,b) => a + b)
+                    - a.games.map(game => game.Score1 + game.Score2 + ( 2 * game.HandicapBeforeBowling)).reduce((a,b) => a + b)
+        });
+
+        scores.highHandicapSeries = {
+            score: teamGames[0].games.map(game => game.Score1 + game.Score2 + ( 2 * game.HandicapBeforeBowling)).reduce((a,b) => a + b),
+            games: teamGames[0]
+        };
+
+        // Sort by team handicap game
+        teamGames.sort(function(a,b) {
+            return Math.max(... [
+                    b.games[0].Score1 + b.games[0].HandicapBeforeBowling + b.games[1].Score1 + b.games[1].HandicapBeforeBowling, 
+                    b.games[0].Score2 + b.games[0].HandicapBeforeBowling + b.games[1].Score2 + b.games[1].HandicapBeforeBowling
+                ]) 
+                - Math.max(... [
+                    a.games[0].Score1 + a.games[0].HandicapBeforeBowling + a.games[1].Score1 + a.games[1].HandicapBeforeBowling, 
+                    a.games[0].Score2 + a.games[0].HandicapBeforeBowling + a.games[1].Score2 + a.games[1].HandicapBeforeBowling
+                ])
+        });
+
+        scores.highHandicapGame = {
+            score: Math.max(... [
+                teamGames[0].games[0].Score1 + teamGames[0].games[0].HandicapBeforeBowling + teamGames[0].games[1].Score1 + teamGames[0].games[1].HandicapBeforeBowling, 
+                teamGames[0].games[0].Score2 + teamGames[0].games[0].HandicapBeforeBowling + teamGames[0].games[1].Score2 + teamGames[0].games[1].HandicapBeforeBowling
+            ]),
+            games: teamGames[0]
+        };
+
+        return scores;
     }
 }
