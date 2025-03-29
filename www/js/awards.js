@@ -219,6 +219,21 @@ function calculateFriendship() {
     return teams;
 }
 
+function countCenturies(minWeeks = 6) {
+    return playerData.getPlayerNames().map(player => {
+        let games = gameData.getGames(player);
+        if (undefined == games || games.length < minWeeks) return undefined;
+        games = games.filter(game => Math.abs(game.Score1 - game.Score2) >= 100);
+        if (games.length == 0) return undefined;
+
+        return {
+            name: player,
+            count: games.length
+        }
+
+    }).filter(result => undefined != result);
+}
+
 function buildRow(prize, teamName, people, score, award, plaqueText) {
     tr = document.createElement("tr");
 
@@ -536,6 +551,16 @@ window.onload = function () {
         people = meanies.map(meanie => getValidTeamMembers(teamData.getTeamByName(meanie.teamName).TeamNum)).flat();
         score = meanies[0].points;
         award = `${people.length} Sour Patch Kids`;
+        plaqueText = "";
+        table.appendChild(buildRow(prize, teamName, people, score, award, plaqueText));
+
+        let centuries = countCenturies();
+
+        prize = "Century Awards";
+        teamName = "";
+        people = centuries.map(player => `${gameData.players.prettyName(player.name)}: ${player.count}`);
+        score = "";
+        award = `${people.length} Snickers Bars`;
         plaqueText = "";
         table.appendChild(buildRow(prize, teamName, people, score, award, plaqueText));
     });
