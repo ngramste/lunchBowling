@@ -326,7 +326,7 @@ window.onload = function () {
         people = getValidTeamMembers(teamData.getTeamByName(teams[0].teamName).TeamNum);
         score = teams[0].scores.highScratchSeries.score;
         award = `${people.length} plaques - (size - 5x7)`;
-        plaqueText = `${prize}<br>${teamName}<br>${people}: ${score}`;
+        plaqueText = `${prize}<br>${teamName}<br>${people.join(", ")}: ${score}`;
         table.appendChild(buildRow(prize, teamName, people, score, award, plaqueText));
 
         // Sort on the high scratch game
@@ -346,7 +346,7 @@ window.onload = function () {
         people = getValidTeamMembers(teamData.getTeamByName(teams[index].teamName).TeamNum);
         score = teams[0].scores.highScratchGame.score;
         award = `${people.length} plaques - (size - 5x7)`;
-        plaqueText = `${prize}<br>${teamName}<br>${people}: ${score}`;
+        plaqueText = `${prize}<br>${teamName}<br>${people.join(", ")}: ${score}`;
         table.appendChild(buildRow(prize, teamName, people, score, award, plaqueText));
 
         // Sort on the high handicap series
@@ -366,7 +366,7 @@ window.onload = function () {
         people = getValidTeamMembers(teamData.getTeamByName(teams[index].teamName).TeamNum);
         score = teams[0].scores.highHandicapSeries.score;
         award = `${people.length} plaques - (size - 5x7)`;
-        plaqueText = `${prize}<br>${teamName}<br>${people}: ${score}`;
+        plaqueText = `${prize}<br>${teamName}<br>${people.join(", ")}: ${score}`;
         table.appendChild(buildRow(prize, teamName, people, score, award, plaqueText));
 
         // Sort on the high handicap game
@@ -384,15 +384,25 @@ window.onload = function () {
         people = getValidTeamMembers(teamData.getTeamByName(teams[index].teamName).TeamNum);
         score = teams[0].scores.highHandicapGame.score;
         award = `${people.length} plaques - (size - 5x7)`;
-        plaqueText = `${prize}<br>${teamName}<br>${people}: ${score}`;
+        plaqueText = `${prize}<br>${teamName}<br>${people.join(", ")}: ${score}`;
         table.appendChild(buildRow(prize, teamName, people, score, award, plaqueText));
 
+        let improvements = playerData.getPlayerNames()
+            // Get the scores 12
+            .map(player => [player, gameData.getImprovement(player, 12)])
+            // Filter out unqualified bowlers
+            .filter(player => player[1] != undefined)
+            // Sort the results and get the first result
+            .sort(function(a,b) {return b[1] - a[1]})[0];
+
+        console.log(JSON.stringify(improvements).replaceAll("],[", "]\n["));
+
         prize = "Noon League Most Improved";
-        teamName = "";
-        people = [];
-        score = "";
-        award = "";
-        plaqueText = "";
+        teamName = gameData.getPlayerTeam(improvements[0]);
+        people = [gameData.players.prettyName(improvements[0])];
+        score = improvements[1];
+        award = "1 plaque – (size 5x7)";
+        plaqueText = `${prize}<br>${teamName}<br>${people.join(", ")}: ${score} Pins`;
         table.appendChild(buildRow(prize, teamName, people, score, award, plaqueText));
 
         let bowlers = gameData.players.getPlayerNames()
@@ -408,13 +418,13 @@ window.onload = function () {
             })
             // Sort by rise in average
             .sort(function(a,b){return (b.aveEnd-b.aveStart) - (a.aveEnd-a.aveStart)});
-            gameData.players.prettyName(bowlers[0].bowlerName)
+
         prize = "Noon League Sandbagger";
         teamName = gameData.getPlayerTeam(bowlers[0].bowlerName);
         people = [gameData.players.prettyName(bowlers[0].bowlerName)];
-        score = `${bowlers[0].aveStart - bowlers[0].aveEnd} Pins`;
+        score = bowlers[0].aveStart - bowlers[0].aveEnd;
         award = "Toilet Paper and butt";
-        plaqueText = `${prize}<br>${teamName}<br>${people}: ${score}`;
+        plaqueText = `${prize}<br>${teamName}<br>${people.join(", ")}: ${score} Pins`;
         table.appendChild(buildRow(prize, teamName, people, score, award, plaqueText));
     });
 };

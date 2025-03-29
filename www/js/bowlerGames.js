@@ -195,6 +195,18 @@ class bowlerGames {
         return undefined;
     }
 
+    getImprovement(name, baselineGames = 21) {
+        let games = this.getGames(name);
+        
+        if (undefined != games && (games.length * 2) >= baselineGames) {
+            games = games.map(week => [week.Score1, week.Score2]).flat();
+            return Math.round(games.reduce((a,b) => a+b) / games.length) - Math.round(games.slice(0, baselineGames).reduce((a,b) => a+b) / baselineGames);
+            // return (games.reduce((a,b) => a+b) / games.length) - (games.slice(baselineGames).reduce((a,b) => a+b) / (games.length - baselineGames));
+        }
+
+        return undefined;
+    }
+
     getTeamHighGames(teamNum, weekNum = 52) {
         let scores = {};
 
