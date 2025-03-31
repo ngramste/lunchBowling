@@ -34,107 +34,141 @@ function getIndividualAwards() {
         }
     };
 
-    let men = playerData.getPlayerNamesByGender("M").map(name => [name, gameData.getHighGames(name, 6)]);
-    men = men.filter(man => undefined != man[1]);
+    let men = playerData.getPlayerNamesByGender("M").map(name => {
+        return {
+            name: name, 
+            games: gameData.getHighGames(name, 6)
+        }
+    });
+    men = men.filter(man => undefined != man.games);
 
     men.sort(
         function(a,b) {
-            return (b[1].highScratchSeries.Score1 + b[1].highScratchSeries.Score2) 
-                    - (a[1].highScratchSeries.Score1 + a[1].highScratchSeries.Score2)
+            return b.games.highScratchSeries.score - a.games.highScratchSeries.score
         }
     );
 
-    awards.men.highSS = [men[0][0], men[0][1].highScratchSeries];
+    awards.men.highSS = {
+        name: men[0].name, 
+        score: men[0].games.highScratchSeries.score,
+        game: men[0].games.highScratchSeries.game
+    };
 
     men.sort(
         function(a,b) {
-            return Math.max(b[1].highScratchGame.Score1, b[1].highScratchGame.Score2) 
-                    - Math.max(a[1].highScratchGame.Score1, a[1].highScratchGame.Score2)
+            return b.games.highScratchGame.score - a.games.highScratchGame.score
         }
     );
 
     let index = -1;
     do {
         index++;
-    } while (Object.values(awards.men).filter(value => null != value).map(name => name[0]).includes(men[index][0]));
-    awards.men.highSG = [men[index][0], men[index][1].highScratchGame];
+    } while (Object.values(awards.men).filter(value => null != value).map(man => man.name).includes(men[index].name));
+    awards.men.highSG = {
+        name: men[index].name, 
+        score: men[index].games.highScratchGame.score,
+        game: men[index].games.highScratchGame.game
+    };
 
     men.sort(
         function(a,b) {
-            return (b[1].highHandicapSeries.Score1 + b[1].highHandicapSeries.Score2 + (2 * b[1].highHandicapSeries.handicapBefore)) 
-                    - (a[1].highHandicapSeries.Score1 + a[1].highHandicapSeries.Score2 + (2 * a[1].highHandicapSeries.handicapBefore))
+            return b.games.highHandicapSeries.score - a.games.highHandicapSeries.score
         }
     );
 
     index = -1;
     do {
         index++;
-    } while (Object.values(awards.men).filter(value => null != value).map(name => name[0]).includes(men[index][0]));
-    awards.men.highHS = [men[index][0], men[index][1].highHandicapSeries];
+    } while (Object.values(awards.men).filter(value => null != value).map(man => man.name).includes(men[index].name));
+    awards.men.highHS = {
+        name: men[index].name, 
+        score: men[index].games.highHandicapSeries.score,
+        game: men[index].games.highHandicapSeries.game
+    };
 
     men.sort(
         function(a,b) {
-            return Math.max(b[1].highHandicapGame.Score1 + b[1].highHandicapGame.handicapBefore, b[1].highHandicapGame.Score2 + b[1].highHandicapGame.handicapBefore) 
-                    - Math.max(a[1].highHandicapGame.Score1 + a[1].highHandicapGame.handicapBefore, a[1].highHandicapGame.Score2 + a[1].highHandicapGame.handicapBefore)
+            return b.games.highHandicapGame.score - a.games.highHandicapGame.score
         }
     );
 
     index = -1;
     do {
         index++;
-    } while (Object.values(awards.men).filter(value => null != value).map(name => name[0]).includes(men[index][0]));
-    awards.men.highHG = [men[index][0], men[index][1].highHandicapGame];
+    } while (Object.values(awards.men).filter(value => null != value).map(man => man.name).includes(men[index].name));
+    awards.men.highHG = {
+        name: men[index].name, 
+        score: men[index].games.highHandicapGame.score,
+        game: men[index].games.highHandicapGame.game
+    };
 
-    let women = playerData.getPlayerNamesByGender("W").map(name => [name, gameData.getHighGames(name, 6)]);
-    women = women.filter(woman => undefined != woman[1]);
+    let women = playerData.getPlayerNamesByGender("W").map(name => {
+        return {
+            name: name, 
+            games: gameData.getHighGames(name, 6)
+        }
+    });
+    women = women.filter(woman => undefined != woman.games);
 
     women.sort(
         function(a,b) {
-            return (b[1].highScratchSeries.Score1 + b[1].highScratchSeries.Score2) 
-                    - (a[1].highScratchSeries.Score1 + a[1].highScratchSeries.Score2)
+            return b.games.highScratchSeries.score - a.games.highScratchSeries.score
         }
     );
 
-    awards.women.highSS = [women[0][0], women[0][1].highScratchSeries];
+    awards.women.highSS = {
+        name: women[0].name, 
+        score: women[0].games.highScratchSeries.score,
+        game: women[0].games.highScratchSeries.game
+    };
 
     women.sort(
         function(a,b) {
-            return Math.max(b[1].highScratchGame.Score1, b[1].highScratchGame.Score2) 
-                    - Math.max(a[1].highScratchGame.Score1, a[1].highScratchGame.Score2)
-        }
-    );
-
-    index = -1;
-    do {
-        index++;
-    } while (Object.values(awards.women).filter(value => null != value).map(name => name[0]).includes(women[index][0]));
-    awards.women.highSG = [women[index][0], women[index][1].highScratchGame];
-
-    women.sort(
-        function(a,b) {
-            return (b[1].highHandicapSeries.Score1 + b[1].highHandicapSeries.Score2 + (2 * b[1].highHandicapSeries.handicapBefore)) 
-                    - (a[1].highHandicapSeries.Score1 + a[1].highHandicapSeries.Score2 + (2 * a[1].highHandicapSeries.handicapBefore))
-        }
-    );
-
-    index = -1;
-    do {
-        index++;
-    } while (Object.values(awards.women).filter(value => null != value).map(name => name[0]).includes(women[index][0]));
-    awards.women.highHS = [women[index][0], women[index][1].highHandicapSeries];
-
-    women.sort(
-        function(a,b) {
-            return Math.max(b[1].highHandicapGame.Score1 + b[1].highHandicapGame.handicapBefore, b[1].highHandicapGame.Score2 + b[1].highHandicapGame.handicapBefore) 
-                    - Math.max(a[1].highHandicapGame.Score1 + a[1].highHandicapGame.handicapBefore, a[1].highHandicapGame.Score2 + a[1].highHandicapGame.handicapBefore)
+            return b.games.highScratchGame.score - a.games.highScratchGame.score
         }
     );
 
     index = -1;
     do {
         index++;
-    } while (Object.values(awards.women).filter(value => null != value).map(name => name[0]).includes(women[index][0]));
-    awards.women.highHG = [women[index][0], women[index][1].highHandicapGame];
+    } while (Object.values(awards.women).filter(value => null != value).map(woman => woman.name).includes(women[index].name));
+    awards.women.highSG = {
+        name: women[index].name, 
+        score: women[index].games.highScratchGame.score,
+        game: women[index].games.highScratchGame.game
+    };
+
+    women.sort(
+        function(a,b) {
+            return b.games.highHandicapSeries.score - a.games.highHandicapSeries.score
+        }
+    );
+
+    index = -1;
+    do {
+        index++;
+    } while (Object.values(awards.women).filter(value => null != value).map(woman => woman.name).includes(women[index].name));
+    awards.women.highHS = {
+        name: women[index].name, 
+        score: women[index].games.highHandicapSeries.score,
+        game: women[index].games.highHandicapSeries.game
+    };
+
+    women.sort(
+        function(a,b) {
+            return b.games.highHandicapGame.score - a.games.highHandicapGame.score
+        }
+    );
+
+    index = -1;
+    do {
+        index++;
+    } while (Object.values(awards.women).filter(value => null != value).map(woman => woman.name).includes(women[index].name));
+    awards.women.highHG = {
+        name: women[index].name, 
+        score: women[index].games.highHandicapGame.score,
+        game: women[index].games.highHandicapGame.game
+    };
 
     return awards;
 }
@@ -200,8 +234,8 @@ function calculateFriendship() {
     let bowlers = playerData.getPlayerNames().filter(bowler => gameData.getHighGames(bowler, 2) != undefined).map(player => {
         return {
             bowlerName: player,
-            highGameOpponent: teamData.getTeamName(scheduleData.getOpponentNumber(gameData.getHighGames(player).highScratchGame.week, gameData.recaps.summaries[gameData.getHighGames(player).highScratchGame.week].find(bowler => bowler.BowlerName == player).TeamNum)),
-            highSeriesOpponent: teamData.getTeamName(scheduleData.getOpponentNumber(gameData.getHighGames(player).highScratchSeries.week, gameData.recaps.summaries[gameData.getHighGames(player).highScratchSeries.week].find(bowler => bowler.BowlerName == player).TeamNum))
+            highGameOpponent: teamData.getTeamName(scheduleData.getOpponentNumber(gameData.getHighGames(player).highScratchGame.game.week, gameData.recaps.summaries[gameData.getHighGames(player).highScratchGame.game.week].find(bowler => bowler.BowlerName == player).TeamNum)),
+            highSeriesOpponent: teamData.getTeamName(scheduleData.getOpponentNumber(gameData.getHighGames(player).highScratchSeries.game.week, gameData.recaps.summaries[gameData.getHighGames(player).highScratchSeries.game.week].find(bowler => bowler.BowlerName == player).TeamNum))
         };
     });
     
@@ -339,65 +373,65 @@ window.onload = function () {
         let individual = getIndividualAwards();
 
         prize = "Noon League Men's High Scratch Series";
-        teamName = leagueRecaps.getBowler(individual.men.highSS[1].week, individual.men.highSS[0]).TeamName;
-        people = [playerData.prettyName(individual.men.highSS[0])];
-        score = individual.men.highSS[1].Score1 + individual.men.highSS[1].Score2;
+        teamName = leagueRecaps.getBowler(individual.men.highSS.game.week, individual.men.highSS.name).TeamName;
+        people = [playerData.prettyName(individual.men.highSS.name)];
+        score = individual.men.highSS.score;
         award = `1 plaque - (size - 5x7)`;
         plaqueText = `${prize}<br>${teamName}<br>${people}: ${score}`;
         table.appendChild(buildRow(prize, teamName, people, score, award, plaqueText));
 
         prize = "Noon League Men's High Scratch Game";
-        teamName = leagueRecaps.getBowler(individual.men.highSG[1].week, individual.men.highSG[0]).TeamName;
-        people = [playerData.prettyName(individual.men.highSG[0])];
-        score = Math.max(individual.men.highSG[1].Score1, individual.men.highSG[1].Score2);
+        teamName = leagueRecaps.getBowler(individual.men.highSG.game.week, individual.men.highSG.name).TeamName;
+        people = [playerData.prettyName(individual.men.highSG.name)];
+        score = individual.men.highSG.score;
         award = `1 plaque - (size - 5x7)`;
         plaqueText = `${prize}<br>${teamName}<br>${people}: ${score}`;
         table.appendChild(buildRow(prize, teamName, people, score, award, plaqueText));
 
         prize = "Noon League Men's High Handicap Series";
-        teamName = leagueRecaps.getBowler(individual.men.highHS[1].week, individual.men.highHS[0]).TeamName;
-        people = [playerData.prettyName(individual.men.highHS[0])];
-        score = individual.men.highHS[1].Score1 + individual.men.highHS[1].Score2 + (2 * individual.men.highHS[1].handicapBefore);
+        teamName = leagueRecaps.getBowler(individual.men.highHS.game.week, individual.men.highHS.name).TeamName;
+        people = [playerData.prettyName(individual.men.highHS.name)];
+        score = individual.men.highHS.score;
         award = `1 plaque - (size - 5x7)`;
         plaqueText = `${prize}<br>${teamName}<br>${people}: ${score}`;
         table.appendChild(buildRow(prize, teamName, people, score, award, plaqueText));
 
         prize = "Noon League Men's High Handicap Game";
-        teamName = leagueRecaps.getBowler(individual.men.highHG[1].week, individual.men.highHG[0]).TeamName;
-        people = [playerData.prettyName(individual.men.highHG[0])];
-        score = Math.max(individual.men.highHG[1].Score1 + individual.men.highHG[1].handicapBefore, individual.men.highHG[1].Score2 + individual.men.highHG[1].handicapBefore);
+        teamName = leagueRecaps.getBowler(individual.men.highHG.game.week, individual.men.highHG.name).TeamName;
+        people = [playerData.prettyName(individual.men.highHG.name)];
+        score = individual.men.highHG.score;
         award = `1 plaque - (size - 5x7)`;
         plaqueText = `${prize}<br>${teamName}<br>${people}: ${score}`;
         table.appendChild(buildRow(prize, teamName, people, score, award, plaqueText));
 
         prize = "Noon League Women's High Scratch Series";
-        teamName = leagueRecaps.getBowler(individual.women.highSS[1].week, individual.women.highSS[0]).TeamName;
-        people = [playerData.prettyName(individual.women.highSS[0])];
-        score = individual.women.highSS[1].Score1 + individual.women.highSS[1].Score2;
+        teamName = leagueRecaps.getBowler(individual.women.highSS.game.week, individual.women.highSS.name).TeamName;
+        people = [playerData.prettyName(individual.women.highSS.name)];
+        score = individual.women.highSS.score;
         award = `1 plaque - (size - 5x7)`;
         plaqueText = `${prize}<br>${teamName}<br>${people}: ${score}`;
         table.appendChild(buildRow(prize, teamName, people, score, award, plaqueText));
 
         prize = "Noon League Women's High Scratch Game";
-        teamName = leagueRecaps.getBowler(individual.women.highSG[1].week, individual.women.highSG[0]).TeamName;
-        people = [playerData.prettyName(individual.women.highSG[0])];
-        score = Math.max(individual.women.highSG[1].Score1, individual.women.highSG[1].Score2);
+        teamName = leagueRecaps.getBowler(individual.women.highSG.game.week, individual.women.highSG.name).TeamName;
+        people = [playerData.prettyName(individual.women.highSG.name)];
+        score = individual.women.highSG.score;
         award = `1 plaque - (size - 5x7)`;
         plaqueText = `${prize}<br>${teamName}<br>${people}: ${score}`;
         table.appendChild(buildRow(prize, teamName, people, score, award, plaqueText));
 
         prize = "Noon League Women's High Handicap Series";
-        teamName = leagueRecaps.getBowler(individual.women.highHS[1].week, individual.women.highHS[0]).TeamName;
-        people = [playerData.prettyName(individual.women.highHS[0])];
-        score = individual.women.highHS[1].Score1 + individual.women.highHS[1].Score2 + (2 * individual.women.highHS[1].handicapBefore);
+        teamName = leagueRecaps.getBowler(individual.women.highHS.game.week, individual.women.highHS.name).TeamName;
+        people = [playerData.prettyName(individual.women.highHS.name)];
+        score = individual.women.highHS.score;
         award = `1 plaque - (size - 5x7)`;
         plaqueText = `${prize}<br>${teamName}<br>${people}: ${score}`;
         table.appendChild(buildRow(prize, teamName, people, score, award, plaqueText));
 
         prize = "Noon League Women's High Handicap Game";
-        teamName = leagueRecaps.getBowler(individual.women.highHG[1].week, individual.women.highHG[0]).TeamName;
-        people = [playerData.prettyName(individual.women.highHG[0])];
-        score = Math.max(individual.women.highHG[1].Score1 + individual.women.highHG[1].handicapBefore, individual.women.highHG[1].Score2 + individual.men.highHG[1].handicapBefore);
+        teamName = leagueRecaps.getBowler(individual.women.highHG.game.week, individual.women.highHG.name).TeamName;
+        people = [playerData.prettyName(individual.women.highHG.name)];
+        score = individual.women.highHG.score;
         award = `1 plaque - (size - 5x7)`;
         plaqueText = `${prize}<br>${teamName}<br>${people}: ${score}`;
         table.appendChild(buildRow(prize, teamName, people, score, award, plaqueText));

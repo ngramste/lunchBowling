@@ -162,12 +162,28 @@ class bowlerGames {
                 let highHandicapGame = Math.max(... weeks.map(week => [week.Score1 + week.handicapBefore, week.Score2 + week.handicapBefore]).flat());
                 let highHandicapSeries = Math.max(... weeks.map(week => week.Score1 + week.handicapBefore + week.Score2 + week.handicapBefore).flat());
                 
-                return {
-                    highScratchGame: weeks.find(week => week.Score1 == highScratchGame || week.Score2 == highScratchGame),
-                    highScratchSeries: weeks.find(week => week.Score1 + week.Score2 == highScratchSeries),
-                    highHandicapGame: weeks.find(week => (week.Score1 + week.handicapBefore) == highHandicapGame || (week.Score2 + week.handicapBefore) == highHandicapGame),
-                    highHandicapSeries: weeks.find(week => (week.Score1 + week.handicapBefore + week.Score2 + week.handicapBefore) == highHandicapSeries)
+                let results = {
+                    highScratchGame: {
+                        game: weeks.find(week => week.Score1 == highScratchGame || week.Score2 == highScratchGame)
+                    },
+                    highScratchSeries: {
+                        game: weeks.find(week => week.Score1 + week.Score2 == highScratchSeries)
+                    },
+                    highHandicapGame: {
+                        game: weeks.find(week => (week.Score1 + week.handicapBefore) == highHandicapGame || (week.Score2 + week.handicapBefore) == highHandicapGame)
+                        
+                    },
+                    highHandicapSeries: {
+                        game: weeks.find(week => (week.Score1 + week.handicapBefore + week.Score2 + week.handicapBefore) == highHandicapSeries)
+                    }
                 };
+                
+                results.highScratchGame.score = Math.max(... [results.highScratchGame.game.Score1, results.highScratchGame.game.Score2]);
+                results.highScratchSeries.score = results.highScratchSeries.game.Score1 + results.highScratchSeries.game.Score2;
+                results.highHandicapGame.score = Math.max(... [results.highHandicapGame.game.Score1 + results.highHandicapGame.game.handicapBefore, results.highHandicapGame.game.Score2 + results.highHandicapGame.game.handicapBefore]);
+                results.highHandicapSeries.score = results.highHandicapSeries.game.Score1 + results.highHandicapSeries.game.Score2 + (2 * results.highHandicapSeries.game.handicapBefore);
+                
+                return results;
             }
         }
         return undefined;
