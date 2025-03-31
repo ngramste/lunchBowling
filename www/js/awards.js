@@ -74,8 +74,8 @@ function getIndividualAwards() {
 
     men.sort(
         function(a,b) {
-            return Math.max(b[1].highHandicapGame.Score1 + b[1].highHandicapSeries.handicapBefore, b[1].highHandicapGame.Score2 + b[1].highHandicapSeries.handicapBefore) 
-                    - Math.max(a[1].highHandicapGame.Score1 + a[1].highHandicapSeries.handicapBefore, a[1].highHandicapGame.Score2 + a[1].highHandicapSeries.handicapBefore)
+            return Math.max(b[1].highHandicapGame.Score1 + b[1].highHandicapGame.handicapBefore, b[1].highHandicapGame.Score2 + b[1].highHandicapGame.handicapBefore) 
+                    - Math.max(a[1].highHandicapGame.Score1 + a[1].highHandicapGame.handicapBefore, a[1].highHandicapGame.Score2 + a[1].highHandicapGame.handicapBefore)
         }
     );
 
@@ -125,8 +125,8 @@ function getIndividualAwards() {
 
     women.sort(
         function(a,b) {
-            return Math.max(b[1].highHandicapGame.Score1 + b[1].highHandicapSeries.handicapBefore, b[1].highHandicapGame.Score2 + b[1].highHandicapSeries.handicapBefore) 
-                    - Math.max(a[1].highHandicapGame.Score1 + a[1].highHandicapSeries.handicapBefore, a[1].highHandicapGame.Score2 + a[1].highHandicapSeries.handicapBefore)
+            return Math.max(b[1].highHandicapGame.Score1 + b[1].highHandicapGame.handicapBefore, b[1].highHandicapGame.Score2 + b[1].highHandicapGame.handicapBefore) 
+                    - Math.max(a[1].highHandicapGame.Score1 + a[1].highHandicapGame.handicapBefore, a[1].highHandicapGame.Score2 + a[1].highHandicapGame.handicapBefore)
         }
     );
 
