@@ -7,7 +7,6 @@ let scheduleData = null;
 
 function getValidTeamMembers(teamNum, weeksRequired = 6) {
     let names = leagueRecaps.getWeekNums().map(week => leagueRecaps.getTeamMemberNames(week, teamNum)).flat();
-    names = names.map(name => playerData.prettyName(name));
     let counts = {};
     names.forEach(name => counts[name] = (counts[name] || 0) + 1);
     Object.keys(counts).forEach(name => {
@@ -276,12 +275,25 @@ function buildRow(prize, teamName, people, score, award, plaqueText) {
     tr.appendChild(td);
 
     td = document.createElement("td");
-    td.innerHTML = teamName;
+    if (teamName != "") {
+        let a = document.createElement("a");
+        a.innerHTML = teamName;
+        a.href = `./team.html?teamName=${teamName}`;
+        td.appendChild(a);
+    }
     tr.appendChild(td);
 
     td = document.createElement("td");
-    td.innerHTML = people.join(",<br>");
-    tr.appendChild(td);
+    people.forEach(person => {
+        let a = document.createElement("a");
+        let br = document.createElement("br");
+        a.innerHTML = `${playerData.prettyName(person)}`;
+        a.href = `./bowler.html?name=${person}`;
+        td.appendChild(a);
+        td.innerHTML += ",";
+        td.appendChild(br);
+        tr.appendChild(td);
+    });
 
     td = document.createElement("td");
     td.innerHTML = score;
@@ -374,7 +386,7 @@ window.onload = function () {
 
         prize = "Noon League Men's High Scratch Series";
         teamName = leagueRecaps.getBowler(individual.men.highSS.game.week, individual.men.highSS.name).TeamName;
-        people = [playerData.prettyName(individual.men.highSS.name)];
+        people = [individual.men.highSS.name];
         score = individual.men.highSS.score;
         award = `1 plaque - (size - 5x7)`;
         plaqueText = `${prize}<br>${teamName}<br>${people}: ${score}`;
@@ -382,7 +394,7 @@ window.onload = function () {
 
         prize = "Noon League Men's High Scratch Game";
         teamName = leagueRecaps.getBowler(individual.men.highSG.game.week, individual.men.highSG.name).TeamName;
-        people = [playerData.prettyName(individual.men.highSG.name)];
+        people = [individual.men.highSG.name];
         score = individual.men.highSG.score;
         award = `1 plaque - (size - 5x7)`;
         plaqueText = `${prize}<br>${teamName}<br>${people}: ${score}`;
@@ -390,7 +402,7 @@ window.onload = function () {
 
         prize = "Noon League Men's High Handicap Series";
         teamName = leagueRecaps.getBowler(individual.men.highHS.game.week, individual.men.highHS.name).TeamName;
-        people = [playerData.prettyName(individual.men.highHS.name)];
+        people = [individual.men.highHS.name];
         score = individual.men.highHS.score;
         award = `1 plaque - (size - 5x7)`;
         plaqueText = `${prize}<br>${teamName}<br>${people}: ${score}`;
@@ -398,7 +410,7 @@ window.onload = function () {
 
         prize = "Noon League Men's High Handicap Game";
         teamName = leagueRecaps.getBowler(individual.men.highHG.game.week, individual.men.highHG.name).TeamName;
-        people = [playerData.prettyName(individual.men.highHG.name)];
+        people = [individual.men.highHG.name];
         score = individual.men.highHG.score;
         award = `1 plaque - (size - 5x7)`;
         plaqueText = `${prize}<br>${teamName}<br>${people}: ${score}`;
@@ -406,7 +418,7 @@ window.onload = function () {
 
         prize = "Noon League Women's High Scratch Series";
         teamName = leagueRecaps.getBowler(individual.women.highSS.game.week, individual.women.highSS.name).TeamName;
-        people = [playerData.prettyName(individual.women.highSS.name)];
+        people = [individual.women.highSS.name];
         score = individual.women.highSS.score;
         award = `1 plaque - (size - 5x7)`;
         plaqueText = `${prize}<br>${teamName}<br>${people}: ${score}`;
@@ -414,7 +426,7 @@ window.onload = function () {
 
         prize = "Noon League Women's High Scratch Game";
         teamName = leagueRecaps.getBowler(individual.women.highSG.game.week, individual.women.highSG.name).TeamName;
-        people = [playerData.prettyName(individual.women.highSG.name)];
+        people = [individual.women.highSG.name];
         score = individual.women.highSG.score;
         award = `1 plaque - (size - 5x7)`;
         plaqueText = `${prize}<br>${teamName}<br>${people}: ${score}`;
@@ -422,7 +434,7 @@ window.onload = function () {
 
         prize = "Noon League Women's High Handicap Series";
         teamName = leagueRecaps.getBowler(individual.women.highHS.game.week, individual.women.highHS.name).TeamName;
-        people = [playerData.prettyName(individual.women.highHS.name)];
+        people = [individual.women.highHS.name];
         score = individual.women.highHS.score;
         award = `1 plaque - (size - 5x7)`;
         plaqueText = `${prize}<br>${teamName}<br>${people}: ${score}`;
@@ -430,7 +442,7 @@ window.onload = function () {
 
         prize = "Noon League Women's High Handicap Game";
         teamName = leagueRecaps.getBowler(individual.women.highHG.game.week, individual.women.highHG.name).TeamName;
-        people = [playerData.prettyName(individual.women.highHG.name)];
+        people = [individual.women.highHG.name];
         score = individual.women.highHG.score;
         award = `1 plaque - (size - 5x7)`;
         plaqueText = `${prize}<br>${teamName}<br>${people}: ${score}`;
@@ -528,7 +540,7 @@ window.onload = function () {
 
         prize = "Noon League Most Improved";
         teamName = gameData.getPlayerTeam(improvements[0]);
-        people = [gameData.players.prettyName(improvements[0])];
+        people = [improvements[0]];
         score = improvements[1];
         award = "1 plaque – (size 5x7)";
         plaqueText = `${prize}<br>${teamName}<br>${people.join(", ")}: ${score} Pins`;
@@ -550,7 +562,7 @@ window.onload = function () {
 
         prize = "Noon League Sandbagger";
         teamName = gameData.getPlayerTeam(bowlers[0].bowlerName);
-        people = [gameData.players.prettyName(bowlers[0].bowlerName)];
+        people = [bowlers[0].bowlerName];
         score = bowlers[0].aveStart - bowlers[0].aveEnd;
         award = "Toilet Paper and butt";
         plaqueText = `${prize}<br>${teamName}<br>${people.join(", ")}: ${score} Pins`;
@@ -560,7 +572,7 @@ window.onload = function () {
 
         prize = "Largest Drop in Average";
         teamName = gameData.getPlayerTeam(grumpy.player);
-        people = [gameData.players.prettyName(grumpy.player)];
+        people = [grumpy.player];
         score = grumpy.drop.toFixed(2);
         award = "Gumpy Sack";
         plaqueText = "";
@@ -592,8 +604,8 @@ window.onload = function () {
 
         prize = "Century Awards";
         teamName = "";
-        people = centuries.map(player => `${gameData.players.prettyName(player.name)}: ${player.count}`);
-        score = "";
+        people = centuries.map(player => player.name);
+        score = centuries.map(player => player.count).join("<br>");
         award = `${people.length} Snickers Bars`;
         plaqueText = "";
         table.appendChild(buildRow(prize, teamName, people, score, award, plaqueText));
