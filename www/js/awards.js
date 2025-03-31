@@ -606,7 +606,7 @@ window.onload = function () {
         teamName = "";
         people = centuries.map(player => player.name);
         score = centuries.map(player => player.count).join("<br>");
-        award = `${people.length} Snickers Bars`;
+        award = `${centuries.map(player => player.count).reduce((a, b) => a + b, 0)} Snickers Bars`;
         plaqueText = "";
         table.appendChild(buildRow(prize, teamName, people, score, award, plaqueText));
     });
