@@ -43,8 +43,11 @@ function calculateMeanies() {
         let tr = document.createElement("tr");
         
         let th = document.createElement("th");
-        th.innerHTML = team.teamName;
+        let a = document.createElement("a");
+        a.innerHTML = team.teamName;
+        a.href = `./team.html?teamName=${team.teamName}`;
         th.style.textAlign = "right";
+        th.appendChild(a);
         tr.appendChild(th);
         
         let td = document.createElement("td");
@@ -70,8 +73,8 @@ function calculateFriendship() {
     let bowlers = playerData.getPlayerNames().filter(bowler => gameData.getHighGames(bowler, 2) != undefined).map(player => {
         return {
             bowlerName: player,
-            highGameOpponent: teamData.getTeamName(scheduleData.getOpponentNumber(gameData.getHighGames(player).highScratchGame.week, gameData.recaps.summaries[gameData.getHighGames(player).highScratchGame.week].find(bowler => bowler.BowlerName == player).TeamNum)),
-            highSeriesOpponent: teamData.getTeamName(scheduleData.getOpponentNumber(gameData.getHighGames(player).highScratchSeries.week, gameData.recaps.summaries[gameData.getHighGames(player).highScratchSeries.week].find(bowler => bowler.BowlerName == player).TeamNum))
+            highGameOpponent: teamData.getTeamName(scheduleData.getOpponentNumber(gameData.getHighGames(player).highScratchGame.game.week, gameData.recaps.summaries[gameData.getHighGames(player).highScratchGame.game.week].find(bowler => bowler.BowlerName == player).TeamNum)),
+            highSeriesOpponent: teamData.getTeamName(scheduleData.getOpponentNumber(gameData.getHighGames(player).highScratchSeries.game.week, gameData.recaps.summaries[gameData.getHighGames(player).highScratchSeries.game.week].find(bowler => bowler.BowlerName == player).TeamNum))
         };
     });
     
@@ -93,8 +96,11 @@ function calculateFriendship() {
         let tr = document.createElement("tr");
         
         let th = document.createElement("th");
-        th.innerHTML = team.teamName;
+        let a = document.createElement("a");
+        a.innerHTML = team.teamName;
+        a.href = `./team.html?teamName=${team.teamName}`;
         th.style.textAlign = "right";
+        th.appendChild(a);
         tr.appendChild(th);
         
         let td = document.createElement("td");

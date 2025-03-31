@@ -68,7 +68,7 @@ function WeekSelected(event) {
     });
     
     // LastWeekHighScores(week.weekNum);
-    HighScores(week.weekNum);
+    // HighScores(week.weekNum);
 }
 
 // Setup a function to be called when the document is finished loading.

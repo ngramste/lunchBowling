@@ -267,11 +267,18 @@ function countCenturies(minWeeks = 6) {
     }).filter(result => undefined != result);
 }
 
-function buildRow(prize, teamName, people, score, award, plaqueText) {
+function buildRow(link, prize, teamName, people, score, award, plaqueText) {
     tr = document.createElement("tr");
 
     td = document.createElement("td");
-    td.innerHTML = prize;
+    if (link != "") {
+        let a = document.createElement("a");
+        a.innerHTML = prize;
+        a.href = link;
+        td.appendChild(a);
+    } else {
+        td.innerHTML = prize;
+    }
     tr.appendChild(td);
 
     td = document.createElement("td");
@@ -356,7 +363,8 @@ window.onload = function () {
         let score = weeklyStandings.getLatestWeek()[0].pointsWon;
         let award = `${people.length} plaques - (size - 7x9)`;
         let plaqueText = `${prize}<br>${teamName}<br>${people.join(", ")}`;
-        table.appendChild(buildRow(prize, teamName, people, score, award, plaqueText));
+        let link = "./";
+        table.appendChild(buildRow(link, prize, teamName, people, score, award, plaqueText));
 
         prize = "Noon League 2nd Place";
         teamName = weeklyStandings.getLatestWeek()[1].teamName;
@@ -364,7 +372,8 @@ window.onload = function () {
         score = weeklyStandings.getLatestWeek()[1].pointsWon;
         award = `${people.length} plaques - (size - 5x7)`;
         plaqueText = `${prize}<br>${teamName}<br>${people.join(", ")}`;
-        table.appendChild(buildRow(prize, teamName, people, score, award, plaqueText));
+        link = "./";
+        table.appendChild(buildRow(link, prize, teamName, people, score, award, plaqueText));
 
         prize = "Noon League 3rd Place";
         teamName = weeklyStandings.getLatestWeek()[2].teamName;
@@ -372,7 +381,8 @@ window.onload = function () {
         score = weeklyStandings.getLatestWeek()[2].pointsWon;
         award = `${people.length} plaques - (size - 5x7)`;
         plaqueText = `${prize}<br>${teamName}<br>${people.join(", ")}`;
-        table.appendChild(buildRow(prize, teamName, people, score, award, plaqueText));
+        link = "./";
+        table.appendChild(buildRow(link, prize, teamName, people, score, award, plaqueText));
 
         prize = "Noon League Last Place";
         teamName = weeklyStandings.getLatestWeek()[weeklyStandings.getLatestWeek().length - 1].teamName;
@@ -380,7 +390,8 @@ window.onload = function () {
         score = weeklyStandings.getLatestWeek()[weeklyStandings.getLatestWeek().length - 1].pointsWon;
         award = `${people.length} Goofy bowler trophies`;
         plaqueText = `${prize}<br>${teamName}<br>${people.join(", ")}`;
-        table.appendChild(buildRow(prize, teamName, people, score, award, plaqueText));
+        link = "./";
+        table.appendChild(buildRow(link, prize, teamName, people, score, award, plaqueText));
         
         let individual = getIndividualAwards();
 
@@ -390,7 +401,8 @@ window.onload = function () {
         score = individual.men.highSS.score;
         award = `1 plaque - (size - 5x7)`;
         plaqueText = `${prize}<br>${teamName}<br>${people}: ${score}`;
-        table.appendChild(buildRow(prize, teamName, people, score, award, plaqueText));
+        link = "";
+        table.appendChild(buildRow(link, prize, teamName, people, score, award, plaqueText));
 
         prize = "Noon League Men's High Scratch Game";
         teamName = leagueRecaps.getBowler(individual.men.highSG.game.week, individual.men.highSG.name).TeamName;
@@ -398,7 +410,8 @@ window.onload = function () {
         score = individual.men.highSG.score;
         award = `1 plaque - (size - 5x7)`;
         plaqueText = `${prize}<br>${teamName}<br>${people}: ${score}`;
-        table.appendChild(buildRow(prize, teamName, people, score, award, plaqueText));
+        link = "";
+        table.appendChild(buildRow(link, prize, teamName, people, score, award, plaqueText));
 
         prize = "Noon League Men's High Handicap Series";
         teamName = leagueRecaps.getBowler(individual.men.highHS.game.week, individual.men.highHS.name).TeamName;
@@ -406,7 +419,8 @@ window.onload = function () {
         score = individual.men.highHS.score;
         award = `1 plaque - (size - 5x7)`;
         plaqueText = `${prize}<br>${teamName}<br>${people}: ${score}`;
-        table.appendChild(buildRow(prize, teamName, people, score, award, plaqueText));
+        link = "";
+        table.appendChild(buildRow(link, prize, teamName, people, score, award, plaqueText));
 
         prize = "Noon League Men's High Handicap Game";
         teamName = leagueRecaps.getBowler(individual.men.highHG.game.week, individual.men.highHG.name).TeamName;
@@ -414,7 +428,8 @@ window.onload = function () {
         score = individual.men.highHG.score;
         award = `1 plaque - (size - 5x7)`;
         plaqueText = `${prize}<br>${teamName}<br>${people}: ${score}`;
-        table.appendChild(buildRow(prize, teamName, people, score, award, plaqueText));
+        link = "";
+        table.appendChild(buildRow(link, prize, teamName, people, score, award, plaqueText));
 
         prize = "Noon League Women's High Scratch Series";
         teamName = leagueRecaps.getBowler(individual.women.highSS.game.week, individual.women.highSS.name).TeamName;
@@ -422,7 +437,8 @@ window.onload = function () {
         score = individual.women.highSS.score;
         award = `1 plaque - (size - 5x7)`;
         plaqueText = `${prize}<br>${teamName}<br>${people}: ${score}`;
-        table.appendChild(buildRow(prize, teamName, people, score, award, plaqueText));
+        link = "";
+        table.appendChild(buildRow(link, prize, teamName, people, score, award, plaqueText));
 
         prize = "Noon League Women's High Scratch Game";
         teamName = leagueRecaps.getBowler(individual.women.highSG.game.week, individual.women.highSG.name).TeamName;
@@ -430,7 +446,8 @@ window.onload = function () {
         score = individual.women.highSG.score;
         award = `1 plaque - (size - 5x7)`;
         plaqueText = `${prize}<br>${teamName}<br>${people}: ${score}`;
-        table.appendChild(buildRow(prize, teamName, people, score, award, plaqueText));
+        link = "";
+        table.appendChild(buildRow(link, prize, teamName, people, score, award, plaqueText));
 
         prize = "Noon League Women's High Handicap Series";
         teamName = leagueRecaps.getBowler(individual.women.highHS.game.week, individual.women.highHS.name).TeamName;
@@ -438,7 +455,8 @@ window.onload = function () {
         score = individual.women.highHS.score;
         award = `1 plaque - (size - 5x7)`;
         plaqueText = `${prize}<br>${teamName}<br>${people}: ${score}`;
-        table.appendChild(buildRow(prize, teamName, people, score, award, plaqueText));
+        link = "";
+        table.appendChild(buildRow(link, prize, teamName, people, score, award, plaqueText));
 
         prize = "Noon League Women's High Handicap Game";
         teamName = leagueRecaps.getBowler(individual.women.highHG.game.week, individual.women.highHG.name).TeamName;
@@ -446,7 +464,8 @@ window.onload = function () {
         score = individual.women.highHG.score;
         award = `1 plaque - (size - 5x7)`;
         plaqueText = `${prize}<br>${teamName}<br>${people}: ${score}`;
-        table.appendChild(buildRow(prize, teamName, people, score, award, plaqueText));
+        link = "";
+        table.appendChild(buildRow(link, prize, teamName, people, score, award, plaqueText));
 
         let teams = teamData.getTeamList().map(team => {
             return {
@@ -470,7 +489,8 @@ window.onload = function () {
         score = teams[0].scores.highScratchSeries.score;
         award = `${people.length} plaques - (size - 5x7)`;
         plaqueText = `${prize}<br>${teamName}<br>${people.join(", ")}: ${score}`;
-        table.appendChild(buildRow(prize, teamName, people, score, award, plaqueText));
+        link = "";
+        table.appendChild(buildRow(link, prize, teamName, people, score, award, plaqueText));
 
         // Sort on the high scratch game
         teams.sort(function(a,b) {
@@ -490,7 +510,8 @@ window.onload = function () {
         score = teams[0].scores.highScratchGame.score;
         award = `${people.length} plaques - (size - 5x7)`;
         plaqueText = `${prize}<br>${teamName}<br>${people.join(", ")}: ${score}`;
-        table.appendChild(buildRow(prize, teamName, people, score, award, plaqueText));
+        link = "";
+        table.appendChild(buildRow(link, prize, teamName, people, score, award, plaqueText));
 
         // Sort on the high handicap series
         teams.sort(function(a,b) {
@@ -510,7 +531,8 @@ window.onload = function () {
         score = teams[0].scores.highHandicapSeries.score;
         award = `${people.length} plaques - (size - 5x7)`;
         plaqueText = `${prize}<br>${teamName}<br>${people.join(", ")}: ${score}`;
-        table.appendChild(buildRow(prize, teamName, people, score, award, plaqueText));
+        link = "";
+        table.appendChild(buildRow(link, prize, teamName, people, score, award, plaqueText));
 
         // Sort on the high handicap game
         teams.sort(function(a,b) {
@@ -528,7 +550,8 @@ window.onload = function () {
         score = teams[0].scores.highHandicapGame.score;
         award = `${people.length} plaques - (size - 5x7)`;
         plaqueText = `${prize}<br>${teamName}<br>${people.join(", ")}: ${score}`;
-        table.appendChild(buildRow(prize, teamName, people, score, award, plaqueText));
+        link = "";
+        table.appendChild(buildRow(link, prize, teamName, people, score, award, plaqueText));
 
         let improvements = playerData.getPlayerNames()
             // Get the scores 12
@@ -544,7 +567,8 @@ window.onload = function () {
         score = improvements[1];
         award = "1 plaque – (size 5x7)";
         plaqueText = `${prize}<br>${teamName}<br>${people.join(", ")}: ${score} Pins`;
-        table.appendChild(buildRow(prize, teamName, people, score, award, plaqueText));
+        link = "";
+        table.appendChild(buildRow(link, prize, teamName, people, score, award, plaqueText));
 
         let bowlers = gameData.players.getPlayerNames()
             // filter out people who didn't bowl a game
@@ -566,7 +590,8 @@ window.onload = function () {
         score = bowlers[0].aveStart - bowlers[0].aveEnd;
         award = "Toilet Paper and butt";
         plaqueText = `${prize}<br>${teamName}<br>${people.join(", ")}: ${score} Pins`;
-        table.appendChild(buildRow(prize, teamName, people, score, award, plaqueText));
+        link = "";
+        table.appendChild(buildRow(link, prize, teamName, people, score, award, plaqueText));
 
         let grumpy = largestDropInAve()[0];
 
@@ -576,7 +601,8 @@ window.onload = function () {
         score = grumpy.drop.toFixed(2);
         award = "Gumpy Sack";
         plaqueText = "";
-        table.appendChild(buildRow(prize, teamName, people, score, award, plaqueText));
+        link = "";
+        table.appendChild(buildRow(link, prize, teamName, people, score, award, plaqueText));
 
         let friends = calculateFriendship();
         friends = friends.filter(friend => friend.points == friends[0].points);
@@ -587,7 +613,8 @@ window.onload = function () {
         score = friends[0].points;
         award = `${people.length} Snickers Bars`;
         plaqueText = "";
-        table.appendChild(buildRow(prize, teamName, people, score, award, plaqueText));
+        link = "./friendship.html";
+        table.appendChild(buildRow(link, prize, teamName, people, score, award, plaqueText));
 
         let meanies = calculateMeanies();
         meanies = meanies.filter(meanie => meanie.points == meanies[0].points);
@@ -598,7 +625,8 @@ window.onload = function () {
         score = meanies[0].points;
         award = `${people.length} Sour Patch Kids`;
         plaqueText = "";
-        table.appendChild(buildRow(prize, teamName, people, score, award, plaqueText));
+        link = "./friendship.html";
+        table.appendChild(buildRow(link, prize, teamName, people, score, award, plaqueText));
 
         let centuries = countCenturies();
 
@@ -608,6 +636,7 @@ window.onload = function () {
         score = centuries.map(player => player.count).join("<br>");
         award = `${centuries.map(player => player.count).reduce((a, b) => a + b, 0)} Snickers Bars`;
         plaqueText = "";
-        table.appendChild(buildRow(prize, teamName, people, score, award, plaqueText));
+        link = "";
+        table.appendChild(buildRow(link, prize, teamName, people, score, award, plaqueText));
     });
 };
