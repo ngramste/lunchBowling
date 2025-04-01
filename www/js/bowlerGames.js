@@ -217,6 +217,9 @@ class bowlerGames {
     getImprovement(name, baselineGames = 21) {
         let games = this.getGames(name);
         
+        // Filter out absent games
+        if (undefined != games) games = games.filter(game => this.getGamePrefix(name, game.week, 0) == "");
+        
         if (undefined != games && (games.length * 2) >= baselineGames) {
             games = games.map(week => [week.Score1, week.Score2]).flat();
             return Math.round(games.reduce((a,b) => a+b) / games.length) - Math.round(games.slice(0, baselineGames).reduce((a,b) => a+b) / baselineGames);

@@ -567,7 +567,7 @@ window.onload = function () {
         score = improvements[1];
         award = "1 plaque – (size 5x7)";
         plaqueText = `${prize}<br>${teamName}<br>${people.map(name => playerData.prettyName(name)).join(", ")}: ${score} Pins`;
-        link = "";
+        link = "./mostImproved.html";
         table.appendChild(buildRow(link, prize, teamName, people, score, award, plaqueText));
 
         let bowlers = gameData.players.getPlayerNames()
