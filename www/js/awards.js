@@ -362,7 +362,7 @@ window.onload = function () {
         let people = getValidTeamMembers(teamData.getTeamByName(teamName).TeamNum);
         let score = weeklyStandings.getLatestWeek()[0].pointsWon;
         let award = `${people.length} plaques - (size - 7x9)`;
-        let plaqueText = `${prize}<br>${teamName}<br>${people.join(", ")}`;
+        let plaqueText = `${prize}<br>${teamName}<br>${people.map(name => playerData.prettyName(name)).join(", ")}`;
         let link = "./";
         table.appendChild(buildRow(link, prize, teamName, people, score, award, plaqueText));
 
@@ -371,7 +371,7 @@ window.onload = function () {
         people = getValidTeamMembers(teamData.getTeamByName(teamName).TeamNum);
         score = weeklyStandings.getLatestWeek()[1].pointsWon;
         award = `${people.length} plaques - (size - 5x7)`;
-        plaqueText = `${prize}<br>${teamName}<br>${people.join(", ")}`;
+        plaqueText = `${prize}<br>${teamName}<br>${people.map(name => playerData.prettyName(name)).join(", ")}`;
         link = "./";
         table.appendChild(buildRow(link, prize, teamName, people, score, award, plaqueText));
 
@@ -380,7 +380,7 @@ window.onload = function () {
         people = getValidTeamMembers(teamData.getTeamByName(teamName).TeamNum);
         score = weeklyStandings.getLatestWeek()[2].pointsWon;
         award = `${people.length} plaques - (size - 5x7)`;
-        plaqueText = `${prize}<br>${teamName}<br>${people.join(", ")}`;
+        plaqueText = `${prize}<br>${teamName}<br>${people.map(name => playerData.prettyName(name)).join(", ")}`;
         link = "./";
         table.appendChild(buildRow(link, prize, teamName, people, score, award, plaqueText));
 
@@ -389,7 +389,7 @@ window.onload = function () {
         people = getValidTeamMembers(teamData.getTeamByName(teamName).TeamNum);
         score = weeklyStandings.getLatestWeek()[weeklyStandings.getLatestWeek().length - 1].pointsWon;
         award = `${people.length} Goofy bowler trophies`;
-        plaqueText = `${prize}<br>${teamName}<br>${people.join(", ")}`;
+        plaqueText = `${prize}<br>${teamName}<br>${people.map(name => playerData.prettyName(name)).join(", ")}`;
         link = "./";
         table.appendChild(buildRow(link, prize, teamName, people, score, award, plaqueText));
         
@@ -400,7 +400,7 @@ window.onload = function () {
         people = [individual.men.highSS.name];
         score = individual.men.highSS.score;
         award = `1 plaque - (size - 5x7)`;
-        plaqueText = `${prize}<br>${teamName}<br>${people}: ${score}`;
+        plaqueText = `${prize}<br>${teamName}<br>${people.map(name => playerData.prettyName(name))}: ${score}`;
         link = "./seasonHighs.html";
         table.appendChild(buildRow(link, prize, teamName, people, score, award, plaqueText));
 
@@ -409,7 +409,7 @@ window.onload = function () {
         people = [individual.men.highSG.name];
         score = individual.men.highSG.score;
         award = `1 plaque - (size - 5x7)`;
-        plaqueText = `${prize}<br>${teamName}<br>${people}: ${score}`;
+        plaqueText = `${prize}<br>${teamName}<br>${people.map(name => playerData.prettyName(name))}: ${score}`;
         link = "./seasonHighs.html";
         table.appendChild(buildRow(link, prize, teamName, people, score, award, plaqueText));
 
@@ -418,7 +418,7 @@ window.onload = function () {
         people = [individual.men.highHS.name];
         score = individual.men.highHS.score;
         award = `1 plaque - (size - 5x7)`;
-        plaqueText = `${prize}<br>${teamName}<br>${people}: ${score}`;
+        plaqueText = `${prize}<br>${teamName}<br>${people.map(name => playerData.prettyName(name))}: ${score}`;
         link = "./seasonHighs.html";
         table.appendChild(buildRow(link, prize, teamName, people, score, award, plaqueText));
 
@@ -427,7 +427,7 @@ window.onload = function () {
         people = [individual.men.highHG.name];
         score = individual.men.highHG.score;
         award = `1 plaque - (size - 5x7)`;
-        plaqueText = `${prize}<br>${teamName}<br>${people}: ${score}`;
+        plaqueText = `${prize}<br>${teamName}<br>${people.map(name => playerData.prettyName(name))}: ${score}`;
         link = "./seasonHighs.html";
         table.appendChild(buildRow(link, prize, teamName, people, score, award, plaqueText));
 
@@ -436,7 +436,7 @@ window.onload = function () {
         people = [individual.women.highSS.name];
         score = individual.women.highSS.score;
         award = `1 plaque - (size - 5x7)`;
-        plaqueText = `${prize}<br>${teamName}<br>${people}: ${score}`;
+        plaqueText = `${prize}<br>${teamName}<br>${people.map(name => playerData.prettyName(name))}: ${score}`;
         link = "./seasonHighs.html";
         table.appendChild(buildRow(link, prize, teamName, people, score, award, plaqueText));
 
@@ -445,7 +445,7 @@ window.onload = function () {
         people = [individual.women.highSG.name];
         score = individual.women.highSG.score;
         award = `1 plaque - (size - 5x7)`;
-        plaqueText = `${prize}<br>${teamName}<br>${people}: ${score}`;
+        plaqueText = `${prize}<br>${teamName}<br>${people.map(name => playerData.prettyName(name))}: ${score}`;
         link = "./seasonHighs.html";
         table.appendChild(buildRow(link, prize, teamName, people, score, award, plaqueText));
 
@@ -454,7 +454,7 @@ window.onload = function () {
         people = [individual.women.highHS.name];
         score = individual.women.highHS.score;
         award = `1 plaque - (size - 5x7)`;
-        plaqueText = `${prize}<br>${teamName}<br>${people}: ${score}`;
+        plaqueText = `${prize}<br>${teamName}<br>${people.map(name => playerData.prettyName(name))}: ${score}`;
         link = "./seasonHighs.html";
         table.appendChild(buildRow(link, prize, teamName, people, score, award, plaqueText));
 
@@ -463,7 +463,7 @@ window.onload = function () {
         people = [individual.women.highHG.name];
         score = individual.women.highHG.score;
         award = `1 plaque - (size - 5x7)`;
-        plaqueText = `${prize}<br>${teamName}<br>${people}: ${score}`;
+        plaqueText = `${prize}<br>${teamName}<br>${people.map(name => playerData.prettyName(name))}: ${score}`;
         link = "./seasonHighs.html";
         table.appendChild(buildRow(link, prize, teamName, people, score, award, plaqueText));
 
@@ -488,7 +488,7 @@ window.onload = function () {
         people = getValidTeamMembers(teamData.getTeamByName(teams[0].teamName).TeamNum);
         score = teams[0].scores.highScratchSeries.score;
         award = `${people.length} plaques - (size - 5x7)`;
-        plaqueText = `${prize}<br>${teamName}<br>${people.join(", ")}: ${score}`;
+        plaqueText = `${prize}<br>${teamName}<br>${people.map(name => playerData.prettyName(name)).join(", ")}: ${score}`;
         link = "";
         table.appendChild(buildRow(link, prize, teamName, people, score, award, plaqueText));
 
@@ -509,7 +509,7 @@ window.onload = function () {
         people = getValidTeamMembers(teamData.getTeamByName(teams[index].teamName).TeamNum);
         score = teams[0].scores.highScratchGame.score;
         award = `${people.length} plaques - (size - 5x7)`;
-        plaqueText = `${prize}<br>${teamName}<br>${people.join(", ")}: ${score}`;
+        plaqueText = `${prize}<br>${teamName}<br>${people.map(name => playerData.prettyName(name)).join(", ")}: ${score}`;
         link = "";
         table.appendChild(buildRow(link, prize, teamName, people, score, award, plaqueText));
 
@@ -530,7 +530,7 @@ window.onload = function () {
         people = getValidTeamMembers(teamData.getTeamByName(teams[index].teamName).TeamNum);
         score = teams[0].scores.highHandicapSeries.score;
         award = `${people.length} plaques - (size - 5x7)`;
-        plaqueText = `${prize}<br>${teamName}<br>${people.join(", ")}: ${score}`;
+        plaqueText = `${prize}<br>${teamName}<br>${people.map(name => playerData.prettyName(name)).join(", ")}: ${score}`;
         link = "";
         table.appendChild(buildRow(link, prize, teamName, people, score, award, plaqueText));
 
@@ -549,7 +549,7 @@ window.onload = function () {
         people = getValidTeamMembers(teamData.getTeamByName(teams[index].teamName).TeamNum);
         score = teams[0].scores.highHandicapGame.score;
         award = `${people.length} plaques - (size - 5x7)`;
-        plaqueText = `${prize}<br>${teamName}<br>${people.join(", ")}: ${score}`;
+        plaqueText = `${prize}<br>${teamName}<br>${people.map(name => playerData.prettyName(name)).join(", ")}: ${score}`;
         link = "";
         table.appendChild(buildRow(link, prize, teamName, people, score, award, plaqueText));
 
@@ -566,7 +566,7 @@ window.onload = function () {
         people = [improvements[0]];
         score = improvements[1];
         award = "1 plaque – (size 5x7)";
-        plaqueText = `${prize}<br>${teamName}<br>${people.join(", ")}: ${score} Pins`;
+        plaqueText = `${prize}<br>${teamName}<br>${people.map(name => playerData.prettyName(name)).join(", ")}: ${score} Pins`;
         link = "";
         table.appendChild(buildRow(link, prize, teamName, people, score, award, plaqueText));
 
@@ -589,7 +589,7 @@ window.onload = function () {
         people = [bowlers[0].bowlerName];
         score = bowlers[0].aveStart - bowlers[0].aveEnd;
         award = "Toilet Paper and butt";
-        plaqueText = `${prize}<br>${teamName}<br>${people.join(", ")}: ${score} Pins`;
+        plaqueText = `${prize}<br>${teamName}<br>${people.map(name => playerData.prettyName(name)).join(", ")}: ${score} Pins`;
         link = "./sandbagger.html";
         table.appendChild(buildRow(link, prize, teamName, people, score, award, plaqueText));
 
