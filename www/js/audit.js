@@ -363,7 +363,10 @@ function RunningTotals(teamName, weekNum) {
     th.innerHTML = "Week:";
     tr.appendChild(th);
     let td = document.createElement("td");
-    td.innerHTML = weekNum;
+    let a = document.createElement("a");
+    a.innerHTML = weekNum;
+    a.href = `./${DATA_FOLDER}pdfs/week${weekNum}.pdf`;
+    td.appendChild(a);
     tr.appendChild(td);
     table.appendChild(tr);
     
@@ -373,7 +376,7 @@ function RunningTotals(teamName, weekNum) {
     th.innerHTML = "Date:";
     tr.appendChild(th);
     td = document.createElement("td");
-    let a = document.createElement("a");
+    a = document.createElement("a");
     a.innerHTML = gameData.schedule.getWeek(weekNum).date;
     a.href = `./index.html?weekNum=${weekNum}`;
     td.appendChild(a);
