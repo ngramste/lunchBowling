@@ -401,7 +401,7 @@ window.onload = function () {
         score = individual.men.highSS.score;
         award = `1 plaque - (size - 5x7)`;
         plaqueText = `${prize}<br>${teamName}<br>${people}: ${score}`;
-        link = "";
+        link = "./seasonHighs.html";
         table.appendChild(buildRow(link, prize, teamName, people, score, award, plaqueText));
 
         prize = "Noon League Men's High Scratch Game";
@@ -410,7 +410,7 @@ window.onload = function () {
         score = individual.men.highSG.score;
         award = `1 plaque - (size - 5x7)`;
         plaqueText = `${prize}<br>${teamName}<br>${people}: ${score}`;
-        link = "";
+        link = "./seasonHighs.html";
         table.appendChild(buildRow(link, prize, teamName, people, score, award, plaqueText));
 
         prize = "Noon League Men's High Handicap Series";
@@ -419,7 +419,7 @@ window.onload = function () {
         score = individual.men.highHS.score;
         award = `1 plaque - (size - 5x7)`;
         plaqueText = `${prize}<br>${teamName}<br>${people}: ${score}`;
-        link = "";
+        link = "./seasonHighs.html";
         table.appendChild(buildRow(link, prize, teamName, people, score, award, plaqueText));
 
         prize = "Noon League Men's High Handicap Game";
@@ -428,7 +428,7 @@ window.onload = function () {
         score = individual.men.highHG.score;
         award = `1 plaque - (size - 5x7)`;
         plaqueText = `${prize}<br>${teamName}<br>${people}: ${score}`;
-        link = "";
+        link = "./seasonHighs.html";
         table.appendChild(buildRow(link, prize, teamName, people, score, award, plaqueText));
 
         prize = "Noon League Women's High Scratch Series";
@@ -437,7 +437,7 @@ window.onload = function () {
         score = individual.women.highSS.score;
         award = `1 plaque - (size - 5x7)`;
         plaqueText = `${prize}<br>${teamName}<br>${people}: ${score}`;
-        link = "";
+        link = "./seasonHighs.html";
         table.appendChild(buildRow(link, prize, teamName, people, score, award, plaqueText));
 
         prize = "Noon League Women's High Scratch Game";
@@ -446,7 +446,7 @@ window.onload = function () {
         score = individual.women.highSG.score;
         award = `1 plaque - (size - 5x7)`;
         plaqueText = `${prize}<br>${teamName}<br>${people}: ${score}`;
-        link = "";
+        link = "./seasonHighs.html";
         table.appendChild(buildRow(link, prize, teamName, people, score, award, plaqueText));
 
         prize = "Noon League Women's High Handicap Series";
@@ -455,7 +455,7 @@ window.onload = function () {
         score = individual.women.highHS.score;
         award = `1 plaque - (size - 5x7)`;
         plaqueText = `${prize}<br>${teamName}<br>${people}: ${score}`;
-        link = "";
+        link = "./seasonHighs.html";
         table.appendChild(buildRow(link, prize, teamName, people, score, award, plaqueText));
 
         prize = "Noon League Women's High Handicap Game";
@@ -464,7 +464,7 @@ window.onload = function () {
         score = individual.women.highHG.score;
         award = `1 plaque - (size - 5x7)`;
         plaqueText = `${prize}<br>${teamName}<br>${people}: ${score}`;
-        link = "";
+        link = "./seasonHighs.html";
         table.appendChild(buildRow(link, prize, teamName, people, score, award, plaqueText));
 
         let teams = teamData.getTeamList().map(team => {
@@ -590,7 +590,7 @@ window.onload = function () {
         score = bowlers[0].aveStart - bowlers[0].aveEnd;
         award = "Toilet Paper and butt";
         plaqueText = `${prize}<br>${teamName}<br>${people.join(", ")}: ${score} Pins`;
-        link = "";
+        link = "./sandbagger.html";
         table.appendChild(buildRow(link, prize, teamName, people, score, award, plaqueText));
 
         let grumpy = largestDropInAve()[0];
