@@ -489,7 +489,7 @@ window.onload = function () {
         score = teams[0].scores.highScratchSeries.score;
         award = `${people.length} plaques - (size - 5x7)`;
         plaqueText = `${prize}<br>${teamName}<br>${people.map(name => playerData.prettyName(name)).join(", ")}: ${score}`;
-        link = "";
+        link = "./seasonHighs.html";
         table.appendChild(buildRow(link, prize, teamName, people, score, award, plaqueText));
 
         // Sort on the high scratch game
@@ -510,7 +510,7 @@ window.onload = function () {
         score = teams[0].scores.highScratchGame.score;
         award = `${people.length} plaques - (size - 5x7)`;
         plaqueText = `${prize}<br>${teamName}<br>${people.map(name => playerData.prettyName(name)).join(", ")}: ${score}`;
-        link = "";
+        link = "./seasonHighs.html";
         table.appendChild(buildRow(link, prize, teamName, people, score, award, plaqueText));
 
         // Sort on the high handicap series
@@ -531,7 +531,7 @@ window.onload = function () {
         score = teams[0].scores.highHandicapSeries.score;
         award = `${people.length} plaques - (size - 5x7)`;
         plaqueText = `${prize}<br>${teamName}<br>${people.map(name => playerData.prettyName(name)).join(", ")}: ${score}`;
-        link = "";
+        link = "./seasonHighs.html";
         table.appendChild(buildRow(link, prize, teamName, people, score, award, plaqueText));
 
         // Sort on the high handicap game
@@ -550,7 +550,7 @@ window.onload = function () {
         score = teams[0].scores.highHandicapGame.score;
         award = `${people.length} plaques - (size - 5x7)`;
         plaqueText = `${prize}<br>${teamName}<br>${people.map(name => playerData.prettyName(name)).join(", ")}: ${score}`;
-        link = "";
+        link = "./seasonHighs.html";
         table.appendChild(buildRow(link, prize, teamName, people, score, award, plaqueText));
 
         let improvements = playerData.getPlayerNames()
