@@ -229,7 +229,7 @@ class bowlerGames {
     getTeamHighGames(teamNum, weekNum = 52) {
         let scores = {};
 
-        let teamGames = this.schedule.getCurrentWeekNumbers()
+        let teamGames = this.recaps.getWeekNums()
             .filter(week => week <= weekNum)
             .map(week => {
                 return {
