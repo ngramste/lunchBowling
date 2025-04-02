@@ -547,7 +547,7 @@ window.onload = function () {
         prize = "Noon League Team High Handicap Game";
         teamName = teams[index].teamName;
         people = getValidTeamMembers(teamData.getTeamByName(teams[index].teamName).TeamNum);
-        score = teams[0].scores.highHandicapGame.score;
+        score = teams[index].scores.highHandicapGame.score;
         award = `${people.length} plaques - (size - 5x7)`;
         plaqueText = `${prize}<br>${teamName}<br>${people.map(name => playerData.prettyName(name)).join(", ")}: ${score}`;
         link = "./seasonHighs.html";
