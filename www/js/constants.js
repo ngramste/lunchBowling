@@ -14,6 +14,7 @@ const SUMMARY_PATH = DATA_FOLDER + 'weeklySummary';
 const RECAPS_PATH = DATA_FOLDER + 'weeklyRecaps';
 const leagueId = 130603;
 const year = 2024;
+const seasonName = "24-25";
 const season = "f";
 const Summary_Read = "https://www.leaguesecretary.com/League/Summary_Read";
 const Team_List_Read = "https://www.leaguesecretary.com/Team/TeamList_Read";
