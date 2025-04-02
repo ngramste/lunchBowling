@@ -291,13 +291,13 @@ function buildRow(link, prize, teamName, people, score, award, plaqueText) {
     tr.appendChild(td);
 
     td = document.createElement("td");
-    people.forEach(person => {
+    people.forEach((person, index) => {
         let a = document.createElement("a");
         let br = document.createElement("br");
         a.innerHTML = `${playerData.prettyName(person)}`;
         a.href = `./bowler.html?name=${person}`;
         td.appendChild(a);
-        td.innerHTML += ",";
+        if (people.length - 1 != index) td.innerHTML += ",";
         td.appendChild(br);
         tr.appendChild(td);
     });
@@ -395,6 +395,30 @@ window.onload = function () {
         
         let individual = getIndividualAwards();
 
+        let perfects = playerData.getPlayerNames()
+            // Get everyone's high scores
+            .map(name => {
+                return {
+                    name: name, 
+                    games: gameData.getHighGames(name, 6)
+                }
+            })
+            // Filter out unqualified bowler
+            .filter(bowler => bowler.games != undefined)
+            // Filter out 300 games
+            .filter(bowler => bowler.games.highScratchGame.score == 300);
+            
+        perfects.forEach(bowler => {
+            prize = "Noon League 300 Game";
+            teamName = leagueRecaps.getBowler(bowler.games.highScratchGame.game.week, bowler.name).TeamName;
+            people = [bowler.name];
+            score = 300;
+            award = `1 plaque - (size - 5x7)`;
+            plaqueText = `${prize}<br>${teamName}<br>${people.map(name => playerData.prettyName(bowler.name))}: ${score}`;
+            link = "";
+            table.appendChild(buildRow(link, prize, teamName, people, score, award, plaqueText));
+        });
+
         prize = "Noon League Men's High Scratch Series";
         teamName = leagueRecaps.getBowler(individual.men.highSS.game.week, individual.men.highSS.name).TeamName;
         people = [individual.men.highSS.name];
@@ -485,7 +509,7 @@ window.onload = function () {
 
         prize = "Noon League Team High Scratch Series";
         teamName = teams[0].teamName;
-        people = getValidTeamMembers(teamData.getTeamByName(teams[0].teamName).TeamNum);
+        people = leagueRecaps.getTeamMemberNames(teams[0].scores.highScratchSeries.games.weekNum, teamData.getTeamByName(teams[0].teamName).TeamNum);
         score = teams[0].scores.highScratchSeries.score;
         award = `${people.length} plaques - (size - 5x7)`;
         plaqueText = `${prize}<br>${teamName}<br>${people.map(name => playerData.prettyName(name)).join(", ")}: ${score}`;
@@ -506,7 +530,7 @@ window.onload = function () {
 
         prize = "Noon League Team High Scratch Game";
         teamName = teams[index].teamName;
-        people = getValidTeamMembers(teamData.getTeamByName(teams[index].teamName).TeamNum);
+        people = leagueRecaps.getTeamMemberNames(teams[index].scores.highScratchGame.games.weekNum, teamData.getTeamByName(teams[index].teamName).TeamNum);
         score = teams[0].scores.highScratchGame.score;
         award = `${people.length} plaques - (size - 5x7)`;
         plaqueText = `${prize}<br>${teamName}<br>${people.map(name => playerData.prettyName(name)).join(", ")}: ${score}`;
@@ -527,7 +551,7 @@ window.onload = function () {
 
         prize = "Noon League Team High Handicap Series";
         teamName = teams[index].teamName;
-        people = getValidTeamMembers(teamData.getTeamByName(teams[index].teamName).TeamNum);
+        people = leagueRecaps.getTeamMemberNames(teams[index].scores.highHandicapSeries.games.weekNum, teamData.getTeamByName(teams[index].teamName).TeamNum);
         score = teams[0].scores.highHandicapSeries.score;
         award = `${people.length} plaques - (size - 5x7)`;
         plaqueText = `${prize}<br>${teamName}<br>${people.map(name => playerData.prettyName(name)).join(", ")}: ${score}`;
@@ -546,7 +570,7 @@ window.onload = function () {
 
         prize = "Noon League Team High Handicap Game";
         teamName = teams[index].teamName;
-        people = getValidTeamMembers(teamData.getTeamByName(teams[index].teamName).TeamNum);
+        people = leagueRecaps.getTeamMemberNames(teams[index].scores.highHandicapGame.games.weekNum, teamData.getTeamByName(teams[index].teamName).TeamNum);
         score = teams[index].scores.highHandicapGame.score;
         award = `${people.length} plaques - (size - 5x7)`;
         plaqueText = `${prize}<br>${teamName}<br>${people.map(name => playerData.prettyName(name)).join(", ")}: ${score}`;
