@@ -611,7 +611,7 @@ window.onload = function () {
         prize = "Noon League Sandbagger";
         teamName = gameData.getPlayerTeam(bowlers[0].bowlerName);
         people = [bowlers[0].bowlerName];
-        score = bowlers[0].aveStart - bowlers[0].aveEnd;
+        score = bowlers[0].aveEnd - bowlers[0].aveStart;
         award = "Toilet Paper and butt";
         plaqueText = `${prize} ${seasonName}<br>${teamName}<br>${people.map(name => playerData.prettyName(name)).join(", ")}: ${score} Pins`;
         link = "./sandbagger.html";
