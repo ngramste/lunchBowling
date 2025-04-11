@@ -389,7 +389,7 @@ window.onload = function () {
         people = getValidTeamMembers(teamData.getTeamByName(teamName).TeamNum);
         score = weeklyStandings.getLatestWeek()[weeklyStandings.getLatestWeek().length - 1].pointsWon;
         award = `${people.length} Goofy bowler trophies`;
-        plaqueText = `${prize} ${seasonName}<br>${teamName}<br>${people.map(name => playerData.prettyName(name)).join(", ")}`;
+        plaqueText = `Noon League ${seasonName}<br>Last Place<br>${people.map(name => playerData.prettyName(name)).join(", ")}`;
         link = "./";
         table.appendChild(buildRow(link, prize, teamName, people, score, award, plaqueText));
         
