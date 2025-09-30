@@ -42,7 +42,7 @@ function BuildTeamRecap(teamName, weekNum) {
     th = document.createElement("th");
     th.innerHTML = "HDCP<br>Total";
     tr.appendChild(th);
-    tr.style = "border-bottom: 1px solid black;"
+    tr.style = "border-bottom: 1px solid light-dark(black, #888);"
     
     table.appendChild(tr);
     
@@ -132,7 +132,7 @@ function BuildTeamRecap(teamName, weekNum) {
     td = document.createElement("td");
     td.innerHTML = bowlers[0].Score1 + bowlers[1].Score1 + bowlers[0].Score2 + bowlers[1].Score2;
     tr.appendChild(td);
-    tr.style = "border-top: 1px solid black;"
+    tr.style = "border-top: 1px solid light-dark(black, #888);"
     
     table.appendChild(tr);
     
@@ -242,7 +242,7 @@ function BuildTeamRecap(teamName, weekNum) {
     td = document.createElement("td");
     td.innerHTML = teamScore.series;
     tr.appendChild(td);
-    tr.style = "border-bottom: 1px solid black;"
+    tr.style = "border-bottom: 1px solid light-dark(black, #888);"
     
     table.appendChild(tr);
     
@@ -278,7 +278,7 @@ function BuildTeamRecap(teamName, weekNum) {
     tr.appendChild(td);
     
     table.appendChild(tr);
-    table.style = "border: 1px solid black; border-collapse: collapse;";
+    table.style = "border: 1px solid light-dark(black, #888); border-collapse: collapse;";
     
     return table;
 }

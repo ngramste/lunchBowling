@@ -17,19 +17,20 @@
             *{
                 font-family: 'Courier New', Courier, monospace;
                 font-size: 12pt;
+                color-scheme: light dark;
             }
             table {
                 margin: 8px;
                 border-collapse: collapse;
             }
             th {
-                color: white;
-                background-color: #1f1f1f;
-                border: 1px solid black;
+                color: light-dark(white, black);
+                background-color: light-dark(#1f1f1f, #ddd);
+                border: 1px solid light-dark(black, #888);
                 padding: 4px 8px 4px 8px;
             }
             td {
-                border: 1px solid black;
+                border: 1px solid light-dark(black, #888);
                 padding: 4px 8px 4px 8px;
             }
         </style>
