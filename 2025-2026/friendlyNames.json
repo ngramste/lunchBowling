@@ -1,0 +1,76 @@
+{
+    "Data": [
+        {
+            "BowlerID": 28,
+            "BowlerName": "B, B",
+            "FriendlyName": "Buschette, Bob"
+        },
+        {
+            "BowlerID": 8,
+            "BowlerName": "D, M",
+            "FriendlyName": "Dooley, Michael"
+        },
+        {
+            "BowlerID": 3,
+            "BowlerName": "G, M",
+            "FriendlyName": "Godfrey, Mark"
+        },
+        {
+            "BowlerID": 16,
+            "BowlerName": "H, K",
+            "FriendlyName": "Hecker, Ken"
+        },
+        {
+            "BowlerID": 89,
+            "BowlerName": "K, D",
+            "FriendlyName": "Karl, Dean"
+        },
+        {
+            "BowlerID": 117,
+            "BowlerName": "K, R",
+            "FriendlyName": "Kovack, Reed"
+        },
+        {
+            "BowlerID": 45,
+            "BowlerName": "K, K",
+            "FriendlyName": "Kupka, Kerry"
+        },
+        {
+            "BowlerID": 7,
+            "BowlerName": "L, D",
+            "FriendlyName": "Leedom, Dave"
+        },
+        {
+            "BowlerID": 35,
+            "BowlerName": "M, K",
+            "FriendlyName": "Maruga, Kevin"
+        },
+        {
+            "BowlerID": 4,
+            "BowlerName": "O, M",
+            "FriendlyName": "Olson, Mike"
+        },
+        {
+            "BowlerID": 176,
+            "BowlerName": "S, K",
+            "FriendlyName": "Setrum, Kyle"
+        },
+        {
+            "BowlerID": 15,
+            "BowlerName": "V, S",
+            "FriendlyName": "Voyek, Scott"
+        },
+        {
+            "BowlerID": 128,
+            "BowlerName": "W, C",
+            "FriendlyName": "Weldon, Chad"
+        },
+        {
+            "BowlerID": 116,
+            "BowlerName": "W, D",
+            "FriendlyName": "Wilkinson, David"
+        }
+    ],
+    "AggregateResults": null,
+    "Errors": null
+}

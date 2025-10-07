@@ -13,7 +13,8 @@ if c.TEAMS_FILENAME not in data_folder:
   postData = {
     "leagueId": c.leagueId,
     "year": c.year,
-    "season": c.season
+    "season": c.season,
+    "weekNum": 1
   }
   
   # Get that juicy juicy data!
@@ -28,7 +29,8 @@ if c.TEAMS_FILENAME not in data_folder:
 postData = {
   "leagueId": c.leagueId,
   "year": c.year,
-  "season": c.season
+  "season": c.season,
+  "weekNum": 1
 }
   
 # Get that juicy juicy data!

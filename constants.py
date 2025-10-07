@@ -1,4 +1,4 @@
-DATA_FOLDER = '2024-2025/'
+DATA_FOLDER = '2025-2026/'
 REPORT_FILENAME = 'report.json'
 REPORT_PATH = DATA_FOLDER + REPORT_FILENAME
 SCHEDULE_FILENAME = 'schedule.json'
@@ -11,7 +11,7 @@ STANDINGS_PATH = DATA_FOLDER + 'weeklyStandings'
 SUMMARY_PATH = DATA_FOLDER + 'weeklySummary'
 RECAPS_PATH = DATA_FOLDER + 'weeklyRecaps'
 leagueId = 130603
-year = 2024
+year = 2025
 season = "f"
 Summary_Read = "https://www.leaguesecretary.com/League/Summary_Read"
 Team_List_Read = "https://www.leaguesecretary.com/Team/TeamList_Read"
