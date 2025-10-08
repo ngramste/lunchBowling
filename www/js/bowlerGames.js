@@ -81,6 +81,21 @@ class bowlerGames {
         return game[`Score${gameNum}`] + game.HandicapBeforeBowling;
     }
 
+    calculateAverage(name, weekNum) {
+        let games = this.getGames(name).filter(game => game.week <= weekNum);
+
+        let gameCount = 0;
+
+        return Math.floor(games.reduce((acc, week) => {
+            return acc + arrayBuilder(1,6).reduce((acc, game) => {
+                if ("S" == week[`ScoreType${game}`]) {
+                    gameCount++;
+                }
+                return acc + week[`Score${game}`];
+            }, 0);
+        }, 0) / gameCount);
+    }
+
     getGamePrefix(name, weekNum, gameNum) {
         switch (this.getGame(name, weekNum)[`ScoreType${gameNum}`]) {
             case "A":

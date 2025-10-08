@@ -49,10 +49,6 @@ function BowlerSelected(event) {
     tr.appendChild(th);
     
     th = document.createElement("th");
-    th.innerHTML = "Avg After CALC";
-    tr.appendChild(th);
-    
-    th = document.createElement("th");
     th.innerHTML = "Avg Today";
     tr.appendChild(th);
     
@@ -104,7 +100,7 @@ function BowlerSelected(event) {
         tr.appendChild(td);
         
         td = document.createElement("td");
-        td.innerHTML = week.handicapBefore;
+        td.innerHTML = week.HandicapBeforeBowling;
         tr.appendChild(td);
         
         td = document.createElement("td");
@@ -112,15 +108,11 @@ function BowlerSelected(event) {
         tr.appendChild(td);
         
         td = document.createElement("td");
-        td.innerHTML = week.averageBefore;
+        td.innerHTML = week.AverageBeforeBowling;
         tr.appendChild(td);
         
         td = document.createElement("td");
-        td.innerHTML = week.averageAfter;
-        tr.appendChild(td);
-        
-        td = document.createElement("td");
-        td.innerHTML = `${Math.floor(totalPins / totalGames)}=${totalPins}/${totalGames}`;
+        td.innerHTML = gameData.calculateAverage(bowlerName, week.week);
         tr.appendChild(td);
         
         td = document.createElement("td");
@@ -128,7 +120,7 @@ function BowlerSelected(event) {
         tr.appendChild(td);
         
         td = document.createElement("td");
-        td.innerHTML = Math.floor((week.Score1 + week.Score2) / 2) - week.averageBefore;
+        td.innerHTML = Math.floor((week.Score1 + week.Score2) / 2) - week.AverageBeforeBowling;
         tr.appendChild(td);
         
         table.appendChild(tr);
