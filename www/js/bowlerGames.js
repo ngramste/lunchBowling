@@ -14,63 +14,15 @@ class bowlerGames {
                         if (undefined == this.bowlers[bowler.BowlerName]) {
                             this.bowlers[bowler.BowlerName] = [];
                         }
+
+                        bowler.week = week;
+                        bowler.date = this.schedule.getDate(week);
+                        bowler.timestamp = this.schedule.getTimestamp(week);
     
-                        let scores = {
-                            week: week,
-                            date: this.schedule.getDate(week),
-                            timestamp: this.schedule.getTimestamp(week),
-                            Score1: bowler.Score1,
-                            Score2: bowler.Score2,
-                            ScoreType1: bowler.ScoreType1,
-                            ScoreType2: bowler.ScoreType2
-                        }
-    
-                        this.bowlers[bowler.BowlerName].push(scores);
+                        this.bowlers[bowler.BowlerName].push(bowler);
     
                         // Ensure the weeks are sorted
                         this.bowlers[bowler.BowlerName] = this.bowlers[bowler.BowlerName].sort(function(a, b) {return a.timestamp - b.timestamp});
-                    });
-                });
-    
-                // Calculate averages
-                Object.keys(this.bowlers).forEach(bowler => {
-                    let totalScratch = 0;
-                    let games = 0;
-
-                    this.bowlers[bowler].forEach(week => {
-                        if (0 == games) {
-                            week.averageBefore = Math.floor((week.Score1 + week.Score2) / 2);
-                            week.averageBeforeFloating = (week.Score1 + week.Score2) / 2;
-                        } else {
-                            week.averageBefore = Math.floor(totalScratch / games);
-                            week.averageBeforeFloating = totalScratch / games;
-                        }
-
-                        week.handicapBefore = Math.floor(Math.max(0, (220 - week.averageBefore) * 0.9));
-
-                        // If the bowler is absent, don't roll these scores into their average
-                        if (week.ScoreType1 == "A") {
-                            // Special case where bowler is absent and haven't yet bowled
-                            if (0 == games) {
-                                week.averageBefore = 140;
-                                week.handicapBefore = Math.floor(Math.max(0, (220 - week.averageBefore) * 0.9));
-                            }
-                        } else {
-                            games += 2;
-                            totalScratch += week.Score1;
-                            totalScratch += week.Score2;
-                        }
-
-                        week.totalScratch = totalScratch;
-                        if (0 == games) {
-                            // Special case where bowler is absent and haven't yet bowled for the year
-                            week.averageAfter = 140;
-                        } else {
-                            week.averageAfter = Math.floor(totalScratch / games);
-                            week.averageAfterFloating = totalScratch / games;
-                        }
-
-                        week.handicapAfter = Math.floor(Math.max(0, (220 - week.averageAfter) * 0.9));
                     });
                 });
 
@@ -98,50 +50,48 @@ class bowlerGames {
         return Object.keys(count).find(key => count[key] == max);
     }
 
-    establishingFlag(name, weekNum) {
+    isEstablishing(name, weekNum) {
         let games = this.getGames(name);
         for (let game = 0; game < games.length; game++) {
-            if ("A" != games[game].ScoreType1) {
-                if (games[game].week == weekNum) {
-                    return "e";
+            if ("A" != games[game].ScoreType1 && "V" != games[game].ScoreType1) {
+                if (games[game].week == weekNum && 0 == games[game].PlusMinusAverage) {
+                    return true;
                 } else {
-                    return "";
+                    return false;
                 }
             }
         }
+        return false;
+    }
+
+    establishingFlag(name, weekNum) {
+        return this.isEstablishing(name, weekNum) ? "e" : "";
     }
 
     getScratchSeries(name, weekNum) {
-        let game = this.getGame(name, weekNum);
-        return game.Score1 + game.Score2;
+        return arrayBuilder(1,6).map(num => this.getGame(name, weekNum)[`Score${num}`]).reduce((acc, i) => acc + i);
     }
 
     getHandicapSeries(name, weekNum) {
-        let game = this.getGame(name, weekNum);
-        return game.Score1 + game.Score2 + game.handicapBefore + game.handicapBefore;
+        return this.getScratchSeries(name, weekNum) + (this.getGame(name, weekNum).HandicapBeforeBowling * arrayBuilder(1,6).map(num => this.getGame(name, weekNum)[`ScoreType${num}`]).filter(type => "0" != type).length);
     }
 
     getHandicapGame(name, weekNum, gameNum) {
         let game = this.getGame(name, weekNum);
-        return ((1 == gameNum) ? game.Score1 : game.Score2) + game.handicapBefore;
+        return game[`Score${gameNum}`] + game.HandicapBeforeBowling;
     }
 
     getGamePrefix(name, weekNum, gameNum) {
-        let game = this.getGame(name, weekNum);
-
-        if (1 == gameNum) {
-            if ("A" == game.ScoreType1) {
+        switch (this.getGame(name, weekNum)[`ScoreType${gameNum}`]) {
+            case "A":
                 return "a";
-            }
-        }
 
-        if (2 == gameNum) {
-            if ("A" == game.ScoreType1) {
-                return "a";
-            }
-        }
+            case "V":
+                return "v";
 
-        return "";
+            default:
+                return this.establishingFlag(name, weekNum);
+        }
     }
 
     getGender(name) {

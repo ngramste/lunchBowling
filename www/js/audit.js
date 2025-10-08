@@ -58,18 +58,18 @@ function BuildTeamRecap(teamName, weekNum) {
         tr.appendChild(td);
         
         td = document.createElement("td");
-        td.innerHTML = gameData.getGame(bowler.BowlerName, weekNum).averageBefore;
+        td.innerHTML = gameData.getGame(bowler.BowlerName, weekNum).AverageBeforeBowling;
         tr.appendChild(td);
         
         td = document.createElement("td");
-        td.innerHTML = gameData.getGame(bowler.BowlerName, weekNum).handicapBefore;
+        td.innerHTML = gameData.getGame(bowler.BowlerName, weekNum).HandicapBeforeBowling;
         tr.appendChild(td);
         
         let highGames = gameData.getHighGames(bowler.BowlerName, 2);
         let lowGames = gameData.getLowGames(bowler.BowlerName, 2);
         
         td = document.createElement("td");
-        td.innerHTML = `${gameData.establishingFlag(bowler.BowlerName, weekNum)}${gameData.getGamePrefix(bowler.BowlerName, weekNum, 1)}${bowler.Score1}`;
+        td.innerHTML = `${gameData.getGamePrefix(bowler.BowlerName, weekNum, 1)}${bowler.Score1}`;
         if (undefined != highGames && highGames.highScratchGame.game.week == weekNum && highGames.highScratchGame.game.Score1 > highGames.highScratchGame.game.Score2) {
             td.style = "background-color: green; color: white";
         } else if (undefined != lowGames && lowGames.lowScratchGame.week == weekNum && lowGames.lowScratchGame.Score1 < lowGames.lowScratchGame.Score2) {
@@ -78,7 +78,7 @@ function BuildTeamRecap(teamName, weekNum) {
         tr.appendChild(td);
         
         td = document.createElement("td");
-        td.innerHTML = `${gameData.establishingFlag(bowler.BowlerName, weekNum)}${gameData.getGamePrefix(bowler.BowlerName, weekNum, 2)}${bowler.Score2}`;
+        td.innerHTML = `${gameData.getGamePrefix(bowler.BowlerName, weekNum, 2)}${bowler.Score2}`;
         if (undefined != highGames && highGames.highScratchGame.game.week == weekNum && highGames.highScratchGame.game.Score1 < highGames.highScratchGame.game.Score2) {
             td.style = "background-color: green; color: white";
         } else if (undefined != lowGames && lowGames.lowScratchGame.week == weekNum && lowGames.lowScratchGame.Score1 > lowGames.lowScratchGame.Score2) {
@@ -152,11 +152,11 @@ function BuildTeamRecap(teamName, weekNum) {
     tr.appendChild(td);
     
     td = document.createElement("td");
-    td.innerHTML = gameData.getGame(bowlers[0].BowlerName, weekNum, 1).handicapBefore + gameData.getGame(bowlers[1].BowlerName, weekNum, 1).handicapBefore;
+    td.innerHTML = gameData.getGame(bowlers[0].BowlerName, weekNum, 1).HandicapBeforeBowling + gameData.getGame(bowlers[1].BowlerName, weekNum, 1).HandicapBeforeBowling;
     tr.appendChild(td);
     
     td = document.createElement("td");
-    td.innerHTML = gameData.getGame(bowlers[0].BowlerName, weekNum, 1).handicapBefore + gameData.getGame(bowlers[1].BowlerName, weekNum, 1).handicapBefore;
+    td.innerHTML = gameData.getGame(bowlers[0].BowlerName, weekNum, 1).HandicapBeforeBowling + gameData.getGame(bowlers[1].BowlerName, weekNum, 1).HandicapBeforeBowling;
     tr.appendChild(td);
     
     td = document.createElement("td");
@@ -164,7 +164,7 @@ function BuildTeamRecap(teamName, weekNum) {
     tr.appendChild(td);
     
     td = document.createElement("td");
-    td.innerHTML = 2 * (gameData.getGame(bowlers[0].BowlerName, weekNum, 1).handicapBefore + gameData.getGame(bowlers[1].BowlerName, weekNum, 1).handicapBefore);
+    td.innerHTML = 2 * (gameData.getGame(bowlers[0].BowlerName, weekNum, 1).HandicapBeforeBowling + gameData.getGame(bowlers[1].BowlerName, weekNum, 1).HandicapBeforeBowling);
     tr.appendChild(td);
     
     table.appendChild(tr);
