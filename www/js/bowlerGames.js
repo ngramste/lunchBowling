@@ -109,8 +109,8 @@ class bowlerGames {
             if (undefined != weeks && weeks.length >= minWeeks) {
                 let highScratchGame = Math.max(... weeks.map(week => [week.Score1, week.Score2]).flat());
                 let highScratchSeries = Math.max(... weeks.map(week => week.Score1 + week.Score2).flat());
-                let highHandicapGame = Math.max(... weeks.map(week => [week.Score1 + week.handicapBefore, week.Score2 + week.handicapBefore]).flat());
-                let highHandicapSeries = Math.max(... weeks.map(week => week.Score1 + week.handicapBefore + week.Score2 + week.handicapBefore).flat());
+                let highHandicapGame = Math.max(... weeks.map(week => [week.Score1 + week.HandicapBeforeBowling, week.Score2 + week.HandicapBeforeBowling]).flat());
+                let highHandicapSeries = Math.max(... weeks.map(week => week.Score1 + week.HandicapBeforeBowling + week.Score2 + week.HandicapBeforeBowling).flat());
                 
                 let results = {
                     highScratchGame: {
@@ -120,18 +120,18 @@ class bowlerGames {
                         game: weeks.find(week => week.Score1 + week.Score2 == highScratchSeries)
                     },
                     highHandicapGame: {
-                        game: weeks.find(week => (week.Score1 + week.handicapBefore) == highHandicapGame || (week.Score2 + week.handicapBefore) == highHandicapGame)
+                        game: weeks.find(week => (week.Score1 + week.HandicapBeforeBowling) == highHandicapGame || (week.Score2 + week.HandicapBeforeBowling) == highHandicapGame)
                         
                     },
                     highHandicapSeries: {
-                        game: weeks.find(week => (week.Score1 + week.handicapBefore + week.Score2 + week.handicapBefore) == highHandicapSeries)
+                        game: weeks.find(week => (week.Score1 + week.HandicapBeforeBowling + week.Score2 + week.HandicapBeforeBowling) == highHandicapSeries)
                     }
                 };
                 
                 results.highScratchGame.score = Math.max(... [results.highScratchGame.game.Score1, results.highScratchGame.game.Score2]);
                 results.highScratchSeries.score = results.highScratchSeries.game.Score1 + results.highScratchSeries.game.Score2;
-                results.highHandicapGame.score = Math.max(... [results.highHandicapGame.game.Score1 + results.highHandicapGame.game.handicapBefore, results.highHandicapGame.game.Score2 + results.highHandicapGame.game.handicapBefore]);
-                results.highHandicapSeries.score = results.highHandicapSeries.game.Score1 + results.highHandicapSeries.game.Score2 + (2 * results.highHandicapSeries.game.handicapBefore);
+                results.highHandicapGame.score = Math.max(... [results.highHandicapGame.game.Score1 + results.highHandicapGame.game.HandicapBeforeBowling, results.highHandicapGame.game.Score2 + results.highHandicapGame.game.HandicapBeforeBowling]);
+                results.highHandicapSeries.score = results.highHandicapSeries.game.Score1 + results.highHandicapSeries.game.Score2 + (2 * results.highHandicapSeries.game.HandicapBeforeBowling);
                 
                 return results;
             }
@@ -150,14 +150,14 @@ class bowlerGames {
             if (undefined != weeks && weeks.length >= minWeeks) {
                 let lowScratchGame = Math.min(... weeks.map(week => [week.Score1, week.Score2]).flat());
                 let lowScratchSeries = Math.min(... weeks.map(week => week.Score1 + week.Score2).flat());
-                let lowHandicapGame = Math.min(... weeks.map(week => [week.Score1 + week.handicapBefore, week.Score2 + week.handicapBefore]).flat());
-                let lowHandicapSeries = Math.min(... weeks.map(week => week.Score1 + week.handicapBefore + week.Score2 + week.handicapBefore).flat());
+                let lowHandicapGame = Math.min(... weeks.map(week => [week.Score1 + week.HandicapBeforeBowling, week.Score2 + week.HandicapBeforeBowling]).flat());
+                let lowHandicapSeries = Math.min(... weeks.map(week => week.Score1 + week.HandicapBeforeBowling + week.Score2 + week.HandicapBeforeBowling).flat());
                 
                 return {
                     lowScratchGame: weeks.find(week => week.Score1 == lowScratchGame || week.Score2 == lowScratchGame),
                     lowScratchSeries: weeks.find(week => week.Score1 + week.Score2 == lowScratchSeries),
-                    lowHandicapGame: weeks.find(week => (week.Score1 + week.handicapBefore) == lowHandicapGame || (week.Score2 + week.handicapBefore) == lowHandicapGame),
-                    lowHandicapSeries: weeks.find(week => (week.Score1 + week.handicapBefore + week.Score2 + week.handicapBefore) == lowHandicapSeries)
+                    lowHandicapGame: weeks.find(week => (week.Score1 + week.HandicapBeforeBowling) == lowHandicapGame || (week.Score2 + week.HandicapBeforeBowling) == lowHandicapGame),
+                    lowHandicapSeries: weeks.find(week => (week.Score1 + week.HandicapBeforeBowling + week.Score2 + week.HandicapBeforeBowling) == lowHandicapSeries)
                 };
             }
         }
