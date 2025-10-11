@@ -20,13 +20,11 @@ function BowlerSelected(event) {
     th.innerHTML = "Team";
     tr.appendChild(th);
     
-    th = document.createElement("th");
-    th.innerHTML = "Game 1";
-    tr.appendChild(th);
-    
-    th = document.createElement("th");
-    th.innerHTML = "Game 2";
-    tr.appendChild(th);
+    for (let gameNum = 1; gameNum <= gameData.gamesPerWeek(); gameNum++) {
+        th = document.createElement("th");
+        th.innerHTML = `Game ${gameNum}`;
+        tr.appendChild(th);
+    }
     
     th = document.createElement("th");
     th.innerHTML = "SS";
@@ -58,15 +56,7 @@ function BowlerSelected(event) {
     
     table.appendChild(tr);
     
-    let totalPins = 0;
-    let totalGames = 0;
-    
     gameData.getGames(bowlerName).forEach(week => {
-        if ("a" != gameData.getGamePrefix(bowlerName, week.week, 1)) {
-            totalGames += 2;
-            totalPins += (week.Score1 + week.Score2);
-        }
-        
         tr = document.createElement("tr");
         
         let td = document.createElement("td");
@@ -86,14 +76,12 @@ function BowlerSelected(event) {
         a.innerHTML = gameData.recaps.summaries[week.week].find(bowler => bowler.BowlerName == bowlerName).TeamName;
         td.appendChild(a);
         tr.appendChild(td);
-        
-        td = document.createElement("td");
-        td.innerHTML = `${gameData.getGamePrefix(bowlerName, week.week, 1)}${gameData.establishingFlag(bowlerName, week.week)}${week.Score1}`;
-        tr.appendChild(td);
-        
-        td = document.createElement("td");
-        td.innerHTML = `${gameData.getGamePrefix(bowlerName, week.week, 2)}${gameData.establishingFlag(bowlerName, week.week)}${week.Score2}`;
-        tr.appendChild(td);
+    
+        for (let gameNum = 1; gameNum <= gameData.gamesPerWeek(); gameNum++) {
+            td = document.createElement("td");
+            td.innerHTML = `${gameData.getGamePrefix(bowlerName, week.week, 1)}${week[`Score${gameNum}`]}`;
+            tr.appendChild(td);
+        }
         
         td = document.createElement("td");
         td.innerHTML = gameData.getScratchSeries(bowlerName, week.week);
@@ -116,11 +104,11 @@ function BowlerSelected(event) {
         tr.appendChild(td);
         
         td = document.createElement("td");
-        td.innerHTML = Math.floor((week.Score1 + week.Score2) / 2);
+        td.innerHTML = Math.floor(week.SeriesTotal / gameData.gamesPerWeek());
         tr.appendChild(td);
         
         td = document.createElement("td");
-        td.innerHTML = Math.floor((week.Score1 + week.Score2) / 2) - week.AverageBeforeBowling;
+        td.innerHTML = week.PlusMinusAverage;
         tr.appendChild(td);
         
         table.appendChild(tr);

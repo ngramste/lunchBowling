@@ -39,6 +39,10 @@ class bowlerGames {
         return this.getGames(name).find(game => game.week == weekNum);
     }
 
+    gamesPerWeek(weekNum = 1) {
+        return this.recaps.gamesPerWeek(weekNum);
+    }
+
     getPlayerTeam(name) {
         let weekNums = this.getGames(name).map(week => week.week);
         let teamList = weekNums.map(week => gameData.recaps.summaries[week].find(bowler => bowler.BowlerName == name).TeamName);
@@ -69,11 +73,11 @@ class bowlerGames {
     }
 
     getScratchSeries(name, weekNum) {
-        return arrayBuilder(1,6).map(num => this.getGame(name, weekNum)[`Score${num}`]).reduce((acc, i) => acc + i);
+        return arrayBuilder(1,MAX_GAMES_PER_WEEK).map(num => this.getGame(name, weekNum)[`Score${num}`]).reduce((acc, i) => acc + i);
     }
 
     getHandicapSeries(name, weekNum) {
-        return this.getScratchSeries(name, weekNum) + (this.getGame(name, weekNum).HandicapBeforeBowling * arrayBuilder(1,6).map(num => this.getGame(name, weekNum)[`ScoreType${num}`]).filter(type => "0" != type).length);
+        return this.getScratchSeries(name, weekNum) + (this.getGame(name, weekNum).HandicapBeforeBowling * arrayBuilder(1,MAX_GAMES_PER_WEEK).map(num => this.getGame(name, weekNum)[`ScoreType${num}`]).filter(type => "0" != type).length);
     }
 
     getHandicapGame(name, weekNum, gameNum) {
@@ -87,7 +91,7 @@ class bowlerGames {
         let gameCount = 0;
 
         return Math.floor(games.reduce((acc, week) => {
-            return acc + arrayBuilder(1,6).reduce((acc, game) => {
+            return acc + arrayBuilder(1,MAX_GAMES_PER_WEEK).reduce((acc, game) => {
                 if ("S" == week[`ScoreType${game}`]) {
                     gameCount++;
                 }
@@ -114,39 +118,42 @@ class bowlerGames {
     }
     
     getHighGames(name, minWeeks = 1, weekNum = null) {
+        // Get a list of all games bowled
         let weeks = this.getGames(name);
         
         if (undefined != this.getGames(name)) {
+            // Optionally filter out games after the weekNum in question
             if (null != weekNum) {
                 weeks = this.getGames(name).filter(week => week.timestamp <= this.schedule.getTimestamp(weekNum));
             }
             
+            // Check to make sure that there are enough games to make a comparison
             if (undefined != weeks && weeks.length >= minWeeks) {
-                let highScratchGame = Math.max(... weeks.map(week => [week.Score1, week.Score2]).flat());
-                let highScratchSeries = Math.max(... weeks.map(week => week.Score1 + week.Score2).flat());
-                let highHandicapGame = Math.max(... weeks.map(week => [week.Score1 + week.HandicapBeforeBowling, week.Score2 + week.HandicapBeforeBowling]).flat());
-                let highHandicapSeries = Math.max(... weeks.map(week => week.Score1 + week.HandicapBeforeBowling + week.Score2 + week.HandicapBeforeBowling).flat());
+                // Find the high scores
+                let highScratchGame = Math.max(... weeks.map(week => arrayBuilder(1,MAX_GAMES_PER_WEEK).map(game => week[`Score${game}`])).flat());
+                let highScratchSeries = Math.max(... weeks.map(week => week.SeriesTotal).flat());
+                let highHandicapGame = Math.max(... weeks.map(week => arrayBuilder(1,MAX_GAMES_PER_WEEK).map(game => week[`Score${game}`] + week.HandicapBeforeBowling)).flat());
+                let highHandicapSeries = Math.max(... weeks.map(week => week.HandicapSeriesTotal).flat());
                 
+                // Find the actual week those scores occurred in
                 let results = {
                     highScratchGame: {
-                        game: weeks.find(week => week.Score1 == highScratchGame || week.Score2 == highScratchGame)
+                        game: weeks.find(week => arrayBuilder(1,MAX_GAMES_PER_WEEK).map(game => week[`Score${game}`]).includes(highScratchGame)),
+                        score: highScratchGame
                     },
                     highScratchSeries: {
-                        game: weeks.find(week => week.Score1 + week.Score2 == highScratchSeries)
+                        game: weeks.find(week => week.SeriesTotal == highScratchSeries),
+                        score: highScratchSeries
                     },
                     highHandicapGame: {
-                        game: weeks.find(week => (week.Score1 + week.HandicapBeforeBowling) == highHandicapGame || (week.Score2 + week.HandicapBeforeBowling) == highHandicapGame)
-                        
+                        game: weeks.find(week => arrayBuilder(1,MAX_GAMES_PER_WEEK).map(game => week[`Score${game}`] + week.HandicapBeforeBowling).includes(highHandicapGame)),
+                        score: highHandicapGame
                     },
                     highHandicapSeries: {
-                        game: weeks.find(week => (week.Score1 + week.HandicapBeforeBowling + week.Score2 + week.HandicapBeforeBowling) == highHandicapSeries)
+                        game: weeks.find(week => week.HandicapSeriesTotal == highHandicapSeries),
+                        score: highHandicapSeries
                     }
                 };
-                
-                results.highScratchGame.score = Math.max(... [results.highScratchGame.game.Score1, results.highScratchGame.game.Score2]);
-                results.highScratchSeries.score = results.highScratchSeries.game.Score1 + results.highScratchSeries.game.Score2;
-                results.highHandicapGame.score = Math.max(... [results.highHandicapGame.game.Score1 + results.highHandicapGame.game.HandicapBeforeBowling, results.highHandicapGame.game.Score2 + results.highHandicapGame.game.HandicapBeforeBowling]);
-                results.highHandicapSeries.score = results.highHandicapSeries.game.Score1 + results.highHandicapSeries.game.Score2 + (2 * results.highHandicapSeries.game.HandicapBeforeBowling);
                 
                 return results;
             }
@@ -163,16 +170,16 @@ class bowlerGames {
             }
             
             if (undefined != weeks && weeks.length >= minWeeks) {
-                let lowScratchGame = Math.min(... weeks.map(week => [week.Score1, week.Score2]).flat());
-                let lowScratchSeries = Math.min(... weeks.map(week => week.Score1 + week.Score2).flat());
-                let lowHandicapGame = Math.min(... weeks.map(week => [week.Score1 + week.HandicapBeforeBowling, week.Score2 + week.HandicapBeforeBowling]).flat());
-                let lowHandicapSeries = Math.min(... weeks.map(week => week.Score1 + week.HandicapBeforeBowling + week.Score2 + week.HandicapBeforeBowling).flat());
+                let lowScratchGame = Math.min(... weeks.map(week => arrayBuilder(1,MAX_GAMES_PER_WEEK).map(game => week[`Score${game}`])).flat());
+                let lowScratchSeries = Math.min(... weeks.map(week => week.SeriesTotal).flat());
+                let lowHandicapGame = Math.min(... weeks.map(week => arrayBuilder(1,MAX_GAMES_PER_WEEK).map(game => week[`Score${game}`] + week.HandicapBeforeBowling)).flat());
+                let lowHandicapSeries = Math.min(... weeks.map(week => week.HandicapSeriesTotal).flat());
                 
                 return {
-                    lowScratchGame: weeks.find(week => week.Score1 == lowScratchGame || week.Score2 == lowScratchGame),
-                    lowScratchSeries: weeks.find(week => week.Score1 + week.Score2 == lowScratchSeries),
-                    lowHandicapGame: weeks.find(week => (week.Score1 + week.HandicapBeforeBowling) == lowHandicapGame || (week.Score2 + week.HandicapBeforeBowling) == lowHandicapGame),
-                    lowHandicapSeries: weeks.find(week => (week.Score1 + week.HandicapBeforeBowling + week.Score2 + week.HandicapBeforeBowling) == lowHandicapSeries)
+                    lowScratchGame: weeks.find(week => arrayBuilder(1,MAX_GAMES_PER_WEEK).map(game => week[`Score${game}`]).includes(lowScratchGame)),
+                    lowScratchSeries: weeks.find(week => week.SeriesTotal == lowScratchSeries),
+                    lowHandicapGame: weeks.find(week => arrayBuilder(1,MAX_GAMES_PER_WEEK).map(game => week[`Score${game}`] + week.HandicapBeforeBowling).includes(lowHandicapGame)),
+                    lowHandicapSeries: weeks.find(week => week.HandicapSeriesTotal == lowHandicapSeries),
                 };
             }
         }
@@ -186,7 +193,7 @@ class bowlerGames {
         if (undefined != games) games = games.filter(game => this.getGamePrefix(name, game.week, 0) == "");
         
         if (undefined != games && (games.length * 2) >= baselineGames) {
-            games = games.map(week => [week.Score1, week.Score2]).flat();
+            games = games.map(week => arrayBuilder(1,MAX_GAMES_PER_WEEK).map(game => week[`Score${game}`])).flat();
             return Math.round(games.reduce((a,b) => a+b) / games.length) - Math.round(games.slice(0, baselineGames).reduce((a,b) => a+b) / baselineGames);
             // return (games.reduce((a,b) => a+b) / games.length) - (games.slice(baselineGames).reduce((a,b) => a+b) / (games.length - baselineGames));
         }
@@ -208,12 +215,11 @@ class bowlerGames {
 
         // Sort by team scratch series
         teamGames.sort(function(a,b) {
-            return (b.games[0].Score1 + b.games[0].Score2 + b.games[1].Score1 + b.games[1].Score2) 
-                    - (a.games[0].Score1 + a.games[0].Score2 + a.games[1].Score1 + a.games[1].Score2)
+            return (b.games.reduce((acc, i) => acc + i.SeriesTotal, 0)) - (a.games.reduce((acc, i) => acc + i.SeriesTotal, 0))
         });
 
         scores.highScratchSeries = {
-            score: teamGames[0].games.map(game => game.Score1 + game.Score2).reduce((a,b) => a + b),
+            score: teamGames[0].games.reduce((acc, i) => acc + i.SeriesTotal, 0),
             games: teamGames[0]
         };
 
