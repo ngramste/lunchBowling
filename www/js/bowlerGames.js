@@ -43,6 +43,26 @@ class bowlerGames {
         return this.recaps.gamesPerWeek(weekNum);
     }
 
+    getTeamGame(weekNum, teamNum) {
+        let bowlers = this.recaps.getTeam(weekNum, teamNum);
+
+        return {
+            Score1: bowlers.reduce((acc, i) => acc + i.Score1, 0),
+            Score2: bowlers.reduce((acc, i) => acc + i.Score2, 0),
+            Score3: bowlers.reduce((acc, i) => acc + i.Score3, 0),
+            Score4: bowlers.reduce((acc, i) => acc + i.Score4, 0),
+            Score5: bowlers.reduce((acc, i) => acc + i.Score5, 0),
+            Score6: bowlers.reduce((acc, i) => acc + i.Score6, 0),
+            SeriesTotal: bowlers.reduce((acc, i) => acc + i.SeriesTotal, 0),
+            HandicapSeriesTotal: bowlers.reduce((acc, i) => acc + i.HandicapSeriesTotal, 0),
+            HandicapBeforeBowling: bowlers.reduce((acc, i) => acc + i.HandicapBeforeBowling, 0)
+        }
+    }
+
+    getTeamGames(teamNum) {
+        return this.recaps.getWeekNums().map(weekNum => this.getTeamGame(weekNum, teamNum));
+    }
+
     getPlayerTeam(name) {
         let weekNums = this.getGames(name).map(week => week.week);
         let teamList = weekNums.map(week => gameData.recaps.summaries[week].find(bowler => bowler.BowlerName == name).TeamName);
@@ -170,17 +190,32 @@ class bowlerGames {
             }
             
             if (undefined != weeks && weeks.length >= minWeeks) {
-                let lowScratchGame = Math.min(... weeks.map(week => arrayBuilder(1,MAX_GAMES_PER_WEEK).map(game => week[`Score${game}`])).flat());
+                let lowScratchGame = Math.min(... weeks.map(week => arrayBuilder(1, this.gamesPerWeek()).map(game => week[`Score${game}`])).flat());
                 let lowScratchSeries = Math.min(... weeks.map(week => week.SeriesTotal).flat());
-                let lowHandicapGame = Math.min(... weeks.map(week => arrayBuilder(1,MAX_GAMES_PER_WEEK).map(game => week[`Score${game}`] + week.HandicapBeforeBowling)).flat());
+                let lowHandicapGame = Math.min(... weeks.map(week => arrayBuilder(1, this.gamesPerWeek()).map(game => week[`Score${game}`] + week.HandicapBeforeBowling)).flat());
                 let lowHandicapSeries = Math.min(... weeks.map(week => week.HandicapSeriesTotal).flat());
                 
-                return {
-                    lowScratchGame: weeks.find(week => arrayBuilder(1,MAX_GAMES_PER_WEEK).map(game => week[`Score${game}`]).includes(lowScratchGame)),
-                    lowScratchSeries: weeks.find(week => week.SeriesTotal == lowScratchSeries),
-                    lowHandicapGame: weeks.find(week => arrayBuilder(1,MAX_GAMES_PER_WEEK).map(game => week[`Score${game}`] + week.HandicapBeforeBowling).includes(lowHandicapGame)),
-                    lowHandicapSeries: weeks.find(week => week.HandicapSeriesTotal == lowHandicapSeries),
+                // Find the actual week those scores occurred in
+                let results = {
+                    lowScratchGame: {
+                        game: weeks.find(week => arrayBuilder(1, this.gamesPerWeek()).map(game => week[`Score${game}`]).includes(lowScratchGame)),
+                        score: lowScratchGame
+                    },
+                    lowScratchSeries: {
+                        game: weeks.find(week => week.SeriesTotal == lowScratchSeries),
+                        score: lowScratchSeries
+                    },
+                    lowHandicapGame: {
+                        game: weeks.find(week => arrayBuilder(1, this.gamesPerWeek()).map(game => week[`Score${game}`] + week.HandicapBeforeBowling).includes(lowHandicapGame)),
+                        score: lowHandicapGame
+                    },
+                    lowHandicapSeries: {
+                        game: weeks.find(week => week.HandicapSeriesTotal == lowHandicapSeries),
+                        score: lowHandicapSeries
+                    }
                 };
+                
+                return results;
             }
         }
         return undefined;

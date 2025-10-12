@@ -1,4 +1,5 @@
 const DATA_FOLDER = '../2025-2026/';
+// const DATA_FOLDER = '../BotS-2025-2026/';
 const REPORT_FILENAME = 'report.json';
 const REPORT_PATH = DATA_FOLDER + REPORT_FILENAME;
 const SCHEDULE_FILENAME = 'schedule.json';

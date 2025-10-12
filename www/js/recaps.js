@@ -43,6 +43,24 @@ class recaps {
                     .length));
     }
 
+    bowlersPerTeam(weekNum = 1, teamNum = undefined) {
+        // Get the corresponding week
+        let teamCounts = this.summaries[weekNum]
+        // Get a list of bowler's team names
+        .map(bowler => bowler.TeamNum)
+        // Count the occourances of each team
+        .reduce((acc, curr) => {
+            acc[curr] = (acc[curr] || 0) + 1;
+            return acc;
+        }, {});
+
+        if (undefined != teamNum) {
+            return teamCounts[teamNum];
+        }
+
+        return Math.max(... Object.values(teamCounts));
+    }
+
     getTeam(weekNum, teamNum) {
         return this.getWeek(weekNum).filter(bowler => bowler.TeamNum == teamNum);
     }
