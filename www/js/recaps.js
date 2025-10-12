@@ -33,7 +33,7 @@ class recaps {
         // Find the max number of games bowled by a person
         return Math.max(...
             // Get the week
-            gameData.recaps.getWeek(weekNum)
+            this.getWeek(weekNum)
                 .map(bowler => arrayBuilder(1, MAX_GAMES_PER_WEEK)
                     // Get the score types
                     .map(game =>  bowler[`ScoreType${game}`])

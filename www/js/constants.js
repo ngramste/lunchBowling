@@ -14,6 +14,7 @@ const STANDINGS_PATH = DATA_FOLDER + 'weeklyStandings';
 const SUMMARY_PATH = DATA_FOLDER + 'weeklySummary';
 const RECAPS_PATH = DATA_FOLDER + 'weeklyRecaps';
 const leagueId = 130603;
+// const leagueId = 102860;
 const year = 2025;
 const seasonName = "25-26";
 const season = "f";

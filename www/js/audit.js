@@ -68,7 +68,7 @@ function BuildTeamRecap(teamName, weekNum) {
         for (let gameNum = 1; gameNum <= gameData.gamesPerWeek(); gameNum++) {
             td = document.createElement("td");
             let score = bowler[`Score${gameNum}`];
-            td.innerHTML = `${gameData.getGamePrefix(bowler.BowlerName, weekNum, 1)}${score}`;
+            td.innerHTML = `${gameData.getGamePrefix(bowler.BowlerName, weekNum, gameNum)}${score}`;
             if (undefined != highGames && highGames.highScratchGame.game.week == weekNum && score == highGames.highScratchGame.score) {
                 td.style = "background-color: green; color: white";
             } else if (undefined != lowGames && lowGames.lowScratchGame.game.week == weekNum && score == lowGames.lowScratchGame.score) {
@@ -158,7 +158,6 @@ function BuildTeamRecap(teamName, weekNum) {
     table.appendChild(tr);
     
     let teamScore;
-    let opponentsScore;
     
     if (bowlers.map(bowler => gameData.getGamePrefix(bowler.BowlerName, weekNum, 1)).length 
         == bowlers.map(bowler => gameData.getGamePrefix(bowler.BowlerName, weekNum, 1)).filter(prefix => "a" == prefix).length) {
@@ -177,33 +176,7 @@ function BuildTeamRecap(teamName, weekNum) {
         teamScore = gameData.getTeamGame(weekNum, teamData.getTeamByName(teamName).TeamNum);
     }
     
-    if (opponents.map(bowler => gameData.getGamePrefix(bowler.BowlerName, weekNum, 1)).length 
-        == opponents.map(bowler => gameData.getGamePrefix(bowler.BowlerName, weekNum, 1)).filter(prefix => "a" == prefix).length) {
-        opponentsScore = {
-            HandicapBeforeBowling: 0,
-            HandicapSeriesTotal: 0,
-            Score1: 0,
-            Score2: 0,
-            Score3: 0,
-            Score4: 0,
-            Score5: 0,
-            Score6: 0,
-            SeriesTotal: 0
-        };
-    } else {
-        opponentsScore = gameData.getTeamGame(weekNum, schedule.getOpponentNumber(weekNum, teamData.getTeamByName(teamName).TeamNum));
-    }
-    
-    let teamPoints = {};
-    for (let gameNum = 1; gameNum <= gameData.gamesPerWeek(); gameNum++) {
-        teamPoints[`game${gameNum}`] = ((teamScore[`Score${gameNum}`] + teamScore.HandicapBeforeBowling) > (opponentsScore[`Score${gameNum}`] + teamScore.HandicapBeforeBowling)) ? 1:0;
-        teamPoints[`game${gameNum}`] += ((teamScore[`Score${gameNum}`] + teamScore.HandicapBeforeBowling) == (opponentsScore[`Score${gameNum}`] + teamScore.HandicapBeforeBowling)) ? 0.5:0;
-    }
-    
-    teamPoints.series = (teamScore.HandicapSeriesTotal > opponentsScore.HandicapSeriesTotal) ? 1:0;
-    teamPoints.series += (teamScore.HandicapSeriesTotal == opponentsScore.HandicapSeriesTotal) ? 0.5:0;
-    
-    teamPoints.total = Object.values(teamPoints).reduce((acc, i) => acc + i);
+    let teamPoints = gameData.getTeamPoints(weekNum, teamData.getTeamByName(teamName).TeamNum);
     
     // Team handicap total
     tr = document.createElement("tr");
@@ -254,7 +227,7 @@ function BuildTeamRecap(teamName, weekNum) {
     
     for (let gameNum = 1; gameNum <= gameData.gamesPerWeek(); gameNum++) {
         td = document.createElement("td");
-        td.innerHTML = teamPoints[`game${gameNum}`];
+        td.innerHTML = teamPoints[`Score${gameNum}`];
         tr.appendChild(td);
     }
     
@@ -263,7 +236,7 @@ function BuildTeamRecap(teamName, weekNum) {
     tr.appendChild(td);
     
     td = document.createElement("td");
-    td.innerHTML = teamPoints.total;
+    td.innerHTML = teamPoints.won;
     tr.appendChild(td);
     
     table.appendChild(tr);
@@ -292,10 +265,8 @@ function RunningTotals(teamName, weekNum) {
     
     subSchedule.forEach(week => {
         let bowlers = gameData.recaps.getTeam(week.weekNum, teamData.getTeamByName(teamName).TeamNum);
-        let opponents = gameData.recaps.getTeam(week.weekNum, gameData.schedule.getOpponentNumber(week.weekNum, teamData.getTeamByName(teamName).TeamNum));
 
         let teamScore;
-        let opponentsScore;
         
         if (bowlers.map(bowler => gameData.getGamePrefix(bowler.BowlerName, week.weekNum, 1)).length 
             == bowlers.map(bowler => gameData.getGamePrefix(bowler.BowlerName, week.weekNum, 1)).filter(prefix => "a" == prefix).length) {
@@ -314,34 +285,10 @@ function RunningTotals(teamName, weekNum) {
             teamScore = gameData.getTeamGame(week.weekNum, teamData.getTeamByName(teamName).TeamNum);
         }
         
-        if (opponents.map(bowler => gameData.getGamePrefix(bowler.BowlerName, week.weekNum, 1)).length 
-            == opponents.map(bowler => gameData.getGamePrefix(bowler.BowlerName, week.weekNum, 1)).filter(prefix => "a" == prefix).length) {
-            opponentsScore = {
-                HandicapBeforeBowling: 0,
-                HandicapSeriesTotal: 0,
-                Score1: 0,
-                Score2: 0,
-                Score3: 0,
-                Score4: 0,
-                Score5: 0,
-                Score6: 0,
-                SeriesTotal: 0
-            };
-        } else {
-            opponentsScore = gameData.getTeamGame(week.weekNum, gameData.schedule.getOpponentNumber(week.weekNum, teamData.getTeamByName(teamName).TeamNum));
-        }
+        let teamPoints = gameData.getTeamPoints(week.weekNum, teamData.getTeamByName(teamName).TeamNum);
         
-        let teamPoints = {};
-        for (let gameNum = 1; gameNum <= gameData.gamesPerWeek(); gameNum++) {
-            teamPoints[`game${gameNum}`] = ((teamScore[`Score${gameNum}`] + teamScore.HandicapBeforeBowling) > (opponentsScore[`Score${gameNum}`] + teamScore.HandicapBeforeBowling)) ? 1:0;
-            teamPoints[`game${gameNum}`] += ((teamScore[`Score${gameNum}`] + teamScore.HandicapBeforeBowling) == (opponentsScore[`Score${gameNum}`] + teamScore.HandicapBeforeBowling)) ? 0.5:0;
-        }
-        
-        teamPoints.series = (teamScore.HandicapSeriesTotal > opponentsScore.HandicapSeriesTotal) ? 1:0;
-        teamPoints.series += (teamScore.HandicapSeriesTotal == opponentsScore.HandicapSeriesTotal) ? 0.5:0;
-        
-        runningTotal.pointsWon += Object.values(teamPoints).reduce((acc, i) => acc + i);
-        runningTotal.pointsLost += (gameData.gamesPerWeek() + 1) - Object.values(teamPoints).reduce((acc, i) => acc + i);
+        runningTotal.pointsWon += teamPoints.won;
+        runningTotal.pointsLost += teamPoints.lost;
         runningTotal.scratchPins += teamScore.SeriesTotal;
         runningTotal.handicapPins += teamScore.HandicapSeriesTotal;
     });

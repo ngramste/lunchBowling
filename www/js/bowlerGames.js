@@ -43,6 +43,18 @@ class bowlerGames {
         return this.recaps.gamesPerWeek(weekNum);
     }
 
+    // This is the special way battle of the sexes calculates team handicaps
+    deltaTeamHandicap(weekNum, teamNum) {
+        let bowlers = this.recaps.getTeam(weekNum, teamNum);
+        let opponents = this.recaps.getTeam(weekNum, this.schedule.getOpponentNumber(weekNum, teamNum));
+
+        return Math.max(... [
+            0, 
+            Math.floor(0.95 * (opponents.map(bowler => bowler.AverageBeforeBowling).reduce((acc, i) => acc + i) 
+                    - bowlers.map(bowler => bowler.AverageBeforeBowling).reduce((acc, i) => acc + i)))
+            ]);
+    }
+
     getTeamGame(weekNum, teamNum) {
         let bowlers = this.recaps.getTeam(weekNum, teamNum);
 
@@ -54,13 +66,34 @@ class bowlerGames {
             Score5: bowlers.reduce((acc, i) => acc + i.Score5, 0),
             Score6: bowlers.reduce((acc, i) => acc + i.Score6, 0),
             SeriesTotal: bowlers.reduce((acc, i) => acc + i.SeriesTotal, 0),
-            HandicapSeriesTotal: bowlers.reduce((acc, i) => acc + i.HandicapSeriesTotal, 0),
-            HandicapBeforeBowling: bowlers.reduce((acc, i) => acc + i.HandicapBeforeBowling, 0)
+            HandicapSeriesTotal: (102860 == leagueId) 
+                ? bowlers.reduce((acc, i) => acc + i.SeriesTotal, 0) + (this.deltaTeamHandicap(weekNum, teamNum) * this.gamesPerWeek()) 
+                : bowlers.reduce((acc, i) => acc + i.HandicapSeriesTotal, 0),
+            HandicapBeforeBowling: (102860 == leagueId) ? this.deltaTeamHandicap(weekNum, teamNum) : bowlers.reduce((acc, i) => acc + i.HandicapBeforeBowling, 0)
         }
     }
 
     getTeamGames(teamNum) {
         return this.recaps.getWeekNums().map(weekNum => this.getTeamGame(weekNum, teamNum));
+    }
+
+    getTeamPoints(weekNum, teamNum) {
+        let team = this.getTeamGame(weekNum, teamNum);
+        let opponents = this.getTeamGame(weekNum, this.schedule.getOpponentNumber(weekNum, teamNum));
+
+        let points = {};
+        arrayBuilder(1, this.gamesPerWeek()).forEach(gameNum => {
+            points[`Score${gameNum}`] = (team[`Score${gameNum}`] + team.HandicapBeforeBowling > opponents[`Score${gameNum}`] + opponents.HandicapBeforeBowling) ? 1 :
+                (team[`Score${gameNum}`] + team.HandicapBeforeBowling == opponents[`Score${gameNum}`] + opponents.HandicapBeforeBowling) ? 0.5 : 0;
+        });
+
+        points.series = (team.HandicapSeriesTotal > opponents.HandicapSeriesTotal) ? 1 :
+                (team.HandicapSeriesTotal == opponents.HandicapSeriesTotal) ? 0.5 : 0;
+
+        points.won = Object.values(points).reduce((acc, i) => acc + i);
+        points.lost = (this.gamesPerWeek() + 1) - points.won;
+
+        return points;
     }
 
     getPlayerTeam(name) {
