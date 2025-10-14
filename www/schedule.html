@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Collins Bowling</title>
+        <script src="js/constants.js"></script>
+        <script src="js/utils.js"></script>
+        <script src="js/standings.js"></script>
+        <script src="js/teamInfo.js"></script>
+        <script src="js/players.js"></script>
+        <script src="js/schedule.js"></script>
+        <script src="js/recaps.js"></script>
+        
+        <style>
+            * {
+                color-scheme: light dark;
+            }
+            td, th, tr, select, option {
+                padding: 2px 8px 2px 8px;
+                font-family: 'Courier New', Courier, monospace;
+                font-size: 12pt;
+            }
+            h1 {
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Schedule</h1>
+        <h2 id="date"></h2>
+        <table id="data">
+            <tr>
+                <th>Lane</th>
+                <th>Team</th>
+                <th>Lane</th>
+                <th>Team</th>
+            </tr>
+        </table>
+        
+        <script>
+            let scheduleData;
+            
+            Promise.all([
+                new schedule().then(result => scheduleData = result),
+                new teamInfo().then(result => teamData = result)
+            ]).then(() => {
+                document.getElementById("date").innerHTML = scheduleData.getCurrentSchedule().date;
+                
+                scheduleData.getCurrentSchedule().matchups.forEach((matchup, lanePair) => {
+                    let tr = document.createElement("tr");
+                    let td = document.createElement("td");
+                    td.innerHTML = (lanePair * 2) + 1;
+                    td.style.textAlign = "right";
+                    tr.appendChild(td);
+                    
+                    td = document.createElement("td");
+                    td.innerHTML = teamData.getTeamName(matchup[0]);
+                    tr.appendChild(td);
+                    
+                    td = document.createElement("td");
+                    td.innerHTML = (lanePair * 2) + 2;
+                    td.style.textAlign = "right";
+                    tr.appendChild(td);
+                    
+                    td = document.createElement("td");
+                    td.innerHTML = teamData.getTeamName(matchup[1]);
+                    tr.appendChild(td);
+                    
+                    document.getElementById("data").appendChild(tr);
+                });
+            });
+        </script>
+    </body>
+</html>
