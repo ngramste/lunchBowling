@@ -306,6 +306,7 @@ function WeekSelected(event) {
     });
     
     pdf.href = `./${DATA_FOLDER}pdfs/week${week.weekNum}.pdf`
+    pdf.target = "_parent";
 }
 
 // Setup a function to be called when the document is finished loading.
