@@ -40,13 +40,13 @@
         <table id="lastWeekHighScores"></table> -->
         <!-- <h1>Season High Scores</h1>
         <table id="highScores"></table> -->
-        <h1>Recaps</h1>
+        <iframe src="./schedule.html"></iframe>
         <iframe id="recaps"></iframe>
         
         <script>
             function resizeIFrameToFitContent( iFrame ) {
                 // iFrame.width  = iFrame.contentWindow.document.body.scrollWidth;
-                iFrame.height = iFrame.contentWindow.document.body.scrollHeight + 100;
+                iFrame.height = iFrame.contentWindow.document.body.scrollHeight + 40;
             }
             
             Array.from(document.querySelectorAll("iframe")).forEach(iframe => {
