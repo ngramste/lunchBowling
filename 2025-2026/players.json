@@ -193,9 +193,9 @@
       "PointsWonDec": 0.0
     },
     {
-      "TeamID": 22,
-      "TeamName": "We Don't Give A Split",
-      "TeamNameURLFormated": "we-dont-give-a-split",
+      "TeamID": 0,
+      "TeamName": "",
+      "TeamNameURLFormated": "",
       "BowlerID": 56,
       "BowlerName": "Chandler, Cory",
       "BowlerNameURLFormated": "chandler-cory",
@@ -212,7 +212,7 @@
       "MostImproved": 0.0,
       "BowlerPosition": 3,
       "BowlerStatus": "T",
-      "TeamNum": 19,
+      "TeamNum": 0,
       "EnteringAverage": 153,
       "PointsWonDec": 0.0
     },
@@ -697,9 +697,9 @@
       "PointsWonDec": 0.0
     },
     {
-      "TeamID": 0,
-      "TeamName": "",
-      "TeamNameURLFormated": "",
+      "TeamID": 26,
+      "TeamName": "Top Gun",
+      "TeamNameURLFormated": "top-gun",
       "BowlerID": 37,
       "BowlerName": "Henderson, Anthony",
       "BowlerNameURLFormated": "henderson-anthony",
@@ -716,7 +716,7 @@
       "MostImproved": 0.0,
       "BowlerPosition": 0,
       "BowlerStatus": "T",
-      "TeamNum": 0,
+      "TeamNum": 22,
       "EnteringAverage": 0,
       "PointsWonDec": 0.0
     },
@@ -817,9 +817,9 @@
       "PointsWonDec": 0.0
     },
     {
-      "TeamID": 16,
-      "TeamName": "The Munsons",
-      "TeamNameURLFormated": "the-munsons",
+      "TeamID": 15,
+      "TeamName": "XXX Dancers",
+      "TeamNameURLFormated": "xxx-dancers",
       "BowlerID": 132,
       "BowlerName": "Karlen, Jessica",
       "BowlerNameURLFormated": "karlen-jessica",
@@ -836,7 +836,7 @@
       "MostImproved": 0.0,
       "BowlerPosition": 2,
       "BowlerStatus": "R",
-      "TeamNum": 11,
+      "TeamNum": 12,
       "EnteringAverage": 123,
       "PointsWonDec": 0.0
     },
@@ -913,9 +913,9 @@
       "PointsWonDec": 0.0
     },
     {
-      "TeamID": 0,
-      "TeamName": "",
-      "TeamNameURLFormated": "",
+      "TeamID": 4,
+      "TeamName": "Bad Attitude",
+      "TeamNameURLFormated": "bad-attitude",
       "BowlerID": 117,
       "BowlerName": "K, R",
       "BowlerNameURLFormated": "k-r",
@@ -932,7 +932,7 @@
       "MostImproved": 0.0,
       "BowlerPosition": 0,
       "BowlerStatus": "T",
-      "TeamNum": 0,
+      "TeamNum": 2,
       "EnteringAverage": 203,
       "PointsWonDec": 0.0
     },
@@ -985,9 +985,9 @@
       "PointsWonDec": 0.0
     },
     {
-      "TeamID": 14,
-      "TeamName": "Rick Rollers",
-      "TeamNameURLFormated": "rick-rollers",
+      "TeamID": 5,
+      "TeamName": "Barely Bowling",
+      "TeamNameURLFormated": "barely-bowling",
       "BowlerID": 118,
       "BowlerName": "Lampe, Jason",
       "BowlerNameURLFormated": "lampe-jason",
@@ -1004,7 +1004,7 @@
       "MostImproved": 0.0,
       "BowlerPosition": 2,
       "BowlerStatus": "T",
-      "TeamNum": 13,
+      "TeamNum": 3,
       "EnteringAverage": 152,
       "PointsWonDec": 0.0
     },
@@ -1033,9 +1033,9 @@
       "PointsWonDec": 0.0
     },
     {
-      "TeamID": 26,
-      "TeamName": "Top Gun",
-      "TeamNameURLFormated": "top-gun",
+      "TeamID": 0,
+      "TeamName": "",
+      "TeamNameURLFormated": "",
       "BowlerID": 7,
       "BowlerName": "L, D",
       "BowlerNameURLFormated": "l-d",
@@ -1052,7 +1052,7 @@
       "MostImproved": 0.0,
       "BowlerPosition": 1,
       "BowlerStatus": "T",
-      "TeamNum": 22,
+      "TeamNum": 0,
       "EnteringAverage": 142,
       "PointsWonDec": 0.0
     },
@@ -1969,9 +1969,9 @@
       "PointsWonDec": 0.0
     },
     {
-      "TeamID": 8,
-      "TeamName": "Yep !",
-      "TeamNameURLFormated": "yep",
+      "TeamID": 0,
+      "TeamName": "",
+      "TeamNameURLFormated": "",
       "BowlerID": 2,
       "BowlerName": "Spencer, Andy",
       "BowlerNameURLFormated": "spencer-andy",
@@ -1988,7 +1988,7 @@
       "MostImproved": 0.0,
       "BowlerPosition": 2,
       "BowlerStatus": "T",
-      "TeamNum": 6,
+      "TeamNum": 0,
       "EnteringAverage": 168,
       "PointsWonDec": 0.0
     },
@@ -2257,9 +2257,9 @@
       "PointsWonDec": 0.0
     },
     {
-      "TeamID": 18,
-      "TeamName": "Sandbaggers",
-      "TeamNameURLFormated": "sandbaggers",
+      "TeamID": 0,
+      "TeamName": "",
+      "TeamNameURLFormated": "",
       "BowlerID": 72,
       "BowlerName": "Yost, Henry",
       "BowlerNameURLFormated": "yost-henry",
@@ -2276,7 +2276,7 @@
       "MostImproved": 0.0,
       "BowlerPosition": 1,
       "BowlerStatus": "T",
-      "TeamNum": 15,
+      "TeamNum": 0,
       "EnteringAverage": 167,
       "PointsWonDec": 0.0
     }
