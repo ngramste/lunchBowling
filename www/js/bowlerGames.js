@@ -57,6 +57,9 @@ class bowlerGames {
 
     getTeamGame(weekNum, teamNum) {
         let bowlers = this.recaps.getTeam(weekNum, teamNum);
+        
+        let gameTypes = bowlers.map(bowler => arrayBuilder(1, this.gamesPerWeek()).map(game => bowler[`ScoreType${game}`])).flat();
+        let allAbsent = gameTypes.filter(game => "A" == game).length == gameTypes.length;
 
         return {
             Score1: bowlers.reduce((acc, i) => acc + i.Score1, 0),
@@ -65,10 +68,16 @@ class bowlerGames {
             Score4: bowlers.reduce((acc, i) => acc + i.Score4, 0),
             Score5: bowlers.reduce((acc, i) => acc + i.Score5, 0),
             Score6: bowlers.reduce((acc, i) => acc + i.Score6, 0),
-            SeriesTotal: bowlers.reduce((acc, i) => acc + i.SeriesTotal, 0),
+            SeriesTotal: (allAbsent) ? 0 : bowlers.reduce((acc, i) => {
+                    return acc + arrayBuilder(1, this.gamesPerWeek()).map(game => i[`Score${game}`]).reduce((acc, i) => acc + i, 0);
+                }, 0),
             HandicapSeriesTotal: (102860 == leagueId) 
-                ? bowlers.reduce((acc, i) => acc + i.SeriesTotal, 0) + (this.deltaTeamHandicap(weekNum, teamNum) * this.gamesPerWeek()) 
-                : bowlers.reduce((acc, i) => acc + i.HandicapSeriesTotal, 0),
+                ? (allAbsent) ? 0 : bowlers.reduce((acc, i) => {
+                    return acc + arrayBuilder(1, this.gamesPerWeek()).map(game => i[`Score${game}`]).reduce((acc, i) => acc + i, 0);
+                }, 0) + (this.deltaTeamHandicap(weekNum, teamNum) * this.gamesPerWeek()) 
+                : (allAbsent) ? 0 : bowlers.reduce((acc, i) => {
+                    return acc + arrayBuilder(1, this.gamesPerWeek()).map(game => i[`Score${game}`] + i.HandicapBeforeBowling).reduce((acc, i) => acc + i, 0);
+                }, 0),
             HandicapBeforeBowling: (102860 == leagueId) ? this.deltaTeamHandicap(weekNum, teamNum) : bowlers.reduce((acc, i) => acc + i.HandicapBeforeBowling, 0)
         }
     }
