@@ -20,10 +20,13 @@
             td, th {
                 padding: 2px 8px 2px 8px;
             }
+            #pdfLink {
+                font-size: 24pt;
+            }
         </style>
     </head>
     <body>
-        <select id="weeks" name="weeks"></select>
+        <!-- <select id="weeks" name="weeks"></select> -->
         <a id="pdfLink">PDF</a>
         <table id="data"></table>
     </body>
@@ -78,6 +81,7 @@ function BuildTeamRecap(teamName, weekNum) {
         let a = document.createElement("a");
         a.innerHTML = gameData.players.prettyName(bowler.BowlerName);
         a.href = `./bowler.html?name=${bowler.BowlerName}`;
+        a.target = "_parent";
         td.appendChild(a);
         tr.appendChild(td);
         
@@ -312,29 +316,31 @@ window.onload = function () {
         new teamInfo().then(result => teamData = result),
         new schedule().then(result => scheduleData = result)
     ]).then(() => {
-        let weekSelect = document.getElementById("weeks");
+        // let weekSelect = document.getElementById("weeks");
 
         let schedule = weeklyStandings.schedule.schedule.filter(week => weeklyStandings.recaps.getWeekNums().includes(week.weekNum));
 
-        schedule.forEach(week => {
-            let option = document.createElement("option");
-            option.value = JSON.stringify(week);
-            option.innerHTML = `Week ${week.weekNum} - ${week.date}`;
-            weekSelect.appendChild(option);
-        });
+        // schedule.forEach(week => {
+        //     let option = document.createElement("option");
+        //     option.value = JSON.stringify(week);
+        //     option.innerHTML = `Week ${week.weekNum} - ${week.date}`;
+        //     weekSelect.appendChild(option);
+        // });
 
-        weekSelect.addEventListener("change", WeekSelected);
+        // weekSelect.addEventListener("change", WeekSelected);
 
         let params = new URLSearchParams(window.location.search);
         let weekNum = params.get("weekNum");
         
+        console.log(weekNum);
+        
         if (null != weekNum) {
             let week = schedule.find(option => option.weekNum == weekNum);
-            weekSelect.value = JSON.stringify(week);
+            // weekSelect.value = JSON.stringify(week);
             WeekSelected({ target: { value: JSON.stringify(week) } });
         } else {
             // Auto select the last option
-            weekSelect.value = JSON.stringify(schedule[schedule.length - 1]);
+            // weekSelect.value = JSON.stringify(schedule[schedule.length - 1]);
             WeekSelected({ target: { value: JSON.stringify(schedule[schedule.length - 1]) } });
         }
     });
