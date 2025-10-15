@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Collins Bowling</title>
+        <script src="js/constants.js"></script>
+        <script src="js/utils.js"></script>
+        <script src="js/standings.js"></script>
+        <script src="js/teamInfo.js"></script>
+        <script src="js/players.js"></script>
+        <script src="js/schedule.js"></script>
+        <script src="js/recaps.js"></script>
+        <script src="js/bowlerGames.js"></script>
+        
+        <style>
+            *{
+                font-family: 'Courier New', Courier, monospace;
+                font-size: 12pt;
+                color-scheme: light dark;
+            }
+            td, th {
+                padding: 2px 8px 2px 8px;
+            }
+        </style>
+    </head>
+    <body>
+        <select id="weeks" name="weeks"></select>
+        <table id="data"></table>
+    </body>
+    
+    <script>
+        
+function BuildTeamRecap(teamName, weekNum) {
+    let schedule = gameData.schedule;
+    let bowlers = gameData.recaps.getTeam(weekNum, teamData.getTeamByName(teamName).TeamNum);
+    
+    let table = document.createElement("table");
+    
+    let tr = document.createElement("tr");
+    
+    // Create the headers
+    let th = document.createElement("th");
+    th.innerHTML = teamName;
+    th.style = "width: calc(14 * 12pt); text-align: left;"
+    tr.appendChild(th);
+    
+    th = document.createElement("th");
+    th.innerHTML = "Old<br>Ave";
+    tr.appendChild(th);
+    
+    th = document.createElement("th");
+    th.innerHTML = "Old<br>HDCP";
+    tr.appendChild(th);
+    
+    for (let gameNum = 1; gameNum <= gameData.gamesPerWeek(); gameNum++) {
+        th = document.createElement("th");
+        th.innerHTML = `-${gameNum}-`;
+        th.style = "width: calc(2.5 * 12pt); text-align: left;"
+        tr.appendChild(th);
+    }
+    
+    th = document.createElement("th");
+    th.innerHTML = "Total";
+    tr.appendChild(th);
+    
+    th = document.createElement("th");
+    th.innerHTML = "HDCP<br>Total";
+    tr.appendChild(th);
+    tr.style = "border-bottom: 1px solid light-dark(black, #888);"
+    
+    table.appendChild(tr);
+    
+    // Create result for each bowler
+    bowlers.forEach(bowler => {
+        tr = document.createElement("tr");
+        
+        let td = document.createElement("td");
+        let a = document.createElement("a");
+        a.innerHTML = gameData.players.prettyName(bowler.BowlerName);
+        a.href = `./bowler.html?name=${bowler.BowlerName}`;
+        td.appendChild(a);
+        tr.appendChild(td);
+        
+        td = document.createElement("td");
+        td.innerHTML = gameData.getGame(bowler.BowlerName, weekNum).AverageBeforeBowling;
+        tr.appendChild(td);
+        
+        td = document.createElement("td");
+        td.innerHTML = gameData.getGame(bowler.BowlerName, weekNum).HandicapBeforeBowling;
+        tr.appendChild(td);
+        
+        let highGames = gameData.getHighGames(bowler.BowlerName, 2);
+        let lowGames = gameData.getLowGames(bowler.BowlerName, 2);
+
+        for (let gameNum = 1; gameNum <= gameData.gamesPerWeek(); gameNum++) {
+            td = document.createElement("td");
+            let score = bowler[`Score${gameNum}`];
+            td.innerHTML = `${gameData.getGamePrefix(bowler.BowlerName, weekNum, gameNum)}${score}`;
+            if (undefined != highGames && highGames.highScratchGame.game.week == weekNum && score == highGames.highScratchGame.score) {
+                td.style = "background-color: green; color: white";
+            } else if (undefined != lowGames && lowGames.lowScratchGame.game.week == weekNum && score == lowGames.lowScratchGame.score) {
+                td.style = "background-color: red; color: white";
+            }
+            tr.appendChild(td);
+        }
+        
+        td = document.createElement("td");
+        td.innerHTML = gameData.getScratchSeries(bowler.BowlerName, weekNum);
+        if (undefined != highGames && highGames.highScratchSeries.game.week == weekNum) {
+            td.style = "background-color: green; color: white";
+        } else if (undefined != lowGames && lowGames.lowScratchSeries.game.week == weekNum) {
+            td.style = "background-color: red; color: white";
+        }
+        tr.appendChild(td);
+        
+        td = document.createElement("td");
+        td.innerHTML = gameData.getHandicapSeries(bowler.BowlerName, weekNum);
+        tr.appendChild(td);
+        
+        table.appendChild(tr);
+    });
+    
+    // Team totals
+    tr = document.createElement("tr");
+    
+    let td = document.createElement("td");
+    td.innerHTML = "Scratch Total";
+    tr.appendChild(td);
+    
+    td = document.createElement("td");
+    td.innerHTML = "";
+    tr.appendChild(td);
+    
+    td = document.createElement("td");
+    td.innerHTML = "";
+    tr.appendChild(td);
+
+    for (let gameNum = 1; gameNum <= gameData.gamesPerWeek(); gameNum++) {
+        td = document.createElement("td");
+        td.innerHTML = gameData.getTeamGame(weekNum, teamData.getTeamByName(teamName).TeamNum)[`Score${gameNum}`];
+        tr.appendChild(td);
+    }
+    
+    td = document.createElement("td");
+    td.innerHTML = gameData.getTeamGame(weekNum, teamData.getTeamByName(teamName).TeamNum).SeriesTotal;
+    tr.appendChild(td);
+    
+    td = document.createElement("td");
+    // td.innerHTML = gameData.getTeamGame(weekNum, teamData.getTeamByName(teamName).TeamNum).HandicapSeriesTotal;
+    td.innerHTML = "";
+    tr.appendChild(td);
+    tr.style = "border-top: 1px solid light-dark(black, #888);"
+    
+    table.appendChild(tr);
+    
+    // Team handicap
+    tr = document.createElement("tr");
+    
+    td = document.createElement("td");
+    td.innerHTML = "Handicap";
+    tr.appendChild(td);
+    
+    td = document.createElement("td");
+    td.innerHTML = "";
+    tr.appendChild(td);
+    
+    td = document.createElement("td");
+    td.innerHTML = "";
+    tr.appendChild(td);
+    
+    for (let gameNum = 1; gameNum <= gameData.gamesPerWeek(); gameNum++) {
+        td = document.createElement("td");
+        td.innerHTML = gameData.getTeamGame(weekNum, teamData.getTeamByName(teamName).TeamNum).HandicapBeforeBowling;
+        tr.appendChild(td);
+    }
+    
+    td = document.createElement("td");
+    td.innerHTML = "";
+    tr.appendChild(td);
+    
+    td = document.createElement("td");
+    td.innerHTML = gameData.gamesPerWeek(weekNum) * gameData.getTeamGame(weekNum, teamData.getTeamByName(teamName).TeamNum).HandicapBeforeBowling;
+    tr.appendChild(td);
+    
+    table.appendChild(tr);
+    
+    let teamScore;
+    
+    if (bowlers.map(bowler => gameData.getGamePrefix(bowler.BowlerName, weekNum, 1)).length 
+        == bowlers.map(bowler => gameData.getGamePrefix(bowler.BowlerName, weekNum, 1)).filter(prefix => "a" == prefix).length) {
+        teamScore = {
+            HandicapBeforeBowling: 0,
+            HandicapSeriesTotal: 0,
+            Score1: 0,
+            Score2: 0,
+            Score3: 0,
+            Score4: 0,
+            Score5: 0,
+            Score6: 0,
+            SeriesTotal: 0
+        };
+    } else {
+        teamScore = gameData.getTeamGame(weekNum, teamData.getTeamByName(teamName).TeamNum);
+    }
+    
+    let teamPoints = gameData.getTeamPoints(weekNum, teamData.getTeamByName(teamName).TeamNum);
+    
+    // Team handicap total
+    tr = document.createElement("tr");
+    
+    td = document.createElement("td");
+    td.innerHTML = "Total";
+    tr.appendChild(td);
+    
+    td = document.createElement("td");
+    td.innerHTML = "";
+    tr.appendChild(td);
+    
+    td = document.createElement("td");
+    td.innerHTML = "";
+    tr.appendChild(td);
+    
+    for (let gameNum = 1; gameNum <= gameData.gamesPerWeek(); gameNum++) {
+        td = document.createElement("td");
+        td.innerHTML = teamScore[`Score${gameNum}`] +  + teamScore.HandicapBeforeBowling;
+        tr.appendChild(td);
+    }
+    
+    td = document.createElement("td");
+    td.innerHTML = "";
+    tr.appendChild(td);
+    
+    td = document.createElement("td");
+    td.innerHTML = teamScore.HandicapSeriesTotal;
+    tr.appendChild(td);
+    tr.style = "border-bottom: 1px solid light-dark(black, #888);"
+    
+    table.appendChild(tr);
+    
+    // Team points
+    tr = document.createElement("tr");
+    
+    td = document.createElement("td");
+    td.innerHTML = "Team Points Won";
+    tr.appendChild(td);
+    
+    td = document.createElement("td");
+    td.innerHTML = "";
+    tr.appendChild(td);
+    
+    td = document.createElement("td");
+    td.innerHTML = "";
+    tr.appendChild(td);
+    
+    for (let gameNum = 1; gameNum <= gameData.gamesPerWeek(); gameNum++) {
+        td = document.createElement("td");
+        td.innerHTML = teamPoints[`Score${gameNum}`];
+        tr.appendChild(td);
+    }
+    
+    td = document.createElement("td");
+    td.innerHTML = teamPoints.series;
+    tr.appendChild(td);
+    
+    td = document.createElement("td");
+    td.innerHTML = teamPoints.won;
+    tr.appendChild(td);
+    
+    table.appendChild(tr);
+    table.style = "border: 1px solid light-dark(black, #888); border-collapse: collapse;";
+    
+    return table;
+}
+
+function BuildRecap(teamName, weekNum) {
+    let schedule = gameData.schedule;
+    let team = teamData.getTeamByName(teamName);
+    let opponent = teamData.getTeam(schedule.getOpponentNumber(weekNum, team.TeamNum));
+    
+    let tr = document.createElement("tr");
+    
+    let team1 = document.createElement("td");
+    let team2 = document.createElement("td");
+    
+    team1.appendChild(BuildTeamRecap(teamName, weekNum));
+    team2.appendChild(BuildTeamRecap(opponent.TeamName, weekNum));
+    
+    tr.appendChild(team1);
+    tr.appendChild(team2);
+    
+    return tr;
+}
+
+function WeekSelected(event) {
+    let week = JSON.parse(event.target.value);
+    let table = document.getElementById("data");
+    table.innerHTML = "";
+    
+    week.matchups.forEach(matchup => {
+        table.appendChild(BuildRecap(teamData.getTeamName(matchup[0]), week.weekNum));
+    });
+}
+
+// Setup a function to be called when the document is finished loading.
+window.onload = function () {
+    Promise.all([
+        new standings().then(result => weeklyStandings = result),
+        new bowlerGames().then(result => gameData = result),
+        new teamInfo().then(result => teamData = result),
+        new schedule().then(result => scheduleData = result)
+    ]).then(() => {
+        let weekSelect = document.getElementById("weeks");
+
+        let schedule = weeklyStandings.schedule.schedule.filter(week => weeklyStandings.recaps.getWeekNums().includes(week.weekNum));
+
+        schedule.forEach(week => {
+            let option = document.createElement("option");
+            option.value = JSON.stringify(week);
+            option.innerHTML = `Week ${week.weekNum} - ${week.date}`;
+            weekSelect.appendChild(option);
+        });
+
+        weekSelect.addEventListener("change", WeekSelected);
+
+        let params = new URLSearchParams(window.location.search);
+        let weekNum = params.get("weekNum");
+        
+        if (null != weekNum) {
+            let week = schedule.find(option => option.weekNum == weekNum);
+            weekSelect.value = JSON.stringify(week);
+            WeekSelected({ target: { value: JSON.stringify(week) } });
+        } else {
+            // Auto select the last option
+            weekSelect.value = JSON.stringify(schedule[schedule.length - 1]);
+            WeekSelected({ target: { value: JSON.stringify(schedule[schedule.length - 1]) } });
+        }
+    });
+}
+    </script>
+</html>
