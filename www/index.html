@@ -41,6 +41,19 @@
         <!-- <h1>Season High Scores</h1>
         <table id="highScores"></table> -->
         <h1>Recaps</h1>
-        <iframe id="recaps" style="height: 3000px;"></iframe>
+        <iframe id="recaps"></iframe>
+        
+        <script>
+            function resizeIFrameToFitContent( iFrame ) {
+                // iFrame.width  = iFrame.contentWindow.document.body.scrollWidth;
+                iFrame.height = iFrame.contentWindow.document.body.scrollHeight + 100;
+            }
+            
+            Array.from(document.querySelectorAll("iframe")).forEach(iframe => {
+                document.addEventListener("iframeContentLoaded", event => resizeIFrameToFitContent(iframe));
+                window.addEventListener("resize", event => resizeIFrameToFitContent(iframe));
+            });
+            
+        </script>
     </body>
 </html>

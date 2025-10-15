@@ -332,8 +332,6 @@ window.onload = function () {
         let params = new URLSearchParams(window.location.search);
         let weekNum = params.get("weekNum");
         
-        console.log(weekNum);
-        
         if (null != weekNum) {
             let week = schedule.find(option => option.weekNum == weekNum);
             // weekSelect.value = JSON.stringify(week);
@@ -343,6 +341,13 @@ window.onload = function () {
             // weekSelect.value = JSON.stringify(schedule[schedule.length - 1]);
             WeekSelected({ target: { value: JSON.stringify(schedule[schedule.length - 1]) } });
         }
+        
+        // Send custom 'update' event
+        const event = new CustomEvent("iframeContentLoaded", {
+            bubbles: false, // Allow the event to bubble up through the DOM allowing parent HTML elements to handle the event
+            cancelable: true // Allow the event to be canceled
+        });
+        window.parent.document.dispatchEvent(event);
     });
 }
     </script>
