@@ -24,6 +24,7 @@
     </head>
     <body>
         <select id="weeks" name="weeks"></select>
+        <a id="pdfLink">PDF</a>
         <table id="data"></table>
     </body>
     
@@ -293,11 +294,14 @@ function BuildRecap(teamName, weekNum) {
 function WeekSelected(event) {
     let week = JSON.parse(event.target.value);
     let table = document.getElementById("data");
+    let pdf = document.getElementById("pdfLink");
     table.innerHTML = "";
     
     week.matchups.forEach(matchup => {
         table.appendChild(BuildRecap(teamData.getTeamName(matchup[0]), week.weekNum));
     });
+    
+    pdf.href = `./${DATA_FOLDER}pdfs/week${week.weekNum}.pdf`
 }
 
 // Setup a function to be called when the document is finished loading.
