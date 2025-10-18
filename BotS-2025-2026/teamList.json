@@ -1,0 +1,139 @@
+{
+  "Data": [
+    {
+      "TeamID": 7,
+      "TeamName": "Barely Bowling",
+      "TeamNum": 6,
+      "TeamDivision": 1,
+      "HighHandicapGame": 738,
+      "HighHandicapSeries": 2185,
+      "HighScratchGame": 738,
+      "HighScratchSeries": 2185,
+      "AverageAfterBowling": 586
+    },
+    {
+      "TeamID": 6,
+      "TeamName": "Bowling Stones",
+      "TeamNum": 9,
+      "TeamDivision": 1,
+      "HighHandicapGame": 859,
+      "HighHandicapSeries": 2482,
+      "HighScratchGame": 778,
+      "HighScratchSeries": 2239,
+      "AverageAfterBowling": 716
+    },
+    {
+      "TeamID": 10,
+      "TeamName": "FTP",
+      "TeamNum": 7,
+      "TeamDivision": 1,
+      "HighHandicapGame": 835,
+      "HighHandicapSeries": 2465,
+      "HighScratchGame": 835,
+      "HighScratchSeries": 2465,
+      "AverageAfterBowling": 808
+    },
+    {
+      "TeamID": 2,
+      "TeamName": "Green Stompers",
+      "TeamNum": 12,
+      "TeamDivision": 1,
+      "HighHandicapGame": 932,
+      "HighHandicapSeries": 2603,
+      "HighScratchGame": 932,
+      "HighScratchSeries": 2603,
+      "AverageAfterBowling": 847
+    },
+    {
+      "TeamID": 12,
+      "TeamName": "Just an Excuse",
+      "TeamNum": 5,
+      "TeamDivision": 1,
+      "HighHandicapGame": 744,
+      "HighHandicapSeries": 2131,
+      "HighScratchGame": 724,
+      "HighScratchSeries": 2071,
+      "AverageAfterBowling": 689
+    },
+    {
+      "TeamID": 5,
+      "TeamName": "PFC",
+      "TeamNum": 8,
+      "TeamDivision": 1,
+      "HighHandicapGame": 801,
+      "HighHandicapSeries": 2371,
+      "HighScratchGame": 690,
+      "HighScratchSeries": 2038,
+      "AverageAfterBowling": 677
+    },
+    {
+      "TeamID": 8,
+      "TeamName": "Revolutions Pro Shop",
+      "TeamNum": 2,
+      "TeamDivision": 1,
+      "HighHandicapGame": 901,
+      "HighHandicapSeries": 2599,
+      "HighScratchGame": 889,
+      "HighScratchSeries": 2563,
+      "AverageAfterBowling": 853
+    },
+    {
+      "TeamID": 3,
+      "TeamName": "ROG Impact",
+      "TeamNum": 11,
+      "TeamDivision": 1,
+      "HighHandicapGame": 880,
+      "HighHandicapSeries": 2617,
+      "HighScratchGame": 748,
+      "HighScratchSeries": 2221,
+      "AverageAfterBowling": 802
+    },
+    {
+      "TeamID": 4,
+      "TeamName": "Slap and Tickle",
+      "TeamNum": 1,
+      "TeamDivision": 1,
+      "HighHandicapGame": 925,
+      "HighHandicapSeries": 2666,
+      "HighScratchGame": 925,
+      "HighScratchSeries": 2666,
+      "AverageAfterBowling": 884
+    },
+    {
+      "TeamID": 9,
+      "TeamName": "Strate Acct. & Payroll",
+      "TeamNum": 4,
+      "TeamDivision": 1,
+      "HighHandicapGame": 907,
+      "HighHandicapSeries": 2482,
+      "HighScratchGame": 812,
+      "HighScratchSeries": 2197,
+      "AverageAfterBowling": 581
+    },
+    {
+      "TeamID": 11,
+      "TeamName": "The Lost Pirates",
+      "TeamNum": 10,
+      "TeamDivision": 1,
+      "HighHandicapGame": 909,
+      "HighHandicapSeries": 2616,
+      "HighScratchGame": 909,
+      "HighScratchSeries": 2616,
+      "AverageAfterBowling": 870
+    },
+    {
+      "TeamID": 1,
+      "TeamName": "We're Back",
+      "TeamNum": 3,
+      "TeamDivision": 1,
+      "HighHandicapGame": 807,
+      "HighHandicapSeries": 2363,
+      "HighScratchGame": 807,
+      "HighScratchSeries": 2363,
+      "AverageAfterBowling": 814
+    }
+  ],
+  "Total": 12,
+  "AggregateResults": null,
+  "Errors": null
+}
