@@ -15,6 +15,9 @@
         <script src="js/highScores.js"></script>
         
         <style>
+            * {
+                color-scheme: light dark;
+            }
             td, th, tr, select, option {
                 padding: 2px 8px 2px 8px;
                 font-family: 'Courier New', Courier, monospace;
@@ -22,6 +25,10 @@
             }
             h1 {
                 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+            iframe {
+                width: 100%;
+                border-width: 0px;
             }
         </style>
     </head>
@@ -33,5 +40,20 @@
         <table id="lastWeekHighScores"></table> -->
         <!-- <h1>Season High Scores</h1>
         <table id="highScores"></table> -->
+        <iframe src="./schedule.html"></iframe>
+        <iframe id="recaps"></iframe>
+        
+        <script>
+            function resizeIFrameToFitContent( iFrame ) {
+                // iFrame.width  = iFrame.contentWindow.document.body.scrollWidth;
+                iFrame.height = iFrame.contentWindow.document.body.scrollHeight + 40;
+            }
+            
+            Array.from(document.querySelectorAll("iframe")).forEach(iframe => {
+                document.addEventListener("iframeContentLoaded", event => resizeIFrameToFitContent(iframe));
+                window.addEventListener("resize", event => resizeIFrameToFitContent(iframe));
+            });
+            
+        </script>
     </body>
 </html>

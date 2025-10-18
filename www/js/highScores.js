@@ -90,7 +90,7 @@ function HighScores(weekNum) {
     th.innerHTML = "";
     tr.appendChild(th);
     
-    let highHandicapGame = highScores.map(score => [score[0], Math.max(score[1].highHandicapGame.Score1 + score[1].highHandicapGame.handicapBefore, score[1].highHandicapGame.Score2 + score[1].highHandicapGame.handicapBefore)]);
+    let highHandicapGame = highScores.map(score => [score[0], Math.max(score[1].highHandicapGame.Score1 + score[1].highHandicapGame.HandicapBeforeBowling, score[1].highHandicapGame.Score2 + score[1].highHandicapGame.HandicapBeforeBowling)]);
     highHandicapGame = highHandicapGame.sort(function(a,b) {return b[1] - a[1]});
     
     td = document.createElement("td");
@@ -112,7 +112,7 @@ function HighScores(weekNum) {
     th.innerHTML = "";
     tr.appendChild(th);
     
-    let highHandicapSeries = highScores.map(score => [score[0], score[1].highHandicapSeries.Score1 + score[1].highHandicapSeries.Score2 + 2*score[1].highHandicapSeries.handicapBefore]);
+    let highHandicapSeries = highScores.map(score => [score[0], score[1].highHandicapSeries.Score1 + score[1].highHandicapSeries.Score2 + 2*score[1].highHandicapSeries.HandicapBeforeBowling]);
     highHandicapSeries = highHandicapSeries.sort(function(a,b) {return b[1] - a[1]});
     
     td = document.createElement("td");
@@ -189,7 +189,7 @@ function HighScores(weekNum) {
     th.innerHTML = "";
     tr.appendChild(th);
     
-    highHandicapGame = highScores.map(score => [score[0], Math.max(score[1].highHandicapGame.Score1 + score[1].highHandicapGame.handicapBefore, score[1].highHandicapGame.Score2 + score[1].highHandicapGame.handicapBefore)]);
+    highHandicapGame = highScores.map(score => [score[0], Math.max(score[1].highHandicapGame.Score1 + score[1].highHandicapGame.HandicapBeforeBowling, score[1].highHandicapGame.Score2 + score[1].highHandicapGame.HandicapBeforeBowling)]);
     highHandicapGame = highHandicapGame.sort(function(a,b) {return b[1] - a[1]});
     
     td = document.createElement("td");
@@ -211,7 +211,7 @@ function HighScores(weekNum) {
     th.innerHTML = "";
     tr.appendChild(th);
     
-    highHandicapSeries = highScores.map(score => [score[0], score[1].highHandicapSeries.Score1 + score[1].highHandicapSeries.Score2 + 2*score[1].highHandicapSeries.handicapBefore]);
+    highHandicapSeries = highScores.map(score => [score[0], score[1].highHandicapSeries.Score1 + score[1].highHandicapSeries.Score2 + 2*score[1].highHandicapSeries.HandicapBeforeBowling]);
     highHandicapSeries = highHandicapSeries.sort(function(a,b) {return b[1] - a[1]});
     
     td = document.createElement("td");

@@ -1,11 +1,46 @@
-let gameData = null;
-let teamData = null;
-let weeklyStandings = null;
-
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Collins Bowling</title>
+        <script src="js/constants.js"></script>
+        <script src="js/utils.js"></script>
+        <script src="js/standings.js"></script>
+        <script src="js/teamInfo.js"></script>
+        <script src="js/players.js"></script>
+        <script src="js/schedule.js"></script>
+        <script src="js/recaps.js"></script>
+        <script src="js/bowlerGames.js"></script>
+        
+        <style>
+            * {
+                color-scheme: light dark;
+            }
+            h1 {
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+            td, th {
+                padding: 2px 8px 2px 8px;
+                font-family: 'Courier New', Courier, monospace;
+                font-size: 12pt;
+                color-scheme: light dark;
+            }
+            #pdfLink {
+                font-size: 24pt;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- <select id="weeks" name="weeks"></select> -->
+        <h1>Recaps</h1>
+        <a id="pdfLink">PDF</a>
+        <table id="data"></table>
+    </body>
+    
+    <script>
+        
 function BuildTeamRecap(teamName, weekNum) {
     let schedule = gameData.schedule;
     let bowlers = gameData.recaps.getTeam(weekNum, teamData.getTeamByName(teamName).TeamNum);
-    let opponents = gameData.recaps.getTeam(weekNum, schedule.getOpponentNumber(weekNum, teamData.getTeamByName(teamName).TeamNum));
     
     let table = document.createElement("table");
     
@@ -51,6 +86,7 @@ function BuildTeamRecap(teamName, weekNum) {
         let a = document.createElement("a");
         a.innerHTML = gameData.players.prettyName(bowler.BowlerName);
         a.href = `./bowler.html?name=${bowler.BowlerName}`;
+        a.target = "_parent";
         td.appendChild(a);
         tr.appendChild(td);
         
@@ -245,135 +281,6 @@ function BuildTeamRecap(teamName, weekNum) {
     return table;
 }
 
-function RunningTotals(teamName, weekNum) {
-    let fullSchedule = gameData.schedule.schedule;
-    let subSchedule = [];
-    
-    // Get all weeks before specified week
-    fullSchedule.forEach(week => {
-        if (gameData.schedule.getTimestamp(week.weekNum) <= gameData.schedule.getTimestamp(weekNum)) {
-            subSchedule.push(week); 
-        }
-    });
-    
-    let runningTotal = {
-        pointsWon: 0,
-        pointsLost: 0,
-        handicapPins: 0,
-        scratchPins: 0
-    }
-    
-    subSchedule.forEach(week => {
-        let bowlers = gameData.recaps.getTeam(week.weekNum, teamData.getTeamByName(teamName).TeamNum);
-
-        let teamScore;
-        
-        if (bowlers.map(bowler => gameData.getGamePrefix(bowler.BowlerName, week.weekNum, 1)).length 
-            == bowlers.map(bowler => gameData.getGamePrefix(bowler.BowlerName, week.weekNum, 1)).filter(prefix => "a" == prefix).length) {
-            teamScore = {
-                HandicapBeforeBowling: 0,
-                HandicapSeriesTotal: 0,
-                Score1: 0,
-                Score2: 0,
-                Score3: 0,
-                Score4: 0,
-                Score5: 0,
-                Score6: 0,
-                SeriesTotal: 0
-            };
-        } else {
-            teamScore = gameData.getTeamGame(week.weekNum, teamData.getTeamByName(teamName).TeamNum);
-        }
-        
-        let teamPoints = gameData.getTeamPoints(week.weekNum, teamData.getTeamByName(teamName).TeamNum);
-        
-        runningTotal.pointsWon += teamPoints.won;
-        runningTotal.pointsLost += teamPoints.lost;
-        runningTotal.scratchPins += teamScore.SeriesTotal;
-        runningTotal.handicapPins += teamScore.HandicapSeriesTotal;
-    });
-    
-    let table = document.createElement("table");
-    
-    let tr = document.createElement("tr");
-    let th = document.createElement("th");
-    th.style = "text-align: left;";
-    th.innerHTML = "Week:";
-    tr.appendChild(th);
-    let td = document.createElement("td");
-    let a = document.createElement("a");
-    a.innerHTML = weekNum;
-    a.href = `./${DATA_FOLDER}pdfs/week${weekNum}.pdf`;
-    td.appendChild(a);
-    tr.appendChild(td);
-    table.appendChild(tr);
-    
-    tr = document.createElement("tr");
-    th = document.createElement("th");
-    th.style = "text-align: left;";
-    th.innerHTML = "Date:";
-    tr.appendChild(th);
-    td = document.createElement("td");
-    a = document.createElement("a");
-    a.innerHTML = gameData.schedule.getWeek(weekNum).date;
-    a.href = `./index.html?weekNum=${weekNum}`;
-    td.appendChild(a);
-    tr.appendChild(td);
-    table.appendChild(tr);
-    
-    tr = document.createElement("tr");
-    th = document.createElement("th");
-    th.style = "text-align: left;";
-    th.innerHTML = "Place:";
-    tr.appendChild(th);
-    td = document.createElement("td");
-    td.innerHTML = weeklyStandings.getTeamPlace(teamName, weekNum);
-    tr.appendChild(td);
-    table.appendChild(tr);
-    
-    tr = document.createElement("tr");
-    th = document.createElement("th");
-    th.style = "text-align: left;";
-    th.innerHTML = "Points Won:";
-    tr.appendChild(th);
-    td = document.createElement("td");
-    td.innerHTML = runningTotal.pointsWon;
-    tr.appendChild(td);
-    table.appendChild(tr);
-    
-    tr = document.createElement("tr");
-    th = document.createElement("th");
-    th.style = "text-align: left;";
-    th.innerHTML = "Points Lost:";
-    tr.appendChild(th);
-    td = document.createElement("td");
-    td.innerHTML = runningTotal.pointsLost;
-    tr.appendChild(td);
-    table.appendChild(tr);
-    
-    tr = document.createElement("tr");
-    th = document.createElement("th");
-    th.style = "text-align: left;";
-    th.innerHTML = "Handicap Pins:";
-    tr.appendChild(th);
-    td = document.createElement("td");
-    td.innerHTML = runningTotal.handicapPins;
-    tr.appendChild(td);
-    table.appendChild(tr);
-    
-    tr = document.createElement("tr");
-    th = document.createElement("th");
-    th.style = "text-align: left;";
-    th.innerHTML = "Scratch Pins:";
-    tr.appendChild(th);
-    td = document.createElement("td");
-    td.innerHTML = runningTotal.scratchPins;
-    tr.appendChild(td);
-    table.appendChild(tr);
-    
-    return table;
-}
-
 function BuildRecap(teamName, weekNum) {
     let schedule = gameData.schedule;
     let team = teamData.getTeamByName(teamName);
@@ -381,71 +288,73 @@ function BuildRecap(teamName, weekNum) {
     
     let tr = document.createElement("tr");
     
-    let totals = document.createElement("td");
     let team1 = document.createElement("td");
     let team2 = document.createElement("td");
     
-    totals.appendChild(RunningTotals(teamName, weekNum));
     team1.appendChild(BuildTeamRecap(teamName, weekNum));
     team2.appendChild(BuildTeamRecap(opponent.TeamName, weekNum));
     
-    tr.appendChild(totals);
     tr.appendChild(team1);
     tr.appendChild(team2);
     
     return tr;
 }
 
-function TeamSelected(event) {
-    let team = event.target.value;
-    let dataDom = document.getElementById("data");
-    dataDom.innerHTML = "";
+function WeekSelected(event) {
+    let week = JSON.parse(event.target.value);
+    let table = document.getElementById("data");
+    let pdf = document.getElementById("pdfLink");
+    table.innerHTML = "";
     
-    let fullSchedule = gameData.schedule.schedule;
-    let schedule = [];
-    let recaps = gameData.recaps;
-    
-    fullSchedule.forEach(week => {
-        if (recaps.getWeekNums().includes(week.weekNum)) {
-            schedule.push(week); 
-        }
+    week.matchups.forEach(matchup => {
+        table.appendChild(BuildRecap(teamData.getTeamName(matchup[0]), week.weekNum));
     });
     
-    schedule.forEach(week => {
-        dataDom.appendChild(BuildRecap(team, week.weekNum));
-    });
+    pdf.href = `./${DATA_FOLDER}pdfs/week${week.weekNum}.pdf`
+    pdf.target = "_parent";
 }
 
 // Setup a function to be called when the document is finished loading.
 window.onload = function () {
-    new standings().then(result => {
-        weeklyStandings = result;
-        new bowlerGames().then(result => {
-            gameData = result;
-            new teamInfo().then(result => {
-                teamData = result;
-                let teamSelect = document.getElementById("teams");
-                
-                teamData.getTeamList().forEach(team => {
-                    let option = document.createElement("option");
-                    option.value = team;
-                    option.innerHTML = team;
-                    teamSelect.appendChild(option);
-                });
-                
-                teamSelect.addEventListener("change", TeamSelected);
-                
-                let params = new URLSearchParams(window.location.search);
-                let teamName = params.get("teamName");
-                
-                if (teamName) {
-                    teamSelect.value = teamName;
-                    TeamSelected({target: {value: teamName}});
-                } else {
-                    // Auto select the first option
-                    TeamSelected({target: {value: teamData.getTeamList()[0]}});
-                }
-            })
+    Promise.all([
+        new standings().then(result => weeklyStandings = result),
+        new bowlerGames().then(result => gameData = result),
+        new teamInfo().then(result => teamData = result),
+        new schedule().then(result => scheduleData = result)
+    ]).then(() => {
+        // let weekSelect = document.getElementById("weeks");
+
+        let schedule = weeklyStandings.schedule.schedule.filter(week => weeklyStandings.recaps.getWeekNums().includes(week.weekNum));
+
+        // schedule.forEach(week => {
+        //     let option = document.createElement("option");
+        //     option.value = JSON.stringify(week);
+        //     option.innerHTML = `Week ${week.weekNum} - ${week.date}`;
+        //     weekSelect.appendChild(option);
+        // });
+
+        // weekSelect.addEventListener("change", WeekSelected);
+
+        let params = new URLSearchParams(window.location.search);
+        let weekNum = params.get("weekNum");
+        
+        if (null != weekNum) {
+            let week = schedule.find(option => option.weekNum == weekNum);
+            // weekSelect.value = JSON.stringify(week);
+            WeekSelected({ target: { value: JSON.stringify(week) } });
+        } else {
+            // Auto select the last option
+            // weekSelect.value = JSON.stringify(schedule[schedule.length - 1]);
+            WeekSelected({ target: { value: JSON.stringify(schedule[schedule.length - 1]) } });
+        }
+        
+        // Send custom 'update' event
+        const event = new CustomEvent("iframeContentLoaded", {
+            bubbles: false, // Allow the event to bubble up through the DOM allowing parent HTML elements to handle the event
+            cancelable: true // Allow the event to be canceled
         });
+        window.parent.document.dispatchEvent(event);
     });
 }
+    </script>
+</html>

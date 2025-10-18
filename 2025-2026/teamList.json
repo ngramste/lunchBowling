@@ -1,0 +1,293 @@
+{
+  "Data": [
+    {
+      "TeamID": 21,
+      "TeamName": "1st and 10",
+      "TeamNum": 18,
+      "TeamDivision": 1,
+      "HighHandicapGame": 433,
+      "HighHandicapSeries": 0,
+      "HighScratchGame": 360,
+      "HighScratchSeries": 0,
+      "AverageAfterBowling": 358
+    },
+    {
+      "TeamID": 3,
+      "TeamName": "Backstabbers",
+      "TeamNum": 26,
+      "TeamDivision": 1,
+      "HighHandicapGame": 414,
+      "HighHandicapSeries": 0,
+      "HighScratchGame": 340,
+      "HighScratchSeries": 0,
+      "AverageAfterBowling": 356
+    },
+    {
+      "TeamID": 4,
+      "TeamName": "Bad Attitude",
+      "TeamNum": 2,
+      "TeamDivision": 1,
+      "HighHandicapGame": 514,
+      "HighHandicapSeries": 0,
+      "HighScratchGame": 492,
+      "HighScratchSeries": 0,
+      "AverageAfterBowling": 414
+    },
+    {
+      "TeamID": 5,
+      "TeamName": "Barely Bowling",
+      "TeamNum": 3,
+      "TeamDivision": 1,
+      "HighHandicapGame": 404,
+      "HighHandicapSeries": 0,
+      "HighScratchGame": 256,
+      "HighScratchSeries": 0,
+      "AverageAfterBowling": 275
+    },
+    {
+      "TeamID": 24,
+      "TeamName": "Consistently Inconsistent",
+      "TeamNum": 20,
+      "TeamDivision": 1,
+      "HighHandicapGame": 439,
+      "HighHandicapSeries": 0,
+      "HighScratchGame": 330,
+      "HighScratchSeries": 0,
+      "AverageAfterBowling": 318
+    },
+    {
+      "TeamID": 7,
+      "TeamName": "Craptastic",
+      "TeamNum": 7,
+      "TeamDivision": 1,
+      "HighHandicapGame": 465,
+      "HighHandicapSeries": 0,
+      "HighScratchGame": 389,
+      "HighScratchSeries": 0,
+      "AverageAfterBowling": 354
+    },
+    {
+      "TeamID": 10,
+      "TeamName": "Engineering Strikes",
+      "TeamNum": 8,
+      "TeamDivision": 1,
+      "HighHandicapGame": 408,
+      "HighHandicapSeries": 0,
+      "HighScratchGame": 365,
+      "HighScratchSeries": 0,
+      "AverageAfterBowling": 391
+    },
+    {
+      "TeamID": 29,
+      "TeamName": "For Soup",
+      "TeamNum": 24,
+      "TeamDivision": 1,
+      "HighHandicapGame": 450,
+      "HighHandicapSeries": 0,
+      "HighScratchGame": 257,
+      "HighScratchSeries": 0,
+      "AverageAfterBowling": 121
+    },
+    {
+      "TeamID": 11,
+      "TeamName": "Guess Who",
+      "TeamNum": 9,
+      "TeamDivision": 1,
+      "HighHandicapGame": 425,
+      "HighHandicapSeries": 0,
+      "HighScratchGame": 321,
+      "HighScratchSeries": 0,
+      "AverageAfterBowling": 324
+    },
+    {
+      "TeamID": 1,
+      "TeamName": "Pin Pals",
+      "TeamNum": 1,
+      "TeamDivision": 1,
+      "HighHandicapGame": 495,
+      "HighHandicapSeries": 0,
+      "HighScratchGame": 394,
+      "HighScratchSeries": 0,
+      "AverageAfterBowling": 327
+    },
+    {
+      "TeamID": 14,
+      "TeamName": "Rick Rollers",
+      "TeamNum": 13,
+      "TeamDivision": 1,
+      "HighHandicapGame": 447,
+      "HighHandicapSeries": 0,
+      "HighScratchGame": 338,
+      "HighScratchSeries": 0,
+      "AverageAfterBowling": 314
+    },
+    {
+      "TeamID": 17,
+      "TeamName": "Roll Clones",
+      "TeamNum": 14,
+      "TeamDivision": 1,
+      "HighHandicapGame": 474,
+      "HighHandicapSeries": 0,
+      "HighScratchGame": 393,
+      "HighScratchSeries": 0,
+      "AverageAfterBowling": 349
+    },
+    {
+      "TeamID": 18,
+      "TeamName": "Sandbaggers",
+      "TeamNum": 15,
+      "TeamDivision": 1,
+      "HighHandicapGame": 433,
+      "HighHandicapSeries": 0,
+      "HighScratchGame": 363,
+      "HighScratchSeries": 0,
+      "AverageAfterBowling": 342
+    },
+    {
+      "TeamID": 20,
+      "TeamName": "SPAM",
+      "TeamNum": 17,
+      "TeamDivision": 1,
+      "HighHandicapGame": 413,
+      "HighHandicapSeries": 0,
+      "HighScratchGame": 371,
+      "HighScratchSeries": 0,
+      "AverageAfterBowling": 392
+    },
+    {
+      "TeamID": 6,
+      "TeamName": "Spare Me",
+      "TeamNum": 4,
+      "TeamDivision": 1,
+      "HighHandicapGame": 423,
+      "HighHandicapSeries": 0,
+      "HighScratchGame": 305,
+      "HighScratchSeries": 0,
+      "AverageAfterBowling": 308
+    },
+    {
+      "TeamID": 23,
+      "TeamName": "Split Happens",
+      "TeamNum": 5,
+      "TeamDivision": 1,
+      "HighHandicapGame": 468,
+      "HighHandicapSeries": 0,
+      "HighScratchGame": 370,
+      "HighScratchSeries": 0,
+      "AverageAfterBowling": 330
+    },
+    {
+      "TeamID": 13,
+      "TeamName": "Split Personality",
+      "TeamNum": 10,
+      "TeamDivision": 1,
+      "HighHandicapGame": 426,
+      "HighHandicapSeries": 0,
+      "HighScratchGame": 322,
+      "HighScratchSeries": 0,
+      "AverageAfterBowling": 323
+    },
+    {
+      "TeamID": 19,
+      "TeamName": "TB Inc LLC",
+      "TeamNum": 16,
+      "TeamDivision": 1,
+      "HighHandicapGame": 432,
+      "HighHandicapSeries": 0,
+      "HighScratchGame": 310,
+      "HighScratchSeries": 0,
+      "AverageAfterBowling": 303
+    },
+    {
+      "TeamID": 27,
+      "TeamName": "The Century Club",
+      "TeamNum": 23,
+      "TeamDivision": 1,
+      "HighHandicapGame": 0,
+      "HighHandicapSeries": 0,
+      "HighScratchGame": 0,
+      "HighScratchSeries": 0,
+      "AverageAfterBowling": 304
+    },
+    {
+      "TeamID": 16,
+      "TeamName": "The Munsons",
+      "TeamNum": 11,
+      "TeamDivision": 1,
+      "HighHandicapGame": 439,
+      "HighHandicapSeries": 0,
+      "HighScratchGame": 274,
+      "HighScratchSeries": 0,
+      "AverageAfterBowling": 312
+    },
+    {
+      "TeamID": 25,
+      "TeamName": "The Outsiders",
+      "TeamNum": 21,
+      "TeamDivision": 1,
+      "HighHandicapGame": 442,
+      "HighHandicapSeries": 0,
+      "HighScratchGame": 388,
+      "HighScratchSeries": 0,
+      "AverageAfterBowling": 379
+    },
+    {
+      "TeamID": 30,
+      "TeamName": "Time to Spare",
+      "TeamNum": 25,
+      "TeamDivision": 1,
+      "HighHandicapGame": 448,
+      "HighHandicapSeries": 0,
+      "HighScratchGame": 264,
+      "HighScratchSeries": 0,
+      "AverageAfterBowling": 115
+    },
+    {
+      "TeamID": 26,
+      "TeamName": "Top Gun",
+      "TeamNum": 22,
+      "TeamDivision": 1,
+      "HighHandicapGame": 478,
+      "HighHandicapSeries": 0,
+      "HighScratchGame": 382,
+      "HighScratchSeries": 0,
+      "AverageAfterBowling": 347
+    },
+    {
+      "TeamID": 22,
+      "TeamName": "We Don't Give A Split",
+      "TeamNum": 19,
+      "TeamDivision": 1,
+      "HighHandicapGame": 525,
+      "HighHandicapSeries": 0,
+      "HighScratchGame": 408,
+      "HighScratchSeries": 0,
+      "AverageAfterBowling": 309
+    },
+    {
+      "TeamID": 15,
+      "TeamName": "XXX Dancers",
+      "TeamNum": 12,
+      "TeamDivision": 1,
+      "HighHandicapGame": 396,
+      "HighHandicapSeries": 0,
+      "HighScratchGame": 278,
+      "HighScratchSeries": 0,
+      "AverageAfterBowling": 308
+    },
+    {
+      "TeamID": 8,
+      "TeamName": "Yep !",
+      "TeamNum": 6,
+      "TeamDivision": 1,
+      "HighHandicapGame": 447,
+      "HighHandicapSeries": 0,
+      "HighScratchGame": 333,
+      "HighScratchSeries": 0,
+      "AverageAfterBowling": 340
+    }
+  ],
+  "Total": 26,
+  "AggregateResults": null,
+  "Errors": null
+}

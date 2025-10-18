@@ -27,40 +27,16 @@ class standings {
                         let previous = Object.values(this.json_data).map(pre => pre.find(name => name.teamName == team)).filter(pre => pre != undefined);
                         if(previous && undefined != previous[0]) {
                             scores.pointsWon = Math.max(... previous.map(pre => pre.pointsWon));
+                            scores.pointsLost = Math.max(... previous.map(pre => pre.pointsLost));
                             scores.handicapPins = Math.max(... previous.map(pre => pre.handicapPins));
                             scores.scratchPins = Math.max(... previous.map(pre => pre.scratchPins));
                         }
                         
-                        // Calculate the pin count difference between the teams
-                        let bowlers = this.recaps.getTeam(week.weekNum, this.teamInfo.getTeamByName(team).TeamNum);
-                        let opponents = this.recaps.getTeam(week.weekNum, this.schedule.getOpponentNumber(week.weekNum, this.teamInfo.getTeamByName(team).TeamNum));
-                        
-                        let game1 = -opponents.map(bowler => this.bowlerGames.getHandicapGame(bowler.BowlerName, week.weekNum, 1)).reduce((a, b) => a + b, 0);
-                        game1 += bowlers.map(bowler => this.bowlerGames.getHandicapGame(bowler.BowlerName, week.weekNum, 1)).reduce((a, b) => a + b, 0);
-                        
-                        let game2 = -opponents.map(bowler => this.bowlerGames.getHandicapGame(bowler.BowlerName, week.weekNum, 2)).reduce((a, b) => a + b, 0);
-                        game2 += bowlers.map(bowler => this.bowlerGames.getHandicapGame(bowler.BowlerName, week.weekNum, 2)).reduce((a, b) => a + b, 0);
-                        
-                        let series = -opponents.map(bowler => this.bowlerGames.getHandicapSeries(bowler.BowlerName, week.weekNum)).reduce((a, b) => a + b, 0);
-                        series += bowlers.map(bowler => this.bowlerGames.getHandicapSeries(bowler.BowlerName, week.weekNum)).reduce((a, b) => a + b, 0);
-                        
-                        if (       "a" == this.bowlerGames.getGamePrefix(opponents[0].BowlerName, week.weekNum, 1) 
-                                && "a" == this.bowlerGames.getGamePrefix(opponents[1].BowlerName, week.weekNum, 1)) {
-                            scores.pointsWon += 3;
-                            scores.scratchPins += bowlers.map(bowler => this.bowlerGames.getScratchSeries(bowler.BowlerName, week.weekNum)).reduce((a, b) => a + b, 0);
-                            scores.handicapPins += bowlers.map(bowler => this.bowlerGames.getHandicapSeries(bowler.BowlerName, week.weekNum)).reduce((a, b) => a + b, 0);
-                        } else if ("a" != this.bowlerGames.getGamePrefix(bowlers[0].BowlerName, week.weekNum, 1) 
-                                || "a" != this.bowlerGames.getGamePrefix(bowlers[1].BowlerName, week.weekNum, 1)) {
-                            // Calculate the associated points earned based on pin totals
-                            scores.pointsWon += (game1 > 0) ? 1 : (game1 == 0) ? 0.5 : 0;
-                            scores.pointsWon += (game2 > 0) ? 1 : (game2 == 0) ? 0.5 : 0;
-                            scores.pointsWon += (series > 0) ? 1 : (series == 0) ? 0.5 : 0;
-                            
-                            scores.scratchPins += bowlers.map(bowler => this.bowlerGames.getScratchSeries(bowler.BowlerName, week.weekNum)).reduce((a, b) => a + b, 0);
-                            scores.handicapPins += bowlers.map(bowler => this.bowlerGames.getHandicapSeries(bowler.BowlerName, week.weekNum)).reduce((a, b) => a + b, 0);
-                        }
-                        
-                        scores.pointsLost = ((previous.length * 3) + 3) - scores.pointsWon;
+                        scores.pointsWon += this.bowlerGames.getTeamPoints(week.weekNum, this.teamInfo.getTeamByName(team).TeamNum).won;
+                        scores.pointsLost += this.bowlerGames.getTeamPoints(week.weekNum, this.teamInfo.getTeamByName(team).TeamNum).lost;
+
+                        scores.scratchPins += this.bowlerGames.getTeamGame(week.weekNum, this.teamInfo.getTeamByName(team).TeamNum).SeriesTotal;
+                        scores.handicapPins += this.bowlerGames.getTeamGame(week.weekNum, this.teamInfo.getTeamByName(team).TeamNum).HandicapSeriesTotal;
                         
                         this.json_data[week.weekNum].push(scores);
                     });

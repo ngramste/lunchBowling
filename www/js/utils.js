@@ -25,3 +25,7 @@ function makeRequest(method, url) {
 function nameFlipper(name) {
     return `${name.split(", ")[1]} ${name.split(", ")[0]}`;
 }
+
+function arrayBuilder(min, max) {
+    return Array.from({length: max - min + 1}, (_, i) => i + min);
+}

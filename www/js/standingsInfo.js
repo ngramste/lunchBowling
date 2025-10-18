@@ -4,6 +4,10 @@ let weeklyStandings = null;
 function WeekSelected(event) {
     let week = JSON.parse(event.target.value);
     let table = document.getElementById("data");
+    let recaps = document.getElementById("recaps");
+    
+    recaps.src = `./recap.html?weekNum=${week.weekNum}`;
+    
     table.innerHTML = "";
 
     let tr = document.createElement("tr");
