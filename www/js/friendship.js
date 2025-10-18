@@ -45,7 +45,7 @@ function calculateMeanies() {
         let th = document.createElement("th");
         let a = document.createElement("a");
         a.innerHTML = team.teamName;
-        a.href = `./team.html?teamName=${team.teamName}`;
+        a.href = `./team.html?teamName=${encodeURIComponent(team.teamName)}`;
         th.style.textAlign = "right";
         th.appendChild(a);
         tr.appendChild(th);
@@ -98,7 +98,7 @@ function calculateFriendship() {
         let th = document.createElement("th");
         let a = document.createElement("a");
         a.innerHTML = team.teamName;
-        a.href = `./team.html?teamName=${team.teamName}`;
+        a.href = `./team.html?teamName=${encodeURIComponent(team.teamName)}`;
         th.style.textAlign = "right";
         th.appendChild(a);
         tr.appendChild(th);

@@ -72,7 +72,7 @@ function BowlerSelected(event) {
         
         td = document.createElement("td");
         a = document.createElement("a");
-        a.href = `./team.html?teamName=${gameData.recaps.summaries[week.week].find(bowler => bowler.BowlerName == bowlerName).TeamName}`;
+        a.href = `./team.html?teamName=${encodeURIComponent(gameData.recaps.summaries[week.week].find(bowler => bowler.BowlerName == bowlerName).TeamName)}`;
         a.innerHTML = gameData.recaps.summaries[week.week].find(bowler => bowler.BowlerName == bowlerName).TeamName;
         td.appendChild(a);
         tr.appendChild(td);
