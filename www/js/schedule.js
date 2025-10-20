@@ -1,8 +1,3 @@
-const MS_PER_SECOND = 1000;
-const MS_PER_MINUTE = 60 * MS_PER_SECOND;
-const MS_PER_HOUR = 60 * MS_PER_MINUTE;
-const MS_PER_DAY = 24 * MS_PER_HOUR;
-
 class schedule {
     schedule = null;
 
@@ -20,9 +15,8 @@ class schedule {
     }
     
     getCurrentSchedule() {
-        let weeks = this.schedule.filter(week => new Date(week.date) <= (Date.now() + (6 * MS_PER_DAY))).map(week => week.weekNum);
-        
-        return (weeks.length) ? this.getWeek(weeks[weeks.length - 1]) : undefined;
+        let weeks = this.schedule.filter(week => new Date(week.date) >= Date.now()).map(week => week.weekNum);
+        return (weeks.length) ? this.getWeek(weeks[0]) : undefined;
     }
     
     getWeek(weekNum) {
