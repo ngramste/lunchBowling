@@ -1,3 +1,5 @@
+[Link to web interface](/lunchBowling/www)
+
 These scripts will help me figure out scoring for lunch bowling, and some of the more weird awards that require more goofy calculations
 
 This is the order of operations for running scripts

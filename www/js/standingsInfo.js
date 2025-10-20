@@ -47,7 +47,7 @@ function WeekSelected(event) {
         
         td = document.createElement("td");
         let a = document.createElement("a");
-        a.href = `./team.html?teamName=${team.teamName}`;
+        a.href = `./team.html?teamName=${encodeURIComponent(team.teamName)}`;
         a.innerHTML = team.teamName;
         td.appendChild(a);
         tr.appendChild(td);
