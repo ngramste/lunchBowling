@@ -10,15 +10,23 @@ window.onload = function () {
             .filter(player => undefined != gameData.getGames(player))
             // Get averages in first and last weeks of bowling
             .map(player => {
+                // Get the players list of weeks played
+                let weeks = gameData.getGames(player)
+                    // Filter to get games actually bowled
+                    .filter(week => arrayBuilder(1, gameData.gamesPerWeek())
+                        // ScoreType# == S is a scratch game actually bowled
+                        .map(game => week[`ScoreType${game}`]).includes("S")
+                    );
+                
                 return {
                     bowlerName: gameData.players.prettyName(player), 
-                    aveStart: gameData.getGames(player)[0].averageAfter, 
-                    aveEnd: gameData.getGames(player)[gameData.getGames(player).length - 1].averageAfter
+                    aveStart: Math.floor(weeks[0].SeriesTotal / gameData.gamesPerWeek()), 
+                    aveEnd: Math.floor(weeks[weeks.length - 1].SeriesTotal / gameData.gamesPerWeek())
                 }
             })
             // Sort by rise in average
             .sort(function(a,b){return (b.aveEnd-b.aveStart) - (a.aveEnd-a.aveStart)});
-            
+        
         let dataTable = document.getElementById("data");
         let tr = document.createElement("tr");
         
