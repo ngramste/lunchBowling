@@ -69,6 +69,11 @@
             "BowlerID": 116,
             "BowlerName": "W, D",
             "FriendlyName": "Wilkinson, David"
+        },
+        {
+            "BowlerID": 65,
+            "BowlerName": "Lindholm, Kia",
+            "FriendlyName": "Lindholm, Kai"
         }
     ],
     "AggregateResults": null,
