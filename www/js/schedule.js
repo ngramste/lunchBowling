@@ -1,3 +1,8 @@
+const MS_PER_SEC = 1000;
+const MS_PER_MIN = MS_PER_SEC * 60;
+const MS_PER_HOUR = MS_PER_MIN * 60;
+const MS_PER_DAY = MS_PER_HOUR * 24;
+
 class schedule {
     schedule = null;
 
@@ -15,7 +20,7 @@ class schedule {
     }
     
     getCurrentSchedule() {
-        let weeks = this.schedule.filter(week => new Date(week.date) >= Date.now()).map(week => week.weekNum);
+        let weeks = this.schedule.filter(week => new Date(week.date) >= (Date.now() - MS_PER_DAY)).map(week => week.weekNum);
         return (weeks.length) ? this.getWeek(weeks[0]) : undefined;
     }
     
