@@ -14,10 +14,13 @@ function calculateMeanies() {
     
     // Get all the low game data
     let bowlers = playerData.getPlayerNames().filter(bowler => gameData.getLowGames(bowler, 2) != undefined).map(player => {
+        let scratchGameWeek = gameData.getLowGames(player).lowScratchGame.game.week;
+        let scratchSeriesWeek = gameData.getLowGames(player).lowScratchSeries.game.week;
+        
         return {
             bowlerName: player,
-            lowGameOpponent: teamData.getTeamName(scheduleData.getOpponentNumber(gameData.getLowGames(player).lowScratchGame.week, gameData.recaps.summaries[gameData.getLowGames(player).lowScratchGame.week].find(bowler => bowler.BowlerName == player).TeamNum)),
-            lowSeriesOpponent: teamData.getTeamName(scheduleData.getOpponentNumber(gameData.getLowGames(player).lowScratchSeries.week, gameData.recaps.summaries[gameData.getLowGames(player).lowScratchSeries.week].find(bowler => bowler.BowlerName == player).TeamNum))
+            lowGameOpponent: teamData.getTeamName(scheduleData.getOpponentNumber(scratchGameWeek, gameData.recaps.summaries[scratchGameWeek].find(bowler => bowler.BowlerName == player).TeamNum)),
+            lowSeriesOpponent: teamData.getTeamName(scheduleData.getOpponentNumber(scratchSeriesWeek, gameData.recaps.summaries[scratchSeriesWeek].find(bowler => bowler.BowlerName == player).TeamNum))
         };
     });
     
