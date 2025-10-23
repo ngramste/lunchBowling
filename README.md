@@ -1,4 +1,4 @@
-[Link to web interface](/lunchBowling/www)
+[Link to web interface](https://ngramste.github.io/lunchBowling/www)
 
 These scripts will help me figure out scoring for lunch bowling, and some of the more weird awards that require more goofy calculations
 
