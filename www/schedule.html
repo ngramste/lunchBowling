@@ -48,7 +48,7 @@
                 scheduleData.getCurrentSchedule().matchups.forEach((matchup, lanePair) => {
                     let tr = document.createElement("tr");
                     let td = document.createElement("td");
-                    td.innerHTML = (lanePair * 2) + 1;
+                    td.innerHTML = (lanePair * 2) + FIRST_LANE;
                     td.style.textAlign = "right";
                     tr.appendChild(td);
                     
@@ -57,7 +57,7 @@
                     tr.appendChild(td);
                     
                     td = document.createElement("td");
-                    td.innerHTML = (lanePair * 2) + 2;
+                    td.innerHTML = (lanePair * 2) + FIRST_LANE + 1;
                     td.style.textAlign = "right";
                     tr.appendChild(td);
                     

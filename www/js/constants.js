@@ -25,3 +25,4 @@ const NINE_PIN_WEEK = 9;
 const MIN_GAMES_FOR_AWARD = 11;
 const MIN_WEEKS_FOR_AWARD = Math.ceil(MIN_GAMES_FOR_AWARD / 2);
 const MAX_GAMES_PER_WEEK = 6;
+const FIRST_LANE = 1;
