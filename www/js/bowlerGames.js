@@ -192,10 +192,10 @@ class bowlerGames {
             // Check to make sure that there are enough games to make a comparison
             if (undefined != weeks && weeks.length >= minWeeks) {
                 // Find the high scores
-                let highScratchGame = Math.max(... weeks.map(week => arrayBuilder(1,MAX_GAMES_PER_WEEK).map(game => week[`Score${game}`])).flat());
-                let highScratchSeries = Math.max(... weeks.map(week => week.SeriesTotal).flat());
-                let highHandicapGame = Math.max(... weeks.map(week => arrayBuilder(1,MAX_GAMES_PER_WEEK).map(game => week[`Score${game}`] + week.HandicapBeforeBowling)).flat());
-                let highHandicapSeries = Math.max(... weeks.map(week => week.HandicapSeriesTotal).flat());
+                let highScratchGame = Math.max(... weeks.map(week => arrayBuilder(1,MAX_GAMES_PER_WEEK).map(game => week[`Score${game}`])).flat().filter(score => score));
+                let highScratchSeries = Math.max(... weeks.map(week => week.SeriesTotal).flat().filter(score => score));
+                let highHandicapGame = Math.max(... weeks.map(week => arrayBuilder(1,MAX_GAMES_PER_WEEK).map(game => week[`Score${game}`] + week.HandicapBeforeBowling)).flat().filter(score => score));
+                let highHandicapSeries = Math.max(... weeks.map(week => week.HandicapSeriesTotal).flat().filter(score => score));
                 
                 // Find the actual week those scores occurred in
                 let results = {
