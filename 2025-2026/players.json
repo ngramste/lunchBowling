@@ -25,9 +25,9 @@
       "PointsWonDec": 0.0
     },
     {
-      "TeamID": 1,
-      "TeamName": "Pin Pals",
-      "TeamNameURLFormated": "pin-pals",
+      "TeamID": 5,
+      "TeamName": "Barely Bowling",
+      "TeamNameURLFormated": "barely-bowling",
       "BowlerID": 54,
       "BowlerName": "Bacon, Whitney",
       "BowlerNameURLFormated": "bacon-whitney",
@@ -44,7 +44,7 @@
       "MostImproved": 0.0,
       "BowlerPosition": 1,
       "BowlerStatus": "R",
-      "TeamNum": 1,
+      "TeamNum": 3,
       "EnteringAverage": 130,
       "PointsWonDec": 0.0
     },
@@ -73,9 +73,9 @@
       "PointsWonDec": 0.0
     },
     {
-      "TeamID": 0,
-      "TeamName": "",
-      "TeamNameURLFormated": "",
+      "TeamID": 16,
+      "TeamName": "The Munsons",
+      "TeamNameURLFormated": "the-munsons",
       "BowlerID": 46,
       "BowlerName": "Bell, Tracy",
       "BowlerNameURLFormated": "bell-tracy",
@@ -92,7 +92,7 @@
       "MostImproved": 0.0,
       "BowlerPosition": 0,
       "BowlerStatus": "T",
-      "TeamNum": 0,
+      "TeamNum": 11,
       "EnteringAverage": 223,
       "PointsWonDec": 0.0
     },
@@ -409,9 +409,9 @@
       "PointsWonDec": 0.0
     },
     {
-      "TeamID": 0,
-      "TeamName": "",
-      "TeamNameURLFormated": "",
+      "TeamID": 20,
+      "TeamName": "SPAM",
+      "TeamNameURLFormated": "spam",
       "BowlerID": 19,
       "BowlerName": "Dooley, Gene",
       "BowlerNameURLFormated": "dooley-gene",
@@ -428,7 +428,7 @@
       "MostImproved": 0.0,
       "BowlerPosition": 0,
       "BowlerStatus": "T",
-      "TeamNum": 0,
+      "TeamNum": 17,
       "EnteringAverage": 168,
       "PointsWonDec": 0.0
     },
@@ -793,9 +793,9 @@
       "PointsWonDec": 0.0
     },
     {
-      "TeamID": 8,
-      "TeamName": "Yep !",
-      "TeamNameURLFormated": "yep",
+      "TeamID": 14,
+      "TeamName": "Rick Rollers",
+      "TeamNameURLFormated": "rick-rollers",
       "BowlerID": 89,
       "BowlerName": "K, D",
       "BowlerNameURLFormated": "k-d",
@@ -812,7 +812,7 @@
       "MostImproved": 0.0,
       "BowlerPosition": 3,
       "BowlerStatus": "R",
-      "TeamNum": 6,
+      "TeamNum": 13,
       "EnteringAverage": 196,
       "PointsWonDec": 0.0
     },
@@ -913,9 +913,9 @@
       "PointsWonDec": 0.0
     },
     {
-      "TeamID": 4,
-      "TeamName": "Bad Attitude",
-      "TeamNameURLFormated": "bad-attitude",
+      "TeamID": 0,
+      "TeamName": "",
+      "TeamNameURLFormated": "",
       "BowlerID": 117,
       "BowlerName": "K, R",
       "BowlerNameURLFormated": "k-r",
@@ -932,7 +932,7 @@
       "MostImproved": 0.0,
       "BowlerPosition": 0,
       "BowlerStatus": "T",
-      "TeamNum": 2,
+      "TeamNum": 0,
       "EnteringAverage": 203,
       "PointsWonDec": 0.0
     },
@@ -1033,9 +1033,9 @@
       "PointsWonDec": 0.0
     },
     {
-      "TeamID": 26,
-      "TeamName": "Top Gun",
-      "TeamNameURLFormated": "top-gun",
+      "TeamID": 0,
+      "TeamName": "",
+      "TeamNameURLFormated": "",
       "BowlerID": 7,
       "BowlerName": "L, D",
       "BowlerNameURLFormated": "l-d",
@@ -1052,7 +1052,7 @@
       "MostImproved": 0.0,
       "BowlerPosition": 1,
       "BowlerStatus": "T",
-      "TeamNum": 22,
+      "TeamNum": 0,
       "EnteringAverage": 142,
       "PointsWonDec": 0.0
     },
@@ -1061,9 +1061,9 @@
       "TeamName": "Spare Me",
       "TeamNameURLFormated": "spare-me",
       "BowlerID": 65,
-      "BowlerName": "Lindholm, Kia",
-      "BowlerNameURLFormated": "lindholm-kia",
-      "Gender": "W",
+      "BowlerName": "Lindholm, Kai",
+      "BowlerNameURLFormated": "lindholm-kai",
+      "Gender": "M",
       "TotalPins": 0,
       "TotalGames": 0,
       "Average": 0,
@@ -1681,9 +1681,9 @@
       "PointsWonDec": 0.0
     },
     {
-      "TeamID": 0,
-      "TeamName": "",
-      "TeamNameURLFormated": "",
+      "TeamID": 21,
+      "TeamName": "1st and 10",
+      "TeamNameURLFormated": "1st-and-10",
       "BowlerID": 42,
       "BowlerName": "Schlabsz, Mike",
       "BowlerNameURLFormated": "schlabsz-mike",
@@ -1700,7 +1700,7 @@
       "MostImproved": 0.0,
       "BowlerPosition": 0,
       "BowlerStatus": "T",
-      "TeamNum": 0,
+      "TeamNum": 18,
       "EnteringAverage": 0,
       "PointsWonDec": 0.0
     },
@@ -1969,9 +1969,9 @@
       "PointsWonDec": 0.0
     },
     {
-      "TeamID": 0,
-      "TeamName": "",
-      "TeamNameURLFormated": "",
+      "TeamID": 8,
+      "TeamName": "Yep !",
+      "TeamNameURLFormated": "yep",
       "BowlerID": 2,
       "BowlerName": "Spencer, Andy",
       "BowlerNameURLFormated": "spencer-andy",
@@ -1988,7 +1988,7 @@
       "MostImproved": 0.0,
       "BowlerPosition": 2,
       "BowlerStatus": "T",
-      "TeamNum": 0,
+      "TeamNum": 6,
       "EnteringAverage": 168,
       "PointsWonDec": 0.0
     },
@@ -2017,9 +2017,9 @@
       "PointsWonDec": 0.0
     },
     {
-      "TeamID": 20,
-      "TeamName": "SPAM",
-      "TeamNameURLFormated": "spam",
+      "TeamID": 0,
+      "TeamName": "",
+      "TeamNameURLFormated": "",
       "BowlerID": 87,
       "BowlerName": "Strong, Justin",
       "BowlerNameURLFormated": "strong-justin",
@@ -2036,7 +2036,7 @@
       "MostImproved": 0.0,
       "BowlerPosition": 0,
       "BowlerStatus": "T",
-      "TeamNum": 17,
+      "TeamNum": 0,
       "EnteringAverage": 0,
       "PointsWonDec": 0.0
     },
