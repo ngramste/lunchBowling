@@ -409,9 +409,9 @@
       "PointsWonDec": 0.0
     },
     {
-      "TeamID": 20,
-      "TeamName": "SPAM",
-      "TeamNameURLFormated": "spam",
+      "TeamID": 3,
+      "TeamName": "Backstabbers",
+      "TeamNameURLFormated": "backstabbers",
       "BowlerID": 19,
       "BowlerName": "Dooley, Gene",
       "BowlerNameURLFormated": "dooley-gene",
@@ -428,7 +428,7 @@
       "MostImproved": 0.0,
       "BowlerPosition": 0,
       "BowlerStatus": "T",
-      "TeamNum": 17,
+      "TeamNum": 26,
       "EnteringAverage": 168,
       "PointsWonDec": 0.0
     },
@@ -793,9 +793,9 @@
       "PointsWonDec": 0.0
     },
     {
-      "TeamID": 14,
-      "TeamName": "Rick Rollers",
-      "TeamNameURLFormated": "rick-rollers",
+      "TeamID": 8,
+      "TeamName": "Yep !",
+      "TeamNameURLFormated": "yep",
       "BowlerID": 89,
       "BowlerName": "K, D",
       "BowlerNameURLFormated": "k-d",
@@ -812,14 +812,14 @@
       "MostImproved": 0.0,
       "BowlerPosition": 3,
       "BowlerStatus": "R",
-      "TeamNum": 13,
+      "TeamNum": 6,
       "EnteringAverage": 196,
       "PointsWonDec": 0.0
     },
     {
-      "TeamID": 16,
-      "TeamName": "The Munsons",
-      "TeamNameURLFormated": "the-munsons",
+      "TeamID": 15,
+      "TeamName": "XXX Dancers",
+      "TeamNameURLFormated": "xxx-dancers",
       "BowlerID": 132,
       "BowlerName": "Karlen, Jessica",
       "BowlerNameURLFormated": "karlen-jessica",
@@ -836,7 +836,7 @@
       "MostImproved": 0.0,
       "BowlerPosition": 2,
       "BowlerStatus": "R",
-      "TeamNum": 11,
+      "TeamNum": 12,
       "EnteringAverage": 123,
       "PointsWonDec": 0.0
     },
@@ -913,9 +913,9 @@
       "PointsWonDec": 0.0
     },
     {
-      "TeamID": 0,
-      "TeamName": "",
-      "TeamNameURLFormated": "",
+      "TeamID": 4,
+      "TeamName": "Bad Attitude",
+      "TeamNameURLFormated": "bad-attitude",
       "BowlerID": 117,
       "BowlerName": "K, R",
       "BowlerNameURLFormated": "k-r",
@@ -932,7 +932,7 @@
       "MostImproved": 0.0,
       "BowlerPosition": 0,
       "BowlerStatus": "T",
-      "TeamNum": 0,
+      "TeamNum": 2,
       "EnteringAverage": 203,
       "PointsWonDec": 0.0
     },
@@ -1033,9 +1033,9 @@
       "PointsWonDec": 0.0
     },
     {
-      "TeamID": 0,
-      "TeamName": "",
-      "TeamNameURLFormated": "",
+      "TeamID": 26,
+      "TeamName": "Top Gun",
+      "TeamNameURLFormated": "top-gun",
       "BowlerID": 7,
       "BowlerName": "L, D",
       "BowlerNameURLFormated": "l-d",
@@ -1052,7 +1052,7 @@
       "MostImproved": 0.0,
       "BowlerPosition": 1,
       "BowlerStatus": "T",
-      "TeamNum": 0,
+      "TeamNum": 22,
       "EnteringAverage": 142,
       "PointsWonDec": 0.0
     },
@@ -1609,9 +1609,9 @@
       "PointsWonDec": 0.0
     },
     {
-      "TeamID": 29,
-      "TeamName": "For Soup",
-      "TeamNameURLFormated": "for-soup",
+      "TeamID": 21,
+      "TeamName": "1st and 10",
+      "TeamNameURLFormated": "1st-and-10",
       "BowlerID": 75,
       "BowlerName": "Saltalamacchia, Joseph",
       "BowlerNameURLFormated": "saltalamacchia-joseph",
@@ -1628,7 +1628,7 @@
       "MostImproved": 0.0,
       "BowlerPosition": 3,
       "BowlerStatus": "R",
-      "TeamNum": 24,
+      "TeamNum": 18,
       "EnteringAverage": 104,
       "PointsWonDec": 0.0
     },
