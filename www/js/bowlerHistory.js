@@ -6,6 +6,9 @@ function BowlerSelected(event) {
     let table = document.getElementById("data");
     table.innerHTML = "";
     
+    let highGames = gameData.getHighGames(bowlerName, 2);
+    let lowGames = gameData.getLowGames(bowlerName, 2);
+    
     let tr = document.createElement("tr");
     
     let th = document.createElement("th");
@@ -79,12 +82,27 @@ function BowlerSelected(event) {
     
         for (let gameNum = 1; gameNum <= gameData.gamesPerWeek(); gameNum++) {
             td = document.createElement("td");
-            td.innerHTML = `${gameData.getGamePrefix(bowlerName, week.week, 1)}${week[`Score${gameNum}`]}`;
+            let score = week[`Score${gameNum}`];
+            td.innerHTML = `${gameData.getGamePrefix(bowlerName, week.week, 1)}${score}`;
+            
+            if (undefined != highGames && highGames.highScratchGame.game.week == week.week && score == highGames.highScratchGame.score) {
+                td.style = "background-color: green; color: white";
+            } else if (undefined != lowGames && lowGames.lowScratchGame.game.week == week.week && score == lowGames.lowScratchGame.score) {
+                td.style = "background-color: red; color: white";
+            }
+            
             tr.appendChild(td);
         }
         
         td = document.createElement("td");
         td.innerHTML = gameData.getScratchSeries(bowlerName, week.week);
+        
+        if (undefined != highGames && highGames.highScratchSeries.game.week == week.week) {
+            td.style = "background-color: green; color: white";
+        } else if (undefined != lowGames && lowGames.lowScratchSeries.game.week == week.week) {
+            td.style = "background-color: red; color: white";
+        }
+        
         tr.appendChild(td);
         
         td = document.createElement("td");
