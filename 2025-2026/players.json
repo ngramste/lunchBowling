@@ -97,9 +97,9 @@
       "PointsWonDec": 0.0
     },
     {
-      "TeamID": 22,
-      "TeamName": "We Don't Give A Split",
-      "TeamNameURLFormated": "we-dont-give-a-split",
+      "TeamID": 16,
+      "TeamName": "The Munsons",
+      "TeamNameURLFormated": "the-munsons",
       "BowlerID": 46,
       "BowlerName": "Bell, Tracy",
       "BowlerNameURLFormated": "bell-tracy",
@@ -116,7 +116,7 @@
       "MostImproved": 0.0,
       "BowlerPosition": 0,
       "BowlerStatus": "T",
-      "TeamNum": 19,
+      "TeamNum": 11,
       "EnteringAverage": 223,
       "PointsWonDec": 0.0
     },
@@ -1393,9 +1393,9 @@
       "PointsWonDec": 0.0
     },
     {
-      "TeamID": 10,
-      "TeamName": "Engineering Strikes",
-      "TeamNameURLFormated": "engineering-strikes",
+      "TeamID": 0,
+      "TeamName": "",
+      "TeamNameURLFormated": "",
       "BowlerID": 12,
       "BowlerName": "Patton, Steve",
       "BowlerNameURLFormated": "patton-steve",
@@ -1412,7 +1412,7 @@
       "MostImproved": 0.0,
       "BowlerPosition": 0,
       "BowlerStatus": "T",
-      "TeamNum": 8,
+      "TeamNum": 0,
       "EnteringAverage": 178,
       "PointsWonDec": 0.0
     },
@@ -1969,9 +1969,9 @@
       "PointsWonDec": 0.0
     },
     {
-      "TeamID": 5,
-      "TeamName": "Barely Bowling",
-      "TeamNameURLFormated": "barely-bowling",
+      "TeamID": 8,
+      "TeamName": "Yep !",
+      "TeamNameURLFormated": "yep",
       "BowlerID": 2,
       "BowlerName": "Spencer, Andy",
       "BowlerNameURLFormated": "spencer-andy",
@@ -1988,7 +1988,7 @@
       "MostImproved": 0.0,
       "BowlerPosition": 2,
       "BowlerStatus": "T",
-      "TeamNum": 3,
+      "TeamNum": 6,
       "EnteringAverage": 168,
       "PointsWonDec": 0.0
     },
