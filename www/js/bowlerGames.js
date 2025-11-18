@@ -153,11 +153,13 @@ class bowlerGames {
         let gameCount = 0;
 
         return Math.floor(games.reduce((acc, week) => {
-            return acc + arrayBuilder(1,MAX_GAMES_PER_WEEK).reduce((acc, game) => {
+            return acc + arrayBuilder(1, MAX_GAMES_PER_WEEK).reduce((acc, game) => {
                 if ("S" == week[`ScoreType${game}`]) {
                     gameCount++;
+                    return acc + week[`Score${game}`];
+                } else {
+                    return acc;
                 }
-                return acc + week[`Score${game}`];
             }, 0);
         }, 0) / gameCount);
     }

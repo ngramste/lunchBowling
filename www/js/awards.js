@@ -173,19 +173,24 @@ function getIndividualAwards() {
 }
 
 function largestDropInAve(minWeeks = 6) {
-    return playerData.getPlayerNames().map(player => {
+    // Get a list of all players
+    return playerData.getPlayerNames()
+    // Filter out players without enough games
+    .filter(player => (undefined == gameData.getGames(player)) ? false : gameData.getGames(player).length >= minWeeks)
+    // Calculate the drop
+    .map(player => {
         let retval = {
             player: player,
             gender: gameData.getGender(player),
             drop: 0
         };
         let games = gameData.getGames(player);
-        if ((games != undefined) && (games.length >= minWeeks)) {
-            retval.drop = Math.min(... games.map(game => game.averageAfterFloating - game.averageBeforeFloating).filter(num => !isNaN(num)));
-        }
+        retval.drop = Math.min(... games.map(game => gameData.calculateAverage(player, game.week) - game.AverageBeforeBowling).filter(num => !isNaN(num)));
 
         return retval;
-    }).sort(function(a,b) {return a.drop - b.drop});
+    })
+    // Sort by drops
+    .sort(function(a,b) {return a.drop - b.drop});
 }
 
 function calculateMeanies() {
@@ -201,8 +206,8 @@ function calculateMeanies() {
     let bowlers = playerData.getPlayerNames().filter(bowler => gameData.getLowGames(bowler, 2) != undefined).map(player => {
         return {
             bowlerName: player,
-            lowGameOpponent: teamData.getTeamName(scheduleData.getOpponentNumber(gameData.getLowGames(player).lowScratchGame.week, gameData.recaps.summaries[gameData.getLowGames(player).lowScratchGame.week].find(bowler => bowler.BowlerName == player).TeamNum)),
-            lowSeriesOpponent: teamData.getTeamName(scheduleData.getOpponentNumber(gameData.getLowGames(player).lowScratchSeries.week, gameData.recaps.summaries[gameData.getLowGames(player).lowScratchSeries.week].find(bowler => bowler.BowlerName == player).TeamNum))
+            lowGameOpponent: teamData.getTeamName(scheduleData.getOpponentNumber(gameData.getLowGames(player).lowScratchGame.game.week, gameData.recaps.summaries[gameData.getLowGames(player).lowScratchGame.game.week].find(bowler => bowler.BowlerName == player).TeamNum)),
+            lowSeriesOpponent: teamData.getTeamName(scheduleData.getOpponentNumber(gameData.getLowGames(player).lowScratchSeries.game.week, gameData.recaps.summaries[gameData.getLowGames(player).lowScratchSeries.game.week].find(bowler => bowler.BowlerName == player).TeamNum))
         };
     });
     
@@ -299,8 +304,8 @@ function buildRow(link, prize, teamName, people, score, award, plaqueText) {
         td.appendChild(a);
         if (people.length - 1 != index) td.innerHTML += ",";
         td.appendChild(br);
-        tr.appendChild(td);
     });
+    tr.appendChild(td);
 
     td = document.createElement("td");
     td.innerHTML = score;
@@ -599,10 +604,12 @@ window.onload = function () {
             .filter(player => undefined != gameData.getGames(player))
             // Get averages in first and last weeks of bowling
             .map(player => {
+                let games = gameData.getGames(player);
+                
                 return {
                     bowlerName: player, 
-                    aveStart: gameData.getGames(player)[0].averageAfter, 
-                    aveEnd: gameData.getGames(player)[gameData.getGames(player).length - 1].averageAfter
+                    aveStart: gameData.calculateAverage(player, games[0].week), 
+                    aveEnd: gameData.calculateAverage(player, games[games.length - 1].week)
                 }
             })
             // Sort by rise in average

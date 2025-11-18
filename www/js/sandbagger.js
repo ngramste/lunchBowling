@@ -20,8 +20,8 @@ window.onload = function () {
                 
                 return {
                     bowlerName: gameData.players.prettyName(player), 
-                    aveStart: Math.floor(weeks[0].SeriesTotal / gameData.gamesPerWeek()), 
-                    aveEnd: Math.floor(weeks[weeks.length - 1].SeriesTotal / gameData.gamesPerWeek())
+                    aveStart: gameData.calculateAverage(player, weeks[0].week),
+                    aveEnd: gameData.calculateAverage(player, weeks[weeks.length - 1].week)
                 }
             })
             // Sort by rise in average
