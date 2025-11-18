@@ -53,11 +53,11 @@ function WeekSelected(event) {
         tr.appendChild(td);
         
         td = document.createElement("td");
-        td.innerHTML = team.pointsWon;
+        td.innerHTML = String(team.pointsWon).replace(".5", "&half;");
         tr.appendChild(td);
         
         td = document.createElement("td");
-        td.innerHTML = team.pointsLost;
+        td.innerHTML = String(team.pointsLost).replace(".5", "&half;");
         tr.appendChild(td);
         
         td = document.createElement("td");
