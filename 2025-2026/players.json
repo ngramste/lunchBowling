@@ -721,9 +721,9 @@
       "PointsWonDec": 0.0
     },
     {
-      "TeamID": 0,
-      "TeamName": "",
-      "TeamNameURLFormated": "",
+      "TeamID": 24,
+      "TeamName": "Consistently Inconsistent",
+      "TeamNameURLFormated": "consistently-inconsistent",
       "BowlerID": 37,
       "BowlerName": "Henderson, Anthony",
       "BowlerNameURLFormated": "henderson-anthony",
@@ -740,7 +740,7 @@
       "MostImproved": 0.0,
       "BowlerPosition": 0,
       "BowlerStatus": "T",
-      "TeamNum": 0,
+      "TeamNum": 20,
       "EnteringAverage": 0,
       "PointsWonDec": 0.0
     },
@@ -1033,9 +1033,9 @@
       "PointsWonDec": 0.0
     },
     {
-      "TeamID": 6,
-      "TeamName": "Spare Me",
-      "TeamNameURLFormated": "spare-me",
+      "TeamID": 26,
+      "TeamName": "Top Gun",
+      "TeamNameURLFormated": "top-gun",
       "BowlerID": 59,
       "BowlerName": "Lawless, Brian",
       "BowlerNameURLFormated": "lawless-brian",
@@ -1052,7 +1052,7 @@
       "MostImproved": 0.0,
       "BowlerPosition": 1,
       "BowlerStatus": "R",
-      "TeamNum": 4,
+      "TeamNum": 22,
       "EnteringAverage": 162,
       "PointsWonDec": 0.0
     },
@@ -1393,9 +1393,9 @@
       "PointsWonDec": 0.0
     },
     {
-      "TeamID": 0,
-      "TeamName": "",
-      "TeamNameURLFormated": "",
+      "TeamID": 23,
+      "TeamName": "Split Happens",
+      "TeamNameURLFormated": "split-happens",
       "BowlerID": 12,
       "BowlerName": "Patton, Steve",
       "BowlerNameURLFormated": "patton-steve",
@@ -1412,7 +1412,7 @@
       "MostImproved": 0.0,
       "BowlerPosition": 0,
       "BowlerStatus": "T",
-      "TeamNum": 0,
+      "TeamNum": 5,
       "EnteringAverage": 178,
       "PointsWonDec": 0.0
     },
