@@ -793,9 +793,9 @@
       "PointsWonDec": 0.0
     },
     {
-      "TeamID": 8,
-      "TeamName": "Yep !",
-      "TeamNameURLFormated": "yep",
+      "TeamID": 16,
+      "TeamName": "The Munsons",
+      "TeamNameURLFormated": "the-munsons",
       "BowlerID": 90,
       "BowlerName": "Karl, Anthony",
       "BowlerNameURLFormated": "karl-anthony",
@@ -812,14 +812,14 @@
       "MostImproved": 0.0,
       "BowlerPosition": 1,
       "BowlerStatus": "R",
-      "TeamNum": 6,
+      "TeamNum": 11,
       "EnteringAverage": 144,
       "PointsWonDec": 0.0
     },
     {
-      "TeamID": 14,
-      "TeamName": "Rick Rollers",
-      "TeamNameURLFormated": "rick-rollers",
+      "TeamID": 8,
+      "TeamName": "Yep !",
+      "TeamNameURLFormated": "yep",
       "BowlerID": 89,
       "BowlerName": "K, D",
       "BowlerNameURLFormated": "k-d",
@@ -836,7 +836,7 @@
       "MostImproved": 0.0,
       "BowlerPosition": 3,
       "BowlerStatus": "R",
-      "TeamNum": 13,
+      "TeamNum": 6,
       "EnteringAverage": 196,
       "PointsWonDec": 0.0
     },
@@ -1393,9 +1393,9 @@
       "PointsWonDec": 0.0
     },
     {
-      "TeamID": 23,
-      "TeamName": "Split Happens",
-      "TeamNameURLFormated": "split-happens",
+      "TeamID": 15,
+      "TeamName": "XXX Dancers",
+      "TeamNameURLFormated": "xxx-dancers",
       "BowlerID": 12,
       "BowlerName": "Patton, Steve",
       "BowlerNameURLFormated": "patton-steve",
@@ -1412,7 +1412,7 @@
       "MostImproved": 0.0,
       "BowlerPosition": 0,
       "BowlerStatus": "T",
-      "TeamNum": 5,
+      "TeamNum": 12,
       "EnteringAverage": 178,
       "PointsWonDec": 0.0
     },
