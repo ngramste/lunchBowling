@@ -34,6 +34,15 @@
                 <th>Lane</th>
                 <th>Team</th>
             </tr>
+            
+            <template id="schedule-row">
+                <tr>
+                    <td style="text-align: right;"></td>
+                    <td><a target="_parent"></a></td>
+                    <td style="text-align: right;"></td>
+                    <td><a target="_parent"></a></td>
+                </tr>
+            </template>
         </table>
         
         <script>
@@ -44,28 +53,21 @@
                 new teamInfo().then(result => teamData = result)
             ]).then(() => {
                 document.getElementById("date").innerHTML = scheduleData.getCurrentSchedule().date;
+                const template = document.querySelector("#schedule-row");
                 
                 scheduleData.getCurrentSchedule().matchups.forEach((matchup, lanePair) => {
-                    let tr = document.createElement("tr");
-                    let td = document.createElement("td");
-                    td.innerHTML = (lanePair * 2) + FIRST_LANE;
-                    td.style.textAlign = "right";
-                    tr.appendChild(td);
+                    let newRow = document.importNode(template.content, true);
+                    let a = newRow.querySelectorAll("a");
+                    a[0].href = `./team.html?teamName=${teamData.getTeamName(matchup[0])}`;
+                    a[1].href = `./team.html?teamName=${teamData.getTeamName(matchup[1])}`;
                     
-                    td = document.createElement("td");
-                    td.innerHTML = teamData.getTeamName(matchup[0]);
-                    tr.appendChild(td);
+                    let td = newRow.querySelectorAll("td");
+                    td[0].textContent = (lanePair * 2) + FIRST_LANE;
+                    a[0].textContent = teamData.getTeamName(matchup[0]);
+                    td[2].textContent = (lanePair * 2) + FIRST_LANE + 1;
+                    a[1].textContent = teamData.getTeamName(matchup[1]);
                     
-                    td = document.createElement("td");
-                    td.innerHTML = (lanePair * 2) + FIRST_LANE + 1;
-                    td.style.textAlign = "right";
-                    tr.appendChild(td);
-                    
-                    td = document.createElement("td");
-                    td.innerHTML = teamData.getTeamName(matchup[1]);
-                    tr.appendChild(td);
-                    
-                    document.getElementById("data").appendChild(tr);
+                    document.getElementById("data").appendChild(newRow);
                 });
             });
         </script>
