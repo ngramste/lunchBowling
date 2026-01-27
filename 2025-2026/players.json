@@ -49,9 +49,9 @@
       "PointsWonDec": 0.0
     },
     {
-      "TeamID": 30,
-      "TeamName": "Time to Spare",
-      "TeamNameURLFormated": "time-to-spare",
+      "TeamID": 16,
+      "TeamName": "The Munsons",
+      "TeamNameURLFormated": "the-munsons",
       "BowlerID": 46,
       "BowlerName": "Bell, Tracy",
       "BowlerNameURLFormated": "bell-tracy",
@@ -68,7 +68,7 @@
       "MostImproved": 0.0,
       "BowlerPosition": 0,
       "BowlerStatus": "T",
-      "TeamNum": 25,
+      "TeamNum": 11,
       "EnteringAverage": 223,
       "PointsWonDec": 0.0
     },
@@ -577,9 +577,9 @@
       "PointsWonDec": 0.0
     },
     {
-      "TeamID": 15,
-      "TeamName": "XXX Dancers",
-      "TeamNameURLFormated": "xxx-dancers",
+      "TeamID": 16,
+      "TeamName": "The Munsons",
+      "TeamNameURLFormated": "the-munsons",
       "BowlerID": 132,
       "BowlerName": "Karlen, Jessica",
       "BowlerNameURLFormated": "karlen-jessica",
@@ -596,7 +596,7 @@
       "MostImproved": 0.0,
       "BowlerPosition": 2,
       "BowlerStatus": "R",
-      "TeamNum": 12,
+      "TeamNum": 11,
       "EnteringAverage": 123,
       "PointsWonDec": 0.0
     },
@@ -625,9 +625,9 @@
       "PointsWonDec": 0.0
     },
     {
-      "TeamID": 4,
-      "TeamName": "Bad Attitude",
-      "TeamNameURLFormated": "bad-attitude",
+      "TeamID": 19,
+      "TeamName": "TB Inc LLC",
+      "TeamNameURLFormated": "tb-inc-llc",
       "BowlerID": 117,
       "BowlerName": "K, R",
       "BowlerNameURLFormated": "k-r",
@@ -644,7 +644,7 @@
       "MostImproved": 0.0,
       "BowlerPosition": 0,
       "BowlerStatus": "T",
-      "TeamNum": 2,
+      "TeamNum": 16,
       "EnteringAverage": 203,
       "PointsWonDec": 0.0
     },
@@ -673,9 +673,9 @@
       "PointsWonDec": 0.0
     },
     {
-      "TeamID": 1,
-      "TeamName": "Pin Pals",
-      "TeamNameURLFormated": "pin-pals",
+      "TeamID": 5,
+      "TeamName": "Barely Bowling",
+      "TeamNameURLFormated": "barely-bowling",
       "BowlerID": 118,
       "BowlerName": "Lampe, Jason",
       "BowlerNameURLFormated": "lampe-jason",
@@ -692,7 +692,7 @@
       "MostImproved": 0.0,
       "BowlerPosition": 2,
       "BowlerStatus": "T",
-      "TeamNum": 1,
+      "TeamNum": 3,
       "EnteringAverage": 152,
       "PointsWonDec": 0.0
     },
@@ -793,9 +793,9 @@
       "PointsWonDec": 0.0
     },
     {
-      "TeamID": 16,
-      "TeamName": "The Munsons",
-      "TeamNameURLFormated": "the-munsons",
+      "TeamID": 18,
+      "TeamName": "Sandbaggers",
+      "TeamNameURLFormated": "sandbaggers",
       "BowlerID": 70,
       "BowlerName": "Mcdowell, Michael",
       "BowlerNameURLFormated": "mcdowell-michael",
@@ -812,7 +812,7 @@
       "MostImproved": 0.0,
       "BowlerPosition": 2,
       "BowlerStatus": "R",
-      "TeamNum": 11,
+      "TeamNum": 15,
       "EnteringAverage": 194,
       "PointsWonDec": 0.0
     },
@@ -1129,9 +1129,9 @@
       "PointsWonDec": 0.0
     },
     {
-      "TeamID": 29,
-      "TeamName": "For Soup",
-      "TeamNameURLFormated": "for-soup",
+      "TeamID": 21,
+      "TeamName": "1st and 10",
+      "TeamNameURLFormated": "1st-and-10",
       "BowlerID": 75,
       "BowlerName": "Saltalamacchia, Joseph",
       "BowlerNameURLFormated": "saltalamacchia-joseph",
@@ -1148,7 +1148,7 @@
       "MostImproved": 0.0,
       "BowlerPosition": 3,
       "BowlerStatus": "R",
-      "TeamNum": 24,
+      "TeamNum": 18,
       "EnteringAverage": 104,
       "PointsWonDec": 0.0
     },
