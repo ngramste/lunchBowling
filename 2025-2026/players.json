@@ -481,9 +481,9 @@
       "PointsWonDec": 0.0
     },
     {
-      "TeamID": 29,
-      "TeamName": "For Soup",
-      "TeamNameURLFormated": "for-soup",
+      "TeamID": 4,
+      "TeamName": "Bad Attitude",
+      "TeamNameURLFormated": "bad-attitude",
       "BowlerID": 37,
       "BowlerName": "Henderson, Anthony",
       "BowlerNameURLFormated": "henderson-anthony",
@@ -500,7 +500,7 @@
       "MostImproved": 0.0,
       "BowlerPosition": 0,
       "BowlerStatus": "T",
-      "TeamNum": 24,
+      "TeamNum": 2,
       "EnteringAverage": 0,
       "PointsWonDec": 0.0
     },
@@ -961,9 +961,9 @@
       "PointsWonDec": 0.0
     },
     {
-      "TeamID": 0,
-      "TeamName": "",
-      "TeamNameURLFormated": "",
+      "TeamID": 10,
+      "TeamName": "Engineering Strikes",
+      "TeamNameURLFormated": "engineering-strikes",
       "BowlerID": 12,
       "BowlerName": "Patton, Steve",
       "BowlerNameURLFormated": "patton-steve",
@@ -980,7 +980,7 @@
       "MostImproved": 0.0,
       "BowlerPosition": 0,
       "BowlerStatus": "T",
-      "TeamNum": 0,
+      "TeamNum": 8,
       "EnteringAverage": 178,
       "PointsWonDec": 0.0
     },
@@ -1441,9 +1441,9 @@
       "PointsWonDec": 0.0
     },
     {
-      "TeamID": 0,
-      "TeamName": "",
-      "TeamNameURLFormated": "",
+      "TeamID": 20,
+      "TeamName": "SPAM",
+      "TeamNameURLFormated": "spam",
       "BowlerID": 87,
       "BowlerName": "Strong, Justin",
       "BowlerNameURLFormated": "strong-justin",
@@ -1460,7 +1460,7 @@
       "MostImproved": 0.0,
       "BowlerPosition": 0,
       "BowlerStatus": "T",
-      "TeamNum": 0,
+      "TeamNum": 17,
       "EnteringAverage": 0,
       "PointsWonDec": 0.0
     },
