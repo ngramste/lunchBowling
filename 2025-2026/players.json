@@ -841,6 +841,30 @@
       "PointsWonDec": 0.0
     },
     {
+      "TeamID": 6,
+      "TeamName": "Spare Me",
+      "TeamNameURLFormated": "spare-me",
+      "BowlerID": 11,
+      "BowlerName": "Mitchell, Robert",
+      "BowlerNameURLFormated": "mitchell-robert",
+      "Gender": "M",
+      "TotalPins": 0,
+      "TotalGames": 0,
+      "Average": 0,
+      "ScratchHandicapFlag": true,
+      "HandicapAfterBowling": 0,
+      "HighHandicapGame": 0,
+      "HighHandicapSeries": 0,
+      "HighScratchGame": 0,
+      "HighScratchSeries": 0,
+      "MostImproved": 0.0,
+      "BowlerPosition": 0,
+      "BowlerStatus": "T",
+      "TeamNum": 4,
+      "EnteringAverage": 0,
+      "PointsWonDec": 0.0
+    },
+    {
       "TeamID": 17,
       "TeamName": "Roll Clones",
       "TeamNameURLFormated": "roll-clones",
@@ -1729,7 +1753,7 @@
       "PointsWonDec": 0.0
     }
   ],
-  "Total": 72,
+  "Total": 73,
   "AggregateResults": null,
   "Errors": null
 }
