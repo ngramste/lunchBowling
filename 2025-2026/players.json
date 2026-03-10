@@ -793,9 +793,9 @@
       "PointsWonDec": 0.0
     },
     {
-      "TeamID": 5,
-      "TeamName": "Barely Bowling",
-      "TeamNameURLFormated": "barely-bowling",
+      "TeamID": 18,
+      "TeamName": "Sandbaggers",
+      "TeamNameURLFormated": "sandbaggers",
       "BowlerID": 70,
       "BowlerName": "Mcdowell, Michael",
       "BowlerNameURLFormated": "mcdowell-michael",
@@ -812,7 +812,7 @@
       "MostImproved": 0.0,
       "BowlerPosition": 2,
       "BowlerStatus": "R",
-      "TeamNum": 3,
+      "TeamNum": 15,
       "EnteringAverage": 194,
       "PointsWonDec": 0.0
     },
@@ -841,9 +841,9 @@
       "PointsWonDec": 0.0
     },
     {
-      "TeamID": 6,
-      "TeamName": "Spare Me",
-      "TeamNameURLFormated": "spare-me",
+      "TeamID": 1,
+      "TeamName": "Pin Pals",
+      "TeamNameURLFormated": "pin-pals",
       "BowlerID": 11,
       "BowlerName": "Mitchell, Robert",
       "BowlerNameURLFormated": "mitchell-robert",
@@ -860,7 +860,7 @@
       "MostImproved": 0.0,
       "BowlerPosition": 0,
       "BowlerStatus": "T",
-      "TeamNum": 4,
+      "TeamNum": 1,
       "EnteringAverage": 0,
       "PointsWonDec": 0.0
     },
@@ -985,9 +985,9 @@
       "PointsWonDec": 0.0
     },
     {
-      "TeamID": 23,
-      "TeamName": "Split Happens",
-      "TeamNameURLFormated": "split-happens",
+      "TeamID": 18,
+      "TeamName": "Sandbaggers",
+      "TeamNameURLFormated": "sandbaggers",
       "BowlerID": 12,
       "BowlerName": "Patton, Steve",
       "BowlerNameURLFormated": "patton-steve",
@@ -1004,7 +1004,7 @@
       "MostImproved": 0.0,
       "BowlerPosition": 0,
       "BowlerStatus": "T",
-      "TeamNum": 5,
+      "TeamNum": 15,
       "EnteringAverage": 178,
       "PointsWonDec": 0.0
     },
@@ -1465,9 +1465,9 @@
       "PointsWonDec": 0.0
     },
     {
-      "TeamID": 3,
-      "TeamName": "Backstabbers",
-      "TeamNameURLFormated": "backstabbers",
+      "TeamID": 0,
+      "TeamName": "",
+      "TeamNameURLFormated": "",
       "BowlerID": 87,
       "BowlerName": "Strong, Justin",
       "BowlerNameURLFormated": "strong-justin",
@@ -1484,7 +1484,7 @@
       "MostImproved": 0.0,
       "BowlerPosition": 0,
       "BowlerStatus": "T",
-      "TeamNum": 26,
+      "TeamNum": 0,
       "EnteringAverage": 0,
       "PointsWonDec": 0.0
     },
