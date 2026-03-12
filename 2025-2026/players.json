@@ -481,9 +481,9 @@
       "PointsWonDec": 0.0
     },
     {
-      "TeamID": 29,
-      "TeamName": "For Soup",
-      "TeamNameURLFormated": "for-soup",
+      "TeamID": 4,
+      "TeamName": "Bad Attitude",
+      "TeamNameURLFormated": "bad-attitude",
       "BowlerID": 37,
       "BowlerName": "Henderson, Anthony",
       "BowlerNameURLFormated": "henderson-anthony",
@@ -500,7 +500,7 @@
       "MostImproved": 0.0,
       "BowlerPosition": 0,
       "BowlerStatus": "T",
-      "TeamNum": 24,
+      "TeamNum": 2,
       "EnteringAverage": 0,
       "PointsWonDec": 0.0
     },
@@ -697,9 +697,9 @@
       "PointsWonDec": 0.0
     },
     {
-      "TeamID": 6,
-      "TeamName": "Spare Me",
-      "TeamNameURLFormated": "spare-me",
+      "TeamID": 26,
+      "TeamName": "Top Gun",
+      "TeamNameURLFormated": "top-gun",
       "BowlerID": 59,
       "BowlerName": "Lawless, Brian",
       "BowlerNameURLFormated": "lawless-brian",
@@ -716,7 +716,7 @@
       "MostImproved": 0.0,
       "BowlerPosition": 1,
       "BowlerStatus": "R",
-      "TeamNum": 4,
+      "TeamNum": 22,
       "EnteringAverage": 162,
       "PointsWonDec": 0.0
     },
@@ -841,9 +841,9 @@
       "PointsWonDec": 0.0
     },
     {
-      "TeamID": 1,
-      "TeamName": "Pin Pals",
-      "TeamNameURLFormated": "pin-pals",
+      "TeamID": 6,
+      "TeamName": "Spare Me",
+      "TeamNameURLFormated": "spare-me",
       "BowlerID": 11,
       "BowlerName": "Mitchell, Robert",
       "BowlerNameURLFormated": "mitchell-robert",
@@ -860,7 +860,7 @@
       "MostImproved": 0.0,
       "BowlerPosition": 0,
       "BowlerStatus": "T",
-      "TeamNum": 1,
+      "TeamNum": 4,
       "EnteringAverage": 0,
       "PointsWonDec": 0.0
     },
@@ -985,9 +985,9 @@
       "PointsWonDec": 0.0
     },
     {
-      "TeamID": 18,
-      "TeamName": "Sandbaggers",
-      "TeamNameURLFormated": "sandbaggers",
+      "TeamID": 15,
+      "TeamName": "XXX Dancers",
+      "TeamNameURLFormated": "xxx-dancers",
       "BowlerID": 12,
       "BowlerName": "Patton, Steve",
       "BowlerNameURLFormated": "patton-steve",
@@ -1004,7 +1004,7 @@
       "MostImproved": 0.0,
       "BowlerPosition": 0,
       "BowlerStatus": "T",
-      "TeamNum": 15,
+      "TeamNum": 12,
       "EnteringAverage": 178,
       "PointsWonDec": 0.0
     },
@@ -1153,9 +1153,9 @@
       "PointsWonDec": 0.0
     },
     {
-      "TeamID": 29,
-      "TeamName": "For Soup",
-      "TeamNameURLFormated": "for-soup",
+      "TeamID": 21,
+      "TeamName": "1st and 10",
+      "TeamNameURLFormated": "1st-and-10",
       "BowlerID": 75,
       "BowlerName": "Saltalamacchia, Joseph",
       "BowlerNameURLFormated": "saltalamacchia-joseph",
@@ -1172,7 +1172,7 @@
       "MostImproved": 0.0,
       "BowlerPosition": 3,
       "BowlerStatus": "R",
-      "TeamNum": 24,
+      "TeamNum": 18,
       "EnteringAverage": 104,
       "PointsWonDec": 0.0
     },
