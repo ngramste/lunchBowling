@@ -481,9 +481,9 @@
       "PointsWonDec": 0.0
     },
     {
-      "TeamID": 4,
-      "TeamName": "Bad Attitude",
-      "TeamNameURLFormated": "bad-attitude",
+      "TeamID": 29,
+      "TeamName": "For Soup",
+      "TeamNameURLFormated": "for-soup",
       "BowlerID": 37,
       "BowlerName": "Henderson, Anthony",
       "BowlerNameURLFormated": "henderson-anthony",
@@ -500,7 +500,7 @@
       "MostImproved": 0.0,
       "BowlerPosition": 0,
       "BowlerStatus": "T",
-      "TeamNum": 2,
+      "TeamNum": 24,
       "EnteringAverage": 0,
       "PointsWonDec": 0.0
     },
@@ -697,9 +697,9 @@
       "PointsWonDec": 0.0
     },
     {
-      "TeamID": 26,
-      "TeamName": "Top Gun",
-      "TeamNameURLFormated": "top-gun",
+      "TeamID": 6,
+      "TeamName": "Spare Me",
+      "TeamNameURLFormated": "spare-me",
       "BowlerID": 59,
       "BowlerName": "Lawless, Brian",
       "BowlerNameURLFormated": "lawless-brian",
@@ -716,7 +716,7 @@
       "MostImproved": 0.0,
       "BowlerPosition": 1,
       "BowlerStatus": "R",
-      "TeamNum": 22,
+      "TeamNum": 4,
       "EnteringAverage": 162,
       "PointsWonDec": 0.0
     },
@@ -841,9 +841,9 @@
       "PointsWonDec": 0.0
     },
     {
-      "TeamID": 6,
-      "TeamName": "Spare Me",
-      "TeamNameURLFormated": "spare-me",
+      "TeamID": 1,
+      "TeamName": "Pin Pals",
+      "TeamNameURLFormated": "pin-pals",
       "BowlerID": 11,
       "BowlerName": "Mitchell, Robert",
       "BowlerNameURLFormated": "mitchell-robert",
@@ -860,7 +860,7 @@
       "MostImproved": 0.0,
       "BowlerPosition": 0,
       "BowlerStatus": "T",
-      "TeamNum": 4,
+      "TeamNum": 1,
       "EnteringAverage": 0,
       "PointsWonDec": 0.0
     },

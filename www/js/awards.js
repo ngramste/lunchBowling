@@ -5,7 +5,7 @@ let playerData = null;
 let gameData = null;
 let scheduleData = null;
 
-function getValidTeamMembers(teamNum, weeksRequired = 6) {
+function getValidTeamMembers(teamNum, weeksRequired = 11) {
     let names = leagueRecaps.getWeekNums().map(week => leagueRecaps.getTeamMemberNames(week, teamNum)).flat();
     let counts = {};
     names.forEach(name => counts[name] = (counts[name] || 0) + 1);
@@ -36,7 +36,7 @@ function getIndividualAwards() {
     let men = playerData.getPlayerNamesByGender("M").map(name => {
         return {
             name: name, 
-            games: gameData.getHighGames(name, 6)
+            games: gameData.getHighGames(name, 11)
         }
     });
     men = men.filter(man => undefined != man.games);
@@ -104,7 +104,7 @@ function getIndividualAwards() {
     let women = playerData.getPlayerNamesByGender("W").map(name => {
         return {
             name: name, 
-            games: gameData.getHighGames(name, 6)
+            games: gameData.getHighGames(name, 11)
         }
     });
     women = women.filter(woman => undefined != woman.games);
@@ -172,7 +172,7 @@ function getIndividualAwards() {
     return awards;
 }
 
-function largestDropInAve(minWeeks = 6) {
+function largestDropInAve(minWeeks = 11) {
     // Get a list of all players
     return playerData.getPlayerNames()
     // Filter out players without enough games
@@ -185,6 +185,8 @@ function largestDropInAve(minWeeks = 6) {
             drop: 0
         };
         let games = gameData.getGames(player);
+        // Remove the first week where we were establishing
+        games = games.slice(1, games.length);
         retval.drop = Math.min(... games.map(game => gameData.calculateAverage(player, game.week) - game.AverageBeforeBowling).filter(num => !isNaN(num)));
 
         return retval;
@@ -257,7 +259,7 @@ function calculateFriendship() {
     return teams;
 }
 
-function countCenturies(minWeeks = 6) {
+function countCenturies(minWeeks = 11) {
     return playerData.getPlayerNames().map(player => {
         let games = gameData.getGames(player);
         if (undefined == games || games.length < minWeeks) return undefined;
@@ -405,7 +407,7 @@ window.onload = function () {
             .map(name => {
                 return {
                     name: name, 
-                    games: gameData.getHighGames(name, 6)
+                    games: gameData.getHighGames(name, 11)
                 }
             })
             // Filter out unqualified bowler
