@@ -233,6 +233,9 @@ class bowlerGames {
                 weeks = this.getGames(name).filter(week => week.timestamp <= this.schedule.getTimestamp(weekNum));
             }
             
+            // Filter out absent weeks
+            weeks = weeks.filter(week => "A" != week.ScoreType1);
+            
             if (undefined != weeks && weeks.length >= minWeeks) {
                 let lowScratchGame = Math.min(... weeks.map(week => arrayBuilder(1, this.gamesPerWeek()).map(game => week[`Score${game}`])).flat());
                 let lowScratchSeries = Math.min(... weeks.map(week => week.SeriesTotal).flat());
