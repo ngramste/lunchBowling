@@ -538,7 +538,7 @@ window.onload = function () {
         prize = "Noon League Team High Scratch Game";
         teamName = teams[index].teamName;
         people = leagueRecaps.getTeamMemberNames(teams[index].scores.highScratchGame.games.weekNum, teamData.getTeamByName(teams[index].teamName).TeamNum);
-        score = teams[0].scores.highScratchGame.score;
+        score = teams[index].scores.highScratchGame.score;
         award = `${people.length} plaques - (size - 5x7)`;
         plaqueText = `${prize} ${seasonName}<br>${teamName}<br>${people.map(name => playerData.prettyName(name)).join(", ")}: ${score}`;
         link = "./seasonHighs.html";
@@ -559,7 +559,7 @@ window.onload = function () {
         prize = "Noon League Team High Handicap Series";
         teamName = teams[index].teamName;
         people = leagueRecaps.getTeamMemberNames(teams[index].scores.highHandicapSeries.games.weekNum, teamData.getTeamByName(teams[index].teamName).TeamNum);
-        score = teams[0].scores.highHandicapSeries.score;
+        score = teams[index].scores.highHandicapSeries.score;
         award = `${people.length} plaques - (size - 5x7)`;
         plaqueText = `${prize} ${seasonName}<br>${teamName}<br>${people.map(name => playerData.prettyName(name)).join(", ")}: ${score}`;
         link = "./seasonHighs.html";
