@@ -1,4 +1,4 @@
-const DATA_FOLDER = '../2025-2026/';
+const DATA_FOLDER = '../2026-2027/';
 // const DATA_FOLDER = '../BotS-2025-2026/';
 const REPORT_FILENAME = 'report.json';
 const REPORT_PATH = DATA_FOLDER + REPORT_FILENAME;
@@ -15,8 +15,8 @@ const SUMMARY_PATH = DATA_FOLDER + 'weeklySummary';
 const RECAPS_PATH = DATA_FOLDER + 'weeklyRecaps';
 const leagueId = 130603;
 // const leagueId = 102860;
-const year = 2025;
-const seasonName = "25-26";
+const year = 2026;
+const seasonName = "26-27";
 const season = "f";
 const Summary_Read = "https://www.leaguesecretary.com/League/Summary_Read";
 const Team_List_Read = "https://www.leaguesecretary.com/Team/TeamList_Read";
