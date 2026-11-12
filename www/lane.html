@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Collins Bowling</title>
+        <script src="js/constants.js"></script>
+        <script src="js/utils.js"></script>
+        <script src="js/teamInfo.js"></script>
+        <script src="js/schedule.js"></script>
+        
+        <style>
+            *{
+                font-family: 'Courier New', Courier, monospace;
+                font-size: 12pt;
+                color-scheme: light dark;
+            }
+            td, th {
+                padding: 2px 8px 2px 8px;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <th>Team</th>
+                <th>Lane</th>
+            </tr>
+        </table>
+        
+        <script>
+            window.onload = function () {
+                Promise.all([
+                    new teamInfo().then(result => teamData = result),
+                    new schedule().then(result => scheduleData = result)
+                ]).then(() => {
+                    const params = new URLSearchParams(window.location.search);
+                    const weekNum = params.get("weekNum") ?? scheduleData.getCurrentSchedule().weekNum;
+                    const teamNum = parseInt(params.get("teamNum") ?? 1);
+                    
+                    const oppNum = scheduleData.getOpponentNumber(weekNum, teamNum);
+                    
+                    let table = document.querySelector("table");
+                    
+                    let tr = document.createElement("tr");
+                    table.appendChild(tr);
+                    
+                    let td = document.createElement("td");
+                    td.innerHTML = teamData.getTeamName(teamNum);
+                    tr.appendChild(td);
+                    
+                    td = document.createElement("td");
+                    td.innerHTML = scheduleData.getLaneNumber(weekNum, teamNum);
+                    tr.appendChild(td);
+                    
+                    tr = document.createElement("tr");
+                    table.appendChild(tr);
+                    
+                    td = document.createElement("td");
+                    td.innerHTML = teamData.getTeamName(oppNum);
+                    tr.appendChild(td);
+                    
+                    td = document.createElement("td");
+                    td.innerHTML = scheduleData.getLaneNumber(weekNum, oppNum);
+                    tr.appendChild(td);
+                });
+            }
+        </script>
+    </body>
+</html>
